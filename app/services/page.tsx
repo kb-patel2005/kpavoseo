@@ -34,9 +34,9 @@ export const metadata: Metadata = {
 export default function ServicesPage() {
 
   return (
-    <>
+    <section className="mt-10">
       <TravelSolutionsSection />
       <FooterSection/>
-    </>
+    </section>
   );
 }
