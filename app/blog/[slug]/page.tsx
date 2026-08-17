@@ -8,9 +8,21 @@ interface Props {
   params: Promise<{ slug: string }>;
 }
 
+function generateSlug(title: string): string {
+  return title
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .replace(/\s+/g, "-");
+}
+
+
 async function getBlog(slug: string) {
+
+  let newSlug = generateSlug(slug);
+
   return (
-    MOCK_FEATURED_STORIES.find((b) => b.slug === slug)||
+    MOCK_FEATURED_STORIES.find((b) => b.slug === newSlug)||
     MOCK_BLOGS.find((b) => b.slug === slug) 
   );
 }

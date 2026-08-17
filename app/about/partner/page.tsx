@@ -12,10 +12,9 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
 
-  title: { absolute: "Become An Earning Partner | Zero Commission | Independent Drivers" },
+  title: { absolute: "Become An Earning Partner|Zero Commission|AAVORide" },
   description:
     "Join AAVORide as an independent driver or travel agency. Receive direct customer enquiries, zero commission, flexible work, and transparent earnings.",
-
   alternates: {
     canonical: "https://aavoride.in/about/partner",
   },

@@ -5,13 +5,12 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "AAVORide Blog | Travel Guides, Road Trips & Cab Booking Tips",
+    absolute: "AAVORide Blog | Road Trip & Outstation Taxi Guides",
     template: "%s | AAVORide Blog",
   },
 
   description:
-    "Discover travel guides, road trip ideas, self drive car tips, outstation taxi advice, pilgrimage destinations, airport travel guides and luxury cab insights from AAVORide.",
-
+    "Your ultimate travel guide for road trips and outstation taxi bookings across India. Real tips, top destinations, and expert advice — only on AAVORide.",
   keywords: [
     "Travel Blog",
     "Road Trip Guide",

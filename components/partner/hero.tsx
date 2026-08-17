@@ -9,6 +9,7 @@ interface StatItem {
   title: string;
   subtitle: string;
   icon: LucideIcon | string;
+  alt:string;
 }
 
 const stats: StatItem[] = [
@@ -16,21 +17,25 @@ const stats: StatItem[] = [
     title: "1K+",
     subtitle: "Successful Rides",
     icon: "/star1.png",
+    alt: "1000 plus partners rating icon"
   },
   {
     title: "Verified",
     subtitle: "Platform Trust",
     icon: "/tick1.png",
+    alt: "Verified partner badge icon"
   },
   {
     title: "Transparent",
     subtitle: "Full Earnings History",
     icon: "/line1.png",
+    alt:"Transparent pricing icon"
   },
   {
     title: "Direct",
     subtitle: "No Middlemen",
     icon: "/profile1.png",
+    alt:"Direct partner communication icon"
   },
 ];
 
@@ -177,14 +182,14 @@ export const Hero = () => {
                   src="/car-icon.png"
                   height={80}
                   width={100}
-                  alt="car-icon"
+                  alt="Cab booking step icon"
                   className="w-6 mb-1 ml-4 h-auto"
                 />
                 <Image
                   src="/car-line.png"
+                  alt="Cab route connector line"
                   height={80}
                   width={100}
-                  alt="arrow"
                 />
               </div>
               <div className="top-0 right-6 absolute z-10 md:block hidden">
@@ -192,14 +197,14 @@ export const Hero = () => {
                   src="/location-icon.png"
                   height={80}
                   width={100}
-                  alt="location-icon"
+                  alt="Pickup location step icon"
                   className="h-auto w-4 ml-20 mb-1"
                 />
                 <Image
                   src="/location-line.png"
                   height={80}
                   width={100}
-                  alt="arrow"
+                  alt="Location route connector line"
                 />
               </div>
 
@@ -337,7 +342,7 @@ export const Hero = () => {
                   {typeof Icon === "string" ? (
                     <Image
                       src={Icon}
-                      alt={stat.title}
+                      alt={stat.alt}
                       width={32}
                       height={32}
                       className="w-8 h-8 shrink-0"

@@ -127,14 +127,14 @@ export const MissionSection: React.FC = () => {
                     src="/car-icon.png"
                     height={80}
                     width={100}
-                    alt="car-icon"
+                    alt="Cab booking step icon"
                     className="w-6 mb-1 ml-4 h-auto"
                   />
                   <Image
                     src="/car-line.png"
                     height={80}
                     width={100}
-                    alt="arrow"
+                    alt="Cab route connector line"
                   />
                 </div>
 
@@ -144,14 +144,14 @@ export const MissionSection: React.FC = () => {
                     src="/location-icon.png"
                     height={80}
                     width={100}
-                    alt="location-icon"
+                    alt="Pickup location step icon"
                     className="h-auto w-4 ml-20 mb-1"
                   />
                   <Image
                     src="/location-line.png"
                     height={80}
                     width={100}
-                    alt="arrow"
+                    alt="Location route connector line"
                   />
                 </div>
               </motion.div>

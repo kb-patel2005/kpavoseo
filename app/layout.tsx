@@ -8,13 +8,12 @@ export const metadata: Metadata = {
 
   title: {
     default:
-      "AAVORide | Outstation Cab Services App | Single Request | Compare Prices",
+      "AAVORide | Pan-India Outstation Cabs - Compare & Book",
     template: "%s | AAVORide",
   },
 
   description:
-    "Outstation cab services starting from Gujarat with verified drivers and agencies. Compare fares with zero commission. Free cancellation! Rentals, tempo travellers, business trips - we have it all!",
-
+    "Book outstation cabs with verified drivers across India. Compare fares, enjoy free cancellation. Cabs, tempo travellers & business trips - all in one place!",
   keywords: [
     "outstation cab service*",
     "outstation taxi service*",

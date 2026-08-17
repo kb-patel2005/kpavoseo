@@ -9,21 +9,26 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "About Us | Travel Services in Gujarat | Verified Drivers",
+    absolute: "About Us | AAVORide - Verified Drivers, Trusted Rides",
   },
 
-  description: "Learn how AavoRide simplifies outstation cab booking from Gujarat. With one request, you’ll receive multiple verified driver quotes, compare fares easily, and choose the ride that matches your travel needs — all with zero commission and free cancellation.",
+  description: "Send one request and receive multiple quotes from verified drivers across India. Compare cab prices and book your preferred outstation ride today.",  
   alternates: {
     canonical: "https://aavoride.in/about",
   },
+
+  keywords:[
+    "multiple quotes verified drivers*",
+    "verified drivers", 
+    "compare cab prices"
+  ],
 
   openGraph: {
     title:
       "About Us | Travel Services Gujarat | Verified Drivers",
 
     description:
-      "Book reliable outstation cab services from Gujarat with ease. Submit one request and instantly connect with multiple verified drivers and travel agencies. Compare prices, choose your preferred ride, and enjoy safe, affordable travel across India.",
-
+      "Send one request and receive multiple quotes from verified drivers across India. Compare cab prices and book your preferred outstation ride today.",
     url: "https://aavoride.in/about",
 
     images: [

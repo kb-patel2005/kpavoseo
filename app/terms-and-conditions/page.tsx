@@ -2,12 +2,11 @@ import type { Metadata } from "next";
 import TermsConditionsClient from "./TermsConditionsClient";
 
 export const metadata: Metadata = {
-  title: { absolute: "Terms and Conditions | Service Listings | Transparency and Respect" },
+  title: { absolute: "Terms and Conditions|Service Listings|AAVORide App" },
   description:
-    "Review AavoRide’s terms and conditions to understand how our taxi booking and travel marketplace works. Know your rights, responsibilities, and the policies that keep your journey safe and transparent.",
-  alternates: {
-    canonical: "https://aavoride.in/terms-and-conditions",
-  },
+    "Read the terms and conditions for using AAVORide's taxi booking and travel marketplace services. Understand your rights and responsibilities.", alternates: {
+      canonical: "https://aavoride.in/terms-and-conditions",
+    },
   robots: {
     index: true,
     follow: true,

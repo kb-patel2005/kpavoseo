@@ -5,12 +5,14 @@ import React from 'react'
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Frequently Asked Questions | AavoRide",
-  description:
-    "Find answers to common questions about AavoRide cab booking, tempo traveller rentals, verified drivers, pricing, cancellation policies, and more.",
-//   alternates: {
+  title: "FAQs | AAVORide - Outstation Cab Booking Questions",
+  description:"Got questions about AAVORide? Find quick answers on bookings, verified drivers, fares, and payments — everything for a smooth outstation trip.",
+  //   alternates: {
 //     canonical: "https://aavoride.in/faq",
 //   },
+keywords:[
+    "AAVORide FAQ", "outstation cab questions", "cab booking help", "verified drivers FAQ"
+],
   openGraph: {
     title: "Frequently Asked Questions | AavoRide",
     description:
