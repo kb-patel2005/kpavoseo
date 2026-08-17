@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { navItems } from "@/components/landing/landing-data";
 import { MobileHeaderNav } from "@/components/landing/mobile-header-nav";
 import { Reveal } from "@/components/landing/motion";
@@ -9,6 +9,7 @@ import { PrimaryButton, cn } from "@/components/landing/shared";
 
 export function Navbar() {
   const pathname = usePathname();
+  const router = useRouter();
 
   const getActiveItem = () => {
     if (pathname === "/") return "Home";
@@ -26,7 +27,7 @@ export function Navbar() {
 
       <Reveal className="relative z-40 hidden md:block" delayMs={0}>
         <nav aria-label="Main navigation" className="mx-auto flex w-full max-w-[986px] flex-col items-center gap-3 rounded-[28px] border border-[#f3f3f3] bg-white px-4 py-3 sm:px-5 md:relative md:min-h-[68px] md:flex-row md:flex-wrap md:justify-between md:gap-5 md:rounded-full md:px-6 md:py-3 lg:flex-nowrap lg:gap-6">
-          <div className="whitespace-nowrap text-[25px] font-extrabold leading-none tracking-[-0.04em] text-[var(--primary)]">
+          <div className="whitespace-nowrap text-[25px] font-extrabold leading-none tracking-[-0.04em] text-[var(--primary)] cursor-pointer" onClick={()=>router.push('/')}>
             AAVORide
           </div>
           <div className="flex w-full flex-wrap items-center justify-center gap-x-5 gap-y-3 text-[13px] font-semibold leading-none text-[#564f4b] sm:text-[14px] md:w-auto md:gap-6 lg:absolute lg:left-1/2 lg:top-1/2 lg:flex-nowrap lg:gap-8 lg:-translate-x-1/2 lg:-translate-y-1/2">

@@ -5,6 +5,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import type { NavItem } from "./landing-types";
 import { cn } from "./shared";
+import { useRouter } from "next/navigation";
 
 export function MobileHeaderNav({
   items,
@@ -18,6 +19,7 @@ export function MobileHeaderNav({
   activeLabel?: string | null;
 }) {
   const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
 
   return (
     <div className="mx-auto w-full max-w-[380px] px-4 md:hidden">
@@ -40,7 +42,7 @@ export function MobileHeaderNav({
             )}
           </button>
 
-          <div className="text-center text-[22px] font-extrabold leading-none tracking-[-0.04em] text-[var(--primary)]">
+          <div className="text-center text-[22px] font-extrabold leading-none tracking-[-0.04em] text-[var(--primary)] cursor-pointer" onClick={()=>router.push('/')}>
             {brand}
           </div>
 

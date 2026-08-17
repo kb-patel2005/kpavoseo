@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    default: "AAVORide Blog | Travel Guides, Road Trips & Cab Booking Tips",
+    absolute: "AAVORide Blog | Travel Guides, Road Trips & Cab Booking Tips",
     template: "%s | AAVORide Blog",
   },
 

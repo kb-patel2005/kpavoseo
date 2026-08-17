@@ -185,7 +185,7 @@ export default function RootLayout({
                 priceRange: "₹₹",
                 areaServed: {
                   "@type": "State",
-                  name: "Gujarat"
+                  name: "India"
                 }
               }
             ]),

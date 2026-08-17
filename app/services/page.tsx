@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Servicepage from "./servicepage"
 import { FooterSection } from "@/components/landing/footer-section";
 import { TravelSolutionsSection } from "@/components/landing/travel-solutions-section";
 
