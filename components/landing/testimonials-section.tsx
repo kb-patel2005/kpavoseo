@@ -119,7 +119,7 @@ export function TestimonialsSection() {
         tone="orange"
       />
       <SectionContainer>
-        <div className="landing-section-body h-full">
+        <div className="landing-section-body h-auto sm:h-full">
           <div className="flex justify-center">
             <Eyebrow
               className="px-4 py-2 text-[10px] tracking-[0.18em]"
@@ -136,11 +136,11 @@ export function TestimonialsSection() {
             title="Stories from Our Travelers."
           />
 
-          <div className="full-bleed-strip testimonial-slider-strip -mt-4 md:-mt-6">
+          <div className="full-bleed-strip testimonial-slider-strip">
             <div className="auto-slide-showcase testimonial-slide-showcase w-full p-0" style={sliderStyle}>
               <HorizontalAutoSlideTrack
                 scrollSpeed={35}
-                sliderClassName="testimonial-vertical-auto-slider py-[90px]!"
+                sliderClassName="testimonial-vertical-auto-slider py-[30px]!"
                 trackClassName="testimonial-auto-slide-track gap-4!"
               >
                 <TestimonialRail idPrefix="testimonials-primary" />

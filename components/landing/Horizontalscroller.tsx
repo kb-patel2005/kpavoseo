@@ -160,7 +160,7 @@ function CityAutoSlideTrack() {
   return (
     <div
       ref={viewportRef}
-      className="w-full overflow-hidden mt-15 bg-transparent"
+      className="w-full overflow-hidden sm:mt-10 mt-7 bg-transparent"
     >
       <div
         ref={trackRef}
@@ -183,9 +183,9 @@ export function CitiesSections() {
       className="
         relative
         overflow-hidden
-        pt-10
-        pb-18
-        md:pt-10
+        pt-5
+        pb-10
+        sm:pt-0
         bg-tranparent
       "
     >

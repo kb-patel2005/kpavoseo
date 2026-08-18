@@ -15,7 +15,8 @@ export const metadata: Metadata = {
   title: { absolute: "Become An Earning Partner|Zero Commission|AAVORide" },
   description:
     "Join AAVORide as an independent driver or travel agency. Receive direct customer enquiries, zero commission, flexible work, and transparent earnings.",
-  alternates: {
+  keywords:["zero commission", "verified drivers"],
+    alternates: {
     canonical: "https://aavoride.in/about/partner",
   },
 

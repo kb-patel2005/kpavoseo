@@ -60,7 +60,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       "Road Trip",
       "Taxi Booking",
       "Outstation Cab",
-      "Self Drive Car"
+      "Self Drive Car",
+      "AAVORide"
     ],
 
     authors: [

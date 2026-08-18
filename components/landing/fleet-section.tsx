@@ -29,7 +29,7 @@ function VehicleFeatureIcon({
 
 function VehicleCard({ vehicle }: { vehicle: (typeof vehicles)[number] }) {
   return (
-    <article className="vehicle-category-card lg:motion-card-hover box-border flex h-[421px] w-[357px] shrink-0 flex-col overflow-visible md:rounded-[20px] bg-transparent md:bg-white md:px-[11px] md:py-[18px] shadow-none lg:shadow-[0_8px_24px_rgba(0,0,0,0.1)] my-0">
+    <article className="vehicle-category-card lg:motion-card-hover box-border flex h-[max-content] sm:h-[421px] w-[357px] shrink-0 flex-col overflow-visible md:rounded-[20px] bg-transparent md:bg-white md:px-[11px] md:py-[18px] shadow-none lg:shadow-[0_8px_24px_rgba(0,0,0,0.1)] my-0">
       <div className="relative h-[132px] w-full shrink-0 !bg-transparent">
         <Image
           alt={vehicle.imageAlt}
@@ -57,7 +57,7 @@ function VehicleCard({ vehicle }: { vehicle: (typeof vehicles)[number] }) {
           {vehicle.features.map((feature) => (
             <div
               key={feature.label}
-              className="inline-flex items-center gap-1.5 rounded-full bg-[#FFF2EC] px-3 py-1.5 text-[12px] font-medium leading-none text-[#4a4440] md:bg-[#FFF2EC]"
+              className="inline-flex items-center gap-2 rounded-full bg-[#FFF2EC] px-3 py-1.5 text-[12px] font-medium leading-none text-[#4a4440] md:bg-[#FFF2EC]"
             >
               <span className="text-[var(--primary)]">
                 <VehicleFeatureIcon icon={feature.icon} />
