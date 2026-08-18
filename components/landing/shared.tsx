@@ -145,7 +145,6 @@ export function SectionHeading({
               <span className="text-[var(--primary)]">{accent}</span>
               {afterAccent}
             </>)}
-
           </>
         ) : (
           title
