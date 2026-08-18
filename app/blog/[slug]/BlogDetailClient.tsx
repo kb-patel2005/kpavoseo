@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, use } from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, Clock, Loader2, Compass } from "lucide-react";
@@ -13,10 +13,10 @@ import BlogRow from "@/components/BlogRow";
 export default function BlogDetailClient({
   params,
 }: {
-  params: Promise<{ slug: string }>;
+  params: string;
 }) {
-  const { slug } = use(params);
-  const { data: blog, isLoading, isError } = useBlogDetail(slug);
+  
+  const { data: blog, isLoading, isError } = useBlogDetail(params);
 
   const [activeCategory, setActiveCategory] = useState("All Stories");
 

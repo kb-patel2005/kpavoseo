@@ -2,6 +2,7 @@ import dynamic from "next/dynamic";
 import { HeroSection } from "./hero-section";
 import { MobileBottomCta } from "./mobile-bottom-cta";
 import { Reveal } from "./motion";
+import { CitiesSections } from "./Horizontalscroller";
 
 const AppExperienceSection = dynamic(() => import("./app-experience-section").then((m) => m.AppExperienceSection));
 const AppDownloadSection = dynamic(() => import("./app-download-section").then((m) => m.AppDownloadSection));
@@ -45,9 +46,10 @@ export function LandingPage() {
       {/* <Reveal delayMs={40}>
         <HowItWorksSectionOld />
       </Reveal> */}
-      <Reveal delayMs={40}>
+      {/* <Reveal delayMs={40}>
         <CitiesSection />
-      </Reveal>
+      </Reveal> */}
+      <CitiesSections/>
       <Reveal delayMs={40}>
         <AppExperienceSection />
       </Reveal>

@@ -212,6 +212,8 @@ export default async function Page({ params }: Props) {
     ],
   };
 
+  console.log(params)
+
   return (
     <>
       <script
@@ -228,7 +230,7 @@ export default async function Page({ params }: Props) {
         }}
       />
 
-      <BlogDetailClient params={params} />
+      <BlogDetailClient params={(await params).slug} />
     </>
   );
 }

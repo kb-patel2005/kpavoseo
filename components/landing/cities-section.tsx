@@ -35,12 +35,27 @@ const cities = [
     count: "24+ Active Drivers",
     imageSrc: "/images/Places/Vadodara.png",
     imageAlt: "Vadodara palace architecture",
+  },{
+    title: "Vadodara",
+    count: "24+ Active Drivers",
+    imageSrc: "/images/Places/Vadodara.png",
+    imageAlt: "Vadodara palace architecture",
+  },{
+    title: "Vadodara",
+    count: "24+ Active Drivers",
+    imageSrc: "/images/Places/Vadodara.png",
+    imageAlt: "Vadodara palace architecture",
+  },{
+    title: "Vadodara",
+    count: "24+ Active Drivers",
+    imageSrc: "/images/Places/Vadodara.png",
+    imageAlt: "Vadodara palace architecture",
   },
 ];
 
 function CityCard({ city }: { city: (typeof cities)[number] }) {
   return (
-    <article className="city-card motion-card-hover relative h-[380px] w-[280px] shrink-0 overflow-hidden rounded-[16px] bg-[#111] shadow-[0_16px_36px_rgba(31,27,24,0.18)]">
+    <article className="city-card motion-card-hover relative h-[380px] w-[350px] shrink-0 overflow-hidden rounded-[16px] bg-[#111] shadow-[0_16px_36px_rgba(31,27,24,0.18)]">
       <Image
         alt={city.imageAlt}
         className="motion-card-media object-cover"
