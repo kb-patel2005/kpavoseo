@@ -53,7 +53,7 @@ export default function AboutPage() {
         <ServicesSection />
       </main>
 
-      {/* <FooterSection /> */}
+      <FooterSection />
     </div>
   );
 }

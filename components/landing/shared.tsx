@@ -110,6 +110,7 @@ export function SectionHeading({
   centered = true,
   className,
   titleClassName,
+  functioned = "no"
 }: {
   title: ReactNode;
   accent?: string;
@@ -117,6 +118,7 @@ export function SectionHeading({
   centered?: boolean;
   className?: string;
   titleClassName?: string;
+  functioned?: string;
 }) {
   const [beforeAccent, afterAccent = ""] = accent && typeof title === "string"
     ? title.split(accent)
@@ -133,9 +135,17 @@ export function SectionHeading({
       <h2 className={cn("text-[clamp(2rem,7vw,3.375rem)] font-extrabold leading-[1.3] md:leading-[1.08] tracking-[-0.04em] text-[#201d1b]", titleClassName)}>
         {accent && typeof title === "string" ? (
           <>
-            {beforeAccent}
-            <span className="text-[var(--primary)]">{accent}</span>
-            {afterAccent}
+            {functioned == "yes" ? (<>
+              {beforeAccent}
+              <span className="text-[var(--primary)] block md:block lg:inline">
+                {accent}
+              </span>
+            </>) : (<>
+              {beforeAccent}
+              <span className="text-[var(--primary)]">{accent}</span>
+              {afterAccent}
+            </>)}
+
           </>
         ) : (
           title

@@ -99,16 +99,28 @@ export function TravelSolutionsSection() {
       />
       <SectionContainer className="max-w-[1268px]">
         <SectionHeading
+          title="Travel Solutions for Every Journey"
           accent="Every Journey"
           className="max-w-[860px]"
+          functioned = "yes"
           description={
             <>
-              From airport rides to outstation adventures{" "}
-              <span className="block md:inline">experience smarter, safer, and more comfortable</span>
-              <span className="block md:inline"> travel with AAVORide</span>
+
+              <span className="whitespace-pre-line block md:hidden">
+                From airport rides to outstation adventures<br />
+                experience smarter, safer, and more<br />
+                comfortable travel with AAVORide
+              </span>
+
+              <span className="whitespace-pre-line hidden md:block">
+                From airport rides to outstation adventures
+                experience smarter, safer, and more<br />
+                comfortable travel with AAVORide
+              </span>
+
             </>
           }
-          title="Travel Solutions for Every Journey"
+
         />
 
         <div className="landing-section-body mt-12">
