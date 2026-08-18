@@ -50,7 +50,7 @@ const Page = () => {
       <OurMission />
       <Cta />
       <Faqs />
-      <FooterSection />
+      {/* <FooterSection /> */}
     </div>
   );
 };

@@ -160,11 +160,11 @@ function CityAutoSlideTrack() {
   return (
     <div
       ref={viewportRef}
-      className="w-full overflow-hidden sm:mt-10 mt-7 bg-transparent"
+      className="w-full sm:mt-10 mt-7 bg-transparent"
     >
       <div
         ref={trackRef}
-        className="flex w-max gap-5 py-3.5 mb-10"
+        className="flex w-max gap-5 py-3.5 mb-3"
       >
         {cities.map((city, index) => (
           <CityCard
@@ -183,9 +183,7 @@ export function CitiesSections() {
       className="
         relative
         overflow-hidden
-        pt-5
-        pb-10
-        sm:pt-0
+        pt-8
         bg-tranparent
       "
     >

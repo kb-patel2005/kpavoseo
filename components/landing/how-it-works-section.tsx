@@ -63,10 +63,10 @@ const steps: Array<{
 
 export function HowItWorksSection() {
   return (
-    <section className="how-it-works-section relative overflow-x-visible py-12 md:py-12 pb-0">
+    <section className="how-it-works-section relative overflow-x-visible pb-0 md:pt-0 pt-10 ">
       <SectionContainer className="max-w-[1268px]">
         <div className="flex justify-center">
-          <Eyebrow
+          <Eyebrow 
             className="px-4 py-2 text-[10px]"
             icon={<BadgeCheck className="h-[15px] w-[15px]" strokeWidth={2} />}
           >
@@ -81,7 +81,7 @@ export function HowItWorksSection() {
           title="How AAVORide Works"
         />
 
-        <div className="landing-section-body how-it-works-section-body relative mt-14 overflow-x-visible md:mt-16">
+        <div className="landing-section-body how-it-works-section-body relative mt-0 overflow-x-visible md:mt-8">
           <HowItWorksStepsScroller>
             <div className="how-it-works-steps-canvas relative mx-auto">
               <div className="how-it-works-steps-path pointer-events-none absolute left-[-32px] right-[-32px] top-[108px] h-[122px]">

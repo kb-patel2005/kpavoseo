@@ -68,7 +68,7 @@ function FeaturePoint({
 
 export function CheapestRatesSection() {
   return (
-    <section className="relative pt-8 pb-12 md:py-16">
+    <section className="relative pt-8">
       <AmbientGlow
         className="hidden lg:block lg:right-[-252px] lg:top-1/2 lg:-translate-y-1/2"
         style={{ width: "570px", height: "570px" }}

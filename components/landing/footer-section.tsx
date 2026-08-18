@@ -88,7 +88,6 @@ export function FooterSection() {
                   href={link.href}
                 >
                   <span
-                    aria-hidden
                     className="inline-block w-0 shrink-0 overflow-hidden font-semibold text-[var(--primary)] opacity-0 transition-all duration-300 group-hover:w-[0.7rem] group-hover:opacity-100"
                   >
                     –
@@ -107,7 +106,6 @@ export function FooterSection() {
             </h3>
             <div className="mt-5 space-y-4">
 
-              {/* Email */}
               <a
                 href="mailto:aavoride@gmail.com"
                 className="group motion-card-hover flex cursor-pointer items-center gap-3 rounded-[20px] border border-[#f2e6df] bg-white px-4 py-4 shadow-[0_12px_24px_rgba(31,27,24,0.04)]"

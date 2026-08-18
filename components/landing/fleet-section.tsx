@@ -105,7 +105,7 @@ export function FleetSection() {
   } as CSSProperties;
 
   return (
-    <section className="relative py-12 md:py-16 bg-transparent md:bg-transparent">
+    <section className="relative py-5 bg-transparent md:bg-transparent">
       <AmbientGlow
         className="hidden md:block -translate-x-1/2 -top-[10%] md:right-[-252px] md:top-1/2 md:-translate-y-1/2 w-[312px]! h-[312px]! md:w-[570px]! md:h-[570px]!"
         style={{ width: "570px", height: "570px" }}
@@ -134,7 +134,7 @@ export function FleetSection() {
           titleClassName="whitespace-nowrap"
         />
 
-        <div className="full-bleed-strip fleet-cards-strip mt-12 bg-transparent px-0">
+        <div className="full-bleed-strip fleet-cards-strip bg-transparent px-0">
           <div
             className="auto-slide-showcase fleet-slide-showcase w-full px-0!"
             style={sliderStyle}

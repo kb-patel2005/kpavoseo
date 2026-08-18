@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { inter, sora } from "./fonts";
 import "./globals.css";
 import { NavbarWrapper } from "@/components/shared/navbar-wrapper";
+import { FooterSection } from "@/components/landing/footer-section";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aavoride.in"),
@@ -192,6 +193,7 @@ export default function RootLayout({
         />
         <NavbarWrapper />
         {children}
+        {/* <FooterSection/> */}
       </body>
     </html>
   );

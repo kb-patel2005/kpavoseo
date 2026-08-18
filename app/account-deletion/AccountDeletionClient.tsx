@@ -240,7 +240,7 @@ export default function AccountDeletion() {
         ))}
       </div>
 
-      <FooterSection />
+      {/* <FooterSection /> */}
     </div>
   );
 }

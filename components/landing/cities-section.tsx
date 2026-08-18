@@ -101,14 +101,14 @@ export function CitiesSection() {
   } as CSSProperties;
 
   return (
-    <section className="relative overflow-hidden pt-12 pb-2 md:pt-36">
+    <section className="relative pb-2">
       <AmbientGlow
         className="left-[-252px] top-1/2 -translate-y-1/2"
         style={{ width: "570px", height: "570px" }}
         tone="orange"
       />
       <SectionContainer>
-        <div className="landing-section-body h-full">
+        <div className="landing-section-body">
           <div className="flex justify-center">
             <Eyebrow
               className="px-4 py-2 text-[10px]"
