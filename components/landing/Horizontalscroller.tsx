@@ -119,7 +119,7 @@ function CityAutoSlideTrack() {
 
     let animationFrame: number;
 
-    const speed = 0.3;
+    const speed = 0.5;
 
     const animate = () => {
       positionRef.current -= speed;
@@ -160,11 +160,11 @@ function CityAutoSlideTrack() {
   return (
     <div
       ref={viewportRef}
-      className="w-full sm:mt-10 mt-7 bg-transparent"
+      className="w-full sm:mt-16 mt-10 bg-transparent"
     >
       <div
         ref={trackRef}
-        className="flex w-max gap-5 py-3.5 mb-3"
+        className="flex w-max gap-5 pt-3.5 pb-10"
       >
         {cities.map((city, index) => (
           <CityCard

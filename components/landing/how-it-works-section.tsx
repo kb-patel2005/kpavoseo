@@ -63,7 +63,7 @@ const steps: Array<{
 
 export function HowItWorksSection() {
   return (
-    <section className="how-it-works-section relative overflow-x-visible pb-0 md:pt-0 pt-10 ">
+    <section className="how-it-works-section relative overflow-x-visible pb-0 pt-[20vw] sm:pt-[15vw] md:pt-[100px] lg:pt-0 ">
       <SectionContainer className="max-w-[1268px]">
         <div className="flex justify-center">
           <Eyebrow 

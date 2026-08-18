@@ -39,8 +39,8 @@ const toneStyles = {
 
 export function DriverPreferencesSection() {
   return (
-    <section className="relative overflow-hidden pt-0 mb-8 md:py-5">
-      <SectionContainer>
+    <section className="relative overflow-hidden pt-0 mb-0 md:py-5">
+      <SectionContainer className="pb-8">
         <div className="landing-section-body">
           <div className="mx-auto max-w-[760px] text-center">
             <h2 className="text-[36px] font-extrabold leading-[1.08] tracking-[-0.05em] text-[#201d1b] md:text-[48px]">
@@ -57,7 +57,7 @@ export function DriverPreferencesSection() {
             </p>
           </div>
 
-          <div className="mt-14 grid grid-cols-2 gap-4 md:gap-5 xl:grid-cols-4">
+          <div className="mt-16 grid grid-cols-2 gap-4 md:gap-5 xl:grid-cols-4">
             {preferenceItems.map((item) => {
               const Icon = item.icon;
 
