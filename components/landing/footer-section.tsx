@@ -1,7 +1,7 @@
 "use client";
 
 import { BriefcaseBusiness, Camera, Mail, MapPin, Play, Send, Users } from "lucide-react";
- import {Phone} from "lucide-react";
+import { Phone } from "lucide-react";
 import { usePathname } from "next/navigation";
 import { SectionContainer } from "./shared";
 import { StatusPill } from "./status-pill";
@@ -106,50 +106,66 @@ export function FooterSection() {
               Contact Us
             </h3>
             <div className="mt-5 space-y-4">
-              <div className="group motion-card-hover flex cursor-pointer items-center gap-3 rounded-[20px] border border-[#f2e6df] bg-white px-4 py-4 shadow-[0_12px_24px_rgba(31,27,24,0.04)]">
+
+              {/* Email */}
+              <a
+                href="mailto:aavoride@gmail.com"
+                className="group motion-card-hover flex cursor-pointer items-center gap-3 rounded-[20px] border border-[#f2e6df] bg-white px-4 py-4 shadow-[0_12px_24px_rgba(31,27,24,0.04)]"
+              >
                 <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[rgba(255,62,29,0.08)] text-[var(--primary)] transition-colors duration-300 group-hover:bg-[var(--primary)] group-hover:text-white">
                   <Mail className="h-4 w-4" strokeWidth={2.2} />
                 </div>
+
                 <div className="min-w-0">
                   <p className="text-[12px] font-semibold tracking-[0.06em] text-[#9a918d]">
                     EMAIL SUPPORT
                   </p>
+
                   <p className="mt-1 break-all text-[15px] font-bold text-[#4a4442]">
                     aavoride@gmail.com
                   </p>
                 </div>
-              </div>
+              </a>
 
+
+              {/* Headquarter */}
               <div className="group motion-card-hover flex cursor-pointer items-center gap-3 rounded-[20px] border border-[#f2e6df] bg-white px-4 py-4 shadow-[0_12px_24px_rgba(31,27,24,0.04)]">
                 <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[rgba(255,62,29,0.08)] text-[var(--primary)] transition-colors duration-300 group-hover:bg-[var(--primary)] group-hover:text-white">
                   <MapPin className="h-4 w-4" strokeWidth={2.2} />
                 </div>
+
                 <div className="min-w-0">
                   <p className="text-[12px] font-semibold tracking-[0.06em] text-[#9a918d]">
                     HEADQUARTER
                   </p>
+
                   <p className="mt-1 text-[15px] font-bold text-[#4a4442]">
                     Ahmedabad, India
                   </p>
                 </div>
               </div>
-              <div className="group motion-card-hover flex cursor-pointer items-center gap-3 rounded-[20px] border border-[#f2e6df] bg-white px-4 py-4 shadow-[0_12px_24px_rgba(31,27,24,0.04)]">
-                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[rgba(255,62,29,0.08)] text-[var(--primary)] transition-colors duration-300 group-hover:bg-[var(--primary)] group-hover:text-white">
 
+
+              {/* Phone */}
+              <a
+                href="tel:+919712387840"
+                className="group motion-card-hover flex cursor-pointer items-center gap-3 rounded-[20px] border border-[#f2e6df] bg-white px-4 py-4 shadow-[0_12px_24px_rgba(31,27,24,0.04)]"
+              >
+                <div className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[rgba(255,62,29,0.08)] text-[var(--primary)] transition-colors duration-300 group-hover:bg-[var(--primary)] group-hover:text-white">
                   <Phone className="h-4 w-4" strokeWidth={2.2} />
                 </div>
-               
-
 
                 <div className="min-w-0">
                   <p className="text-[12px] font-semibold tracking-[0.06em] text-[#9a918d]">
                     CONTACT US
                   </p>
+
                   <p className="mt-1 text-[15px] font-bold text-[#4a4442]">
                     +91 9712387840
                   </p>
                 </div>
-              </div>
+              </a>
+
             </div>
           </div>
         </div>

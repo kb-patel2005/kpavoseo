@@ -46,9 +46,7 @@ export function LandingPage() {
       {/* <Reveal delayMs={40}>
         <HowItWorksSectionOld />
       </Reveal> */}
-      {/* <Reveal delayMs={40}>
-        <CitiesSection />
-      </Reveal> */}
+    
       <CitiesSections/>
       <Reveal delayMs={40}>
         <AppExperienceSection />

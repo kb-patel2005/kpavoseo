@@ -55,14 +55,13 @@ function CityCard({
         city-card
         motion-card-hover
         relative
-        h-[380px]
-        w-[350px]
+        h-[320px]
+        w-[320px]
         shrink-0
         overflow-hidden
         rounded-[16px]
         bg-[#111]
-        shadow-[0_16px_36px_rgba(31,27,24,0.18)]
-      "
+        max-md:shadow-[0_12px_30px_rgba(31,27,24,0.16)] md:min-h-[186px] md:px-6 md:py-6 md:shadow-[0_10px_24px_rgba(31,27,24,0.06)] backdrop-blur-2xl"
     >
       <Image
         alt={city.imageAlt}
@@ -120,7 +119,7 @@ function CityAutoSlideTrack() {
 
     let animationFrame: number;
 
-    const speed = 0.5;
+    const speed = 0.3;
 
     const animate = () => {
       positionRef.current -= speed;
@@ -137,15 +136,10 @@ function CityAutoSlideTrack() {
       const viewportRect =
         viewport.getBoundingClientRect();
 
-      /*
-       * Last card completely leaves
-       * the left side.
-       */
-
       let iwidth = window.innerWidth;
 
       if (lastRect.right <= iwidth - 30) {
-        positionRef.current = 0;
+        positionRef.current = 50;
 
         track.style.transform =
           "translate3d(0, 0, 0)";
@@ -166,11 +160,11 @@ function CityAutoSlideTrack() {
   return (
     <div
       ref={viewportRef}
-      className="w-full overflow-hidden mt-10"
+      className="w-full overflow-hidden mt-15 bg-transparent"
     >
       <div
         ref={trackRef}
-        className="flex w-max gap-5 py-3.5"
+        className="flex w-max gap-5 py-3.5 mb-10"
       >
         {cities.map((city, index) => (
           <CityCard
@@ -189,10 +183,10 @@ export function CitiesSections() {
       className="
         relative
         overflow-hidden
-        pt-5
-        pb-2
-        md:pt-5
-        
+        pt-10
+        pb-18
+        md:pt-10
+        bg-tranparent
       "
     >
       <AmbientGlow
@@ -202,14 +196,14 @@ export function CitiesSections() {
           -translate-y-1/2
         "
         style={{
-          width: "570px",
-          height: "570px",
+          width: "800px",
+          height: "280px",
         }}
         tone="orange"
       />
 
       <SectionContainer>
-        <div className="landing-section-body h-full">
+        <div className="landing-section-body bg-transparent h-full">
 
           {/* Eyebrow */}
           <div className="flex justify-center">
