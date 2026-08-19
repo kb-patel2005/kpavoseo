@@ -323,7 +323,7 @@ export default function BlogDetailClient({
             </section> */}
 
             {/* 3. RECENT STORIES LIST SECTION */}
-            <section className="mx-auto max-w-6xl px-4 pt-2 pb-5 md:px-8 space-y-8 z-10 relative">
+            <section className="mx-auto max-w-7xl px-4 pt-2 pb-5 md:px-8 space-y-8 z-10 relative">
                 <nav
                     aria-label="Breadcrumb"
                     className="mx-auto max-w-7xl px-4 py-3 text-sm"
