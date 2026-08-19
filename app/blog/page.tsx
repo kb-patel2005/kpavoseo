@@ -98,7 +98,7 @@ export default function BlogListingPage() {
           </div>
         </motion.section>
 
-        <div className="mx-auto max-w-7xl w-full px-4 py-12 md:px-8 space-y-16">
+        <div className="mx-auto max-w-7xl w-full px-4 py-2 pb-8 lg:pb-10 md:px-8 space-y-6">
           <section className="flex flex-col lg:flex-row items-center justify-between gap-6 pb-2 border-b border-slate-200">
             <div className="w-full lg:w-auto overflow-x-auto flex scrollbar-none space-x-2 py-2">
               {CATEGORIES.map((category) => {
@@ -157,8 +157,8 @@ export default function BlogListingPage() {
             </section>
           )}
 
-          <section className="space-y-6">
-            <h2 className="w-[906px] h-[82px] opacity-100 pb-4 text-2xl font-semibold text-slate-800 leading-[33px] tracking-normal flex items-center space-x-2">
+          <section className="mt-4 lg:mt-8">
+            <h2 className="opacity-100 pb-3 text-2xl font-semibold text-slate-800 leading-[33px] tracking-normal flex items-center space-x-2">
               <span className="block h-6 w-1 bg-[#FF4D30] rounded-full" />
               <span>
                 {activeCategory === "All Stories"

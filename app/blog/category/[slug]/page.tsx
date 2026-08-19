@@ -88,22 +88,22 @@ export default function BlogDetailClient({
     }
 
     return (
-        <div className="relative min-h-screen pb-16 bg-white">
+        <div className="relative min-h-screen pb-6 mx-auto w-full bg-white">
             {/* Scroll indicator reading progress bar */}
             <motion.div
-                className="fixed top-0 left-0 right-0 h-1.5 bg-[#FF4D30] z-50 origin-left"
+                className="absolute top-0 left-0 right-0 h-1.5 bg-[#FF4D30] z-50 origin-left"
                 style={{ scaleX }}
             />
 
             {/* 1. ARTICLE BANNER HERO SECTION */}
-            <section className="relative overflow-hidden w-full h-[350px] md:h-[500px]">
+            <section className="relative overflow-hidden h-[350px] md:h-[500px]">
                 {/* Banner cover image */}
                 <div className="absolute inset-0 z-0">
                     <Image
                         src={blog.coverImage}
                         alt={`${blog.title} - AAVORide Travel Guide`}
                         fill
-                        sizes="100vw"
+                        sizes="100%"
                         priority
                         className="object-cover select-none"
                     />
@@ -145,37 +145,7 @@ export default function BlogDetailClient({
                 </div>
             </section>
 
-            <nav
-                aria-label="Breadcrumb"
-                className="mx-auto max-w-7xl px-4 py-6 text-sm"
-            >
-                <ol className="flex items-center gap-2 text-slate-500 flex-wrap">
-                    <li>
-                        <Link href="/" className="hover:text-[#FF4D30]">
-                            Home
-                        </Link>
-                    </li>
 
-                    <li>/</li>
-
-                    <li>
-                        <Link href="/blog" className="hover:text-[#FF4D30]">
-                            Blog
-                        </Link>
-                    </li>
-
-                    <li>/</li>
-                    <li>
-                        <Link href="/blog" className="hover:text-[#FF4D30]">
-                            category
-                        </Link>
-                    </li>
-
-                    <li>/</li>
-
-                    <li className="font-semibold text-slate-800">{slug}</li>
-                </ol>
-            </nav>
 
             {/* 2. BODY CONTENT SECTION */}
             {/* <section className="px-4 py-12 md:px-8 md:py-16">
@@ -353,7 +323,38 @@ export default function BlogDetailClient({
             </section> */}
 
             {/* 3. RECENT STORIES LIST SECTION */}
-            <section className="mx-auto max-w-8xl px-4 py-8 md:px-8 space-y-8 z-10 relative">
+            <section className="mx-auto max-w-6xl px-4 pt-2 pb-5 md:px-8 space-y-8 z-10 relative">
+                <nav
+                    aria-label="Breadcrumb"
+                    className="mx-auto max-w-7xl px-4 py-3 text-sm"
+                >
+                    <ol className="flex items-center gap-2 text-slate-500 flex-wrap">
+                        <li>
+                            <Link href="/" className="hover:text-[#FF4D30]">
+                                Home
+                            </Link>
+                        </li>
+
+                        <li>/</li>
+
+                        <li>
+                            <Link href="/blog" className="hover:text-[#FF4D30]">
+                                Blog
+                            </Link>
+                        </li>
+
+                        <li>/</li>
+                        <li>
+                            <Link href="/blog" className="hover:text-[#FF4D30]">
+                                category
+                            </Link>
+                        </li>
+
+                        <li>/</li>
+
+                        <li className="font-semibold text-slate-800">{slug}</li>
+                    </ol>
+                </nav>
                 {/* Category Tabs Navigation */}
                 <div className="w-full overflow-x-auto flex scrollbar-none space-x-2 py-2 border-b-0 md:border-b border-slate-200 justify-start md:justify-center">
                     {CATEGORIES.map((category) => {
