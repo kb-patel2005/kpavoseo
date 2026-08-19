@@ -178,7 +178,7 @@ export const ForDriverPartners = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: "-100px" }}
-              className="relative w-full flex justify-center lg:justify-end items-center -mt-26 md:-mt-30 lg:translate-x-16"
+              className="relative w-full flex justify-center lg:justify-end items-center -mt-16 md:-mt-30 lg:translate-x-16"
             >
               <Image
                 src="/phone2.png"

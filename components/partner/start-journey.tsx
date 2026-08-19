@@ -69,7 +69,7 @@ const stepVariants: Variants = {
 
 export const StartJourney = () => {
   return (
-    <section className="w-full py-2 md:py-6 flex flex-col items-center relative -mt-30 md:-mt-48 lg:-mt-8">
+    <section className="w-full py-2 md:py-6 flex flex-col items-center relative -mt-20 md:-mt-40 lg:-mt-8">
       <div className="absolute top-0 left-[-272px] size-[570px] bg-primary rounded-full blur-[100px] pointer-events-none opacity-20" />
       <motion.div
         variants={containerVariants}
@@ -98,7 +98,7 @@ export const StartJourney = () => {
         {/* Steps Grid */}
         <motion.div
           variants={containerVariants}
-          className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8 lg:gap-12 mt-16 w-full max-w-5xl relative"
+          className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-8 lg:gap-12 mt-8 w-full max-w-5xl relative"
         >
           {/* Connecting line for desktop only */}
           <div className="hidden md:block absolute top-8 left-0 right-0 h-0.5 z-0 border-t-2 border-dashed border-primary/30" />
