@@ -15,6 +15,7 @@ import BlogRow from "@/components/BlogRow";
 import DestinationCard from "@/components/DestinationCard";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function BlogListingPage() {
   const [activeCategory, setActiveCategory] = useState("All Stories");
@@ -98,9 +99,30 @@ export default function BlogListingPage() {
           </div>
         </motion.section>
 
-        <div className="mx-auto max-w-7xl w-full px-4 py-2 pb-8 lg:pb-10 md:px-8 space-y-6">
+        <div className="mx-auto max-w-7xl w-full px-4 py-2 lg:pb-10 md:px-8 space-y-6">
+            <nav
+                    aria-label="Breadcrumb"
+                    className="mx-auto max-w-7xl px-4 pt-3 text-sm"
+                >
+                    <ol className="flex items-center gap-2 text-slate-500 flex-wrap">
+                        <li>
+                            <Link href="/" className="hover:text-[#FF4D30]">
+                                Home
+                            </Link>
+                        </li>
+
+                        <li>/</li>
+
+                        <li>
+                            <Link href="/blog" className="hover:text-[#FF4D30]">
+                                Blog
+                            </Link>
+                        </li>
+                    </ol>
+                </nav>
           <section className="flex flex-col lg:flex-row items-center justify-between gap-6 pb-2 border-b border-slate-200">
-            <div className="w-full lg:w-auto overflow-x-auto flex scrollbar-none space-x-2 py-2">
+          
+            <div className="w-full lg:w-auto overflow-x-auto flex scrollbar-none space-x-2">
               {CATEGORIES.map((category) => {
                 const isActive = activeCategory === category;
                 return (

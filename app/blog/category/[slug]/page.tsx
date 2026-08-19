@@ -323,10 +323,10 @@ export default function BlogDetailClient({
             </section> */}
 
             {/* 3. RECENT STORIES LIST SECTION */}
-            <section className="mx-auto max-w-7xl px-4 pt-2 pb-5 md:px-8 space-y-8 z-10 relative">
+            <section className="mx-auto max-w-7xl px-4 pt-2 pb-5 md:px-8 space-y-6 z-10 relative">
                 <nav
                     aria-label="Breadcrumb"
-                    className="mx-auto max-w-7xl px-4 py-3 text-sm"
+                    className="mx-auto max-w-7xl px-4 pt-3 text-sm"
                 >
                     <ol className="flex items-center gap-2 text-slate-500 flex-wrap">
                         <li>
@@ -356,7 +356,7 @@ export default function BlogDetailClient({
                     </ol>
                 </nav>
                 {/* Category Tabs Navigation */}
-                <div className="w-full overflow-x-auto flex scrollbar-none space-x-2 py-2 border-b-0 md:border-b border-slate-200 justify-start md:justify-center">
+                <div className="w-full overflow-x-auto flex scrollbar-none space-x-2 pb-2 border-b-0 md:border-b border-slate-200 justify-start">
                     {CATEGORIES.map((category) => {
                         const isActive = activeCategory === category;
                         return (
