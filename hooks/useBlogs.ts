@@ -9,7 +9,17 @@ export function useBlogDetail(slug: string) {
     queryKey: ['blog', slug],
     queryFn: async () => {
       await delay(500); // Simulate API call
-      return MOCK_BLOGS.find(blog => blog.slug === slug) || MOCK_FEATURED_STORIES.find(blog => blog.slug === slug) || null;
+      return MOCK_BLOGS.find(blog => blog.slug.toLowerCase() === slug.toLowerCase()) || MOCK_FEATURED_STORIES.find(blog => blog.slug.toLowerCase() === slug.toLowerCase()) || null;
+    },
+  });
+}
+
+export function useBlogDetailByCategories(slug: string) {
+  return useQuery({
+    queryKey: ['blog', slug],
+    queryFn: async () => {
+      await delay(500); // Simulate API call
+      return MOCK_BLOGS.find(blog => blog.tag?.toLocaleLowerCase() === slug.toLowerCase()) || MOCK_FEATURED_STORIES.find(blog => blog.tag?.toLocaleLowerCase() === slug.toLowerCase()) || null;
     },
   });
 }

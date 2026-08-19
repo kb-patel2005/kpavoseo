@@ -14,6 +14,7 @@ import BlogCard from "@/components/BlogCard";
 import BlogRow from "@/components/BlogRow";
 import DestinationCard from "@/components/DestinationCard";
 import { Skeleton } from "@/components/ui/skeleton";
+import { useRouter } from "next/navigation";
 
 export default function BlogListingPage() {
   const [activeCategory, setActiveCategory] = useState("All Stories");
@@ -40,6 +41,7 @@ export default function BlogListingPage() {
     refetch,
   } = useInfiniteBlogs(activeCategory, debouncedSearch, 3);
 
+  const router = useRouter();
   // Flatten the pages of blogs
   const allRecentBlogs = data?.pages.flatMap((page) => page.blogs) || [];
 
@@ -104,7 +106,7 @@ export default function BlogListingPage() {
                 return (
                   <button
                     key={category}
-                    onClick={() => setActiveCategory(category)}
+                    onClick={() => router.push(`/blog/category/${category}`)}
                     className={`relative cursor-pointer px-4 py-2 text-xs md:text-sm font-bold rounded-full transition-all duration-200 shrink-0 select-none ${isActive
                         ? "text-white bg-[#FF4D30] shadow-md"
                         : "text-slate-500 hover:text-slate-800 hover:bg-slate-100"
@@ -274,7 +276,7 @@ export default function BlogListingPage() {
                   destination={dest}
                   index={idx}
                   category={dest.category}
-                  clickFunc={() => setActiveCategory(dest.category)}
+                  clickFunc={() => router.push(`/blog/category/${dest.category}`)}
                 />
 
               ))}

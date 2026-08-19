@@ -5,6 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { MapPin } from "lucide-react";
 import { Destination } from "@/lib/mockData";
+import { useRouter } from "next/navigation";
 
 interface DestinationCardProps {
   destination: Destination;
@@ -19,6 +20,9 @@ export default function DestinationCard({
   category,
   clickFunc
 }: DestinationCardProps) {
+
+  const router = useRouter();
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 25 }}
