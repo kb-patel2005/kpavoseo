@@ -100,38 +100,42 @@ export default function BlogListingPage() {
         </motion.section>
 
         <div className="mx-auto max-w-7xl w-full px-4 py-2 lg:pb-10 md:px-8 space-y-6">
-            <nav
-                    aria-label="Breadcrumb"
-                    className="mx-auto max-w-7xl px-4 pt-3 text-sm"
-                >
-                    <ol className="flex items-center gap-2 text-slate-500 flex-wrap">
-                        <li>
-                            <Link href="/" className="hover:text-[#FF4D30]">
-                                Home
-                            </Link>
-                        </li>
+          <nav
+            aria-label="Breadcrumb"
+            className="mx-auto max-w-7xl px-4 pt-3 text-sm"
+          >
+            <ol className="flex items-center gap-2 text-slate-500 flex-wrap">
+              <li>
+                <Link href="/" className="hover:text-[#FF4D30]">
+                  Home
+                </Link>
+              </li>
 
-                        <li>/</li>
+              <li>/</li>
 
-                        <li>
-                            <Link href="/blog" className="hover:text-[#FF4D30]">
-                                Blog
-                            </Link>
-                        </li>
-                    </ol>
-                </nav>
+              <li>
+                <Link href="/blog" className="hover:text-[#FF4D30]">
+                  Blog
+                </Link>
+              </li>
+            </ol>
+          </nav>
           <section className="flex flex-col lg:flex-row items-center justify-between gap-6 pb-2 border-b border-slate-200">
-          
+
             <div className="w-full lg:w-auto overflow-x-auto flex scrollbar-none space-x-2">
               {CATEGORIES.map((category) => {
                 const isActive = activeCategory === category;
                 return (
                   <button
                     key={category}
-                    onClick={() => router.push(`/blog/category/${category}`)}
+                    onClick={() => {
+                      const newCategory = category.replace(/\s+/g, "-");
+                      category == "All Stories" ? router.push('/blog') : router.push(`/blog/category/${newCategory}`)
+                    }
+                    }
                     className={`relative cursor-pointer px-4 py-2 text-xs md:text-sm font-bold rounded-full transition-all duration-200 shrink-0 select-none ${isActive
-                        ? "text-white bg-[#FF4D30] shadow-md"
-                        : "text-slate-500 hover:text-slate-800 hover:bg-slate-100"
+                      ? "text-white bg-[#FF4D30] shadow-md"
+                      : "text-slate-500 hover:text-slate-800 hover:bg-slate-100"
                       }`}
                   >
                     <span>{category}</span>

@@ -400,7 +400,7 @@ export const MOCK_BLOGS: Blog[] = [
     title: 'Rajasthan Road Trip: A Week in the Desert Land',
     excerpt: 'Exploring Rajasthan by road is an experience like no other. From royal Havelis to sunset sand dunes, here is your definitive travel guide.',
     category: 'Rajasthan Tour',
-    tag: 'ROAD TRIP',
+    tag: 'ROAD-TRIPS',
     coverImage: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop&q=80',
     readTime: '9 min read',
     publishDate: 'Dec 5, 2026',

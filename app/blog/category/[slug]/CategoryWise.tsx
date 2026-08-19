@@ -12,15 +12,13 @@ import BlogRow from "@/components/BlogRow";
 import { useParams, useRouter } from "next/navigation";
 import DestinationCard from "@/components/DestinationCard";
 
-export default function BlogDetailClient({
-    params,
+export default function CategoryWise({
+    slug,
 }: {
-    params: { slug: string };
+     slug: string 
 }) {
 
     const router = useRouter();
-
-    const { slug }: { slug: string } = useParams();
 
     const { data: blog, isLoading, isError } = useBlogDetailByCategories(slug);
 
@@ -363,7 +361,8 @@ export default function BlogDetailClient({
                             <button
                                 key={category}
                                 onClick={() => {
-                                    category == "All Stories" ? router.push('/blog') : router.push(`/blog/category/${category}`)
+                                    const newCat = category.replace(/\s+/g, "-")
+                                    category == "All Stories" ? router.push('/blog') : router.push(`/blog/category/${newCat}`)
                                 }}
                                 className={`relative px-4 py-2 text-xs md:text-sm font-bold rounded-full transition-all duration-200 shrink-0 select-none ${isActive
                                     ? "text-white bg-[#FF4D30] shadow-md"
