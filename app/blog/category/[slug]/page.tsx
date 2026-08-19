@@ -6,10 +6,11 @@ import Image from "next/image";
 import { ArrowLeft, Clock, Loader2, Compass } from "lucide-react";
 import { motion, useScroll, useSpring, AnimatePresence } from "framer-motion";
 import { useBlogDetail, useBlogDetailByCategories, useInfiniteBlogs } from "@/hooks/useBlogs";
-import { CATEGORIES } from "@/lib/mockData";
+import { CATEGORIES, MOCK_DESTINATIONS } from "@/lib/mockData";
 import { Skeleton } from "@/components/ui/skeleton";
 import BlogRow from "@/components/BlogRow";
 import { useParams, useRouter } from "next/navigation";
+import DestinationCard from "@/components/DestinationCard";
 
 export default function BlogDetailClient({
     params,
@@ -361,7 +362,7 @@ export default function BlogDetailClient({
                             <button
                                 key={category}
                                 onClick={() => {
-                                    category == "All Stories" ? router.push('/blog') :router.push(`/blog/category/${category}`)
+                                    category == "All Stories" ? router.push('/blog') : router.push(`/blog/category/${category}`)
                                 }}
                                 className={`relative px-4 py-2 text-xs md:text-sm font-bold rounded-full transition-all duration-200 shrink-0 select-none ${isActive
                                     ? "text-white bg-[#FF4D30] shadow-md"
@@ -457,6 +458,18 @@ export default function BlogDetailClient({
                         </button>
                     </div>
                 )}
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+                    {MOCK_DESTINATIONS.map((dest, idx) => (
+                        <DestinationCard
+                            key={dest.id}
+                            destination={dest}
+                            index={idx}
+                            category={dest.category}
+                            clickFunc={() => router.push(`/blog/category/${dest.category}`)}
+                        />
+
+                    ))}
+                </div>
             </section>
         </div>
     );
