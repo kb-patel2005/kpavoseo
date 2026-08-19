@@ -63,7 +63,7 @@ const phoneVariants: Variants = {
 
 export const ForDriverPartners = () => {
   return (
-      <section className="w-full overflow-hidden flex justify-center items-center py-0 -mt-8 md:-mt-24">
+      <section className="w-full flex justify-center items-center py-0 mt-5 md:mt-3 lg:-mt-32">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Column: Driver Partner Value Proposition */}

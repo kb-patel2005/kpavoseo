@@ -37,7 +37,7 @@
     "**/*.mts",
     ".next\\dev/types/**/*.ts",
     ".next\\dev/types/**/*.ts"
-  ],
+, "components/ScrollToTop.jsx", "components/ScrollToTop.jsx"  ],
   "exclude": [
     "node_modules"
   ]

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { inter, sora } from "./fonts";
 import "./globals.css";
 import { NavbarWrapper } from "@/components/shared/navbar-wrapper";
-import { FooterSection } from "@/components/landing/footer-section";
+import ScrollToTop from "@/components/ScrollToTop";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aavoride.in"),
@@ -125,6 +125,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  
   return (
     <html
       lang="en-IN"
@@ -191,6 +192,7 @@ export default function RootLayout({
             ]),
           }}
         />
+        <ScrollToTop />
         <NavbarWrapper />
         {children}
         {/* <FooterSection/> */}

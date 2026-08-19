@@ -78,7 +78,7 @@ export const MissionSection: React.FC = () => {
   return (
     <section
       ref={ref}
-      className="relative w-full pt-12 md:pt-12 pb-2 md:pb-12 bg-white overflow-hidden"
+      className="relative w-full pb-0 md:pb-12 py-8 bg-white overflow-hidden"
     >
       {/* Shapeless light orange background glow */}
       <AmbientGlow
@@ -92,13 +92,13 @@ export const MissionSection: React.FC = () => {
         tone="orange"
       />
 
-      <div className="max-w-7xl relative z-10 mx-auto px-4 md:px-12 flex flex-col md:flex-row items-center gap-12 md:gap-16">
+      <div className="max-w-7xl relative z-10 mx-auto px-4 md:px-12 flex flex-col md:flex-row items-center gap-5 md:gap-16">
         {/* Left: Mockup */}
         <div className="w-full md:w-1/2 order-2 md:order-1 flex justify-center">
           {/* <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md min-h-[320px] sm:min-h-[384px] overflow-hidden rounded-2xl"> */}
-          <div className="relative w-full max-w-md sm:max-w-lg md:max-w-xl min-h-[320px] sm:min-h-[384px] overflow-hidden rounded-2xl">
+          <div className="relative w-full max-w-md sm:max-w-lg md:max-w-xl min-h-[320px] sm:min-h-[384px] rounded-2xl">
             {/* <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] rounded-full blur-3xl z-[1]" style={{ background: "rgba(255, 62, 29, 0.3)" }} /> */}
-            <div className="relative z-[2] flex justify-center pt-16 pb-20">
+            <div className="relative z-[2] flex justify-center pt-10 pb-20">
               <motion.div
                 className="relative"
                 initial={{ opacity: 0, x: 60, scale: 0.95 }}

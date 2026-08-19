@@ -9,7 +9,7 @@ import { Button } from "../ui/Button";
 // Hero animates on mount (no scroll trigger needed — it's above the fold)
 export const HeroSection: React.FC = () => {
   return (
-    <section className="relative w-full overflow-hidden bg-white py-20 md:py-28">
+    <section className="relative w-full overflow-hidden bg-white py-10">
       <div className="absolute top-10 -left-20 w-64 h-64 rounded-full bg-brand-primary/20 blur-[120px] pointer-events-none select-none" />
       <div className="absolute -right-20 top-1/3 w-80 h-80 rounded-full bg-brand-primary/15 blur-[140px] pointer-events-none select-none" />
 
@@ -21,7 +21,7 @@ export const HeroSection: React.FC = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, ease: "easeOut", delay: 0.1 }}
         >
-          <span className="text-sm font-medium text-foreground">Home</span>
+          <Link className="text-sm font-medium text-foreground" href={"/"}>Home</Link>
           <Image
             src="/assets/icons/Icon.svg"
             alt="Arrow Icon"
