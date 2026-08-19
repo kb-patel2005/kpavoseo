@@ -24,11 +24,7 @@ export const metadata: Metadata = {
   ],
 
   openGraph: {
-    title:
-      "About Us | Travel Services Gujarat | Verified Drivers",
 
-    description:
-      "Send one request and receive multiple quotes from verified drivers across India. Compare cab prices and book your preferred outstation ride today.",
     url: "https://aavoride.in/about",
 
     images: [

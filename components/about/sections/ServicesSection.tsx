@@ -68,12 +68,23 @@ export const ServicesSection: React.FC = () => {
           <motion.h2
             className="text-[32px] md:text-5xl font-bold text-foreground leading-10 md:leading-[3.25rem] tracking-[0.32px]"
           >
-            Affordable Cab Booking & Outstation Taxi{" "}
-            <span className="text-brand-primary">
-              Services Across
-              <br className="md:hidden" />
-              {" "}India
-            </span>
+            {/* For small screens (mobile) */}
+
+            <div className="block md:hidden mt-2">
+              Affordable Cab Booking & Outstation Taxi{" "}
+              <span className="text-brand-primary">
+                Services Across {" "}India
+              </span>
+            </div>
+
+            {/* For medium and larger screens */}
+            <div className="hidden md:block">
+              Affordable Cab Booking & Outstation Taxi{" "}
+              <span className="text-brand-primary">
+                Services Across {" "}India
+              </span>
+            </div>
+
           </motion.h2>
           <motion.p
             className="text-base md:text-lg text-muted-gray leading-7.5 font-normal max-w-3xl"

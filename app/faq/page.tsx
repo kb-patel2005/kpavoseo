@@ -14,20 +14,14 @@ keywords:[
     "AAVORide FAQ", "outstation cab questions", "cab booking help", "verified drivers FAQ"
 ],
   openGraph: {
-    title: "Frequently Asked Questions | AavoRide",
-    description:
-      "Learn more about AavoRide services: cab booking, tempo traveller rentals, verified drivers, best prices, free cancellation, and direct communication.",
-    // url: "https://aavoride.in/faq",
+ // url: "https://aavoride.in/faq",
     siteName: "AavoRide",
     locale: "en_IN",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Frequently Asked Questions | AavoRide",
-    description:
-      "Get answers to your questions about AavoRide cab booking, tempo traveller rentals, verified drivers, and cancellation policies."
-  },
+   },
 };
 
 

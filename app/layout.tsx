@@ -76,10 +76,6 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "AAVORide | Outstation Cab Services App | Single Request | Compare Prices",
-
-    description:
-      "Outstation cab services starting from Gujarat with verified drivers and agencies. Compare fares with zero commission. Free cancellation! Rentals, tempo travellers, business trips - we have it all!",
 
     url: "https://aavoride.in",
 
@@ -101,12 +97,6 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary",
-
-    title: "AAVORide | Outstation Cab Services App | Single Request | Compare Prices",
-
-    description:
-      "Outstation cab services starting from Gujarat with verified drivers and agencies. Compare fares with zero commission. Free cancellation! Rentals, tempo travellers, business trips - we have it all!",
-
     images: ["https://aavoride.in/android-chrome-512x512.png"],
   },
 

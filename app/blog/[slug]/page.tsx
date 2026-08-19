@@ -93,9 +93,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
 
     openGraph: {
-      title: blog.title,
-
-      description: blog.excerpt,
 
       url: `https://aavoride.in/blog/${slug}`,
 
@@ -123,10 +120,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     twitter: {
       card: "summary_large_image",
-
-      title: blog.title,
-
-      description: blog.excerpt,
 
       images: [
         blog.coverImage.startsWith("http")

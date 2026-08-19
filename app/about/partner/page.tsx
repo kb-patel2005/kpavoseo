@@ -21,11 +21,6 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Become An Earning Partner | Zero Commission | Independent Drivers",
-
-    description:
-      "Join AAVORide as an independent driver or travel agency. Receive direct customer enquiries, zero commission, flexible work, and transparent earnings.",
-
     url: "https://aavoride.in/about/partner",
 
     images: [

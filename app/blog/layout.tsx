@@ -40,10 +40,6 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "AAVORide Blog | Travel Guides & Road Trip Stories",
-
-    description:
-      "Read expert travel guides, destination tips, self drive advice and road trip inspiration across India.",
 
     url: "https://aavoride.in/blog",
 
@@ -65,10 +61,6 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-
-    title: "AAVORide Blog",
-
-    description: "Travel guides, road trip inspiration and taxi booking tips.",
 
     images: ["https://aavoride.in/aavoride_blog_hero.png"],
   },

@@ -63,7 +63,7 @@ const phoneVariants: Variants = {
 
 export const ForDriverPartners = () => {
   return (
-      <section className="w-full flex justify-center items-center py-0 mt-5 md:mt-32 lg:-mt-12">
+      <section className="w-full flex justify-center items-center py-0 mt-0 md:mt-0 lg:mt-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           {/* Left Column: Driver Partner Value Proposition */}
@@ -178,7 +178,7 @@ export const ForDriverPartners = () => {
               initial="hidden"
               whileInView="visible"
               viewport={{ once: true, margin: "-100px" }}
-              className="relative w-full flex justify-center lg:justify-end items-center lg:translate-x-16"
+              className="relative w-full flex justify-center lg:justify-end items-center -mt-26 md:-mt-30 lg:translate-x-16"
             >
               <Image
                 src="/phone2.png"
