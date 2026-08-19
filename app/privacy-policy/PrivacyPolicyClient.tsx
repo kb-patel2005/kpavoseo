@@ -254,7 +254,7 @@ export default function PrivacyPolicy() {
         </div>
       </div>
 
-      <div className="max-w-280 mx-auto px-5 pt-17.75 pb-12 md:pb-28 flex flex-col lg:flex-row lg:gap-13 gap-8 items-start">
+      <div className="max-w-280 mx-auto px-5 pt-17.75 md:pb-20 pb-16 flex flex-col lg:flex-row lg:gap-13 gap-8 items-start">
         <aside className="hidden md:flex lg:flex-col flex-row overflow-x-auto scrollbar-hide lg:overflow-x-visible w-full lg:w-55 shrink-0 lg:sticky lg:top-6 gap-2.5 pb-4 lg:pb-0 border-b border-gray-100 lg:border-none mb-6 lg:mb-0">
           <p className="text-sm font-bold tracking-[1px] text-[#1A1C1D] mb-4 hidden lg:block">
             NAVIGATION
@@ -277,11 +277,12 @@ export default function PrivacyPolicy() {
           ))}
         </aside>
 
-        <main className="flex-1 flex flex-col min-w-0 lg:gap-6 md:gap-5  gap-[32px]">
+        <main className="flex-1 flex flex-col min-w-0 gap-8">
           <section
             id="about"
-            className="scroll-mt-6 lg:p-8 md:p-6 scroll-reveal"
+            className="scroll-mt-6 py-0 lg:px-8 md:px-6 scroll-reveal"
           >
+            {/* lg:p-8 md:p-6 */}
             <SectionHeader num="01" iconKey="about" title="About AAVORide" />
             <div>
               <p className="text-[#444748] text-base md:text-[15px] leading-relaxed">
@@ -295,7 +296,7 @@ export default function PrivacyPolicy() {
 
           <section
             id="info-collect"
-            className="scroll-mt-6 lg:p-8 md:p-6 scroll-reveal"
+            className="scroll-mt-6 py-0 lg:px-8 md:md:px-6 scroll-reveal"
           >
             <SectionHeader
               num="02"
@@ -334,7 +335,7 @@ export default function PrivacyPolicy() {
           {/* Fix 1: how-we-use section - all 5 items same card style */}
           <section
             id="how-we-use"
-            className="scroll-mt-6 lg:p-8 md:p-6 scroll-reveal"
+            className="scroll-mt-6 py-0 lg:px-8 md:md:px-6 scroll-reveal"
           >
             <SectionHeader
               num="03"
@@ -378,7 +379,7 @@ export default function PrivacyPolicy() {
               {/* Fix 3: Our Commitment with SVG icons */}
             </div>
           </section>
-          <section id="our-commitment" className="lg:p-8 md:p-6 scroll-reveal">
+          <section id="our-commitment" className="scroll-mt-6 py-0 lg:px-8 md:md:px-6 scroll-reveal">
             <div className="bg-[#FFF5F0] border border-[#FFD5CC] rounded-2xl lg:p-12 md:p-6 max-md:pt-10 max-md:pb-14 px-4 ">
               <div className="flex items-center gap-3 mb-10">
                 {/* <div className="w-12 h-12 bg-[#FF3E1D] rounded-xl flex items-center justify-center shrink-0">
@@ -458,10 +459,10 @@ export default function PrivacyPolicy() {
 
           <section
             id="data-values"
-            className="scroll-mt-6 lg:p-8 md:p-6 scroll-reveal"
+            className="scroll-mt-6 py-0 lg:px-8 md:px-6 scroll-reveal"
           >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="scroll-mt-6 lg:px-2 lg:py-8 md:px-1 md:py-6 scroll-reveal">
+              <div className="scroll-mt-6 px-0 lg:py-3 md:py-3 scroll-reveal">
                 <h3 className="flex items-center gap-2.5 text-2xl font-bold text-gray-900 leading-9 tracking-tight mb-3">
                   <NumBadge n="05" /> Data Security
                 </h3>
@@ -470,7 +471,7 @@ export default function PrivacyPolicy() {
                   protect your data from unauthorized access or disclosure.
                 </p>
               </div>
-              <div className="scroll-mt-6 lg:px-2 lg:py-8 md:px-1 md:py-6 scroll-reveal">
+              <div className="scroll-mt-6  lg:py-3 md:py-3 scroll-reveal">
                 <h3 className="flex items-center gap-2.5 text-2xl font-bold text-gray-900 leading-9 tracking-tight mb-3">
                   <NumBadge n="06" /> Data Retention
                 </h3>
@@ -484,7 +485,7 @@ export default function PrivacyPolicy() {
 
           <section
             id="security"
-            className="scroll-mt-6 lg:p-8 md:p-6 scroll-reveal"
+            className="scroll-mt-6 py-0 lg:px-8 md:px-6 scroll-reveal"
           >
             <div>
               <SectionHeader
@@ -498,7 +499,7 @@ export default function PrivacyPolicy() {
                   information. You may also object to processing or request data
                   portability through your account settings or by contacting us.
                 </p>
-                <div className="flex flex-wrap gap-3 mb-8 max-sm:justify-center max-sm:flex-col">
+                <div className="flex flex-wrap gap-3 max-sm:justify-center max-sm:flex-col">
                   <button
                     onClick={handleDeleteAccountClick}
                     className="flex items-center gap-2 max-sm:justify-center bg-gray-900 text-white rounded-full px-5 py-2.5 text-sm font-semibold border border-gray-200 cursor-pointer group transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
@@ -525,7 +526,7 @@ export default function PrivacyPolicy() {
 
           <section
             id="location-data"
-            className="scroll-mt-6 lg:px-2 lg:py-8 md:px-1 md:py-6 scroll-reveal"
+            className="scroll-mt-6 py-0 lg:px-8 md:md:px-6 scroll-reveal"
           >
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
@@ -550,7 +551,7 @@ export default function PrivacyPolicy() {
                   desc: "Our platform may contain links to external sites. We are not responsible for the privacy practices of those third parties.",
                 },
               ].map((item) => (
-                <div key={item.title} className="md:p-8 py-2">
+                <div key={item.title}>
                   <h3 className="flex items-center gap-2.5 text-2xl font-bold text-gray-900 leading-9 tracking-tight mb-3">
                     <NumBadge n={item.num} /> {item.title}
                   </h3>
@@ -564,7 +565,7 @@ export default function PrivacyPolicy() {
 
           <section
             id="policy-updates"
-            className="scroll-mt-6 lg:p-8 md:p-6 scroll-reveal"
+            className="scroll-mt-6 py-0 lg:px-8 md:md:px-6 scroll-reveal"
           >
             {/* <div className="border border-[#FFD5CC] rounded-2xl lg:p-12 p-6 flex gap-4 items-start"> */}
 
@@ -583,7 +584,7 @@ export default function PrivacyPolicy() {
 
           <section
             id="info-sharing"
-            className="scroll-mt-6 lg:p-8 md:p-6 scroll-reveal"
+            className="scroll-mt-6 py-0 lg:px-8 md:md:px-6 scroll-reveal"
           >
             <SectionHeader
               num="13"

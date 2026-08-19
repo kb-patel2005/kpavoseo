@@ -87,7 +87,7 @@ const cardVariants: Variants = {
 
 export const AavoRidePartners = () => {
   return (
-    <section className="w-full py-8 lg:py-12 flex flex-col items-center">
+    <section className="w-full py-8 flex flex-col items-center">
       <motion.div
         variants={containerVariants}
         initial="hidden"
