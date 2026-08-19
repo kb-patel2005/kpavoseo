@@ -58,7 +58,7 @@ export const VisionSection: React.FC = () => {
   ];
 
   return (
-    <section className="relative w-full pt-8 -mt-8 md:mt-0 pb-5 md:pb-16 bg-white overflow-hidden">
+    <section className="relative w-full pt-8 -mt-8 md:-mt-20 pb-5 md:pb-16 bg-white overflow-hidden">
       <div className="md:w-142.5 w-78 h-78 md:h-142.5 bg-brand-primary md:bg-brand-primary/20 blur-[163px] absolute top-30 md:top-0 -right-70 md:right-auto md:-left-30 z-0" />
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-12 flex flex-col md:flex-row items-center gap-5 md:gap-16">

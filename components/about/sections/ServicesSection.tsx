@@ -49,13 +49,13 @@ export const ServicesSection: React.FC = () => {
   ];
 
   return (
-    <section ref={ref} id="services" className="relative w-full py-6 -mt-5 bg-white overflow-hidden">
+    <section ref={ref} id="services" className="relative w-full py-6 -mt-8 bg-white">
       <div className="md:w-142.5 w-78 h-78 md:h-142.5 bg-brand-primary md:bg-brand-primary/20 z-0 blur-[163px] absolute -left-70 md:left-auto md:-right-20 top-40 md:top-auto md:-bottom-20" />
 
       <div className="max-w-7xl relative z-10 mx-auto px-4 md:px-12">
 
         {/* Header — split: heading from left, para from right */}
-        <div className="flex flex-col gap-6 text-left max-w-5xl mb-12 md:mb-16">
+        <div className="flex flex-col gap-6 text-left max-w-5xl mb-8">
           {/* <motion.h2
             className="text-[32px] md:text-5xl font-bold text-foreground leading-10 md:leading-[3.25rem] tracking-[0.32px]"
             initial={{ opacity: 0, x: -40 }}
@@ -86,7 +86,7 @@ export const ServicesSection: React.FC = () => {
         </div>
 
         {/* Cards — fan up with stagger + slight rotation */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-6">
           {serviceCards.map((card, index) => (
             <motion.div
               key={index}

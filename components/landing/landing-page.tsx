@@ -54,9 +54,9 @@ export function LandingPage() {
       <Reveal delayMs={40}>
         <AppDownloadSection />
       </Reveal>
-      {/* <Reveal delayMs={40}>
+      <Reveal delayMs={40}>
         <FaqSection />
-      </Reveal> */}
+      </Reveal>
       <Reveal delayMs={40}>
         <TestimonialsSection />
       </Reveal>
