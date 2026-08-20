@@ -109,6 +109,7 @@ export const aavoRideItems: ComparisonItem[] = [
 const SMALL_SERVICE_CARD_CLASS =
   "h-[225px] min-h-[225px] sm:h-auto sm:min-h-[226px] lg:min-h-0";
 
+
 export const serviceCards: ServiceCardItem[] = [
   {
     title: "Outstation Trips",
@@ -138,7 +139,7 @@ export const serviceCards: ServiceCardItem[] = [
   {
     title: "Wedding Cars",
     description: "Make your special day grand with our luxury fleet.",
-    imageSrc: "/images/Travel%20Solution/26e3ed62288ed25e4eb5df8e5cdbf9a580c7516f.png",
+    imageSrc: "/images/Travel Solution/26e3ed62288ed25e4eb5df8e5cdbf9a580c7516f.png",
     imageAlt: "Wedding car decorated with flowers outside venue",
     imagePosition: "center center",
     overlayVariant: "small",
@@ -158,7 +159,7 @@ export const serviceCards: ServiceCardItem[] = [
   {
     title: "Round Trips",
     description: "Seamless same-day travel with zero hidden costs.",
-    imageSrc: "/images/Travel%20Solution/d1139a83805d5a47124d82211d382fce06496ab1.png",
+    imageSrc: "/images/Travel Solution/d1139a83805d5a47124d82211d382fce06496ab1.png",
     imageAlt: "Round trip car route near heritage palace landmarks",
     imagePosition: "center center",
     overlayVariant: "small",
@@ -168,143 +169,7 @@ export const serviceCards: ServiceCardItem[] = [
   {
     title: "Tempo Travellers",
     description: "Premium group travel with spacious, modern vans.",
-    imageSrc: "/images/Travel%20Solution/e40aad678422e4d91aaeab08d53e63ffd038688d.png",
-    imageAlt: "Tempo traveller van on a city street at night",
-    imagePosition: "center center",
-    overlayVariant: "small",
-    theme: "tempo",
-    className: SMALL_SERVICE_CARD_CLASS,
-  },
-];
-
-export const serviceCards1: ServiceCardItem[] = [
-  {
-    title: "Outstation Trips",
-    description:
-      "Enjoy smooth outstation rides with verified drivers and transparent pricing.",
-    imageSrc: "/images/Travel%20Solution/607616fbcac978653b0f75dc5c52ea15b209dc7a(1).png",
-    imageAlt: "Outstation trip taxi near hillside temple road",
-    imagePosition: "center center",
-    badge: "Most Popular",
-    cta: "Book via App",
-    overlayVariant: "large",
-    theme: "outstation",
-    className: "min-h-[470px] lg:col-span-2 lg:row-span-2 lg:min-h-0",
-    contentClassName:
-      "right-4 bottom-4 h-[200px] w-[229px] px-4 py-3.5 sm:bottom-[14px] sm:right-[18px] sm:h-auto sm:w-[400px] sm:px-7 sm:py-7",
-  },
-  {
-    title: "Airport Transfers",
-    description: "Punctual pickups & drops with real-time flight tracking.",
-    imageSrc: "/images/Travel%20Solution/801ac6421fdc196d13e0f3dbc807ce9680e062ef(1).png",
-    imageAlt: "Airport transfer corridor with cab pickup outside",
-    imagePosition: "center center",
-    overlayVariant: "small",
-    theme: "airport",
-    className: SMALL_SERVICE_CARD_CLASS,
-  },
-  {
-    title: "Wedding Cars",
-    description: "Make your special day grand with our luxury fleet.",
-    imageSrc: "/images/Travel%20Solution/26e3ed62288ed25e4eb5df8e5cdbf9a580c7516f(1).png",
-    imageAlt: "Wedding car decorated with flowers outside venue",
-    imagePosition: "center center",
-    overlayVariant: "small",
-    theme: "wedding",
-    className: SMALL_SERVICE_CARD_CLASS,
-  },
-  {
-    title: "Local Rentals",
-    description: "Hourly packages for all your city exploration needs.",
-    imageSrc: "/images/Travel%20Solution/f6f5d8b1e06f86fd02dcfe1fae1c941460a012af.jpg",
-    imageAlt: "Local city rental ride with map navigation on mobile phone",
-    imagePosition: "center center",
-    overlayVariant: "small",
-    theme: "local",
-    className: SMALL_SERVICE_CARD_CLASS,
-  },
-  {
-    title: "Round Trips",
-    description: "Seamless same-day travel with zero hidden costs.",
-    imageSrc: "/images/Travel%20Solution/d1139a83805d5a47124d82211d382fce06496ab1(1).png",
-    imageAlt: "Round trip car route near heritage palace landmarks",
-    imagePosition: "center center",
-    overlayVariant: "small",
-    theme: "roundtrip",
-    className: SMALL_SERVICE_CARD_CLASS,
-  },
-  {
-    title: "Tempo Travellers",
-    description: "Premium group travel with spacious, modern vans.",
-    imageSrc: "/images/Travel%20Solution/e40aad678422e4d91aaeab08d53e63ffd038688d(1).png",
-    imageAlt: "Tempo traveller van on a city street at night",
-    imagePosition: "center center",
-    overlayVariant: "small",
-    theme: "tempo",
-    className: SMALL_SERVICE_CARD_CLASS,
-  },
-];
-
-export const serviceCards2: ServiceCardItem[] = [
-  {
-    title: "Outstation Trips",
-    description:
-      "Enjoy smooth outstation rides with verified drivers and transparent pricing.",
-    imageSrc: "/images/Travel%20Solution/travelimages/607616fbcac978653b0f75dc5c52ea15b209dc7a.png",
-    imageAlt: "Outstation trip taxi near hillside temple road",
-    imagePosition: "center center",
-    badge: "Most Popular",
-    cta: "Book via App",
-    overlayVariant: "large",
-    theme: "outstation",
-    className: "min-h-[470px] lg:col-span-2 lg:row-span-2 lg:min-h-0",
-    contentClassName:
-      "right-4 bottom-4 h-[200px] w-[229px] px-4 py-3.5 sm:bottom-[14px] sm:right-[18px] sm:h-auto sm:w-[400px] sm:px-7 sm:py-7",
-  },
-  {
-    title: "Airport Transfers",
-    description: "Punctual pickups & drops with real-time flight tracking.",
-    imageSrc: "/images/Travel%20Solution/travelimages/801ac6421fdc196d13e0f3dbc807ce9680e062ef.png",
-    imageAlt: "Airport transfer corridor with cab pickup outside",
-    imagePosition: "center center",
-    overlayVariant: "small",
-    theme: "airport",
-    className: SMALL_SERVICE_CARD_CLASS,
-  },
-  {
-    title: "Wedding Cars",
-    description: "Make your special day grand with our luxury fleet.",
-    imageSrc: "/images/Travel Solution/travelimages/26e3ed62288ed25e4eb5df8e5cdbf9a580c7516f.png",
-    imageAlt: "Wedding car decorated with flowers outside venue",
-    imagePosition: "center center",
-    overlayVariant: "small",
-    theme: "wedding",
-    className: SMALL_SERVICE_CARD_CLASS,
-  },
-  {
-    title: "Local Rentals",
-    description: "Hourly packages for all your city exploration needs.",
-    imageSrc: "/images/Travel%20Solution/f6f5d8b1e06f86fd02dcfe1fae1c941460a012af.jpg",
-    imageAlt: "Local city rental ride with map navigation on mobile phone",
-    imagePosition: "center center",
-    overlayVariant: "small",
-    theme: "local",
-    className: SMALL_SERVICE_CARD_CLASS,
-  },
-  {
-    title: "Round Trips",
-    description: "Seamless same-day travel with zero hidden costs.",
-    imageSrc: "/images/Travel Solution/d1139a83805d5a47124d82211d382fce06496ab1(1).png",
-    imageAlt: "Round trip car route near heritage palace landmarks",
-    imagePosition: "center center",
-    overlayVariant: "small",
-    theme: "roundtrip",
-    className: SMALL_SERVICE_CARD_CLASS,
-  },
-  {
-    title: "Tempo Travellers",
-    description: "Premium group travel with spacious, modern vans.",
-    imageSrc: "/images/Travel Solution/travelimages/e40aad678422e4d91aaeab08d53e63ffd038688d.png",
+    imageSrc: "/images/Travel Solution/e40aad678422e4d91aaeab08d53e63ffd038688d.png",
     imageAlt: "Tempo traveller van on a city street at night",
     imagePosition: "center center",
     overlayVariant: "small",
