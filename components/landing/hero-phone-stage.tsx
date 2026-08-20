@@ -3,7 +3,6 @@ import type { CSSProperties } from "react";
 import { Car, MapPin } from "lucide-react";
 import { LanguageIcon, StarIcon } from "./icons";
 import { HeroPhoneMockup } from "./illustrations";
-import { HeroPhoneMockup1 } from "./illustrations";
 import { cn } from "./shared";
 
 /** Figma phone-cluster frame (scaled up for hero prominence) */
@@ -363,7 +362,7 @@ export function HeroPhone_Stage() {
           className="motion-phone-secondary absolute z-10"
           style={box(224, 18, 281)}
         >
-          <HeroPhoneMockup1
+          <HeroPhoneMockup
             size="(max-width: 1024px) 360px, 400px"
             variant="brand"
           />
@@ -374,7 +373,7 @@ export function HeroPhone_Stage() {
           className="motion-phone-primary absolute z-20"
           style={box(9, 24, 315)}
         >
-          <HeroPhoneMockup1
+          <HeroPhoneMockup
             size="(max-width: 1024px) 403px, 448px"
             variant="booking"
           />

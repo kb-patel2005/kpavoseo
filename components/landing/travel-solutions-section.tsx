@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { AmbientGlow } from "./ambient-glow";
 import { serviceCards } from "./landing-data";
+import { serviceCards1 } from "./landing-data";
+import { serviceCards2 } from "./landing-data";
 import { ArrowRightIcon } from "./icons";
 import { SectionContainer, SectionHeading, cn } from "./shared";
 
@@ -91,6 +93,7 @@ function SolutionCard({
 
 export function TravelSolutionsSection() {
   return (
+    <>
     <section className="relative overflow-hidden pb-12 md:pb-16" id="services">
       <AmbientGlow
         className="left-[-252px] top-1/2 -translate-y-1/2"
@@ -132,5 +135,88 @@ export function TravelSolutionsSection() {
         </div>
       </SectionContainer>
     </section>
+    <section className="relative overflow-hidden pb-12 md:pb-16" id="services">
+      <AmbientGlow
+        className="left-[-252px] top-1/2 -translate-y-1/2"
+        style={{ width: "570px", height: "570px" }}
+        tone="orange"
+      />
+      <SectionContainer className="max-w-[1268px]">
+        <SectionHeading
+          title="Travel Solutions for Every Journey"
+          accent="Every Journey"
+          className="max-w-[860px]"
+          functioned = "yes"
+          description={
+            <>
+
+              <span className="whitespace-pre-line block md:hidden">
+                From airport rides to outstation adventures<br />
+                experience smarter, safer, and more<br />
+                comfortable travel with AAVORide
+              </span>
+
+              <span className="whitespace-pre-line hidden md:block">
+                From airport rides to outstation adventures
+                experience smarter, safer, and more<br />
+                comfortable travel with AAVORide
+              </span>
+
+            </>
+          }
+
+        />
+
+        <div className="landing-section-body mt-12">
+          <div className="grid auto-rows-[minmax(200px,auto)] gap-[18px] sm:auto-rows-[minmax(220px,1fr)] md:grid-cols-2 lg:grid-cols-3 lg:auto-rows-[minmax(226px,1fr)] xl:aspect-square">
+            {serviceCards2.map((card) => (
+              <SolutionCard key={card.title} {...card} />
+            ))}
+          </div>
+        </div>
+      </SectionContainer>
+    </section>
+    <section className="relative overflow-hidden pb-12 md:pb-16" id="services">
+      <AmbientGlow
+        className="left-[-252px] top-1/2 -translate-y-1/2"
+        style={{ width: "570px", height: "570px" }}
+        tone="orange"
+      />
+      <SectionContainer className="max-w-[1268px]">
+        <SectionHeading
+          title="Travel Solutions for Every Journey"
+          accent="Every Journey"
+          className="max-w-[860px]"
+          functioned = "yes"
+          description={
+            <>
+
+              <span className="whitespace-pre-line block md:hidden">
+                From airport rides to outstation adventures<br />
+                experience smarter, safer, and more<br />
+                comfortable travel with AAVORide
+              </span>
+
+              <span className="whitespace-pre-line hidden md:block">
+                From airport rides to outstation adventures
+                experience smarter, safer, and more<br />
+                comfortable travel with AAVORide
+              </span>
+
+            </>
+          }
+
+        />
+
+        <div className="landing-section-body mt-12">
+          <div className="grid auto-rows-[minmax(200px,auto)] gap-[18px] sm:auto-rows-[minmax(220px,1fr)] md:grid-cols-2 lg:grid-cols-3 lg:auto-rows-[minmax(226px,1fr)] xl:aspect-square">
+            {serviceCards1.map((card) => (
+              <SolutionCard key={card.title} {...card} />
+            ))}
+          </div>
+        </div>
+      </SectionContainer>
+    </section>
+    </>
   );
 }

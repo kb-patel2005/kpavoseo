@@ -42,6 +42,21 @@ export function AvatarStack() {
   );
 }
 
+// const HERO_PHONE_ASSETS1 = {
+//   booking: {
+//     src: "/images/phone/phone-3.png",
+//     alt: "AAVORide booking app screen",
+//     width: 765,
+//     height: 1054,
+//   },
+//   brand: {
+//     src: "/images/phone/phone-4.png",
+//     alt: "AAVORide branding app screen",
+//     width: 674,
+//     height: 1033,
+//   },
+// } as const;
+
 const HERO_PHONE_ASSETS = {
   booking: {
     src: "/images/phone/phone-3.png",
@@ -51,21 +66,6 @@ const HERO_PHONE_ASSETS = {
   },
   brand: {
     src: "/images/phone/phone-4.png",
-    alt: "AAVORide branding app screen",
-    width: 674,
-    height: 1033,
-  },
-} as const;
-
-const HERO_PHONE_ASSETS1 = {
-  booking: {
-    src: "/images/phone/phone-3(1).png",
-    alt: "AAVORide booking app screen",
-    width: 765,
-    height: 1054,
-  },
-  brand: {
-    src: "/images/phone/phone-4(1).png",
     alt: "AAVORide branding app screen",
     width: 674,
     height: 1033,
@@ -82,34 +82,6 @@ export function HeroPhoneMockup({
   size?: string;
 }) {
   const asset = HERO_PHONE_ASSETS[variant];
-
-  return (
-    <Image
-      src={asset.src}
-      height={asset.height}
-      width={asset.width}
-      sizes={size}
-      loading="eager"
-      priority
-      className={cn(
-        "h-auto w-full select-none drop-shadow-[0_28px_48px_rgba(31,27,24,0.2)]",
-        className,
-      )}
-      alt={asset.alt}
-    />
-  );
-}
-
-export function HeroPhoneMockup1({
-  variant,
-  className,
-  size = "240px"
-}: {
-  variant: "booking" | "brand";
-  className?: string;
-  size?: string;
-}) {
-  const asset = HERO_PHONE_ASSETS1[variant];
 
   return (
     <Image
