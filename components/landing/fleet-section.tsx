@@ -91,8 +91,9 @@ function VehicleRail({
 }) {
   return (
     <div className={cn("flex w-max gap-4 lg:gap-6", className)}>
-      {vehicles.map((vehicle) => (
-        <VehicleCard key={`${idPrefix}-${vehicle.title}`} vehicle={vehicle} />
+      {vehicles.map((vehicle,i:number) => (
+        // <VehicleCard key={`${idPrefix}-${vehicle.title}`} vehicle={vehicle} />
+        <VehicleCard key={`${i}`} vehicle={vehicle} />
       ))}
     </div>
   );
