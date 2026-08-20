@@ -15,32 +15,14 @@ const cities = [
   {
     title: "Ahmedabad",
     count: "75+ Active Drivers",
-    imageSrc: "/images/Places/Ahmedabad1.png",
-    imageAlt: "Ahmedabad city bridge at sunset",
-  },
-  {
-    title: "Ahmedabad",
-    count: "75+ Active Drivers",
     imageSrc: "/images/Places/Ahmedabad2.png",
     imageAlt: "Ahmedabad city bridge at sunset",
   },
   {
     title: "Gandhinagar",
     count: "25+ Active Drivers",
-    imageSrc: "/images/Places/Gandhinagar2.jpg",
-    imageAlt: "Gandhinagar temple complex",
-  },
-  {
-    title: "Gandhinagar",
-    count: "25+ Active Drivers",
     imageSrc: "/images/Places/Gandhinagar1.jpg",
     imageAlt: "Gandhinagar temple complex",
-  },
-  {
-    title: "Surat",
-    count: "27+ Active Drivers",
-    imageSrc: "/images/Places/Surat.jpg",
-    imageAlt: "Surat waterfront lake aerial view",
   },
    {
     title: "Surat",
@@ -53,12 +35,6 @@ const cities = [
     count: "31+ Active Drivers",
     imageSrc: "/images/Places/Rajkot.jpg",
     imageAlt: "Rajkot heritage building",
-  },
-  {
-    title: "Vadodara",
-    count: "24+ Active Drivers",
-    imageSrc: "/images/Places/Vadodara.png",
-    imageAlt: "Vadodara palace architecture",
   },
   {
     title: "Vadodara",
