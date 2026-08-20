@@ -178,20 +178,7 @@ export const serviceCards: ServiceCardItem[] = [
 ];
 
 export const vehicles: VehicleItem[] = [
-  {
-    kind: "hatchback",
-    title: "Hatchback",
-    subtitle: "Budget Friendly",
-    description: "Best for city rides & quick trips",
-    imageSrc: "/images/Find%20Ride/Hatchback(1).png",
-    imageAlt: "White hatchback car",
-    features: [
-      { label: "4 Seats", icon: "seat" },
-      { label: "AC", icon: "snow" },
-      { label: "2 Bags", icon: "bag" },
-      { label: "Sanitized", icon: "shield" },
-    ],
-  },
+
   {
     kind: "hatchback",
     title: "Hatchback",
@@ -206,21 +193,8 @@ export const vehicles: VehicleItem[] = [
       { label: "Sanitized", icon: "shield" },
     ],
   },
+
   {
-    kind: "sedan",
-    title: "Sedan",
-    subtitle: "Comfort Ride",
-    description: "Best for business trips and long drives",
-    imageSrc: "/images/Find%20Ride/Sedan(1).png",
-    imageAlt: "White sedan car",
-    features: [
-      { label: "4 Seats", icon: "seat" },
-      { label: "AC", icon: "snow" },
-      { label: "3 Bags", icon: "bag" },
-      { label: "Sanitized", icon: "shield" },
-    ],
-  },
-   {
     kind: "sedan",
     title: "Sedan",
     subtitle: "Comfort Ride",
@@ -234,21 +208,8 @@ export const vehicles: VehicleItem[] = [
       { label: "Sanitized", icon: "shield" },
     ],
   },
+
   {
-    kind: "suv",
-    title: "SUV",
-    subtitle: "Family Trips",
-    description: "Perfect for family outstation trips.",
-    imageSrc: "/images/Find%20Ride/SUV(1).png",
-    imageAlt: "White SUV car",
-    features: [
-      { label: "6 Seats", icon: "seat" },
-      { label: "AC", icon: "snow" },
-      { label: "5-6 Bags", icon: "bag" },
-      { label: "Sanitized", icon: "shield" },
-    ],
-  },
-   {
     kind: "suv",
     title: "SUV",
     subtitle: "Family Trips",
@@ -262,12 +223,13 @@ export const vehicles: VehicleItem[] = [
       { label: "Sanitized", icon: "shield" },
     ],
   },
+
   {
     kind: "van",
     title: "Comfort Van",
     subtitle: "Group Trips",
     description: "Best for group transfers and comfortable long routes.",
-    imageSrc: "/images/Find%20Ride/Comfort%20Van%20(1).png",
+    imageSrc: "/images/Find Ride/Confort Van(2).png",
     imageAlt: "White comfort van",
     features: [
       { label: "6-10 Seats", icon: "seat" },
@@ -276,35 +238,8 @@ export const vehicles: VehicleItem[] = [
       { label: "Sanitized", icon: "shield" },
     ],
   },
+
   {
-    kind: "van",
-    title: "Comfort Van",
-    subtitle: "Group Trips",
-    description: "Best for group transfers and comfortable long routes.",
-    imageSrc: "/images/Find%20Ride/Comfort%20Van(2).png",
-    imageAlt: "White comfort van",
-    features: [
-      { label: "6-10 Seats", icon: "seat" },
-      { label: "AC", icon: "snow" },
-      { label: "8 Bags", icon: "bag" },
-      { label: "Sanitized", icon: "shield" },
-    ],
-  },
-  {
-    kind: "van",
-    title: "Innova",
-    subtitle: "Premium MUV",
-    description: "Comfortable city and outstation rides for small groups.",
-    imageSrc: "/images/Find%20Ride/Innova(1).png",
-    imageAlt: "White Innova car",
-    features: [
-      { label: "6 Seats", icon: "seat" },
-      { label: "AC", icon: "snow" },
-      { label: "4 Bags", icon: "bag" },
-      { label: "Sanitized", icon: "shield" },
-    ],
-  },
-   {
     kind: "van",
     title: "Innova",
     subtitle: "Premium MUV",
@@ -318,21 +253,8 @@ export const vehicles: VehicleItem[] = [
       { label: "Sanitized", icon: "shield" },
     ],
   },
+
   {
-    kind: "van",
-    title: "Innova Crysta",
-    subtitle: "Executive Ride",
-    description: "Ideal for premium family and corporate travel.",
-    imageSrc: "/images/Find%20Ride/Innova%20Crysta(1).png",
-    imageAlt: "White Innova Crysta car",
-    features: [
-      { label: "6 Seats", icon: "seat" },
-      { label: "AC", icon: "snow" },
-      { label: "5 Bags", icon: "bag" },
-      { label: "Sanitized", icon: "shield" },
-    ],
-  },
-   {
     kind: "van",
     title: "Innova Crysta",
     subtitle: "Executive Ride",
