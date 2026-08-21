@@ -98,7 +98,41 @@ export default function BlogListingPage() {
             </div>
           </div>
         </motion.section>
+        <motion.section
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.6 }}
+          className="relative w-full h-[500px] md:h-[650px] bg-slate-950"
+        >
+          <div className="absolute inset-0">
+            <Image
+              src="/aavoride_blog_hero(2).jpg"
+              alt="AAVORide Travel Blog - Road Trips, Travel Guides and Cab Booking Tips"
+              fill
+              sizes="100vw"
+              priority
+              className="object-cover object-top opacity-90 select-none"
+            />
+            {/* Subtle overlays to enhance text readability while maintaining bright sunset colors */}
+            <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-black/20" />
+            <div className="absolute inset-0 bg-gradient-to-r from-slate-950/40 via-transparent to-transparent" />
+          </div>
 
+          {/* Content Container - positioned absolutely over the image */}
+          <div className="absolute inset-0 z-10 mx-auto max-w-7xl w-full px-6 md:px-8 flex items-center pt-20">
+            <div className="max-w-full space-y-4">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-7xl font-extrabold tracking-tight text-white leading-tight font-sans lg:whitespace-nowrap">
+                <span className="text-[#FF4D30]">Stories</span> That Inform and
+                Inspire.
+              </h1>
+              <p className="mt-6 max-w-3xl text-lg text-white/90 leading-relaxed">
+                Discover travel guides, road trip itineraries, self drive car
+                tips, airport travel advice, pilgrimage destinations and
+                outstation taxi booking insights from AAVORide.
+              </p>
+            </div>
+          </div>
+        </motion.section>
         <div className="mx-auto max-w-7xl w-full px-4 py-2 lg:pb-10 md:px-8 space-y-6">
           <nav
             aria-label="Breadcrumb"

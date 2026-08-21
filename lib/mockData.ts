@@ -43,6 +43,15 @@ export const CATEGORIES = [
   'Road Trips',
 ];
 
+export const MOCK_DESTINATIONS1: Destination[] = [
+  
+];
+
+// jaipur : 91.6KB
+// varansi : 92.4Kb
+// high-altitude : 34KB
+// hampi : 89.4KB
+
 export const MOCK_DESTINATIONS: Destination[] = [
   {
     id: '1',
@@ -68,7 +77,36 @@ export const MOCK_DESTINATIONS: Destination[] = [
     category: 'History',
     image: '/images/hampi.jpg',
   },
+  {
+    id: '5',
+    title: "Jaipur's Hidden Haveli Stays",
+    category: 'Culture',
+    image: '/images/jaipur(1)(2)(3).jpg',
+  },
+  {
+    id: '6',
+    title: 'Varanasi: Dawn on the Ganges',
+    category: 'Spiritual',
+    image: '/images/varanasi(1)(1).jpg',
+  },
+  {
+    id: '7',
+    title: 'Leh: High Altitude Comfort',
+    category: 'Luxury Adventure',
+    image: '/images/high-altitude(1)(2).jpg',
+  },
+  {
+    id: '8',
+    title: 'Hampi: Ruins Reimagined',
+    category: 'History',
+    image: '/images/hampi(1)(1)(1).jpg',
+  }
 ];
+
+//features images
+// feture1: 96KB
+// feture2: 190KB
+// feture3: 95.6KB
 
 export const MOCK_FEATURED_STORIES: Blog[] = [
   {
@@ -188,6 +226,240 @@ export const MOCK_FEATURED_STORIES: Blog[] = [
       },
     ],
   },
+  {
+    id: 'featured-4',
+    slug: 'ultimate-guide-char-dham-yatra',
+    title: 'Char Dham Yatra Guide: Best Time to Visit | AAVORide',
+    excerpt: "Plan your Char Dham Yatra to Yamunotri, Gangotri, Kedarnath & Badrinath. Get the best travel tips and timing with AAVORide's outstation cab service.",
+    coverImage: '/images/featured-guide1(1).jpg',
+    tag: 'Spiritual',
+    readTime: '15 min read',
+    publishDate: 'Jan 20, 2026',
+    author: {
+      name: 'Priya Sharma',
+      role: 'Travel Writer',
+      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80',
+    },
+    sections: [
+      {
+        type: 'paragraph',
+        content: 'The Char Dham Yatra is one of the most sacred pilgrimages in Hinduism, covering four holy sites in Uttarakhand: Yamunotri, Gangotri, Kedarnath, and Badrinath.',
+      },
+      {
+        type: 'heading',
+        content: 'Best Time to Visit',
+      },
+      {
+        type: 'paragraph',
+        content: 'The pilgrimage season typically runs from May to October, with the best weather conditions in June and September. Avoid the monsoon months of July and August if possible.',
+      },
+    ],
+    mustVisitSpots: [
+      {
+        name: 'Kedarnath Temple',
+        description: 'One of the twelve Jyotirlingas, dedicated to Lord Shiva.',
+      },
+      {
+        name: 'Badrinath Temple',
+        description: 'Dedicated to Lord Vishnu, part of the Char Dham.',
+      },
+    ],
+  },
+  {
+    id: 'featured-5',
+    slug: 'luxury-heritage-hotels-rajasthan',
+    title: 'Luxury Heritage Hotels in Rajasthan | Udaipur | AAVORide',
+    excerpt: "Discover Rajasthan's finest luxury heritage hotels near Udaipur. Plan a scenic road trip with AAVORide — explore top stays, routes, and travel tips.",
+    coverImage: '/images/featured-guide3(3)(1).jpg',
+    tag: 'Luxury',
+    readTime: '12 min read',
+    publishDate: 'Jan 18, 2026',
+    author: {
+      name: 'Rahul Mehta',
+      role: 'Luxury Travel Expert',
+      avatar: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100&auto=format&fit=crop&q=80',
+    },
+    sections: [
+      {
+        type: 'paragraph',
+        content: 'Rajasthan\'s heritage hotels offer a unique opportunity to live like royalty. These properties were once the homes of maharajas and have been transformed into luxury accommodations.',
+      },
+      {
+        type: 'heading',
+        content: 'Taj Lake Palace, Udaipur',
+      },
+      {
+        type: 'paragraph',
+        content: 'Floating on Lake Pichola, this white marble palace is one of the most romantic hotels in the world. It offers stunning views and impeccable service.',
+      },
+    ],
+    mustVisitSpots: [
+      {
+        name: 'Taj Lake Palace',
+        description: 'A stunning white marble palace on Lake Pichola.',
+      },
+      {
+        name: 'Rambagh Palace',
+        description: 'Former residence of the Maharaja of Jaipur.',
+      },
+    ],
+  },
+  {
+    id: 'featured-6',
+    slug: 'hidden-gems-himalayas',
+    title: 'Hidden Gems of Himalayas: Off Beaten Path | AAVORide',
+    excerpt: 'Discover hidden gems in the Himalayas, from quiet valleys to scenic trails. Plan an unforgettable off-the-beaten-path journey with AAVORide.',
+    coverImage: '/images/featured-guide2(1).jpg',
+    tag: 'Adventure',
+    readTime: '10 min read',
+    publishDate: 'Jan 15, 2026',
+    author: {
+      name: 'Ankit Patel',
+      role: 'Adventure Guide',
+      avatar: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100&auto=format&fit=crop&q=80',
+    },
+    sections: [
+      {
+        type: 'paragraph',
+        content: 'While popular destinations like Manali and Shimla attract millions of visitors, the Himalayas hide countless treasures waiting to be explored by intrepid travelers.',
+      },
+      {
+        type: 'heading',
+        content: 'Spiti Valley',
+      },
+      {
+        type: 'paragraph',
+        content: 'Often called "Little Tibet," Spiti Valley offers dramatic landscapes, ancient monasteries, and a chance to experience authentic Himalayan culture.',
+      },
+    ],
+    mustVisitSpots: [
+      {
+        name: 'Key Monastery',
+        description: 'The largest monastery in Spiti Valley.',
+      },
+      {
+        name: 'Chandratal Lake',
+        description: 'A stunning high-altitude lake.',
+      },
+    ],
+  },
+    {
+    id: 'featured-4',
+    slug: 'ultimate-guide-char-dham-yatra',
+    title: 'Char Dham Yatra Guide: Best Time to Visit | AAVORide',
+    excerpt: "Plan your Char Dham Yatra to Yamunotri, Gangotri, Kedarnath & Badrinath. Get the best travel tips and timing with AAVORide's outstation cab service.",
+    coverImage: '/images/featured-guide1(1).jpg',
+    tag: 'Spiritual',
+    readTime: '15 min read',
+    publishDate: 'Jan 20, 2026',
+    author: {
+      name: 'Priya Sharma',
+      role: 'Travel Writer',
+      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80',
+    },
+    sections: [
+      {
+        type: 'paragraph',
+        content: 'The Char Dham Yatra is one of the most sacred pilgrimages in Hinduism, covering four holy sites in Uttarakhand: Yamunotri, Gangotri, Kedarnath, and Badrinath.',
+      },
+      {
+        type: 'heading',
+        content: 'Best Time to Visit',
+      },
+      {
+        type: 'paragraph',
+        content: 'The pilgrimage season typically runs from May to October, with the best weather conditions in June and September. Avoid the monsoon months of July and August if possible.',
+      },
+    ],
+    mustVisitSpots: [
+      {
+        name: 'Kedarnath Temple',
+        description: 'One of the twelve Jyotirlingas, dedicated to Lord Shiva.',
+      },
+      {
+        name: 'Badrinath Temple',
+        description: 'Dedicated to Lord Vishnu, part of the Char Dham.',
+      },
+    ],
+  },
+  {
+    id: 'featured-5',
+    slug: 'luxury-heritage-hotels-rajasthan',
+    title: 'Luxury Heritage Hotels in Rajasthan | Udaipur | AAVORide',
+    excerpt: "Discover Rajasthan's finest luxury heritage hotels near Udaipur. Plan a scenic road trip with AAVORide — explore top stays, routes, and travel tips.",
+    coverImage: '/images/featured-guide3(3)(1).jpg',
+    tag: 'Luxury',
+    readTime: '12 min read',
+    publishDate: 'Jan 18, 2026',
+    author: {
+      name: 'Rahul Mehta',
+      role: 'Luxury Travel Expert',
+      avatar: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100&auto=format&fit=crop&q=80',
+    },
+    sections: [
+      {
+        type: 'paragraph',
+        content: 'Rajasthan\'s heritage hotels offer a unique opportunity to live like royalty. These properties were once the homes of maharajas and have been transformed into luxury accommodations.',
+      },
+      {
+        type: 'heading',
+        content: 'Taj Lake Palace, Udaipur',
+      },
+      {
+        type: 'paragraph',
+        content: 'Floating on Lake Pichola, this white marble palace is one of the most romantic hotels in the world. It offers stunning views and impeccable service.',
+      },
+    ],
+    mustVisitSpots: [
+      {
+        name: 'Taj Lake Palace',
+        description: 'A stunning white marble palace on Lake Pichola.',
+      },
+      {
+        name: 'Rambagh Palace',
+        description: 'Former residence of the Maharaja of Jaipur.',
+      },
+    ],
+  },
+  {
+    id: 'featured-6',
+    slug: 'hidden-gems-himalayas',
+    title: 'Hidden Gems of Himalayas: Off Beaten Path | AAVORide',
+    excerpt: 'Discover hidden gems in the Himalayas, from quiet valleys to scenic trails. Plan an unforgettable off-the-beaten-path journey with AAVORide.',
+    coverImage: '/images/featured-guide2((1)).jpg',
+    tag: 'Adventure',
+    readTime: '10 min read',
+    publishDate: 'Jan 15, 2026',
+    author: {
+      name: 'Ankit Patel',
+      role: 'Adventure Guide',
+      avatar: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100&auto=format&fit=crop&q=80',
+    },
+    sections: [
+      {
+        type: 'paragraph',
+        content: 'While popular destinations like Manali and Shimla attract millions of visitors, the Himalayas hide countless treasures waiting to be explored by intrepid travelers.',
+      },
+      {
+        type: 'heading',
+        content: 'Spiti Valley',
+      },
+      {
+        type: 'paragraph',
+        content: 'Often called "Little Tibet," Spiti Valley offers dramatic landscapes, ancient monasteries, and a chance to experience authentic Himalayan culture.',
+      },
+    ],
+    mustVisitSpots: [
+      {
+        name: 'Key Monastery',
+        description: 'The largest monastery in Spiti Valley.',
+      },
+      {
+        name: 'Chandratal Lake',
+        description: 'A stunning high-altitude lake.',
+      },
+    ],
+  }
 ];
 
 
