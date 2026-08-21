@@ -64,7 +64,7 @@ const phoneVariants: Variants = {
 export const ForDriverPartners = () => {
   return (
     <>
-      <section className="w-full flex justify-center items-center py-0 mt-0 md:mt-0 lg:mt-0">
+      <section className="w-full flex justify-center items-center py-0 mt-0 md:mt-0 lg:mt-3">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
             {/* Left Column: Driver Partner Value Proposition */}
@@ -170,7 +170,7 @@ export const ForDriverPartners = () => {
             </motion.div>
 
             {/* Right Column: Mobile App Screenshot Display */}
-            <div className="lg:col-span-6 relative flex justify-center lg:justify-end items-center w-full -mt-8 lg:mt-0">
+            <div className="lg:col-span-6 relative flex justify-center lg:justify-end items-center w-full mt-6 md:mt-4 lg:mt-10">
               {/* Subtle glow background */}
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] bg-primary/10 rounded-full blur-[120px] pointer-events-none" />
 
@@ -187,7 +187,7 @@ export const ForDriverPartners = () => {
                   width={650}
                   height={950}
                   priority
-                  className="relative z-10 w-[120%] max-w-none h-auto object-contain drop-shadow-2xl motion-phone-primary"
+                  className="relative z-10 lg:scale-110 w-[120%] max-w-none h-auto object-contain drop-shadow-2xl motion-phone-primary"
                 />
 
               </motion.div>
