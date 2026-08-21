@@ -185,9 +185,9 @@ export const ForDriverPartners = () => {
                   src="/phone2.png"
                   alt="AAVORide Partner Mobile App Showcase"
                   width={650}
-                  height={950}
+                  height={850}
                   priority
-                  className="relative z-10 lg:scale-110 w-[120%] max-w-none h-auto object-contain drop-shadow-2xl motion-phone-primary"
+                  className="relative z-10 lg:scale-110 w-[150%] max-w-none h-auto object-center align-middle drop-shadow-2xl motion-phone-primary"
                 />
 
               </motion.div>
