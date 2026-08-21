@@ -8,8 +8,6 @@ import { BadgeCheck } from "lucide-react";
 import { AnimatedStatValue } from "./animated-stat-value";
 import { AvatarStack } from "./illustrations";
 import { heroStats } from "./landing-data";
-import { Reveal } from "./motion";
-import { HeroPhoneStage } from "./hero-phone-stage";
 import { HeroPhone_Stage } from "./hero-phone-stage";
 
 import { Eyebrow, OutlineButton, PrimaryButton, SectionContainer } from "./shared";
