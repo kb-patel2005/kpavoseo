@@ -187,7 +187,7 @@ export const ForDriverPartners = () => {
                   width={650}
                   height={850}
                   priority
-                  className="relative z-10 lg:scale-110 w-[150%] max-w-none h-auto object-center align-middle drop-shadow-2xl motion-phone-primary"
+                  className="relative z-10 lg:scale-120 w-[150%] max-w-none h-auto object-center align-middle drop-shadow-2xl motion-phone-primary"
                 />
 
               </motion.div>
