@@ -59,7 +59,7 @@ export const MOCK_DESTINATIONS: Destination[] = [
     id: '2',
     title: 'Varanasi: Dawn on the Ganges',
     category: 'Spiritual',
-    image: '/images/varanasi.jpg',
+    image: '/images/varanasi(1)(1).jpg',
   },
   {
     id: '3',

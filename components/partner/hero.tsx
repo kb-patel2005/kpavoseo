@@ -170,14 +170,14 @@ export const Hero = () => {
                 priority
                 className="relative hidden md:block z-10 w-full h-auto object-contain"
               />
-              {/* <Image
+              <Image
                 src="/hero.png"
                 alt="AAVORide Partner Mobile App Showcase"
                 width={720}
                 height={600}
                 priority
                 className="relative md:hidden z-10 w-full max-w-[400px] h-auto object-contain"
-              /> */}
+              />
               <div className="top-4 left-0 absolute z-10 md:block hidden">
                 <Image
                   src="/car-icon.png"
