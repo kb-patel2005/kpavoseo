@@ -740,19 +740,19 @@ export const tripData = [
       },
       {
         subHeading: "Ahmedabad to Vadodara Cab Services - Travel Savings",
-        description: ["CabBazar is one of the most favourite outstation taxi providers in the taxi services business and has the most satisfied and good reviews. We have numerous taxi services on the various routes in India. On the Ahmedabad to Vadodara routes, we have one way Ahmedabad to Vadodara, round trip Ahmedabad to Vadodara or rental car service that provides you safe and secure ride and comfort."
+        description: ["AAVORide is one of the most favourite outstation taxi providers in the taxi services business and has the most satisfied and good reviews. We have numerous taxi services on the various routes in India. On the Ahmedabad to Vadodara routes, we have one way Ahmedabad to Vadodara, round trip Ahmedabad to Vadodara or rental car service that provides you safe and secure ride and comfort."
         ],
         "one Way": {
-          description: "For your Ahmedabad to Vadodara one way taxi booking, you can look towards CabBazar as you are guaranteed to get service at the fixed rate, since other Cab providers will charge more for you. CabBazar is one of the websites that charges a fixed rate from you. This feature makes our one way service stand out in the industry.",
+          description: "For your Ahmedabad to Vadodara one way taxi booking, you can look towards AAVORide as you are guaranteed to get service at the fixed rate, since other Cab providers will charge more for you. AAVORide is one of the websites that charges a fixed rate from you. This feature makes our one way service stand out in the industry.",
           comparisonTable: [
-            { vehicleType: "Sedan", traditionalFare: "-", cabBazarFare: "-", youSave: "-" },
-            { vehicleType: "SUV", traditionalFare: "-", cabBazarFare: "-", youSave: "-" },
-            { vehicleType: "Innova", traditionalFare: "-", cabBazarFare: "-", youSave: "-" }
+            { vehicleType: "Sedan", traditionalFare: "₹2,520", AAVORideFare: "₹1,399", youSave: "₹1,121" },
+            { vehicleType: "SUV", traditionalFare: "₹3,330", AAVORideFare: "₹1,749", youSave: "₹1,581" },
+            { vehicleType: "Innova", traditionalFare: "₹4,860", AAVORideFare: "₹3,239", youSave: "₹1,621" }
           ]
         },
         "round Trip": ["Our Ahmedabad to Vadodara round trip is perfect for your outstation trip to Vadodara from Ahmedabad. Every time you get sanitised vehicles, professional drivers with guaranteed cheap fares for any round trip, available even during the busiest days of travel."
         ],
-        "local Cabs": ["If you are trying to hire a local cab, booking one with CabBazar is super quick and super convenient! So, you can hire a local cab in Ahmedabad, if you need one within the city, and you can count on us when it comes to your business meetings, casual get-togethers and also short plans to roam around Ahmedabad; similarly, in Vadodara."
+        "local Cabs": ["If you are trying to hire a local cab, booking one with AAVORide is super quick and super convenient! So, you can hire a local cab in Ahmedabad, if you need one within the city, and you can count on us when it comes to your business meetings, casual get-togethers and also short plans to roam around Ahmedabad; similarly, in Vadodara."
         ],
         "value Added Services": [
           "Safe Luggage Space: Your bags and suitcases can be carried safely during the trip with our assured luggage space facility. Just avail during booking and Eejoy safe space for your luggage.",
@@ -763,7 +763,7 @@ export const tripData = [
       },
       {
         subHeading: "Vadodara Attractions After Your Journey",
-        description: "",
+        description: "Once you arrive at the cultural capital after taking a taxi from Ahmedabad to Vadodara, you may explore below.",
         "royal Heritage": [
           "Laxmi Villas Palace: Indo Saracenic architecture, four times larger than Buckingham Palace, Museum, Gaekwad royal residence.",
           "Maharaja Fateh Singh Museum: European paintings, Raja Ravi Varma works, Royal collection, and sculptures.",
@@ -789,6 +789,36 @@ export const tripData = [
           "Mandvi: Jewellery, textiles, traditional market.",
           "Alkapuri: Modern shopping area.",
           "Gujarati Cuisine: Jalebi, Undhiya, thalis, fafda."
+        ]
+      },
+      {
+        subHeading: "Frequently Asked Questions - Ahmedabad to Vadodara cab",
+        description: "",
+        faqs: [
+          {
+            question: "How long is the taxi from Ahmedabad to Vadodara?",
+            answer: "The journey usually takes around two to two and a half hours, depending on traffic and your pickup location. Morning travel is generally faster. If you plan extra stops on the way, your total travel time may increase slightly."
+          },
+          {
+            question: "What is the Ahmedabad to Vadodara cab price?",
+            answer: "The one-way fare starts at about ₹1399 for a sedan. SUVs and Innova cost a little more. Round trips are available at higher rates. The price usually includes fuel, driver, Ahmedabad to Vadodara car charges, and a minimum 45 minutes waiting charge. Other applicable charges are Tolls, GST, and Parking, etc."
+          },
+          {
+            question: "Are taxis easily available from Ahmedabad to Vadodara?",
+            answer: "Yes, taxis are easily available on this busy route. You can book in advance or even on the same day, depending on availability. Both one-way and round-trip options are commonly offered throughout the week."
+          },
+          {
+            question: "Is Innova suitable for Ahmedabad to Vadodara family trip?",
+            answer: "Yes, Innova is a good choice for families. It offers more seating space and extra room for luggage. The comfortable ride makes the short highway journey pleasant, especially when travelling with children or elderly family members."
+          },
+          {
+            question: "Can I hire a cab with a driver from Ahmedabad to Vadodara?",
+            answer: "Yes, our outstation taxi from Ahmedabad to Vadodara comes with a professional driver, no self-drive option. The driver manages the route, fuel, and tolls while you sit back and enjoy a relaxed journey."
+          },
+          {
+            question: "Is the Ahmedabad airport to Vadodara cab service available?",
+            answer: "Yes, airport pickup and drop off services are available. You can book a cab as per your flight arrival or departure, so our driver will arrive there on time. This option is convenient for travellers heading directly to Vadodara after landing."
+          }
         ]
       }
     ],

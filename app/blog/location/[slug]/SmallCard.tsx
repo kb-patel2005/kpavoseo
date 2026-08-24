@@ -71,10 +71,10 @@ export default function SmallCard({ blog, index }: BlogRowProps) {
                         />
                         <div className="flex flex-col">
                             <span className="text-xs font-bold text-slate-800 leading-none">
-                                {'AAVORide'}
+                                Priya Verma
                             </span>
                             <span className="text-[10px] text-slate-400 font-semibold">
-                                {'Developer'}
+                                Cultural Documentarian
                             </span>
                         </div>
                     </div>

@@ -3,7 +3,7 @@
 import { tripData } from '@/lib/mockData';
 import React from 'react'
 
-import { ArrowRightIcon, Clock } from "lucide-react";
+import { ArrowRightIcon, Clock, Compass } from "lucide-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -15,13 +15,13 @@ export default function DetailBlog({ slug }: { slug: string }) {
     const { heading, description, sections } = data || {};
 
     return (
-        <section className="mx-auto w-full min-h-screen pb-16 bg-white">
+        <article className="mx-auto w-full min-h-screen pb-16 bg-white">
 
             <section className="relative overflow-hidden w-full h-[350px] md:h-[500px]">
 
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src={"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/24/3b/lukshmi-vilas-palace.jpg?w=800&h=500&s=1"}
+                        src={"/lukshmi-vilas-palace.jpg"}
                         alt="AAVORide Travel Guide"
                         fill
                         sizes="100vw"
@@ -52,8 +52,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
                                 <span>Ahmedabad → Vadodara</span>
                                 <span>•</span>
                                 <span>Taxi Service</span>
-                                <span>•</span>
-                                <span>By AAVORide</span>
+
                             </div>
                         </div>
                     </div>
@@ -217,6 +216,21 @@ export default function DetailBlog({ slug }: { slug: string }) {
 
                                 const isLastOdd = arr.length % 2 !== 0 && index === arr.length - 1;
 
+                                if (key === "faqs" && Array.isArray(value)) {
+                                    return (
+                                        <div key={key} className='lg:col-span-2'>
+                                            <div className="space-y-4">
+                                                {value.map((faq: any, i: number) => (
+                                                    <div key={i}>
+                                                        <p className="font-bold text-slate-800 mb-2">{faq.question}</p>
+                                                        <p className="text-slate-600 font-medium text-base md:text-base leading-relaxed">{faq.answer}</p>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        </div>
+                                    );
+                                }
+
                                 // Full-width table
                                 if (key === "table" && Array.isArray(value)) {
                                     return (
@@ -233,7 +247,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
                                                 <tbody>
                                                     {value.map((row: any, i: number) => (
                                                         <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                                                            {Object.values(row).map((cell:any, j) => (
+                                                            {Object.values(row).map((cell: any, j) => (
                                                                 <td key={j} className="p-3">{cell}</td>
                                                             ))}
                                                         </tr>
@@ -263,7 +277,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
                                                         <tbody>
                                                             {value.comparisonTable.map((row: any, i: number) => (
                                                                 <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                                                                    {Object.values(row).map((cell:any, j) => (
+                                                                    {Object.values(row).map((cell: any, j) => (
                                                                         <td key={j} className="p-3">{cell}</td>
                                                                     ))}
                                                                 </tr>
@@ -279,7 +293,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
                                 // Arrays of strings
                                 if (Array.isArray(value) && typeof value[0] === "string") {
                                     return (
-                                        <div key={key} className={`border rounded-lg p-6 bg-white shadow-sm ${isLastOdd ? "col-span-1 lg:col-span-2" : ""}`}>
+                                        <div key={key} className={`border rounded-xl p-6 bg-white shadow-sm ${isLastOdd ? "col-span-1 lg:col-span-2" : ""}`}>
                                             <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
                                             <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
                                                 {value.map((d: string, i: number) => <li key={i} className='text-slate-600 font-medium text-base md:text-base leading-relaxed mb-2'>{d}</li>)}
@@ -307,17 +321,37 @@ export default function DetailBlog({ slug }: { slug: string }) {
                 ))}
 
 
-                <a
-                    href="https://play.google.com/store/apps/details?id=com.aavoride"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mt-6 flex h-[44px] w-full sm:w-[180px] shrink-0 items-center justify-center gap-2 rounded-full bg-[var(--primary)] text-[14px] font-semibold text-white shadow-[0_12px_24px_rgba(255,62,29,0.2)] md:bg-[var(--primary)]"
+                <motion.div
+                    whileHover={{ scale: 1.01 }}
+                    className="flex flex-col mt-5 sm:flex-row items-center justify-between bg-white border border-slate-100 rounded-3xl p-6 md:p-8 shadow-sm space-y-4 sm:space-y-0 sm:space-x-6"
                 >
-                    Book Cab
-                    <ArrowRightIcon className="h-4 w-4" />
-                </a>
+                    <div className="flex items-center space-x-4">
+                        <div className="rounded-full bg-orange-50 p-3.5 text-[#FF4D30] shrink-0 flex items-center justify-center">
+                            <Compass className="h-6 w-6" />
+                        </div>
+                        <div className="text-center sm:text-left">
+                            <h4 className="text-base font-extrabold text-slate-800 leading-snug">
+                                Loved this destination?
+                            </h4>
+                            <p className="text-xs text-slate-500 font-semibold">
+                                Get a personalized itinerary for your{" "}
+                                {heading} trip.
+                            </p>
+                        </div>
+                    </div>
+                    <Link
+                        href="https://play.google.com/store/apps/details?id=com.aavoride"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full sm:w-auto"
+                    >
+                        <button className="rounded-full bg-[#FF4D30] hover:bg-[#e03d20] px-6 py-3.5 text-xs font-bold text-white shadow-md hover:shadow-lg transition-all w-full sm:w-auto shrink-0 select-none font-semibold">
+                            Get AAVORide App
+                        </button>
+                    </Link>
+                </motion.div>
             </div>
-        </section>
+        </article>
     );
 
 }
