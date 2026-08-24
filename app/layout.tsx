@@ -187,21 +187,20 @@ export default function RootLayout({
         <NavbarWrapper />
 
         {children}
-        <div className="rounded fixed right-5 bottom-25 lg:bottom-10 bg-transparent z-50">
+        <div className="rounded fixed right-5 bottom-25 bg-transparent z-50 animate-pulse-slow">
           <a
-            href="https://wa.me/919712387840" // replace with your WhatsApp number
+            href="https://wa.me/919712387840"
             target="_blank"
             rel="noopener noreferrer"
           >
             <Image
-              src="/whatsapp.png"
+              src="/whatsapp_icon.png"
               alt="WhatsApp Chat"
-              height={60}
-              width={60}
+              height={100}
+              width={100}
             />
           </a>
         </div>
-
 
         {/* <FooterSection/> */}
       </body>
