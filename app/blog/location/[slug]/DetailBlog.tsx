@@ -221,8 +221,8 @@ export default function DetailBlog({ slug }: { slug: string }) {
                                         <div key={key} className='lg:col-span-2'>
                                             <div className="space-y-4">
                                                 {value.map((faq: any, i: number) => (
-                                                    <div key={i}>
-                                                        <p className="font-bold text-slate-800 mb-2">{faq.question}</p>
+                                                    <div key={i} className='pb-2'>
+                                                        <p className="font-bold text-slate-800 mb-3">{faq.question}</p>
                                                         <p className="text-slate-600 font-medium text-base md:text-base leading-relaxed">{faq.answer}</p>
                                                     </div>
                                                 ))}

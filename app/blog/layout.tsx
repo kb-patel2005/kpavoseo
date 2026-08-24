@@ -79,6 +79,7 @@ export default function BlogLayout({
   return (
     <Providers>
       <main className="flex-grow">{children}</main>
+     
       <FooterSection />
     </Providers>
   );

@@ -34,8 +34,10 @@ export function FooterSection() {
     },
   ];
 
-  return (
+  return (<>
+
     <footer aria-label="Site footer" className="relative z-10 overflow-hidden border-t border-[rgba(255,62,29,0.12)] bg-[#FFF1EF] pt-10 md:pt-12">
+      
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-x-0 bottom-0 z-0 overflow-hidden"
@@ -198,5 +200,6 @@ export function FooterSection() {
         </div>
       </SectionContainer>
     </footer>
+    </>
   );
 }

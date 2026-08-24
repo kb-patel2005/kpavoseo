@@ -3,6 +3,7 @@ import { inter, sora } from "./fonts";
 import "./globals.css";
 import { NavbarWrapper } from "@/components/shared/navbar-wrapper";
 import ScrollToTop from "@/components/ScrollToTop";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aavoride.in"),
@@ -115,7 +116,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  
+
   return (
     <html
       lang="en-IN"
@@ -184,7 +185,24 @@ export default function RootLayout({
         />
         <ScrollToTop />
         <NavbarWrapper />
+
         {children}
+        <div className="rounded fixed right-5 bottom-25 lg:bottom-10 bg-transparent z-50">
+          <a
+            href="https://wa.me/919712387840" // replace with your WhatsApp number
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src="/whatsapp.png"
+              alt="WhatsApp Chat"
+              height={60}
+              width={60}
+            />
+          </a>
+        </div>
+
+
         {/* <FooterSection/> */}
       </body>
     </html>
