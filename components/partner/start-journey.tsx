@@ -126,7 +126,12 @@ export const StartJourney = () => {
     //     </motion.div>
     //   </motion.div>
     // </section>
-     <section className="w-full flex flex-col items-center mt-0 sm:mt-0 lg:mt-10 relative">
+     <section className="w-full flex flex-col items-center  
+  mt-0 
+  sm:mt-0 
+  md:mt-3 
+  lg:mt-5 
+  xl:mt-10 relative">
       <div className="absolute top-0 left-[-272px] size-[570px] bg-primary rounded-full blur-[100px] pointer-events-none opacity-20" />
       <motion.div
         variants={containerVariants}
