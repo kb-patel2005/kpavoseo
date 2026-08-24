@@ -1,20 +1,24 @@
-"use client"
+'use client'
 
-// components/AhmedabadVadodaraTaxi.js
-import { Clock } from "lucide-react";
-import { ahmedabadVadodaraData } from "../../lib/mockData";
+import { tripData } from '@/lib/mockData';
+import React from 'react'
+
+import { ArrowRightIcon, Clock } from "lucide-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function AhmedabadVadodaraTaxi() {
-    const { heading, description, sections } = ahmedabadVadodaraData;
+export default function DetailBlog({ slug }: { slug: string }) {
+
+    const data = tripData.find((e: any) => e.slug == slug);
+
+    const { heading, description, sections } = data || {};
 
     return (
-        <section className="mx-auto absolute w-full min-h-screen pb-16 bg-white">
-            {/* Banner */}
+        <section className="mx-auto w-full min-h-screen pb-16 bg-white">
+
             <section className="relative overflow-hidden w-full h-[350px] md:h-[500px]">
-                {/* Banner cover image */}
+
                 <div className="absolute inset-0 z-0">
                     <Image
                         src={"https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/24/3b/lukshmi-vilas-palace.jpg?w=800&h=500&s=1"}
@@ -84,7 +88,7 @@ export default function AhmedabadVadodaraTaxi() {
                 <h1 className="text-2xl md:text-3xl font-extrabold text-slate-800 tracking-tight py-4">{heading}</h1>
                 <p className="mb-6">{description}</p>
 
-                {sections.map((section, idx) => (
+                {sections?.map((section, idx) => (
                     <div key={idx}>
                         <h2 className="text-2xl md:text-3xl font-extrabold text-slate-800 tracking-tight py-4">{section.subHeading}</h2>
                         {Array.isArray(section.description) ? (
@@ -96,37 +100,38 @@ export default function AhmedabadVadodaraTaxi() {
                         )}
 
                         {section.table && (
-                            <table className="w-full border-collapse bg-[#FF4D30] mt-6 rounded-lg overflow-hidden shadow-md">
-                                <thead>
-                                    <tr className="bg-red-700 text-white">
-                                        <th className="border bg-[#FF4D30] p-3">Vehicle</th>
-                                        <th className="border bg-[#FF4D30] p-3">Model</th>
-                                        <th className="border bg-[#FF4D30] p-3">Capacity</th>
-                                        <th className="border bg-[#FF4D30] p-3">One Way Fare</th>
-                                        <th className="border bg-[#FF4D30] p-3">Round Trip Fare</th>
-                                        <th className="border bg-[#FF4D30] p-3">Best For</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    {section.table.map((row, i) => (
-                                        <tr
-                                            key={i}
-                                            className={`${i % 2 === 0 ? "bg-white text-black" : "bg-red-50 text-black"
-                                                } hover:bg-red-100 transition`}
-                                        >
-                                            <td className=" p-3">{row.vehicle}</td>
-                                            <td className=" p-3">{row.model}</td>
-                                            <td className=" p-3">{row.capacity}</td>
-                                            <td className=" p-3">{row.oneWay}</td>
-                                            <td className=" p-3">{row.roundTrip}</td>
-                                            <td className=" p-3">{row.bestFor}</td>
+                            <div className="overflow-x-auto w-full mt-6 rounded-lg shadow-md">
+                                <table className="min-w-full border-collapse bg-[#FF4D30] rounded-lg overflow-hidden">
+                                    <thead>
+                                        <tr className="bg-red-700 text-white">
+                                            <th className="border bg-[#FF4D30] p-3">Vehicle</th>
+                                            <th className="border bg-[#FF4D30] p-3">Model</th>
+                                            <th className="border bg-[#FF4D30] p-3">Capacity</th>
+                                            <th className="border bg-[#FF4D30] p-3">One Way Fare</th>
+                                            <th className="border bg-[#FF4D30] p-3">Round Trip Fare</th>
+                                            <th className="border bg-[#FF4D30] p-3">Best For</th>
                                         </tr>
-                                    ))}
-                                </tbody>
-                            </table>
-
-
+                                    </thead>
+                                    <tbody>
+                                        {section.table.map((row, i) => (
+                                            <tr
+                                                key={i}
+                                                className={`${i % 2 === 0 ? "bg-white text-black" : "bg-red-50 text-black"
+                                                    } hover:bg-red-100 transition`}
+                                            >
+                                                <td className="p-3">{row.vehicle}</td>
+                                                <td className="p-3">{row.model}</td>
+                                                <td className="p-3">{row.capacity}</td>
+                                                <td className="p-3">{row.oneWay}</td>
+                                                <td className="p-3">{row.roundTrip}</td>
+                                                <td className="p-3">{row.bestFor}</td>
+                                            </tr>
+                                        ))}
+                                    </tbody>
+                                </table>
+                            </div>
                         )}
+
 
                         <div className="grid mt-5 grid-cols-1 lg:grid-cols-2 gap-6">
                             {section.packages && section.packages.map((pkg, i) => (
@@ -147,10 +152,17 @@ export default function AhmedabadVadodaraTaxi() {
                     </div>
                 ))}
 
-                <button className="mt-5 inline-flex items-center justify-center gap-2 rounded-full bg-[var(--primary)] px-6 py-4 text-sm font-bold text-white h-[44px] w-full whitespace-nowrap bg-[linear-gradient(180deg,#ff3e1d_0%,#ff3e1d_100%)] px-[25px] py-0 text-[13px] font-semibold tracking-[-0.01em] sm:w-auto">
+                <a
+                    href="https://play.google.com/store/apps/details?id=com.aavoride"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-6 flex h-[44px] w-full shrink-0 items-center justify-center gap-2 rounded-full bg-[var(--primary)] text-[14px] font-semibold text-white shadow-[0_12px_24px_rgba(255,62,29,0.2)] md:bg-[var(--primary)]"
+                >
                     Book Cab
-                </button>
+                    <ArrowRightIcon className="h-4 w-4" />
+                </a>
             </div>
         </section>
     );
+
 }

@@ -9,6 +9,7 @@ import {
   CATEGORIES,
   MOCK_DESTINATIONS,
   MOCK_FEATURED_STORIES,
+  tripData,
 } from "@/lib/mockData";
 import BlogCard from "@/components/BlogCard";
 import BlogRow from "@/components/BlogRow";
@@ -16,13 +17,13 @@ import DestinationCard from "@/components/DestinationCard";
 import { Skeleton } from "@/components/ui/skeleton";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
+import SmallCard from "./location/[slug]/SmallCard";
 
 export default function BlogListingPage() {
   const [activeCategory, setActiveCategory] = useState("All Stories");
   const [searchTerm, setSearchTerm] = useState("");
   const [debouncedSearch, setDebouncedSearch] = useState("");
 
-  // Handle search term input debounce
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(e.target.value);
     const timer = setTimeout(() => {
@@ -244,7 +245,11 @@ export default function BlogListingPage() {
             {!isLoading && !isError && (
               <div className="space-y-4">
                 <AnimatePresence mode="popLayout">
-                  {allRecentBlogs.length > 0 ? (
+                  {tripData.length > 0 && 
+                    tripData.map((blog,idx)=>(
+                      <SmallCard blog={blog} index={idx}/>
+                    ))}
+                  {allRecentBlogs.length > 0 ? ( 
                     allRecentBlogs.map((blog, idx) => (
                       <BlogRow key={blog.id} blog={blog} index={idx} />
                     ))

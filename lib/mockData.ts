@@ -572,98 +572,103 @@ export const MOCK_BLOGS: Blog[] = [
 ];
 
 // data/ahmedabadVadodara.js
-export const ahmedabadVadodaraData = {
-  heading: "Ahmedabad to Vadodara Taxi - Book a Cab Online at Best Fare",
-  description:
-    "Vadodara is also culturally vibrant and full of history. Either go and see the nearby statue of Unity or spend time with the museums, temples and the Laxmi Vilas Palace. The city caters for the tourist on all accounts with education and culture.",
-  sections: [
-    {
-      subHeading: "Ahmedabad to Vadodara Cab Fare - Cultural Capital Journey Pricing",
-      description:
-        "Your cab booking from Ahmedabad to Vadodara will be Inclusive of: Driver allowance, night charges, fuel cost and normal waiting on your trip. Other charges are: Toll charges if toll inclusive price is not chosen, 5% GST applicable, and any extra waiting cost.",
-      table: [
-        {
-          vehicle: "Hatchback",
-          model: "WagonR, Indica, or similar",
-          capacity: "4 seater",
-          oneWay: "₹1,299",
-          roundTrip: "₹2,520",
-          bestFor: "Couples and budget travelers",
-        },
-        {
-          vehicle: "Sedan",
-          model: "Dzire, Etios or Similar",
-          capacity: "4 seater",
-          oneWay: "₹1,399",
-          roundTrip: "₹2,520",
-          bestFor: "Small families seeking comfort",
-        },
-        {
-          vehicle: "SUV",
-          model: "Xylo, Ertiga or similar",
-          capacity: "6 seater",
-          oneWay: "₹1,749",
-          roundTrip: "₹3,330",
-          bestFor: "Large families or small groups",
-        },
-        {
-          vehicle: "Assured Innova",
-          model: "Innova, Innova Crysta",
-          capacity: "6 seater",
-          oneWay: "₹3,239",
-          roundTrip: "₹4,860",
-          bestFor: "Elderly passengers relaxed travel",
-        },
-        {
-          vehicle: "Tempo Traveller",
-          model: "Force Travellers similar",
-          capacity: "12-17 seater",
-          oneWay: "-",
-          roundTrip: "₹6,142",
-          bestFor: "Group pilgrimage",
-        },
-      ],
-    },
-    {
-      subHeading: "Why is CabBazar Ahmedabad to Vadodara Taxi Fare lower?",
-      description: [
-        "So if you're wondering why we are charging only ₹1,399 for a cab from Ahmedabad to Vadodara and not ₹3,600- ₹4,500 like some others. Our model falls somewhere between price and services offered.",
-        "We always offer clear distance-based pricing to maintain transparency and trust.",
-      ],
-    },
-    {
-      subHeading: "Ahmedabad to Vadodara Car Rental - Travel Packages",
-      description:
-        "Hiring our car rental from Ahmedabad to Vadodara will give you personalized and tailored trip experience. Whether you're travelling for adventure or a leisurely vacation, our service offers comfort, reliability, and competitive pricing.",
-      packages: [
-        {
-          title: "Ahmedabad to Vadodara Direct Transfer",
-          details: [
-            "Simple highway travel for business and pleasure",
-            "Drop off in any Vadodara location, including residences, workplaces, hotels and colleges.",
-            "Quick 2-2.5 hour journey on an expressway",
-            "Ideal for: Family vacation, business meetings, college visits and shopping.",
-          ],
-        },
-        {
-          title: "Ahmedabad to Vadodara Direct Transfer",
-          details: [
-            "Simple highway travel for business and pleasure",
-            "Drop off in any Vadodara location, including residences, workplaces, hotels and colleges.",
-            "Quick 2-2.5 hour journey on an expressway",
-            "Ideal for: Family vacation, business meetings, college visits and shopping.",
-          ],
-        },
-        {
-          title: "Ahmedabad to Vadodara Direct Transfer",
-          details: [
-            "Simple highway travel for business and pleasure",
-            "Drop off in any Vadodara location, including residences, workplaces, hotels and colleges.",
-            "Quick 2-2.5 hour journey on an expressway",
-            "Ideal for: Family vacation, business meetings, college visits and shopping.",
-          ],
-        },
-      ],
-    },
-  ],
-};
+export const tripData = [
+  {
+    id:1,
+    slug:"ahmedabad-to-vadodara",
+    heading: "Ahmedabad to Vadodara Taxi - Book a Cab Online at Best Fare",
+    description:
+      "Vadodara is also culturally vibrant and full of history. Either go and see the nearby statue of Unity or spend time with the museums, temples and the Laxmi Vilas Palace. The city caters for the tourist on all accounts with education and culture.",
+    coverImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/24/3b/lukshmi-vilas-palace.jpg?w=800&h=500&s=1",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Vadodara Cab Fare - Cultural Capital Journey Pricing",
+        description:
+          "Your cab booking from Ahmedabad to Vadodara will be Inclusive of: Driver allowance, night charges, fuel cost and normal waiting on your trip. Other charges are: Toll charges if toll inclusive price is not chosen, 5% GST applicable, and any extra waiting cost.",
+        table: [
+          {
+            vehicle: "Hatchback",
+            model: "WagonR, Indica, or similar",
+            capacity: "4 seater",
+            oneWay: "₹1,299",
+            roundTrip: "₹2,520",
+            bestFor: "Couples and budget travelers",
+          },
+          {
+            vehicle: "Sedan",
+            model: "Dzire, Etios or Similar",
+            capacity: "4 seater",
+            oneWay: "₹1,399",
+            roundTrip: "₹2,520",
+            bestFor: "Small families seeking comfort",
+          },
+          {
+            vehicle: "SUV",
+            model: "Xylo, Ertiga or similar",
+            capacity: "6 seater",
+            oneWay: "₹1,749",
+            roundTrip: "₹3,330",
+            bestFor: "Large families or small groups",
+          },
+          {
+            vehicle: "Assured Innova",
+            model: "Innova, Innova Crysta",
+            capacity: "6 seater",
+            oneWay: "₹3,239",
+            roundTrip: "₹4,860",
+            bestFor: "Elderly passengers relaxed travel",
+          },
+          {
+            vehicle: "Tempo Traveller",
+            model: "Force Travellers similar",
+            capacity: "12-17 seater",
+            oneWay: "-",
+            roundTrip: "₹6,142",
+            bestFor: "Group pilgrimage",
+          },
+        ],
+      },
+      {
+        subHeading: "Why is AAVORide Ahmedabad to Vadodara Taxi Fare lower?",
+        description: [
+          "So if you're wondering why we are charging only ₹1,399 for a cab from Ahmedabad to Vadodara and not ₹3,600- ₹4,500 like some others. Our model falls somewhere between price and services offered.",
+          "We always offer clear distance-based pricing to maintain transparency and trust.",
+        ],
+      },
+      {
+        subHeading: "Ahmedabad to Vadodara Car Rental - Travel Packages",
+        description:
+          "Hiring our car rental from Ahmedabad to Vadodara will give you personalized and tailored trip experience. Whether you're travelling for adventure or a leisurely vacation, our service offers comfort, reliability, and competitive pricing.",
+        packages: [
+          {
+            title: "Ahmedabad to Vadodara Direct Transfer",
+            details: [
+              "Simple highway travel for business and pleasure",
+              "Drop off in any Vadodara location, including residences, workplaces, hotels and colleges.",
+              "Quick 2-2.5 hour journey on an expressway",
+              "Ideal for: Family vacation, business meetings, college visits and shopping.",
+            ],
+          },
+          {
+            title: "Ahmedabad to Vadodara Direct Transfer",
+            details: [
+              "Simple highway travel for business and pleasure",
+              "Drop off in any Vadodara location, including residences, workplaces, hotels and colleges.",
+              "Quick 2-2.5 hour journey on an expressway",
+              "Ideal for: Family vacation, business meetings, college visits and shopping.",
+            ],
+          },
+          {
+            title: "Ahmedabad to Vadodara Direct Transfer",
+            details: [
+              "Simple highway travel for business and pleasure",
+              "Drop off in any Vadodara location, including residences, workplaces, hotels and colleges.",
+              "Quick 2-2.5 hour journey on an expressway",
+              "Ideal for: Family vacation, business meetings, college visits and shopping.",
+            ],
+          },
+        ],
+      },
+    ],
+  }
+];
