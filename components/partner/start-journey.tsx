@@ -69,7 +69,64 @@ const stepVariants: Variants = {
 
 export const StartJourney = () => {
   return (
-    <section className="w-full py-2 md:py-6 flex flex-col items-center relative -mt-20 md:-mt-40 lg:-mt-6">
+    // <section className="w-full py-2 md:py-6 flex flex-col items-center relative -mt-20 md:-mt-40 lg:-mt-6">
+    //   <div className="absolute top-0 left-[-272px] size-[570px] bg-primary rounded-full blur-[100px] pointer-events-none opacity-20" />
+    //   <motion.div
+    //     variants={containerVariants}
+    //     initial="hidden"
+    //     whileInView="visible"
+    //     viewport={{ once: true, margin: "-100px" }}
+    //     className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center"
+    //   >
+
+    //     <motion.h2
+    //       variants={itemVariants}
+    //       className="text-4xl md:text-5xl font-extrabold text-neutral-900 tracking-tight leading-tight max-w-2xl font-sans"
+    //     >
+    //       Start Your Journey in <span className="text-primary">4 Steps</span>
+    //     </motion.h2>
+
+        
+    //     <motion.p
+    //       variants={itemVariants}
+    //       className="text-neutral-500 text-base md:text-lg mt-5 max-w-2xl leading-relaxed"
+    //     >
+    //       We provide the tools and connections to help professional partners
+    //       build a sustainable business with complete freedom.
+    //     </motion.p>
+
+        
+    //     <motion.div
+    //       variants={containerVariants}
+    //       className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-8 lg:gap-12 mt-8 w-full max-w-5xl relative"
+    //     >
+          
+    //       <div className="hidden md:block absolute top-8 left-0 right-0 h-0.5 z-0 border-t-2 border-dashed border-primary/30" />
+    //       {steps.map((step) => (
+    //         <motion.div
+    //           key={step.number}
+    //           variants={stepVariants}
+    //           className="flex flex-col items-center text-center group relative z-10"
+    //         >
+              
+    //           <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center shrink-0 shadow-lg shadow-primary/20 transition-all duration-300 group-hover:scale-105 group-hover:shadow-primary/35 border-2 border-white group-hover:border-primary">
+    //             <div className="transition-colors duration-300 group-hover:text-white">
+    //               {step.icon}
+    //             </div>
+    //           </div>
+
+             
+    //           <h3 className="text-neutral-900 mt-6 font-sans">{step.title}</h3>
+
+    //           <p className="text-sm text-neutral-500 mt-2 max-w-[220px] leading-relaxed">
+    //             {step.description}
+    //           </p>
+    //         </motion.div>
+    //       ))}
+    //     </motion.div>
+    //   </motion.div>
+    // </section>
+     <section className="w-full flex flex-col items-center m-0 md:m-5 lg:m-10 relative">
       <div className="absolute top-0 left-[-272px] size-[570px] bg-primary rounded-full blur-[100px] pointer-events-none opacity-20" />
       <motion.div
         variants={containerVariants}
@@ -78,7 +135,7 @@ export const StartJourney = () => {
         viewport={{ once: true, margin: "-100px" }}
         className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center flex flex-col items-center"
       >
-        {/* Title */}
+
         <motion.h2
           variants={itemVariants}
           className="text-4xl md:text-5xl font-extrabold text-neutral-900 tracking-tight leading-tight max-w-2xl font-sans"
@@ -86,7 +143,7 @@ export const StartJourney = () => {
           Start Your Journey in <span className="text-primary">4 Steps</span>
         </motion.h2>
 
-        {/* Paragraph */}
+
         <motion.p
           variants={itemVariants}
           className="text-neutral-500 text-base md:text-lg mt-5 max-w-2xl leading-relaxed"
@@ -95,12 +152,12 @@ export const StartJourney = () => {
           build a sustainable business with complete freedom.
         </motion.p>
 
-        {/* Steps Grid */}
+        
         <motion.div
           variants={containerVariants}
           className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-8 lg:gap-12 mt-8 w-full max-w-5xl relative"
         >
-          {/* Connecting line for desktop only */}
+          
           <div className="hidden md:block absolute top-8 left-0 right-0 h-0.5 z-0 border-t-2 border-dashed border-primary/30" />
           {steps.map((step) => (
             <motion.div
@@ -108,17 +165,16 @@ export const StartJourney = () => {
               variants={stepVariants}
               className="flex flex-col items-center text-center group relative z-10"
             >
-              {/* Circular Icon Container */}
+              
               <div className="w-16 h-16 bg-primary rounded-full flex items-center justify-center shrink-0 shadow-lg shadow-primary/20 transition-all duration-300 group-hover:scale-105 group-hover:shadow-primary/35 border-2 border-white group-hover:border-primary">
                 <div className="transition-colors duration-300 group-hover:text-white">
                   {step.icon}
                 </div>
               </div>
 
-              {/* Step Title */}
+             
               <h3 className="text-neutral-900 mt-6 font-sans">{step.title}</h3>
 
-              {/* Step Description */}
               <p className="text-sm text-neutral-500 mt-2 max-w-[220px] leading-relaxed">
                 {step.description}
               </p>
