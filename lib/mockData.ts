@@ -594,32 +594,32 @@ export const tripData = [
             vehicle: "Hatchback",
             model: "WagonR, Indica, or similar",
             capacity: "4 seater",
-            oneWay: "₹1,299",
-            roundTrip: "₹2,520",
+            oneWay: "-",
+            roundTrip: "-",
             bestFor: "Couples and budget travelers",
           },
           {
             vehicle: "Sedan",
             model: "Dzire, Etios or Similar",
             capacity: "4 seater",
-            oneWay: "₹1,399",
-            roundTrip: "₹2,520",
+            oneWay: "-",
+            roundTrip: "-",
             bestFor: "Small families seeking comfort",
           },
           {
             vehicle: "SUV",
             model: "Xylo, Ertiga or similar",
             capacity: "6 seater",
-            oneWay: "₹1,749",
-            roundTrip: "₹3,330",
+            oneWay: "-",
+            roundTrip: "-",
             bestFor: "Large families or small groups",
           },
           {
             vehicle: "Assured Innova",
             model: "Innova, Innova Crysta",
             capacity: "6 seater",
-            oneWay: "₹3,239",
-            roundTrip: "₹4,860",
+            oneWay: "-",
+            roundTrip: "-",
             bestFor: "Elderly passengers relaxed travel",
           },
           {
@@ -627,7 +627,7 @@ export const tripData = [
             model: "Force Travellers similar",
             capacity: "12-17 seater",
             oneWay: "-",
-            roundTrip: "₹6,142",
+            roundTrip: "-",
             bestFor: "Group pilgrimage",
           },
         ],
@@ -745,9 +745,9 @@ export const tripData = [
         "one Way": {
           description: "For your Ahmedabad to Vadodara one way taxi booking, you can look towards CabBazar as you are guaranteed to get service at the fixed rate, since other Cab providers will charge more for you. CabBazar is one of the websites that charges a fixed rate from you. This feature makes our one way service stand out in the industry.",
           comparisonTable: [
-            { vehicleType: "Sedan", traditionalFare: "₹2,520", cabBazarFare: "₹1,399", youSave: "₹1,121" },
-            { vehicleType: "SUV", traditionalFare: "₹3,330", cabBazarFare: "₹1,749", youSave: "₹1,581" },
-            { vehicleType: "Innova", traditionalFare: "₹4,860", cabBazarFare: "₹3,239", youSave: "₹1,621" }
+            { vehicleType: "Sedan", traditionalFare: "-", cabBazarFare: "-", youSave: "-" },
+            { vehicleType: "SUV", traditionalFare: "-", cabBazarFare: "-", youSave: "-" },
+            { vehicleType: "Innova", traditionalFare: "-", cabBazarFare: "-", youSave: "-" }
           ]
         },
         "round Trip": ["Our Ahmedabad to Vadodara round trip is perfect for your outstation trip to Vadodara from Ahmedabad. Every time you get sanitised vehicles, professional drivers with guaranteed cheap fares for any round trip, available even during the busiest days of travel."
