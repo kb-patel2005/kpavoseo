@@ -717,7 +717,7 @@ export const tripData = [
       },
       {
         subHeading: "Strategic Stops During Ahmedabad to Vadodara Taxi Service",
-        description: ["The distance of 110 Km from Ahmedabad to Vadodara can be covered in about 2-2.5 hours and is not far enough to not be completed in one sitting without a break. However, there are some significant cities and towns to break for some snacks and refreshments." ],
+        description: ["The distance of 110 Km from Ahmedabad to Vadodara can be covered in about 2-2.5 hours and is not far enough to not be completed in one sitting without a break. However, there are some significant cities and towns to break for some snacks and refreshments."],
 
         "Nadiad (60 Km from Ahmedabad) - Optional Mid-Point":
           [
@@ -763,6 +763,7 @@ export const tripData = [
       },
       {
         subHeading: "Vadodara Attractions After Your Journey",
+        description: "",
         "royal Heritage": [
           "Laxmi Villas Palace: Indo Saracenic architecture, four times larger than Buckingham Palace, Museum, Gaekwad royal residence.",
           "Maharaja Fateh Singh Museum: European paintings, Raja Ravi Varma works, Royal collection, and sculptures.",
