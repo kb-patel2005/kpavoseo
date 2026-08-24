@@ -574,17 +574,21 @@ export const MOCK_BLOGS: Blog[] = [
 // data/ahmedabadVadodara.js
 export const tripData = [
   {
-    id:1,
-    slug:"ahmedabad-to-vadodara",
+    id: 1,
+    slug: "ahmedabad-to-vadodara",
     heading: "Ahmedabad to Vadodara Taxi - Book a Cab Online at Best Fare",
-    description:
-      "Vadodara is also culturally vibrant and full of history. Either go and see the nearby statue of Unity or spend time with the museums, temples and the Laxmi Vilas Palace. The city caters for the tourist on all accounts with education and culture.",
+    description: [
+      "Vadodara is also culturally vibrant and full of history. Either go and see the nearby statue of Unity or spend time with the museums, temples and the Laxmi Vilas Palace. The city caters for the tourist on all accounts with educational experiences, Royal history and exciting local life. It is also commonly referred to as Baroda and is most famous for its Royal past.",
+      "Travelling by taxi from Ahmedabad to Vadodara is very easy and comfortable. Along an uncluttered highway, you will generally take approximately 2 - 2.5 hours for the approximate 110 km trip from Ahmedabad to Vadodara, which is a city that is popular for its rich cultural universities, museums and palaces and provides an ideal location for either a family outing, business trip or even a simple day return trip."
+    ],
     coverImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/24/3b/lukshmi-vilas-palace.jpg?w=800&h=500&s=1",
     sections: [
       {
         subHeading: "Ahmedabad to Vadodara Cab Fare - Cultural Capital Journey Pricing",
-        description:
-          "Your cab booking from Ahmedabad to Vadodara will be Inclusive of: Driver allowance, night charges, fuel cost and normal waiting on your trip. Other charges are: Toll charges if toll inclusive price is not chosen, 5% GST applicable, and any extra waiting cost.",
+        description: [
+          "Your cab booking from Ahmedabad to Vadodara will be Inclusive of: Driver allowance, night charges, fuel cost and normal waiting on your trip.Other charges are for Ahmedabad to Vadodara Taxi price : Toll charges if toll inclusive price is not choosen, 5% GST applicable on Ahmedabad to Vadodara cab price and any extra waiting cost.",
+          "To experience a comfortable Ahmedabad to Vadodara journey according to your preference and group size, select the vehicle. You can also explore outstation cabs near me, and you don't need to depend on the bus or train, and you can travel relaxed. Select the best car for the taxi service from Ahmedabad to Vadodara."
+        ],
         table: [
           {
             vehicle: "Hatchback",
@@ -631,44 +635,161 @@ export const tripData = [
       {
         subHeading: "Why is AAVORide Ahmedabad to Vadodara Taxi Fare lower?",
         description: [
-          "So if you're wondering why we are charging only ₹1,399 for a cab from Ahmedabad to Vadodara and not ₹3,600- ₹4,500 like some others. Our model falls somewhere between price and services offered.",
-          "We always offer clear distance-based pricing to maintain transparency and trust.",
+          "So if you're wondering why we are charging only ₹1,399 for a cab from Ahmedabad to Vadodara and not ₹3,600- ₹4,500 like some others. Our model falls somewhere between price and services offered.We always offer clear distance-based pricing to maintain transparency and trust.",
         ],
+        "what we provide": [
+          "We always offer clear distance-based pricing to maintain transparency and trust.",
+          "Our platform lets you book directly with drivers, helping keep fares simple along with smooth ride.",
+          "You get an affordable one way cab Ahmedabad to Vadodara at genuine one way pricing.",
+          "Total openness and no hidden fees in the taxi fare from Ahmedabad to Vadodara."
+        ]
       },
       {
         subHeading: "Ahmedabad to Vadodara Car Rental - Travel Packages",
         description:
           "Hiring our car rental from Ahmedabad to Vadodara will give you personalized and tailored trip experience. Whether you're travelling for adventure or a leisurely vacation, our service offers comfort, reliability, and competitive pricing.",
-        packages: [
-          {
-            title: "Ahmedabad to Vadodara Direct Transfer",
-            details: [
-              "Simple highway travel for business and pleasure",
-              "Drop off in any Vadodara location, including residences, workplaces, hotels and colleges.",
-              "Quick 2-2.5 hour journey on an expressway",
-              "Ideal for: Family vacation, business meetings, college visits and shopping.",
-            ],
-          },
-          {
-            title: "Ahmedabad to Vadodara Direct Transfer",
-            details: [
-              "Simple highway travel for business and pleasure",
-              "Drop off in any Vadodara location, including residences, workplaces, hotels and colleges.",
-              "Quick 2-2.5 hour journey on an expressway",
-              "Ideal for: Family vacation, business meetings, college visits and shopping.",
-            ],
-          },
-          {
-            title: "Ahmedabad to Vadodara Direct Transfer",
-            details: [
-              "Simple highway travel for business and pleasure",
-              "Drop off in any Vadodara location, including residences, workplaces, hotels and colleges.",
-              "Quick 2-2.5 hour journey on an expressway",
-              "Ideal for: Family vacation, business meetings, college visits and shopping.",
-            ],
-          },
+        "Ahmedabad to Vadodara Direct Transfer": [
+          "Simple highway travel for business and pleasure",
+          "Drop off in any Vadodara location, including residences, workplaces, hotels and colleges.",
+          "Quick 2-2.5 hour journey on an expressway",
+          "Ideal for: Family vacation, business meetings, college visits and shopping.",
         ],
+        "Vadodara Same Day Return Ahmedabad": [
+          "Experience the entire city of Vadodara in one day.",
+          "Depart Ahmedabad early in the morning.",
+          "Sightseeing in Vadodara: Laxmi Vilas Palace, universities, museum, and Sayaji Garden.",
+          "Return to Ahmedabad in the evening.",
+          "Perfect for: Day visitors and business meetings that include sightseeing.",
+        ],
+        "Statue of Unity Day Trip from Ahmedabad": [
+          "The tallest statue excursion in the world via Vadodara.",
+          "Statue of Unity, Ahmedabad (200 Km, 3.5-4 hours via Vadodara).",
+          "Complete tour of Sardar Sarovar Dam, the statue, and the Valley of Flowers.",
+          "Return directly to Ahmedabad or via Vadodara.",
+          "Ideal for: Families, tourists, and lovers of monuments.",
+        ],
+        "Vadodara-Champaner-Pavagadh Circuit":
+          [
+            "Exploration of UNESCO World Heritage sites.",
+            "Champaner-Pavagadh to Vadodara (47 miles away).",
+            "UNESCO site: historic temple and mosque, including the hilltop temple of Kalika Mata.",
+            "Sightseeing in Vadodara.",
+            "Return to Ahmedabad.",
+          ],
+        "Gujarat Cultural Triangle - Ahmedabad-Vadodara-Surat":
+          [
+            "Three significant cities included in the extended Gujarat exploration.",
+            "Multi-day business and culture cycle.",
+            "Flexible scheduling based on interests.",
+            "Covers business culture and Diamond City.",
+            "Price varies according to days and routing.",
+          ]
       },
+      {
+        subHeading: "Ahmedabad to Vadodara by Car - Complete Expressway Route",
+        description: [
+          "Journey Overview: Ahmedabad to Vadodara by Road",
+          "Ahmedabad to Vadodara distance by Taxi: 110 Km via NH48 (National Highway 48, formerly NH8)",
+          "Expected Trip Duration: 2 to 2.5 hours, depending on traffic and stops.",
+          "Route Character: Excellent four-lane highway with constant smoothness",
+          "Terrain: Easy, comfortable driving, Flat Gujarat Plains.",
+          "Highway Quality: Excellent, well kept national highway",
+          "Complete Highway Journey (110 Km, 2 to 2.5 hours)",
+          "Your vehicle trip from Ahmedabad to Vadodara goes smoothly thanks to first rate infrastructure; moreover, searching for outstation cabs near me makes it simple to book a comfortable ride for long distance travel."
+        ],
+        routesFeatures: [
+          "Well maintained national highway",
+          "Clear signage everywhere",
+          "A well-lit, secure freeway",
+          "Several meal stops and gas stations"
+        ],
+        jouranyHighlights: [
+          "Leave Ahmedabad by connecting to NH48 via the Sarkhej - Gandhinagar Highway.",
+          "Views of Gujarat's rural areas and agricultural landscapes.",
+          "Excellent road quality all around.",
+          "Enter the smooth well-maintained NH48, a four-lane divided highway.",
+          "Various entry points based on the final goal (University area, Productivity Road, Sayaji Road).",
+          "Baroda can be efficiently reached by a cab from Ahmedabad to Vadodara.",
+          "Enter Vadodara (110 Km) for a sense of a cultured city right away.",
+          "Travel through the midway town of Nadiad, which is 60 Km from Ahmedabad.",
+          "Most taxi trips from Ahmedabad to Vadodara are direct freeway runs that effectively reach the cultural centre."
+        ]
+      },
+      {
+        subHeading: "Strategic Stops During Ahmedabad to Vadodara Taxi Service",
+        description: ["The distance of 110 Km from Ahmedabad to Vadodara can be covered in about 2-2.5 hours and is not far enough to not be completed in one sitting without a break. However, there are some significant cities and towns to break for some snacks and refreshments." ],
+
+        "Nadiad (60 Km from Ahmedabad) - Optional Mid-Point":
+          [
+            "A small town suitable for a short break.",
+            "10-15 mins for tea and snacks.",
+            "Area dotted with tea stalls, highway food joints, and petrol pumps."
+          ],
+        "Anand (45 Km from Ahmedabad) - Optional Food Stop": [
+          "Centre of Amul Dairy and milk co-operative movement.",
+          "Visitors can stop for 15-20 mins to buy Amul products and learn history."
+        ]
+      },
+      {
+        subHeading: "Optimal Travel Timing for Ahmedabad to Vadodara Cab Service",
+        description: [
+          "Vadodara is a tourist destination year-round, but afternoons in summer can be inhospitable.",
+          "Morning and evening are the best times to travel.",
+          "The most festive time to visit is during Navratri, when the state is decorated with Garba celebrations."
+        ]
+      },
+      {
+        subHeading: "Ahmedabad to Vadodara Cab Services - Travel Savings",
+        description: ["CabBazar is one of the most favourite outstation taxi providers in the taxi services business and has the most satisfied and good reviews. We have numerous taxi services on the various routes in India. On the Ahmedabad to Vadodara routes, we have one way Ahmedabad to Vadodara, round trip Ahmedabad to Vadodara or rental car service that provides you safe and secure ride and comfort."
+        ],
+        oneWay: {
+          description: "For your Ahmedabad to Vadodara one way taxi booking, you can look towards CabBazar as you are guaranteed to get service at the fixed rate, since other Cab providers will charge more for you. CabBazar is one of the websites that charges a fixed rate from you. This feature makes our one way service stand out in the industry.",
+          comparisonTable: [
+            { vehicleType: "Sedan", traditionalFare: "₹2,520", cabBazarFare: "₹1,399", youSave: "₹1,121" },
+            { vehicleType: "SUV", traditionalFare: "₹3,330", cabBazarFare: "₹1,749", youSave: "₹1,581" },
+            { vehicleType: "Innova", traditionalFare: "₹4,860", cabBazarFare: "₹3,239", youSave: "₹1,621" }
+          ]
+        },
+        roundTrip: ["Our Ahmedabad to Vadodara round trip is perfect for your outstation trip to Vadodara from Ahmedabad. Every time you get sanitised vehicles, professional drivers with guaranteed cheap fares for any round trip, available even during the busiest days of travel."
+        ],
+        localCabs: ["If you are trying to hire a local cab, booking one with CabBazar is super quick and super convenient! So, you can hire a local cab in Ahmedabad, if you need one within the city, and you can count on us when it comes to your business meetings, casual get-togethers and also short plans to roam around Ahmedabad; similarly, in Vadodara."
+        ],
+        valueAddedServices: [
+          "Safe Luggage Space: Your bags and suitcases can be carried safely during the trip with our assured luggage space facility. Just avail during booking and Eejoy safe space for your luggage.",
+          "Drivers speaking your language: You can also get a driver who understands and speaks a common language to make communication easier during the journey. By just choosing our preferred driver language service.",
+          "Pet-friendly travel: We also offers pet friendly cab service as an additional service. With just one click, you can take your pets on the trip. Our drivers are cooperative and have experience travelling with pets.",
+          "Corporate cabs: If you need a corporate cab service, just mention you need during booking. We offer reliable Ahmedabad to Vadodara cabs suitable for meetings, office trips, and professional travel."
+        ]
+      },
+      {
+        subHeading: "Vadodara Attractions After Your Journey",
+        royalHeritage: [
+          "Laxmi Villas Palace: Indo Saracenic architecture, four times larger than Buckingham Palace, Museum, Gaekwad royal residence.",
+          "Maharaja Fateh Singh Museum: European paintings, Raja Ravi Varma works, Royal collection, and sculptures.",
+          "Nazarbaug Palace: Gardens, Former Gaekward residence"
+        ],
+        parksAndGardens: [
+          "Sayaji Baug (Kamati Baug): Gujarat's biggest public garden, zoo, planetarium, museum, toy train.",
+          "Sursagar Lake: Boating, illuminated evenings."
+        ],
+        educationAndCulture: [
+          "MS University: Prestigious campus with museums."
+        ],
+        temples: [
+          "Kirti Mandir: Architecture, Gaekwad royal crematorium.",
+          "EME Temple: Dakshinamurthy, unique aluminium structure.",
+          "Kirti Mandir Temple: Near Kirti Mandir"
+        ],
+        nearbyAttractions: [
+          "Statue of Unity (90 Km): Sardar Patel, Kevadia, World's tallest statue (182m)",
+          "Champaner-Pavagadh (47 Km): UNESCO site, Hilltop Kalika Mata Temple,, ancient mosque"
+        ],
+        shoppingAndFood: [
+          "Mandvi: Jewellery, textiles, traditional market.",
+          "Alkapuri: Modern shopping area.",
+          "Gujarati Cuisine: Jalebi, Undhiya, thalis, fafda."
+        ]
+      }
     ],
   }
 ];

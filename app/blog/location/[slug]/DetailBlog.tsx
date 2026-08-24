@@ -86,71 +86,226 @@ export default function DetailBlog({ slug }: { slug: string }) {
             {/* Main content */}
             <div className="mx-auto px-6 py-0 max-w-7xl">
                 <h1 className="text-2xl md:text-3xl font-extrabold text-slate-800 tracking-tight py-4">{heading}</h1>
-                <p className="mb-6">{description}</p>
+                {description?.map((text, i) => (
+                    <p key={i} className="text-slate-600 font-medium text-base md:text-base leading-relaxed mb-2">
+                        {text}
+                    </p>
+                ))}
+
 
                 {sections?.map((section, idx) => (
-                    <div key={idx}>
-                        <h2 className="text-2xl md:text-3xl font-extrabold text-slate-800 tracking-tight py-4">{section.subHeading}</h2>
-                        {Array.isArray(section.description) ? (
-                            section.description.map((para, i) => (
-                                <p key={i} className="text-slate-600 font-medium text-base md:text-base leading-relaxed">{para}</p>
-                            ))
-                        ) : (
-                            <p className="text-slate-600 font-medium text-base md:text-base leading-relaxed">{section.description}</p>
+                    <div key={idx} className="mt-8">
+                        {/* Subheading */}
+                        <h2 className="text-2xl md:text-3xl font-extrabold text-slate-800 py-4">
+                            {section.subHeading}
+                        </h2>
+
+                        {/* Description */}
+                        {section.description && (
+                            Array.isArray(section.description)
+                                ? section.description.map((para: string, i: number) => {
+                                    if (para.includes(":")) {
+                                        const [left, ...rest] = para.split(":");
+                                        const right = rest.join(":");
+                                        return (
+                                            <p key={i} className="text-slate-600 mb-2">
+                                                <span className="font-bold">{left}:</span> {right}
+                                            </p>
+                                        );
+                                    }
+                                    return <p key={i} className="text-slate-600 mb-2">{para}</p>;
+                                })
+                                : <p className="text-slate-600 mb-2">{section.description}</p>
                         )}
 
-                        {section.table && (
-                            <div className="overflow-x-auto w-full mt-6 rounded-lg shadow-md">
-                                <table className="min-w-full border-collapse bg-[#FF4D30] rounded-lg overflow-hidden">
-                                    <thead>
-                                        <tr className="bg-red-700 text-white">
-                                            <th className="border bg-[#FF4D30] p-3">Vehicle</th>
-                                            <th className="border bg-[#FF4D30] p-3">Model</th>
-                                            <th className="border bg-[#FF4D30] p-3">Capacity</th>
-                                            <th className="border bg-[#FF4D30] p-3">One Way Fare</th>
-                                            <th className="border bg-[#FF4D30] p-3">Round Trip Fare</th>
-                                            <th className="border bg-[#FF4D30] p-3">Best For</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        {section.table.map((row, i) => (
-                                            <tr
-                                                key={i}
-                                                className={`${i % 2 === 0 ? "bg-white text-black" : "bg-red-50 text-black"
-                                                    } hover:bg-red-100 transition`}
-                                            >
-                                                <td className="p-3">{row.vehicle}</td>
-                                                <td className="p-3">{row.model}</td>
-                                                <td className="p-3">{row.capacity}</td>
-                                                <td className="p-3">{row.oneWay}</td>
-                                                <td className="p-3">{row.roundTrip}</td>
-                                                <td className="p-3">{row.bestFor}</td>
-                                            </tr>
-                                        ))}
-                                    </tbody>
-                                </table>
-                            </div>
-                        )}
+                        {/* Grid for other keys */}
+                        {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+                            {Object.entries(section).map(([key, value]) => {
+                                if (["subHeading", "description"].includes(key)) return null;
+
+                                // Full-width table
+                                if (key === "table" && Array.isArray(value)) {
+                                    return (
+                                        <div key={key} className="col-span-1 lg:col-span-2 overflow-x-auto border rounded-lg shadow-sm bg-white p-4">
+                                            <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
+                                            <table className="min-w-full border-collapse rounded-lg">
+                                                <thead>
+                                                    <tr className="bg-slate-200 text-slate-800">
+                                                        {Object.keys(value[0]).map((col) => (
+                                                            <th key={col} className="p-3 text-left">{col}</th>
+                                                        ))}
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    {value.map((row: any, i: number) => (
+                                                        <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                                                            {Object.values(row).map((cell, j) => (
+                                                                <td key={j} className="p-3">{cell}</td>
+                                                            ))}
+                                                        </tr>
+                                                    ))}
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    );
+                                }
+
+                                // Handle nested object like oneWay
+                                if (typeof value === "object" && !Array.isArray(value)) {
+                                    return (
+                                        <div key={key} className="col-span-1 lg:col-span-2 border rounded-lg p-6 bg-white shadow-sm">
+                                            <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
+                                            {value.description && <p className="text-sm text-gray-700 mb-2">{value.description}</p>}
+                                            {value.comparisonTable && (
+                                                <div className="overflow-x-auto">
+                                                    <table className="min-w-full border-collapse rounded-lg">
+                                                        <thead>
+                                                            <tr className="bg-slate-200 text-slate-800">
+                                                                {Object.keys(value.comparisonTable[0]).map((col) => (
+                                                                    <th key={col} className="p-3 text-left">{col}</th>
+                                                                ))}
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            {value.comparisonTable.map((row: any, i: number) => (
+                                                                <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                                                                    {Object.values(row).map((cell, j) => (
+                                                                        <td key={j} className="p-3">{cell}</td>
+                                                                    ))}
+                                                                </tr>
+                                                            ))}
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            )}
+                                        </div>
+                                    );
+                                }
+
+                                // Arrays of strings
+                                if (Array.isArray(value) && typeof value[0] === "string") {
+                                    return (
+                                        <div key={key} className="border rounded-lg p-6 bg-white shadow-sm">
+                                            <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
+                                            <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+                                                {value.map((d: string, i: number) => <li key={i}>{d}</li>)}
+                                            </ul>
+                                        </div>
+                                    );
+                                }
+
+                                // Strings
+                                if (typeof value === "string") {
+                                    return (
+                                        <div key={key} className="border rounded-lg p-6 bg-white shadow-sm">
+                                            <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
+                                            <p className="text-sm text-gray-700">{value}</p>
+                                        </div>
+                                    );
+                                }
+
+                                return null;
+                            })}
 
 
-                        <div className="grid mt-5 grid-cols-1 lg:grid-cols-2 gap-6">
-                            {section.packages && section.packages.map((pkg, i) => (
-                                <div
-                                    key={i}
-                                    className="border rounded-lg p-6 shadow-sm bg-white"
-                                >
-                                    <h3 className="text-lg font-semibold mb-2">{pkg.title}</h3>
-                                    <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-                                        {pkg.details.map((d, j) => (
-                                            <li key={j}>{d}</li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            ))}
+
+                        </div> */}
+
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+                            {Object.entries(section).map(([key, value], index, arr) => {
+                                if (["subHeading", "description"].includes(key)) return null;
+
+                                const isLastOdd = arr.length % 2 !== 0 && index === arr.length - 1;
+
+                                // Full-width table
+                                if (key === "table" && Array.isArray(value)) {
+                                    return (
+                                        <div key={key} className="col-span-1 lg:col-span-2 overflow-x-auto border rounded-lg shadow-sm bg-white p-4">
+                                            <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
+                                            <table className="min-w-full border-collapse rounded-lg">
+                                                <thead>
+                                                    <tr className="bg-slate-200 text-slate-800">
+                                                        {Object.keys(value[0]).map((col) => (
+                                                            <th key={col} className="p-3 text-left">{col}</th>
+                                                        ))}
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    {value.map((row: any, i: number) => (
+                                                        <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                                                            {Object.values(row).map((cell:any, j) => (
+                                                                <td key={j} className="p-3">{cell}</td>
+                                                            ))}
+                                                        </tr>
+                                                    ))}
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    );
+                                }
+
+                                // Nested object (like oneWay)
+                                if (typeof value === "object" && !Array.isArray(value)) {
+                                    return (
+                                        <div key={key} className={`border rounded-lg p-6 bg-white shadow-sm ${isLastOdd ? "col-span-1 lg:col-span-2" : ""}`}>
+                                            <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
+                                            {value.description && <p className="text-sm text-gray-700 mb-2">{value.description}</p>}
+                                            {value.comparisonTable && (
+                                                <div className="overflow-x-auto">
+                                                    <table className="min-w-full border-collapse rounded-lg">
+                                                        <thead>
+                                                            <tr className="bg-slate-200 text-slate-800">
+                                                                {Object.keys(value.comparisonTable[0]).map((col) => (
+                                                                    <th key={col} className="p-3 text-left">{col}</th>
+                                                                ))}
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            {value.comparisonTable.map((row: any, i: number) => (
+                                                                <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                                                                    {Object.values(row).map((cell:any, j) => (
+                                                                        <td key={j} className="p-3">{cell}</td>
+                                                                    ))}
+                                                                </tr>
+                                                            ))}
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            )}
+                                        </div>
+                                    );
+                                }
+
+                                // Arrays of strings
+                                if (Array.isArray(value) && typeof value[0] === "string") {
+                                    return (
+                                        <div key={key} className={`border rounded-lg p-6 bg-white shadow-sm ${isLastOdd ? "col-span-1 lg:col-span-2" : ""}`}>
+                                            <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
+                                            <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+                                                {value.map((d: string, i: number) => <li key={i}>{d}</li>)}
+                                            </ul>
+                                        </div>
+                                    );
+                                }
+
+                                // Strings
+                                if (typeof value === "string") {
+                                    return (
+                                        <div key={key} className={`border rounded-lg p-6 bg-white shadow-sm ${isLastOdd ? "col-span-1 lg:col-span-2" : ""}`}>
+                                            <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
+                                            <p className="text-sm text-gray-700">{value}</p>
+                                        </div>
+                                    );
+                                }
+
+                                return null;
+                            })}
                         </div>
+
 
                     </div>
                 ))}
+
 
                 <a
                     href="https://play.google.com/store/apps/details?id=com.aavoride"

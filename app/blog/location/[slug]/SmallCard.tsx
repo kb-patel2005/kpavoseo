@@ -55,7 +55,7 @@ export default function SmallCard({ blog, index }: BlogRowProps) {
                 </Link>
 
                 <p className="text-sm text-slate-500 font-medium leading-relaxed line-clamp-2 md:line-clamp-2">
-                    {`${blog.description.split(".")[0]}.${blog.description.split(".")[1]}`}
+                    {`${blog.description[0].split(".")[0]}.${blog.description[0].split(".")[1]}`}
                 </p>
 
                 <div className="h-[1px] w-full bg-slate-100 md:hidden my-1" />
