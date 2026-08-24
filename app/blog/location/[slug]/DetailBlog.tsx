@@ -108,14 +108,14 @@ export default function DetailBlog({ slug }: { slug: string }) {
                                         const [left, ...rest] = para.split(":");
                                         const right = rest.join(":");
                                         return (
-                                            <p key={i} className="text-slate-600 mb-2">
+                                            <p key={i} className="text-slate-600 font-medium text-base md:text-base leading-relaxed mb-2">
                                                 <span className="font-bold">{left}:</span> {right}
                                             </p>
                                         );
                                     }
-                                    return <p key={i} className="text-slate-600 mb-2">{para}</p>;
+                                    return <p key={i} className="text-slate-600 font-medium text-base md:text-base leading-relaxed mb-2">{para}</p>;
                                 })
-                                : <p className="text-slate-600 mb-2">{section.description}</p>
+                                : <p className="text-slate-600 font-medium text-base md:text-base leading-relaxed mb-2">{section.description}</p>
                         )}
 
                         {/* Grid for other keys */}
@@ -249,7 +249,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
                                     return (
                                         <div key={key} className={`border rounded-lg p-6 bg-white shadow-sm ${isLastOdd ? "col-span-1 lg:col-span-2" : ""}`}>
                                             <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
-                                            {value.description && <p className="text-sm text-gray-700 mb-2">{value.description}</p>}
+                                            {value.description && <p className="text-slate-600 font-medium text-base md:text-base leading-relaxed mb-2">{value.description}</p>}
                                             {value.comparisonTable && (
                                                 <div className="overflow-x-auto">
                                                     <table className="min-w-full border-collapse rounded-lg">
@@ -282,7 +282,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
                                         <div key={key} className={`border rounded-lg p-6 bg-white shadow-sm ${isLastOdd ? "col-span-1 lg:col-span-2" : ""}`}>
                                             <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
                                             <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-                                                {value.map((d: string, i: number) => <li key={i}>{d}</li>)}
+                                                {value.map((d: string, i: number) => <li key={i} className='text-slate-600 font-medium text-base md:text-base leading-relaxed mb-2'>{d}</li>)}
                                             </ul>
                                         </div>
                                     );

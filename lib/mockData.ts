@@ -697,13 +697,13 @@ export const tripData = [
           "Complete Highway Journey (110 Km, 2 to 2.5 hours)",
           "Your vehicle trip from Ahmedabad to Vadodara goes smoothly thanks to first rate infrastructure; moreover, searching for outstation cabs near me makes it simple to book a comfortable ride for long distance travel."
         ],
-        routesFeatures: [
+        "Routes Features": [
           "Well maintained national highway",
           "Clear signage everywhere",
           "A well-lit, secure freeway",
           "Several meal stops and gas stations"
         ],
-        jouranyHighlights: [
+        "jourany Highlights": [
           "Leave Ahmedabad by connecting to NH48 via the Sarkhej - Gandhinagar Highway.",
           "Views of Gujarat's rural areas and agricultural landscapes.",
           "Excellent road quality all around.",
@@ -742,7 +742,7 @@ export const tripData = [
         subHeading: "Ahmedabad to Vadodara Cab Services - Travel Savings",
         description: ["CabBazar is one of the most favourite outstation taxi providers in the taxi services business and has the most satisfied and good reviews. We have numerous taxi services on the various routes in India. On the Ahmedabad to Vadodara routes, we have one way Ahmedabad to Vadodara, round trip Ahmedabad to Vadodara or rental car service that provides you safe and secure ride and comfort."
         ],
-        oneWay: {
+        "one Way": {
           description: "For your Ahmedabad to Vadodara one way taxi booking, you can look towards CabBazar as you are guaranteed to get service at the fixed rate, since other Cab providers will charge more for you. CabBazar is one of the websites that charges a fixed rate from you. This feature makes our one way service stand out in the industry.",
           comparisonTable: [
             { vehicleType: "Sedan", traditionalFare: "₹2,520", cabBazarFare: "₹1,399", youSave: "₹1,121" },
@@ -750,11 +750,11 @@ export const tripData = [
             { vehicleType: "Innova", traditionalFare: "₹4,860", cabBazarFare: "₹3,239", youSave: "₹1,621" }
           ]
         },
-        roundTrip: ["Our Ahmedabad to Vadodara round trip is perfect for your outstation trip to Vadodara from Ahmedabad. Every time you get sanitised vehicles, professional drivers with guaranteed cheap fares for any round trip, available even during the busiest days of travel."
+        "round Trip": ["Our Ahmedabad to Vadodara round trip is perfect for your outstation trip to Vadodara from Ahmedabad. Every time you get sanitised vehicles, professional drivers with guaranteed cheap fares for any round trip, available even during the busiest days of travel."
         ],
-        localCabs: ["If you are trying to hire a local cab, booking one with CabBazar is super quick and super convenient! So, you can hire a local cab in Ahmedabad, if you need one within the city, and you can count on us when it comes to your business meetings, casual get-togethers and also short plans to roam around Ahmedabad; similarly, in Vadodara."
+        "local Cabs": ["If you are trying to hire a local cab, booking one with CabBazar is super quick and super convenient! So, you can hire a local cab in Ahmedabad, if you need one within the city, and you can count on us when it comes to your business meetings, casual get-togethers and also short plans to roam around Ahmedabad; similarly, in Vadodara."
         ],
-        valueAddedServices: [
+        "value Added Services": [
           "Safe Luggage Space: Your bags and suitcases can be carried safely during the trip with our assured luggage space facility. Just avail during booking and Eejoy safe space for your luggage.",
           "Drivers speaking your language: You can also get a driver who understands and speaks a common language to make communication easier during the journey. By just choosing our preferred driver language service.",
           "Pet-friendly travel: We also offers pet friendly cab service as an additional service. With just one click, you can take your pets on the trip. Our drivers are cooperative and have experience travelling with pets.",
@@ -763,28 +763,28 @@ export const tripData = [
       },
       {
         subHeading: "Vadodara Attractions After Your Journey",
-        royalHeritage: [
+        "royal Heritage": [
           "Laxmi Villas Palace: Indo Saracenic architecture, four times larger than Buckingham Palace, Museum, Gaekwad royal residence.",
           "Maharaja Fateh Singh Museum: European paintings, Raja Ravi Varma works, Royal collection, and sculptures.",
           "Nazarbaug Palace: Gardens, Former Gaekward residence"
         ],
-        parksAndGardens: [
+        "parks And Gardens": [
           "Sayaji Baug (Kamati Baug): Gujarat's biggest public garden, zoo, planetarium, museum, toy train.",
           "Sursagar Lake: Boating, illuminated evenings."
         ],
-        educationAndCulture: [
+        "education And Culture": [
           "MS University: Prestigious campus with museums."
         ],
-        temples: [
+        "temples": [
           "Kirti Mandir: Architecture, Gaekwad royal crematorium.",
           "EME Temple: Dakshinamurthy, unique aluminium structure.",
           "Kirti Mandir Temple: Near Kirti Mandir"
         ],
-        nearbyAttractions: [
+        "near by Attractions": [
           "Statue of Unity (90 Km): Sardar Patel, Kevadia, World's tallest statue (182m)",
           "Champaner-Pavagadh (47 Km): UNESCO site, Hilltop Kalika Mata Temple,, ancient mosque"
         ],
-        shoppingAndFood: [
+        "shopping And Food": [
           "Mandvi: Jewellery, textiles, traditional market.",
           "Alkapuri: Modern shopping area.",
           "Gujarati Cuisine: Jalebi, Undhiya, thalis, fafda."
