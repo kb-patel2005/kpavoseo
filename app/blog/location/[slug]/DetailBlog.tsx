@@ -156,7 +156,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
                     href="https://play.google.com/store/apps/details?id=com.aavoride"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="mt-6 flex h-[44px] w-full shrink-0 items-center justify-center gap-2 rounded-full bg-[var(--primary)] text-[14px] font-semibold text-white shadow-[0_12px_24px_rgba(255,62,29,0.2)] md:bg-[var(--primary)]"
+                    className="mt-6 flex h-[44px] w-full sm:w-[180px] shrink-0 items-center justify-center gap-2 rounded-full bg-[var(--primary)] text-[14px] font-semibold text-white shadow-[0_12px_24px_rgba(255,62,29,0.2)] md:bg-[var(--primary)]"
                 >
                     Book Cab
                     <ArrowRightIcon className="h-4 w-4" />
