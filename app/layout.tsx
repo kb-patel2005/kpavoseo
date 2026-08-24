@@ -187,7 +187,7 @@ export default function RootLayout({
         <NavbarWrapper />
 
         {children}
-        <div className="rounded fixed -right-2 bottom-21 bg-transparent z-50 animate-pulse-slow">
+        <div className="rounded fixed -right-1 bottom-21 bg-transparent z-50 animate-pulse-slow">
           <a
             href="https://wa.me/919712387840"
             target="_blank"
