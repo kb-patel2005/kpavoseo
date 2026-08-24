@@ -192,7 +192,7 @@ export const ForDriverPartners = () => {
               variants={containerVariants}
               initial="hidden"
               whileInView="visible"
-              viewport={{ once: true, margin: "-100px" }}
+              viewport={{ once: true }}
               className="lg:col-span-6 flex flex-col items-start text-left"
             >
               <motion.span
@@ -280,7 +280,7 @@ export const ForDriverPartners = () => {
                 </div>
               </motion.div>
             </motion.div>
-            <div className="lg:col-span-6 relative flex justify-around lg:h-full md:h-[400px] h-[370px] lg:justify-around items-center">
+            <div className="lg:col-span-6 relative flex justify-around h-[450px] sm:h-[360px] md:h-[430px] lg:h-[500px] xl:h-full lg:justify-around items-center">
 
               <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[550px] h-[550px] bg-primary/10 rounded-full blur-[120px] pointer-events-none" />
 
@@ -288,17 +288,23 @@ export const ForDriverPartners = () => {
                 variants={phoneVariants}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{ once: true, margin: "-100px" }}
+                viewport={{ once: true }}
                 className="relative flex justify-center lg:justify-end items-center"
               >
-                  <Image
-                    src="/phone2new.png"
-                    alt="AAVORide Partner Mobile App Showcase"
-                    width={400}
-                    height={100}
-                    priority
-                    className="lg:w-[160%] scale-120 lg:scale-150"
-                  />
+                <Image
+                  src="/phone2new.png"
+                  alt="AAVORide Partner Mobile App Showcase"
+                  width={400}
+                  height={100}
+                  priority
+                  // scale-120 lg:scale-150
+                  className="lg:w-[160%] 
+                      h-[450px] w-auto scale-150
+                      sm:h-[400px] sm:scale-140 sm:w-auto
+                      md:h-[430px] md:scale-150
+                      lg:h-[500px] lg:scale-160
+                      xl:h-full xl:scale-150"
+                />
 
               </motion.div>
             </div>
