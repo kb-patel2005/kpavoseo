@@ -83,10 +83,10 @@ export const MOCK_DESTINATIONS: Destination[] = [
 export const MOCK_FEATURED_STORIES: Blog[] = [
   {
     id: 'featured-1',
-    slug: 'ultimate-guide-char-dham-yatra',
-    title: 'Char Dham Yatra Guide: Best Time to Visit | AAVORide',
-    excerpt: "Plan your Char Dham Yatra to Yamunotri, Gangotri, Kedarnath & Badrinath. Get the best travel tips and timing with AAVORide's outstation cab service.",
-    coverImage: '/images/featured-guide1.jpg',
+    slug: 'location/ahmedabad-to-statue-of-unity',
+    title: 'Ahmedabad to Statue of Unity Taxi - Book Safe & Affordable Cab Service | AAVORide',
+    excerpt: "Statue of Unity is the world’s tallest statue, dedicated to the Iron Man of India - Sardar Vallabhbhai Patel. This grand statue is built on the banks of the Narmada River in Kevadia and is a must-visit on every Indian traveller’s bucket list.",
+    coverImage: "https://visitsou.com/wp-content/uploads/Travel-Guide-to-the-World-Tallest-Statue-Statue-of-Unity.jpg",
     tag: 'Spiritual',
     readTime: '15 min read',
     publishDate: 'Jan 20, 2026',
@@ -893,26 +893,26 @@ export const tripData = [
         ]
 
       },
-      {
-        subHeading: "Car Rental Service for Ahmedabad to Statue of Unity",
-        description: [
-          "AAVORide is one of India's splendid car rental service providers. We aim to make cab booking easy and comfortable for travellers. For that, AAVORide offers its Ahmedabad to Statue of Unity car rental service. For flexible pickups from Ahmedabad railway station, airport, or hotel, hire a taxi from Ahmedabad to the Statue of Unity with AAVORide. Travellers will get complete flexibility in their trip planning, and perfect for Char Dham Yatra pilgrims, group travel, or elderly passengers. Whether you need a one-way cab or a round-trip, AAVORide ensures affordable, clean, and safe cabs with experienced hill drivers for the Statue of Unity cab service for its passengers."
-        ],
-        "Ahmedabad to Statue of Unity Car Rental Prices": {
-          comparisonTable: [
-            { "car Type": "Hatchback (WagonR, Indica)", "Seating Capacity": 4, "One-Way Fare (₹)": "-" },
-            { "car Type": "Sedan (Dzire, Etios)", "Seating Capacity": 4, "One-Way Fare (₹)": "-" },
-            { "car Type": "SUV (Ertiga, Marazzo)", "Seating Capacity": 6, "One-Way Fare (₹)": "-" },
-            { "car Type": "Assured Innova", "Seating Capacity": 6, "One-Way Fare (₹)": "-" }
-          ]
-        },
-        "Key advantage of AAVORide’s Ahmedabad to Statue of Unity car rental service:": [
-          "Perfect for sightseeing trips, school tours, or corporate visits.",
-          "Clean and comfortable vehicles with on-time pickup and professional drivers.",
-          "Flexible plans for same-day return or overnight stays"
-        ]
+      // {
+      //   subHeading: "Car Rental Service for Ahmedabad to Statue of Unity",
+      //   description: [
+      //     "AAVORide is one of India's splendid car rental service providers. We aim to make cab booking easy and comfortable for travellers. For that, AAVORide offers its Ahmedabad to Statue of Unity car rental service. For flexible pickups from Ahmedabad railway station, airport, or hotel, hire a taxi from Ahmedabad to the Statue of Unity with AAVORide. Travellers will get complete flexibility in their trip planning, and perfect for Char Dham Yatra pilgrims, group travel, or elderly passengers. Whether you need a one-way cab or a round-trip, AAVORide ensures affordable, clean, and safe cabs with experienced hill drivers for the Statue of Unity cab service for its passengers."
+      //   ],
+      //   "Ahmedabad to Statue of Unity Car Rental Prices": {
+      //     comparisonTable: [
+      //       { "car Type": "Hatchback (WagonR, Indica)", "Seating Capacity": 4, "One-Way Fare (₹)": "-" },
+      //       { "car Type": "Sedan (Dzire, Etios)", "Seating Capacity": 4, "One-Way Fare (₹)": "-" },
+      //       { "car Type": "SUV (Ertiga, Marazzo)", "Seating Capacity": 6, "One-Way Fare (₹)": "-" },
+      //       { "car Type": "Assured Innova", "Seating Capacity": 6, "One-Way Fare (₹)": "-" }
+      //     ]
+      //   },
+      //   "Key advantage of AAVORide’s Ahmedabad to Statue of Unity car rental service:": [
+      //     "Perfect for sightseeing trips, school tours, or corporate visits.",
+      //     "Clean and comfortable vehicles with on-time pickup and professional drivers.",
+      //     "Flexible plans for same-day return or overnight stays"
+      //   ]
 
-      },
+      // },
       {
         subHeading: "How to Book an Ahmedabad to Statue of Unity Taxi Online?",
         description: [
