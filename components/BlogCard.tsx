@@ -45,7 +45,7 @@ export default function BlogCard({ blog, index }: BlogCardProps) {
           alt={`${blog.title} | AAVORide Travel Guide`}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 33vw"
-          className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+          className="object-cover object-top-right transition-transform duration-700 ease-out group-hover:scale-110"
           priority={index < 3}
         />
 

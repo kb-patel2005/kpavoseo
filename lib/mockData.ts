@@ -103,7 +103,7 @@ export const MOCK_FEATURED_STORIES: Blog[] = [
     slug: 'location/ahmedabad-to-statue-of-unity',
     title: 'Ahmedabad to Statue of Unity Taxi | AAVORide',
     excerpt: "Statue of Unity is the world’s tallest statue, dedicated to the Iron Man of India - Sardar Vallabhbhai Patel. This grand statue is built on the banks of the Narmada River in Kevadia and is a must-visit on every Indian traveller’s bucket list.",
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlpE-3KBhbjMhwGiwlV-r4cJQ2XskUsaagVsVB5d_9XA&s=10",
+    coverImage: "https://visitsou.com/wp-content/uploads/Travel-Guide-to-the-World-Tallest-Statue-Statue-of-Unity.jpg",
     tag: 'CULTURE',
     readTime: '15 min read',
     publishDate: 'Jan 20, 2026',
@@ -142,7 +142,7 @@ export const MOCK_FEATURED_STORIES: Blog[] = [
     slug: 'location/ahmedabad-to-udaipur',
     title: 'Ahmedabad to Udaipur Cab Service at Lowest Price | AAVORide',
     excerpt: "Discover Rajasthan's finest luxury heritage hotels near Udaipur. Plan a scenic road trip with AAVORide — explore top stays, routes, and travel tips.",
-    coverImage: "https://upload.wikimedia.org/wikipedia/commons/0/01/Udaipur-citypalace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original", 
+    coverImage: "https://cdn.sanity.io/images/ocl5w36p/ihcl_prod/15ef46c5cad321ff2ea6aefc38a8b1278affc789-3840x1860.jpg?w=1920&auto=format", 
     tag: 'Luxury',
     readTime: '12 min read',
     publishDate: 'Jan 18, 2026',
@@ -1033,7 +1033,7 @@ export const tripData = [
       "AAVORide provides wide cab options like SUV, Sedan, or Tempo Traveller. AAVORide is India's number one intercity taxi platform and the most reliable choice. Just decide on one-way or round trip and travel without apprehensions, so book a reliable Ahmedabad to Udaipur cab at ₹3333 and travel with a 20% discount. Choose our trusted Ahmedabad to Udaipur taxi service. Price starts at ₹9/km.",
       "Book your cab from Ahmedabad to Udaipur today and travel in comfort, safety, and style."
     ],
-    coverImage: "https://upload.wikimedia.org/wikipedia/commons/0/01/Udaipur-citypalace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    coverImage: "https://cdn.sanity.io/images/ocl5w36p/ihcl_prod/15ef46c5cad321ff2ea6aefc38a8b1278affc789-3840x1860.jpg?w=1920&auto=format", 
     sections: [
       {
         subHeading: "Ahmedabad to Udaipur Taxi Fare | Best Price and Lowest Price Guarantee",
@@ -1150,7 +1150,7 @@ export const tripData = [
           "Select a car of your choice - Hatchback, Sedan, SUV, Innova Crysta, or Tempo Traveller.",
           "Review the full fare with no unexpected charges later.",
           "Book your cab and get the information of the driver and the vehicle immediately.",
-          "Get 24/7 customer support: +91-8796809009, whenever you want during your trip.",
+          "Get 24/7 customer support: +91-9712387840, whenever you want during your trip.",
           "Book a cab from Ahmedabad to Udaipur with AAVORide today for hassle-free, convenient, and punctual travel- at the most affordable fare."
         ]
 
@@ -1199,37 +1199,37 @@ export const tripData = [
               route: "Ahmedabad to Mount Abu Cab",
               distance: "226 Km",
               travelTime: "5.5 Hrs",
-              cabFareStartingFrom: 3126
+              cabFareStartingFrom: "-"
             },
             {
               route: "Ahmedabad to Surat Cab",
               distance: "263 Km",
               travelTime: "5 Hrs",
-              cabFareStartingFrom: 3319
+              cabFareStartingFrom: "-"
             },
             {
               route: "Ahmedabad to Mumbai Cab",
               distance: "524 Km",
               travelTime: "10 Hrs",
-              cabFareStartingFrom: 7740
+              cabFareStartingFrom: "-"
             },
             {
               route: "Ahmedabad to Statue of Unity Taxi",
               distance: "198 Km",
               travelTime: "3.5 Hrs",
-              cabFareStartingFrom: 3126
+              cabFareStartingFrom: "-"
             },
             {
               route: "Ahmedabad to Shankheshwar Taxi",
               distance: "120 Km",
               travelTime: "3 Hrs",
-              cabFareStartingFrom: 1878
+              cabFareStartingFrom: "-"
             },
             {
               route: "Ahmedabad to Nathdwara Taxi",
               distance: "309 Km",
               travelTime: "5 Hrs",
-              cabFareStartingFrom: 4686
+              cabFareStartingFrom: "-"
             }
           ],
           description: "You can book an affordable service from Ahmedabad to Udaipur taxi fare at ₹3333 with AAVORide, starting at just ₹9 per km. Enjoy the most affordable and reliable cab service in Ahmedabad with AAVORide, your trusted travel partner across India.",
@@ -1240,37 +1240,37 @@ export const tripData = [
               route: "Ahmedabad to Udaipur Taxi",
               distance: "263 Km",
               travelTime: "5.5 Hrs",
-              cabFareStartingFrom: 3464
+              cabFareStartingFrom: "-"
             },
             {
               route: "Kumbhalgarh to Udaipur Taxi",
               distance: "84 Km",
               travelTime: "2 Hrs",
-              cabFareStartingFrom: 1677
+              cabFareStartingFrom: "-"
             },
             {
               route: "Chittorgarh to Udaipur Taxi",
               distance: "114 Km",
               travelTime: "2 Hrs",
-              cabFareStartingFrom: 2525
+              cabFareStartingFrom: "-"
             },
             {
               route: "Jaisalmer to Udaipur Taxi",
               distance: "487 Km",
               travelTime: "8 Hrs",
-              cabFareStartingFrom: 7361
+              cabFareStartingFrom: "-"
             },
             {
               route: "Abu to Udaipur Taxi",
               distance: "152 Km",
               travelTime: "3 Hrs",
-              cabFareStartingFrom: 2615
+              cabFareStartingFrom: "-"
             },
             {
               route: "Falna to Udaipur Taxi",
               distance: "127 Km",
               travelTime: "2.5 Hrs",
-              cabFareStartingFrom: 2525
+              cabFareStartingFrom: "-"
             }
           ]
         },

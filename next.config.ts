@@ -26,7 +26,11 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: "https",
-        hostname: "encrypted-tbn0.gstatic.com", // 👈 add this
+        hostname: "encrypted-tbn0.gstatic.com",
+      },
+      {
+        protocol: "https",
+        hostname: "cdn.sanity.io", // 👈 add this
       },
     ],
   },
