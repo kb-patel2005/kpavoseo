@@ -452,7 +452,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
 
 
             </div> */}
-            <section className="mx-auto max-w-8xl px-4 py-8 md:px-8 space-y-8 z-10 relative">
+            <section className="mx-auto w-full px-4 py-8 md:px-8 space-y-8 z-10 relative">
                   
                     <div className="w-full overflow-x-auto flex scrollbar-none space-x-2 py-2 border-b-0 md:border-b border-slate-200 justify-start md:justify-center">
                         {CATEGORIES.map((category) => {
@@ -479,8 +479,8 @@ export default function DetailBlog({ slug }: { slug: string }) {
                         })}
                     </div>
 
-                    <div className="flex items-center justify-between">
-                        <h2 className="text-2xl font-black text-slate-800 tracking-tight flex items-center space-x-2">
+                    <div className="flex items-center justify-between max-w-7xl mx-auto">
+                        <h2 className="text-2xl font-black text-slate-800 tracking-tight flex items-center space-x-2 text-center">
                             <span className="block h-6 w-1 bg-[#FF4D30] rounded-full" />
                             <span>Related Travel Guides</span>
                         </h2>
@@ -513,7 +513,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
                             ))}
                         </div>
                     ) : (
-                        <div className="space-y-4">
+                        <div className="space-y-4 max-w-7xl mx-auto">
                             <AnimatePresence mode="popLayout">
                                 {tripData.length > 0 &&
                                     tripData.map((blog, idx) =>

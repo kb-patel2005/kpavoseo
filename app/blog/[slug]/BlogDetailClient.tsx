@@ -6,10 +6,12 @@ import Image from "next/image";
 import { ArrowLeft, Clock, Loader2, Compass } from "lucide-react";
 import { motion, useScroll, useSpring, AnimatePresence } from "framer-motion";
 import { useBlogDetail, useInfiniteBlogs } from "@/hooks/useBlogs";
-import { CATEGORIES, tripData } from "@/lib/mockData";
+import { CATEGORIES, MOCK_DESTINATIONS, tripData } from "@/lib/mockData";
 import { Skeleton } from "@/components/ui/skeleton";
 import BlogRow from "@/components/BlogRow";
 import SmallCard from "../location/[slug]/SmallCard";
+import DestinationCard from "@/components/DestinationCard";
+import { useRouter } from "next/navigation";
 
 export default function BlogDetailClient({
   params,
@@ -22,6 +24,8 @@ export default function BlogDetailClient({
   const [activeCategory, setActiveCategory] = useState("All Stories");
 
   // React Query Fetch using Infinite Scroll
+
+  const router = useRouter()
   const {
     data: recentData,
     fetchNextPage,
@@ -346,9 +350,9 @@ export default function BlogDetailClient({
       </section>
 
       {/* 3. RECENT STORIES LIST SECTION */}
-      <section className="mx-auto max-w-8xl px-4 py-8 md:px-8 space-y-8 z-10 relative">
+      <section className="w-full px-4 py-8 md:px-8 space-y-8 z-10 relative">
         {/* Category Tabs Navigation */}
-        <div className="w-full overflow-x-auto flex scrollbar-none space-x-2 py-2 border-b-0 md:border-b border-slate-200 justify-start md:justify-center">
+        <div className="max-w-7xl mx-auto overflow-x-auto flex scrollbar-none space-x-2 py-2 border-b-0 md:border-b border-slate-200 justify-start">
           {CATEGORIES.map((category) => {
             const isActive = activeCategory === category;
             return (
@@ -374,7 +378,7 @@ export default function BlogDetailClient({
         </div>
 
         {/* Heading */}
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between max-w-7xl mx-auto">
           <h2 className="text-2xl font-black text-slate-800 tracking-tight flex items-center space-x-2">
             <span className="block h-6 w-1 bg-[#FF4D30] rounded-full" />
             <span>Related Travel Guides</span>
@@ -409,7 +413,7 @@ export default function BlogDetailClient({
             ))}
           </div>
         ) : (
-          <div className="space-y-4">
+          <div className="space-y-4 max-w-7xl mx-auto">
             <AnimatePresence mode="popLayout">
               {tripData.length > 0 &&
                 tripData.map((blog, idx) => 
@@ -444,6 +448,18 @@ export default function BlogDetailClient({
             </button>
           </div>
         )}
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-7xl mt-10 mx-auto">
+                        {MOCK_DESTINATIONS.map((dest, idx) => (
+                            <DestinationCard
+                                key={dest.id}
+                                destination={dest}
+                                index={idx}
+                                category={dest.category}
+                                clickFunc={() => router.push(`/blog/category/${dest.category}`)}
+                            />
+        
+                        ))}
+                    </div>
       </section>
     </div>
   );
