@@ -10,7 +10,12 @@ const nextConfig: NextConfig = {
      {
         protocol: "https",
         hostname: "dynamic-media-cdn.tripadvisor.com",
-     }
+     },
+    {
+        protocol: "https",
+        hostname: "visitsou.com",
+      },
+  
     ],
   },
   async headers() {

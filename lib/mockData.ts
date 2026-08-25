@@ -581,7 +581,7 @@ export const tripData = [
       "Vadodara is also culturally vibrant and full of history. Either go and see the nearby statue of Unity or spend time with the museums, temples and the Laxmi Vilas Palace. The city caters for the tourist on all accounts with educational experiences, Royal history and exciting local life. It is also commonly referred to as Baroda and is most famous for its Royal past.",
       "Travelling by taxi from Ahmedabad to Vadodara is very easy and comfortable. Along an uncluttered highway, you will generally take approximately 2 - 2.5 hours for the approximate 110 km trip from Ahmedabad to Vadodara, which is a city that is popular for its rich cultural universities, museums and palaces and provides an ideal location for either a family outing, business trip or even a simple day return trip."
     ],
-    coverImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/24/3b/lukshmi-vilas-palace.jpg?w=800&h=500&s=1",
+    coverImage: "https://visitsou.com/wp-content/uploads/Travel-Guide-to-the-World-Tallest-Statue-Statue-of-Unity.jpg",
     sections: [
       {
         subHeading: "Ahmedabad to Vadodara Cab Fare - Cultural Capital Journey Pricing",
@@ -822,5 +822,186 @@ export const tripData = [
         ]
       }
     ],
-  }
+  },
+  {
+    id: 2,
+    slug: "ahmedabad-to-statue-of-unity",
+    heading: "Ahmedabad to Statue of Unity Taxi - Book Safe & Affordable Cab Service",
+    description: [
+      "Statue of Unity is the world’s tallest statue, dedicated to the Iron Man of India - Sardar Vallabhbhai Patel. This grand statue is built on the banks of the Narmada River in Kevadia and is a must-visit on every Indian traveller’s bucket list. On the other hand, Ahmedabad - the vibrant city of Gujarat - is known for its rich heritage, booming business hubs, and cultural essence.",
+      "If you are planning a family trip, a weekend getaway with friends, or a corporate outing, a cab ride from Ahmedabad to the Statue of Unity is absolutely the best and hassle-free option. The distance between them is only 200 km, and easily covered in 4 4-hour comfortable journey that is full of scenic views.",
+      "AAVORide provide Ahmedabad to Statue of Unity taxi service that offers you clean and sanitised cabs, experienced drivers, and multiple booking options - one-way or round-trip, as suits you. It's time for stress-free travel.",
+      "So what's the delay? Book your Ahmedabad to Statue of Unity cab now on AAVORide!"
+    ],
+    coverImage:"https://visitsou.com/wp-content/uploads/Travel-Guide-to-the-World-Tallest-Statue-Statue-of-Unity.jpg", 
+    sections: [
+      {
+        subHeading: "Why Book an Ahmedabad to Statue of Unity Cab with AAVORide?",
+        description: [
+          "AAVORide is the most trusted cab service provider in India. It is well known for the best taxi service from Ahmedabad to the Statue of Unity. To keep its promise, AAVORide offers a variety of taxi services from Ahmedabad to the Statue of Unity. You can hire a one-way cab from Ahmedabad to Statue of Unity or an Ahmedabad to Statue of Unity round-trip cab with AAVORide at the best price and book an Ahmedabad to Statue of Unity taxi to make your trip remarkable. We take immense pride in ensuring an exceptional and reliable transportation experience for our valued customers. We offer Ahmedabad to Statue of Unity taxis to ensure last-mile connectivity."
+        ],
+        "Verified and experienced drivers": [
+          "The safety and comfort of the passenger is a priority for AAVORide. To ensure we took a rigorous driver verification process before making them partners. The drivers are also very skilled and experts in local culture and hilly routes, and destinations."
+        ],
+        "One-way and round-trip cab options": [
+          "To make the travel easy and convenient, AAVORide offers multiple cab options for one-way and round-trip journeys at the most reasonable fare with no hidden charges."
+        ],
+        "Clean and sanitised AC vehicles": [
+          "To make every journey comfortable and hassle-free, AAVORide provides clean and well-maintained cabs or taxis to its passengers. We make sure that every taxi undergoes timely services and is in good condition."
+        ],
+        "Transparent pricing": [
+          "AAVORide ensures complete transparency in its pricing structure, offering an all-inclusive fare. We ensure passengers have a clear understanding of their total expenses upfront without any hidden costs, providing peace of mind throughout the journey."
+        ],
+        "Doorstep pickup": [
+          "AAVORide offers doorstep pickup from Ahmedabad hotels, stations, or the airport for the maximum convenience of passengers. Where you don't need to wait for a cab at any other stoppage. Our cab driver will pick you up on time from the doorstep."
+        ],
+        "24x7 customer support": [
+          "For smooth service, AAVORide provides 24/7 customer support. It allows passengers to connect with executives for booking whenever they require. AAVORide has a significant presence across India and promises an easy transportation service.",
+          "Book your Ahmedabad to Statue of Unity taxi with AAVORide today! For a hassle-free and comfortable trip to the Statue of Unity."
+        ]
+      },
+      {
+        subHeading: "Distance, Time & Route Details",
+        description: [
+          "The Statue of Unity is one of the most popular tourist attractions in Gujarat state that attracting tourists from all over the country. Also, people of Ahmedabad and tourists often plan a trip to this beautiful destination. It is one of the perfect weekend getaways and holiday locations near Ahmedabad that offers lots of fun and enjoyment. From Ahmedabad, several routes connect to the Statue of Unity. Below are given the best routes with their respective times and route information."
+        ],
+        "Route: ia NE1 and SH11 (Ahmedabad → Vadodara → Kevadia )": [
+          "It is one of the most common routes that connects both destinations. It is the fastest and well-maintained direct route from Ahmedabad via Vadodara. That provides a very convenient and comfortable experience for the travellers. Also, your trip becomes more comfortable with AAVORide trained drivers that has great driving expertise. The Ahmedabad to Statue of Unity distance from this route is approximately 200km and takes nearly 4 hours of continuous driving to reach there. You can also take short breaks at Vadodara, Dabhoi, Rajpipla and Kevadia for snacks and sightseeing."
+        ],
+        "Best Travel Time": [
+          "Statue of Unity is one of the all-time perfect destinations from Ahmedabad. Not only do the people of the city travel to this, but tourists also plan the Ahmedabad to Statue of Unity route trip. For travellers, the best travel time from Ahmedabad to the Statue of Unity is between October to March. As the weather in the region becomes pleasant and offers comfortable and memorable."
+        ],
+      },
+      {
+        subHeading: "Ahmedabad to Statue of Unity Taxi Fare & Car Options",
+        description: [
+          "AAVORide is a top-tier cab service provider in India. Promise to make your trip budget-friendly. You don’t need to pay extra charges for fuel and driver's allowance; they are included in your cab charges from Ahmedabad to the Statue of Unity. However, you have to pay a little additional charge for tolls and parking, but you have the option to choose a toll and state tax-inclusive price, too. You can pay your bill online with a card and UPI for the Ahmedabad to Statue of Unity taxi fare. AAVORide provides cheap cabs from Ahmedabad to the Statue of Unity for its passengers."
+        ],
+        "Ahmedabad to Statue of Unity Taxi Fare": {
+          comparisonTable: [
+            { vehicleType: "Hatchback (WagonR, Indica)", "Seating Capacity": 4, "One-Way Fare (₹)": "-", "Round-Trip Fare (₹)": "-" },
+            { vehicleType: "Sedan (Dzire, Etios)", "Seating Capacity": 4, "One-Way Fare (₹)": "-", "Round-Trip Fare (₹)": "-" },
+            { vehicleType: "SUV (Ertiga, Marazzo)", "Seating Capacity": 6, "One-Way Fare (₹)": "-", "Round-Trip Fare (₹)": "-" },
+            { vehicleType: "Assured Innova", "Seating Capacity": 6, "One-Way Fare (₹)": "-", "Round-Trip Fare (₹)": "-" },
+            { vehicleType: "Tempo Traveller", "Seating Capacity": 12, "One-Way Fare (₹)": "-", "Round-Trip Fare (₹)": "-" }
+          ]
+        },
+        "Additional costs :": [
+          "Parking charges are extra.",
+          "Toll and state tax are included in the One-way fare. For round trip, it is extra, but you have the option to choose a toll and state tax inclusive price too.",
+          "5% GST extra"
+        ]
+
+      },
+      {
+        subHeading: "Car Rental Service for Ahmedabad to Statue of Unity",
+        description: [
+          "AAVORide is one of India's splendid car rental service providers. We aim to make cab booking easy and comfortable for travellers. For that, AAVORide offers its Ahmedabad to Statue of Unity car rental service. For flexible pickups from Ahmedabad railway station, airport, or hotel, hire a taxi from Ahmedabad to the Statue of Unity with AAVORide. Travellers will get complete flexibility in their trip planning, and perfect for Char Dham Yatra pilgrims, group travel, or elderly passengers. Whether you need a one-way cab or a round-trip, AAVORide ensures affordable, clean, and safe cabs with experienced hill drivers for the Statue of Unity cab service for its passengers."
+        ],
+        "Ahmedabad to Statue of Unity Car Rental Prices": {
+          comparisonTable: [
+            { "car Type": "Hatchback (WagonR, Indica)", "Seating Capacity": 4, "One-Way Fare (₹)": "-" },
+            { "car Type": "Sedan (Dzire, Etios)", "Seating Capacity": 4, "One-Way Fare (₹)": "-" },
+            { "car Type": "SUV (Ertiga, Marazzo)", "Seating Capacity": 6, "One-Way Fare (₹)": "-" },
+            { "car Type": "Assured Innova", "Seating Capacity": 6, "One-Way Fare (₹)": "-" }
+          ]
+        },
+        "Key advantage of AAVORide’s Ahmedabad to Statue of Unity car rental service:": [
+          "Perfect for sightseeing trips, school tours, or corporate visits.",
+          "Clean and comfortable vehicles with on-time pickup and professional drivers.",
+          "Flexible plans for same-day return or overnight stays"
+        ]
+
+      },
+      {
+        subHeading: "How to Book an Ahmedabad to Statue of Unity Taxi Online?",
+        description: [
+          "AAVORide is a premium cab service provider in India, renowned for exceptional cab services with a focus on comfort and safety. There are multiple cab booking options on AAVORide for online cabs from Ahmedabad to the Statue of Unity. To book a cab from Ahmedabad to the Statue of Unity, AAVORide offers multiple platforms, such as our website and mobile application. Further, you can also directly contact our customer service executive for any process issues regarding taxi booking from Ahmedabad to the Statue of Unity.",
+          "Through the Website: AAVORide has a user-friendly website, https://aavoride.in, where travellers can easily book their cab service from Ahmedabad to the Statue of Unity. Here, you get a form where you fill in your pickup and destination addresses. Then on the next page, you get the car option; choose wisely according to your needs.",
+          "Mobile Application: You can also book a cab with the AAVORide mobile app. It is easy to download the AAVORide mobile application on your phone from the Play Store and Apple Store. Here you can easily book your cab from Ahmedabad to the Statue of Unity.",
+          "Customer care: You can also contact AAVORide customer executives to get direct human assistance. We provide 24/7 active customer support to our passengers for timely issue resolution."
+        ],
+        "Step-by-step process for how to book a cab service from Ahmedabad to Statue of Unity with a driver at AAVORide.": [
+          "Visit the AAVORide website or mobile app.",
+          "Enter your pickup location and destination.",
+          "Choose your preferred car type.",
+          "Select your trip type (one-way or round-trip).",
+          "Confirm the booking and make a payment online.",
+          "Receive booking confirmation & driver details."
+        ]
+
+      },
+      {
+        subHeading: "Places to Visit En Route",
+        description: [
+          "Ahmedabad to Statue of Unity road trip has ample sightseeing and tourist attractions. You can enjoy all these beautiful sights by just adding them to your itinerary. AAVORide offers a comfortable ride and reliable service, ensuring you enjoy your trip thoroughly. For more convenience, we handpick some of the most visited places between Ahmedabad and Statue of Unity",
+          "Vadodara: Vadodara is one such city which is known for its royal history and greenery. The Laxmi Vilas Palace here is very famous, which is known for its beautiful architecture, large lawns and for being the historical residence of the Gaekwad royal family. This palace gives a very royal feel, where there is a glimpse of heritage in every corner. On the other hand, Sayaji Baug, i.e. Kamati Baug, is a big garden and zoo where everyone from children to adults gets something or the other to see and enjoy.",
+          "Zarwani Waterfall: Zarwani Waterfall is a calm and beautiful nature spot near Kevadia that is visited for trekking and picnic spots amidst its falling waters, lush green jungle and Shoolpaneshwar Wildlife Sanctuary. This place is perfect for those who wish to spend some time close to nature, away from the hustle and bustle of the city. The peaceful atmosphere and natural beauty of this place touch the heart, seeing which the mind of every traveller stops there.",
+          "Sardar Sarovar Dam: The Sardar Sarovar Dam is a popular spot where people enjoy amazing scenic views and photo clicks, especially inside the Statue of Unity complex. From the viewing gallery and selfie points here, you get a panoramic view of the Narmada River, the grand structure of the dam, and the beautiful landscape around. This place is perfect for those who want to see the blend of modern engineering with nature and want to capture unforgettable moments in their camera."
+        ],
+      },
+      {
+        subHeading: "Frequently Asked Questions - Ahmedabad to Vadodara cab",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Statue Of Unity by car?",
+            answer: "The distance from Ahmedabad to Statue Of Unity by car is 200 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Statue Of Unity by road?",
+            answer: "It takes approx. 3.5 to 4.5 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Statue Of Unity taxi fare?",
+            answer: "Ahmedabad to Statue Of Unity taxi fare is approx. ₹2300 for a good sedan car like Etios, Dzire and is approx. ₹2800 for SUV car.For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Statue Of Unity Innova fare?",
+            answer: "Ahmedabad to Statue Of Unity Innova fare is approx. ₹3800. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Statue Of Unity cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Statue Of Unity cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Statue Of Unity cab."
+          },
+
+          {
+            "question": "Is local sightseeing included in Ahmedabad to Statue Of Unity outstation trip?",
+            "answer": "For round trip and one way multi-stop cab bookings, all local sightseeing in Ahmedabad, Statue Of Unity, and other destination cities in the itinerary is included. For one way cab with only Ahmedabad and Statue Of Unity in the itinerary, sightseeing is not included."
+          },
+          {
+            "question": "How much in advance do I need to book the cab from Ahmedabad to Statue Of Unity?",
+            "answer": "You can book up to 1 hour prior to departure, but it is recommended to book at least 1 day in advance to avoid last minute rush."
+          },
+          {
+            "question": "Can I book cab for Ahmedabad to Statue Of Unity by calling customer support?",
+            "answer": "Customer support can provide clarifications, but cab booking must be done through the website or the AAVORide mobile app (Android/iOS)."
+          },
+          {
+            "question": "Can we pickup additional passengers on the way in Ahmedabad to Statue Of Unity one way taxi?",
+            "answer": "For one way multi-stop cab, you can add additional stops in the itinerary. For one way cab with only Ahmedabad and Statue Of Unity, additional pickup or drop will incur extra charges."
+          },
+          {
+            "question": "Do I need to pay both side Toll tax for Ahmedabad to Statue Of Unity one way cab?",
+            "answer": "No, for one way cab you only need to pay one side Toll tax."
+          },
+          {
+            "question": "When will I get car and driver details after booking Ahmedabad to Statue Of Unity cab?",
+            "answer": "Car and driver details are usually shared within minutes after booking, but in rare cases may take up to two hours before departure."
+          },
+          {
+            "question": "Can I travel with pets?",
+            "answer": "Yes, pets are allowed with an additional charge. Please select the 'Pet Allowed' add-on while booking."
+          }
+
+
+
+        ]
+      }
+    ],
+  },
 ];

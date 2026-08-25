@@ -12,7 +12,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
 
     const data = tripData.find((e: any) => e.slug == slug);
 
-    const { heading, description, sections } = data || {};
+    const { heading, description, sections, coverImage } = data || {};
 
     return (
         <article className="mx-auto w-full min-h-screen pb-16 bg-white">
@@ -21,7 +21,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
 
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src={"/lukshmi-vilas-palace.jpg"}
+                        src= {coverImage ? coverImage : ""}
                         alt="AAVORide Travel Guide"
                         fill
                         sizes="100vw"
