@@ -4,6 +4,8 @@ import "./globals.css";
 import { NavbarWrapper } from "@/components/shared/navbar-wrapper";
 import ScrollToTop from "@/components/ScrollToTop";
 import Image from "next/image";
+import { handleWhatsApp } from "@/lib/utils";
+import Whatsapp from "@/components/Whatsapp";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://aavoride.in"),
@@ -187,20 +189,7 @@ export default function RootLayout({
         <NavbarWrapper />
 
         {children}
-        <div className="rounded fixed -right-1 bottom-21 bg-transparent z-50 animate-pulse-slow">
-          <a
-            href="https://wa.me/919712387840"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              src="/whatsapp_icon.png"
-              alt="WhatsApp Chat"
-              height={100}
-              width={100}
-            />
-          </a>
-        </div>
+        <Whatsapp/>
 
         {/* <FooterSection/> */}
       </body>
