@@ -5,8 +5,7 @@ export function cn(
 }
 
 export const handleWhatsApp = (): void => {
-  const message = `
-Hello, I am interested in booking a ride with AAVORide.
+  const message = `Hello, I am interested in booking a ride with AAVORide.
 
 📍 Pickup Location: pickup
 📍 Drop Location: drop
