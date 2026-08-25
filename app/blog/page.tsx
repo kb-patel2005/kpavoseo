@@ -9,7 +9,7 @@ import {
   CATEGORIES,
   MOCK_DESTINATIONS,
   MOCK_FEATURED_STORIES,
-  tripData,
+  smallCard,
 } from "@/lib/mockData";
 import BlogCard from "@/components/BlogCard";
 import BlogRow from "@/components/BlogRow";
@@ -245,13 +245,13 @@ export default function BlogListingPage() {
             {!isLoading && !isError && (
               <div className="space-y-4">
                 <AnimatePresence mode="popLayout">
-                  {tripData.length > 0 && 
-                    tripData.map((blog,idx)=>(
+                  {smallCard.length > 0 && 
+                    smallCard.map((blog,idx)=>(
                       <SmallCard blog={blog} index={idx} key={blog.heading}/>
                     ))}
                   {allRecentBlogs.length > 0 ? ( 
                     allRecentBlogs.map((blog, idx) => (
-                      <BlogRow key={blog.id} blog={blog} index={tripData.length + idx + 1} />
+                      <BlogRow key={blog.id} blog={blog} index={smallCard.length + idx + 1} />
                     ))
                   ) : (
                     <motion.div

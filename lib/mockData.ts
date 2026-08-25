@@ -43,10 +43,26 @@ export const CATEGORIES = [
   'Road Trips',
 ];
 
-// jaipur : 91.6KB
-// varansi : 92.4Kb
-// high-altitude : 34KB
-// hampi : 89.4KB
+export interface Destination1 {
+  id: number;
+  heading: string;
+  description: string;
+  slug: string;
+  tag: string;
+  coverImage: string;
+}
+
+export const smallCard: Destination1[] = [
+  {
+    id: 1,
+    heading: "Ahmedabad to Vadodara Taxi - Book a Cab Online at Best Fare",
+    description: "Vadodara is also culturally vibrant and full of history. Either go and see the nearby statue of Unity or spend time with the museums, temples and the Laxmi Vilas Palace.",
+    tag: 'Culture',
+    slug: "ahmedabad-to-vadodara",
+    coverImage: "https://visitsou.com/wp-content/uploads/Travel-Guide-to-the-World-Tallest-Statue-Statue-of-Unity.jpg",
+  },
+
+]
 
 export const MOCK_DESTINATIONS: Destination[] = [
   {
@@ -84,10 +100,10 @@ export const MOCK_FEATURED_STORIES: Blog[] = [
   {
     id: 'featured-1',
     slug: 'location/ahmedabad-to-statue-of-unity',
-    title: 'Ahmedabad to Statue of Unity Taxi - Book Safe & Affordable Cab Service | AAVORide',
+    title: 'Ahmedabad to Statue of Unity Taxi | AAVORide',
     excerpt: "Statue of Unity is the world’s tallest statue, dedicated to the Iron Man of India - Sardar Vallabhbhai Patel. This grand statue is built on the banks of the Narmada River in Kevadia and is a must-visit on every Indian traveller’s bucket list.",
     coverImage: "https://visitsou.com/wp-content/uploads/Travel-Guide-to-the-World-Tallest-Statue-Statue-of-Unity.jpg",
-    tag: 'Spiritual',
+    tag: 'CULTURE',
     readTime: '15 min read',
     publishDate: 'Jan 20, 2026',
     author: {
@@ -122,10 +138,10 @@ export const MOCK_FEATURED_STORIES: Blog[] = [
   },
   {
     id: 'featured-2',
-    slug: 'luxury-heritage-hotels-rajasthan',
-    title: 'Luxury Heritage Hotels in Rajasthan | Udaipur | AAVORide',
+    slug: 'location/ahmedabad-to-udaipur',
+    title: 'Ahmedabad to Udaipur Cab Service at Lowest Price | AAVORide',
     excerpt: "Discover Rajasthan's finest luxury heritage hotels near Udaipur. Plan a scenic road trip with AAVORide — explore top stays, routes, and travel tips.",
-    coverImage: '/images/featured-guide3.jpg',
+    coverImage: "https://upload.wikimedia.org/wikipedia/commons/0/01/Udaipur-citypalace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original", 
     tag: 'Luxury',
     readTime: '12 min read',
     publishDate: 'Jan 18, 2026',
@@ -576,6 +592,7 @@ export const tripData = [
   {
     id: 1,
     slug: "ahmedabad-to-vadodara",
+    tag: "ROAD TRIP",
     heading: "Ahmedabad to Vadodara Taxi - Book a Cab Online at Best Fare",
     description: [
       "Vadodara is also culturally vibrant and full of history. Either go and see the nearby statue of Unity or spend time with the museums, temples and the Laxmi Vilas Palace. The city caters for the tourist on all accounts with educational experiences, Royal history and exciting local life. It is also commonly referred to as Baroda and is most famous for its Royal past.",
@@ -826,6 +843,7 @@ export const tripData = [
   {
     id: 2,
     slug: "ahmedabad-to-statue-of-unity",
+    tag: "LANDMARK",
     heading: "Ahmedabad to Statue of Unity Taxi - Book Safe & Affordable Cab Service",
     description: [
       "Statue of Unity is the world’s tallest statue, dedicated to the Iron Man of India - Sardar Vallabhbhai Patel. This grand statue is built on the banks of the Narmada River in Kevadia and is a must-visit on every Indian traveller’s bucket list. On the other hand, Ahmedabad - the vibrant city of Gujarat - is known for its rich heritage, booming business hubs, and cultural essence.",
@@ -833,7 +851,7 @@ export const tripData = [
       "AAVORide provide Ahmedabad to Statue of Unity taxi service that offers you clean and sanitised cabs, experienced drivers, and multiple booking options - one-way or round-trip, as suits you. It's time for stress-free travel.",
       "So what's the delay? Book your Ahmedabad to Statue of Unity cab now on AAVORide!"
     ],
-    coverImage:"https://visitsou.com/wp-content/uploads/Travel-Guide-to-the-World-Tallest-Statue-Statue-of-Unity.jpg", 
+    coverImage: "https://visitsou.com/wp-content/uploads/Travel-Guide-to-the-World-Tallest-Statue-Statue-of-Unity.jpg",
     sections: [
       {
         subHeading: "Why Book an Ahmedabad to Statue of Unity Cab with AAVORide?",
@@ -1001,6 +1019,320 @@ export const tripData = [
 
 
         ]
+      }
+    ],
+  },
+  {
+    id: 3,
+    slug: "ahmedabad-to-udaipur",
+    heading: "Ahmedabad to Udaipur Cab Service at Lowest Price",
+    tag: "ROYAL ESCAPE",
+    description: [
+      "AAVORide is one of the leading cab service providers in India. Ahmedabad to Udaipur taxi booking with us ensures privacy, flexibility, and the comfort of doorstep pickup and drop-off. AAVORide always promises an amazing journey by providing neat and nice cars, courteous and skilled drivers, instant booking confirmation, on-time pickup and drop, price without any hidden charges, and free 24/7 customer support. This is the main reason that thousands of passengers rely on AAVORide for their taxi service in Ahmedabad.",
+      "AAVORide provides wide cab options like SUV, Sedan, or Tempo Traveller. AAVORide is India's number one intercity taxi platform and the most reliable choice. Just decide on one-way or round trip and travel without apprehensions, so book a reliable Ahmedabad to Udaipur cab at ₹3333 and travel with a 20% discount. Choose our trusted Ahmedabad to Udaipur taxi service. Price starts at ₹9/km.",
+      "Book your cab from Ahmedabad to Udaipur today and travel in comfort, safety, and style."
+    ],
+    coverImage: "https://upload.wikimedia.org/wikipedia/commons/0/01/Udaipur-citypalace.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Udaipur Taxi Fare | Best Price and Lowest Price Guarantee",
+        description: [
+          "To make planning your vacation easier, AAVORide provides on-demand transportation services to customers using a ride-hailing platform. It is very easy, safe, affordable, and comfortable to book a taxi from Ahmedabad to Udaipur. With AAVORide, book a taxi from Ahmedabad to Udaipur and enjoy the journey without any worry about travel arrangements with AAVORide with an Ahmedabad to Udaipur cab at ₹3333."
+        ],
+        "Ahmedabad to Udaipur Taxi Fare ":
+        {
+          comparisonTable: [
+            {
+              vehicleType: "Hatchback",
+              models: ["WagonR", "Indica"],
+              seatingCapacity: 4,
+              oneWayFare: null, // plug in actual fare later
+              roundTripFare: null,
+              perKmRate: 9,
+              bestFor: "Solo/Couples trips"
+            },
+            {
+              vehicleType: "Sedan",
+              models: ["Dzire", "Etios"],
+              seatingCapacity: 4,
+              oneWayFare: null,
+              roundTripFare: null,
+              perKmRate: 9,
+              bestFor: "Comfortable family ride"
+            },
+            {
+              vehicleType: "SUV",
+              models: ["Ertiga", "Marazzo", "Xylo"],
+              seatingCapacity: 6,
+              oneWayFare: null,
+              roundTripFare: null,
+              perKmRate: 12.5,
+              bestFor: "Group/family travel"
+            },
+            {
+              vehicleType: "Assured Innova",
+              models: ["Innova", "Innova Crysta"],
+              seatingCapacity: 6,
+              oneWayFare: null,
+              roundTripFare: null,
+              perKmRate: 13.5,
+              bestFor: "Luxury outstation trips"
+            },
+            {
+              vehicleType: "Tempo Traveller",
+              models: ["Force Traveller"],
+              seatingCapacity: "12–17",
+              oneWayFare: null,
+              roundTripFare: null,
+              perKmRate: "On Request",
+              bestFor: "Large groups / Group tours"
+            }
+          ]
+        },
+        "Ahmedabad to Udaipur Taxi Fare - Additional Charges & Important Info": [
+          "Parking charges are not part of the standard cab fare from Ahmedabad to Udaipur and will have to be paid separately if applicable.",
+          "In the case of a one-way taxi from Ahmedabad to Udaipur, the toll and state tax are already included in your fare.",
+          "But for round trips, tolls and state taxes can be charged additionally if you have not chosen a fare plan that includes them.",
+          "A 5% GST is applicable on all cab packages from Ahmedabad to Udaipur as per the government regulations.",
+          "Note: The total fare can be a little different depending on the route, the traffic, or the season. AAVORide takes utmost care in maintaining complete transparency, and hence, there are no hidden charges."
+        ]
+      },
+      {
+        subHeading: "Ahmedabad to Udaipur Route, Distance, Time, Pit Stops, and Driving Tips",
+        description: [
+          "Ahmedabad to Statue of Unity distance: The Statue of Unity is approximately 200 km from Ahmedabad via Vadodara, making it a comfortable 3.5 to 4 hour drive. Booking a cab with AAVORide ensures a smooth highway journey with reliable vehicles and professional drivers.",
+          "Ahmedabad to Statue of Unity travel time: A taxi from Ahmedabad to the Statue of Unity generally takes 3.5 to 4 hours depending on traffic, road conditions, and weather. During weekends, holidays, or tourist seasons, travel time may extend slightly. AAVORide drivers help you plan the best departure window for a timely trip.",
+          "Common Ahmedabad to Statue of Unity highways: The most popular route is via NH 48 (Ahmedabad–Vadodara Expressway) and then connecting to NH 64 towards Kevadia. This route offers excellent road quality, clear signage, and multiple refreshment stops along the way.",
+          "Booking options: Travellers can book their cab through the AAVORide website (https://aavoride.in), mobile application (available on Play Store and Apple Store), or by contacting our 24/7 customer care team for personalized assistance."
+        ],
+        "Recommended food and fuel pit stops on the Ahmedabad to Udaipur route": [
+          "Gandhinagar: It is a perfect first stop for a refreshing start on your journey; moreover, this area has many clean restaurants and cafes where you can take a cab from Ahmedabad to Udaipur or a one-way cab from Ahmedabad to Udaipur for breakfast. Here, you get multiple fuel stations for a quick top-up before entering the highways.",
+          "Himatnagar: It is a major pit stop for travellers going from Ahmedabad to Udaipur by car. It is popular for dhabas, branded fast food joints, clean washrooms, and several fuel pumps. Moreover, it is ideal for a meal break, also a safe halt point for families travelling by Ahmedabad to Udaipur taxi.",
+          "Shamlaji: It is a peaceful mid-route destination. The Shamlaji temple adds a cultural touch to your journey, and the surroundings are very scenic. Mostly, taxis from Ahmedabad to Udaipur stop here for refreshment. Fuel availability is good, and you can stretch your legs before moving ahead.",
+          "Kherwara: It is a quiet and pleasant point to take a short rest before entering the hilly area near Udaipur. By getting an Ahmedabad to Udaipur one-way taxi, you will enjoy the best ride; moreover, it is useful during long weekend rush when the traffic gets heavy."
+        ],
+        "Driving tips for Ahmedabad to Udaipur cab and taxi": [
+          "Start early in the morning for your Ahmedabad to Udaipur by car trip to avoid traffic around Ahmedabad and Gandhinagar.",
+          "The road condition on NH 48 is generally smooth, but you may experience small diversions or ongoing repairs. Maintain a moderate speed for a safe Ahmedabad to Udaipur by car drive.",
+          "During the Monsoon season, the Himatnagar stretch may get slightly slippery, so keep extra caution when travelling by cab from Ahmedabad to Udaipur.",
+          "Keep snacks, water, and basic medicine handy, especially if you are booking a one-way taxi from Ahmedabad to Udaipur with kids or senior citizens.",
+          "The best route and real-time guidance will be given to you by your taxi from Ahmedabad to Udaipur, depending on road and traffic conditions."
+        ],
+        "Popular route overview": [
+          "Ahmedabad→Gandhinagar→Himatnagar→Shamlaji→Kherwana→Udaipur"
+        ],
+      },
+      {
+        subHeading: "Places to Visit in Udaipur | Top Attractions for Ahmedabad to Udaipur Trip",
+        description: [
+          "Udaipur is fondly known as the City of Lakes, is a crown jewel of Rajasthan. Dotted with serene lakes, majestic palaces, and romantic architecture, this city offers a beautiful blend of royal charm with cultural richness. Whether you're planning a quick getaway, a family vacation, or a work-related trip, the drive from Ahmedabad to Udaipur promises a memorable journey. Here you can book an outstation, a round-trip or an airport cab in Udaipur.",
+        ],
+        "": [
+          "City place: It is the crown jewel of Udaipur tourism, its intricate architecture, stunning courtyards, vast museum, and a panoramic view of Lake Pichole make it the top attraction for anyone arriving in an Ahmedabad to Udaipur cab or one-way cab in Udaipur. Exploring this majestic palace is a must, especially if you are on a family trip or a romantic getaway.",
+          "Lake Pichole: It is one of the prettiest lakes in India. Here, you can enjoy a boat ride and get beautiful views of the city palace, Gangaur Ghat, and Arsi Vilas. You can reach Udaipur by cab from Ahmedabad to Udaipur or Ahmedabad to Udaipur by car.",
+          "Fateh Sagar Lake: Often called the heart of Udaipur, Fateh Sagar Lake is surrounded by Aravalli hills and has three small islands, including Nehru Garden. It is the perfect place for evening walks, photography, and enjoying local snacks.",
+          "Sajjangarh Monsoon Palace: Situated on a hill, Sajjangarh Palace offers the best sunset view in the city. The drive to the top is scenic and perfect if you are travelling from Ahmedabad to Udaipur by car or planning a day trip in a Udaipur city tour cab. The palace gives breathtaking views of Udaipur's lakes and mountains.",
+          "Jagdish Temple: Located near the city palace, Jagdish Temple is a beautiful architectural masterpiece dedicated to Lord Vishnu. It is one of the spiritual highlights of any Udaipur visit. Our Udaipur local sightseeing taxi or a full-day taxi in Udaipur can easily take you there after your arrival by taxi from Ahmedabad to Udaipur.",
+          "Saheliyon Ki Bari: This historic royal garden is known for its fountains, marble structures and lotus pools. It is peaceful, beautiful and ideal for photographers. Here you can book a taxi service in Udaipur to include this garden to unwind after your journey.",
+          "Bagore ki Havelli: It is a famous place for its evening cultural dance show Dharohar. It is an unmissable experience. If you arrive by one-way cab from Ahmedabad to Udaipur, this is a great place to unwind after your journey.",
+          "Neemach Mata Temple: The temple sits on top of a hill beside Fateh Sagar Lake, offering scenic views. The climb is enjoyable and can also be reached conveniently through your Udaipur local sightseeing taxi or a one-way taxi from Ahmedabad to Udaipur."
+
+        ]
+      },
+      {
+        subHeading: "How to Book a Ahmedabad to Udaipur Cab at the Best Price?",
+        description: [
+          "It is very easy and comfortable to Book an Ahmedabad to Udaipur cab with AAVORide. You can simply use our app or website to book a cab ride anytime. With the help of 24/7 customer service, an instant confirmation, and a lowest-price guarantee, AAVORide is the one to offer you a trouble-free, dependable, and comfortable road trip from Ahmedabad to Udaipur cab at ₹3333."
+        ],
+        " ": [
+          "Come to AAVORide.com and provide your travel details. Enter your route, date, and time.",
+          "Select a car of your choice - Hatchback, Sedan, SUV, Innova Crysta, or Tempo Traveller.",
+          "Review the full fare with no unexpected charges later.",
+          "Book your cab and get the information of the driver and the vehicle immediately.",
+          "Get 24/7 customer support: +91-8796809009, whenever you want during your trip.",
+          "Book a cab from Ahmedabad to Udaipur with AAVORide today for hassle-free, convenient, and punctual travel- at the most affordable fare."
+        ]
+
+      },
+      {
+        subHeading: "AAVORide’s Cab Service for Ahmedabad to Udaipur",
+        description: [
+          "AAVORide provides several taxi services over the routes in India. Also, on the route from Ahmedabad to Udaipur, AAVORide offers Ahmedabad to Udaipur one-way taxi from Ahmedabad to Udaipur, round-trip, or rental car service with a commitment to a safe, secure, and comfortable ride. Our expert chauffeur, well-maintained car fleet and wide range of services at an affordable price catch the attention of travellers."
+        ],
+        " ": [
+          "Ahmedabad Local City Cabs: Ahmedabad local city cabs are perfect for convenient and comfortable travel within the city, here if you want to visit Sabarmati riverfront, Law Garden, CG road, or any nearby local attractions local cabs in Ahmedabad or by a full day taxi in Ahmedabad, that offer a seamless point to point pickups, AAVORide cabs are ideal for daily travel, shopping trips, hospital visits, and city sightseeing with reliable drivers.",
+          "Ahmedabad Airport Cab Service: With AAVORide, an airport cab in Ahmedabad service ensures smooth transfers to and from Sardar Vallabhbhai Patel International Airport. With AAVORide on-time pickups, modern vehicles, and professional drivers, airport cabs in Ahmedabad help you avoid delays and long queues. You can pre-book your airport taxi or hassle-free travel to any of the city or surrounding areas.",
+          "Outstation Cabs From Ahmedabad: The outstation cabs from Ahmedabad are best for planning long trips to destinations like Udaipur, Mount Abu, Vadodara, Surat, the Statue of Unity, and Many more. You can hire a cab with AAVORide, which offers safe, comfortable, and affordable travel for families, groups, and solo travellers as well.",
+          "Corporate Cabs From Ahmedabad: A corporate cab from Ahmedabad is tailored for business travellers who need punctual, comfortable, and professional transportation. AAVORide cabs are suitable for office commutes, employee pickups and drop-offs, meetings, client visits, and corporate events. With the well-maintained vehicles and experienced drivers, AAVORide ensures a smooth travel experience.",
+          "One Way Cabs in Ahmedabad: To travel to destinations like Vadodara, Surat, Rajkot, Udaipur, or Gandhipuram, you can get one-way cabs in Ahmedabad with AAVORide without paying for the return trip. The cabs offer an economical and flexible travel option with guaranteed one-sided billing. It is a great choice for relocation, airport transfers, and outstation trips as well.",
+          "Hourly rental Cabs in Ahmedabad: Get an hourly rental cab in Ahmedabad to get the freedom to keep the cab with you for a fixed number of hours. This is perfect for business meetings, shopping, weddings, or full-day sightseeing. AAVORide offers affordable hourly car rental in Ahmedabad that starts from only 2 hours or 20 km.",
+          "Tempo Traveller in Ahmedabad: A tempo traveller in Ahmedabad is the ideal choice for group travel, family trips, corporate outings, and pilgrimage. With spacious seating, ample luggage space, and a comfortable interior, it is suitable for both local and outstation journeys. Here you can book various seating options like 9 seater, 12 seater, 17 seater, and more, depending on your group size.",
+        ]
+      },
+      {
+        subHeading: "Why Choose AAVORide for Ahmedabad to Udaipur Taxi?",
+        description: ["AAVORide provides the cheapest Ahmedabad to Udaipur cab fare, along with full price transparency. There are no hidden costs and last-minute surprises in your fare. Select the most suitable cab, depending on your group size, luggage, and comfort requirements. By using our transparent rates and professional chauffeurs, AAVORide promises that you will have the most affordable Ahmedabad to Udaipur taxi fare at ₹3333 without any safety or comfort being compromised."],
+        " ": [
+          "Transparent Pricing: Your trust is our priority, and that starts with clean and honest billing. From base fare to tolls and taxes, everything is shared with you beforehand. With AAVORide, every journey comes with peace of mind and complete transparency.",
+          "Instant Booking Confirmation: Book your cab within a few seconds. Enjoy instant booking and on-time sharing of details of the driver and the cab with AAVORide.",
+          "Verified & Skilled Drivers: On every journey, your safety and security are ensured by the professional chauffeur who has been checked for their background.",
+          "Wide fleet: To make every journey experience personalised and affordable, AAVORide has crafted several car options for its passengers, using different services. You can book a Sedan, SUV, Hatchback, Innova Crysta, or Tempo Traveller as your Ahmedabad to Udaipur cab.",
+          "Flexible Trip Options: If you want to, you can just take a one-way ride, or a round trip, or even multi-day travel, all depending on your plans.",
+          "Pet-Friendly Cabs: Furthermore, we also have the option of pet-friendly cabs, so that your adorable companions can have a comfortable journey with you.",
+          "24/7 Customer Support: Our support team will assist you with the booking as well as the travel process around the clock. Our customer support number is 0806824940.",
+          "Luggage-Friendly Rides: AAVORide offers the option of assured luggage for comfortable travel. Either you get a comfortable boot space or a carriage so that you never have to worry about carrying your extra bags.",
+          "Latest Car Models Available: Depending on the number of people in your group, you may go for the models such as Swift, Dzire, Innova Crysta, or Tempo Traveller and the choice is yours.",
+          "Pan-India Cab Bookings: You can book a cab across India with AAVORide's nationwide network. Our nationwide cab network offers reliable taxi service in India at the best price at ₹3333."
+        ],
+      },
+      {
+        subHeading: "Popular Pickup Points in Ahmedabad for Ahmedabad to Udaipur Cab",
+        description: ["AAVORide offers its Ahmedabad to Udaipur car hiring service. Also, to make it affordable, AAVORide offers the best Ahmedabad to Udaipur taxi fare options. Ahmedabad to Udaipur taxi booking with AAVORide offers multiple advantages for travellers. The locations from where the seamless pickups are offered include Ahmedabad Airport, Ahmedabad Junction Railway Station, Sabarmati Junction, CG Road, SG Highway, Maninagar, Prahlad Nagar, Bopal, Thaltej, Naroda Patiya, and many other popular pickup points that you want. Your driver will definitely contact you before reaching you. He will take the most efficient route from Ahmedabad to Udaipur based on the live traffic updates."],
+      },
+      {
+        subHeading: "Other Most Popular Routes from Ahmedabad",
+        description: ["AAVORide provides reliable and affordable cab services from Ahmedabad to Udaipur. Whether you're looking for the cheapest cab from Ahmedabad to Udaipur, a comfortable SUV for family travel, or a sedan for a couple's trip, AAVORide ensures you enjoy a smooth and safe journey. Plan your Ahmedabad to Udaipur by car today, discover all the charming places, and let AAVORide make your hill station escape comfortable and memorable. Choose the right Ahmedabad to Udaipur car package that fits your plan and travel comfortably."],
+        " ": {
+          comparisonTable: [
+            {
+              route: "Ahmedabad to Mount Abu Cab",
+              distance: "226 Km",
+              travelTime: "5.5 Hrs",
+              cabFareStartingFrom: 3126
+            },
+            {
+              route: "Ahmedabad to Surat Cab",
+              distance: "263 Km",
+              travelTime: "5 Hrs",
+              cabFareStartingFrom: 3319
+            },
+            {
+              route: "Ahmedabad to Mumbai Cab",
+              distance: "524 Km",
+              travelTime: "10 Hrs",
+              cabFareStartingFrom: 7740
+            },
+            {
+              route: "Ahmedabad to Statue of Unity Taxi",
+              distance: "198 Km",
+              travelTime: "3.5 Hrs",
+              cabFareStartingFrom: 3126
+            },
+            {
+              route: "Ahmedabad to Shankheshwar Taxi",
+              distance: "120 Km",
+              travelTime: "3 Hrs",
+              cabFareStartingFrom: 1878
+            },
+            {
+              route: "Ahmedabad to Nathdwara Taxi",
+              distance: "309 Km",
+              travelTime: "5 Hrs",
+              cabFareStartingFrom: 4686
+            }
+          ],
+          description: "You can book an affordable service from Ahmedabad to Udaipur taxi fare at ₹3333 with AAVORide, starting at just ₹9 per km. Enjoy the most affordable and reliable cab service in Ahmedabad with AAVORide, your trusted travel partner across India.",
+        },
+        "": {
+          comparisonTable: [
+            {
+              route: "Ahmedabad to Udaipur Taxi",
+              distance: "263 Km",
+              travelTime: "5.5 Hrs",
+              cabFareStartingFrom: 3464
+            },
+            {
+              route: "Kumbhalgarh to Udaipur Taxi",
+              distance: "84 Km",
+              travelTime: "2 Hrs",
+              cabFareStartingFrom: 1677
+            },
+            {
+              route: "Chittorgarh to Udaipur Taxi",
+              distance: "114 Km",
+              travelTime: "2 Hrs",
+              cabFareStartingFrom: 2525
+            },
+            {
+              route: "Jaisalmer to Udaipur Taxi",
+              distance: "487 Km",
+              travelTime: "8 Hrs",
+              cabFareStartingFrom: 7361
+            },
+            {
+              route: "Abu to Udaipur Taxi",
+              distance: "152 Km",
+              travelTime: "3 Hrs",
+              cabFareStartingFrom: 2615
+            },
+            {
+              route: "Falna to Udaipur Taxi",
+              distance: "127 Km",
+              travelTime: "2.5 Hrs",
+              cabFareStartingFrom: 2525
+            }
+          ]
+        },
+      },
+      {
+        subHeading: "Frequently Asked Questions - Ahmedabad to Vadodara cab",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Udaipur by car?",
+            answer: "The distance from Ahmedabad to Udaipur by car is 261 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Udaipur by road?",
+            answer: "It takes approx. 4.5 to 6 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Udaipur taxi fare?",
+            answer: "Ahmedabad to Udaipur taxi fare is approx. ₹3333 for a good sedan car like Etios, Dzire and is approx. ₹4449 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Udaipur Innova fare?",
+            answer: "Ahmedabad to Udaipur Innova fare is approx. ₹5449. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Udaipur cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Udaipur cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Udaipur cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Udaipur outstation trip?",
+            answer: "For Ahmedabad to Udaipur Round trip cab, all the local sightseeing in Ahmedabad, Udaipur and other destination cities in itinerary is included. For Ahmedabad to Udaipur One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Udaipur and other destination cities in itinerary is included. For Ahmedabad to Udaipur One way cab i.e. with only Ahmedabad and Udaipur in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Udaipur?",
+            answer: "Although you can book Ahmedabad to Udaipur cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Udaipur by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Udaipur cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Udaipur one way taxi?",
+            answer: "You may book Ahmedabad to Udaipur One way multi-stop cab by adding additional stops in itinerary. For Ahmedabad to Udaipur One way taxi with only Ahmedabad and Udaipur in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Udaipur one way cab?",
+            answer: "For Ahmedabad to Udaipur One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Udaipur cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Udaipur cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Udaipur cab."
+          }
+        ]
+
+
       }
     ],
   },

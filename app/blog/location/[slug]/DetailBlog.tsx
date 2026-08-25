@@ -21,7 +21,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
 
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src= {coverImage ? coverImage : ""}
+                        src={coverImage ? coverImage : ""}
                         alt="AAVORide Travel Guide"
                         fill
                         sizes="100vw"
@@ -258,6 +258,8 @@ export default function DetailBlog({ slug }: { slug: string }) {
                                     );
                                 }
 
+
+
                                 // Nested object (like oneWay)
                                 if (typeof value === "object" && !Array.isArray(value)) {
                                     return (
@@ -296,17 +298,31 @@ export default function DetailBlog({ slug }: { slug: string }) {
                                         <div key={key} className={`border rounded-xl p-6 bg-white shadow-sm ${isLastOdd ? "col-span-1 lg:col-span-2" : ""}`}>
                                             <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
                                             <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-                                                {value.map((d: string, i: number) => <li key={i} className='text-slate-600 font-medium text-base md:text-base leading-relaxed mb-2'>{d}</li>)}
+                                                {Array.isArray(value)
+                                                    ? value.map((para: string, i: number) => {
+                                                        if (para.includes(":")) {
+                                                            const [left, ...rest] = para.split(":");
+                                                            const right = rest.join(":");
+                                                            return (
+                                                                <p key={i} className="text-slate-600 font-medium text-base md:text-base leading-relaxed mb-2">
+                                                                    <span className="font-bold">{left}:</span> {right}
+                                                                </p>
+                                                            );
+                                                        }
+                                                        return <p key={i} className="text-slate-600 font-medium text-base md:text-base leading-relaxed mb-2">{para}</p>;
+                                                    })
+                                                    : <p className="text-slate-600 font-medium text-base md:text-base leading-relaxed mb-2">{section.description}</p>
+                                                }
+                                                {/* {value.map((d: string, i: number) => <li key={i} className='text-slate-600 font-medium text-base md:text-base leading-relaxed mb-2'>{d}</li>)} */}
                                             </ul>
                                         </div>
                                     );
                                 }
 
                                 // Strings
-                                if (typeof value === "string") {
+                                if (typeof value === "string" && key == "stop") {
                                     return (
                                         <div key={key} className={`border rounded-lg p-6 bg-white shadow-sm ${isLastOdd ? "col-span-1 lg:col-span-2" : ""}`}>
-                                            <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
                                             <p className="text-sm text-gray-700">{value}</p>
                                         </div>
                                     );

@@ -15,6 +15,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "visitsou.com",
       },
+      {
+        protocol: "https",
+        hostname: "upload.wikimedia.org",
+      }
   
     ],
   },
