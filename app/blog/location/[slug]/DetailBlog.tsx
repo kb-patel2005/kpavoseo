@@ -21,17 +21,18 @@ export default function DetailBlog({ slug }: { slug: string }) {
 
                 <div className="absolute inset-0 z-0">
                     <Image
-                        src={coverImage ? coverImage : ""}
+                        src={coverImage || ""}
                         alt="AAVORide Travel Guide"
                         fill
                         sizes="100vw"
                         priority
-                        className="object-cover select-none"
+                        className="object-cover object-top object-center select-none"
                     />
                     {/* Gradient overlays */}
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent" />
                     <div className="absolute inset-0 bg-slate-950/20" />
                 </div>
+
 
                 {/* Content over banner */}
                 <div className="absolute inset-0 z-10 flex items-center pt-16">

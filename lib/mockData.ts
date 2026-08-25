@@ -59,7 +59,8 @@ export const smallCard: Destination1[] = [
     description: "Vadodara is also culturally vibrant and full of history. Either go and see the nearby statue of Unity or spend time with the museums, temples and the Laxmi Vilas Palace.",
     tag: 'Culture',
     slug: "ahmedabad-to-vadodara",
-    coverImage: "https://visitsou.com/wp-content/uploads/Travel-Guide-to-the-World-Tallest-Statue-Statue-of-Unity.jpg",
+    coverImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/24/3b/lukshmi-vilas-palace.jpg?w=800&h=500&s=1",
+    
   },
 
 ]
@@ -102,7 +103,7 @@ export const MOCK_FEATURED_STORIES: Blog[] = [
     slug: 'location/ahmedabad-to-statue-of-unity',
     title: 'Ahmedabad to Statue of Unity Taxi | AAVORide',
     excerpt: "Statue of Unity is the world’s tallest statue, dedicated to the Iron Man of India - Sardar Vallabhbhai Patel. This grand statue is built on the banks of the Narmada River in Kevadia and is a must-visit on every Indian traveller’s bucket list.",
-    coverImage: "https://visitsou.com/wp-content/uploads/Travel-Guide-to-the-World-Tallest-Statue-Statue-of-Unity.jpg",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlpE-3KBhbjMhwGiwlV-r4cJQ2XskUsaagVsVB5d_9XA&s=10",
     tag: 'CULTURE',
     readTime: '15 min read',
     publishDate: 'Jan 20, 2026',
