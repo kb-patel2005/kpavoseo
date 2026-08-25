@@ -49,7 +49,7 @@ export default function BlogCard({ blog, index }: BlogCardProps) {
           priority={index < 3}
         />
 
-        <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent z-1" />
+        <div className="absolute bottom-0 inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent z-1" />
         <div className="absolute inset-0 bg-orange-950/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-1" />
       </div>
 
@@ -61,18 +61,18 @@ export default function BlogCard({ blog, index }: BlogCardProps) {
         </span>
       </div>
 
-      <div className="relative z-20 p-6 flex flex-col space-y-3">
+      <div className="relative z-20 p-6 flex flex-col space-y-3 opacity-0.8 text-shadow-2xs">
         <h3 className="text-xl font-extrabold text-white leading-tight tracking-tight group-hover:text-orange-200 transition-colors duration-200">
           {blog.title}
         </h3>
 
-        <p className="text-xs text-slate-300 font-medium line-clamp-2 leading-relaxed opacity-90 group-hover:text-slate-200 transition-all duration-200">
+        <p className="text-xs text-white font-medium line-clamp-2 leading-relaxed opacity-90 group-hover:text-slate-200 transition-all duration-200">
           {blog.excerpt}
         </p>
 
         <div className="h-[1px] w-full bg-slate-800 my-2" />
 
-        <div className="flex items-center space-x-4 text-[11px] text-slate-400 font-semibold">
+        <div className="flex items-center space-x-4 text-[11px] text-white font-semibold">
           <div className="flex items-center space-x-1.5">
             <Clock className="h-3.5 w-3.5 text-[#FF4D30]" />
             <span>{blog.readTime}</span>

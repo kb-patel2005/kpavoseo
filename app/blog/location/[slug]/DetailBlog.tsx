@@ -1,18 +1,38 @@
 'use client'
 
-import { tripData } from '@/lib/mockData';
-import React from 'react'
+import { CATEGORIES, MOCK_DESTINATIONS, tripData } from '@/lib/mockData';
+import React, { useState } from 'react'
 
-import { ArrowRightIcon, Clock, Compass } from "lucide-react";
-import { motion } from "framer-motion";
+import { ArrowRightIcon, Clock, Compass, Loader2 } from "lucide-react";
+import { AnimatePresence, motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
+import DestinationCard from '@/components/DestinationCard';
+import SmallCard from './SmallCard';
+import { Skeleton } from '@/components/ui/skeleton';
+import { useInfiniteBlogs } from '@/hooks/useBlogs';
+import BlogRow from '@/components/BlogRow';
+import { useRouter } from 'next/navigation';
 
 export default function DetailBlog({ slug }: { slug: string }) {
 
     const data = tripData.find((e: any) => e.slug == slug);
 
+    const [activeCategory, setActiveCategory] = useState<string>(data?.tag ?? "All Stories");
+
+    // React Query Fetch using Infinite Scroll
+    const {
+        data: recentData,
+        fetchNextPage,
+        hasNextPage,
+        isFetchingNextPage,
+        isLoading: isRecentLoading,
+    } = useInfiniteBlogs(activeCategory, "", 3);
+
+    const recentBlogs = recentData?.pages.flatMap((page) => page.blogs) || [];
+
     const { heading, description, sections, coverImage } = data || {};
+    const router = useRouter()
 
     return (
         <article className="mx-auto w-full min-h-screen pb-16 bg-white">
@@ -26,7 +46,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
                         fill
                         sizes="100vw"
                         priority
-                        className="object-cover object-top object-center select-none"
+                        className="object-cover  select-none"
                     />
                     {/* Gradient overlays */}
                     <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent" />
@@ -367,6 +387,178 @@ export default function DetailBlog({ slug }: { slug: string }) {
                         </button>
                     </Link>
                 </motion.div>
+            </div>
+
+            {/* <div className='w-full'>
+                <div className=" overflow-x-auto flex scrollbar-none space-x-2 pb-2 border-b-0 md:border-b border-slate-200 justify-start align-middle mx-auto max-w-7xl mt-5">
+                    {CATEGORIES.map((category) => {
+                        const isActive = activeCategory === category.toUpperCase();
+                        return (
+                            <button
+                                key={category}
+                                onClick={() => {
+                                    const newCat = category.replace(/\s+/g, "-")
+                                    category == "All Stories" ? router.push('/blog') : router.push(`/blog/category/${newCat}`)
+                                }}
+                                className={`relative px-4 py-2 text-xs md:text-sm font-bold rounded-full transition-all duration-200 shrink-0 select-none ${isActive
+                                    ? "text-white bg-[#FF4D30] shadow-md"
+                                    : "text-slate-500 hover:text-slate-800 hover:bg-slate-100"
+                                    }`}
+                            >
+                                <span>{category}</span>
+                                {isActive && (
+                                    <motion.div
+                                        layoutId="activeDetailCategoryIndicator"
+                                        className="absolute inset-0 bg-[#FF4D30] rounded-full -z-10 shadow-sm"
+                                        transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                                    />
+                                )}
+                            </button>
+                        );
+                    })}
+                </div>
+                <div className="flex items-center justify-between max-w-7xl mx-auto my-3 lg:my-7">
+                    <h2 className="text-2xl font-black text-slate-800 tracking-tight flex items-center space-x-2">
+                        <span className="block h-6 w-1 bg-[#FF4D30] rounded-full" />
+                        <span>Related Travel Guides</span>
+                    </h2>
+                </div>
+
+                <div className="space-y-4 max-w-7xl mx-auto">
+                    <AnimatePresence mode="popLayout">
+                        {tripData.length > 0 &&
+                            tripData.map((blog, idx) =>
+                                (blog.tag.toLocaleLowerCase() == activeCategory.toLocaleLowerCase() || activeCategory == "All Stories") &&
+                                <SmallCard blog={blog} index={idx} key={blog.heading} />
+                            )}
+                        {recentBlogs.length > 0 ? (
+                            recentBlogs.map((rBlog, idx) => (
+                                <BlogRow key={rBlog.id} blog={rBlog} index={idx} />
+                            ))
+                        ) : (
+                            <div className="bg-white border border-slate-100 rounded-3xl p-12 text-center flex flex-col items-center justify-center space-y-2">
+                                <h3 className="text-base font-bold text-slate-700">
+                                    No articles found
+                                </h3>
+                                <p className="text-xs text-slate-500 max-w-xs">
+                                    We couldn&apos;t find any articles under this category
+                                    choice.
+                                </p>
+                            </div>
+                        )}
+                    </AnimatePresence>
+                </div>
+
+
+
+            </div> */}
+            <section className="mx-auto max-w-8xl px-4 py-8 md:px-8 space-y-8 z-10 relative">
+                  
+                    <div className="w-full overflow-x-auto flex scrollbar-none space-x-2 py-2 border-b-0 md:border-b border-slate-200 justify-start md:justify-center">
+                        {CATEGORIES.map((category) => {
+                            const isActive = activeCategory === category;
+                            return (
+                                <button
+                                    key={category}
+                                    onClick={() => setActiveCategory(category)}
+                                    className={`relative px-4 py-2 text-xs md:text-sm cursor-pointer font-bold rounded-full transition-all duration-200 shrink-0 select-none ${isActive
+                                        ? "text-white bg-[#FF4D30] shadow-md"
+                                        : "text-slate-500 hover:text-slate-800 hover:bg-slate-100"
+                                        }`}
+                                >
+                                    <span>{category}</span>
+                                    {isActive && (
+                                        <motion.div
+                                            layoutId="activeDetailCategoryIndicator"
+                                            className="absolute inset-0 bg-[#FF4D30] rounded-full -z-10 shadow-sm"
+                                            transition={{ type: "spring", stiffness: 380, damping: 30 }}
+                                        />
+                                    )}
+                                </button>
+                            );
+                        })}
+                    </div>
+
+                    <div className="flex items-center justify-between">
+                        <h2 className="text-2xl font-black text-slate-800 tracking-tight flex items-center space-x-2">
+                            <span className="block h-6 w-1 bg-[#FF4D30] rounded-full" />
+                            <span>Related Travel Guides</span>
+                        </h2>
+                    </div>
+
+                    {isRecentLoading ? (
+                        <div className="space-y-4">
+                            {[1, 2].map((s) => (
+                                <div
+                                    key={s}
+                                    className="bg-white rounded-3xl p-5 border border-slate-100 flex flex-col md:flex-row gap-6 items-center"
+                                >
+                                    <Skeleton className="w-full md:w-56 h-36 rounded-2xl shrink-0" />
+                                    <div className="flex-grow space-y-3 w-full">
+                                        <div className="flex space-x-2">
+                                            <Skeleton className="h-4 w-16 rounded-full" />
+                                            <Skeleton className="h-4 w-24" />
+                                        </div>
+                                        <Skeleton className="h-6 w-3/4" />
+                                        <Skeleton className="h-4 w-full" />
+                                        <div className="flex justify-between items-center pt-2">
+                                            <div className="flex items-center space-x-2">
+                                                <Skeleton className="h-8 w-8 rounded-full" />
+                                                <Skeleton className="h-4 w-20" />
+                                            </div>
+                                            <Skeleton className="h-4 w-16" />
+                                        </div>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
+                    ) : (
+                        <div className="space-y-4">
+                            <AnimatePresence mode="popLayout">
+                                {tripData.length > 0 &&
+                                    tripData.map((blog, idx) =>
+                                        (blog.tag.toLocaleLowerCase() == activeCategory.toLocaleLowerCase() || activeCategory == "All Stories") &&
+                                        <SmallCard blog={blog} index={idx} key={blog.heading} />
+                                    )}
+                                {recentBlogs.length > 0 && (
+                                    recentBlogs.map((rBlog, idx) => (
+                                        <BlogRow key={rBlog.id} blog={rBlog} index={idx} />
+                                    ))
+                                )}
+                            </AnimatePresence>
+                        </div>
+                    )}
+
+                    {hasNextPage && (
+                        <div className="flex justify-center pt-2">
+                            <button
+                                onClick={() => fetchNextPage()}
+                                disabled={isFetchingNextPage}
+                                className="inline-flex cursor-pointer items-center justify-center rounded-full border-2 border-slate-200 bg-white hover:border-[#FF4D30] hover:text-[#FF4D30] px-8 py-3.5 text-xs font-bold text-slate-600 shadow-sm transition-all duration-200 select-none disabled:opacity-75 disabled:cursor-not-allowed w-full sm:w-auto"
+                            >
+                                {isFetchingNextPage ? (
+                                    <>
+                                        <Loader2 className="mr-2 h-4 w-4 animate-spin text-[#FF4D30]" />
+                                        <span>Loading Inspiring Stories...</span>
+                                    </>
+                                ) : (
+                                    <span>Load More Inspiring Stories</span>
+                                )}
+                            </button>
+                        </div>
+                    )}
+                </section>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-7xl mt-10 mx-auto">
+                {MOCK_DESTINATIONS.map((dest, idx) => (
+                    <DestinationCard
+                        key={dest.id}
+                        destination={dest}
+                        index={idx}
+                        category={dest.category}
+                        clickFunc={() => router.push(`/blog/category/${dest.category}`)}
+                    />
+
+                ))}
             </div>
         </article>
     );

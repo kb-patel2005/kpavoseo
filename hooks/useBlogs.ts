@@ -20,6 +20,7 @@ export function useBlogDetailByCategories(slug: string) {
     queryFn: async () => {
       await delay(500); // Simulate API call
       return MOCK_BLOGS.find(blog => blog.tag?.toLocaleLowerCase() === slug.toLowerCase()) || MOCK_FEATURED_STORIES.find(blog => blog.tag?.toLocaleLowerCase() === slug.toLowerCase()) || null;
+      // return MOCK_BLOGS.filter(blog => blog.tag?.toLocaleLowerCase() === slug.toLowerCase()) || MOCK_FEATURED_STORIES.filter(blog => blog.tag?.toLocaleLowerCase() === slug.toLowerCase()) || null;
     },
   });
 }

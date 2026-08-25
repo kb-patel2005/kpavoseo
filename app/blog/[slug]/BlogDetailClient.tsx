@@ -412,24 +412,15 @@ export default function BlogDetailClient({
           <div className="space-y-4">
             <AnimatePresence mode="popLayout">
               {tripData.length > 0 &&
-                tripData.map((blog, idx) => (
+                tripData.map((blog, idx) => 
+                  (blog.tag.toLocaleLowerCase() == activeCategory.toLocaleLowerCase() || activeCategory == "All Stories")  &&
                   <SmallCard blog={blog} index={idx} key={blog.heading} />
-                ))}
-              {recentBlogs.length > 0 ? (
+                )}
+              {recentBlogs.length > 0 && (
                 recentBlogs.map((rBlog, idx) => (
                   <BlogRow key={rBlog.id} blog={rBlog} index={idx} />
                 ))
-              ) : (
-                <div className="bg-white border border-slate-100 rounded-3xl p-12 text-center flex flex-col items-center justify-center space-y-2">
-                  <h3 className="text-base font-bold text-slate-700">
-                    No articles found
-                  </h3>
-                  <p className="text-xs text-slate-500 max-w-xs">
-                    We couldn&apos;t find any articles under this category
-                    choice.
-                  </p>
-                </div>
-              )}
+              ) }
             </AnimatePresence>
           </div>
         )}

@@ -6,16 +6,17 @@ import Image from "next/image";
 import { ArrowLeft, Clock, Loader2, Compass } from "lucide-react";
 import { motion, useScroll, useSpring, AnimatePresence } from "framer-motion";
 import { useBlogDetail, useBlogDetailByCategories, useInfiniteBlogs } from "@/hooks/useBlogs";
-import { CATEGORIES, MOCK_DESTINATIONS } from "@/lib/mockData";
+import { CATEGORIES, MOCK_DESTINATIONS, tripData } from "@/lib/mockData";
 import { Skeleton } from "@/components/ui/skeleton";
 import BlogRow from "@/components/BlogRow";
 import { useParams, useRouter } from "next/navigation";
 import DestinationCard from "@/components/DestinationCard";
+import SmallCard from "../../location/[slug]/SmallCard";
 
 export default function CategoryWise({
     slug,
 }: {
-     slug: string 
+    slug: string
 }) {
 
     const router = useRouter();
@@ -143,183 +144,6 @@ export default function CategoryWise({
                 </div>
             </section>
 
-
-
-            {/* 2. BODY CONTENT SECTION */}
-            {/* <section className="px-4 py-12 md:px-8 md:py-16">
-                <article className="mx-auto max-w-7xl bg-white py-8 relative z-20 space-y-8">
-                   
-                    {blog.sections.map((section, idx) => {
-                        switch (section.type) {
-                            case "paragraph":
-                                return (
-                                    <p
-                                        key={idx}
-                                        className="text-slate-600 font-medium text-base md:text-base leading-relaxed"
-                                    >
-                                        {section.content}
-                                    </p>
-                                );
-                            case "heading":
-                                return (
-                                    <h2
-                                        key={idx}
-                                        className="text-2xl md:text-3xl font-extrabold text-slate-800 tracking-tight pt-4"
-                                    >
-                                        {section.content}
-                                    </h2>
-                                );
-                            case "quote":
-                                return (
-                                    <blockquote
-                                        key={idx}
-                                        className="border-l-4 border-[#FF4D30] bg-orange-50/50 rounded-r-2xl p-6 italic text-slate-700 text-base md:text-lg font-medium leading-relaxed"
-                                    >
-                                        &ldquo;{section.content}&rdquo;
-                                    </blockquote>
-                                );
-                            case "image":
-                                return (
-                                    <figure
-                                        key={idx}
-                                        className="overflow-hidden rounded-2xl my-8"
-                                    >
-                                        <Image
-                                            src={section.imageUrl || ""}
-                                            alt={section.caption || "Article image"}
-                                            width={850}
-                                            height={450}
-                                            className="w-full h-auto object-cover max-h-[380px]"
-                                        />
-                                    </figure>
-                                );
-                            default:
-                                return null;
-                        }
-                    })}
-
-                    <motion.div
-                        whileHover={{ scale: 1.01 }}
-                        className="flex flex-col sm:flex-row items-center justify-between bg-white border border-slate-100 rounded-3xl p-6 md:p-8 shadow-sm space-y-4 sm:space-y-0 sm:space-x-6"
-                    >
-                        <div className="flex items-center space-x-4">
-                            <div className="rounded-full bg-orange-50 p-3.5 text-[#FF4D30] shrink-0 flex items-center justify-center">
-                                <Compass className="h-6 w-6" />
-                            </div>
-                            <div className="text-center sm:text-left">
-                                <h4 className="text-base font-extrabold text-slate-800 leading-snug">
-                                    Loved this destination?
-                                </h4>
-                                <p className="text-xs text-slate-500 font-semibold">
-                                    Get a personalized itinerary for your{" "}
-                                    {blog.title.split(":")[0]} trip.
-                                </p>
-                            </div>
-                        </div>
-                        <Link
-                            href="https://play.google.com/store/apps/details?id=com.aavoride"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="w-full sm:w-auto"
-                        >
-                            <button className="rounded-full bg-[#FF4D30] hover:bg-[#e03d20] px-6 py-3.5 text-xs font-bold text-white shadow-md hover:shadow-lg transition-all w-full sm:w-auto shrink-0 select-none font-semibold">
-                                Get AAVORide App
-                            </button>
-                        </Link>
-                    </motion.div>
-
-                    {blog.mustVisitSpots && blog.mustVisitSpots.length > 0 && (
-                        <div className="space-y-6 pt-6 border-t border-slate-100">
-                            <h2 className="text-2xl md:text-3xl font-black text-slate-800 tracking-tight flex items-center gap-2">
-                                <span className="block h-5 w-1.5 bg-[#FF4D30] rounded-full" />
-                                <span>Must-Visit Spots</span>
-                            </h2>
-                            <div className="space-y-4 text-slate-600 font-medium text-base md:text-base leading-relaxed">
-                                {blog.mustVisitSpots.map((spot, spotIdx) => (
-                                    <p key={spotIdx}>
-                                        <span className="font-bold text-slate-900">
-                                            {spot.name}:
-                                        </span>{" "}
-                                        {spot.description}
-                                    </p>
-                                ))}
-                            </div>
-                        </div>
-                    )}
-
-                    <div className="pt-8 border-t border-slate-100 flex items-center gap-4">
-                        <Image
-                            src={blog.author.avatar}
-                            alt={`${blog.author.name} - Author`}
-                            width={60}
-                            height={60}
-                            className="rounded-full object-cover border border-slate-200"
-                        />
-
-                        <div>
-                            <h3 className="text-lg font-bold text-slate-800">
-                                {blog.author.name}
-                            </h3>
-
-                            <p className="text-sm text-slate-500">
-                                Travel Writer at AAVORide
-                            </p>
-                        </div>
-                    </div>
-                    <section className="pt-10 border-t border-slate-100">
-                        <h2 className="text-3xl font-black text-slate-800 mb-8">
-                            Frequently Asked Questions
-                        </h2>
-
-                        <div className="space-y-6">
-                            <div>
-                                <h3 className="text-lg font-bold text-slate-800">
-                                    Is this destination suitable for a family trip?
-                                </h3>
-
-                                <p className="mt-2 text-slate-600 leading-7">
-                                    Yes. This destination is ideal for families, couples and solo
-                                    travellers.
-                                </p>
-                            </div>
-
-                            <div>
-                                <h3 className="text-lg font-bold text-slate-800">
-                                    What is the best time to visit?
-                                </h3>
-
-                                <p className="mt-2 text-slate-600 leading-7">
-                                    October to February is generally the best time because of
-                                    pleasant weather.
-                                </p>
-                            </div>
-
-                            <div>
-                                <h3 className="text-lg font-bold text-slate-800">
-                                    Can I book a taxi through AAVORide?
-                                </h3>
-
-                                <p className="mt-2 text-slate-600 leading-7">
-                                    Yes. You can book outstation taxis, airport transfers and self
-                                    drive cars directly from AAVORide.
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                    <section className="pt-10">
-                        <h2 className="text-3xl font-black text-slate-800 mb-6">
-                            Continue Reading
-                        </h2>
-
-                        <div className="flex flex-col gap-3">
-                            <Link href="/blog">← Explore More Travel Guides</Link>
-
-                            <Link href="/">← Book Your Ride with AAVORide</Link>
-                        </div>
-                    </section>
-                </article>
-            </section> */}
-
             {/* 3. RECENT STORIES LIST SECTION */}
             <section className="mx-auto max-w-7xl px-4 pt-2 pb-5 md:px-8 space-y-6 z-10 relative">
                 <nav
@@ -420,6 +244,11 @@ export default function CategoryWise({
                 ) : (
                     <div className="space-y-4">
                         <AnimatePresence mode="popLayout">
+                            {tripData.length > 0 &&
+                                tripData.map((blog, idx) =>
+                                    (blog.tag.toLocaleLowerCase() == activeCategory.toLocaleLowerCase() || activeCategory == "All Stories") &&
+                                    <SmallCard blog={blog} index={idx} key={blog.heading} />
+                                )}
                             {recentBlogs.length > 0 ? (
                                 recentBlogs.map((rBlog, idx) => (
                                     <BlogRow key={rBlog.id} blog={rBlog} index={idx} />

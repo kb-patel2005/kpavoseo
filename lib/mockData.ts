@@ -57,7 +57,7 @@ export const smallCard: Destination1[] = [
     id: 1,
     heading: "Ahmedabad to Vadodara Taxi - Book a Cab Online at Best Fare",
     description: "Vadodara is also culturally vibrant and full of history. Either go and see the nearby statue of Unity or spend time with the museums, temples and the Laxmi Vilas Palace.",
-    tag: 'Culture',
+    tag: 'Road-Trips',
     slug: "ahmedabad-to-vadodara",
     coverImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/24/3b/lukshmi-vilas-palace.jpg?w=800&h=500&s=1",
     
@@ -103,8 +103,8 @@ export const MOCK_FEATURED_STORIES: Blog[] = [
     slug: 'location/ahmedabad-to-statue-of-unity',
     title: 'Ahmedabad to Statue of Unity Taxi | AAVORide',
     excerpt: "Statue of Unity is the world’s tallest statue, dedicated to the Iron Man of India - Sardar Vallabhbhai Patel. This grand statue is built on the banks of the Narmada River in Kevadia and is a must-visit on every Indian traveller’s bucket list.",
-    coverImage: "https://visitsou.com/wp-content/uploads/Travel-Guide-to-the-World-Tallest-Statue-Statue-of-Unity.jpg",
-    tag: 'CULTURE',
+    coverImage: "/statue_of_unity.jpg",
+    tag: 'LAND MARK',
     readTime: '15 min read',
     publishDate: 'Jan 20, 2026',
     author: {
@@ -142,8 +142,8 @@ export const MOCK_FEATURED_STORIES: Blog[] = [
     slug: 'location/ahmedabad-to-udaipur',
     title: 'Ahmedabad to Udaipur Cab Service at Lowest Price | AAVORide',
     excerpt: "Discover Rajasthan's finest luxury heritage hotels near Udaipur. Plan a scenic road trip with AAVORide — explore top stays, routes, and travel tips.",
-    coverImage: "https://cdn.sanity.io/images/ocl5w36p/ihcl_prod/15ef46c5cad321ff2ea6aefc38a8b1278affc789-3840x1860.jpg?w=1920&auto=format", 
-    tag: 'Luxury',
+    coverImage: "/udaipur.jpg", 
+    tag: 'ROYAL ESCAPE',
     readTime: '12 min read',
     publishDate: 'Jan 18, 2026',
     author: {
@@ -273,6 +273,7 @@ export const MOCK_BLOGS: Blog[] = [
       }
     ]
   },
+  
   {
     id: '2',
     slug: 'sacred-path-guide-to-amritsar',
@@ -593,7 +594,7 @@ export const tripData = [
   {
     id: 1,
     slug: "ahmedabad-to-vadodara",
-    tag: "ROAD TRIP",
+    tag: "Road Trips",
     heading: "Ahmedabad to Vadodara Taxi - Book a Cab Online at Best Fare",
     description: [
       "Vadodara is also culturally vibrant and full of history. Either go and see the nearby statue of Unity or spend time with the museums, temples and the Laxmi Vilas Palace. The city caters for the tourist on all accounts with educational experiences, Royal history and exciting local life. It is also commonly referred to as Baroda and is most famous for its Royal past.",
@@ -852,7 +853,7 @@ export const tripData = [
       "AAVORide provide Ahmedabad to Statue of Unity taxi service that offers you clean and sanitised cabs, experienced drivers, and multiple booking options - one-way or round-trip, as suits you. It's time for stress-free travel.",
       "So what's the delay? Book your Ahmedabad to Statue of Unity cab now on AAVORide!"
     ],
-    coverImage: "https://visitsou.com/wp-content/uploads/Travel-Guide-to-the-World-Tallest-Statue-Statue-of-Unity.jpg",
+    coverImage: "/statue-of-unity-inside.jpg",
     sections: [
       {
         subHeading: "Why Book an Ahmedabad to Statue of Unity Cab with AAVORide?",
@@ -1033,7 +1034,7 @@ export const tripData = [
       "AAVORide provides wide cab options like SUV, Sedan, or Tempo Traveller. AAVORide is India's number one intercity taxi platform and the most reliable choice. Just decide on one-way or round trip and travel without apprehensions, so book a reliable Ahmedabad to Udaipur cab at ₹3333 and travel with a 20% discount. Choose our trusted Ahmedabad to Udaipur taxi service. Price starts at ₹9/km.",
       "Book your cab from Ahmedabad to Udaipur today and travel in comfort, safety, and style."
     ],
-    coverImage: "https://cdn.sanity.io/images/ocl5w36p/ihcl_prod/15ef46c5cad321ff2ea6aefc38a8b1278affc789-3840x1860.jpg?w=1920&auto=format", 
+    coverImage: "/udaipur_inner.jpg", 
     sections: [
       {
         subHeading: "Ahmedabad to Udaipur Taxi Fare | Best Price and Lowest Price Guarantee",
