@@ -14,6 +14,7 @@ export function Navbar() {
   const getActiveItem = () => {
     if (pathname === "/") return "Home";
     if (pathname === "/about") return "About Us";
+    if (pathname === "blog") return "Blog"
     return null;
   };
 

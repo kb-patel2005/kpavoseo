@@ -10,6 +10,7 @@ export const navItems: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "Services", href: "/services" },
   { label: "About Us", href: "/about" },
+  { label: "Blog", href: "/blog" },
 ];
 
 export const heroHighlights = [

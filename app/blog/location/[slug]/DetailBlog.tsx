@@ -520,11 +520,11 @@ export default function DetailBlog({ slug }: { slug: string }) {
                                         (blog.tag.toLocaleLowerCase() == activeCategory.toLocaleLowerCase() || activeCategory == "All Stories") &&
                                         <SmallCard blog={blog} index={idx} key={blog.heading} />
                                     )}
-                                {recentBlogs.length > 0 && (
+                                {/* {recentBlogs.length > 0 && (
                                     recentBlogs.map((rBlog, idx) => (
                                         <BlogRow key={rBlog.id} blog={rBlog} index={idx} />
                                     ))
-                                )}
+                                )} */}
                             </AnimatePresence>
                         </div>
                     )}

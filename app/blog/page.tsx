@@ -249,11 +249,12 @@ export default function BlogListingPage() {
                     smallCard.map((blog,idx)=>(
                       <SmallCard blog={blog} index={idx} key={blog.heading}/>
                     ))}
-                  {allRecentBlogs.length > 0 ? ( 
+                  {/* {allRecentBlogs.length > 0 ? ( 
                     allRecentBlogs.map((blog, idx) => (
                       <BlogRow key={blog.id} blog={blog} index={smallCard.length + idx + 1} />
                     ))
-                  ) : (
+                  ) 
+                  : (
                     <motion.div
                       initial={{ opacity: 0, scale: 0.95 }}
                       animate={{ opacity: 1, scale: 1 }}
@@ -269,7 +270,7 @@ export default function BlogListingPage() {
                         or category choice. Try a different query.
                       </p>
                     </motion.div>
-                  )}
+                  )} */}
                 </AnimatePresence>
               </div>
             )}

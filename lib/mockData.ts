@@ -191,7 +191,7 @@ export const MOCK_FEATURED_STORIES: Blog[] = [
     slug: 'location/ahmedabad-to-dwarka',
     title: 'Ahmedabad to Dwarka Taxi | AAVORide',
     excerpt: "An ancient kingdom of Lord Krishna, known as the “Gates of heaven”. Dwarka is one of the Char Dham and Sapta Puri pilgrimage sites, famous for the Dwarkadhish Temple and sacred coastal charm. ",
-    coverImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaBZhWCCGxWDPKsEFd6yli76_mJ2ykC0Jbix3WGKd-A&s=10',
+    coverImage: '/dwarka.jpg',
     tag: 'SPIRITUAL',
     readTime: '10 min read',
     publishDate: 'Jan 15, 2026',
@@ -1358,7 +1358,7 @@ export const tripData = [
       "Ahmedabad, as Gujarat’s cultural and business capital, is often used as a base city for trips to Dwarka. The distance from Ahmedabad to Dwarka is approx 449 km, which can be covered in around 8-9 hours easily by booking an Ahmedabad to Dwarka cab. Ahmedabad to Dwarka taxi travel is perfect for convenient, flexible journeys. Book a reliable Ahmedabad to Dwarka car rental with AAVORide, suited for pilgrims, families and tourists.",
       "What are you waiting for? Hire a cab with AAVORide’s trusted intercity taxi service."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaBZhWCCGxWDPKsEFd6yli76_mJ2ykC0Jbix3WGKd-A&s=10",
+    coverImage: "/inside-dwarka.jpg",
     sections: [
       {
         subHeading: "Why Book an Ahmedabad to Dwarka Cab with AAVORide?",
