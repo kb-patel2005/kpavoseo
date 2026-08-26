@@ -60,8 +60,16 @@ export const smallCard: Destination1[] = [
     tag: 'Road-Trips',
     slug: "ahmedabad-to-vadodara",
     coverImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/24/3b/lukshmi-vilas-palace.jpg?w=800&h=500&s=1",
-    
   },
+  {
+    id: 4,
+    heading: "Ahmedabad to Dwarka Taxi - Book Comfortable & Affordable Cab Service",
+    description:"An ancient kingdom of Lord Krishna, known as the “Gates of heaven”. Dwarka is one of the Char Dham and Sapta Puri pilgrimage sites, famous for the Dwarkadhish Temple and sacred coastal charm. ",
+    tag: "SPIRITUAL",
+    slug: "ahmedabad-to-dwarka",
+    coverImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaBZhWCCGxWDPKsEFd6yli76_mJ2ykC0Jbix3WGKd-A&s=10"
+    
+  }
 
 ]
 
@@ -142,7 +150,7 @@ export const MOCK_FEATURED_STORIES: Blog[] = [
     slug: 'location/ahmedabad-to-udaipur',
     title: 'Ahmedabad to Udaipur Cab Service at Lowest Price | AAVORide',
     excerpt: "Discover Rajasthan's finest luxury heritage hotels near Udaipur. Plan a scenic road trip with AAVORide — explore top stays, routes, and travel tips.",
-    coverImage: "/udaipur.jpg", 
+    coverImage: "/udaipur.jpg",
     tag: 'ROYAL ESCAPE',
     readTime: '12 min read',
     publishDate: 'Jan 18, 2026',
@@ -273,7 +281,7 @@ export const MOCK_BLOGS: Blog[] = [
       }
     ]
   },
-  
+
   {
     id: '2',
     slug: 'sacred-path-guide-to-amritsar',
@@ -1034,7 +1042,7 @@ export const tripData = [
       "AAVORide provides wide cab options like SUV, Sedan, or Tempo Traveller. AAVORide is India's number one intercity taxi platform and the most reliable choice. Just decide on one-way or round trip and travel without apprehensions, so book a reliable Ahmedabad to Udaipur cab at ₹3333 and travel with a 20% discount. Choose our trusted Ahmedabad to Udaipur taxi service. Price starts at ₹9/km.",
       "Book your cab from Ahmedabad to Udaipur today and travel in comfort, safety, and style."
     ],
-    coverImage: "/udaipur_inner.jpg", 
+    coverImage: "/udaipur_inner.jpg",
     sections: [
       {
         subHeading: "Ahmedabad to Udaipur Taxi Fare | Best Price and Lowest Price Guarantee",
@@ -1331,6 +1339,236 @@ export const tripData = [
           {
             question: "Can I travel with pets?",
             answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Udaipur cab."
+          }
+        ]
+
+
+      }
+    ],
+  },
+  {
+    id: 4,
+    slug: "ahmedabad-to-dwarka",
+    heading: "Ahmedabad to Dwarka Taxi - Book Comfortable & Affordable Cab Service",
+    tag: "SPIRITUAL",
+    description: [
+      "An ancient kingdom of Lord Krishna, known as the “Gates of heaven”. Dwarka is one of the Char Dham and Sapta Puri pilgrimage sites, famous for the Dwarkadhish Temple and sacred coastal charm. It is a major pilgrimage centre for Hindus and also an important part of the Char Dham yatra. It holds great spiritual significance and religious importance. Enjoy the scenic boat ride and make your trip to Dwarka a memorable one.",
+      "Ahmedabad, as Gujarat’s cultural and business capital, is often used as a base city for trips to Dwarka. The distance from Ahmedabad to Dwarka is approx 449 km, which can be covered in around 8-9 hours easily by booking an Ahmedabad to Dwarka cab. Ahmedabad to Dwarka taxi travel is perfect for convenient, flexible journeys. Book a reliable Ahmedabad to Dwarka car rental with AAVORide, suited for pilgrims, families and tourists.",
+      "What are you waiting for? Hire a cab with AAVORide’s trusted intercity taxi service."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaBZhWCCGxWDPKsEFd6yli76_mJ2ykC0Jbix3WGKd-A&s=10",
+    sections: [
+      {
+        subHeading: "Why Book an Ahmedabad to Dwarka Cab with AAVORide?",
+        description: [
+          "AAVORide is one of India's premier chauffeur car or taxi providers. It has nearly 10 years of industry experience. It promises to make every ride budget-friendly and memorable. To keep its promise, AAVORide offers different car options and services to book Ahmedabad to Dwarka taxis according to their passenger needs. You can choose your Ahmedabad to Dwarka one-way cab or Ahmedabad to Dwarka round-trip taxi according to your pocket and travel plan."
+        ],
+        "Experienced drivers": [
+          "The safety and comfort of the passenger is a priority for AAVORide. To ensure we took a rigorous driver verification process before making them partners. The drivers are also very skilled and experts in local culture and language, and familiar with the Gujarat highways."
+        ],
+        "Clean and comfortable AC cars": [
+          "Make every journey comfortable with all the safety checks. AAVORide provides air-conditioned vehicles and sanitised cabs or taxis to its passengers. We make sure that every taxi undergoes timely services and is in good condition."
+        ],
+        "One-way or round-trip options": [
+          "To make the travel easy and convenient, AAVORide offers multiple cab options for one-way and round-trip journeys at the most reasonable fare with no hidden charges."
+        ],
+        "Doorstep pickup": [
+          "For a pickup in Ahmedabad, AAVORide offers doorstep pickup for the maximum convenience for the passengers. You don't need to wait for a cab at any other stop. Our cab driver will pick you up on time from the doorstep."
+        ],
+        "Transparent pricing": [
+          "To make travel easier, we offer the best price guarantee. We use a transparent pricing model with no hidden costs to ensure you are always given competitive rates. AAVORide taxi service is clearly outlined and explained to the client."
+        ],
+        "24x7 customer service": [
+          "To make cab services easy and convenient, AAVORide provides 24/7 customer support service. It allows passengers to connect with executives for booking whenever they require. AAVORide has a significant presence across India and promises an easy transportation service."
+        ],
+        stop: "Book your Ahmedabad to Dwarka taxi now for a spiritual road trip."
+      },
+      {
+        subHeading: "Distance, Time & Route Details",
+        description: [
+          "The route from Ahmedabad to Dwarka is one of the shortest and most recommended routes, well connected via NH47; it offers an exciting journey filled with wonders. The Ahmedabad to Dwarka distance is around 449 km and will take about 8-9 hours. For a more scenic journey, the alternative route via Morbi is perfect, but it adds extra travel time. The Ahmedabad-to-Dwarka road trip offers a perfect blend of culture through the heat of Gujarat.",
+          "Route: Ahmedabad to Dwarka via (NH47) Ahmedabad - Rajkot - Jamnagar - Dwarka Travelling from Ahmedabad to Dwarka is full of tourist sites; mostly, travellers want to add more cities to make their journey enjoyable. For that, AAVORide ensures a memorable ride by giving various options to add a city en route. You can add the cities of Rajkot and Jamnagar while travelling via route NH47. Both cities enhance the experience of an Ahmedabad to Dwarka trip. Rajkot, as the fourth-largest city, is famous for its traditional handicrafts, silver jewellery, and cuisine; on the other hand, Jamnagar houses numerous beautiful temples and offers historical charm and scenic beauty.",
+          "The best Ahmedabad to Dwarka travel time is from October to March, when the weather is pleasant, allowing travellers to explore the city to its fullest. During this time, the weather is ideal for long drives, sightseeing and temple visits."
+        ]
+      },
+      {
+        subHeading: "Ahmedabad to Dwarka Taxi Fare & Car Options",
+        description: [
+          "AAVORide is a superior cab service provider in India. Promise to make your trip budget-friendly. You don’t need to pay extra charges for fuel and driver's allowance; they are included in your cab charges from Ahmedabad to Dwarka. However, you have to pay a little additional charge for tolls and parking, but you have the option to choose a toll and state tax-inclusive price too. You can pay your bill online with a card and UPI for the Ahmedabad to Dwarka taxi fare. AAVORide provides cheap cabs from Ahmedabad to Dwarka for their passengers."
+        ],
+        "Ahmedabad to Dwarka Taxi Fare":
+        {
+          comparisonTable: [
+            {
+              "Car Type": "Hatchback (WagonR, Indica)",
+              "Seat Capacity": 4,
+              "One Way Fare": null, // plug in actual fare later
+              "Round Trip Fare": null,
+
+            },
+            {
+              "Car Type": "Sedan (Dzire, Etios)",
+              "Seat Capacity": 4,
+              "One Way Fare": null,
+              "Round Trip Fare": null,
+
+            },
+            {
+              "Car Type": "SUV (Ertiga, Marazzo)",
+              "Seat Capacity": 6,
+              "One Way Fare": null,
+              "Round Trip Fare": null,
+
+            },
+            {
+              "Car Type": "Assured Innova",
+              "Seat Capacity": 6,
+              "One Way Fare": null,
+              "Round Trip Fare": null,
+
+            },
+            {
+              "Car Type": "Tempo Traveller",
+              "Seat Capacity": "12",
+              "One Way Fare": null,
+              "Round Trip Fare": null,
+
+            }
+          ]
+        },
+        "Additional costs :": [
+          "Parking charges are extra.",
+          "Toll and state tax are included in the One-way fare. For round trip, it is extra, but you have the option to choose a toll and state tax inclusive price too.",
+          "5% GST extra"
+        ]
+      },
+      {
+        subHeading: "Car Rental Service for Ahmedabad to Dwarka",
+        description: [
+          "AAVORide is the leading outstation car rental service provider in India. We aim to make cab booking easy and comfortable for travellers. For that, AAVORide offers its Ahmedabad to Dwarka car rental service. Dwarka cab service with AAVORide offers multiple advantages for travellers. They get complete flexibility in their trip planning, enjoy personalised stops, and travel comfortably with experienced drivers. Whether you need a one-way cab or a round-trip, AAVORide ensures a hassle-free experience for its passengers."
+        ],
+        "Ahmedabad to Udaipur Taxi Fare ":
+        {
+          comparisonTable: [
+            {
+              "Car Type": "Hatchback (WagonR, Indica)",
+              "Seat Capacity": 4,
+              "One Way Fare": null, // plug in actual fare late
+
+            },
+            {
+              "Car Type": "Sedan (Dzire, Etios)",
+              "Seat Capacity": 4,
+              "One Way Fare": null
+
+            },
+            {
+              "Car Type": "SUV (Ertiga, Marazzo)",
+              "Seat Capacity": 6,
+              "One Way Fare": null
+
+            },
+            {
+              "Car Type": "Assured Innova",
+              "Seat Capacity": 6,
+              "One Way Fare": null
+
+            },
+            {
+              "Car Type": "Tempo Traveller",
+              "Seat Capacity": "12",
+              "One Way Fare": null
+
+            }
+          ]
+        },
+        "AAVORide offers flexible Ahmedabad to Dwarka car rental packages tailored to your travel needs:": [
+          "Perfect for pilgrimages, family trips, and Gujarat coastal tours.",
+          "Hygienic AC vehicles with trained drivers.",
+          "Flexible for group travel, photography stops, and temple visits.",
+        ]
+      },
+      {
+        subHeading: "How to Book an Ahmedabad to Dwarka Taxi Online?",
+        description: [
+          "AAVORide is a premium cab service provider in India, renowned for exceptional cab services with a focus on comfort and safety. There are multiple cab booking options on AAVORide for online cab from Ahmedabad to Dwarka. To book a cab from Ahmedabad to Dwarka, AAVORide offers multiple platforms, such as our website and mobile application. Further, you can also directly contact our customer service executive for any process issues regarding taxi booking from Ahmedabad to Dwarka.",
+          "Through the Website: AAVORide has a user-friendly website, https://AAVORide.com, where travellers can easily book their cab service from Ahmedabad to Dwarka. Here you get a form where you fill in your pickup and destination addresses. Then on the next page, you get the car option; choose wisely according to your needs.",
+          "Mobile Application: You can also book a cab with the AAVORide mobile app. It is easy to download the AAVORide mobile application on your phone from the Play Store and Apple app Store. Here you can easily book your cab from Ahmedabad to Dwarka.",
+          "Customer care: You can also contact AAVORide customer executives to get direct human assistance. We provide 24/7 active customer support to our passengers for timely issue resolution."
+        ],
+        "Step-by-step process for how to book a cab service from Ahmedabad to Dwarka at AAVORide.": [
+          "Visit the AAVORide website or mobile app.",
+          "Enter your pickup location and destination.",
+          "Choose your preferred car type.",
+          "Select your trip type (one-way or round-trip).",
+          "Confirm the booking and make a payment online.",
+          "Receive booking confirmation & driver details."
+        ]
+      },
+      {
+        subHeading: "Places to Visit En Route",
+        description: [
+          "The route from Ahmedabad to Dwarka is full of scenic spots, and there are must-visit places between Ahmedabad and Dwarka. With smooth roads and ever-changing landscapes, this route offers something for everyone. It's a captivating Gujarat road trip that blends culture, spirituality and natural beauty. With diverse places to stop en route to Ahmedabad and Dwarka, the journey becomes memorable.",
+          "Rajkot: A vibrant city in the heart of Gujarat, Rajkot is known for its rich cultural heritage, bustling market, and warm hospitality. It is a beautiful city that preserves its royal past while embracing modern development. It is famous for being Mahatma Gandhi’s childhood home.",
+          "Jamnagar: A historical city, Jamnagar is popularly known for its beautiful palaces, temples, and gardens. Nestled in Jamnagar, Lakhota Lake is a spot that provides the perfect environment for peaceful evening strolls and boating. Additionally, Bala Hanuman Temple is also a popular attraction for locals and tourists alike; along with its religious importance, it provides a peaceful environment.",
+          "Khijadiya Bird Sanctuary: A paradise for nature lovers and bird watchers, Khijadiya Bird Sanctuary is a popular destination near Jamnagar, Gujarat. It contains a variety of birds like flamingos, pelicans, spoonbills, and various rare species like the black-necked stork and Indian skimmer."
+        ]
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Dwarka Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Dwarka by car?",
+            answer: "The distance from Ahmedabad to Dwarka by car is 440 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Dwarka by road?",
+            answer: "It takes approx. 7.5 to 8.5 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Dwarka taxi fare?",
+            answer: "Ahmedabad to Dwarka taxi fare is approx. ₹4400 for a good sedan car like Etios, Dzire and is approx. ₹4900 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Dwarka Innova fare?",
+            answer: "Ahmedabad to Dwarka Innova fare is approx. ₹5900. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Dwarka cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Dwarka cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Dwarka cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Dwarka outstation trip?",
+            answer: "For Ahmedabad to Dwarka Round trip cab, all the local sightseeing in Ahmedabad, Dwarka and other destination cities in itinerary is included. For Ahmedabad to Dwarka One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Dwarka and other destination cities in itinerary is included. For Ahmedabad to Dwarka One way cab i.e. with only Ahmedabad and Dwarka in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Dwarka?",
+            answer: "Although you can book Ahmedabad to Dwarka cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Dwarka by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Dwarka cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Dwarka one way taxi?",
+            answer: "You may book Ahmedabad to Dwarka One way multi-stop cab by adding additional stops in itinerary. For Ahmedabad to Dwarka One way taxi with only Ahmedabad and Dwarka in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Dwarka one way cab?",
+            answer: "For Ahmedabad to Dwarka One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Dwarka cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Dwarka cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Dwarka cab."
           }
         ]
 
