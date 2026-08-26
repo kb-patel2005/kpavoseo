@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   ],
 
   alternates: {
-    canonical: "https://aavoride.in/blog",
+    canonical: "https://www.aavoride.in/blog",
   },
 
   robots: {
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 
   openGraph: {
 
-    url: "https://aavoride.in/blog",
+    url: "https://www.aavoride.in/blog",
 
     siteName: "AAVORide",
 
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "https://aavoride.in/aavoride_blog_hero.png",
+        url: "https://www.aavoride.in/aavoride_blog_hero.png",
         width: 1200,
         height: 630,
         alt: "AAVORide Blog",
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
 
-    images: ["https://aavoride.in/aavoride_blog_hero.png"],
+    images: ["https://www.aavoride.in/aavoride_blog_hero.png"],
   },
 
   icons: {

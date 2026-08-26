@@ -77,7 +77,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     category: "Travel",
 
     alternates: {
-      canonical: `https://aavoride.in/blog/${slug}`,
+      canonical: `https://www.aavoride.in/blog/${slug}`,
     },
 
     robots: {
@@ -94,7 +94,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     openGraph: {
 
-      url: `https://aavoride.in/blog/${slug}`,
+      url: `https://www.aavoride.in/blog/${slug}`,
 
       siteName: "AAVORide",
 
@@ -110,7 +110,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         {
           url: blog.coverImage.startsWith("http")
             ? blog.coverImage
-            : `https://aavoride.in${blog.coverImage}`,
+            : `https://www.aavoride.in${blog.coverImage}`,
           width: 1200,
           height: 630,
           alt: blog.title,
@@ -124,7 +124,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       images: [
         blog.coverImage.startsWith("http")
           ? blog.coverImage
-          : `https://aavoride.in${blog.coverImage}`,
+          : `https://www.aavoride.in${blog.coverImage}`,
       ],
     },
   };
@@ -159,13 +159,13 @@ export default async function Page({ params }: Props) {
       name: "AAVORide",
       logo: {
         "@type": "ImageObject",
-        url: "https://aavoride.in/icon.png",
+        url: "https://www.aavoride.in/icon.png",
       },
     },
 
     datePublished: blog.publishDate,
 
-    mainEntityOfPage: `https://aavoride.in/blog/${slug}`,
+    mainEntityOfPage: `https://www.aavoride.in/blog/${slug}`,
   };
 
   const breadcrumbSchema = {
@@ -181,7 +181,7 @@ export default async function Page({ params }: Props) {
 
         name: "Home",
 
-        item: "https://aavoride.in",
+        item: "https://www.aavoride.in",
       },
 
       {
@@ -191,7 +191,7 @@ export default async function Page({ params }: Props) {
 
         name: "Blog",
 
-        item: "https://aavoride.in/blog",
+        item: "https://www.aavoride.in/blog",
       },
 
       {
@@ -201,7 +201,7 @@ export default async function Page({ params }: Props) {
 
         name: blog.title,
 
-        item: `https://aavoride.in/blog/${slug}`,
+        item: `https://www.aavoride.in/blog/${slug}`,
       },
     ],
   };

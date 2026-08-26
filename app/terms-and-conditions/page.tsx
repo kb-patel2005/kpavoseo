@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Read the terms and conditions for using AAVORide's taxi booking and travel marketplace services. Understand your rights and responsibilities.",
   alternates: {
-    canonical: "https://aavoride.in/terms-and-conditions",
+    canonical: "https://www.aavoride.in/terms-and-conditions",
   },
   robots: {
     index: true,

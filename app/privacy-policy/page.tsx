@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Read AAVORide's Privacy Policy to understand how we collect, use, and protect your personal information. Your data is secure and never sold.",
   alternates: {
-    canonical: "https://aavoride.in/privacy-policy",
+    canonical: "https://www.aavoride.in/privacy-policy",
   },
   keywords:[
     "safe ride data",

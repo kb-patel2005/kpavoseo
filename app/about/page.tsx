@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
   description: "Send one request and receive multiple quotes from verified drivers across India. Compare cab prices and book your preferred outstation ride today.",  
   alternates: {
-    canonical: "https://aavoride.in/about",
+    canonical: "https://www.aavoride.in/about",
   },
 
   keywords:[
@@ -25,11 +25,11 @@ export const metadata: Metadata = {
 
   openGraph: {
 
-    url: "https://aavoride.in/about",
+    url: "https://www.aavoride.in/about",
 
     images: [
       {
-        url: "https://aavoride.in/og-image.jpg",
+        url: "https://www.aavoride.in/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "AAVORide",

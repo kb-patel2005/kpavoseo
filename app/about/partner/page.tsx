@@ -17,15 +17,15 @@ export const metadata: Metadata = {
     "Join AAVORide as an independent driver or travel agency. Receive direct customer enquiries, zero commission, flexible work, and transparent earnings.",
   keywords:["zero commission", "verified drivers"],
     alternates: {
-    canonical: "https://aavoride.in/about/partner",
+    canonical: "https://www.aavoride.in/about/partner",
   },
 
   openGraph: {
-    url: "https://aavoride.in/about/partner",
+    url: "https://www.aavoride.in/about/partner",
 
     images: [
       {
-        url: "https://aavoride.in/og-image.jpg",
+        url: "https://www.aavoride.in/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "AAVORide",

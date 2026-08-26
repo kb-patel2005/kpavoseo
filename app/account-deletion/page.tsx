@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description:
     "Learn how to permanently delete your AAVORide account and personal data.",
   alternates: {
-    canonical: "https://aavoride.in/account-deletion",
+    canonical: "https://www.aavoride.in/account-deletion",
   },
   robots: {
     index: true,

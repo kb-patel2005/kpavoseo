@@ -8,7 +8,7 @@ import { handleWhatsApp } from "@/lib/utils";
 import Whatsapp from "@/components/Whatsapp";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://aavoride.in"),
+  metadataBase: new URL("https://www.aavoride.in"),
 
   title: {
     default:
@@ -52,7 +52,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "AAVORide",
-      url: "https://aavoride.in",
+      url: "https://www.aavoride.in",
     },
   ],
 
@@ -75,12 +75,12 @@ export const metadata: Metadata = {
   },
 
   alternates: {
-    canonical: "https://aavoride.in",
+    canonical: "https://www.aavoride.in",
   },
 
   openGraph: {
 
-    url: "https://aavoride.in",
+    url: "https://www.aavoride.in",
 
     siteName: "AAVORide",
 
@@ -90,7 +90,7 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "https://aavoride.in/android-chrome-512x512.png",
+        url: "https://www.aavoride.in/android-chrome-512x512.png",
         width: 512,
         height: 512,
         alt: "AAVORide Official Logo",
@@ -100,7 +100,7 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary",
-    images: ["https://aavoride.in/android-chrome-512x512.png"],
+    images: ["https://www.aavoride.in/android-chrome-512x512.png"],
   },
 
   icons: {

@@ -65,7 +65,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         category: "Travel",
 
         alternates: {
-            canonical: `https://aavoride.in/blog/${slug}`,
+            canonical: `https://www.aavoride.in/blog/${slug}`,
         },
 
         robots: {
@@ -82,7 +82,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
         openGraph: {
 
-            url: `https://aavoride.in/blog/${slug}`,
+            url: `https://www.aavoride.in/blog/${slug}`,
 
             siteName: "AAVORide",
 
@@ -98,7 +98,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                 {
                     url: blog.coverImage.startsWith("http")
                         ? blog.coverImage
-                        : `https://aavoride.in${blog.coverImage}`,
+                        : `https://www.aavoride.in/${blog.coverImage}`,
                     width: 1200,
                     height: 630,
                     alt: blog.title,
@@ -112,7 +112,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             images: [
                 blog.coverImage.startsWith("http")
                     ? blog.coverImage
-                    : `https://aavoride.in${blog.coverImage}`,
+                    : `https://www.aavoride.in${blog.coverImage}`,
             ],
         },
     };
