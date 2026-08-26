@@ -5,7 +5,10 @@ import { TravelSolutionsSection } from "@/components/landing/travel-solutions-se
 export const metadata: Metadata = {
   title: "AAVORide Services | Outstation Cabs & Tempo Travellers",
   description: "Book verified outstation cabs, tempo travellers & round trips across India. Compare fares instantly, pay zero commission, and travel with confidence.", //   alternates: {
-  //     canonical: "https://aavoride.in/services",
+  alternates: {
+
+    canonical: "https://www.aavoride.in/services",
+  },
   //   },
   keywords: ["outstation cab service", "outstation taxi service",
     "outstation tempo traveller", "free cancellation ", "compare cab prices", "compare cab fares",
@@ -13,13 +16,24 @@ export const metadata: Metadata = {
     "verified drivers", "airport pickup", "single request", "multiple quotes"
   ],
   openGraph: {
-// url: "https://aavoride.in/services",
+    url: "https://aavoride.in/services",
+    images: [
+      {
+        url: "https://www.aavoride.in/android-chrome-512x512.png",
+        width: 512,
+        height: 512,
+        alt: "AAVORide Official Logo",
+      },
+    ],
+    
     siteName: "AavoRide",
     locale: "en_IN",
     type: "website",
   },
   twitter: {
-    card: "summary_large_image"
+    card: "summary_large_image",
+    
+    images: ["https://www.aavoride.in/android-chrome-512x512.png"],
   },
 };
 
@@ -29,7 +43,7 @@ export default function ServicesPage() {
   return (
     <section className="mt-10">
       <TravelSolutionsSection />
-      <FooterSection/>
+      <FooterSection />
     </section>
   );
 }
