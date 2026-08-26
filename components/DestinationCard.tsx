@@ -31,7 +31,7 @@ export default function DestinationCard({
     >
       <div className="absolute inset-0 z-0 overflow-hidden">
         <Image
-          src={"/android-chrome-192x192.png"}
+          src={destination.image}
           alt={destination.title}
           fill
           sizes="(max-width: 768px) 50vw, 250px"

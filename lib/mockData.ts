@@ -65,7 +65,6 @@ export const smallCard: Destination1[] = [
 
 ]
 
-export const MOCK_DESTINATIONS: Destination[] = [
   // {
   //   id: '1',
   //   title: "Jaipur's Hidden Haveli Stays",
@@ -90,144 +89,147 @@ export const MOCK_DESTINATIONS: Destination[] = [
   //   category: 'History',
   //   image: '/images/hampi.jpg',
   // }
+
+export const MOCK_DESTINATIONS: Destination[] = [
+
   
     {
       id: '1',
       title: 'Udaipur: City of Lakes',
       category: 'Royal Escape',
-      image: '/images/jaipur.jpg',
+      image: '/udaipur.jpg',
     },
     {
       id: '2',
       title: 'Mount Abu: A Cool Retreat',
       category: 'Hill Escape',
-      image: '/images/varanasi(1)(1).jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcOzuo-9Mnd7NTUe92v4pOgJnxBKwE2tXtHTYa8DnYjw&s',
     },
     {
       id: '3',
       title: 'Dwarka: Sacred Gujarat',
       category: 'Spiritual',
-      image: '/images/high-altitude.jpg',
+      image: '/dwarka.jpg',
     },
     {
       id: '4',
       title: 'Somnath: Sacred Shores',
       category: 'Pilgrimage',
-      image: '/images/hampi.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ39gIUqvUtrMPGOCNcbcp-_VLUBbFABr2EATUIwaoFvA&s=10',
     },
     {
       id: '5',
       title: 'Gir: Into the Wild',
       category: 'Wildlife',
-      image: '/images/jaipur.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS56ynn5e579bP3Cz4ShmMRvMxu7dKLT9ugVpx7E5SaiQ&s=10',
     },
     {
       id: '6',
       title: 'Kutch: White Desert Wonders',
       category: 'Adventure',
-      image: '/images/varanasi(1)(1).jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyS-80QKhz_jTxYPpU-piVHwOHqq0eRUETd7rt_knKYw&s=10',
     },
     {
       id: '7',
       title: 'Diu: Coastal Getaway',
       category: 'Beach Escape',
-      image: '/images/high-altitude.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaFpOpjYcLDCNkPjXNEhThCpg9zLCfh_BiJk8Hye_k3A&s=10',
     },
     {
       id: '8',
       title: 'Statue of Unity: A Grand Journey',
       category: 'Landmark',
-      image: '/images/hampi.jpg',
+      image: '/statue_of_unity.jpg',
     },
     {
       id: '9',
       title: 'Goa: Sun, Sand & Fun',
       category: 'Beach Escape',
-      image: '/images/jaipur.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_xSgCcXXbFQ-PuxoN9xto_mvthqyvOTb5r-qObQzQFQ&s=10',
     },
     {
       id: '10',
       title: 'Manali: Into the Mountains',
       category: 'Adventure',
-      image: '/images/varanasi(1)(1).jpg',
+      image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200&auto=format&fit=crop&q=80',
     },
     {
       id: '11',
       title: 'Shimla: Queen of Hills',
       category: 'Hill Escape',
-      image: '/images/high-altitude.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWq8opY8fi9VbWM5bKl-RBAIqNrKqvOYdpKPJocGnp9A&s=10',
     },
     {
       id: '12',
       title: 'Kasol: Valley of Serenity',
       category: 'Nature',
-      image: '/images/hampi.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv7kx6PiIbKQdQgB0pm5kwVYES8H_VRZrJJpQ8QeIUMg&s=10',
     },
     {
       id: '13',
       title: 'Rishikesh: Adventure Awaits',
       category: 'Adventure',
-      image: '/images/jaipur.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW2KyyfC5Wjh-p3-lN0IxWfbTrUiK0qHToazAeuRzYZA&s=10',
     },
     {
       id: '14',
       title: 'Haridwar: A Sacred Journey',
       category: 'Spiritual',
-      image: '/images/varanasi(1)(1).jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuJANjng3UwlGoXB5l0wl7nzy-_Bb2Jh7nsdiIW_5uMA&s=10',
     },
     {
       id: '15',
       title: 'Jaisalmer: Golden City Escape',
       category: 'Heritage',
-      image: '/images/high-altitude.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS6WMmLNPQkuqnSpnuvBThHrNymrsevZech47u1qOYzQ&s=10',
     },
     {
       id: '16',
       title: 'Jodhpur: The Blue City',
       category: 'Heritage',
-      image: '/images/hampi.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS25xHfpKGFm0Bu5Q7pBZGx0AdfpaDjvMOS5SoyhzozBg&s=10',
     },
     {
       id: '17',
       title: 'Pushkar: Beyond the Ordinary',
       category: 'Culture',
-      image: '/images/jaipur.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc1soRv095m0F6qJnEy2S3PZ5SHEDnup_TEEf9Eu60nw&s=10',
     },
     {
       id: '18',
       title: 'Mumbai: The City That Never Stops',
       category: 'City Escape',
-      image: '/images/varanasi(1)(1).jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpfjs4b2rOKux9Cq9KKXPylIOf65Nbqobnmq4P5jl9kQ&s=10',
     },
     {
       id: '19',
       title: 'Lonavala: Weekend in the Hills',
       category: 'Nature',
-      image: '/images/high-altitude.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlQm6ZdsU9jNu7kifthl65nIG2YUmXnejuJhy5_WhXZw&s=10',
     },
     {
       id: '20',
       title: 'Mahabaleshwar: Misty Mountain Escape',
       category: 'Hill Escape',
-      image: '/images/hampi.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOJnhhKS0uexGPh2ma1Fa_Yfz4e7BSItp48OfcB_oK1g&s',
     },
     {
       id: '21',
       title: 'Agra: The Taj Mahal Journey',
       category: 'Heritage',
-      image: '/images/jaipur.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyap5uwIdKPVi3e8WSKUB0W6uQE0oAuXfnU0frf40_Nw&s=10',
     },
     {
       id: '22',
       title: 'Delhi: Where History Meets Modern India',
       category: 'Culture',
-      image: '/images/varanasi(1)(1).jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcnERkBgRmQQjCLa2kiu7urwh4XpqPRmDnp8iw88To-A&s=10',
     },
     {
       id: '23',
       title: 'Varanasi: Soul of the Ganges',
       category: 'Spiritual',
-      image: '/images/high-altitude.jpg',
+      image: '/images/varanasi(1)(1).jpg',
     },
     {
       id: '24',
@@ -239,19 +241,19 @@ export const MOCK_DESTINATIONS: Destination[] = [
       id: '25',
       title: 'Amritsar: A Journey of Faith',
       category: 'Culture',
-      image: '/images/jaipur.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPe9ETbYV_c5vfJ6wmAVx_oqiIwtbrjH7KsYIpqH5HHA&s=10',
     },
     {
       id: '26',
       title: 'Kashmir: Paradise on Earth',
       category: 'Scenic',
-      image: '/images/varanasi(1)(1).jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPHWnRu88zISAu6ch-iqhJ2FVXyTUO8RUGJcI-6fP3nA&s=10',
     },
     {
       id: '27',
       title: 'Leh: Into the High Himalayas',
       category: 'Adventure',
-      image: '/images/high-altitude.jpg',
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRGHzVdJZ96Ri1SjNnkgK3z-HR2750Xtc0lytjRZ0P9A&s=10',
     }
   
 
