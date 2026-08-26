@@ -296,7 +296,7 @@ export default function BlogListingPage() {
             )}
           </section>
 
-          {/* <section className="space-y-6">
+          <section className="space-y-6">
             <h2 className="text-2xl font-black text-slate-800 tracking-tight flex items-center space-x-2">
               <span className="block h-6 w-1 bg-[#FF4D30] rounded-full" />
               <span>Popular Travel Destinations in India</span>
@@ -304,9 +304,9 @@ export default function BlogListingPage() {
 
             <MockDestinations/>
             
-          </section> */}
+          </section>
 
-          <section className="space-y-6 w-full flex flex-col justify-center items-center">
+          {/* <section className="space-y-6 w-full flex flex-col justify-center items-center">
             <h2 className="text-2xl font-black text-slate-800 tracking-tight flex items-center space-x-2">
               <span className="block h-6 w-1 bg-[#FF4D30] rounded-full" />
               <span>Travel With AAVORide</span>
@@ -314,7 +314,7 @@ export default function BlogListingPage() {
 
             <MockDestinations/>
             
-          </section>
+          </section> */}
         </div>
       </div>
     </>

@@ -486,9 +486,8 @@ export default function DetailBlog({ slug }: { slug: string }) {
                     </div>
                 )}
             </section>
-            <h2 className='text-2xl font-bold text-center mb-3'>Travel With AAVORide</h2>
-            <center><MockDestinations/></center>
-            {/* <MockDestinations/> */}
+            
+            <MockDestinations/>
         </article>
     );
 
