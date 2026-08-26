@@ -61,15 +61,7 @@ export const smallCard: Destination1[] = [
     slug: "ahmedabad-to-vadodara",
     coverImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/24/3b/lukshmi-vilas-palace.jpg?w=800&h=500&s=1",
   },
-  {
-    id: 4,
-    heading: "Ahmedabad to Dwarka Taxi - Book Comfortable & Affordable Cab Service",
-    description:"An ancient kingdom of Lord Krishna, known as the “Gates of heaven”. Dwarka is one of the Char Dham and Sapta Puri pilgrimage sites, famous for the Dwarkadhish Temple and sacred coastal charm. ",
-    tag: "SPIRITUAL",
-    slug: "ahmedabad-to-dwarka",
-    coverImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaBZhWCCGxWDPKsEFd6yli76_mJ2ykC0Jbix3WGKd-A&s=10"
-    
-  }
+
 
 ]
 
@@ -104,6 +96,16 @@ export const MOCK_DESTINATIONS: Destination[] = [
 // feture1: 96KB
 // feture2: <100Kb
 // feture3: 95.6KB
+
+  // {
+  //   id: 4,
+  //   heading: "Ahmedabad to Dwarka Taxi - Book Comfortable & Affordable Cab Service",
+  //   description:"An ancient kingdom of Lord Krishna, known as the “Gates of heaven”. Dwarka is one of the Char Dham and Sapta Puri pilgrimage sites, famous for the Dwarkadhish Temple and sacred coastal charm. ",
+  //   tag: "SPIRITUAL",
+  //   slug: "ahmedabad-to-dwarka",
+  //   coverImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaBZhWCCGxWDPKsEFd6yli76_mJ2ykC0Jbix3WGKd-A&s=10"
+    
+  // }
 
 export const MOCK_FEATURED_STORIES: Blog[] = [
   {
@@ -186,11 +188,11 @@ export const MOCK_FEATURED_STORIES: Blog[] = [
   },
   {
     id: 'featured-3',
-    slug: 'hidden-gems-himalayas',
-    title: 'Hidden Gems of Himalayas: Off Beaten Path | AAVORide',
-    excerpt: 'Discover hidden gems in the Himalayas, from quiet valleys to scenic trails. Plan an unforgettable off-the-beaten-path journey with AAVORide.',
-    coverImage: '/images/featured-guide2.jpg',
-    tag: 'Adventure',
+    slug: 'location/ahmedabad-to-dwarka',
+    title: 'Ahmedabad to Dwarka Taxi | AAVORide',
+    excerpt: "An ancient kingdom of Lord Krishna, known as the “Gates of heaven”. Dwarka is one of the Char Dham and Sapta Puri pilgrimage sites, famous for the Dwarkadhish Temple and sacred coastal charm. ",
+    coverImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaBZhWCCGxWDPKsEFd6yli76_mJ2ykC0Jbix3WGKd-A&s=10',
+    tag: 'SPIRITUAL',
     readTime: '10 min read',
     publishDate: 'Jan 15, 2026',
     author: {
