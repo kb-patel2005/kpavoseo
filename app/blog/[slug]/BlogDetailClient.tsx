@@ -12,6 +12,7 @@ import BlogRow from "@/components/BlogRow";
 import SmallCard from "../location/[slug]/SmallCard";
 import DestinationCard from "@/components/DestinationCard";
 import { useRouter } from "next/navigation";
+import MockDestinations from "@/components/blog/MockDestinations";
 
 export default function BlogDetailClient({
   params,
@@ -360,8 +361,8 @@ export default function BlogDetailClient({
                 key={category}
                 onClick={() => setActiveCategory(category)}
                 className={`relative px-4 py-2 text-xs md:text-sm cursor-pointer font-bold rounded-full transition-all duration-200 shrink-0 select-none ${isActive
-                    ? "text-white bg-[#FF4D30] shadow-md"
-                    : "text-slate-500 hover:text-slate-800 hover:bg-slate-100"
+                  ? "text-white bg-[#FF4D30] shadow-md"
+                  : "text-slate-500 hover:text-slate-800 hover:bg-slate-100"
                   }`}
               >
                 <span>{category}</span>
@@ -416,15 +417,15 @@ export default function BlogDetailClient({
           <div className="space-y-4 max-w-7xl mx-auto">
             <AnimatePresence mode="popLayout">
               {tripData.length > 0 &&
-                tripData.map((blog, idx) => 
-                  (blog.tag.toLocaleLowerCase() == activeCategory.toLocaleLowerCase() || activeCategory == "All Stories")  &&
+                tripData.map((blog, idx) =>
+                  (blog.tag.toLocaleLowerCase() == activeCategory.toLocaleLowerCase() || activeCategory == "All Stories") &&
                   <SmallCard blog={blog} index={idx} key={blog.heading} />
                 )}
               {recentBlogs.length > 0 && (
                 recentBlogs.map((rBlog, idx) => (
                   <BlogRow key={rBlog.id} blog={rBlog} index={idx} />
                 ))
-              ) }
+              )}
             </AnimatePresence>
           </div>
         )}
@@ -448,18 +449,22 @@ export default function BlogDetailClient({
             </button>
           </div>
         )}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-7xl mt-10 mx-auto">
-                        {MOCK_DESTINATIONS.map((dest, idx) => (
-                            <DestinationCard
-                                key={dest.id}
-                                destination={dest}
-                                index={idx}
-                                category={dest.category}
-                                clickFunc={() => router.push(`/blog/category/${dest.category}`)}
-                            />
-        
-                        ))}
-                    </div>
+        {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-7xl mt-10 mx-auto">
+          {MOCK_DESTINATIONS.map((dest, idx) => (
+            <DestinationCard
+              key={dest.id}
+              destination={dest}
+              index={idx}
+              category={dest.category}
+              clickFunc={() => router.push(`/blog/category/${dest.category}`)}
+            />
+
+          ))}
+        </div> */}
+        <h2 className="text-2xl font-bold text-center">Travel With AAVORide</h2>
+        <center>
+          <MockDestinations />
+        </center>
       </section>
     </div>
   );

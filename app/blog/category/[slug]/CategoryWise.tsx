@@ -12,6 +12,7 @@ import BlogRow from "@/components/BlogRow";
 import { useParams, useRouter } from "next/navigation";
 import DestinationCard from "@/components/DestinationCard";
 import SmallCard from "../../location/[slug]/SmallCard";
+import MockDestinations from "@/components/blog/MockDestinations";
 
 export default function CategoryWise({
     slug,
@@ -288,7 +289,7 @@ export default function CategoryWise({
                     </div>
                 )}
                 
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-7xl mt-10 mx-auto">
+                {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-7xl mt-10 mx-auto">
                     {MOCK_DESTINATIONS.map((dest, idx) => (
                         <DestinationCard
                             key={dest.id}
@@ -299,7 +300,12 @@ export default function CategoryWise({
                         />
 
                     ))}
-                </div>
+                </div> */}
+                <h2 className="text-2xl font-bold text-center">Travel With AAVORide</h2>
+                <center>
+                    <MockDestinations/>
+                </center>
+                
             </section>
         </div>
     );

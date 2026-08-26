@@ -14,7 +14,15 @@ export const metadata: Metadata = {
     "AAVORide FAQ", "outstation cab questions", "cab booking help", "verified drivers FAQ"
   ],
   openGraph: {
+
     url: "https://www.aavoride.in/faq",
+
+    siteName: "AAVORide",
+
+    locale: "en_IN",
+
+    type: "website",
+
     images: [
       {
         url: "https://www.aavoride.in/android-chrome-512x512.png",
@@ -23,12 +31,10 @@ export const metadata: Metadata = {
         alt: "AAVORide Official Logo",
       },
     ],
-    siteName: "AavoRide",
-    locale: "en_IN",
-    type: "website",
   },
+
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     images: ["https://www.aavoride.in/android-chrome-512x512.png"],
   },
 };

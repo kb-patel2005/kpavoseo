@@ -8,6 +8,30 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.aavoride.in/privacy-policy",
   },
+  openGraph: {
+
+    url: "https://www.aavoride.in/privacy-policy",
+
+    siteName: "AAVORide",
+
+    locale: "en_IN",
+
+    type: "website",
+
+    images: [
+      {
+        url: "https://www.aavoride.in/android-chrome-512x512.png",
+        width: 512,
+        height: 512,
+        alt: "AAVORide Official Logo",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary",
+    images: ["https://www.aavoride.in/android-chrome-512x512.png"],
+  },
   keywords:[
     "safe ride data",
     "safe customer data",

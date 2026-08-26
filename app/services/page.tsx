@@ -16,7 +16,15 @@ export const metadata: Metadata = {
     "verified drivers", "airport pickup", "single request", "multiple quotes"
   ],
   openGraph: {
-    url: "https://aavoride.in/services",
+
+    url: "https://www.aavoride.in/services",
+
+    siteName: "AAVORide",
+
+    locale: "en_IN",
+
+    type: "website",
+
     images: [
       {
         url: "https://www.aavoride.in/android-chrome-512x512.png",
@@ -25,14 +33,10 @@ export const metadata: Metadata = {
         alt: "AAVORide Official Logo",
       },
     ],
-    
-    siteName: "AavoRide",
-    locale: "en_IN",
-    type: "website",
   },
+
   twitter: {
-    card: "summary_large_image",
-    
+    card: "summary",
     images: ["https://www.aavoride.in/android-chrome-512x512.png"],
   },
 };

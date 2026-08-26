@@ -15,22 +15,34 @@ export const metadata: Metadata = {
   title: { absolute: "Become An Earning Partner|Zero Commission|AAVORide" },
   description:
     "Join AAVORide as an independent driver or travel agency. Receive direct customer enquiries, zero commission, flexible work, and transparent earnings.",
-  keywords:["zero commission", "verified drivers"],
-    alternates: {
+  keywords: ["zero commission", "verified drivers"],
+  alternates: {
     canonical: "https://www.aavoride.in/about/partner",
   },
 
   openGraph: {
+
     url: "https://www.aavoride.in/about/partner",
+
+    siteName: "AAVORide",
+
+    locale: "en_IN",
+
+    type: "website",
 
     images: [
       {
-        url: "https://www.aavoride.in/og-image.jpg",
-        width: 1200,
-        height: 630,
-        alt: "AAVORide",
+        url: "https://www.aavoride.in/android-chrome-512x512.png",
+        width: 512,
+        height: 512,
+        alt: "AAVORide Official Logo",
       },
     ],
+  },
+
+  twitter: {
+    card: "summary",
+    images: ["https://www.aavoride.in/android-chrome-512x512.png"],
   },
 };
 

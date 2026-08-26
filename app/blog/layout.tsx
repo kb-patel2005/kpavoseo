@@ -51,18 +51,17 @@ export const metadata: Metadata = {
 
     images: [
       {
-        url: "https://www.aavoride.in/aavoride_blog_hero.jpg",
-        width: 1200,
-        height: 630,
-        alt: "AAVORide Blog",
+        url: "https://www.aavoride.in/android-chrome-512x512.png",
+        width: 512,
+        height: 512,
+        alt: "AAVORide Official Logo",
       },
     ],
   },
 
   twitter: {
-    card: "summary_large_image",
-
-    images: ["https://www.aavoride.in/aavoride_blog_hero.jpg"],
+    card: "summary",
+    images: ["https://www.aavoride.in/android-chrome-512x512.png"],
   },
 
   icons: {
