@@ -18,6 +18,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import SmallCard from "./location/[slug]/SmallCard";
+import MockDestinations from "@/components/blog/MockDestinations";
 
 export default function BlogListingPage() {
   const [activeCategory, setActiveCategory] = useState("All Stories");
@@ -301,18 +302,7 @@ export default function BlogListingPage() {
               <span>Popular Travel Destinations in India</span>
             </h2>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
-              {MOCK_DESTINATIONS.map((dest, idx) => (
-                <DestinationCard
-                  key={dest.id}
-                  destination={dest}
-                  index={idx}
-                  category={dest.category}
-                  clickFunc={() => router.push(`/blog/category/${dest.category}`)}
-                />
-
-              ))}
-            </div>
+            <MockDestinations/>
             
           </section>
         </div>

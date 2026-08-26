@@ -66,30 +66,195 @@ export const smallCard: Destination1[] = [
 ]
 
 export const MOCK_DESTINATIONS: Destination[] = [
-  {
-    id: '1',
-    title: "Jaipur's Hidden Haveli Stays",
-    category: 'Culture',
-    image: '/images/jaipur.jpg',
-  },
-  {
-    id: '2',
-    title: 'Varanasi: Dawn on the Ganges',
-    category: 'Spiritual',
-    image: '/images/varanasi(1)(1).jpg',
-  },
-  {
-    id: '3',
-    title: 'Leh: High Altitude Comfort',
-    category: 'Luxury Adventure',
-    image: '/images/high-altitude.jpg',
-  },
-  {
-    id: '4',
-    title: 'Hampi: Ruins Reimagined',
-    category: 'History',
-    image: '/images/hampi.jpg',
-  }
+  // {
+  //   id: '1',
+  //   title: "Jaipur's Hidden Haveli Stays",
+  //   category: 'Culture',
+  //   image: '/images/jaipur.jpg',
+  // },
+  // {
+  //   id: '2',
+  //   title: 'Varanasi: Dawn on the Ganges',
+  //   category: 'Spiritual',
+  //   image: '/images/varanasi(1)(1).jpg',
+  // },
+  // {
+  //   id: '3',
+  //   title: 'Leh: High Altitude Comfort',
+  //   category: 'Luxury Adventure',
+  //   image: '/images/high-altitude.jpg',
+  // },
+  // {
+  //   id: '4',
+  //   title: 'Hampi: Ruins Reimagined',
+  //   category: 'History',
+  //   image: '/images/hampi.jpg',
+  // }
+  
+    {
+      id: '1',
+      title: 'Udaipur: City of Lakes',
+      category: 'Royal Escape',
+      image: '/images/jaipur.jpg',
+    },
+    {
+      id: '2',
+      title: 'Mount Abu: A Cool Retreat',
+      category: 'Hill Escape',
+      image: '/images/varanasi(1)(1).jpg',
+    },
+    {
+      id: '3',
+      title: 'Dwarka: Sacred Gujarat',
+      category: 'Spiritual',
+      image: '/images/high-altitude.jpg',
+    },
+    {
+      id: '4',
+      title: 'Somnath: Sacred Shores',
+      category: 'Pilgrimage',
+      image: '/images/hampi.jpg',
+    },
+    {
+      id: '5',
+      title: 'Gir: Into the Wild',
+      category: 'Wildlife',
+      image: '/images/jaipur.jpg',
+    },
+    {
+      id: '6',
+      title: 'Kutch: White Desert Wonders',
+      category: 'Adventure',
+      image: '/images/varanasi(1)(1).jpg',
+    },
+    {
+      id: '7',
+      title: 'Diu: Coastal Getaway',
+      category: 'Beach Escape',
+      image: '/images/high-altitude.jpg',
+    },
+    {
+      id: '8',
+      title: 'Statue of Unity: A Grand Journey',
+      category: 'Landmark',
+      image: '/images/hampi.jpg',
+    },
+    {
+      id: '9',
+      title: 'Goa: Sun, Sand & Fun',
+      category: 'Beach Escape',
+      image: '/images/jaipur.jpg',
+    },
+    {
+      id: '10',
+      title: 'Manali: Into the Mountains',
+      category: 'Adventure',
+      image: '/images/varanasi(1)(1).jpg',
+    },
+    {
+      id: '11',
+      title: 'Shimla: Queen of Hills',
+      category: 'Hill Escape',
+      image: '/images/high-altitude.jpg',
+    },
+    {
+      id: '12',
+      title: 'Kasol: Valley of Serenity',
+      category: 'Nature',
+      image: '/images/hampi.jpg',
+    },
+    {
+      id: '13',
+      title: 'Rishikesh: Adventure Awaits',
+      category: 'Adventure',
+      image: '/images/jaipur.jpg',
+    },
+    {
+      id: '14',
+      title: 'Haridwar: A Sacred Journey',
+      category: 'Spiritual',
+      image: '/images/varanasi(1)(1).jpg',
+    },
+    {
+      id: '15',
+      title: 'Jaisalmer: Golden City Escape',
+      category: 'Heritage',
+      image: '/images/high-altitude.jpg',
+    },
+    {
+      id: '16',
+      title: 'Jodhpur: The Blue City',
+      category: 'Heritage',
+      image: '/images/hampi.jpg',
+    },
+    {
+      id: '17',
+      title: 'Pushkar: Beyond the Ordinary',
+      category: 'Culture',
+      image: '/images/jaipur.jpg',
+    },
+    {
+      id: '18',
+      title: 'Mumbai: The City That Never Stops',
+      category: 'City Escape',
+      image: '/images/varanasi(1)(1).jpg',
+    },
+    {
+      id: '19',
+      title: 'Lonavala: Weekend in the Hills',
+      category: 'Nature',
+      image: '/images/high-altitude.jpg',
+    },
+    {
+      id: '20',
+      title: 'Mahabaleshwar: Misty Mountain Escape',
+      category: 'Hill Escape',
+      image: '/images/hampi.jpg',
+    },
+    {
+      id: '21',
+      title: 'Agra: The Taj Mahal Journey',
+      category: 'Heritage',
+      image: '/images/jaipur.jpg',
+    },
+    {
+      id: '22',
+      title: 'Delhi: Where History Meets Modern India',
+      category: 'Culture',
+      image: '/images/varanasi(1)(1).jpg',
+    },
+    {
+      id: '23',
+      title: 'Varanasi: Soul of the Ganges',
+      category: 'Spiritual',
+      image: '/images/high-altitude.jpg',
+    },
+    {
+      id: '24',
+      title: 'Hampi: Stories in Stone',
+      category: 'History',
+      image: '/images/hampi.jpg',
+    },
+    {
+      id: '25',
+      title: 'Amritsar: A Journey of Faith',
+      category: 'Culture',
+      image: '/images/jaipur.jpg',
+    },
+    {
+      id: '26',
+      title: 'Kashmir: Paradise on Earth',
+      category: 'Scenic',
+      image: '/images/varanasi(1)(1).jpg',
+    },
+    {
+      id: '27',
+      title: 'Leh: Into the High Himalayas',
+      category: 'Adventure',
+      image: '/images/high-altitude.jpg',
+    }
+  
+
 ];
 
 //features images
@@ -97,15 +262,15 @@ export const MOCK_DESTINATIONS: Destination[] = [
 // feture2: <100Kb
 // feture3: 95.6KB
 
-  // {
-  //   id: 4,
-  //   heading: "Ahmedabad to Dwarka Taxi - Book Comfortable & Affordable Cab Service",
-  //   description:"An ancient kingdom of Lord Krishna, known as the “Gates of heaven”. Dwarka is one of the Char Dham and Sapta Puri pilgrimage sites, famous for the Dwarkadhish Temple and sacred coastal charm. ",
-  //   tag: "SPIRITUAL",
-  //   slug: "ahmedabad-to-dwarka",
-  //   coverImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaBZhWCCGxWDPKsEFd6yli76_mJ2ykC0Jbix3WGKd-A&s=10"
-    
-  // }
+// {
+//   id: 4,
+//   heading: "Ahmedabad to Dwarka Taxi - Book Comfortable & Affordable Cab Service",
+//   description:"An ancient kingdom of Lord Krishna, known as the “Gates of heaven”. Dwarka is one of the Char Dham and Sapta Puri pilgrimage sites, famous for the Dwarkadhish Temple and sacred coastal charm. ",
+//   tag: "SPIRITUAL",
+//   slug: "ahmedabad-to-dwarka",
+//   coverImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaBZhWCCGxWDPKsEFd6yli76_mJ2ykC0Jbix3WGKd-A&s=10"
+
+// }
 
 export const MOCK_FEATURED_STORIES: Blog[] = [
   {

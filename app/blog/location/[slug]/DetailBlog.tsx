@@ -13,6 +13,7 @@ import { Skeleton } from '@/components/ui/skeleton';
 import { useInfiniteBlogs } from '@/hooks/useBlogs';
 import BlogRow from '@/components/BlogRow';
 import { useRouter } from 'next/navigation';
+import MockDestinations from '@/components/blog/MockDestinations';
 
 export default function DetailBlog({ slug }: { slug: string }) {
 
@@ -485,18 +486,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
                     </div>
                 )}
             </section>
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 max-w-7xl mt-10 mx-auto">
-                {MOCK_DESTINATIONS.map((dest, idx) => (
-                    <DestinationCard
-                        key={dest.id}
-                        destination={dest}
-                        index={idx}
-                        category={dest.category}
-                        clickFunc={() => router.push(`/blog/category/${dest.category}`)}
-                    />
-
-                ))}
-            </div>
+            <MockDestinations/>
         </article>
     );
 
