@@ -68,7 +68,7 @@ export const smallCard: Destination1[] = [
     description: "Ahmedabad to Mount Abu is a favorite route for travelers seeking a refreshing getaway in Rajasthan. Mount Abu is known for its cool climate and stunning landscapes. Many people book rides between these cities for family vacations and leisure trips. You can book your outstation cab with AAVORide for a comfortable and affordable journey. Enjoy your trip with one-way drops service and explore the beauty of Mount Abu at your own pace.",
     tag: 'Hill-Escape',
     slug: "ahmedabad-to-mountabu",
-    coverImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcOzuo-9Mnd7NTUe92v4pOgJnxBKwE2tXtHTYa8DnYjw&s',
+    coverImage: '/mountabbu.jpg',
   },
   {
     id: 3,
@@ -76,7 +76,7 @@ export const smallCard: Destination1[] = [
     description: "Ahmedabad to Jaipur is very popular route among both domestic as well as foreign tourists. Jaipur is third part of the famous Golden Triangle of India - Delhi - Agra - Jaipur.",
     tag: 'Royal-Escape',
     slug: "ahmedabad-to-jaipur",
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS093O2q0px91VVuxuSA_7gTk_i97kcBR2xUp658JZ2ww&s=10"
+    coverImage: "/jaipur.jpg"
   },
   {
     id: 4,
@@ -84,7 +84,7 @@ export const smallCard: Destination1[] = [
     description: "Ahmedabad to Somnath is very popular route for tourists as its religious and mythological importance. Somnath means 'Lord of the moon' and is most popular among pilgrims as it is one of the 12 Jyotirlingas.",
     tag: "Pilgrimage",
     slug: "ahmedabad-to-somnath",
-    coverImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ39gIUqvUtrMPGOCNcbcp-_VLUBbFABr2EATUIwaoFvA&s=10',
+    coverImage: '/somnath.jpg',
   },
   {
     id: 5,
@@ -93,7 +93,7 @@ export const smallCard: Destination1[] = [
       "With​‍​‌‍​‍‌​‍​‌‍​‍‌ AAVORide, your Ahmedabad to Rajkot journey becomes simple and without any kind of stress. They offer you reliable cabs, prices that are fair, and drivers that you can trust. Every time you make a booking, you will receive a timely pickup and a fare that is friendly to your wallet. If you are only going to use the cab for a one-way ride or for a round trip, it does not matter; just reserve your cab and take it easy. Your trip from Ahmedabad to Rajkot by road will be safe, comfortable, and free of any trouble with the help of ​‍​‌‍​‍‌​‍​‌‍​‍‌AAVORide."
     , tag: 'Road-Trips',
     slug: "ahmedabad-to-rajkot",
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-z7VKTmZpQzYASDhQZ3SEVHDChQCX-YpX_BtbDs_TAw&s=10"
+    coverImage: "/rajkot.jpg"
   },
 
 ]
@@ -136,7 +136,7 @@ export const MOCK_DESTINATIONS: Destination[] = [
     title: 'Mount Abu: A Cool Retreat',
     slug:'ahmedabad-to-mountabu',
     category: 'Hill Escape',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcOzuo-9Mnd7NTUe92v4pOgJnxBKwE2tXtHTYa8DnYjw&s',
+    image: '/mountabbu.jpg',
   },
   {
     id: '3',
@@ -150,7 +150,7 @@ export const MOCK_DESTINATIONS: Destination[] = [
     title: 'Somnath: Sacred Shores',
     slug:"ahmedabad-to-somnath",
     category: 'Pilgrimage',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ39gIUqvUtrMPGOCNcbcp-_VLUBbFABr2EATUIwaoFvA&s=10',
+    image: '/somnath.jpg',
   },
   {
     id: '5',
@@ -1793,7 +1793,7 @@ export const tripData = [
       "Mount Abu is not just a dream. It is a historic desert town high up in the mountains. It is surrounded by green forests with flowing waterfalls and full lakes. You will find tall peaks and beautiful temples. There are marvellous forts and a rich wildlife sanctuary. Mount Abu sits in the Aravalli Mountains of Rajasthan. It is a tourist gem in India's colourful state. It is also one of the rarest places in the region. The town's history goes as far back as old stories of gods. AAVORide can help you book a cab to visit Mount Abu for outstation cabs or one-way drops.",
       "Taxi from Ahmedabad to Mountabu is readily available at AAVORide."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRAaASbZ_nUuScXGJBTPzGVj8Qq8s6qx8dK9XbmyLfSA&s=10", 
+    coverImage: "/mountabbu.jpg", 
     sections: [
       {
         subHeading: "Ahmedabad to Mountabu Cab Route",
@@ -1945,7 +1945,7 @@ export const tripData = [
       "Jaipur, also known as 'Pink City', is a visual treat with its forts, places and architectural marvels. The city, built by Sawai Jai Singh, preserves the heritage and culture of the kingly Rajputs. Jaipur provides different shades in one city. There are hills, lakes, forts in Amer region whereas old walled city has pink shops, narrow lanes, buildings and monuments, palace, old bazar having everything to offer for a shopaholic. At same time, there posh areas, high-rises, flyovers and amazing infrastructure.",
       "Taxi from Ahmedabad to Jaipur is readily available at AAVORide."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS093O2q0px91VVuxuSA_7gTk_i97kcBR2xUp658JZ2ww&s=10",
+    coverImage: "/jaipur2.jpg",
     sections: [
       {
         subHeading: "Ahmedabad to Jaipur Cab Route",
@@ -2103,7 +2103,7 @@ export const tripData = [
       "Ahmedabad to Somnath is very popular route for tourists as its religious and mythological importance. Somnath means 'Lord of the moon' and is most popular among pilgrims as it is one of the 12 Jyotirlingas.",
       "Somnath, being the first of 12 Jyotirlinga, is primarily a temple town having numerous temples, shrines, monuments and museums. Due to this spiritual importance, it is one of the most visited cities of Gujarat. Apart from holy places, Somnath also offers an enchanting beach and a wonderful shopping experience with its beautiful embroidered and beadwork clothes.",
       "Taxi from Ahmedabad to Somnath is readily available at AAVORide. Other very popular cab route for tourists is Hyderabad to Srisailam."],
-    coverImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ39gIUqvUtrMPGOCNcbcp-_VLUBbFABr2EATUIwaoFvA&s=10',
+    coverImage: '/somnath.jpg',
     sections: [
       {
         subHeading: "Ahmedabad to Somnath Cab Route",
@@ -2242,7 +2242,7 @@ export const tripData = [
       "AAVORide provides reliable and affordable cab services from Ahmedabad to Rajkot. Whether you're looking for the cheapest cab from Ahmedabad to Rajkot, a comfortable SUV for family travel, or a sedan for a couple's trip, AAVORide ensures you enjoy a smooth and safe journey. Plan your ride with the best taxi service in Ahmedabad today, discover all the charming places, and let AAVORide make your hill station escape comfortable and memorable. Choose the right Ahmedabad to Rajkot car package that fits your plan and travel comfortably.",
       "Whichever type of car you require like SUV, Sedan, or Tempo Traveller, AAVORide is India's number one intercity taxi platform and the most reliable choice. Just decide on one-way or round trip and travel without apprehensions. Book a reliable Ahmedabad to Rajkot cab with up to a 20% discount for a smooth and safe ride. Choose your Ahmedabad to Rajkot taxi today. Price starts at ₹9/km. Reserve your cab right away and have an easy travelling experience which is also secure."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtnpnifygWch2BZW5Tid_oEagXZ21G9M6TlZnfgSr1gA&s=10",
+    coverImage: "/rajkot.jpg",
     sections: [
       {
         subHeading: "Ahmedabad to Rajkot Taxi Fare | Best Price and Lowest Price Guarantee",
