@@ -19,7 +19,7 @@ export default function MockDestinations() {
                         destination={dest}
                         index={idx}
                         category={dest.category}
-                        clickFunc={() => router.push(`/blog/category/${dest.category}`)}
+                        clickFunc={() => dest.slug && router.push(`/blog/location/${dest.slug}`)}
                     />
                 ))}
             </div>

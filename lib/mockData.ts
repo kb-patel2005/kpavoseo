@@ -30,6 +30,7 @@ export interface Destination {
   id: string;
   title: string;
   category: string;
+  slug?: string;
   image: string;
 }
 
@@ -61,201 +62,236 @@ export const smallCard: Destination1[] = [
     slug: "ahmedabad-to-vadodara",
     coverImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/24/3b/lukshmi-vilas-palace.jpg?w=800&h=500&s=1",
   },
-
+  {
+    id: 2,
+    heading: "Book Ahmedabad to Mountabu Cab",
+    description: "Ahmedabad to Mount Abu is a favorite route for travelers seeking a refreshing getaway in Rajasthan. Mount Abu is known for its cool climate and stunning landscapes. Many people book rides between these cities for family vacations and leisure trips. You can book your outstation cab with AAVORide for a comfortable and affordable journey. Enjoy your trip with one-way drops service and explore the beauty of Mount Abu at your own pace.",
+    tag: 'Hill-Escape',
+    slug: "ahmedabad-to-mountabu",
+    coverImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcOzuo-9Mnd7NTUe92v4pOgJnxBKwE2tXtHTYa8DnYjw&s',
+  },
+  {
+    id: 3,
+    heading: "Book Ahmedabad to Jaipur Cab",
+    description: "Ahmedabad to Jaipur is very popular route among both domestic as well as foreign tourists. Jaipur is third part of the famous Golden Triangle of India - Delhi - Agra - Jaipur.",
+    tag: 'Royal-Escape',
+    slug: "ahmedabad-to-jaipur",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS093O2q0px91VVuxuSA_7gTk_i97kcBR2xUp658JZ2ww&s=10"
+  },
+  {
+    id: 4,
+    heading: "Book Ahmedabad to Somnath Cab",
+    description: "Ahmedabad to Somnath is very popular route for tourists as its religious and mythological importance. Somnath means 'Lord of the moon' and is most popular among pilgrims as it is one of the 12 Jyotirlingas.",
+    tag: "Pilgrimage",
+    slug: "ahmedabad-to-somnath",
+    coverImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ39gIUqvUtrMPGOCNcbcp-_VLUBbFABr2EATUIwaoFvA&s=10',
+  },
+  {
+    id: 5,
+    heading: "Ahmedabad to Rajkot Cab Service | One Way Taxi Lowest Price",
+    description:
+      "With​‍​‌‍​‍‌​‍​‌‍​‍‌ AAVORide, your Ahmedabad to Rajkot journey becomes simple and without any kind of stress. They offer you reliable cabs, prices that are fair, and drivers that you can trust. Every time you make a booking, you will receive a timely pickup and a fare that is friendly to your wallet. If you are only going to use the cab for a one-way ride or for a round trip, it does not matter; just reserve your cab and take it easy. Your trip from Ahmedabad to Rajkot by road will be safe, comfortable, and free of any trouble with the help of ​‍​‌‍​‍‌​‍​‌‍​‍‌AAVORide."
+    , tag: 'Road-Trips',
+    slug: "ahmedabad-to-rajkot",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBdpK4C2lCeIavPY22Tx5gONrtGnOP_RJvYpUmwJRY0A&s=10"
+  },
 
 ]
 
-  // {
-  //   id: '1',
-  //   title: "Jaipur's Hidden Haveli Stays",
-  //   category: 'Culture',
-  //   image: '/images/jaipur.jpg',
-  // },
-  // {
-  //   id: '2',
-  //   title: 'Varanasi: Dawn on the Ganges',
-  //   category: 'Spiritual',
-  //   image: '/images/varanasi(1)(1).jpg',
-  // },
-  // {
-  //   id: '3',
-  //   title: 'Leh: High Altitude Comfort',
-  //   category: 'Luxury Adventure',
-  //   image: '/images/high-altitude.jpg',
-  // },
-  // {
-  //   id: '4',
-  //   title: 'Hampi: Ruins Reimagined',
-  //   category: 'History',
-  //   image: '/images/hampi.jpg',
-  // }
+// {
+//   id: '1',
+//   title: "Jaipur's Hidden Haveli Stays",
+//   category: 'Culture',
+//   image: '/images/jaipur.jpg',
+// },
+// {
+//   id: '2',
+//   title: 'Varanasi: Dawn on the Ganges',
+//   category: 'Spiritual',
+//   image: '/images/varanasi(1)(1).jpg',
+// },
+// {
+//   id: '3',
+//   title: 'Leh: High Altitude Comfort',
+//   category: 'Luxury Adventure',
+//   image: '/images/high-altitude.jpg',
+// },
+// {
+//   id: '4',
+//   title: 'Hampi: Ruins Reimagined',
+//   category: 'History',
+//   image: '/images/hampi.jpg',
+// }
 
 export const MOCK_DESTINATIONS: Destination[] = [
+  {
+    id: '1',
+    title: 'Udaipur: City of Lakes',
+    slug:"ahmedabad-to-udaipur",
+    category: 'Royal Escape',
+    image: '/udaipur.jpg',
+  },
+  {
+    id: '2',
+    title: 'Mount Abu: A Cool Retreat',
+    slug:'ahmedabad-to-mountabu',
+    category: 'Hill Escape',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcOzuo-9Mnd7NTUe92v4pOgJnxBKwE2tXtHTYa8DnYjw&s',
+  },
+  {
+    id: '3',
+    title: 'Dwarka: Sacred Gujarat',
+    slug:"ahmedabad-to-dwarka",
+    category: 'Spiritual',
+    image: '/dwarka.jpg',
+  },
+  {
+    id: '4',
+    title: 'Somnath: Sacred Shores',
+    slug:"ahmedabad-to-somnath",
+    category: 'Pilgrimage',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ39gIUqvUtrMPGOCNcbcp-_VLUBbFABr2EATUIwaoFvA&s=10',
+  },
+  {
+    id: '5',
+    title: 'Gir: Into the Wild',
+    category: 'Wildlife',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS56ynn5e579bP3Cz4ShmMRvMxu7dKLT9ugVpx7E5SaiQ&s=10',
+  },
+  {
+    id: '6',
+    title: 'Kutch: White Desert Wonders',
+    category: 'Adventure',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyS-80QKhz_jTxYPpU-piVHwOHqq0eRUETd7rt_knKYw&s=10',
+  },
+  {
+    id: '7',
+    title: 'Diu: Coastal Getaway',
+    category: 'Beach Escape',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaFpOpjYcLDCNkPjXNEhThCpg9zLCfh_BiJk8Hye_k3A&s=10',
+  },
+  {
+    id: '8',
+    title: 'Statue of Unity: A Grand Journey',
+    slug:'ahmedabad-to-statue-of-unity',
+    category: 'Landmark',
+    image: '/statue_of_unity.jpg',
+  },
+  {
+    id: '9',
+    title: 'Goa: Sun, Sand & Fun',
+    category: 'Beach Escape',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_xSgCcXXbFQ-PuxoN9xto_mvthqyvOTb5r-qObQzQFQ&s=10',
+  },
+  {
+    id: '10',
+    title: 'Manali: Into the Mountains',
+    category: 'Adventure',
+    image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200&auto=format&fit=crop&q=80',
+  },
+  {
+    id: '11',
+    title: 'Shimla: Queen of Hills',
+    category: 'Hill Escape',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWq8opY8fi9VbWM5bKl-RBAIqNrKqvOYdpKPJocGnp9A&s=10',
+  },
+  {
+    id: '12',
+    title: 'Kasol: Valley of Serenity',
+    category: 'Nature',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv7kx6PiIbKQdQgB0pm5kwVYES8H_VRZrJJpQ8QeIUMg&s=10',
+  },
+  {
+    id: '13',
+    title: 'Rishikesh: Adventure Awaits',
+    category: 'Adventure',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW2KyyfC5Wjh-p3-lN0IxWfbTrUiK0qHToazAeuRzYZA&s=10',
+  },
+  {
+    id: '14',
+    title: 'Haridwar: A Sacred Journey',
+    category: 'Spiritual',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuJANjng3UwlGoXB5l0wl7nzy-_Bb2Jh7nsdiIW_5uMA&s=10',
+  },
+  {
+    id: '15',
+    title: 'Jaisalmer: Golden City Escape',
+    category: 'Heritage',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS6WMmLNPQkuqnSpnuvBThHrNymrsevZech47u1qOYzQ&s=10',
+  },
+  {
+    id: '16',
+    title: 'Jodhpur: The Blue City',
+    category: 'Heritage',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS25xHfpKGFm0Bu5Q7pBZGx0AdfpaDjvMOS5SoyhzozBg&s=10',
+  },
+  {
+    id: '17',
+    title: 'Pushkar: Beyond the Ordinary',
+    category: 'Culture',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc1soRv095m0F6qJnEy2S3PZ5SHEDnup_TEEf9Eu60nw&s=10',
+  },
+  {
+    id: '18',
+    title: 'Mumbai: The City That Never Stops',
+    category: 'City Escape',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpfjs4b2rOKux9Cq9KKXPylIOf65Nbqobnmq4P5jl9kQ&s=10',
+  },
+  {
+    id: '19',
+    title: 'Lonavala: Weekend in the Hills',
+    category: 'Nature',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlQm6ZdsU9jNu7kifthl65nIG2YUmXnejuJhy5_WhXZw&s=10',
+  },
+  {
+    id: '20',
+    title: 'Mahabaleshwar: Misty Mountain Escape',
+    category: 'Hill Escape',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOJnhhKS0uexGPh2ma1Fa_Yfz4e7BSItp48OfcB_oK1g&s',
+  },
+  {
+    id: '21',
+    title: 'Agra: The Taj Mahal Journey',
+    category: 'Heritage',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyap5uwIdKPVi3e8WSKUB0W6uQE0oAuXfnU0frf40_Nw&s=10',
+  },
+  {
+    id: '22',
+    title: 'Delhi: Where History Meets Modern India',
+    category: 'Culture',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcnERkBgRmQQjCLa2kiu7urwh4XpqPRmDnp8iw88To-A&s=10',
+  },
+  {
+    id: '23',
+    title: 'Varanasi: Soul of the Ganges',
+    category: 'Spiritual',
+    image: '/images/varanasi(1)(1).jpg',
+  },
+  {
+    id: '24',
+    title: 'Hampi: Stories in Stone',
+    category: 'History',
+    image: '/images/hampi.jpg',
+  },
+  {
+    id: '25',
+    title: 'Amritsar: A Journey of Faith',
+    category: 'Culture',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPe9ETbYV_c5vfJ6wmAVx_oqiIwtbrjH7KsYIpqH5HHA&s=10',
+  },
+  {
+    id: '26',
+    title: 'Kashmir: Paradise on Earth',
+    category: 'Scenic',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPHWnRu88zISAu6ch-iqhJ2FVXyTUO8RUGJcI-6fP3nA&s=10',
+  },
+  {
+    id: '27',
+    title: 'Leh: Into the High Himalayas',
+    category: 'Adventure',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRGHzVdJZ96Ri1SjNnkgK3z-HR2750Xtc0lytjRZ0P9A&s=10',
+  }
 
-  
-    {
-      id: '1',
-      title: 'Udaipur: City of Lakes',
-      category: 'Royal Escape',
-      image: '/udaipur.jpg',
-    },
-    {
-      id: '2',
-      title: 'Mount Abu: A Cool Retreat',
-      category: 'Hill Escape',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcOzuo-9Mnd7NTUe92v4pOgJnxBKwE2tXtHTYa8DnYjw&s',
-    },
-    {
-      id: '3',
-      title: 'Dwarka: Sacred Gujarat',
-      category: 'Spiritual',
-      image: '/dwarka.jpg',
-    },
-    {
-      id: '4',
-      title: 'Somnath: Sacred Shores',
-      category: 'Pilgrimage',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ39gIUqvUtrMPGOCNcbcp-_VLUBbFABr2EATUIwaoFvA&s=10',
-    },
-    {
-      id: '5',
-      title: 'Gir: Into the Wild',
-      category: 'Wildlife',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS56ynn5e579bP3Cz4ShmMRvMxu7dKLT9ugVpx7E5SaiQ&s=10',
-    },
-    {
-      id: '6',
-      title: 'Kutch: White Desert Wonders',
-      category: 'Adventure',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyS-80QKhz_jTxYPpU-piVHwOHqq0eRUETd7rt_knKYw&s=10',
-    },
-    {
-      id: '7',
-      title: 'Diu: Coastal Getaway',
-      category: 'Beach Escape',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaFpOpjYcLDCNkPjXNEhThCpg9zLCfh_BiJk8Hye_k3A&s=10',
-    },
-    {
-      id: '8',
-      title: 'Statue of Unity: A Grand Journey',
-      category: 'Landmark',
-      image: '/statue_of_unity.jpg',
-    },
-    {
-      id: '9',
-      title: 'Goa: Sun, Sand & Fun',
-      category: 'Beach Escape',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_xSgCcXXbFQ-PuxoN9xto_mvthqyvOTb5r-qObQzQFQ&s=10',
-    },
-    {
-      id: '10',
-      title: 'Manali: Into the Mountains',
-      category: 'Adventure',
-      image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200&auto=format&fit=crop&q=80',
-    },
-    {
-      id: '11',
-      title: 'Shimla: Queen of Hills',
-      category: 'Hill Escape',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWq8opY8fi9VbWM5bKl-RBAIqNrKqvOYdpKPJocGnp9A&s=10',
-    },
-    {
-      id: '12',
-      title: 'Kasol: Valley of Serenity',
-      category: 'Nature',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv7kx6PiIbKQdQgB0pm5kwVYES8H_VRZrJJpQ8QeIUMg&s=10',
-    },
-    {
-      id: '13',
-      title: 'Rishikesh: Adventure Awaits',
-      category: 'Adventure',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW2KyyfC5Wjh-p3-lN0IxWfbTrUiK0qHToazAeuRzYZA&s=10',
-    },
-    {
-      id: '14',
-      title: 'Haridwar: A Sacred Journey',
-      category: 'Spiritual',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuJANjng3UwlGoXB5l0wl7nzy-_Bb2Jh7nsdiIW_5uMA&s=10',
-    },
-    {
-      id: '15',
-      title: 'Jaisalmer: Golden City Escape',
-      category: 'Heritage',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS6WMmLNPQkuqnSpnuvBThHrNymrsevZech47u1qOYzQ&s=10',
-    },
-    {
-      id: '16',
-      title: 'Jodhpur: The Blue City',
-      category: 'Heritage',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS25xHfpKGFm0Bu5Q7pBZGx0AdfpaDjvMOS5SoyhzozBg&s=10',
-    },
-    {
-      id: '17',
-      title: 'Pushkar: Beyond the Ordinary',
-      category: 'Culture',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc1soRv095m0F6qJnEy2S3PZ5SHEDnup_TEEf9Eu60nw&s=10',
-    },
-    {
-      id: '18',
-      title: 'Mumbai: The City That Never Stops',
-      category: 'City Escape',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpfjs4b2rOKux9Cq9KKXPylIOf65Nbqobnmq4P5jl9kQ&s=10',
-    },
-    {
-      id: '19',
-      title: 'Lonavala: Weekend in the Hills',
-      category: 'Nature',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlQm6ZdsU9jNu7kifthl65nIG2YUmXnejuJhy5_WhXZw&s=10',
-    },
-    {
-      id: '20',
-      title: 'Mahabaleshwar: Misty Mountain Escape',
-      category: 'Hill Escape',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOJnhhKS0uexGPh2ma1Fa_Yfz4e7BSItp48OfcB_oK1g&s',
-    },
-    {
-      id: '21',
-      title: 'Agra: The Taj Mahal Journey',
-      category: 'Heritage',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyap5uwIdKPVi3e8WSKUB0W6uQE0oAuXfnU0frf40_Nw&s=10',
-    },
-    {
-      id: '22',
-      title: 'Delhi: Where History Meets Modern India',
-      category: 'Culture',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcnERkBgRmQQjCLa2kiu7urwh4XpqPRmDnp8iw88To-A&s=10',
-    },
-    {
-      id: '23',
-      title: 'Varanasi: Soul of the Ganges',
-      category: 'Spiritual',
-      image: '/images/varanasi(1)(1).jpg',
-    },
-    {
-      id: '24',
-      title: 'Hampi: Stories in Stone',
-      category: 'History',
-      image: '/images/hampi.jpg',
-    },
-    {
-      id: '25',
-      title: 'Amritsar: A Journey of Faith',
-      category: 'Culture',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPe9ETbYV_c5vfJ6wmAVx_oqiIwtbrjH7KsYIpqH5HHA&s=10',
-    },
-    {
-      id: '26',
-      title: 'Kashmir: Paradise on Earth',
-      category: 'Scenic',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPHWnRu88zISAu6ch-iqhJ2FVXyTUO8RUGJcI-6fP3nA&s=10',
-    },
-    {
-      id: '27',
-      title: 'Leh: Into the High Himalayas',
-      category: 'Adventure',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRGHzVdJZ96Ri1SjNnkgK3z-HR2750Xtc0lytjRZ0P9A&s=10',
-    }
-  
 
 ];
 
@@ -1738,6 +1774,735 @@ export const tripData = [
           {
             question: "Can I travel with pets?",
             answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Dwarka cab."
+          }
+        ]
+
+
+      }
+    ],
+  },
+  {
+    id: 5,
+    slug: "ahmedabad-to-mountabu",
+    heading: "Book Ahmedabad to Mountabu Cab",
+    tag: "HILL ESCAPE",
+    description: [
+      "Ahmedabad to Mountabu distance : 227 km",
+      "Estimated travel time : 4.8 hours",
+      "Ahmedabad to Mount Abu is a favorite route for travelers seeking a refreshing getaway in Rajasthan. Mount Abu is known for its cool climate and stunning landscapes. Many people book rides between these cities for family vacations and leisure trips. You can book your outstation cab with AAVORide for a comfortable and affordable journey. Enjoy your trip with one-way drops service and explore the beauty of Mount Abu at your own pace.",
+      "Mount Abu is not just a dream. It is a historic desert town high up in the mountains. It is surrounded by green forests with flowing waterfalls and full lakes. You will find tall peaks and beautiful temples. There are marvellous forts and a rich wildlife sanctuary. Mount Abu sits in the Aravalli Mountains of Rajasthan. It is a tourist gem in India's colourful state. It is also one of the rarest places in the region. The town's history goes as far back as old stories of gods. AAVORide can help you book a cab to visit Mount Abu for outstation cabs or one-way drops.",
+      "Taxi from Ahmedabad to Mountabu is readily available at AAVORide."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRAaASbZ_nUuScXGJBTPzGVj8Qq8s6qx8dK9XbmyLfSA&s=10", 
+    sections: [
+      {
+        subHeading: "Ahmedabad to Mountabu Cab Route",
+        description: [
+          "Ahmedabad to Mountabu by car is well connected through Ahmedabad - Palanpur Highway Road/Ahmedabad - Patan Highway Road and is very convenient and comfortable drive. Ahmedabad to Mountabu distance is 227 Km and is 4.8 hours journey. Book your Ahmedabad to Mountabucar tour package. Other famous tourist places on this route and nearby are :",
+          "Kalol : Aadinath Digambar Jain Mandir, Swaminarayan Temple, Nagdev Temple, Satyanarayan Temple",
+          "Mehsana : Raj Mahal Oalace, SMVS Swaminarayan Mandir, Shree Kaleshwari Mataji Temple, Brahmani Mataji Mandir",
+          "Unjha : Mahavirswami Jain Derasar, Dwarkadhish Temple, Amusement Park, Umiya Mata Temple, Mira Datar Dargah Sharif",
+          "Sunak : Ambaji Mata Temple, Nilkanth Mahadev, Ramji Temple",
+          "Balisana : Tindeshaver Mahadev, Nilkantha Mahadev Temple, Harsidhdh Mataji Temple",
+          "Siddhpur : Rudra Mahalaya, Shree Govind Madhav Temple, Shree Swaminarayan Temple, Hanuman Temple, Bhramani Mata Temple",
+          "Palanpur : Shri Pataleshwar Mahadev Mandir, Mahadev Mandir, Shani Temple",
+          "Abu Road : Sun Rise Point, Wildlife Sanctuary, Rising Adventures, Sun Set Point, Camping"
+        ],
+      },
+      {
+        subHeading: "Places to visit in Mountabu using AAVORide Ahmedabad to Mountabu Car Rental with driver",
+        "Mount Abu Attractions": [
+          "Dilwara Temples",
+          "Mount Abu Wildlife Sanctuary",
+          "Nakki Lake",
+          "Guru Shikhar",
+          "Arbuda Devi Temple",
+          "Achalgarh Village",
+          "Trevors Tank",
+          "Toad Rock - The Mascot of Mount Abu",
+          "Raghunath Temple",
+          "Brahma Kumaris Ashram Mount Abu",
+          "Honeymoon Point",
+          "Gaumukh Temple",
+          "Sunset Point",
+          "Universal Peace Hall - Om Shanti Bhavan"
+        ]
+      },
+      {
+        subHeading: "Ahmedabad to Mountabu Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Mountabu taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Mountabu.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Mountabu cab and our prices are generally 20% lower than competition."
+        ],
+        "Ahmedabad to Mountabu Taxi Price":
+        {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Tempo Traveller",
+              "Model": "Force Traveller (12 seater)",
+              "Capacity": "12 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Ahmedabad to Mountabu Taxi Services": {
+          description:"Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Mountabu taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Mountabu taxi service. You may book Ahmedabad to Mountabu round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Mountabu car package as needed. You may also book Ahmedabad to Mountabu one way drop taxi or a local hourly rental cab in Mountabu with AAVORide."
+        }
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Mountabu Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Mountabu by car?",
+            answer: "The distance from Ahmedabad to Mountabu by car is 227 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Mountabu by road?",
+            answer: "It takes approx. 4.8 to 5.8 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Mountabu taxi fare?",
+            answer: "Ahmedabad to Mountabu taxi fare is approx. ₹2600 for a good sedan car like Etios, Dzire and is approx. ₹3100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Mountabu Innova fare?",
+            answer: "Ahmedabad to Mountabu Innova fare is approx. ₹4100. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Mountabu cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Mountabu cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Mountabu cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Mountabu outstation trip?",
+            answer: "For Ahmedabad to Mountabu Round trip cab, all the local sightseeing in Ahmedabad, Mountabu and other destination cities in itinerary is included. For Ahmedabad to Mountabu One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Mountabu and other destination cities in itinerary is included. For Ahmedabad to Mountabu One way cab i.e. with only Ahmedabad and Mountabu in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Mountabu?",
+            answer: "Although you can book Ahmedabad to Mountabu cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Mountabu by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Mountabu cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Mountabu one way taxi?",
+            answer: "You may book Ahmedabad to Mountabu One way multi-stop cab by adding additional stops in itinerary. For Ahmedabad to Mountabu One way taxi with only Ahmedabad and Mountabu in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Mountabu one way cab?",
+            answer: "For Ahmedabad to Mountabu One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Mountabu cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Mountabu cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Mountabu cab."
+          }
+        ]
+      }
+    ],
+  },
+  {
+    id: 6,
+    slug: "ahmedabad-to-jaipur",
+    heading: "Book Ahmedabad to Jaipur Cab",
+    tag: "Royal Escape",
+    description: [
+      "Ahmedabad to Jaipur distance : 677 km",
+      "Estimated travel time : 12 hours",
+      "Ahmedabad to Jaipur is very popular route among both domestic as well as foreign tourists. Jaipur is third part of the famous Golden Triangle of India - Delhi - Agra - Jaipur.",
+      "Jaipur, also known as 'Pink City', is a visual treat with its forts, places and architectural marvels. The city, built by Sawai Jai Singh, preserves the heritage and culture of the kingly Rajputs. Jaipur provides different shades in one city. There are hills, lakes, forts in Amer region whereas old walled city has pink shops, narrow lanes, buildings and monuments, palace, old bazar having everything to offer for a shopaholic. At same time, there posh areas, high-rises, flyovers and amazing infrastructure.",
+      "Taxi from Ahmedabad to Jaipur is readily available at AAVORide."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS093O2q0px91VVuxuSA_7gTk_i97kcBR2xUp658JZ2ww&s=10",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Jaipur Cab Route",
+        description: [
+          "Ahmedabad to Jaipur by car is well connected through NH62 and is very convenient and comfortable drive. Most popular stopover on route are Mount Abu, Pali and Ajmer. Another route is via Udaipur which is almost same distance and takes same time. Ahmedabad to Jaipur distance is 677 Km and is 12 hours journey. Other famous tourist places on this route and nearby are: Gandhinagar - capital of Gujarat having one of most beautiful temple Akshardham temple"
+        ],
+        "": [
+          "Palanpur: famous for heritage, Palace, temples",
+          "Mehsana: famous for its historical spots",
+          "Patan: Rani ka Vav, UNESCO World Heritage Site",
+          "Ambaji: famous for pilgrimage and religious tourism. Most popular is Ambe temple.",
+          "Mount Abu: a beautiful hill station and home to Dilwara temples",
+          "Pali: Trade center of Rajasthan",
+          "Pushkar: Brahma Temple is most popular attraction in Pushkar",
+          "Ajmer: Dargah Sharif is most visited although there are many tourists attractions in Ajmer",
+          "Kishangarh",
+          "Shamlaji: a major Hindu pilgrimage centre in Aravalli district of Gujarat",
+          "Dungarpur: Fort, Palaces",
+          "Hill Forest",
+          "Idar: known for handmade wooden toys, tiles, its temples and various beautiful architectural monuments on hill",
+          "Palanpur: famous for its ancient temples and Gujarat's history",
+          "Himmatnagar: Swaminarayan temple",
+          "Bhilwara",
+          "Chittorgarh",
+          "Devgarh"
+        ]
+
+      },
+      {
+        subHeading: "Places to visit in Jaipur using AAVORide Ahmedabad to Jaipur Car Rental with driver",
+        description: "",
+        "jaipur Attractions": [
+          "Amer Fort",
+          "Jaigarh Fort",
+          "Nahargarh Fort",
+          "Hawa Mahal",
+          "Jantar Mantar",
+          "Wax Museum",
+          "Birla Temple",
+          "City Palace Fort",
+          "Galtaji Temple",
+          "Kanak Vrindavan Garden",
+          "Bapu Bazar"
+        ]
+      },
+      {
+        subHeading: "Ahmedabad to Jaipur Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Jaipur taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Jaipur.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Jaipur cab and our prices are generally 20% lower than competition."
+        ],
+        "Ahmedabad to Jaipur Taxi Price":
+        {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+
+        },
+        "Ahmedabad to Jaipur Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Jaipur taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Jaipur taxi service. You may book Ahmedabad to Jaipur round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Jaipur car package as needed. You may also book Ahmedabad to Jaipur one way drop taxi or a local hourly rental cab in Jaipur with AAVORide."
+        ]
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Jaipur Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Jaipur by car?",
+            answer: "The distance from Ahmedabad to Jaipur by car is 677 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Jaipur by road?",
+            answer: "It takes approx. 12 to 13 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Jaipur taxi fare?",
+            answer: "Ahmedabad to Jaipur taxi fare is approx. ₹7800 for a good sedan car like Etios, Dzire and is approx. ₹8300 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Jaipur Innova fare?",
+            answer: "Ahmedabad to Jaipur Innova fare is approx. ₹9300. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Jaipur cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Jaipur cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Jaipur cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Jaipur outstation trip?",
+            answer: "For Ahmedabad to Jaipur Round trip cab, all the local sightseeing in Ahmedabad, Jaipur and other destination cities in itinerary is included. For Ahmedabad to Jaipur One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Jaipur and other destination cities in itinerary is included. For Ahmedabad to Jaipur One way cab i.e. with only Ahmedabad and Jaipur in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Jaipur?",
+            answer: "Although you can book Ahmedabad to Jaipur cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Jaipur by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Jaipur cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Jaipur one way taxi?",
+            answer: "You may book Ahmedabad to Jaipur One way multi-stop cab by adding additional stops in itinerary. For Ahmedabad to Jaipur One way taxi with only Ahmedabad and Jaipur in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Jaipur one way cab?",
+            answer: "For Ahmedabad to Jaipur One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Jaipur cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Jaipur cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Jaipur cab."
+          }
+        ]
+
+      }
+    ],
+  },
+  {
+    id: 7,
+    slug: "ahmedabad-to-somnath",
+    heading: "Book Ahmedabad to Somnath Cab",
+    tag: "Pilgrimage",
+    description: [
+      "Ahmedabad to Somnath distance: 410 km",
+      "Estimated travel time: 7.3 hours",
+      "Ahmedabad to Somnath is very popular route for tourists as its religious and mythological importance. Somnath means 'Lord of the moon' and is most popular among pilgrims as it is one of the 12 Jyotirlingas.",
+      "Somnath, being the first of 12 Jyotirlinga, is primarily a temple town having numerous temples, shrines, monuments and museums. Due to this spiritual importance, it is one of the most visited cities of Gujarat. Apart from holy places, Somnath also offers an enchanting beach and a wonderful shopping experience with its beautiful embroidered and beadwork clothes.",
+      "Taxi from Ahmedabad to Somnath is readily available at AAVORide. Other very popular cab route for tourists is Hyderabad to Srisailam."],
+    coverImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ39gIUqvUtrMPGOCNcbcp-_VLUBbFABr2EATUIwaoFvA&s=10',
+    sections: [
+      {
+        subHeading: "Ahmedabad to Somnath Cab Route",
+        description: [
+          "Ahmedabad to Somnath by car is well connected through NH47 and is very convenientand comfortable drive. Ahmedabad to Somnath distance is 410 Km and is 7.3 hours journey.Other famous tourist places on this route and nearby are: NalsarovarSurendranagarChotilaRajkotGondalJetpurJunagadhYou can plan to include them in your itinerary. With AAVORide, you can customize theitinerary as per your choice and enjoy the trip to fullest.Tourist AttractionsSomnath TempleSomnath BeachesLaxminarayan TemplePaanch Pandav GufaTriveni Sangam TempleSuraj MandirParshuram TempleShashibhushan Mahadev and Bhidbhanjan Ganpatiji TempleKamnath Mahadev TempleBhalka TirthGita TempleDehotsarg TeerthPrabhas Patan MuseumJunagadh GatePrachi TirthTaxi OptionsBeing an Aggregator, AAVORide provides you enormous car options foryour Ahmedabad to Somnath taxi booking. You can mention your specificpreference, if any, while raising a taxi booking request. Our partnered taxi servicesproviders have various cars available with them for Ahmedabad to Somnath taxi service.At high level, we classify taxi in below four categories :Vehicle TypeModelCapacityPer Km RateHatchbackWagon-R, Indica or similar4 seaterRs. 9SedanDzire, Etios or similar4 seaterRs. 9SUVXylo, Ertiga or similar6 seaterRs. 12.5Assured InnovaInnova, Innova Crysta6 seaterRs. 13.5Taxi FareAAVORide is committed to keep the pricing as simple and clear as possible. So, we provide oneprice for your Ahmedabad to Somnath taxi whichcovers a specified maximum kilometer and maximum days. So, you know upfront how much taxiis going to cost you and plan your budget well.The prices are dynamic and transparent and give a win-win deal for both you and our partneredtaxi services providers. You can choose car as per your preference.Why AAVORideClean CarTransparent BillingReliable ServiceCourteous DriversAAVORide.COM rated4.3/5 based on596 reviewsAhmedabad to Somnath distance Ahmedabad to Somnath distance is 410 Km and is 7.3 hours journey.Other famous tourist places on this route and nearby are:",
+          "Nalsarovar, Surendranagar, Chotila, Rajkot, Gondal, Jetpur, Junagadh"
+        ]
+      },
+      {
+        subHeading: "Places to visit in Somnath using AAVORide Ahmedabad to Somnath Car Rental with driver",
+        description: "",
+        "Somnath Attractions": [
+          "Somnath Temple",
+          "Somnath Beaches",
+          "Laxminarayan Temple",
+          "Paanch Pandav Gufa",
+          "Triveni Sangam Temple",
+          "Suraj Mandir",
+          "Parshuram Temple",
+          "Shashibhushan Mahadev and Bhidbhanjan Ganpatiji Temple",
+          "Kamnath Mahadev Temple",
+          "Bhalka Tirth",
+          "Gita Temple",
+          "Dehotsarg Teerth",
+          "Prabhas Patan Museum",
+          "Junagadh Gate",
+          "Prachi Tirth"
+        ]
+      },
+      {
+        subHeading: "Ahmedabad to Somnath Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Somnath taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Somnath.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Somnath cab and our prices are generally 20% lower than competition."
+        ],
+        "Ahmedabad to Jaipur Taxi Price":
+        {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "Rs. 9"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "Rs. 9"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "Rs. 12.5"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "Rs. 13.5"
+            }
+          ]
+
+        },
+        "Ahmedabad to Somnath Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Somnath taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Somnath taxi service. You may book Ahmedabad to Somnath round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Somnath car package as needed. You may also book Ahmedabad to Somnath one way drop taxi or a local hourly rental cab in Somnath with AAVORide."
+        ]
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Somnath Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Somnath by car?",
+            answer: "The distance from Ahmedabad to Somnath by car is 410 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Somnath by road?",
+            answer: "It takes approx. 7.3 to 8.3 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Somnath taxi fare?",
+            answer: "Ahmedabad to Somnath taxi fare is approx. ₹4100 for a good sedan car like Etios, Dzire and is approx. ₹4600 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Somnath Innova fare?",
+            answer: "Ahmedabad to Somnath Innova fare is approx. ₹5600. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Somnath cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Somnath cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Somnath cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Somnath outstation trip?",
+            answer: "For Ahmedabad to Somnath Round trip cab, all the local sightseeing in Ahmedabad, Somnath and other destination cities in itinerary is included. For Ahmedabad to Somnath One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Somnath and other destination cities in itinerary is included. For Ahmedabad to Somnath One way cab i.e. with only Ahmedabad and Somnath in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Somnath?",
+            answer: "Although you can book Ahmedabad to Somnath cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Somnath by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Somnath cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Somnath one way taxi?",
+            answer: "You may book Ahmedabad to Somnath One way multi-stop cab by adding additional stops in itinerary. For Ahmedabad to Somnath One way taxi with only Ahmedabad and Somnath in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Somnath one way cab?",
+            answer: "For Ahmedabad to Somnath One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Somnath cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Somnath cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Somnath cab."
+          }]
+
+      }
+    ],
+  },
+  {
+    id: 8,
+    slug: "ahmedabad-to-rajkot",
+    heading: "Ahmedabad to Rajkot Cab Service | One Way Taxi Lowest Price",
+    tag: "Road Trips",
+    description: [
+      "AAVORide provides reliable and affordable cab services from Ahmedabad to Rajkot. Whether you're looking for the cheapest cab from Ahmedabad to Rajkot, a comfortable SUV for family travel, or a sedan for a couple's trip, AAVORide ensures you enjoy a smooth and safe journey. Plan your ride with the best taxi service in Ahmedabad today, discover all the charming places, and let AAVORide make your hill station escape comfortable and memorable. Choose the right Ahmedabad to Rajkot car package that fits your plan and travel comfortably.",
+      "Whichever type of car you require like SUV, Sedan, or Tempo Traveller, AAVORide is India's number one intercity taxi platform and the most reliable choice. Just decide on one-way or round trip and travel without apprehensions. Book a reliable Ahmedabad to Rajkot cab with up to a 20% discount for a smooth and safe ride. Choose your Ahmedabad to Rajkot taxi today. Price starts at ₹9/km. Reserve your cab right away and have an easy travelling experience which is also secure."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBdpK4C2lCeIavPY22Tx5gONrtGnOP_RJvYpUmwJRY0A&s=10",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Rajkot Taxi Fare | Best Price and Lowest Price Guarantee",
+        description: [
+          "AAVORide provides the cheapest Ahmedabad to Rajkot cab fare, along with full price transparency. There are no hidden costs and last-minute surprises in your fare. Select the most suitable cab, depending on your group size, luggage, and comfort requirements. By using our transparent rates and professional chauffeurs, AAVORide promises that you will have the most affordable Ahmedabad to Rajkot taxi fare without any safety or comfort being compromised. If you are a solo traveller or travelling with family and friends, AAVORide is committed to delivering you the lowest price, clean cars, and a trouble-free travel experience every time."
+        ],
+        "Somnath prices": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "WagonR, Indica, or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-",
+              "Best For": "Solo/Couples trips"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or Similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-",
+              "Best For": "Comfortable family ride"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Xylo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-",
+              "Best For": "Group/family travel"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-",
+              "Best For": "Luxury Outstation Trips"
+            },
+            {
+              "Vehicle Type": "Tempo Traveller",
+              "Model": "12 to 17 seater options",
+              "Capacity": "Group",
+              "Per Km Rate": "On Request",
+              "Best For": "Large groups and group tours"
+            }
+          ]
+        },
+        "Ahmedabad to Rajkot Taxi Fare - Additional Charges & Important Info": [
+          "Parking charges are not part of the standard cab fare from Ahmedabad to Rajkot and will have to be paid separately if applicable.",
+          "In the case of a one-way taxi from Ahmedabad to Rajkot, the toll and state tax are already included in your fare.",
+          "But for round trips, tolls and state taxes can be charged additionally if you have not chosen a fare plan that includes them.",
+          "A 5% GST is applicable on all cab packages from Ahmedabad to Rajkot as per the government regulations.",
+          "Note: The total fare can be a little different depending on the route, the traffic, or the season. AAVORide takes utmost care in maintaining complete transparency, and hence, there are no hidden charges."
+        ]
+      },
+      {
+        subHeading: "Ahmedabad to Rajkot Route, Distance, Time, Pit Stops, and Driving Tips",
+        description:
+          [
+            "Ahmedabad to Rajkot distance: Rajkot is located around 215 to 225 km from Ahmedabad, which you can plan by Ahmedabad to Rajkot road travel, as it is very easy with a reliable Ahmedabad to Rajkot taxi, especially for a smooth highway travel as well. A one-way cab from Ahmedabad to Rajkot is pocket-friendly with cheap Ahmedabad to Rajkot taxi fare options.",
+            "Ahmedabad to Rajkot travel time: A drive from Ahmedabad to Rajkot takes around 4 to 5 hours; however, the time may vary during festival traffic, highway maintenance, heavy monsoon rains or peak weekends as well. Your Ahmedabad to Rajkot one-way taxi driver usually knows the fastest route and helps in reducing the overall travel time.",
+            "Common Ahmedabad to Rajkot highways: state highway 41 and NH 47"
+          ],
+
+        "Recommended food and fuel pit stops on the Ahmedabad to Rajkot route": [
+          "Bavla: It is the first comfortable halt for travellers using the Ahmedabad to Rajkot taxi service. You can enjoy a refreshing tea break or a quick Gujarati breakfast before continuing the highway journey. There are safe parking spaces for cabs and several fuel stations for your Ahmedabad to Rajkot cab booking.",
+          "Bagodara: It's a popular stop with multiple branded fuel stations, dhabas, and restrooms. It is ideal to refill before entering long highway stretches. Many Ahmedabad to Rajkot taxi travellers choose Bagodara to enjoy a delicious Kathiyawadi meal while their cab takes a small cooling break.",
+          "Limbdi: It is a perfect mid-journey break for families travelling by Ahmedabad to Rajkot cab booking. It offers good highway restaurants, tea stalls, and clean washrooms. For travelling a long distance from Ahmedabad to Rajkot, a one-way taxi it's a refreshing halt to stretch and relax.",
+          "Chotila: Located on the hill, Chotila gives beautiful scenic views and is a divine spot. Here, using an Ahmedabad to Rajkot taxi service, stop here for darshan at the famous Chotila temple. From chai stalls to dining options, this is one of the most memorable pit stops on the highway."
+        ]
+        ,
+        "Driving tips for Ahmedabad to Rajkot cab and taxi": [
+          "Start early for a traffic-free exit from Ahmedabad for a smooth Ahmedabad to Rajkot cab journey.",
+          "Try to maintain a moderate speed; traffic includes trucks, so a professional Ahmedabad to Rajkot taxi service is highly recommended.",
+          "Ensure your Ahmedabad to Rajkot cab has enough fuel before leaving major towns, as long patches may not have frequent pumps.",
+          "Always confirm the Ahmedabad to Rajkot taxi fare or Ahmedabad to Rajkot cab booking before starting the journey.",
+          "During the monsoon, roads near Bagodara and Limbdi can have low visibility, so drive more slowly.",
+          "For real-time pickup and the best route choice, your Ahmedabad to Rajkot cab driver will guide you based on live conditions."
+        ],
+        "Popular route overview": [
+          "Ahmedabad → Bavla → Bagodara → Limbdi → Chotila → Rajkot"
+        ],
+
+      },
+      {
+        subHeading: "Places to Visit in Rajkot | Top Attractions for Ahmedabad to Rajkot Trip",
+        description: [
+          "Rajkot is a prominent city in Gujarat known for its industrial development, educational institutes, and cultural landmarks like Watson Museum and Rotary Dolls Museum. The best taxi service in Rajkot with AAVORide, you enjoy the best ride. The city is also known for its thriving diamond industry, making it an important hub for the diamond trading and polishing business. It offers a variety of attractions and landmarks for visitors. Here, AAVORide gives the choice to stop at different sightseeing spots en route by rendering Ahmedabad to Rajkot cab booking or Ahmedabad to Rajkot car."
+        ],
+        "": [
+          "Kaba Gandhi No Delo: It is a famous childhood home of Mahatma Gandhi. This heritage site offers a glimpse into the early life of India's Father of the Nation. It has preserved photographs, personal belongings, and historical documents. Here you can book a one-way cab in Rajkot and often begin their sightseeing from here.",
+          "Watson Museum: Located in Jubilee Garden, Watson Museum displays an impressive collection of coins, manuscripts, sculptures, textiles, and royal history. Here you can visit many historical sites along the Ahmedabad to Rajkot road trip. With a comfortable full day taxi in Rajkot, you can easily include this museum in your itinerary.",
+          "Rotary Dolls Museum: This is one of Rajkot's most unique attractions, showcasing more than 1500 dolls from around the world. It is a favourite stop for families travelling by Ahmedabad to Rajkot with kids. Hiring a Rajkot local sightseeing taxi makes it even more convenient to explore.",
+          "Pradyuman Park: It's a relaxing destination for nature lovers and a peaceful picnic spot, especially after a long drive via Ahmedabad to Rajkot one-way taxi. The park has a mini zoo, green landscapes, and walking routes, which you can request drivers to use during Ahmedabad to Rajkot cab booking to include in your travel plan.",
+          "Ishwariya Park: Located on the outskirts, this is a calm nature spot perfect for evening sightseeing. After reaching the city by Ahmedabad to Rajkot is by car. Moreover, here you can visit Ishwariya Park using our Rajkot sightseeing taxi service to unwind after the road trip.",
+          "Nyari Dam: A refreshing escape for those looking to enjoy nature views and a peaceful time. It is popular among travellers arriving in Ahmedabad to Rajkot. It's great for photography, picnics, and evening relaxation. You can cover the distance with a local cab service in Rajkot.",
+          "Race Course Road: It's a vibrant hub that attracts tourists coming from Ahmedabad to Rajkot for food, parks, and street shopping. The area includes Fun World, Jubilee Garden, Amusement rides, and multiple dining options offering authentic Kathiyawadi taste. To enjoy easy travel with a hassle-free Ahmedabad to Rajkot taxi fare, and explore this buzzing location with a Rajkot local taxi.",
+          "Book your cab in just a few clicks from Ahmedabad to Rajkot by using the AAVORide user-friendly app and enjoy a hassle-free and safe ride by getting an airport cab in Rajkot."
+        ],
+      },
+      {
+        subHeading: "How to Book a Ahmedabad to Rajkot Cab at the Best Price?",
+        description: ["It is very easy and comfortable to Book an Ahmedabad to Rajkot cab with AAVORide. You can simply use our app or website to book a cab ride anytime. With the help of 24/7 customer service, an instant confirmation, and a lowest-price guarantee, AAVORide is the one to offer you a trouble-free, dependable, and comfortable road trip from Ahmedabad to Rajkot."],
+        "": [
+          "Come to AAVORide.com and provide your travel details. Enter your route, date, and time.",
+          "Select a car of your choice - Hatchback, Sedan, SUV, Innova Crysta, or Tempo Traveller.",
+          "Review the full fare with no unexpected charges later.",
+          "Book your cab and get the information of the driver and the vehicle immediately.",
+          "Get 24/7 customer support: +91-9712387840, whenever you want during your trip.",
+          "Book a cab from Ahmedabad to Rajkot with AAVORide today for hassle-free, convenient, and punctual travel at the most affordable fare."
+        ],
+      },
+      {
+        subHeading: "AAVORide’s Cab Service for Ahmedabad to Rajkot",
+        description: [
+          "AAVORide provides reliable and affordable cab services from Ahmedabad to Rajkot. Whether you're looking for the cheapest cab from Ahmedabad to Rajkot, a comfortable SUV for family travel, or a sedan for a couple's trip, AAVORide ensures you enjoy a smooth and safe journey. Plan your Ahmedabad to Rajkot by cab today, discover all the charming places, and let AAVORide make your hill station escape comfortable and memorable. Choose the right Ahmedabad to Rajkot car package that fits your plan and travel comfortably."
+        ],
+        "": [
+          "Ahmedabad Local City Cabs: AAVORide's local taxi service in Ahmedabad is ideal for quick city rides, meetings, or local sightseeing before starting your trip. Whether you are looking for an hourly rental option, convenient pickups or full-day taxi in Ahmedabad for intercity travel anywhere with the best price cab near me.",
+          "Ahmedabad Airport Cab Service: Get timely pickups and drops to or from airport cabs in Ahmedabad with AAVORide's airport cab service in Ahmedabad. Our airport cabs are perfect for early flights or late-night arrivals, ensuring hassle-free travel with professional drivers and clean cabs. Here you can get to Sardar Vallabhbhai Patel International Airport.",
+          "Outstation Cabs From Ahmedabad: Planning an Ahmedabad to Rajkot outstation cab or outstation journey from Ahmedabad to popular destinations like Rajkot, Vadodara, Somnath, Dwarka, Udaipur, Mount Abu, and Surat. AAVORide outstation cabs from Ahmedabad provide reliable service, transparent fares, and guaranteed availability even during peak travel days.",
+          "Corporate Cabs From Ahmedabad: Looking for a perfect cab partner for your corporate travel? AAVORide's corporate cab service in Ahmedabad ensures a professional and safe experience for business travellers. Get GST invoices, monthly billing, and priority support for all your company travel needs.",
+          "One Way Cabs in Ahmedabad: Only need a one-way drop to Ahmedabad? AAVORide's one-way cab in Ahmedabad is a pocket-friendly option. Enjoy affordable cab booking in Ahmedabad with clean cars and verified drivers. Book one-way rides to over 3,000+ cities across India with AAVORide.",
+          "Hourly rental Cabs in Ahmedabad: If you only want to book for a few hours for your short trips, like local shopping, sightseeing, or meetings, then booking a car rental in Ahmedabad is great. AAVORide offers affordable hourly car rental in Ahmedabad that starts from only 2 hours or 20 km. It's perfect for local travel with multiple stops at your convenience.",
+          "Tempo Traveller in Ahmedabad: If you are travelling in a large group or with family? AAVORide's Tempo Traveller from Ahmedabad to Rajkot is a great choice. It provides ample space, comfortable seating, and extra luggage room. It is ideal for group tours and long drives. You can easily hire a cab with AAVORide to ensure maximum comfort for large groups.",
+          "AAVORide ensures every ride from Ahmedabad to Rajkot is smooth, on-time, and affordable - backed by verified drivers, clean cabs, and 24x7 customer support."
+        ],
+      },
+      {
+        subHeading: "Why Choose AAVORide for Ahmedabad to Rajkot Taxi?",
+        description: [
+          "Do you want a decent and low-cost cab service from Ahmedabad to Rajkot? AAVORide provides the lowest prices for single as well as round-trip taxi bookings, thus giving you total tranquillity. So, if you are going for a family trip, beach vacation, or business visit, AAVORide is making your journey easy and comfortable. Moreover, it promises a hassle-free experience to its passengers and provides an affordable Ahmedabad to Rajkot cab fare."
+        ],
+        "": [
+          "Best Price Assurance: You always get the lowest taxi fare for a trip from Ahmedabad to Rajkot, along with fair billing and no hidden charges at all.",
+          "Instant Booking Confirmation: Book your cab within a few seconds. Enjoy instant booking and on-time sharing of details of the driver and the cab with AAVORide.",
+          "Verified & Skilled Drivers: On every journey, your safety and security are ensured by the professional chauffeur who has been checked for their background.",
+          "Multiple Car Choices: Whatever your requirements are, be it a small hatchback, a sedan, an SUV, an Innova Crysta or even a Tempo Traveller, you can get a cab that fits your needs with us.",
+          "Flexible Trip Options: If you want to, you can just take a one-way ride, or a round trip, or even multi-day travel, all depending on your plans.",
+          "Pet-Friendly Cabs: Furthermore, we also have the option of pet-friendly cabs, so that your adorable companions can have a comfortable journey with you.",
+          "24/7 Customer Support: Our support team will assist you with the booking as well as the travel process around the clock. Our customer support number is 0806824940.",
+          "Luggage-Friendly Rides: AAVORide offers the option of assured luggage for comfortable travel. Either you get a comfortable boot space or a carriage so that you never have to worry about carrying your extra bags.",
+          "Pan-India Cab Bookings: You can book a cab across India with AAVORide's nationwide network. Our nationwide cab network offers reliable taxi service in India at the best price.",
+          "In case you are organising a short trip locally or a long-distance journey by road, then AAVORide Ahmedabad to Rajkot taxi service is the answer to your wish of travelling safely, in comfort and at an affordable rate."
+        ],
+      },
+      {
+        subHeading: "Popular Pickup Points in Ahmedabad for Ahmedabad to Rajkot Cab",
+        description: [
+          "AAVORide's Ahmedabad to Rajkot cab service is available to pick you up from anywhere in the city as well as the suburbs and the major locations of Ahmedabad. The locations from where the seamless pickups are offered include Airport & Railway Stations, Bus terminals & travel junctions, like Gita Mandir ST Bus stand, Nehrunagar Circle, Iskon Cross Road, Narol Cross Road, and many other stops that you want to add, Chankhela, along with various popular localities for cab. Your driver will definitely contact you before reaching you. He will take the most efficient route from Ahmedabad to Rajkot based on the live traffic updates. By using AAVORide's cheap Ahmedabad to Rajkot taxi fare, you are assured of a safe, comfortable, and economical trip on the road, which is also supported by verified drivers, transparent pricing, and guaranteed on-time pickups."
+        ],
+      },
+      {
+        subHeading: "Other Most Popular Routes from Ahmedabad",
+        description: [
+          "With​‍​‌‍​‍‌​‍​‌‍​‍‌ AAVORide, your Ahmedabad to Rajkot journey becomes simple and without any kind of stress. They offer you reliable cabs, prices that are fair, and drivers that you can trust. Every time you make a booking, you will receive a timely pickup and a fare that is friendly to your wallet. If you are only going to use the cab for a one-way ride or for a round trip, it does not matter; just reserve your cab and take it easy. Your trip from Ahmedabad to Rajkot by road will be safe, comfortable, and free of any trouble with the help of ​‍​‌‍​‍‌​‍​‌‍​‍‌AAVORide."
+        ],
+        "Routes with prices and distance": {
+          comparisonTable: [
+            {
+              "Route": "Ahmedabad to Morbi Taxi",
+              "Distance & Time": "197 Km, 5 Hrs",
+              "Cab Fare Starting from": "-"
+            },
+            {
+              "Route": "Ahmedabad to Mehsana Taxi",
+              "Distance & Time": "75 Km, 2 Hrs",
+              "Cab Fare Starting from": "-"
+            },
+            {
+              "Route": "Ahmedabad to Ambaji Taxi",
+              "Distance & Time": "189 Km, 3.5 Hrs",
+              "Cab Fare Starting from": "-"
+            },
+            {
+              "Route": "Ahmedabad to Dwarka Taxi",
+              "Distance & Time": "460 Km, 9 Hrs",
+              "Cab Fare Starting from": "-"
+            }
+          ],
+        },
+        "": {
+          "": "Book your Ahmedabad to Rajkot taxi with AAVORide starting at just ₹9 per km. Enjoy the most affordable and reliable cab service in Ahmedabad with AAVORide, your trusted travel partner across India.",
+          comparisonTable: [
+            {
+              "Route": "Vadodara to Rajkot Taxi",
+              "Distance & Time": "290 Km, 6 Hrs",
+              "Cab Fare Starting from": "-"
+            },
+            {
+              "Route": "Bhuj to Rajkot Taxi",
+              "Distance & Time": "232 Km, 5.5 Hrs",
+              "Cab Fare Starting from": "-"
+            },
+            {
+              "Route": "Diu to Rajkot Taxi",
+              "Distance & Time": "231 Km, 4.5 Hrs",
+              "Cab Fare Starting from": "-"
+            },
+            {
+              "Route": "Girnar to Rajkot Taxi",
+              "Distance & Time": "101 Km, 2 Hrs",
+              "Cab Fare Starting from": "-"
+            }
+          ]
+        }
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Somnath Cab Booking",
+        description: "",
+        faqs: [
+          {
+            "question": "What is the distance from Ahmedabad to Rajkot by car?",
+            "answer": "The distance from Ahmedabad to Rajkot by car is 215 km."
+          },
+          {
+            "question": "How long does it take from Ahmedabad to Rajkot by road?",
+            "answer": "It takes approx. 3.5 to 4.5 hours depending on traffic."
+          },
+          {
+            "question": "How much is Ahmedabad to Rajkot taxi fare?",
+            "answer": "Ahmedabad to Rajkot taxi fare is approx. ₹2199 for a good sedan car like Etios, Dzire and is approx. ₹3245 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            "question": "How much is Ahmedabad to Rajkot Innova fare?",
+            "answer": "Ahmedabad to Rajkot Innova fare is approx. ₹4245. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            "question": "Does price includes Driver charges and Night charges?",
+            "answer": "Yes, Ahmedabad to Rajkot cab price includes Driver charges and Night charges."
+          },
+          {
+            "question": "Do I need to make payment in advance to book Ahmedabad to Rajkot cab?",
+            "answer": "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Rajkot cab."
+          },
+          {
+            "question": "Is local sightseeing included in Ahmedabad to Rajkot outstation trip?",
+            "answer": "For Ahmedabad to Rajkot Round trip cab, all the local sightseeing in Ahmedabad, Rajkot and other destination cities in itinerary is included. For Ahmedabad to Rajkot One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Rajkot and other destination cities in itinerary is included. For Ahmedabad to Rajkot One way cab i.e. with only Ahmedabad and Rajkot in itinerary, sightseeing is not included."
+          },
+          {
+            "question": "How much in advance do I need to book the cab from Ahmedabad to Rajkot?",
+            "answer": "Although you can book Ahmedabad to Rajkot cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            "question": "Can I book cab for Ahmedabad to Rajkot by calling customer support?",
+            "answer": "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Rajkot cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            "question": "Can we pickup additional passengers on the way in Ahmedabad to Rajkot one way taxi?",
+            "answer": "You may book Ahmedabad to Rajkot One way multi-stop cab by adding additional stops in itinerary. For Ahmedabad to Rajkot One way taxi with only Ahmedabad and Rajkot in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            "question": "Do I need to pay both side Toll tax for Ahmedabad to Rajkot one way cab?",
+            "answer": "For Ahmedabad to Rajkot One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            "question": "When will I get car and driver details after booking Ahmedabad to Rajkot cab?",
+            "answer": "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Rajkot cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            "question": "Can I travel with pets?",
+            "answer": "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Rajkot cab."
           }
         ]
 
