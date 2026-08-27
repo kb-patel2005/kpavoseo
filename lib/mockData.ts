@@ -807,7 +807,7 @@ export const tripData = [
   {
     id: 1,
     slug: "ahmedabad-to-vadodara",
-    tag: "Road Trips",
+    tag: "Road-Trips",
     heading: "Ahmedabad to Vadodara Taxi - Book a Cab Online at Best Fare",
     description: [
       "Vadodara is also culturally vibrant and full of history. Either go and see the nearby statue of Unity or spend time with the museums, temples and the Laxmi Vilas Palace. The city caters for the tourist on all accounts with educational experiences, Royal history and exciting local life. It is also commonly referred to as Baroda and is most famous for its Royal past.",
@@ -2237,7 +2237,7 @@ export const tripData = [
     id: 8,
     slug: "ahmedabad-to-rajkot",
     heading: "Ahmedabad to Rajkot Cab Service | One Way Taxi Lowest Price",
-    tag: "Road Trips",
+    tag: "Road-Trips",
     description: [
       "AAVORide provides reliable and affordable cab services from Ahmedabad to Rajkot. Whether you're looking for the cheapest cab from Ahmedabad to Rajkot, a comfortable SUV for family travel, or a sedan for a couple's trip, AAVORide ensures you enjoy a smooth and safe journey. Plan your ride with the best taxi service in Ahmedabad today, discover all the charming places, and let AAVORide make your hill station escape comfortable and memorable. Choose the right Ahmedabad to Rajkot car package that fits your plan and travel comfortably.",
       "Whichever type of car you require like SUV, Sedan, or Tempo Traveller, AAVORide is India's number one intercity taxi platform and the most reliable choice. Just decide on one-way or round trip and travel without apprehensions. Book a reliable Ahmedabad to Rajkot cab with up to a 20% discount for a smooth and safe ride. Choose your Ahmedabad to Rajkot taxi today. Price starts at ₹9/km. Reserve your cab right away and have an easy travelling experience which is also secure."

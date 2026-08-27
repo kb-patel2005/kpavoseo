@@ -47,7 +47,7 @@ export default function DestinationCard({
           <span>{destination.category}</span>
         </div>
 
-        <h3 className="text-sm font-extrabold text-white leading-tight tracking-tight group-hover:text-orange-200 transition-colors duration-200">
+        <h3 className="text-sm text-left font-extrabold text-white leading-tight tracking-tight group-hover:text-orange-200 transition-colors duration-200">
           {destination.title}
         </h3>
       </div>

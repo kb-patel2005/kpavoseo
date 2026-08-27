@@ -23,7 +23,7 @@ export default function CategoryWise({
     const router = useRouter();
 
     const { data: blog, isLoading, isError } = useBlogDetailByCategories(slug);
-
+    console.log(slug)
     const [activeCategory, setActiveCategory] = useState(slug);
 
     // React Query Fetch using Infinite Scroll
