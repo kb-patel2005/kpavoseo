@@ -114,9 +114,9 @@ export default function DetailBlog({ slug }: { slug: string }) {
                 ))}
 
                 {sections?.map((section, idx) => (
-                    <div key={idx} className="mt-8">
+                    <div key={idx} className="mt-3 lg:mt-8">
                         {/* Subheading */}
-                        <h2 className="text-2xl md:text-3xl font-extrabold text-slate-800 py-4">
+                        <h2 className="text-2xl md:text-3xl font-extrabold text-slate-800 py-2 lg:py-4">
                             {section.subHeading}
                         </h2>
 
@@ -138,7 +138,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
                                 : <p className="text-slate-600 font-medium text-base md:text-base leading-relaxed mb-2">{section.description}</p>
                         )}
 
-                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
+                        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6 mt-3 lg:mt-6">
                             {Object.entries(section).map(([key, value], index, arr) => {
                                 if (["subHeading", "description"].includes(key)) return null;
 
@@ -188,58 +188,57 @@ export default function DetailBlog({ slug }: { slug: string }) {
 
                                 // Special case: key === "part"
                                 // Special case: key === "part"
-if (key.toLowerCase() === "part") {
-  // Loop through each property inside the part object
-  return (
-    <div
-      key={key}
-      className={`border rounded-lg p-6 bg-white shadow-sm ${
-        isLastOdd ? "col-span-1 lg:col-span-2" : ""
-      }`}
-    >
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-        {Object.entries(value).map(([subKey, subVal]) => {
-          if (!Array.isArray(subVal)) return null;
+                                if (key.toLowerCase() === "part") {
+                                    // Loop through each property inside the part object
+                                    return (
+                                        <div
+                                            key={key}
+                                            className={`border rounded-lg p-6 bg-white shadow-sm ${isLastOdd ? "col-span-1 lg:col-span-2" : ""
+                                                }`}
+                                        >
+                                            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                                {Object.entries(value).map(([subKey, subVal]) => {
+                                                    if (!Array.isArray(subVal)) return null;
 
-          // Split each array into two halves
-          const mid = Math.ceil(subVal.length / 2);
-          const firstHalf = subVal.slice(0, mid);
-          const secondHalf = subVal.slice(mid);
+                                                    // Split each array into two halves
+                                                    const mid = Math.ceil(subVal.length / 2);
+                                                    const firstHalf = subVal.slice(0, mid);
+                                                    const secondHalf = subVal.slice(mid);
 
-          return (
-            <div key={subKey} className="col-span-1 md:col-span-2">
-              {/* Show the nested property name as heading */}
-              <h3 className="text-lg font-semibold mb-4 capitalize">{subKey}</h3>
+                                                    return (
+                                                        <div key={subKey} className="col-span-1 md:col-span-2">
+                                                            {/* Show the nested property name as heading */}
+                                                            <h3 className="text-lg font-semibold mb-4 capitalize">{subKey}</h3>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-                  {firstHalf.map((item: any, i: number) => (
-                    <li
-                      key={i}
-                      className="text-slate-600 font-medium text-base md:text-base leading-relaxed"
-                    >
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-                <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-                  {secondHalf.map((item: any, i: number) => (
-                    <li
-                      key={i}
-                      className="text-slate-600 font-medium text-base md:text-base leading-relaxed"
-                    >
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-    </div>
-  );
-}
+                                                            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 lg:gap-6">
+                                                                <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+                                                                    {firstHalf.map((item: any, i: number) => (
+                                                                        <li
+                                                                            key={i}
+                                                                            className="text-slate-600 font-medium text-base md:text-base leading-relaxed"
+                                                                        >
+                                                                            {item}
+                                                                        </li>
+                                                                    ))}
+                                                                </ul>
+                                                                <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+                                                                    {secondHalf.map((item: any, i: number) => (
+                                                                        <li
+                                                                            key={i}
+                                                                            className="text-slate-600 font-medium text-base md:text-base leading-relaxed"
+                                                                        >
+                                                                            {item}
+                                                                        </li>
+                                                                    ))}
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    );
+                                                })}
+                                            </div>
+                                        </div>
+                                    );
+                                }
 
 
                                 // Nested object (like oneWay)
@@ -277,7 +276,7 @@ if (key.toLowerCase() === "part") {
                                 // Arrays of strings
                                 if (Array.isArray(value) && typeof value[0] === "string") {
                                     return (
-                                        <div key={key} className={`border rounded-xl p-6 bg-white shadow-sm ${isLastOdd ? "col-span-1 lg:col-span-2" : ""}`}>
+                                        <div key={key} className={`border rounded-xl p-4 lg:p-6 bg-white shadow-sm ${isLastOdd ? "col-span-1 lg:col-span-2" : ""}`}>
                                             <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
                                             <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
                                                 {Array.isArray(value)

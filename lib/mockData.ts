@@ -1,3 +1,5 @@
+import { PartnerIcon } from "@/components/landing/icons";
+
 export interface Blog {
   id: string;
   slug: string;
@@ -1815,20 +1817,20 @@ export const tripData = [
 
         part: {
           "famous palces":
-          ["Dilwara Temples",
-          "Mount Abu Wildlife Sanctuary",
-          "Nakki Lake",
-          "Guru Shikhar",
-          "Arbuda Devi Temple",
-          "Achalgarh Village",
-          "Trevors Tank",
-          "Toad Rock - The Mascot of Mount Abu",
-          "Raghunath Temple",
-          "Brahma Kumaris Ashram Mount Abu",
-          "Honeymoon Point",
-          "Gaumukh Temple",
-          "Sunset Point",
-          "Universal Peace Hall - Om Shanti Bhavan"]
+            ["Dilwara Temples",
+              "Mount Abu Wildlife Sanctuary",
+              "Nakki Lake",
+              "Guru Shikhar",
+              "Arbuda Devi Temple",
+              "Achalgarh Village",
+              "Trevors Tank",
+              "Toad Rock - The Mascot of Mount Abu",
+              "Raghunath Temple",
+              "Brahma Kumaris Ashram Mount Abu",
+              "Honeymoon Point",
+              "Gaumukh Temple",
+              "Sunset Point",
+              "Universal Peace Hall - Om Shanti Bhavan"]
         }
 
       },
@@ -1981,21 +1983,21 @@ export const tripData = [
       {
         subHeading: "Places to visit in Jaipur using AAVORide Ahmedabad to Jaipur Car Rental with driver",
         description: "",
-        part:{
-        "jaipur Attractions": [
-          "Amer Fort",
-          "Jaigarh Fort",
-          "Nahargarh Fort",
-          "Hawa Mahal",
-          "Jantar Mantar",
-          "Wax Museum",
-          "Birla Temple",
-          "City Palace Fort",
-          "Galtaji Temple",
-          "Kanak Vrindavan Garden",
-          "Bapu Bazar"
-        ]
-      }
+        part: {
+          "jaipur Attractions": [
+            "Amer Fort",
+            "Jaigarh Fort",
+            "Nahargarh Fort",
+            "Hawa Mahal",
+            "Jantar Mantar",
+            "Wax Museum",
+            "Birla Temple",
+            "City Palace Fort",
+            "Galtaji Temple",
+            "Kanak Vrindavan Garden",
+            "Bapu Bazar"
+          ]
+        }
       },
       {
         subHeading: "Ahmedabad to Jaipur Taxi Fare",
@@ -2121,25 +2123,25 @@ export const tripData = [
       {
         subHeading: "Places to visit in Somnath using AAVORide Ahmedabad to Somnath Car Rental with driver",
         description: "",
-        "Somnath Attraction": [
-          "Somnath Temple",
-          "Somnath Beaches",
-          "Laxminarayan Temple",
-          "Paanch Pandav Gufa",
-          "Triveni Sangam Temple",
-          "Suraj Mandir",
-          "Parshuram Temple",
-          "Shashibhushan Mahadev and Bhidbhanjan Ganpatiji Temple",
-        ],
-        "": [
-          "Kamnath Mahadev Temple",
-          "Bhalka Tirth",
-          "Gita Temple",
-          "Dehotsarg Teerth",
-          "Prabhas Patan Museum",
-          "Junagadh Gate",
-          "Prachi Tirth"
-        ]
+        part: {
+          "Somnath Attraction": [
+            "Somnath Temple",
+            "Somnath Beaches",
+            "Laxminarayan Temple",
+            "Paanch Pandav Gufa",
+            "Triveni Sangam Temple",
+            "Suraj Mandir",
+            "Parshuram Temple",
+            "Shashibhushan Mahadev and Bhidbhanjan Ganpatiji Temple",
+            "Kamnath Mahadev Temple",
+            "Bhalka Tirth",
+            "Gita Temple",
+            "Dehotsarg Teerth",
+            "Prabhas Patan Museum",
+            "Junagadh Gate",
+            "Prachi Tirth"
+          ],
+        }
       },
       {
         subHeading: "Ahmedabad to Somnath Taxi Fare",
