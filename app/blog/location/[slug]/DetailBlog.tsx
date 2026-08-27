@@ -47,10 +47,10 @@ export default function DetailBlog({ slug }: { slug: string }) {
                         fill
                         sizes="100vw"
                         priority
-                        className="object-cover  select-none"
+                        className="object-top-right object-cover select-none"
                     />
                     {/* Gradient overlays */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent" />
+                    {/* <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent" /> */}
                     <div className="absolute inset-0 bg-slate-950/20" />
                 </div>
 
@@ -69,7 +69,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
                             </motion.h1>
 
                             {/* Meta Tags (example placeholders, you can replace with real data) */}
-                            <div className="flex flex-wrap items-center gap-3 text-xs md:text-sm font-semibold text-slate-300">
+                            <div className="flex flex-wrap items-center gap-3 text-xs md:text-sm font-semibold text-white">
                                 <Clock className="h-4 w-4 shrink-0" />
                                 <span>Ahmedabad → Vadodara</span>
                                 <span>•</span>
@@ -113,7 +113,6 @@ export default function DetailBlog({ slug }: { slug: string }) {
                     </p>
                 ))}
 
-
                 {sections?.map((section, idx) => (
                     <div key={idx} className="mt-8">
                         {/* Subheading */}
@@ -138,99 +137,6 @@ export default function DetailBlog({ slug }: { slug: string }) {
                                 })
                                 : <p className="text-slate-600 font-medium text-base md:text-base leading-relaxed mb-2">{section.description}</p>
                         )}
-
-                        {/* Grid for other keys */}
-                        {/* <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
-                            {Object.entries(section).map(([key, value]) => {
-                                if (["subHeading", "description"].includes(key)) return null;
-
-                                // Full-width table
-                                if (key === "table" && Array.isArray(value)) {
-                                    return (
-                                        <div key={key} className="col-span-1 lg:col-span-2 overflow-x-auto border rounded-lg shadow-sm bg-white p-4">
-                                            <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
-                                            <table className="min-w-full border-collapse rounded-lg">
-                                                <thead>
-                                                    <tr className="bg-slate-200 text-slate-800">
-                                                        {Object.keys(value[0]).map((col) => (
-                                                            <th key={col} className="p-3 text-left">{col}</th>
-                                                        ))}
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    {value.map((row: any, i: number) => (
-                                                        <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                                                            {Object.values(row).map((cell, j) => (
-                                                                <td key={j} className="p-3">{cell}</td>
-                                                            ))}
-                                                        </tr>
-                                                    ))}
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    );
-                                }
-
-                                // Handle nested object like oneWay
-                                if (typeof value === "object" && !Array.isArray(value)) {
-                                    return (
-                                        <div key={key} className="col-span-1 lg:col-span-2 border rounded-lg p-6 bg-white shadow-sm">
-                                            <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
-                                            {value.description && <p className="text-sm text-gray-700 mb-2">{value.description}</p>}
-                                            {value.comparisonTable && (
-                                                <div className="overflow-x-auto">
-                                                    <table className="min-w-full border-collapse rounded-lg">
-                                                        <thead>
-                                                            <tr className="bg-slate-200 text-slate-800">
-                                                                {Object.keys(value.comparisonTable[0]).map((col) => (
-                                                                    <th key={col} className="p-3 text-left">{col}</th>
-                                                                ))}
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            {value.comparisonTable.map((row: any, i: number) => (
-                                                                <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                                                                    {Object.values(row).map((cell, j) => (
-                                                                        <td key={j} className="p-3">{cell}</td>
-                                                                    ))}
-                                                                </tr>
-                                                            ))}
-                                                        </tbody>
-                                                    </table>
-                                                </div>
-                                            )}
-                                        </div>
-                                    );
-                                }
-
-                                // Arrays of strings
-                                if (Array.isArray(value) && typeof value[0] === "string") {
-                                    return (
-                                        <div key={key} className="border rounded-lg p-6 bg-white shadow-sm">
-                                            <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
-                                            <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
-                                                {value.map((d: string, i: number) => <li key={i}>{d}</li>)}
-                                            </ul>
-                                        </div>
-                                    );
-                                }
-
-                                // Strings
-                                if (typeof value === "string") {
-                                    return (
-                                        <div key={key} className="border rounded-lg p-6 bg-white shadow-sm">
-                                            <h3 className="text-lg font-semibold mb-2 capitalize">{key}</h3>
-                                            <p className="text-sm text-gray-700">{value}</p>
-                                        </div>
-                                    );
-                                }
-
-                                return null;
-                            })}
-
-
-
-                        </div> */}
 
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-6">
                             {Object.entries(section).map(([key, value], index, arr) => {
@@ -280,6 +186,60 @@ export default function DetailBlog({ slug }: { slug: string }) {
                                     );
                                 }
 
+                                // Special case: key === "part"
+                                // Special case: key === "part"
+if (key.toLowerCase() === "part") {
+  // Loop through each property inside the part object
+  return (
+    <div
+      key={key}
+      className={`border rounded-lg p-6 bg-white shadow-sm ${
+        isLastOdd ? "col-span-1 lg:col-span-2" : ""
+      }`}
+    >
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {Object.entries(value).map(([subKey, subVal]) => {
+          if (!Array.isArray(subVal)) return null;
+
+          // Split each array into two halves
+          const mid = Math.ceil(subVal.length / 2);
+          const firstHalf = subVal.slice(0, mid);
+          const secondHalf = subVal.slice(mid);
+
+          return (
+            <div key={subKey} className="col-span-1 md:col-span-2">
+              {/* Show the nested property name as heading */}
+              <h3 className="text-lg font-semibold mb-4 capitalize">{subKey}</h3>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+                  {firstHalf.map((item: any, i: number) => (
+                    <li
+                      key={i}
+                      className="text-slate-600 font-medium text-base md:text-base leading-relaxed"
+                    >
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+                <ul className="list-disc list-inside text-sm text-gray-700 space-y-1">
+                  {secondHalf.map((item: any, i: number) => (
+                    <li
+                      key={i}
+                      className="text-slate-600 font-medium text-base md:text-base leading-relaxed"
+                    >
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
 
 
                                 // Nested object (like oneWay)
@@ -398,7 +358,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
                         return (
                             <button
                                 key={category}
-                                onClick={() => setActiveCategory(category.replace(" ","-"))}
+                                onClick={() => setActiveCategory(category.replace(" ", "-"))}
                                 className={`relative px-4 py-2 text-xs md:text-sm cursor-pointer font-bold rounded-full transition-all duration-200 shrink-0 select-none ${isActive
                                     ? "text-white bg-[#FF4D30] shadow-md"
                                     : "text-slate-500 hover:text-slate-800 hover:bg-slate-100"
@@ -455,7 +415,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
                         <AnimatePresence mode="popLayout">
                             {tripData.length > 0 &&
                                 tripData.map((blog, idx) =>
-                                    ((blog.tag.toLocaleLowerCase() == activeCategory.toLocaleLowerCase() || activeCategory == "All-Stories" || activeCategory == "All Stories") &&  (blog.slug != slug) ) &&
+                                    ((blog.tag.toLocaleLowerCase() == activeCategory.toLocaleLowerCase() || activeCategory == "All-Stories" || activeCategory == "All Stories") && (blog.slug != slug)) &&
                                     <SmallCard blog={blog} index={idx} key={blog.heading} />
                                 )}
                             {/* {recentBlogs.length > 0 && (
@@ -486,8 +446,8 @@ export default function DetailBlog({ slug }: { slug: string }) {
                     </div>
                 )}
             </section>
-            
-            <MockDestinations/>
+
+            <MockDestinations />
         </article>
     );
 

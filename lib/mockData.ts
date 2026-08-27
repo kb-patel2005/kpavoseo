@@ -60,7 +60,7 @@ export const smallCard: Destination1[] = [
     description: "Vadodara is also culturally vibrant and full of history. Either go and see the nearby statue of Unity or spend time with the museums, temples and the Laxmi Vilas Palace.",
     tag: 'Road-Trips',
     slug: "ahmedabad-to-vadodara",
-    coverImage: "/vadodara.jpg",
+    coverImage: "/laxmi-villa-palace-vodara.jpg",
   },
   {
     id: 2,
@@ -76,7 +76,7 @@ export const smallCard: Destination1[] = [
     description: "Ahmedabad to Jaipur is very popular route among both domestic as well as foreign tourists. Jaipur is third part of the famous Golden Triangle of India - Delhi - Agra - Jaipur.",
     tag: 'Royal-Escape',
     slug: "ahmedabad-to-jaipur",
-    coverImage: "/jaipur.jpg"
+    coverImage: "/jaipur1.jpg"
   },
   {
     id: 4,
@@ -127,28 +127,28 @@ export const MOCK_DESTINATIONS: Destination[] = [
   {
     id: '1',
     title: 'Udaipur: City of Lakes',
-    slug:"ahmedabad-to-udaipur",
+    slug: "ahmedabad-to-udaipur",
     category: 'Royal Escape',
     image: '/udaipur.jpg',
   },
   {
     id: '2',
     title: 'Mount Abu: A Cool Retreat',
-    slug:'ahmedabad-to-mountabu',
+    slug: 'ahmedabad-to-mountabu',
     category: 'Hill Escape',
     image: '/mountabbu.jpg',
   },
   {
     id: '3',
     title: 'Dwarka: Sacred Gujarat',
-    slug:"ahmedabad-to-dwarka",
+    slug: "ahmedabad-to-dwarka",
     category: 'Spiritual',
     image: '/dwarka.jpg',
   },
   {
     id: '4',
     title: 'Somnath: Sacred Shores',
-    slug:"ahmedabad-to-somnath",
+    slug: "ahmedabad-to-somnath",
     category: 'Pilgrimage',
     image: '/somnath.jpg',
   },
@@ -173,7 +173,7 @@ export const MOCK_DESTINATIONS: Destination[] = [
   {
     id: '8',
     title: 'Statue of Unity: A Grand Journey',
-    slug:'ahmedabad-to-statue-of-unity',
+    slug: 'ahmedabad-to-statue-of-unity',
     category: 'Landmark',
     image: '/statue_of_unity.jpg',
   },
@@ -813,7 +813,7 @@ export const tripData = [
       "Vadodara is also culturally vibrant and full of history. Either go and see the nearby statue of Unity or spend time with the museums, temples and the Laxmi Vilas Palace. The city caters for the tourist on all accounts with educational experiences, Royal history and exciting local life. It is also commonly referred to as Baroda and is most famous for its Royal past.",
       "Travelling by taxi from Ahmedabad to Vadodara is very easy and comfortable. Along an uncluttered highway, you will generally take approximately 2 - 2.5 hours for the approximate 110 km trip from Ahmedabad to Vadodara, which is a city that is popular for its rich cultural universities, museums and palaces and provides an ideal location for either a family outing, business trip or even a simple day return trip."
     ],
-    coverImage: "/vadodara.jpg",
+    coverImage: "/laxmi-villa-palace-vodara.jpg",
     sections: [
       {
         subHeading: "Ahmedabad to Vadodara Cab Fare - Cultural Capital Journey Pricing",
@@ -1793,7 +1793,7 @@ export const tripData = [
       "Mount Abu is not just a dream. It is a historic desert town high up in the mountains. It is surrounded by green forests with flowing waterfalls and full lakes. You will find tall peaks and beautiful temples. There are marvellous forts and a rich wildlife sanctuary. Mount Abu sits in the Aravalli Mountains of Rajasthan. It is a tourist gem in India's colourful state. It is also one of the rarest places in the region. The town's history goes as far back as old stories of gods. AAVORide can help you book a cab to visit Mount Abu for outstation cabs or one-way drops.",
       "Taxi from Ahmedabad to Mountabu is readily available at AAVORide."
     ],
-    coverImage: "/mountabbu.jpg", 
+    coverImage: "/mountabbu.jpg",
     sections: [
       {
         subHeading: "Ahmedabad to Mountabu Cab Route",
@@ -1811,8 +1811,11 @@ export const tripData = [
       },
       {
         subHeading: "Places to visit in Mountabu using AAVORide Ahmedabad to Mountabu Car Rental with driver",
-        "Mount Abu Attractions": [
-          "Dilwara Temples",
+        description: "",
+
+        part: {
+          "famous palces":
+          ["Dilwara Temples",
           "Mount Abu Wildlife Sanctuary",
           "Nakki Lake",
           "Guru Shikhar",
@@ -1825,8 +1828,9 @@ export const tripData = [
           "Honeymoon Point",
           "Gaumukh Temple",
           "Sunset Point",
-          "Universal Peace Hall - Om Shanti Bhavan"
-        ]
+          "Universal Peace Hall - Om Shanti Bhavan"]
+        }
+
       },
       {
         subHeading: "Ahmedabad to Mountabu Taxi Fare",
@@ -1870,7 +1874,7 @@ export const tripData = [
           ]
         },
         "Ahmedabad to Mountabu Taxi Services": {
-          description:"Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Mountabu taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Mountabu taxi service. You may book Ahmedabad to Mountabu round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Mountabu car package as needed. You may also book Ahmedabad to Mountabu one way drop taxi or a local hourly rental cab in Mountabu with AAVORide."
+          description: "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Mountabu taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Mountabu taxi service. You may book Ahmedabad to Mountabu round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Mountabu car package as needed. You may also book Ahmedabad to Mountabu one way drop taxi or a local hourly rental cab in Mountabu with AAVORide."
         }
       },
       {
@@ -1945,7 +1949,7 @@ export const tripData = [
       "Jaipur, also known as 'Pink City', is a visual treat with its forts, places and architectural marvels. The city, built by Sawai Jai Singh, preserves the heritage and culture of the kingly Rajputs. Jaipur provides different shades in one city. There are hills, lakes, forts in Amer region whereas old walled city has pink shops, narrow lanes, buildings and monuments, palace, old bazar having everything to offer for a shopaholic. At same time, there posh areas, high-rises, flyovers and amazing infrastructure.",
       "Taxi from Ahmedabad to Jaipur is readily available at AAVORide."
     ],
-    coverImage: "/jaipur2.jpg",
+    coverImage: "/jaipur1.jpg",
     sections: [
       {
         subHeading: "Ahmedabad to Jaipur Cab Route",
@@ -1977,6 +1981,7 @@ export const tripData = [
       {
         subHeading: "Places to visit in Jaipur using AAVORide Ahmedabad to Jaipur Car Rental with driver",
         description: "",
+        part:{
         "jaipur Attractions": [
           "Amer Fort",
           "Jaigarh Fort",
@@ -1990,6 +1995,7 @@ export const tripData = [
           "Kanak Vrindavan Garden",
           "Bapu Bazar"
         ]
+      }
       },
       {
         subHeading: "Ahmedabad to Jaipur Taxi Fare",
@@ -2115,7 +2121,7 @@ export const tripData = [
       {
         subHeading: "Places to visit in Somnath using AAVORide Ahmedabad to Somnath Car Rental with driver",
         description: "",
-        "Somnath Attractions": [
+        "Somnath Attraction": [
           "Somnath Temple",
           "Somnath Beaches",
           "Laxminarayan Temple",
@@ -2124,6 +2130,8 @@ export const tripData = [
           "Suraj Mandir",
           "Parshuram Temple",
           "Shashibhushan Mahadev and Bhidbhanjan Ganpatiji Temple",
+        ],
+        "": [
           "Kamnath Mahadev Temple",
           "Bhalka Tirth",
           "Gita Temple",
@@ -2146,25 +2154,25 @@ export const tripData = [
               "Vehicle Type": "Hatchback",
               "Model": "Wagon-R, Indica or similar",
               "Capacity": "4 seater",
-              "Per Km Rate": "Rs. 9"
+              "Per Km Rate": "-"
             },
             {
               "Vehicle Type": "Sedan",
               "Model": "Dzire, Etios or similar",
               "Capacity": "4 seater",
-              "Per Km Rate": "Rs. 9"
+              "Per Km Rate": "-"
             },
             {
               "Vehicle Type": "SUV",
               "Model": "Marazzo, Ertiga or similar",
               "Capacity": "6 seater",
-              "Per Km Rate": "Rs. 12.5"
+              "Per Km Rate": "-"
             },
             {
               "Vehicle Type": "Assured Innova",
               "Model": "Innova, Innova Crysta",
               "Capacity": "6 seater",
-              "Per Km Rate": "Rs. 13.5"
+              "Per Km Rate": "-"
             }
           ]
 
