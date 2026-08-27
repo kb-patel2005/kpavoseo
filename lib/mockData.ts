@@ -2242,7 +2242,7 @@ export const tripData = [
       "AAVORide provides reliable and affordable cab services from Ahmedabad to Rajkot. Whether you're looking for the cheapest cab from Ahmedabad to Rajkot, a comfortable SUV for family travel, or a sedan for a couple's trip, AAVORide ensures you enjoy a smooth and safe journey. Plan your ride with the best taxi service in Ahmedabad today, discover all the charming places, and let AAVORide make your hill station escape comfortable and memorable. Choose the right Ahmedabad to Rajkot car package that fits your plan and travel comfortably.",
       "Whichever type of car you require like SUV, Sedan, or Tempo Traveller, AAVORide is India's number one intercity taxi platform and the most reliable choice. Just decide on one-way or round trip and travel without apprehensions. Book a reliable Ahmedabad to Rajkot cab with up to a 20% discount for a smooth and safe ride. Choose your Ahmedabad to Rajkot taxi today. Price starts at ₹9/km. Reserve your cab right away and have an easy travelling experience which is also secure."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-z7VKTmZpQzYASDhQZ3SEVHDChQCX-YpX_BtbDs_TAw&s=10",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtnpnifygWch2BZW5Tid_oEagXZ21G9M6TlZnfgSr1gA&s=10",
     sections: [
       {
         subHeading: "Ahmedabad to Rajkot Taxi Fare | Best Price and Lowest Price Guarantee",
