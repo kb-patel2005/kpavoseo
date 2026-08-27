@@ -64,7 +64,7 @@ export const smallCard: Destination1[] = [
   },
   {
     id: 2,
-    heading: "Book Ahmedabad to Mountabu Cab",
+    heading: "Book Ahmedabad to Mount Abu Cab",
     description: "Ahmedabad to Mount Abu is a favorite route for travelers seeking a refreshing getaway in Rajasthan. Mount Abu is known for its cool climate and stunning landscapes. Many people book rides between these cities for family vacations and leisure trips. You can book your outstation cab with AAVORide for a comfortable and affordable journey. Enjoy your trip with one-way drops service and explore the beauty of Mount Abu at your own pace.",
     tag: 'Hill-Escape',
     slug: "ahmedabad-to-mountabu",
@@ -93,7 +93,7 @@ export const smallCard: Destination1[] = [
       "With​‍​‌‍​‍‌​‍​‌‍​‍‌ AAVORide, your Ahmedabad to Rajkot journey becomes simple and without any kind of stress. They offer you reliable cabs, prices that are fair, and drivers that you can trust. Every time you make a booking, you will receive a timely pickup and a fare that is friendly to your wallet. If you are only going to use the cab for a one-way ride or for a round trip, it does not matter; just reserve your cab and take it easy. Your trip from Ahmedabad to Rajkot by road will be safe, comfortable, and free of any trouble with the help of ​‍​‌‍​‍‌​‍​‌‍​‍‌AAVORide."
     , tag: 'Road-Trips',
     slug: "ahmedabad-to-rajkot",
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBdpK4C2lCeIavPY22Tx5gONrtGnOP_RJvYpUmwJRY0A&s=10"
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-z7VKTmZpQzYASDhQZ3SEVHDChQCX-YpX_BtbDs_TAw&s=10"
   },
 
 ]
@@ -168,7 +168,7 @@ export const MOCK_DESTINATIONS: Destination[] = [
     id: '7',
     title: 'Diu: Coastal Getaway',
     category: 'Beach Escape',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaFpOpjYcLDCNkPjXNEhThCpg9zLCfh_BiJk8Hye_k3A&s=10',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIS9H5eSLgtCUys8QXo3GuagOEO5L1M2NM3EVzpeHUow&s=10',
   },
   {
     id: '8',
@@ -229,7 +229,7 @@ export const MOCK_DESTINATIONS: Destination[] = [
     id: '17',
     title: 'Pushkar: Beyond the Ordinary',
     category: 'Culture',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc1soRv095m0F6qJnEy2S3PZ5SHEDnup_TEEf9Eu60nw&s=10',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP3cAUAxEyvfEcFe59R4wHUT996mqk_r3JoaV2RVQMNg&s=10',
   },
   {
     id: '18',
@@ -247,7 +247,7 @@ export const MOCK_DESTINATIONS: Destination[] = [
     id: '20',
     title: 'Mahabaleshwar: Misty Mountain Escape',
     category: 'Hill Escape',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOJnhhKS0uexGPh2ma1Fa_Yfz4e7BSItp48OfcB_oK1g&s',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGcrxhxZtj8b9DUZm22H6TJqGWdpsuqkP_dygYhFNHXQ&s=10',
   },
   {
     id: '21',
@@ -259,7 +259,7 @@ export const MOCK_DESTINATIONS: Destination[] = [
     id: '22',
     title: 'Delhi: Where History Meets Modern India',
     category: 'Culture',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcnERkBgRmQQjCLa2kiu7urwh4XpqPRmDnp8iw88To-A&s=10',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX8Nvj0818Izvjxyac03OrPmExYpQdhnEoqHo_FLIHNA&s=10',
   },
   {
     id: '23',
@@ -277,7 +277,7 @@ export const MOCK_DESTINATIONS: Destination[] = [
     id: '25',
     title: 'Amritsar: A Journey of Faith',
     category: 'Culture',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPe9ETbYV_c5vfJ6wmAVx_oqiIwtbrjH7KsYIpqH5HHA&s=10',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzd1ABhp7w7M3UGi2Of4v80FJcqbEOTGPMgwvjy9DIng&s=10',
   },
   {
     id: '26',
@@ -2242,7 +2242,7 @@ export const tripData = [
       "AAVORide provides reliable and affordable cab services from Ahmedabad to Rajkot. Whether you're looking for the cheapest cab from Ahmedabad to Rajkot, a comfortable SUV for family travel, or a sedan for a couple's trip, AAVORide ensures you enjoy a smooth and safe journey. Plan your ride with the best taxi service in Ahmedabad today, discover all the charming places, and let AAVORide make your hill station escape comfortable and memorable. Choose the right Ahmedabad to Rajkot car package that fits your plan and travel comfortably.",
       "Whichever type of car you require like SUV, Sedan, or Tempo Traveller, AAVORide is India's number one intercity taxi platform and the most reliable choice. Just decide on one-way or round trip and travel without apprehensions. Book a reliable Ahmedabad to Rajkot cab with up to a 20% discount for a smooth and safe ride. Choose your Ahmedabad to Rajkot taxi today. Price starts at ₹9/km. Reserve your cab right away and have an easy travelling experience which is also secure."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBdpK4C2lCeIavPY22Tx5gONrtGnOP_RJvYpUmwJRY0A&s=10",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-z7VKTmZpQzYASDhQZ3SEVHDChQCX-YpX_BtbDs_TAw&s=10",
     sections: [
       {
         subHeading: "Ahmedabad to Rajkot Taxi Fare | Best Price and Lowest Price Guarantee",
