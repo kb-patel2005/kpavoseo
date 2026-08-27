@@ -60,7 +60,7 @@ export const smallCard: Destination1[] = [
     description: "Vadodara is also culturally vibrant and full of history. Either go and see the nearby statue of Unity or spend time with the museums, temples and the Laxmi Vilas Palace.",
     tag: 'Road-Trips',
     slug: "ahmedabad-to-vadodara",
-    coverImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/24/3b/lukshmi-vilas-palace.jpg?w=800&h=500&s=1",
+    coverImage: "/vadodara.jpg",
   },
   {
     id: 2,
@@ -813,7 +813,7 @@ export const tripData = [
       "Vadodara is also culturally vibrant and full of history. Either go and see the nearby statue of Unity or spend time with the museums, temples and the Laxmi Vilas Palace. The city caters for the tourist on all accounts with educational experiences, Royal history and exciting local life. It is also commonly referred to as Baroda and is most famous for its Royal past.",
       "Travelling by taxi from Ahmedabad to Vadodara is very easy and comfortable. Along an uncluttered highway, you will generally take approximately 2 - 2.5 hours for the approximate 110 km trip from Ahmedabad to Vadodara, which is a city that is popular for its rich cultural universities, museums and palaces and provides an ideal location for either a family outing, business trip or even a simple day return trip."
     ],
-    coverImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/52/24/3b/lukshmi-vilas-palace.jpg?w=800&h=500&s=1",
+    coverImage: "/vadodara.jpg",
     sections: [
       {
         subHeading: "Ahmedabad to Vadodara Cab Fare - Cultural Capital Journey Pricing",
