@@ -23,7 +23,7 @@ export default function CategoryWise({
     const router = useRouter();
 
     const { data: blog, isLoading, isError } = useBlogDetailByCategories(slug);
-    console.log(slug)
+    
     const [activeCategory, setActiveCategory] = useState(slug);
 
     // React Query Fetch using Infinite Scroll
@@ -250,7 +250,7 @@ export default function CategoryWise({
                                     (blog.tag.toLocaleLowerCase() == activeCategory.toLocaleLowerCase() || activeCategory == "All Stories") &&
                                     <SmallCard blog={blog} index={idx} key={blog.heading} />
                                 )}
-                            {recentBlogs.length > 0 ? (
+                            {/* {recentBlogs.length > 0 ? (
                                 recentBlogs.map((rBlog, idx) => (
                                     <BlogRow key={rBlog.id} blog={rBlog} index={idx} />
                                 ))
@@ -264,7 +264,7 @@ export default function CategoryWise({
                                         choice.
                                     </p>
                                 </div>
-                            )}
+                            )} */}
                         </AnimatePresence>
                     </div>
                 )}
