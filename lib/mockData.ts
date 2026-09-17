@@ -109,7 +109,7 @@ export const smallCard: Destination1[] = [
     id: 7,
     heading: "Book Ahmedabad to Gir Cab",
     description: "Ahmedabad to Sasan Gir is the very popular route for tourists. A paradise for wildlife lovers, Gir Wildlife Sanctuary is one of the most popular tourist destinations in India.",
-    tag: 'SPIRITUAL',
+    tag: 'Adventure',
     slug: "ahmedabad-to-gir",
     coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1QQ1hQbJ2gPQyOh3WoiM88RgRIl-rQm50yYOdbitruA&s=10",
 
@@ -2690,7 +2690,7 @@ export const tripData = [
     id: 10,
     slug: "ahmedabad-to-gir",
     heading: "Book Ahmedabad to Gir Cab",
-    tag: "SPIRITUAL",
+    tag: "Adventure",
     description: [
       "Ahmedabad to Gir distance : 348 km",
       "Estimated travel time : 7.5 hours",

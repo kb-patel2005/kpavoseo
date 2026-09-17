@@ -353,7 +353,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
 
                 <div className="w-full overflow-x-auto flex scrollbar-none space-x-2 py-2 border-b-0 md:border-b border-slate-200 justify-start md:justify-center">
                     {CATEGORIES.map((category) => {
-                        const isActive = activeCategory === category;
+                        const isActive = activeCategory === category.replace(" ","-");
                         return (
                             <button
                                 key={category}

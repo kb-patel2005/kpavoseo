@@ -105,7 +105,7 @@ export const citydata = [
             //decs and card
             {
                 subHeading: "Local Ahmedabad Sightseeing - UNESCO Heritage & Modern Attractions",
-                description: 
+                description:
                     "Travelling locally in Ahmedabad is also very easy with AAVORide's cab service. Whether you are looking for a cab service near me or an online cab service, our local cabs are perfect for your travel in the city or sightseeing all around Ahmedabad. Enjoy a comfortable Ahmedabad sightseeing by car. There are lots of tourist attractions in the city that you can easily cover by our local sightseeing cabs. Our drivers are local. They know the city roads very well and help you to save your time from the city traffic. There are several local sightseeing packages at AAVORide. Just explore them:",
                 "Half Day Heritage Walk & Old City Tour (4-5 hours)": [
                     "With your half day cab, you can easily cover the prominent UNESCO sites such as Sabarmati Ashram, Sidi Saiyyad Mosque, Jama Masjid, Adalaj Stepwell and Teen Darwaza.",
@@ -166,35 +166,6 @@ export const citydata = [
                     }
                 ]
             },
-            //desc 2 times
-            // {
-            //     subHeading: "Sardar Patel International Airport Transfers (AMD) Connectivity",
-            //     description: ["Ahmedabad's gateway is Sardar Vallabhbhai Patel International Airport (AMD), and smooth transfers are essential for both business and leisure guests; you can hire car in Ahmedabad with AAVORide."],
-            //     "Our Airport Taxi Features:": [
-            //         "Dependable transportation from any area in Ahmedabad, including Satellite, Vastrapur, CG Road, SG Highway, Maninagar, and Old City. Availability for early morning and late-night flights around the clock. Invoices for corporate billing and GST are accessible.",
-            //         "For any booking problem, you can call +91-8796809009 anytime for confirmed airport transfers."
-            //     ],
-            //     "Airport Transfer Pricing": [
-            //         "Satellite/CG Road to AMD Airport: ₹350",
-            //         "SG Highway/Prahlad Nagar to Airport: ₹350",
-            //         "Vastrapur/Thalte to Airport: ₹350",
-            //         "Old City/Maninagar to Airport: ₹350"
-            //     ]
-            // },
-            // {
-            //     subHeading: "One Way Taxi Ahmedabad - Genuine Cost Savings",
-            //     description: [
-            //         "You can also easily book a one way cab to and from Ahmedabad through our platform. The fare is very reasonable and includes only the prices of one way fuel, driver charges, and 45 minutes of waiting charges. Not like the other cab provider in the city. We offers one way cab for any location from Ahmedabad and vice versa."
-            //     ],
-            //     "Popular one way Routes from Ahmedabad": [
-            //         "Drop to Statue of Unity: ₹2,300",
-            //         "Drop to Udaipur: ₹3,333",
-            //         "Drop to Rajkot: ₹2,199",
-            //         "Drop to Vadodara: ₹1,399",
-            //         "Drop to Dwarka: ₹4,400",
-            //         "Drop to Mount Abu: ₹2,600"
-            //     ],
-            // },
             {
                 subHeading: "Network Beyond Ahmedabad",
                 description: [
@@ -217,9 +188,9 @@ export const citydata = [
             //desc and faq
             {
                 subHeading: "Why Ahmedabad Travelers Trust AAVORide",
-                description: 
+                description:
                     "In Ahmedabad, AAVORide is famous for its timely and trusted cab service. Whether you are local to the city or traveller coming to explore, meet family or have a business meeting. Our diverse cab service ensures you get the best suitable cab in the city for your travel. If you are in Ahmedabad and searching for cab service near me, your search ends at AAVORide. Here are some key features that distinguish our service in Ahmedabad:",
-                
+
 
                 "": [
                     "We have an expert fleet of drivers in Gujarat particularly in Ahmedabad, that ensure safe, reliable cab experience.",
@@ -312,6 +283,130 @@ export const citydata = [
                         question: "How can I contact customer support for Ahmedabad cab services?",
                         answer: "It is very easy to connect with our support executive. You can text, mail, or even call our executive at +91-8796809009 for direct contact. We offer customer support service 24/7 to resolve your problem."
                     }
+
+                ]
+            }
+        ]
+    },
+    {
+        id: 2,
+        slug: "gandhinagar",
+        heading: "Gandhinagar Taxi Service - Book Local and Outstation Cabs",
+
+        description: [
+            "Gandhinagar is one of the most visited cities in India. Being the capital city of Gujarat and the second planned city in India after Chandigarh, Gandhinagar has become the commercial and cultural hub of the state of Gujarat.",
+            "Situated on the bank of Sabarmati river, Gandhinagar offers a rich cultural heritage, a very beautiful well organized city, awsome architecture design, magnificient holy temples, historical monuments and forts and has a very important place in nation's struggle for freedom. The city is named after the Father of Nation, Mahatama Gandhi. The Gandhi Ashram and the various national movements that took place during the colonial era fills visitor with the feeling of patriotism. The most famous tourist attraction in Gandhinagar is Swaminarayan Akshardham Temple is made of 6000 tonnes of pink sandstone which makes it look beautiful and the temple with its spiritual value and architectural beauty attracts thousands of tourists every year. There are more holy places like Hanumanji temple and Brahmani Temple which are also a must visit.",
+            "To enjoy all the beauty of Gandhinagar and its nearby destinations, CabBazar provides readily available and most reliable taxi services in Gandhinagar. You can book outstation cabs in Gandhinagar for planning trips to nearby destinations or you can hire local hourly cab in Gandhinagar. In whichever part of Gandhinagar your are in or if you are coming from outside and need a Gandhinagar airport cab service, you can get a suitable taxi at most competitive price at CabBazar. Other very popular cab route for tourists is Mumbai to Kolhapur."
+        ],
+        coverImage: "https://via.placeholder.com/600x400.png?text=Sample+Destination",
+        sections: [
+            //1st
+            {
+                subHeading: "Gandhinagar Cab Service at CabBazar",
+                description: [
+                    "Gandhinagar Outstation cab service (Round Trip): Enjoy a memorable trip to Gandhinagar or to other destinations from Gandhinagar with CabBazar's highly affordable and convenient outstation cabs.",
+                    "Gandhinagar One Way cab service: For one way drop taxi to or from Gandhinagar, pay for only one side with CabBazar's one way cab service.",
+                    "Gandhinagar Local cabs / hourly car rental / Full day taxi : Local taxi in Gandhinagar is availabe for 2 hour 20 kms, 4 hour 40kms, 8 hours 80 kms, 12 hours 120kms."
+                    , "Airport Taxi Service in Gandhinagar : Experience convenient last mile connectivity to or from Gandhinagar with CabBazar's reliable airport taxi service."
+
+                ]
+            },
+            {
+                subHeading: "Outstation cabs from Gandhinagar",
+                description: "",
+                part: {
+                    "": [
+                        "Taxi from Gandhinagar to Mount Abu",
+                        "Taxi from Gandhinagar to Bhuj",
+                        "Taxi from Gandhinagar to Kumbhalgarh",
+                        "Taxi from Gandhinagar to Surat",
+                        "Taxi from Gandhinagar to Alibaug",
+                        "Taxi from Gandhinagar to Bundi",
+                        "Taxi from Gandhinagar to Ellora",
+                        "Taxi from Gandhinagar to Haridwar",
+                        "Taxi from Gandhinagar to Jaisalmer",
+                        "Taxi from Gandhinagar to Kota"
+                    ]
+
+                }
+            },
+            {
+                subHeading: "Places to visit in Gandhinagar",
+                description: "",
+                part: {
+                    "": [
+                        "Akshardham temple",
+                        "Adalaj Stepwell",
+                        "Children's Park",
+                        "Sarita Udyan",
+                        "Puneet Van",
+                        "Fun World",
+                        "Craftsman Village",
+                        "Trimandir",
+                        "Indroda Nature Park",
+                        "Aalloa Hills Resorts Golf Course",
+                        "Rani Roopmati mosque",
+                        "Sant Sarovar Dam",
+                        "Capital Complex",
+                        "Vithalbhai Patel Bhawan",
+                        "Hanuman Temple",
+                        "Mahudi Jain Temple",
+                        "Swarnim Park",
+                        "Swapna Srushti Water Park"
+                    ]
+                }
+            },
+            //decs and card
+            {
+                subHeading: "Gandhinagar Taxi Service",
+                description: "Being an Aggregator, CabBazar provides you enormous car options for your taxi booking in Gandhinagar. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for local sightseeing as well as outstation cab service in Gandhinagar. At high level, we classify taxi in below four categories :",
+                "Gandhinagar Taxi Prices": {
+                    comparisonTable: [
+                        {
+                            "Vehicle Type": "Hatchback",
+                            "Model": "Wagon-R, Indica or similar",
+                            "Outstation Price per km": "-",
+                            "Full day taxi price": "-"
+                        },
+                        {
+                            "Vehicle Type": "Sedan",
+                            "Model": "Dzire, Etios or similar",
+                            "Outstation Price per km": "-",
+                            "Full day taxi price": "-"
+                        },
+                        {
+                            "Vehicle Type": "SUV",
+                            "Model": "Ertiga, Marazzo or similar",
+                            "Outstation Price per km": "-",
+                            "Full day taxi price": "-"
+                        }
+                    ],
+                }
+
+            },
+            {
+                subHeading: "Book taxi for outstation in Gandhinagar",
+                description: [
+                    "CabBazar is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Gandhinagar taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well.",
+                    "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. You can choose car as per your preference."
+                ]
+            },
+            {
+                subHeading: "Frequently Asked Questions for outstation cab booking in Gandhinagar",
+                description: "",
+                faqs: [
+                    {
+                        question: "How much is Gandhinagar taxi fare?",
+                        answer: "We provide Gandhinagar outstation cabs as well as Gandhinagar local sightseeing taxi. Price starts at ₹1700. For best price on your travel date for various car rental options, please enter trip details and check."
+                    },
+                    {
+                        question: "Is Driver charges, Night charges and Toll, State tax included in Gandhinagar cab price?",
+                        answer: "Yes, Gandhinagar taxi price includes Driver charges and Night charges. You can book Toll, State tax inclusive cab too for outstation round trip and one way drop from Gandhinagar."
+                    },
+                    {
+                        question: "Do I need to make payment in advance to book cab in Gandhinagar?",
+                        answer: "You will need to pay just 10-20% amount in advance for booking cab in Gandhinagar."
+                    },
 
                 ]
             }

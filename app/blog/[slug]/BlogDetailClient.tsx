@@ -355,11 +355,14 @@ export default function BlogDetailClient({
         {/* Category Tabs Navigation */}
         <div className="max-w-7xl mx-auto overflow-x-auto flex scrollbar-none space-x-2 py-2 border-b-0 md:border-b border-slate-200 justify-start">
           {CATEGORIES.map((category) => {
-            const isActive = activeCategory === category;
+            const isActive = activeCategory == category;
             return (
               <button
                 key={category}
-                onClick={() => setActiveCategory(category)}
+                onClick={() => 
+                {
+                  setActiveCategory(category)
+                }}
                 className={`relative px-4 py-2 text-xs md:text-sm cursor-pointer font-bold rounded-full transition-all duration-200 shrink-0 select-none ${isActive
                   ? "text-white bg-[#FF4D30] shadow-md"
                   : "text-slate-500 hover:text-slate-800 hover:bg-slate-100"

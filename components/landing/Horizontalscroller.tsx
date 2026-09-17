@@ -25,7 +25,7 @@ const cities = [
     count: "25+ Active Drivers",
     imageSrc: "/images/Places/Gandhinagar1.jpg",
     imageAlt: "Gandhinagar temple complex",
-    link:"/city/ahmedabad"
+    link:"/city/gandhinagar"
   },
    {
     title: "Surat",
