@@ -20,7 +20,7 @@ export const citydata = [
                         description: [
                             "Monument Distance: 198 Km",
                             "Travel Duration: 4 hours",
-                            "Cab Fare: ₹2,300 for one-way | ₹3,850 for round-trip",
+                            // "Cab Fare: ₹2,300 for one-way | ₹3,850 for round-trip",
                             "World's Tallest Statue: 182-meter tribute to Sardar Vallabhbhai Patel (Iron Man of India), Valley of Flowers, Sardar Sarovar Dam Viewpoint, Museum, Laser light show.",
                             "Route: well connected via NE1, and NH48 through Vadodara, with excellent highway condition",
                             "Same Day Tour: You can depart at 7 AM, enjoy 5-6 hours at the site, and return by 8 PM",
@@ -33,7 +33,7 @@ export const citydata = [
                         description: [
                             "Travel Distance: 111 Km",
                             "Travel Duration: 2 hours",
-                            "Taxi Fare: ₹1,399 for one-way | ₹2,520 for round-trip",
+                            // "Taxi Fare: ₹1,399 for one-way | ₹2,520 for round-trip",
                             "Cultural Capital: Laxmi Vilas Palace (four times the size of Buckingham Palace, still inhabited by the royal Family), Sayaji Baug (the largest garden in Western India), Maharaja Singh Museum, Champaner-Pavagadh UNESCO site (47 km from Vadodara)",
                             "Royal Heritage: Witness Indo-Saracenic architecture blending Indian, Islamic, and European styles"
                         ],
@@ -45,7 +45,7 @@ export const citydata = [
                             [
                                 "Travel Distance: 111 Km",
                                 "Travel Duration: 2 hours",
-                                "Taxi Fare: ₹1,399 for one-way | ₹2,520 for round-trip",
+                                // "Taxi Fare: ₹1,399 for one-way | ₹2,520 for round-trip",
                                 "Cultural Capital: Laxmi Vilas Palace (four times the size of Buckingham Palace, still inhabited by the royal Family), Sayaji Baug (the largest garden in Western India), Maharaja Singh Museum, Champaner-Pavagadh UNESCO site (47 km from Vadodara)",
                                 "Royal Heritage: Witness Indo-Saracenic architecture blending Indian, Islamic, and European styles"
                             ]
@@ -63,7 +63,7 @@ export const citydata = [
                         description: [
                             "Lake City Distance: 260 Km",
                             "Travel Duration: 5 hours",
-                            "Cab Fare: ₹3,333 for one-way | ₹5,090 for round-trip",
+                            // "Cab Fare: ₹3,333 for one-way | ₹5,090 for round-trip",
                             "City Of Lakes: Lake Pichola, City Palace complex in Rajasthan, Jag Mandir, Jagdish Temple, Saheliyon ki Bari, Fateh Sagar Lake",
                             "Romantic Destination: It is perfect for couples, honeymoons, and family vacations",
                             "Scenic Drive: Beautiful route through the Aravalli hills entering Rajasthan",
@@ -76,7 +76,7 @@ export const citydata = [
                         description: [
                             "Hill Station: 222 Km",
                             "Travel Duration: 4.5 hours",
-                            "Pricing: ₹2,600 for one-way | ₹4,390 for round-trip",
+                            // "Pricing: ₹2,600 for one-way | ₹4,390 for round-trip",
                             "Rajasthan's Only Hill Station: Nakki Lake, Dilwara Temples exquisite Jain marble temples, Guru Shikhar (Rajasthan's highest peak), sunset points",
                             "Summer Retreat: Pleasant weather even during peak summer months",
                             "Cool Escapes: It is perfect for all your families seeking respite from Gujarat's heat"
@@ -90,7 +90,7 @@ export const citydata = [
                             [
                                 "Pink City Distance: 681 Km",
                                 "Travel Duration: 12 hours",
-                                "Pricing: ₹7,800 for one-way | ₹12,360 for round-trip",
+                                // "Pricing: ₹7,800 for one-way | ₹12,360 for round-trip",
                                 "Royal Capital: Amber Fort, City Palace, Hawa Mahal, Jantar Mantar, Jal Mahal, Nahargarh Fort",
                                 "Shopping Paradise: Johari Bazaar jewellery, Bapu Bazaar textiles, traditional handicrafts",
                                 "Extended Tour: Recommend a 2-3 day trip or an overnight journey with a Udaipur Stopover"
@@ -118,13 +118,13 @@ export const citydata = [
                     "For full day you get approximately 10 hours of cab that you can use as per your schedule plan, making travelling a comfortable experience.",
                     "For shopping and food experience in Ahmedabad, this service gives you leverage to plan your day as per your convenience."
                 ],
-                "Hourly Rental Packages":
-                    [
-                        "2 hours 20 km: ₹882 onwards",
-                        "4 hours 40 km: ₹1,055 onwards",
-                        "8 hours 80 km: ₹1,608 onwards",
-                        "12 hours 120 km: ₹2,004 onwards"
-                    ]
+                // "Hourly Rental Packages":
+                //     [
+                //         "2 hours 20 km: ₹882 onwards",
+                //         "4 hours 40 km: ₹1,055 onwards",
+                //         "8 hours 80 km: ₹1,608 onwards",
+                //         "12 hours 120 km: ₹2,004 onwards"
+                //     ]
             },
             {
                 subHeading: "Spiritual Gujarat - Jyotilingas & Temple Towns",
@@ -135,7 +135,7 @@ export const citydata = [
                         description: [
                             "Pilgrimage Distance: 438 Km",
                             "Travel Duration: 8 hours",
-                            "Pricing: ₹4,400 for one-way | ₹8,290 for round-trip",
+                            // "Pricing: ₹4,400 for one-way | ₹8,290 for round-trip",
                             "Krishna's Kingdom: Dwarkadish Temple, Gomti Ghat, Beyt Dwarka (island accessible by boat), Nageshwar Jyotilinga, Rukmini Devi Temple",
                             "Route: NH 47 and NH151A, which goes via Rajkot, with excellent highway conditions"
                         ],
@@ -146,7 +146,7 @@ export const citydata = [
                         description: [
                             "Jyotirlinga Distance: 400 Km",
                             "Travel Duration: 8 hours",
-                            "Pricing: ₹4,100 for one-way | ₹7,750 for round-trip",
+                            // "Pricing: ₹4,100 for one-way | ₹7,750 for round-trip",
                             "First Jyotirlinga: Somnath Temple (first among 12 Jyotirlingas), destroyed and rebuilt 17 times, stunning beachside location, light & sound show",
                             "Coastal Route: Beautiful Arabian Sea view en route"
                         ],
@@ -157,7 +157,7 @@ export const citydata = [
                         description: [
                             "Wildlife Distance: 345 Km",
                             "Travel Duration: 6-7 hours",
-                            "Pricing: ₹3,800 for one-way | ₹6,210 for round-trip",
+                            // "Pricing: ₹3,800 for one-way | ₹6,210 for round-trip",
                             "Asiatic Lion Sanctuary: The only place in the world where Asiatic lions live in the wild, leopards, deer, and birdlife",
                             "Safari Experience: Book a forest safari permit in advance online",
                             "Combine: Often combined with Somnath (60 Km from Gir)"
@@ -167,34 +167,34 @@ export const citydata = [
                 ]
             },
             //desc 2 times
-            {
-                subHeading: "Sardar Patel International Airport Transfers (AMD) Connectivity",
-                description: ["Ahmedabad's gateway is Sardar Vallabhbhai Patel International Airport (AMD), and smooth transfers are essential for both business and leisure guests; you can hire car in Ahmedabad with AAVORide."],
-                "Our Airport Taxi Features:": [
-                    "Dependable transportation from any area in Ahmedabad, including Satellite, Vastrapur, CG Road, SG Highway, Maninagar, and Old City. Availability for early morning and late-night flights around the clock. Invoices for corporate billing and GST are accessible.",
-                    "For any booking problem, you can call +91-8796809009 anytime for confirmed airport transfers."
-                ],
-                "Airport Transfer Pricing": [
-                    "Satellite/CG Road to AMD Airport: ₹350",
-                    "SG Highway/Prahlad Nagar to Airport: ₹350",
-                    "Vastrapur/Thalte to Airport: ₹350",
-                    "Old City/Maninagar to Airport: ₹350"
-                ]
-            },
-            {
-                subHeading: "One Way Taxi Ahmedabad - Genuine Cost Savings",
-                description: [
-                    "You can also easily book a one way cab to and from Ahmedabad through our platform. The fare is very reasonable and includes only the prices of one way fuel, driver charges, and 45 minutes of waiting charges. Not like the other cab provider in the city. We offers one way cab for any location from Ahmedabad and vice versa."
-                ],
-                "Popular one way Routes from Ahmedabad": [
-                    "Drop to Statue of Unity: ₹2,300",
-                    "Drop to Udaipur: ₹3,333",
-                    "Drop to Rajkot: ₹2,199",
-                    "Drop to Vadodara: ₹1,399",
-                    "Drop to Dwarka: ₹4,400",
-                    "Drop to Mount Abu: ₹2,600"
-                ],
-            },
+            // {
+            //     subHeading: "Sardar Patel International Airport Transfers (AMD) Connectivity",
+            //     description: ["Ahmedabad's gateway is Sardar Vallabhbhai Patel International Airport (AMD), and smooth transfers are essential for both business and leisure guests; you can hire car in Ahmedabad with AAVORide."],
+            //     "Our Airport Taxi Features:": [
+            //         "Dependable transportation from any area in Ahmedabad, including Satellite, Vastrapur, CG Road, SG Highway, Maninagar, and Old City. Availability for early morning and late-night flights around the clock. Invoices for corporate billing and GST are accessible.",
+            //         "For any booking problem, you can call +91-8796809009 anytime for confirmed airport transfers."
+            //     ],
+            //     "Airport Transfer Pricing": [
+            //         "Satellite/CG Road to AMD Airport: ₹350",
+            //         "SG Highway/Prahlad Nagar to Airport: ₹350",
+            //         "Vastrapur/Thalte to Airport: ₹350",
+            //         "Old City/Maninagar to Airport: ₹350"
+            //     ]
+            // },
+            // {
+            //     subHeading: "One Way Taxi Ahmedabad - Genuine Cost Savings",
+            //     description: [
+            //         "You can also easily book a one way cab to and from Ahmedabad through our platform. The fare is very reasonable and includes only the prices of one way fuel, driver charges, and 45 minutes of waiting charges. Not like the other cab provider in the city. We offers one way cab for any location from Ahmedabad and vice versa."
+            //     ],
+            //     "Popular one way Routes from Ahmedabad": [
+            //         "Drop to Statue of Unity: ₹2,300",
+            //         "Drop to Udaipur: ₹3,333",
+            //         "Drop to Rajkot: ₹2,199",
+            //         "Drop to Vadodara: ₹1,399",
+            //         "Drop to Dwarka: ₹4,400",
+            //         "Drop to Mount Abu: ₹2,600"
+            //     ],
+            // },
             {
                 subHeading: "Network Beyond Ahmedabad",
                 description: [
