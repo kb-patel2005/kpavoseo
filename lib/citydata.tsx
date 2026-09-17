@@ -281,7 +281,7 @@ export const citydata = [
                     },
                     {
                         question: "How can I contact customer support for Ahmedabad cab services?",
-                        answer: "It is very easy to connect with our support executive. You can text, mail, or even call our executive at +91-8796809009 for direct contact. We offer customer support service 24/7 to resolve your problem."
+                        answer: "It is very easy to connect with our support executive. You can text, mail, or even call our executive at +91-9712387840 for direct contact. We offer customer support service 24/7 to resolve your problem."
                     }
 
                 ]
@@ -296,18 +296,18 @@ export const citydata = [
         description: [
             "Gandhinagar is one of the most visited cities in India. Being the capital city of Gujarat and the second planned city in India after Chandigarh, Gandhinagar has become the commercial and cultural hub of the state of Gujarat.",
             "Situated on the bank of Sabarmati river, Gandhinagar offers a rich cultural heritage, a very beautiful well organized city, awsome architecture design, magnificient holy temples, historical monuments and forts and has a very important place in nation's struggle for freedom. The city is named after the Father of Nation, Mahatama Gandhi. The Gandhi Ashram and the various national movements that took place during the colonial era fills visitor with the feeling of patriotism. The most famous tourist attraction in Gandhinagar is Swaminarayan Akshardham Temple is made of 6000 tonnes of pink sandstone which makes it look beautiful and the temple with its spiritual value and architectural beauty attracts thousands of tourists every year. There are more holy places like Hanumanji temple and Brahmani Temple which are also a must visit.",
-            "To enjoy all the beauty of Gandhinagar and its nearby destinations, CabBazar provides readily available and most reliable taxi services in Gandhinagar. You can book outstation cabs in Gandhinagar for planning trips to nearby destinations or you can hire local hourly cab in Gandhinagar. In whichever part of Gandhinagar your are in or if you are coming from outside and need a Gandhinagar airport cab service, you can get a suitable taxi at most competitive price at CabBazar. Other very popular cab route for tourists is Mumbai to Kolhapur."
+            "To enjoy all the beauty of Gandhinagar and its nearby destinations, AAVORide provides readily available and most reliable taxi services in Gandhinagar. You can book outstation cabs in Gandhinagar for planning trips to nearby destinations or you can hire local hourly cab in Gandhinagar. In whichever part of Gandhinagar your are in or if you are coming from outside and need a Gandhinagar airport cab service, you can get a suitable taxi at most competitive price at AAVORide. Other very popular cab route for tourists is Mumbai to Kolhapur."
         ],
         coverImage: "https://via.placeholder.com/600x400.png?text=Sample+Destination",
         sections: [
             //1st
             {
-                subHeading: "Gandhinagar Cab Service at CabBazar",
+                subHeading: "Gandhinagar Cab Service at AAVORide",
                 description: [
-                    "Gandhinagar Outstation cab service (Round Trip): Enjoy a memorable trip to Gandhinagar or to other destinations from Gandhinagar with CabBazar's highly affordable and convenient outstation cabs.",
-                    "Gandhinagar One Way cab service: For one way drop taxi to or from Gandhinagar, pay for only one side with CabBazar's one way cab service.",
+                    "Gandhinagar Outstation cab service (Round Trip): Enjoy a memorable trip to Gandhinagar or to other destinations from Gandhinagar with AAVORide's highly affordable and convenient outstation cabs.",
+                    "Gandhinagar One Way cab service: For one way drop taxi to or from Gandhinagar, pay for only one side with AAVORide's one way cab service.",
                     "Gandhinagar Local cabs / hourly car rental / Full day taxi : Local taxi in Gandhinagar is availabe for 2 hour 20 kms, 4 hour 40kms, 8 hours 80 kms, 12 hours 120kms."
-                    , "Airport Taxi Service in Gandhinagar : Experience convenient last mile connectivity to or from Gandhinagar with CabBazar's reliable airport taxi service."
+                    , "Airport Taxi Service in Gandhinagar : Experience convenient last mile connectivity to or from Gandhinagar with AAVORide's reliable airport taxi service."
 
                 ]
             },
@@ -359,7 +359,7 @@ export const citydata = [
             //decs and card
             {
                 subHeading: "Gandhinagar Taxi Service",
-                description: "Being an Aggregator, CabBazar provides you enormous car options for your taxi booking in Gandhinagar. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for local sightseeing as well as outstation cab service in Gandhinagar. At high level, we classify taxi in below four categories :",
+                description: "Being an Aggregator, AAVORide provides you enormous car options for your taxi booking in Gandhinagar. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for local sightseeing as well as outstation cab service in Gandhinagar. At high level, we classify taxi in below four categories :",
                 "Gandhinagar Taxi Prices": {
                     comparisonTable: [
                         {
@@ -387,7 +387,7 @@ export const citydata = [
             {
                 subHeading: "Book taxi for outstation in Gandhinagar",
                 description: [
-                    "CabBazar is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Gandhinagar taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well.",
+                    "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Gandhinagar taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well.",
                     "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. You can choose car as per your preference."
                 ]
             },

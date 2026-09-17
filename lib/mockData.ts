@@ -2409,7 +2409,7 @@ export const tripData = [
           "Multiple Car Choices: Whatever your requirements are, be it a small hatchback, a sedan, an SUV, an Innova Crysta or even a Tempo Traveller, you can get a cab that fits your needs with us.",
           "Flexible Trip Options: If you want to, you can just take a one-way ride, or a round trip, or even multi-day travel, all depending on your plans.",
           "Pet-Friendly Cabs: Furthermore, we also have the option of pet-friendly cabs, so that your adorable companions can have a comfortable journey with you.",
-          "24/7 Customer Support: Our support team will assist you with the booking as well as the travel process around the clock. Our customer support number is 0806824940.",
+          "24/7 Customer Support: Our support team will assist you with the booking as well as the travel process around the clock. Our customer support number is 9712387840.",
           "Luggage-Friendly Rides: AAVORide offers the option of assured luggage for comfortable travel. Either you get a comfortable boot space or a carriage so that you never have to worry about carrying your extra bags.",
           "Pan-India Cab Bookings: You can book a cab across India with AAVORide's nationwide network. Our nationwide cab network offers reliable taxi service in India at the best price.",
           "In case you are organising a short trip locally or a long-distance journey by road, then AAVORide Ahmedabad to Rajkot taxi service is the answer to your wish of travelling safely, in comfort and at an affordable rate."
