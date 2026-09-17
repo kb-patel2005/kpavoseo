@@ -1,7 +1,13 @@
+import { FooterSection } from '@/components/landing/footer-section'
+import { CitiesSections } from '@/components/landing/Horizontalscroller'
 import React from 'react'
 
 export default function page() {
   return (
-    <div>city page</div>
+    <main>
+
+      <CitiesSections />
+      <FooterSection/>
+    </main>
   )
 }

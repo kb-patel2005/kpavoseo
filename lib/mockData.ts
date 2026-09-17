@@ -104,6 +104,15 @@ export const smallCard: Destination1[] = [
     tag: 'Road-Trips',
     slug: "ahmedabad-to-ambaji",
     coverImage: "https://hblimg.mmtcdn.com/content/hubble/img/ttd_images_march/mmt/activities/m_ambaji_Mata_Temple_2_l_480_640.jpg",
+  },
+  {
+    id: 7,
+    heading: "Book Ahmedabad to Gir Cab",
+    description: "Ahmedabad to Sasan Gir is the very popular route for tourists. A paradise for wildlife lovers, Gir Wildlife Sanctuary is one of the most popular tourist destinations in India.",
+    tag: 'SPIRITUAL',
+    slug: "ahmedabad-to-gir",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1QQ1hQbJ2gPQyOh3WoiM88RgRIl-rQm50yYOdbitruA&s=10",
+
   }
 
 ]
@@ -165,6 +174,7 @@ export const MOCK_DESTINATIONS: Destination[] = [
   {
     id: '5',
     title: 'Gir: Into the Wild',
+    slug: "ahmedabad-to-gir",
     category: 'Wildlife',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS56ynn5e579bP3Cz4ShmMRvMxu7dKLT9ugVpx7E5SaiQ&s=10',
   },
@@ -2670,6 +2680,161 @@ export const tripData = [
             "answer": "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Ambaji cab."
           }
         ]
+
+
+
+      }
+    ],
+  },
+  {
+    id: 10,
+    slug: "ahmedabad-to-gir",
+    heading: "Book Ahmedabad to Gir Cab",
+    tag: "SPIRITUAL",
+    description: [
+      "Ahmedabad to Gir distance : 348 km",
+      "Estimated travel time : 7.5 hours",
+      "Ahmedabad to Sasan Gir is the very popular route for tourists. A paradise for wildlife lovers, Gir Wildlife Sanctuary is one of the most popular tourist destinations in India.",
+      "Located in Gujarat, it enjoys the unique distinction of being the only wildlife sanctuary that houses the Asiatic lion in large numbers. Gir also has plenty of other activities like Forest Safari, Bird Watching and crocodile breeding that you can enjoy while on a family vacation. Along with the Asiatic Lions, Gir is also known for being the abode for leopards, nilgai, antelope, sambar deer, wild boar, jackal, monkey and chowsingha four-horned antelope. Be it a solo trip or a family vacation, this park will prove to be a heaven for wildlife and nature lovers.",
+      "Taxi from Ahmedabad to Gir is readily available at AAVORide."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSssQOHKCQka6EqvWKl9UosGIXjetobGUUfdq7J5op53w&s=10",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Gir Cab Route",
+        description:
+          [
+            "Ahmedabad to Sasan Gir Taxi PricesAhmedabad to Sasan Gir by car is well connected via NH47 and is very convenient and comfortable drive. Ahmedabad to Sasan Gir distance is 348 Km and is 7.5 hours journey. Other famous tourist places on this route and nearby are Ahmedabad to Sasan Gir Taxi PricesNalsarovar - Bird Sanctuary",
+          ]
+        , part: {
+          "": [
+            "Surendranagar",
+            "Chotila : Chamunda Mataji Temple, Jalaram Temple",
+            "Rajkot : Jubilee Garden, Watson Museum, Rotary Dolls Museum, Aji Dam",
+            "Amreli : Kumbhnath Sukhnath Temple, Khodiyar Temple",
+            "Rajula : Dhareshwar",
+            "Gondal : Naulakha Palace, BAPS Shri Swaminarayan Mandir, Akshar Deri Gondal",
+            "Jetpur",
+            "Junagadh"
+          ]
+        }
+      },
+      {
+        subHeading: "Places to visit in Gir using AAVORide Ahmedabad to Gir Car Rental with driver",
+        description: "",
+        part: {
+          "": [
+            "Forest Safari",
+            "Bird Watching",
+            "Shopping",
+            "Tribal Festivals",
+            "Beach Visit",
+            "Crocodile Breeding Centre",
+            "Magic Workshop",
+            "Nature Walk",
+            "Thrill Zone",
+            "Aqua Zorbing",
+            "Riveting Jungle Safari"
+          ]
+
+        }
+      },
+      {
+        subHeading: "Ahmedabad to Gir Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Gir taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Gir.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Gir cab and our prices are generally 20% lower than competition."
+        ]
+        , "Ahmedabad to Gir Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Ahmedabad to Gir Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Gir taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Gir taxi service. You may book Ahmedabad to Gir round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Gir car package as needed. You may also book Ahmedabad to Gir one way drop taxi or a local hourly rental cab in Gir with AAVORide."
+        ]
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Gir Cab Booking",
+        description: "",
+        faqs: [
+          {
+            "question": "What is the distance from Ahmedabad to Gir by car?",
+            "answer": "The distance from Ahmedabad to Gir by car is 348 km."
+          },
+          {
+            "question": "How long does it take from Ahmedabad to Gir by road?",
+            "answer": "It takes approx. 7.5 to 8.5 hours depending on traffic."
+          },
+          {
+            "question": "How much is Ahmedabad to Gir taxi fare?",
+            "answer": "Ahmedabad to Gir taxi fare is approx. ₹3800 for a good sedan car like Etios, Dzire and is approx. ₹4300 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            "question": "How much is Ahmedabad to Gir Innova fare?",
+            "answer": "Ahmedabad to Gir Innova fare is approx. ₹5300. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            "question": "Does price includes Driver charges and Night charges?",
+            "answer": "Yes, Ahmedabad to Gir cab price includes Driver charges and Night charges."
+          },
+          {
+            "question": "Do I need to make payment in advance to book Ahmedabad to Gir cab?",
+            "answer": "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Gir cab."
+          },
+          {
+            "question": "Is local sightseeing included in Ahmedabad to Gir outstation trip?",
+            "answer": "For Ahmedabad to Gir Round trip cab, all the local sightseeing in Ahmedabad, Gir and other destination cities in itinerary is included. For Ahmedabad to Gir One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Gir and other destination cities in itinerary is included. For Ahmedabad to Gir One way cab i.e. with only Ahmedabad and Gir in itinerary, sightseeing is not included."
+          },
+          {
+            "question": "How much in advance do I need to book the cab from Ahmedabad to Gir?",
+            "answer": "Although you can book Ahmedabad to Gir cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            "question": "Can I book cab for Ahmedabad to Gir by calling customer support?",
+            "answer": "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Gir cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            "question": "Can we pickup additional passengers on the way in Ahmedabad to Gir one way taxi?",
+            "answer": "You may book Ahmedabad to Gir One way multi-stop cab by adding additional stops in itinerary. For Ahmedabad to Gir One way taxi with only Ahmedabad and Gir in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            "question": "Do I need to pay both side Toll tax for Ahmedabad to Gir one way cab?",
+            "answer": "For Ahmedabad to Gir One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            "question": "When will I get car and driver details after booking Ahmedabad to Gir cab?",
+            "answer": "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Gir cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            "question": "Can I travel with pets?",
+            "answer": "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Gir cab."
+          }
+        ]
+
 
 
 

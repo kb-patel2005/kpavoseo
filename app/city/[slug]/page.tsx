@@ -14,8 +14,8 @@ export default async function page(
 
     return (
         <main>
-        <Detailpage slug={uri.slug} />
-        <FooterSection/>
+            <Detailpage slug={uri.slug} />
+            <FooterSection />
         </main>
     )
 }

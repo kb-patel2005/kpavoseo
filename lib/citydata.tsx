@@ -162,7 +162,7 @@ export const citydata = [
                             "Safari Experience: Book a forest safari permit in advance online",
                             "Combine: Often combined with Somnath (60 Km from Gir)"
                         ],
-                        link: "/travel/gir"
+                        link: "/blog/location/ahmedabad-to-gir"
                     }
                 ]
             },
