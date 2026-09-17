@@ -9,7 +9,6 @@ export const metadata: Metadata = {
 
     canonical: "https://www.aavoride.in/services",
   },
-  //   },
   keywords: ["outstation cab service", "outstation taxi service",
     "outstation tempo traveller", "free cancellation ", "compare cab prices", "compare cab fares",
     "outstation trip cab", "outstation round trip", "outstation prebooking", "zero commission",

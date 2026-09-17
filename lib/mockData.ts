@@ -97,6 +97,14 @@ export const smallCard: Destination1[] = [
     slug: "ahmedabad-to-rajkot",
     coverImage: "/rajkot.jpg"
   },
+  {
+    id: 6,
+    heading: "Book Ahmedabad to Ambaji Cab",
+    description: "Ahmedabad to Ambaji is very popular route for tourists and pilgrims. Ambaji is the principal shrine of Goddess Amba who has been worshiped since the pre-Vedic period and is visited by millions of devotees every year.",
+    tag: 'Road-Trips',
+    slug: "ahmedabad-to-ambaji",
+    coverImage: "https://hblimg.mmtcdn.com/content/hubble/img/ttd_images_march/mmt/activities/m_ambaji_Mata_Temple_2_l_480_640.jpg",
+  }
 
 ]
 
@@ -2433,7 +2441,7 @@ export const tripData = [
           ],
         },
         "": {
-          "": "Book your Ahmedabad to Rajkot taxi with AAVORide starting at just ₹9 per km. Enjoy the most affordable and reliable cab service in Ahmedabad with AAVORide, your trusted travel partner across India.",
+          description: "Book your Ahmedabad to Rajkot taxi with AAVORide starting at just ₹9 per km. Enjoy the most affordable and reliable cab service in Ahmedabad with AAVORide, your trusted travel partner across India.",
           comparisonTable: [
             {
               "Route": "Vadodara to Rajkot Taxi",
@@ -2515,6 +2523,154 @@ export const tripData = [
             "answer": "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Rajkot cab."
           }
         ]
+
+
+      }
+    ],
+  },
+  {
+    id: 9,
+    slug: "ahmedabad-to-ambaji",
+    heading: "Book Ahmedabad to Ambaji Cab",
+    tag: "Road-Trips",
+    description: [
+      "Ahmedabad to Ambaji distance : 190 km",
+      "Estimated travel time : 4 hours",
+      "Ahmedabad to Ambaji is very popular route for tourists and pilgrims. Ambaji is the principal shrine of Goddess Amba who has been worshiped since the pre-Vedic period and is visited by millions of devotees every year.",
+      "Surrounded by the Araveli Hill range, Ambaji is a beautiful town with numerous temples. The holy temple of \"Arasurii Ambaji\" is one of the 51 Shakti Peethas. In the temple there is no image or statue of Goddess. The holy \"Shree Visa Yantra\" is worshiped as the main deity. While visiting temple, be sure to look across the temple at the other temple on the top of Gabbar hill which is considered as the original adobe of the Goddess. Navratri festival in Ambaji is the most mesmerising experience and is celebrated by dancing Garba around the holy Mother."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz8zRZwcMBdaZoWgxNTBK36TWP3mMvcdOLj7ISr30gfw&s=10",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Ambaji Cab Route",
+        description:
+          ["Ahmedabad to Ambaji by caris well connected through Ahmedabad - Palanpur highway / Ahmedabad - Patan highway and is very convenient and comfortable drive. Another route is via Himatnagar and another one via Gandhinagar - Vijapur road. All are equally distance and takes almost same time.Ahmedabad to Ambaji distanceis 190 Km and is 4 hours journey. Other famous tourist places on this route and nearby are:",
+            "Mehsana: famous for its historical spots",
+            "Palanpur: famous for its ancient temples and Gujarat's history",
+            "Himmatnagar: Swaminarayan temple",
+            "Gandhinagar: Akshardham Temple, Indroda Nature Park, Sarita Udhyan, Indroda Dinosaur and fossil park",
+            "Polo Forest",
+            "Idar: known for handmade wooden toys, tiles, its temples and various beautiful architectural monuments on hill",
+            "Danta: history, temples, wildlife"
+          ]
+      },
+      {
+        subHeading: "Places to visit in Ambaji using AAVORide Ahmedabad to Ambaji Car Rental with driver",
+        description: "",
+        part: {
+          "famous palces":
+            ["Dilwara Temples",
+              "Mount Abu Wildlife Sanctuary",
+              "Nakki Lake",
+              "Guru Shikhar",
+              "Arbuda Devi Temple",
+              "Achalgarh Village",
+              "Trevors Tank",
+              "Toad Rock - The Mascot of Mount Abu",
+              "Raghunath Temple",
+              "Brahma Kumaris Ashram Mount Abu",
+              "Honeymoon Point",
+              "Gaumukh Temple",
+              "Sunset Point",
+              "Universal Peace Hall - Om Shanti Bhavan"]
+        }
+      },
+      {
+        subHeading: "Ahmedabad to Ambaji Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Ambaji taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Ambaji.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Ambaji cab and our prices are generally 20% lower than competition."
+        ]
+        , "Ahmedabad to Ambaji Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Ahmedabad to Ambaji Taxi Services": {
+          description: "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Ambaji taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Ambaji taxi service. You may book Ahmedabad to Ambaji round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Ambaji car package as needed. You may also book Ahmedabad to Ambaji one way drop taxi or a local hourly rental cab in Ambaji with AAVORide."
+        }
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Ambaji Cab Booking",
+        description: "",
+        faqs: [
+          {
+            "question": "What is the distance from Ahmedabad to Ambaji by car?",
+            "answer": "The distance from Ahmedabad to Ambaji by car is 190 km."
+          },
+          {
+            "question": "How long does it take from Ahmedabad to Ambaji by road?",
+            "answer": "It takes approx. 4 to 5 hours depending on traffic."
+          },
+          {
+            "question": "How much is Ahmedabad to Ambaji taxi fare?",
+            "answer": "Ahmedabad to Ambaji taxi fare is approx. ₹2200 for a good sedan car like Etios, Dzire and is approx. ₹2700 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            "question": "How much is Ahmedabad to Ambaji Innova fare?",
+            "answer": "Ahmedabad to Ambaji Innova fare is approx. ₹3700. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            "question": "Does price includes Driver charges and Night charges?",
+            "answer": "Yes, Ahmedabad to Ambaji cab price includes Driver charges and Night charges."
+          },
+          {
+            "question": "Do I need to make payment in advance to book Ahmedabad to Ambaji cab?",
+            "answer": "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Ambaji cab."
+          },
+          {
+            "question": "Is local sightseeing included in Ahmedabad to Ambaji outstation trip?",
+            "answer": "For Ahmedabad to Ambaji Round trip cab, all the local sightseeing in Ahmedabad, Ambaji and other destination cities in itinerary is included. For Ahmedabad to Ambaji One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Ambaji and other destination cities in itinerary is included. For Ahmedabad to Ambaji One way cab i.e. with only Ahmedabad and Ambaji in itinerary, sightseeing is not included."
+          },
+          {
+            "question": "How much in advance do I need to book the cab from Ahmedabad to Ambaji?",
+            "answer": "Although you can book Ahmedabad to Ambaji cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            "question": "Can I book cab for Ahmedabad to Ambaji by calling customer support?",
+            "answer": "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Ambaji cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            "question": "Can we pickup additional passengers on the way in Ahmedabad to Ambaji one way taxi?",
+            "answer": "You may book Ahmedabad to Ambaji One way multi-stop cab by adding additional stops in itinerary. For Ahmedabad to Ambaji One way taxi with only Ahmedabad and Ambaji in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            "question": "Do I need to pay both side Toll tax for Ahmedabad to Ambaji one way cab?",
+            "answer": "For Ahmedabad to Ambaji One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            "question": "When will I get car and driver details after booking Ahmedabad to Ambaji cab?",
+            "answer": "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Ambaji cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            "question": "Can I travel with pets?",
+            "answer": "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Ambaji cab."
+          }
+        ]
+
 
 
       }
