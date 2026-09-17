@@ -32,21 +32,21 @@ const cities = [
     count: "27+ Active Drivers",
     imageSrc: "/images/Places/Surat(1).jpg",
     imageAlt: "Surat waterfront lake aerial view",
-    link:"/city/ahmedabad"
+    link:"/city/surat"
   },
   {
     title: "Rajkot",
     count: "31+ Active Drivers",
     imageSrc: "/images/Places/Rajkot.jpg",
     imageAlt: "Rajkot heritage building",
-    link:"/city/ahmedabad"
+    link:"/city/rajkot"
   },
   {
     title: "Vadodara",
     count: "24+ Active Drivers",
     imageSrc: "/images/Places/Vadodara(1).png",
     imageAlt: "Vadodara palace architecture",
-    link:"/city/ahmedabad"
+    link:"/city/vadodara"
   },
 ];
 
