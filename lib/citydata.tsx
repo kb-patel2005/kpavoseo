@@ -5,15 +5,15 @@ export const citydata = [
         heading: "Cab Service in Ahmedabad - Taxi Fare starting from ₹9/km",
 
         description: [
-            "Booking a cab in Ahmedabad is a more convenient way to move around the city with all your family and friends without any hassle. For daily local travel to the airport and railway station transfers, you can easily get reliable taxis that always help you save time and effort. CabBazar always provides you with clean vehicles, more experienced drivers, and a transparent fare with no hidden charges."
-            , "Whether you are travelling for work, family needs, or leisure travel, CabBazar offers the most affordable and convenient taxi service in Ahmedabad. We offers wide range of cab service which includes one-way, round-trip, hourly rental, or full-day travel. Book a taxi in Ahmedabad with Cabbazar."
+            "Booking a cab in Ahmedabad is a more convenient way to move around the city with all your family and friends without any hassle. For daily local travel to the airport and railway station transfers, you can easily get reliable taxis that always help you save time and effort. AAVORide always provides you with clean vehicles, more experienced drivers, and a transparent fare with no hidden charges."
+            , "Whether you are travelling for work, family needs, or leisure travel, AAVORide offers the most affordable and convenient taxi service in Ahmedabad. We offers wide range of cab service which includes one-way, round-trip, hourly rental, or full-day travel. Book a taxi in Ahmedabad with AAVORide."
         ],
         coverImage: "https://via.placeholder.com/600x400.png?text=Sample+Destination",
         sections: [
             //cards
             {
                 subHeading: "Gujarat Heritage Circuit - Statues, Palaces, & Spiritual Sites",
-                description: "Ahmedabad is the ideal starting point for visiting Gujarat's great historical attractions, including world records and royal palaces, due to its central location. You can enjoy the CabBazar cab hire in Ahmedabad facility that comes with lots of options and flexibility.",
+                description: "Ahmedabad is the ideal starting point for visiting Gujarat's great historical attractions, including world records and royal palaces, due to its central location. You can enjoy the AAVORide cab hire in Ahmedabad facility that comes with lots of options and flexibility.",
                 cards: [
                     {
                         title: "Ahmedabad to Statue of Unity Taxi",
@@ -106,7 +106,7 @@ export const citydata = [
             {
                 subHeading: "Local Ahmedabad Sightseeing - UNESCO Heritage & Modern Attractions",
                 description: 
-                    "Travelling locally in Ahmedabad is also very easy with CabBazar's cab service. Whether you are looking for a cab service near me or an online cab service, our local cabs are perfect for your travel in the city or sightseeing all around Ahmedabad. Enjoy a comfortable Ahmedabad sightseeing by car. There are lots of tourist attractions in the city that you can easily cover by our local sightseeing cabs. Our drivers are local. They know the city roads very well and help you to save your time from the city traffic. There are several local sightseeing packages at CabBazar. Just explore them:",
+                    "Travelling locally in Ahmedabad is also very easy with AAVORide's cab service. Whether you are looking for a cab service near me or an online cab service, our local cabs are perfect for your travel in the city or sightseeing all around Ahmedabad. Enjoy a comfortable Ahmedabad sightseeing by car. There are lots of tourist attractions in the city that you can easily cover by our local sightseeing cabs. Our drivers are local. They know the city roads very well and help you to save your time from the city traffic. There are several local sightseeing packages at AAVORide. Just explore them:",
                 "Half Day Heritage Walk & Old City Tour (4-5 hours)": [
                     "With your half day cab, you can easily cover the prominent UNESCO sites such as Sabarmati Ashram, Sidi Saiyyad Mosque, Jama Masjid, Adalaj Stepwell and Teen Darwaza.",
                     "You can also take our half day cab to explore the famous local markets such as Manek Chowk, Lal Darwaza, Sindhi Market, RatanPole, etc.",
@@ -169,7 +169,7 @@ export const citydata = [
             //desc 2 times
             {
                 subHeading: "Sardar Patel International Airport Transfers (AMD) Connectivity",
-                description: ["Ahmedabad's gateway is Sardar Vallabhbhai Patel International Airport (AMD), and smooth transfers are essential for both business and leisure guests; you can hire car in Ahmedabad with CabBazar."],
+                description: ["Ahmedabad's gateway is Sardar Vallabhbhai Patel International Airport (AMD), and smooth transfers are essential for both business and leisure guests; you can hire car in Ahmedabad with AAVORide."],
                 "Our Airport Taxi Features:": [
                     "Dependable transportation from any area in Ahmedabad, including Satellite, Vastrapur, CG Road, SG Highway, Maninagar, and Old City. Availability for early morning and late-night flights around the clock. Invoices for corporate billing and GST are accessible.",
                     "For any booking problem, you can call +91-8796809009 anytime for confirmed airport transfers."
@@ -216,9 +216,9 @@ export const citydata = [
 
             //desc and faq
             {
-                subHeading: "Why Ahmedabad Travelers Trust CabBazar",
+                subHeading: "Why Ahmedabad Travelers Trust AAVORide",
                 description: 
-                    "In Ahmedabad, CabBazar is famous for its timely and trusted cab service. Whether you are local to the city or traveller coming to explore, meet family or have a business meeting. Our diverse cab service ensures you get the best suitable cab in the city for your travel. If you are in Ahmedabad and searching for cab service near me, your search ends at CabBazar. Here are some key features that distinguish our service in Ahmedabad:",
+                    "In Ahmedabad, AAVORide is famous for its timely and trusted cab service. Whether you are local to the city or traveller coming to explore, meet family or have a business meeting. Our diverse cab service ensures you get the best suitable cab in the city for your travel. If you are in Ahmedabad and searching for cab service near me, your search ends at AAVORide. Here are some key features that distinguish our service in Ahmedabad:",
                 
 
                 "": [
@@ -270,7 +270,7 @@ export const citydata = [
                 faqs: [
                     {
                         question: "What taxi options can I choose from when booking a cab in Ahmedabad?",
-                        answer: "CabBazar offer several cab options to book, such as Hatchback, Sedan, SUV, Assured Innova, and Tempo Traveller. All vehicles are well-maintained for perfect short and long cab rides. Your Ahmedabad taxi fare start from ₹1,300 for a compact hatchback."
+                        answer: "AAVORide offer several cab options to book, such as Hatchback, Sedan, SUV, Assured Innova, and Tempo Traveller. All vehicles are well-maintained for perfect short and long cab rides. Your Ahmedabad taxi fare start from ₹1,300 for a compact hatchback."
                     },
                     {
                         question: "Are local cab services available 24/7 in Ahmedabad?",
@@ -294,11 +294,11 @@ export const citydata = [
                     },
                     {
                         question: "Can I schedule a taxi in Ahmedabad in advance for a specific date and time?",
-                        answer: "Yes, you can easily book an advance taxi through out platform. It is one of the best ways to get a confirmed booking even during peak seasons and weekends. Generally, we recommend 1-2 days' advance booking. But you can trust CabBazar for your month-advance cab booking for peak season."
+                        answer: "Yes, you can easily book an advance taxi through out platform. It is one of the best ways to get a confirmed booking even during peak seasons and weekends. Generally, we recommend 1-2 days' advance booking. But you can trust AAVORide for your month-advance cab booking for peak season."
                     },
                     {
                         question: "Can I book a cab in Ahmedabad without an app?",
-                        answer: "Absolutely! If you don't want to install our application, you can also book your cab through our website at www.cabbazar.com. It offers a user-friendly interface with instant fare quotes and confirmation. No compulsory smartphone or app download required. However, we recommend installing our app to get special discounts and other travel details."
+                        answer: "Absolutely! If you don't want to install our application, you can also book your cab through our website at www.AAVORide.com. It offers a user-friendly interface with instant fare quotes and confirmation. No compulsory smartphone or app download required. However, we recommend installing our app to get special discounts and other travel details."
                     },
                     {
                         question: "Can I customize my outstation route from Ahmedabad?",
