@@ -3047,7 +3047,7 @@ export const tripData = [
       "Ahmedabad is renowned for being the place where Mahatma Gandhi initiated the struggle for India’s freedom and build Sabarmati Ashram which is still quaint and peaceful as before. Ahmedabad is home to a number of temples, monuments, museums and art galleries. It is also a central place or gateway to most beautiful tourist places like Udaipur, Mount Abu, Rann of Kutch, Gir Forest etc. Ahmedabad is a perfect blend of a metropolitan city, an industrial hub, an education hotspot alongwith a magnificent past, culture, religious importance and a very down-to-earth lifestyle. It is also famous for its textiles, bandhani handlooom, local handicrafts making it a perfect destination for shopaholic tourists. Navratri celebrations is the perfect time to experience the happiness, enthusiasm and culture of this wonderful city. When in Ahmedabad, do not miss the tasty street food of this city like khakhra, namkeen, fafda, soft and spongy khaman dhokla, maska-bun, fritters with green chilies and chutney."
     ]
     ,
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ7kb-GW3XRgq97ivQQkiLQ6BEGrEnkAkzsA3Bc6iS9w&s=10",
+    coverImage: "https://www.sabarmatiriverfront.com/img/gallery/riverfront-atal-bridge/Iconic-Foot-Over-Bridge-at-Sabarmati-Riverfront.jpeg",
     sections: [
       {
         subHeading: "Surat to Ahmedabad Cab Route",
@@ -5455,7 +5455,7 @@ export const tripData = [
       "Vadodara stands for royalty and grandeur with numerous monuments and centres of learning. The city portrays a beautiful balance between the old and the new, which makes it one of the most recognised and well-developed cities in Gujarat.",
       "Our car service from Vadodara to Ahmedabad ensures reliable and affordable services with no hidden charges for booking. Trained drivers take care of pickups and drop-offs on comfortable highways, and you have sedan or SUV cars to pick from with user-friendly booking and 24X7 assistance. You can also hire a one way taxi from Vadodara to Ahmedabad, or round trip service for ease and comfort during travel."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxD5z6ImW1R2CRpvDBy__G9Ocs7xCY2FEgzRm5yC1Xw&s=10",
+    coverImage: "https://www.sabarmatiriverfront.com/img/gallery/riverfront-atal-bridge/Iconic-Foot-Over-Bridge-at-Sabarmati-Riverfront.jpeg",
 
     sections: [
       {
