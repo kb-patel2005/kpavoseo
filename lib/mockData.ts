@@ -3693,7 +3693,7 @@ export const tripData = [
       "Taxi from Surat to Daman is readily available at AAVORide. Book reliable and affordabe chauffeur-driven Car rental service: https://AAVORide.com/city/car-rental-chennai",
 
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1WpyyraH4q0MpXAtqAtq4TUIL97q_y5Ve2R7hWBkFSg&s=10",
+    coverImage: "https://static.toiimg.com/photo/106095642.cms",
 
     sections: [
       {
@@ -4655,7 +4655,7 @@ export const tripData = [
       "Pune is a sprawling city in the western Indian state of Maharashtra. It was once the base of the Peshwas (prime ministers) of the Maratha Empire, which lasted from 1674 to 1818, popular for the 8th-century Pataleshwar Cave Temple dedicated to the Hindu god Shiva. Also, known for the grand Aga Khan Palace, built in 1892, and now a memorial to Mahatma Gandhi, whose ashes are preserved in the garden.",
       "Taxi from Surat to Pune is readily available at AAVORide."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfy5Ly7PGCmJtheFlcPqRdYNrlxVnuikl0e5vfL6He3g&s=10",
+    coverImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/ae/92/f5/gandhi-national-memorial.jpg?w=900&h=500&s=1",
 
     sections: [
       {
@@ -6873,7 +6873,7 @@ export const tripData = [
       "Pune is a sprawling city in the western Indian state of Maharashtra. It was once the base of the Peshwas (prime ministers) of the Maratha Empire, which lasted from 1674 to 1818, popular for the 8th-century Pataleshwar Cave Temple dedicated to the Hindu god Shiva. Also, known for the grand Aga Khan Palace, built in 1892, and now a memorial to Mahatma Gandhi, whose ashes are preserved in the garden.",
       "Taxi from Vadodara to Pune is readily available at AAVORide."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfy5Ly7PGCmJtheFlcPqRdYNrlxVnuikl0e5vfL6He3g&s=10",
+    coverImage: "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/ae/92/f5/gandhi-national-memorial.jpg?w=900&h=500&s=1",
 
     sections: [
       {
