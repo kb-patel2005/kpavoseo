@@ -2,7 +2,7 @@ export const citydata = [
     {
         id: 1,
         slug: "ahmedabad",
-        heading: "Cab Service in Ahmedabad - Taxi Fare starting from ₹9/km",
+        heading: "Cab Service in Ahmedabad",
 
         description: [
             "Booking a cab in Ahmedabad is a more convenient way to move around the city with all your family and friends without any hassle. For daily local travel to the airport and railway station transfers, you can easily get reliable taxis that always help you save time and effort. AAVORide always provides you with clean vehicles, more experienced drivers, and a transparent fare with no hidden charges."
@@ -1039,7 +1039,7 @@ export const citydata = [
                 faqs: [
                     {
                         question: "How much is Rajkot taxi fare?",
-                        answer: "We provide Rajkot outstation cabs as well as Rajkot local sightseeing taxi. Price starts at ₹1300. For best price on your travel date for various car rental options, please enter trip details and check."
+                        answer: "We provide Rajkot outstation cabs as well as Rajkot local sightseeing taxi. For best price on your travel date for various car rental options, please enter trip details and check."
                     },
                     {
                         question: "Is Driver charges, Night charges and Toll, State tax included in Rajkot cab price?",
@@ -1057,7 +1057,7 @@ export const citydata = [
     {
         id: 5,
         slug: "vadodara",
-        heading: "Taxi Service in Vadodara - Trusted Travel Partner from ₹9/Km",
+        heading: "Taxi Service in Vadodara",
         description: [
             "Getting around the city or travelling outside should be simple and stress-free with all your family or friends. Additionally our reliable cab service in Vadodara always makes your daily travel, work trips, and family journeys easier and more comfortable without any kind of hassle. AAVORide cabs help with everything from local rides and airport drops to outstation travel. With clean vehicles, courteous drivers, and clear pricing shared in advance, you can plan your journey with confidence.",
             "Get cab booking Vadodara with AAVORide and enjoy smooth travel, whether it's within the city or beyond."

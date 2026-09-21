@@ -250,7 +250,7 @@ export const smallCard: Destination1[] = [
   {
     id: 26,
     slug: "vadodara-to-ahmedabad",
-    heading: "Vadodara to Ahmedabad Taxi - Book Cab Online at ₹1339",
+    heading: "Vadodara to Ahmedabad Taxi ",
     tag: "Culture",
     description: "Vadodara stands for royalty and grandeur with numerous monuments and centres of learning. The city portrays a beautiful balance between the old and the new, which makes it one of the most recognised and well-developed cities in Gujarat.",
     coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxD5z6ImW1R2CRpvDBy__G9Ocs7xCY2FEgzRm5yC1Xw&s=10",
@@ -260,7 +260,7 @@ export const smallCard: Destination1[] = [
     slug: "vadodara-to-statue-of-unity",
     tag: "Culture",
     heading: "Vadodara to Statue of Unity Taxi - Book Safe & Comfortable Cab Service",
-    description:  "One of the easy and convenient ways to travel to the State of Unity from Vadodara is by taking a personal cab. As the public transport might be crowded and time-consuming, book a Vadodara to statue of Unity cab. The distance of the statue is just 90 km, and your Vadodara to Statue of Unity taxi takes approximately 2 hours to reach there.",
+    description: "One of the easy and convenient ways to travel to the State of Unity from Vadodara is by taking a personal cab. As the public transport might be crowded and time-consuming, book a Vadodara to statue of Unity cab. The distance of the statue is just 90 km, and your Vadodara to Statue of Unity taxi takes approximately 2 hours to reach there.",
     coverImage: "/statue-of-unity-inside.jpg",
   },
   {
@@ -276,7 +276,7 @@ export const smallCard: Destination1[] = [
     slug: "vadodara-to-anand",
     heading: "Book Vadodara to Anand Cab",
     tag: "Culture",
-    description:  "Vadodara to Anand is very popular route for both tourism and work. Anand is the epicentre of the white revolution in the country back in the 60s and is often known as the \"Milk Capital of India\".",
+    description: "Vadodara to Anand is very popular route for both tourism and work. Anand is the epicentre of the white revolution in the country back in the 60s and is often known as the \"Milk Capital of India\".",
     coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_U4VBwSwgP6HSrq2ALvLv2R_u4IpdJVG6XCSyi5bnQw&s=10",
   },
 
@@ -284,10 +284,10 @@ export const smallCard: Destination1[] = [
   {
     id: 30,
     slug: "vadodara-to-mumbai",
-    heading: "Vadodara to Mumbai Taxi - Book Cab Online at Best Fare ₹4,755",
+    heading: "Vadodara to Mumbai Taxi ",
     tag: 'Culture',
     description: "Mumbai, being the financial hub and entertainment city of India, is one of the most desirable cities among travellers to visit. The city never fails to catch your eye with its class and colourful life, with its renowned Marine Drive, historic Gateway of India, or glitter and glamour of Bollywood.",
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCmbHcLrcB23FpJU61FJNYswGbjz_Hhqr2C2Y5irhjDg&s=10",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpfjs4b2rOKux9Cq9KKXPylIOf65Nbqobnmq4P5jl9kQ&s=10",
   },
   //31
   {
@@ -295,7 +295,7 @@ export const smallCard: Destination1[] = [
     slug: "vadodara-to-surat",
     heading: "Book Vadodara to Surat Cab",
     tag: 'Culture',
-    description: "Vadodara to Surat is the very popular route for tourists as well as business. Surat, second largest city of Gujarat, is a famous centre for diamond cutting and polishing and is the biggest textile hub of Gujrat.",   
+    description: "Vadodara to Surat is the very popular route for tourists as well as business. Surat, second largest city of Gujarat, is a famous centre for diamond cutting and polishing and is the biggest textile hub of Gujrat.",
     coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzl7Vxm9IUzv9eR0thu3jkM4XBVTOiYD1r3MdFSvqSMQ&s=10",
   },
   {
@@ -319,7 +319,7 @@ export const smallCard: Destination1[] = [
     slug: "vadodara-to-mount-abu",
     heading: "Book Vadodara to Mountabu Cab",
     tag: 'Adventure',
-    description:  "Vadodara to Mount Abu is very popular route for tourists because it offers adventure sports, spiritual holidays and eco-tourism at a single place. For history and architecture lovers, Mount Abu is a must visit place.",
+    description: "Vadodara to Mount Abu is very popular route for tourists because it offers adventure sports, spiritual holidays and eco-tourism at a single place. For history and architecture lovers, Mount Abu is a must visit place.",
     coverImage: "/mountabbu.jpg",
   },
   {
@@ -328,7 +328,7 @@ export const smallCard: Destination1[] = [
     heading: "Book Vadodara to Jaipur Cab",
     tag: 'Culture',
     description: "Jaipur is one of the most visited cities in India. Jaipur is third part of the famous Golden Triangle of India - Delhi - Agra - Jaipur.",
-      
+
     coverImage: "/jaipur1.jpg",
   },
   {
@@ -1244,10 +1244,10 @@ export const tripData = [
             question: "How long is the taxi from Ahmedabad to Vadodara?",
             answer: "The journey usually takes around two to two and a half hours, depending on traffic and your pickup location. Morning travel is generally faster. If you plan extra stops on the way, your total travel time may increase slightly."
           },
-          {
-            question: "What is the Ahmedabad to Vadodara cab price?",
-            answer: "The one-way fare starts at about ₹1399 for a sedan. SUVs and Innova cost a little more. Round trips are available at higher rates. The price usually includes fuel, driver, Ahmedabad to Vadodara car charges, and a minimum 45 minutes waiting charge. Other applicable charges are Tolls, GST, and Parking, etc."
-          },
+          // {
+          //   question: "What is the Ahmedabad to Vadodara cab price?",
+          //   answer: "The one-way fare starts at about ₹1399 for a sedan. SUVs and Innova cost a little more. Round trips are available at higher rates. The price usually includes fuel, driver, Ahmedabad to Vadodara car charges, and a minimum 45 minutes waiting charge. Other applicable charges are Tolls, GST, and Parking, etc."
+          // },
           {
             question: "Are taxis easily available from Ahmedabad to Vadodara?",
             answer: "Yes, taxis are easily available on this busy route. You can book in advance or even on the same day, depending on availability. Both one-way and round-trip options are commonly offered throughout the week."
@@ -1363,7 +1363,7 @@ export const tripData = [
         subHeading: "How to Book an Ahmedabad to Statue of Unity Taxi Online?",
         description: [
           "AAVORide is a premium cab service provider in India, renowned for exceptional cab services with a focus on comfort and safety. There are multiple cab booking options on AAVORide for online cabs from Ahmedabad to the Statue of Unity. To book a cab from Ahmedabad to the Statue of Unity, AAVORide offers multiple platforms, such as our website and mobile application. Further, you can also directly contact our customer service executive for any process issues regarding taxi booking from Ahmedabad to the Statue of Unity.",
-          "Through the Website: AAVORide has a user-friendly website, https://aavoride.in, where travellers can easily book their cab service from Ahmedabad to the Statue of Unity. Here, you get a form where you fill in your pickup and destination addresses. Then on the next page, you get the car option; choose wisely according to your needs.",
+          "Through the Website: AAVORide has a user-friendly website, https://www.aavoride.in, where travellers can easily book their cab service from Ahmedabad to the Statue of Unity. Here, you get a form where you fill in your pickup and destination addresses. Then on the next page, you get the car option; choose wisely according to your needs.",
           "Mobile Application: You can also book a cab with the AAVORide mobile app. It is easy to download the AAVORide mobile application on your phone from the Play Store and Apple Store. Here you can easily book your cab from Ahmedabad to the Statue of Unity.",
           "Customer care: You can also contact AAVORide customer executives to get direct human assistance. We provide 24/7 active customer support to our passengers for timely issue resolution."
         ],
@@ -1398,14 +1398,14 @@ export const tripData = [
             question: "How long does it take from Ahmedabad to Statue Of Unity by road?",
             answer: "It takes approx. 3.5 to 4.5 hours depending on traffic."
           },
-          {
-            question: "How much is Ahmedabad to Statue Of Unity taxi fare?",
-            answer: "Ahmedabad to Statue Of Unity taxi fare is approx. ₹2300 for a good sedan car like Etios, Dzire and is approx. ₹2800 for SUV car.For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Ahmedabad to Statue Of Unity Innova fare?",
-            answer: "Ahmedabad to Statue Of Unity Innova fare is approx. ₹3800. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Ahmedabad to Statue Of Unity taxi fare?",
+          //   answer: "Ahmedabad to Statue Of Unity taxi fare is approx. ₹2300 for a good sedan car like Etios, Dzire and is approx. ₹2800 for SUV car.For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Ahmedabad to Statue Of Unity Innova fare?",
+          //   answer: "Ahmedabad to Statue Of Unity Innova fare is approx. ₹3800. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Ahmedabad to Statue Of Unity cab price includes Driver charges and Night charges."
@@ -1531,7 +1531,7 @@ export const tripData = [
           "Ahmedabad to Statue of Unity distance: The Statue of Unity is approximately 200 km from Ahmedabad via Vadodara, making it a comfortable 3.5 to 4 hour drive. Booking a cab with AAVORide ensures a smooth highway journey with reliable vehicles and professional drivers.",
           "Ahmedabad to Statue of Unity travel time: A taxi from Ahmedabad to the Statue of Unity generally takes 3.5 to 4 hours depending on traffic, road conditions, and weather. During weekends, holidays, or tourist seasons, travel time may extend slightly. AAVORide drivers help you plan the best departure window for a timely trip.",
           "Common Ahmedabad to Statue of Unity highways: The most popular route is via NH 48 (Ahmedabad–Vadodara Expressway) and then connecting to NH 64 towards Kevadia. This route offers excellent road quality, clear signage, and multiple refreshment stops along the way.",
-          "Booking options: Travellers can book their cab through the AAVORide website (https://aavoride.in), mobile application (available on Play Store and Apple Store), or by contacting our 24/7 customer care team for personalized assistance."
+          "Booking options: Travellers can book their cab through the AAVORide website (https://www.aavoride.in), mobile application (available on Play Store and Apple Store), or by contacting our 24/7 customer care team for personalized assistance."
         ],
         "Recommended food and fuel pit stops on the Ahmedabad to Udaipur route": [
           "Gandhinagar: It is a perfect first stop for a refreshing start on your journey; moreover, this area has many clean restaurants and cafes where you can take a cab from Ahmedabad to Udaipur or a one-way cab from Ahmedabad to Udaipur for breakfast. Here, you get multiple fuel stations for a quick top-up before entering the highways.",
@@ -1714,14 +1714,14 @@ export const tripData = [
             question: "How long does it take from Ahmedabad to Udaipur by road?",
             answer: "It takes approx. 4.5 to 6 hours depending on traffic."
           },
-          {
-            question: "How much is Ahmedabad to Udaipur taxi fare?",
-            answer: "Ahmedabad to Udaipur taxi fare is approx. ₹3333 for a good sedan car like Etios, Dzire and is approx. ₹4449 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Ahmedabad to Udaipur Innova fare?",
-            answer: "Ahmedabad to Udaipur Innova fare is approx. ₹5449. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Ahmedabad to Udaipur taxi fare?",
+          //   answer: "Ahmedabad to Udaipur taxi fare is approx. ₹3333 for a good sedan car like Etios, Dzire and is approx. ₹4449 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Ahmedabad to Udaipur Innova fare?",
+          //   answer: "Ahmedabad to Udaipur Innova fare is approx. ₹5449. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Ahmedabad to Udaipur cab price includes Driver charges and Night charges."
@@ -1944,14 +1944,14 @@ export const tripData = [
             question: "How long does it take from Ahmedabad to Dwarka by road?",
             answer: "It takes approx. 7.5 to 8.5 hours depending on traffic."
           },
-          {
-            question: "How much is Ahmedabad to Dwarka taxi fare?",
-            answer: "Ahmedabad to Dwarka taxi fare is approx. ₹4400 for a good sedan car like Etios, Dzire and is approx. ₹4900 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Ahmedabad to Dwarka Innova fare?",
-            answer: "Ahmedabad to Dwarka Innova fare is approx. ₹5900. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Ahmedabad to Dwarka taxi fare?",
+          //   answer: "Ahmedabad to Dwarka taxi fare is approx. ₹4400 for a good sedan car like Etios, Dzire and is approx. ₹4900 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Ahmedabad to Dwarka Innova fare?",
+          //   answer: "Ahmedabad to Dwarka Innova fare is approx. ₹5900. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Ahmedabad to Dwarka cab price includes Driver charges and Night charges."
@@ -2102,14 +2102,14 @@ export const tripData = [
             question: "How long does it take from Ahmedabad to Mountabu by road?",
             answer: "It takes approx. 4.8 to 5.8 hours depending on traffic."
           },
-          {
-            question: "How much is Ahmedabad to Mountabu taxi fare?",
-            answer: "Ahmedabad to Mountabu taxi fare is approx. ₹2600 for a good sedan car like Etios, Dzire and is approx. ₹3100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Ahmedabad to Mountabu Innova fare?",
-            answer: "Ahmedabad to Mountabu Innova fare is approx. ₹4100. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Ahmedabad to Mountabu taxi fare?",
+          //   answer: "Ahmedabad to Mountabu taxi fare is approx. ₹2600 for a good sedan car like Etios, Dzire and is approx. ₹3100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Ahmedabad to Mountabu Innova fare?",
+          //   answer: "Ahmedabad to Mountabu Innova fare is approx. ₹4100. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Ahmedabad to Mountabu cab price includes Driver charges and Night charges."
@@ -2262,14 +2262,14 @@ export const tripData = [
             question: "How long does it take from Ahmedabad to Jaipur by road?",
             answer: "It takes approx. 12 to 13 hours depending on traffic."
           },
-          {
-            question: "How much is Ahmedabad to Jaipur taxi fare?",
-            answer: "Ahmedabad to Jaipur taxi fare is approx. ₹7800 for a good sedan car like Etios, Dzire and is approx. ₹8300 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Ahmedabad to Jaipur Innova fare?",
-            answer: "Ahmedabad to Jaipur Innova fare is approx. ₹9300. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Ahmedabad to Jaipur taxi fare?",
+          //   answer: "Ahmedabad to Jaipur taxi fare is approx. ₹7800 for a good sedan car like Etios, Dzire and is approx. ₹8300 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Ahmedabad to Jaipur Innova fare?",
+          //   answer: "Ahmedabad to Jaipur Innova fare is approx. ₹9300. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Ahmedabad to Jaipur cab price includes Driver charges and Night charges."
@@ -2406,14 +2406,14 @@ export const tripData = [
             question: "How long does it take from Ahmedabad to Somnath by road?",
             answer: "It takes approx. 7.3 to 8.3 hours depending on traffic."
           },
-          {
-            question: "How much is Ahmedabad to Somnath taxi fare?",
-            answer: "Ahmedabad to Somnath taxi fare is approx. ₹4100 for a good sedan car like Etios, Dzire and is approx. ₹4600 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Ahmedabad to Somnath Innova fare?",
-            answer: "Ahmedabad to Somnath Innova fare is approx. ₹5600. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Ahmedabad to Somnath taxi fare?",
+          //   answer: "Ahmedabad to Somnath taxi fare is approx. ₹4100 for a good sedan car like Etios, Dzire and is approx. ₹4600 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Ahmedabad to Somnath Innova fare?",
+          //   answer: "Ahmedabad to Somnath Innova fare is approx. ₹5600. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Ahmedabad to Somnath cab price includes Driver charges and Night charges."
@@ -2683,14 +2683,14 @@ export const tripData = [
             "question": "How long does it take from Ahmedabad to Rajkot by road?",
             "answer": "It takes approx. 3.5 to 4.5 hours depending on traffic."
           },
-          {
-            "question": "How much is Ahmedabad to Rajkot taxi fare?",
-            "answer": "Ahmedabad to Rajkot taxi fare is approx. ₹2199 for a good sedan car like Etios, Dzire and is approx. ₹3245 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            "question": "How much is Ahmedabad to Rajkot Innova fare?",
-            "answer": "Ahmedabad to Rajkot Innova fare is approx. ₹4245. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   "question": "How much is Ahmedabad to Rajkot taxi fare?",
+          //   "answer": "Ahmedabad to Rajkot taxi fare is approx. ₹2199 for a good sedan car like Etios, Dzire and is approx. ₹3245 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   "question": "How much is Ahmedabad to Rajkot Innova fare?",
+          //   "answer": "Ahmedabad to Rajkot Innova fare is approx. ₹4245. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             "question": "Does price includes Driver charges and Night charges?",
             "answer": "Yes, Ahmedabad to Rajkot cab price includes Driver charges and Night charges."
@@ -2830,14 +2830,14 @@ export const tripData = [
             "question": "How long does it take from Ahmedabad to Ambaji by road?",
             "answer": "It takes approx. 4 to 5 hours depending on traffic."
           },
-          {
-            "question": "How much is Ahmedabad to Ambaji taxi fare?",
-            "answer": "Ahmedabad to Ambaji taxi fare is approx. ₹2200 for a good sedan car like Etios, Dzire and is approx. ₹2700 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            "question": "How much is Ahmedabad to Ambaji Innova fare?",
-            "answer": "Ahmedabad to Ambaji Innova fare is approx. ₹3700. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   "question": "How much is Ahmedabad to Ambaji taxi fare?",
+          //   "answer": "Ahmedabad to Ambaji taxi fare is approx. ₹2200 for a good sedan car like Etios, Dzire and is approx. ₹2700 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   "question": "How much is Ahmedabad to Ambaji Innova fare?",
+          //   "answer": "Ahmedabad to Ambaji Innova fare is approx. ₹3700. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             "question": "Does price includes Driver charges and Night charges?",
             "answer": "Yes, Ahmedabad to Ambaji cab price includes Driver charges and Night charges."
@@ -2900,9 +2900,6 @@ export const tripData = [
         description:
           [
             "Ahmedabad to Sasan Gir Taxi PricesAhmedabad to Sasan Gir by car is well connected via NH47 and is very convenient and comfortable drive. Ahmedabad to Sasan Gir distance is 348 Km and is 7.5 hours journey. Other famous tourist places on this route and nearby are Ahmedabad to Sasan Gir Taxi PricesNalsarovar - Bird Sanctuary",
-          ]
-        , part: {
-          "": [
             "Surendranagar",
             "Chotila : Chamunda Mataji Temple, Jalaram Temple",
             "Rajkot : Jubilee Garden, Watson Museum, Rotary Dolls Museum, Aji Dam",
@@ -2912,7 +2909,7 @@ export const tripData = [
             "Jetpur",
             "Junagadh"
           ]
-        }
+
       },
       {
         subHeading: "Places to visit in Gir using AAVORide Ahmedabad to Gir Car Rental with driver",
@@ -2984,14 +2981,14 @@ export const tripData = [
             "question": "How long does it take from Ahmedabad to Gir by road?",
             "answer": "It takes approx. 7.5 to 8.5 hours depending on traffic."
           },
-          {
-            "question": "How much is Ahmedabad to Gir taxi fare?",
-            "answer": "Ahmedabad to Gir taxi fare is approx. ₹3800 for a good sedan car like Etios, Dzire and is approx. ₹4300 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            "question": "How much is Ahmedabad to Gir Innova fare?",
-            "answer": "Ahmedabad to Gir Innova fare is approx. ₹5300. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   "question": "How much is Ahmedabad to Gir taxi fare?",
+          //   "answer": "Ahmedabad to Gir taxi fare is approx. ₹3800 for a good sedan car like Etios, Dzire and is approx. ₹4300 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   "question": "How much is Ahmedabad to Gir Innova fare?",
+          //   "answer": "Ahmedabad to Gir Innova fare is approx. ₹5300. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             "question": "Does price includes Driver charges and Night charges?",
             "answer": "Yes, Ahmedabad to Gir cab price includes Driver charges and Night charges."
@@ -3050,7 +3047,7 @@ export const tripData = [
       "Ahmedabad is renowned for being the place where Mahatma Gandhi initiated the struggle for India’s freedom and build Sabarmati Ashram which is still quaint and peaceful as before. Ahmedabad is home to a number of temples, monuments, museums and art galleries. It is also a central place or gateway to most beautiful tourist places like Udaipur, Mount Abu, Rann of Kutch, Gir Forest etc. Ahmedabad is a perfect blend of a metropolitan city, an industrial hub, an education hotspot alongwith a magnificent past, culture, religious importance and a very down-to-earth lifestyle. It is also famous for its textiles, bandhani handlooom, local handicrafts making it a perfect destination for shopaholic tourists. Navratri celebrations is the perfect time to experience the happiness, enthusiasm and culture of this wonderful city. When in Ahmedabad, do not miss the tasty street food of this city like khakhra, namkeen, fafda, soft and spongy khaman dhokla, maska-bun, fritters with green chilies and chutney."
     ]
     ,
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxD5z6ImW1R2CRpvDBy__G9Ocs7xCY2FEgzRm5yC1Xw&s=10",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ7kb-GW3XRgq97ivQQkiLQ6BEGrEnkAkzsA3Bc6iS9w&s=10",
     sections: [
       {
         subHeading: "Surat to Ahmedabad Cab Route",
@@ -3165,14 +3162,14 @@ export const tripData = [
             "question": "How long does it take from Surat to Ahmedabad by road?",
             "answer": "It takes approx. 4.5 to 5.5 hours depending on traffic."
           },
-          {
-            "question": "How much is Surat to Ahmedabad taxi fare?",
-            "answer": "Surat to Ahmedabad taxi fare is approx. ₹3100 for a good sedan car like Etios, Dzire and is approx. ₹3600 for SUV car."
-          },
-          {
-            "question": "How much is Surat to Ahmedabad Innova fare?",
-            "answer": "Surat to Ahmedabad Innova fare is approx. ₹4600."
-          },
+          // {
+          //   "question": "How much is Surat to Ahmedabad taxi fare?",
+          //   "answer": "Surat to Ahmedabad taxi fare is approx. ₹3100 for a good sedan car like Etios, Dzire and is approx. ₹3600 for SUV car."
+          // },
+          // {
+          //   "question": "How much is Surat to Ahmedabad Innova fare?",
+          //   "answer": "Surat to Ahmedabad Innova fare is approx. ₹4600."
+          // },
           {
             "question": "Does price includes Driver charges and Night charges?",
             "answer": "Yes, Surat to Ahmedabad cab price includes Driver charges and Night charges."
@@ -3322,14 +3319,14 @@ export const tripData = [
             "question": "How long does it take from Surat to Vadodara by road?",
             "answer": "It takes approx. 3 to 4 hours depending on traffic."
           },
-          {
-            "question": "How much is Surat to Vadodara taxi fare?",
-            "answer": "Surat to Vadodara taxi fare is approx. ₹1700 for a good sedan car like Etios, Dzire and is approx. ₹2200 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            "question": "How much is Surat to Vadodara Innova fare?",
-            "answer": "Surat to Vadodara Innova fare is approx. ₹3200. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   "question": "How much is Surat to Vadodara taxi fare?",
+          //   "answer": "Surat to Vadodara taxi fare is approx. ₹1700 for a good sedan car like Etios, Dzire and is approx. ₹2200 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   "question": "How much is Surat to Vadodara Innova fare?",
+          //   "answer": "Surat to Vadodara Innova fare is approx. ₹3200. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             "question": "Does price includes Driver charges and Night charges?",
             "answer": "Yes, Surat to Vadodara cab price includes Driver charges and Night charges."
@@ -3473,14 +3470,14 @@ export const tripData = [
             "question": "How long does it take from Surat to Statue Of Unity by road?",
             "answer": "It takes approx. 4 to 5 hours depending on traffic."
           },
-          {
-            "question": "How much is Surat to Statue Of Unity taxi fare?",
-            "answer": "Surat to Statue Of Unity taxi fare is approx. ₹1700 for a good sedan car like Etios, Dzire and is approx. ₹2200 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            "question": "How much is Surat to Statue Of Unity Innova fare?",
-            "answer": "Surat to Statue Of Unity Innova fare is approx. ₹3200. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   "question": "How much is Surat to Statue Of Unity taxi fare?",
+          //   "answer": "Surat to Statue Of Unity taxi fare is approx. ₹1700 for a good sedan car like Etios, Dzire and is approx. ₹2200 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   "question": "How much is Surat to Statue Of Unity Innova fare?",
+          //   "answer": "Surat to Statue Of Unity Innova fare is approx. ₹3200. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             "question": "Does price includes Driver charges and Night charges?",
             "answer": "Yes, Surat to Statue Of Unity cab price includes Driver charges and Night charges."
@@ -3535,7 +3532,7 @@ export const tripData = [
       "Diu is more popular as a tourist place because of the natural beaches available very near to Diu like the Nagoa beach, ghoghla beach, jallandhar, chakratirth, gomtimata, simbor, and khodidhar where tourists can enjoy various water sport activities like Para sailing, water scooter, speed boat, banana boating, jet skiing, water skiing, bumper boating, and hot air balloon. The nearby Diu Fort is also popular tourist attraction. Diu makes to a perfect nomination as ideal destination for couples, family vacation and adventure lovers.",
       "Taxi from Surat to Diu is readily available at AAVORide."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIS9H5eSLgtCUys8QXo3GuagOEO5L1M2NM3EVzpeHUow&s=10",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPe-TaGhrZWBUct7gdINeWneqjdM-f3BSuNnClwGm2aQ&s=10",
 
     sections: [
       {
@@ -3634,14 +3631,14 @@ export const tripData = [
             question: "How long does it take from Surat to Diu by road?",
             answer: "It takes approx. 12.5 to 13.5 hours depending on traffic."
           },
-          {
-            question: "How much is Surat to Diu taxi fare?",
-            answer: "Surat to Diu taxi fare is approx. ₹6700 for a good sedan car like Etios, Dzire and is approx. ₹7200 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Surat to Diu Innova fare?",
-            answer: "Surat to Diu Innova fare is approx. ₹8200. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Surat to Diu taxi fare?",
+          //   answer: "Surat to Diu taxi fare is approx. ₹6700 for a good sedan car like Etios, Dzire and is approx. ₹7200 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Surat to Diu Innova fare?",
+          //   answer: "Surat to Diu Innova fare is approx. ₹8200. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Surat to Diu cab price includes Driver charges and Night charges."
@@ -3694,9 +3691,9 @@ export const tripData = [
       "Surat to Daman is the most popular route for tourists. Daman is quite popular for its history and culture, lush greenery, exotic virgin beaches, industries and cheap alcohol.",
       "Daman is a perfect blend of traditional heritage and mordern culture, having Churches, forts, chapels, and old quarter. Nani Daman Fort is the most popular tourist spot which stands as a proof of Portuguese colonial charm, invaluable architectural patterns and its rich history. There is also a jain temple in Nani Daman Fort and is dedicated to Lord Mahavir Swami. Jampore beach is an ideal place to see sunrise and sunsets and there are other tourists spots as well. All this make Daman an ideal weekend gateway not only from Mumbai, Surat as well as from Gujarat.",
       "Taxi from Surat to Daman is readily available at AAVORide. Book reliable and affordabe chauffeur-driven Car rental service: https://AAVORide.com/city/car-rental-chennai",
-      "Taxi from Surat to Daman: https://AAVORide.com/assets/img/trips/daman.png"
+
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTua0_NBflI89knQM7fMtGYnj4ZbiifrrGHXCg5bhXzeg&s=10",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1WpyyraH4q0MpXAtqAtq4TUIL97q_y5Ve2R7hWBkFSg&s=10",
 
     sections: [
       {
@@ -3788,14 +3785,14 @@ export const tripData = [
             question: "How long does it take from Surat to Daman by road?",
             answer: "It takes approx. 2.5 to 3.5 hours depending on traffic."
           },
-          {
-            question: "How much is Surat to Daman taxi fare?",
-            answer: "Surat to Daman taxi fare is approx. ₹1600 for a good sedan car like Etios, Dzire and is approx. ₹2100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Surat to Daman Innova fare?",
-            answer: "Surat to Daman Innova fare is approx. ₹3100. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Surat to Daman taxi fare?",
+          //   answer: "Surat to Daman taxi fare is approx. ₹1600 for a good sedan car like Etios, Dzire and is approx. ₹2100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Surat to Daman Innova fare?",
+          //   answer: "Surat to Daman Innova fare is approx. ₹3100. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Surat to Daman cab price includes Driver charges and Night charges."
@@ -3846,10 +3843,8 @@ export const tripData = [
       "Estimated travel time : 1.9 hours",
       "Surat to Valsad is a very popular route for business and also a pilgrimage. Valsad is famous for its Hafus mangoes, Valsadi teakwood and also as the birthplace of Shri Morarji Desai, ex-prime minister of India . Valsad is known for its Banyan trees also. This area is full of banyan trees.",
       "Valsad is situated on south of Gujarat and Arabian sea is on its west. Valsad is quite famous among pilgrims,nature lovers and historians.Tirthal,a village is main pilgrimage centre in Valsad district. There is splendid complex houses Sai Baba temple, Sadhna centre for Jain Munis,Swami Narayan Temple etc. Tirthal is also famous for its black sand beach which attract nature lovers and other tourists here.Historian visit here for Sifee Villa Museum, Dandi.Other attractions are Parnera hill and fort. Parnera fort is made by Chatrapati Shivaji.",
-      "Taxi from Surat to Valsad is readily available at AAVORide.",
-      "Taxi from Surat to Valsad: https://api.AAVORide.com/profile_picture/route_page_picture_4b2582e3-2b1b-4ce2-9030-7b2383b2ee6c_1661175867"
-    ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIcdxlx8XCn13tV1Irn_9kAOo8OhSn-TlUZpwbLoy5QA&s=10",
+      "Taxi from Surat to Valsad is readily available at AAVORide."],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSMFLdrK7jd-VCdm-mRscf-St5fvOxtJ_O35XS7YfCTA&s=10",
 
     sections: [
       {
@@ -3940,14 +3935,14 @@ export const tripData = [
             question: "How long does it take from Surat to Valsad by road?",
             answer: "It takes approx. 1.4 to 2.4 hours depending on traffic."
           },
-          {
-            question: "How much is Surat to Valsad taxi fare?",
-            answer: "Surat to Valsad taxi fare is approx. ₹1045 for a good sedan car like Etios, Dzire and is approx. ₹1425 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Surat to Valsad Innova fare?",
-            answer: "Surat to Valsad Innova fare is approx. ₹2425. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Surat to Valsad taxi fare?",
+          //   answer: "Surat to Valsad taxi fare is approx. ₹1045 for a good sedan car like Etios, Dzire and is approx. ₹1425 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Surat to Valsad Innova fare?",
+          //   answer: "Surat to Valsad Innova fare is approx. ₹2425. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Surat to Valsad cab price includes Driver charges and Night charges."
@@ -3998,10 +3993,9 @@ export const tripData = [
       "Estimated travel time : 3.3 hours",
       "Surat to Saputara is one of the most popular tourist route that is passes between the hills, lush forest and incredible natural beauty. Saputara is a one of the popular hill station of the Dang district of Gujarat that is endowed with the beauty, greenery and tranquility.",
       "Saputara is a one an only hill station of the Gujarat is situated in the Sahyadri range of the Western Ghats, on the banks of the river Sarpaganga. Hill Station offers gardens, parks and sanctuaries, Trekking trails to Rajat Pratap and to Tridhara near Dhupgarh, scenic and picturesque views that catch the eyes of the every tourist. The town is also known as the ‘Abode of Serpents’ and even has a shrine to serpent god on the banks of river Sarpaganga. Also there is many attraction like boating in the lake, riding on The ropeway, the bird's view point and Tiger, Leopard, Python and the four-horned Antelope spotting point that attract natural lover to visit the one of the bio diversity rich place of the India. Best to visit the town is winter season from October to February at that time the weather of the town remain pleasant, cool and calm that is the biggest attraction for the tourist. This beautiful hill station is easily accessible from Surat, Ahmedabad and Mumbai by the well connected route that is also one of the best experience.",
-      "Taxi from Surat to Saputara is readily available at AAVORide. Other very popular cab route for tourists is Hyderabad to Srisailam: https://AAVORide.com/route/hyderabad-to-srisailam.",
-      "Taxi from Surat to Saputara: https://api.AAVORide.com/profile_picture/route_page_picture_11f336de-eccd-4a6c-85c5-c3f53bf4a96e_1652433244"
+      "Taxi from Surat to Saputara is readily available at AAVORide. Other very popular cab route for tourists is Hyderabad to Srisailam.",
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStdfhlwhtplglFs-DfN0LmzMzHz4Gs3ASR4VEgpIlBDA&s=10",
+    coverImage: "/saputara3.jpg",
 
     sections: [
       {
@@ -4099,14 +4093,14 @@ export const tripData = [
             question: "How long does it take from Surat to Saputara by road?",
             answer: "It takes approx. 3 to 3.5 hours depending on traffic."
           },
-          {
-            question: "How much is Surat to Saputara taxi fare?",
-            answer: "Surat to Saputara taxi fare is approx. ₹2600 for a good sedan car like Etios, Dzire and is approx. ₹3800 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Surat to Saputara Innova fare?",
-            answer: "Surat to Saputara Innova fare is approx. ₹4800. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Surat to Saputara taxi fare?",
+          //   answer: "Surat to Saputara taxi fare is approx. ₹2600 for a good sedan car like Etios, Dzire and is approx. ₹3800 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Surat to Saputara Innova fare?",
+          //   answer: "Surat to Saputara Innova fare is approx. ₹4800. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Surat to Saputara cab price includes Driver charges and Night charges."
@@ -4157,8 +4151,7 @@ export const tripData = [
       "Estimated travel time : 9.5 hours",
       "Surat to Mount Abu is very popular route for tourists because it offers adventure sports, spiritual holidays and eco-tourism at a single place. For history and architecture lovers, Mount Abu is a must visit place.",
       "Mount Abu, the only hill station in Rajasthan, is popular not just amidst the Gujaratis and Rajasthanis but visitors from around the world. The most famous attraction is of course the Dilwara temples. It leaves you wondering how these temples were built 1000 years back. These Jain temples are very impressive manifestations of the heights reached in the field of art and architecture by Indian craftsmen. Mount Abu attracts not only history, art and architecture enthsiasts but it equally attracts Nature lovers, couples, wildlife watchers and spiritual tourists specially Jain pilgrims. Toad Rock, Sunset Point, Honeymoon point, Nakki lake are some of the main attractions.",
-      "Taxi from Surat to Mountabu is readily available at AAVORide.",
-      "Taxi from Surat to Mountabu: https://AAVORide.com/assets/img/trips/mountabu.jpg"
+      "Taxi from Surat to Mountabu is readily available at AAVORide."
     ],
     coverImage: "/mountabbu.jpg",
 
@@ -4261,14 +4254,14 @@ export const tripData = [
             question: "How long does it take from Surat to Mountabu by road?",
             answer: "It takes approx. 9.5 to 10.5 hours depending on traffic."
           },
-          {
-            question: "How much is Surat to Mountabu taxi fare?",
-            answer: "Surat to Mountabu taxi fare is approx. ₹5600 for a good sedan car like Etios, Dzire and is approx. ₹6100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Surat to Mountabu Innova fare?",
-            answer: "Surat to Mountabu Innova fare is approx. ₹7100. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Surat to Mountabu taxi fare?",
+          //   answer: "Surat to Mountabu taxi fare is approx. ₹5600 for a good sedan car like Etios, Dzire and is approx. ₹6100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Surat to Mountabu Innova fare?",
+          //   answer: "Surat to Mountabu Innova fare is approx. ₹7100. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Surat to Mountabu cab price includes Driver charges and Night charges."
@@ -4321,11 +4314,10 @@ export const tripData = [
       "Surat to Mahabaleshwar is the most popular route known for its pilgrimage destination among the devotees. The main attraction being The Mahabaleshwar Temple, Gokarna a 4th-century CE Hindu temple located in Uttara Kannada district, Karnataka.",
       "It is a hill station located in the Sahyadri mountain range. With one of the few evergreen forests of India, it served as the summer capital of Bombay province during the British Raj. The destination is named after the Lord Shiva’s avatar.",
       "Taxi from Surat to Mahabaleshwar is readily available at AAVORide.",
-      "Taxi from Surat to Mahabaleshwar: https://AAVORide.com/assets/img/trips/mahabaleshwar.png",
     ],
 
     coverImage:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxg6p-fnjJf-QzZUIIb1zDOgtUsVZRT5YRs9yXG09GNQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTBjpx5Ddp85zV8Y6K3PWDfYMQNgbmrPYGX-vZC2PV5Q&s=10",
 
     sections: [
       {
@@ -4421,16 +4413,16 @@ export const tripData = [
             answer:
               "It takes approx. 10 to 11 hours depending on traffic.",
           },
-          {
-            question: "How much is Surat to Mahabaleshwar taxi fare?",
-            answer:
-              "Surat to Mahabaleshwar taxi fare is approx. ₹6100 for a good sedan car like Etios, Dzire and is approx. ₹6600 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check.",
-          },
-          {
-            question: "How much is Surat to Mahabaleshwar Innova fare?",
-            answer:
-              "Surat to Mahabaleshwar Innova fare is approx. ₹7600. For best price on your travel date for various car rental options, please enter trip details and check.",
-          },
+          // {
+          //   question: "How much is Surat to Mahabaleshwar taxi fare?",
+          //   answer:
+          //     "Surat to Mahabaleshwar taxi fare is approx. ₹6100 for a good sedan car like Etios, Dzire and is approx. ₹6600 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check.",
+          // },
+          // {
+          //   question: "How much is Surat to Mahabaleshwar Innova fare?",
+          //   answer:
+          //     "Surat to Mahabaleshwar Innova fare is approx. ₹7600. For best price on your travel date for various car rental options, please enter trip details and check.",
+          // },
           {
             question:
               "Does price includes Driver charges and Night charges?",
@@ -4500,7 +4492,7 @@ export const tripData = [
       "Mumbai is famous for its fast city life, rich diversity and equally attracts business visitors as well as holiday makers from all around the world. The city is crowned with various epithets like 'The City that Never Sleeps', 'The City of Dreams', 'The City of Seven Islands'. One can find everything from the bustling crowd, stardom of Indian film industry, financial markets, business centers to beautiful lakes, beaches, parks, modern and historically significant architecture, heritage walks and famous religious sites in Mumbai.",
       "Taxi from Surat to Mumbai is readily available at AAVORide."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpfjs4b2rOKux9Cq9KKXPylIOf65Nbqobnmq4P5jl9kQ&s=10",
+    coverImage: "https://content.r9cdn.net/rimg/dimg/8a/fa/7e90a0bf-city-31288-162cb435f1e.jpg?crop=true&width=1020&height=498",
 
     sections: [
       {
@@ -4602,14 +4594,14 @@ export const tripData = [
             question: "How long does it take from Surat to Mumbai by road?",
             answer: "It takes approx. 5.5 to 6.5 hours depending on traffic."
           },
-          {
-            question: "How much is Surat to Mumbai taxi fare?",
-            answer: "Surat to Mumbai taxi fare is approx. ₹3300 for a good sedan car like Etios, Dzire and is approx. ₹3800 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Surat to Mumbai Innova fare?",
-            answer: "Surat to Mumbai Innova fare is approx. ₹4800. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Surat to Mumbai taxi fare?",
+          //   answer: "Surat to Mumbai taxi fare is approx. ₹3300 for a good sedan car like Etios, Dzire and is approx. ₹3800 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Surat to Mumbai Innova fare?",
+          //   answer: "Surat to Mumbai Innova fare is approx. ₹4800. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Surat to Mumbai cab price includes Driver charges and Night charges."
@@ -4650,6 +4642,7 @@ export const tripData = [
       }
     ]
   },
+
   {
     id: 21,
     slug: "surat-to-pune",
@@ -4662,7 +4655,7 @@ export const tripData = [
       "Pune is a sprawling city in the western Indian state of Maharashtra. It was once the base of the Peshwas (prime ministers) of the Maratha Empire, which lasted from 1674 to 1818, popular for the 8th-century Pataleshwar Cave Temple dedicated to the Hindu god Shiva. Also, known for the grand Aga Khan Palace, built in 1892, and now a memorial to Mahatma Gandhi, whose ashes are preserved in the garden.",
       "Taxi from Surat to Pune is readily available at AAVORide."
     ],
-    coverImage: "https://images.jdmagicbox.com/quickquotes/listicle/listicle_1687091154753_j7n59_847x400.jpg",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfy5Ly7PGCmJtheFlcPqRdYNrlxVnuikl0e5vfL6He3g&s=10",
 
     sections: [
       {
@@ -4759,14 +4752,14 @@ export const tripData = [
             question: "How long does it take from Surat to Pune by road?",
             answer: "It takes approx. 8 to 9 hours depending on traffic."
           },
-          {
-            question: "How much is Surat to Pune taxi fare?",
-            answer: "Surat to Pune taxi fare is approx. ₹4700 for a good sedan car like Etios, Dzire and is approx. ₹5200 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Surat to Pune Innova fare?",
-            answer: "Surat to Pune Innova fare is approx. ₹6200. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Surat to Pune taxi fare?",
+          //   answer: "Surat to Pune taxi fare is approx. ₹4700 for a good sedan car like Etios, Dzire and is approx. ₹5200 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Surat to Pune Innova fare?",
+          //   answer: "Surat to Pune Innova fare is approx. ₹6200. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Surat to Pune cab price includes Driver charges and Night charges."
@@ -4827,14 +4820,14 @@ export const tripData = [
         subHeading: "Surat to Udaipur Cab Route",
         description: [
           "Surat to Udaipur by car is well connected via NH48 and is very convenient and comfortable drive. Surat to Udaipur distance is 496 Km and is 9.5 hours journey. Other famous tourist places on this route and nearby are : Bharuch or Broach - historical heritage at the mouth of river Narmada",
-          "Vadodara - - Third largest city of Gujarat. Famous for Navratri festival.",
-          "Godhra - -known for big restaurants,parks,libraries,churches,mosques,shopping etc.",
-          "Himmatnagar - - Swaminarayan temple",
-          "Shamlaji - - a major Hindu pilgrimage centre in Aravalli district of Gujarat",
-          "Dungarpur - - Fort, Palaces",
+          "Vadodara : Third largest city of Gujarat. Famous for Navratri festival.",
+          "Godhra : known for big restaurants,parks,libraries,churches,mosques,shopping etc.",
+          "Himmatnagar : Swaminarayan temple",
+          "Shamlaji : a major Hindu pilgrimage centre in Aravalli district of Gujarat",
+          "Dungarpur : Fort, Palaces",
           "Hill Forest",
-          "Idar - - known for handmade wooden toys, tiles, its temples and various beautiful architectural monuments on hill",
-          "Nathdwara - - Shrinathji Temple, Statue of Shiva"
+          "Idar : known for handmade wooden toys, tiles, its temples and various beautiful architectural monuments on hill",
+          "Nathdwara : Shrinathji Temple, Statue of Shiva"
         ]
       },
 
@@ -4916,14 +4909,14 @@ export const tripData = [
             question: "How long does it take from Surat to Udaipur by road?",
             answer: "It takes approx. 9.5 to 10.5 hours depending on traffic."
           },
-          {
-            question: "How much is Surat to Udaipur taxi fare?",
-            answer: "Surat to Udaipur taxi fare is approx. ₹5700 for a good sedan car like Etios, Dzire and is approx. ₹6200 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Surat to Udaipur Innova fare?",
-            answer: "Surat to Udaipur Innova fare is approx. ₹7200. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Surat to Udaipur taxi fare?",
+          //   answer: "Surat to Udaipur taxi fare is approx. ₹5700 for a good sedan car like Etios, Dzire and is approx. ₹6200 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Surat to Udaipur Innova fare?",
+          //   answer: "Surat to Udaipur Innova fare is approx. ₹7200. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Surat to Udaipur cab price includes Driver charges and Night charges."
@@ -4974,7 +4967,7 @@ export const tripData = [
       "Dwarka is believed to be the gateway to heaven and the belief is that the city was once engulfed by the sea. Its a city where mythology meets reality as archologists found an ancient underwater city. Dwarka is also home to one of the 12 Jyotirlingas, Nageshwar temple. The holiness and spirituality of Dwarka remain etched in visitor\"s memory for a long time. The spiritual importance of the city can also be known from the fact that it is the only city that is part of both Char Dham as well as Saptu Puri as mentioned in Hindu religion.",
       "Taxi from Surat to Dwarka is readily available at AAVORide."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgxV8MaznRw8sn1Va1nqLaBxniZP-Lg6vTjfgTggIieA&s=10",
+    coverImage: "https://www.daiwikhotels.com/wp-content/uploads/2024/07/7xm289543-1-1.jpg",
 
     sections: [
       {
@@ -5074,14 +5067,14 @@ export const tripData = [
             question: "How long does it take to travel from Surat to Dwarka by road?",
             answer: "It takes approximately 13 to 14 hours to travel from Surat to Dwarka by road, depending on traffic and road conditions."
           },
-          {
-            question: "What is the taxi fare from Surat to Dwarka?",
-            answer: "A sedan taxi from Surat to Dwarka costs approximately ₹7700, while an SUV costs approximately ₹8200."
-          },
-          {
-            question: "What is the fare for an Innova from Surat to Dwarka?",
-            answer: "An Innova taxi from Surat to Dwarka costs approximately ₹9200."
-          },
+          // {
+          //   question: "What is the taxi fare from Surat to Dwarka?",
+          //   answer: "A sedan taxi from Surat to Dwarka costs approximately ₹7700, while an SUV costs approximately ₹8200."
+          // },
+          // {
+          //   question: "What is the fare for an Innova from Surat to Dwarka?",
+          //   answer: "An Innova taxi from Surat to Dwarka costs approximately ₹9200."
+          // },
           {
             question: "Is driver night charge included in the taxi fare?",
             answer: "Yes, driver night charges are included in the taxi fare."
@@ -5237,14 +5230,14 @@ export const tripData = [
             question: "How long does it take from Surat to Somnath by road?",
             answer: "It takes approx. 13 to 14 hours depending on traffic."
           },
-          {
-            question: "How much is Surat to Somnath taxi fare?",
-            answer: "Surat to Somnath taxi fare is approx. ₹7300 for a good sedan car like Etios, Dzire and is approx. ₹7800 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Surat to Somnath Innova fare?",
-            answer: "Surat to Somnath Innova fare is approx. ₹8800. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Surat to Somnath taxi fare?",
+          //   answer: "Surat to Somnath taxi fare is approx. ₹7300 for a good sedan car like Etios, Dzire and is approx. ₹7800 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Surat to Somnath Innova fare?",
+          //   answer: "Surat to Somnath Innova fare is approx. ₹8800. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Surat to Somnath cab price includes Driver charges and Night charges."
@@ -5295,7 +5288,7 @@ export const tripData = [
       "The Palitana temples of Jainism stand on Shatrunjaya Hill, near the city of Palitana in Bhavnagar district of Gujarat, India. This city, once called Padliptapur, is known today as the “City of Temples.” Along with Shikharji in Jharkhand, these two sites are seen as the holiest pilgrimage spots for the Jain community. Palitana was built as a sacred place, and because of this, no one, including the priests, is allowed to stay there overnight. Every Jain considers a visit to these temples as a once-in-a-lifetime chance to seek nirvana, or spiritual freedom.",
       "Taxi from Surat to Palitana is readily available at AAVORide."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbIdr4BUsUKHMjTnqybWzYCn4Q-CwcNJAoBHDNvRM4w&s=10",
+    coverImage: "https://www.trawell.in/images/tours/Palitana.jpg",
 
     sections: [
       {
@@ -5404,14 +5397,14 @@ export const tripData = [
             question: "How long does it take from Surat to Palitana by road?",
             answer: "It takes approx. 8.5 to 9.5 hours depending on traffic."
           },
-          {
-            question: "How much is Surat to Palitana taxi fare?",
-            answer: "Surat to Palitana taxi fare is approx. ₹4400 for a good sedan car like Etios, Dzire and is approx. ₹4900 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Surat to Palitana Innova fare?",
-            answer: "Surat to Palitana Innova fare is approx. ₹5900. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Surat to Palitana taxi fare?",
+          //   answer: "Surat to Palitana taxi fare is approx. ₹4400 for a good sedan car like Etios, Dzire and is approx. ₹4900 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Surat to Palitana Innova fare?",
+          //   answer: "Surat to Palitana Innova fare is approx. ₹5900. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Surat to Palitana cab price includes Driver charges and Night charges."
@@ -5456,7 +5449,7 @@ export const tripData = [
   {
     id: 26,
     slug: "vadodara-to-ahmedabad",
-    heading: "Vadodara to Ahmedabad Taxi - Book Cab Online at ₹1339",
+    heading: "Vadodara to Ahmedabad Taxi",
     tag: "Culture",
     description: [
       "Vadodara stands for royalty and grandeur with numerous monuments and centres of learning. The city portrays a beautiful balance between the old and the new, which makes it one of the most recognised and well-developed cities in Gujarat.",
@@ -5995,14 +5988,14 @@ export const tripData = [
             question: "How long does it take from Vadodara to Statue Of Unity by road?",
             answer: "It takes approx. 2 to 3 hours depending on traffic."
           },
-          {
-            question: "How much is Vadodara to Statue Of Unity taxi fare?",
-            answer: "Vadodara to Statue Of Unity taxi fare is approx. ₹1600 for a good sedan car like Etios, Dzire and is approx. ₹2100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Vadodara to Statue Of Unity Innova fare?",
-            answer: "Vadodara to Statue Of Unity Innova fare is approx. ₹3100. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Vadodara to Statue Of Unity taxi fare?",
+          //   answer: "Vadodara to Statue Of Unity taxi fare is approx. ₹1600 for a good sedan car like Etios, Dzire and is approx. ₹2100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Vadodara to Statue Of Unity Innova fare?",
+          //   answer: "Vadodara to Statue Of Unity Innova fare is approx. ₹3100. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Vadodara to Statue Of Unity cab price includes Driver charges and Night charges."
@@ -6053,7 +6046,7 @@ export const tripData = [
       "Pavagadh hill is situated in Panchmahal district, Gujarat. Pavagadh means “one fourth hill” or fire hill. At the base of hill is historic city of Champaner. This 50 km area surrounding hill is known as Pavagadh Champaner archaeological park which is on the list of UNESCO a world heritage sites. It is most sought after places in Gujarat. Major attraction of town is Kalika Mata temple dedicated to Mahakali. It is very sacred place for Hindus and one of Shakti peeths. Devotees have to walk few kilometers through forest or can take ropeway to reach the hill top temple. This ropeway is considered as India’s highest ropeway or udan khatola. Other attraction is Pavagdh Jain temples. This place houses several other historical structures including forts and temples.",
       "Taxi from Vadodara to Pavagadh is readily available at AAVORide. Other very popular cab route for tourists is Pune to Solapur."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwZMZBOfVDWq4b9EYdhYFtn7IlCks0ApGZJYaNnNSRog&s=10",
+    coverImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Top_of_Pavadagh_hill.JPG/1280px-Top_of_Pavadagh_hill.JPG?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
 
     sections: [
       {
@@ -6137,14 +6130,14 @@ export const tripData = [
             question: "How long does it take from Vadodara to Pavagadh by road?",
             answer: "It takes approx. 1 to 1.5 hours depending on traffic."
           },
-          {
-            question: "How much is Vadodara to Pavagadh taxi fare?",
-            answer: "Vadodara to Pavagadh taxi fare is approx. ₹1499 for a good sedan car like Etios, Dzire and is approx. ₹1699 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Vadodara to Pavagadh Innova fare?",
-            answer: "Vadodara to Pavagadh Innova fare is approx. ₹2699. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Vadodara to Pavagadh taxi fare?",
+          //   answer: "Vadodara to Pavagadh taxi fare is approx. ₹1499 for a good sedan car like Etios, Dzire and is approx. ₹1699 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Vadodara to Pavagadh Innova fare?",
+          //   answer: "Vadodara to Pavagadh Innova fare is approx. ₹2699. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Vadodara to Pavagadh cab price includes Driver charges and Night charges."
@@ -6195,7 +6188,7 @@ export const tripData = [
       "Anand is known for its semi-rural setup and the Swami Narayan Mandir which is the crown jewel of the city. It is quite popular due to the establishment of the AMUL manufacturing plant and the milk revolution that took place in the 20th century. It is home to the famous Amul Dairy, Vidya Dairy, Amul Chocolate Plant, Mogar and Gujarat Co-operative Milk Marketing Federation. Anand is also a major tourist hub and its attractions include AMUL dairy museum and the Chocolate Factory. The region is also an educational hub comprising of institutions like the Institute of Rural Management and Vallabh Vidhyanagar.",
       "Taxi from Vadodara to Anand is readily available at AAVORide."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_U4VBwSwgP6HSrq2ALvLv2R_u4IpdJVG6XCSyi5bnQw&s=10",
+    coverImage: "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/03/15133023/Untitled-design-2022-03-15T132833.089.jpg",
     sections: [
       {
         subHeading: "Vadodara to Anand Cab Route",
@@ -6327,14 +6320,14 @@ export const tripData = [
   {
     id: 30,
     slug: "vadodara-to-mumbai",
-    heading: "Vadodara to Mumbai Taxi - Book Cab Online at Best Fare ₹4,755",
+    heading: "Vadodara to Mumbai Taxi ",
     tag: "culture",
     description: [
       "Mumbai, being the financial hub and entertainment city of India, is one of the most desirable cities among travellers to visit. The city never fails to catch your eye with its class and colourful life, with its renowned Marine Drive, historic Gateway of India, or glitter and glamour of Bollywood.",
       "Our taxis for the journey from Vadodara to Mumbai cover the distance of 390 km within 6 to 7 hours. Drivers with well-developed expertise to negotiate through the Vadodara-Mumbai route ensure a seamless interstate journey across Gujarat and Maharashtra. AAVORide is ready with its one-way taxi services for your Mumbai trip, for business travel and round-trip packages for exploring the cities for the weekend.",
       "Start your Mumbai voyage by booking one-way taxis from Vadodara to Mumbai, which starts from as low as just ₹4,755 for a sedan with transparent booking, experienced chauffeurs who know both cities and the routes of both highways and 24x7 customer care services."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCmbHcLrcB23FpJU61FJNYswGbjz_Hhqr2C2Y5irhjDg&s=10",
+    coverImage: "https://content.r9cdn.net/rimg/dimg/8a/fa/7e90a0bf-city-31288-162cb435f1e.jpg?crop=true&width=1020&height=498",
 
     sections: [
       {
@@ -6822,14 +6815,14 @@ export const tripData = [
             question: "How long does it take from Vadodara to Surat by road?",
             answer: "It takes approx. 3 to 4 hours depending on traffic."
           },
-          {
-            question: "How much is Vadodara to Surat taxi fare?",
-            answer: "Vadodara to Surat taxi fare is approx. ₹1600 for a good sedan car like Etios, Dzire and is approx. ₹2100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Vadodara to Surat Innova fare?",
-            answer: "Vadodara to Surat Innova fare is approx. ₹3100. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Vadodara to Surat taxi fare?",
+          //   answer: "Vadodara to Surat taxi fare is approx. ₹1600 for a good sedan car like Etios, Dzire and is approx. ₹2100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Vadodara to Surat Innova fare?",
+          //   answer: "Vadodara to Surat Innova fare is approx. ₹3100. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Vadodara to Surat cab price includes Driver charges and Night charges."
@@ -6880,7 +6873,7 @@ export const tripData = [
       "Pune is a sprawling city in the western Indian state of Maharashtra. It was once the base of the Peshwas (prime ministers) of the Maratha Empire, which lasted from 1674 to 1818, popular for the 8th-century Pataleshwar Cave Temple dedicated to the Hindu god Shiva. Also, known for the grand Aga Khan Palace, built in 1892, and now a memorial to Mahatma Gandhi, whose ashes are preserved in the garden.",
       "Taxi from Vadodara to Pune is readily available at AAVORide."
     ],
-    coverImage: "https://images.jdmagicbox.com/quickquotes/listicle/listicle_1687091154753_j7n59_847x400.jpg",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfy5Ly7PGCmJtheFlcPqRdYNrlxVnuikl0e5vfL6He3g&s=10",
 
     sections: [
       {
@@ -6978,14 +6971,14 @@ export const tripData = [
             question: "How long does it take from Vadodara to Pune by road?",
             answer: "It takes approx. 10.5 to 11.5 hours depending on traffic."
           },
-          {
-            question: "How much is Vadodara to Pune taxi fare?",
-            answer: "Vadodara to Pune taxi fare is approx. ₹6300 for a good sedan car like Etios, Dzire and is approx. ₹6800 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Vadodara to Pune Innova fare?",
-            answer: "Vadodara to Pune Innova fare is approx. ₹7800. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Vadodara to Pune taxi fare?",
+          //   answer: "Vadodara to Pune taxi fare is approx. ₹6300 for a good sedan car like Etios, Dzire and is approx. ₹6800 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Vadodara to Pune Innova fare?",
+          //   answer: "Vadodara to Pune Innova fare is approx. ₹7800. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Vadodara to Pune cab price includes Driver charges and Night charges."
@@ -7129,14 +7122,14 @@ export const tripData = [
             question: "How long does it take from Vadodara to Udaipur by road?",
             answer: "It takes approx. 5.5 to 7.5 hours depending on traffic."
           },
-          {
-            question: "How much is Vadodara to Udaipur taxi fare?",
-            answer: "Vadodara to Udaipur taxi fare is approx. ₹3894 for a good sedan car like Etios, Dzire and is approx. ₹5310 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Vadodara to Udaipur Innova fare?",
-            answer: "Vadodara to Udaipur Innova fare is approx. ₹6310. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Vadodara to Udaipur taxi fare?",
+          //   answer: "Vadodara to Udaipur taxi fare is approx. ₹3894 for a good sedan car like Etios, Dzire and is approx. ₹5310 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Vadodara to Udaipur Innova fare?",
+          //   answer: "Vadodara to Udaipur Innova fare is approx. ₹6310. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Vadodara to Udaipur cab price includes Driver charges and Night charges."
@@ -7279,14 +7272,14 @@ export const tripData = [
             question: "How long does it take from Vadodara to Mountabu by road?",
             answer: "It takes approx. 7 to 8 hours depending on traffic."
           },
-          {
-            question: "How much is Vadodara to Mountabu taxi fare?",
-            answer: "Vadodara to Mountabu taxi fare is approx. ₹3900 for a good sedan car like Etios, Dzire and is approx. ₹4400 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Vadodara to Mountabu Innova fare?",
-            answer: "Vadodara to Mountabu Innova fare is approx. ₹5400. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Vadodara to Mountabu taxi fare?",
+          //   answer: "Vadodara to Mountabu taxi fare is approx. ₹3900 for a good sedan car like Etios, Dzire and is approx. ₹4400 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Vadodara to Mountabu Innova fare?",
+          //   answer: "Vadodara to Mountabu Innova fare is approx. ₹5400. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Vadodara to Mountabu cab price includes Driver charges and Night charges."
@@ -7424,14 +7417,14 @@ export const tripData = [
             question: "How long does it take from Vadodara to Jaipur by road?",
             answer: "It takes approx. 11.9 to 14.9 hours depending on traffic."
           },
-          {
-            question: "How much is Vadodara to Jaipur taxi fare?",
-            answer: "Vadodara to Jaipur taxi fare is approx. ₹8613 for a good sedan car like Etios, Dzire and is approx. ₹11745 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Vadodara to Jaipur Innova fare?",
-            answer: "Vadodara to Jaipur Innova fare is approx. ₹12745. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Vadodara to Jaipur taxi fare?",
+          //   answer: "Vadodara to Jaipur taxi fare is approx. ₹8613 for a good sedan car like Etios, Dzire and is approx. ₹11745 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Vadodara to Jaipur Innova fare?",
+          //   answer: "Vadodara to Jaipur Innova fare is approx. ₹12745. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Vadodara to Jaipur cab price includes Driver charges and Night charges."
@@ -7482,7 +7475,7 @@ export const tripData = [
       "Dwarka is believed to be the gateway to heaven and the belief is that the city was once engulfed by the sea. Its a city where mythology meets reality as archologists found an ancient underwater city. Dwarka is also home to one of the 12 Jyotirlingas, Nageshwar temple. The holiness and spirituality of Dwarka remain etched in visitor's memory for a long time. The spiritual importance of the city can also be known from the fact that it is the only city that is part of both Char Dham as well as Saptu Puri as mentioned in Hindu religion.",
       "Taxi from Vadodara to Dwarka is readily available at AAVORide."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgxV8MaznRw8sn1Va1nqLaBxniZP-Lg6vTjfgTggIieA&s=10",
+    coverImage: "https://www.daiwikhotels.com/wp-content/uploads/2024/07/7xm289543-1-1.jpg",
 
     sections: [
       {
@@ -7572,14 +7565,14 @@ export const tripData = [
             question: "How long does it take from Vadodara to Dwarka by road?",
             answer: "It takes approx. 8.1 to 11.1 hours depending on traffic."
           },
-          {
-            question: "How much is Vadodara to Dwarka taxi fare?",
-            answer: "Vadodara to Dwarka taxi fare is approx. ₹5577 for a good sedan car like Etios, Dzire and is approx. ₹7605 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Vadodara to Dwarka Innova fare?",
-            answer: "Vadodara to Dwarka Innova fare is approx. ₹8605. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Vadodara to Dwarka taxi fare?",
+          //   answer: "Vadodara to Dwarka taxi fare is approx. ₹5577 for a good sedan car like Etios, Dzire and is approx. ₹7605 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Vadodara to Dwarka Innova fare?",
+          //   answer: "Vadodara to Dwarka Innova fare is approx. ₹8605. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Vadodara to Dwarka cab price includes Driver charges and Night charges."
@@ -7631,7 +7624,7 @@ export const tripData = [
       "The Palitana temples of Jainism stand on Shatrunjaya Hill, near the city of Palitana in Bhavnagar district of Gujarat, India. This city, once called Padliptapur, is known today as the “City of Temples.” Along with Shikharji in Jharkhand, these two sites are seen as the holiest pilgrimage spots for the Jain community. Palitana was built as a sacred place, and because of this, no one, including the priests, is allowed to stay there overnight. Every Jain considers a visit to these temples as a once-in-a-lifetime chance to seek nirvana, or spiritual freedom.",
       "Taxi from Vadodara to Palitana is readily available at AAVORide."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTg23DvTZF1Haglx3NUISgdw8SdJCIsgtActKthR1uXA&s=10",
+    coverImage: "https://www.trawell.in/images/tours/Palitana.jpg",
 
     sections: [
       {
@@ -7732,14 +7725,14 @@ export const tripData = [
             question: "How long does it take from Vadodara to Palitana by road?",
             answer: "It takes approx. 3.8 to 5.8 hours depending on traffic."
           },
-          {
-            question: "How much is Vadodara to Palitana taxi fare?",
-            answer: "Vadodara to Palitana taxi fare is approx. ₹2695 for a good sedan car like Etios, Dzire and is approx. ₹3675 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
-          {
-            question: "How much is Vadodara to Palitana Innova fare?",
-            answer: "Vadodara to Palitana Innova fare is approx. ₹4675. For best price on your travel date for various car rental options, please enter trip details and check."
-          },
+          // {
+          //   question: "How much is Vadodara to Palitana taxi fare?",
+          //   answer: "Vadodara to Palitana taxi fare is approx. ₹2695 for a good sedan car like Etios, Dzire and is approx. ₹3675 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Vadodara to Palitana Innova fare?",
+          //   answer: "Vadodara to Palitana Innova fare is approx. ₹4675. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
           {
             question: "Does price includes Driver charges and Night charges?",
             answer: "Yes, Vadodara to Palitana cab price includes Driver charges and Night charges."
