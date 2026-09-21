@@ -20,6 +20,16 @@ import Link from "next/link";
 import SmallCard from "./location/[slug]/SmallCard";
 import MockDestinations from "@/components/blog/MockDestinations";
 
+// 1. Define the Card type
+interface Card {
+  id: number;
+  heading: string;
+  description: string;
+  tag: string;
+  slug: string;
+  coverImage: string;
+}
+
 export default function BlogListingPage() {
   const [activeCategory, setActiveCategory] = useState("All Stories");
   const [searchTerm, setSearchTerm] = useState("");
@@ -44,6 +54,15 @@ export default function BlogListingPage() {
     refetch,
   } = useInfiniteBlogs(activeCategory, debouncedSearch, 3);
 
+  // 2. Use it in your state
+  const [lastidx, setLastidx] = useState<number>(5);
+  const [cards, setCards] = useState<Card[]>(smallCard.slice(0, 5));
+
+  const moreCards = (): void => {
+    setCards(prev => [...prev, ...smallCard.slice(lastidx,lastidx+5)]);
+    setLastidx(lastidx+5);
+  };
+
   const router = useRouter();
   // Flatten the pages of blogs
   const allRecentBlogs = data?.pages.flatMap((page) => page.blogs) || [];
@@ -65,7 +84,7 @@ export default function BlogListingPage() {
       />
 
       <div className="w-full flex flex-col min-h-screen">
-        
+
         <motion.section
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -246,32 +265,10 @@ export default function BlogListingPage() {
             {!isLoading && !isError && (
               <div className="space-y-4">
                 <AnimatePresence mode="popLayout">
-                  {smallCard.length > 0 && 
-                    smallCard.map((blog,idx)=>(
-                      <SmallCard blog={blog} index={idx} key={blog.heading}/>
+                  {smallCard.length > 0 &&
+                    cards.map((blog, idx) => (
+                      <SmallCard blog={blog} index={idx} key={blog.heading} />
                     ))}
-                  {/* {allRecentBlogs.length > 0 ? ( 
-                    allRecentBlogs.map((blog, idx) => (
-                      <BlogRow key={blog.id} blog={blog} index={smallCard.length + idx + 1} />
-                    ))
-                  ) 
-                  : (
-                    <motion.div
-                      initial={{ opacity: 0, scale: 0.95 }}
-                      animate={{ opacity: 1, scale: 1 }}
-                      exit={{ opacity: 0, scale: 0.95 }}
-                      className="bg-white border border-slate-100 rounded-3xl p-12 text-center flex flex-col items-center justify-center space-y-2"
-                    >
-                      <Search className="h-8 w-8 text-slate-300 mb-2" />
-                      <h3 className="text-base font-bold text-slate-700">
-                        No articles found
-                      </h3>
-                      <p className="text-xs text-slate-500 max-w-xs">
-                        We couldn&apos;t find any articles matching your search
-                        or category choice. Try a different query.
-                      </p>
-                    </motion.div>
-                  )} */}
                 </AnimatePresence>
               </div>
             )}
@@ -279,7 +276,7 @@ export default function BlogListingPage() {
             {hasNextPage && (
               <div className="flex justify-center pt-6">
                 <button
-                  onClick={() => fetchNextPage()}
+                  onClick={moreCards}
                   disabled={isFetchingNextPage}
                   className="inline-flex cursor-pointer items-center justify-center rounded-full border-2 border-slate-200 bg-white hover:border-[#FF4D30] hover:text-[#FF4D30] px-8 py-3.5 text-xs font-bold text-slate-600 shadow-sm transition-all duration-200 select-none disabled:opacity-75 disabled:cursor-not-allowed w-full sm:w-auto"
                 >
@@ -302,8 +299,8 @@ export default function BlogListingPage() {
               <span>Popular Travel Destinations in India</span>
             </h2>
 
-            <MockDestinations/>
-            
+            <MockDestinations />
+
           </section>
 
           {/* <section className="space-y-6 w-full flex flex-col justify-center items-center">

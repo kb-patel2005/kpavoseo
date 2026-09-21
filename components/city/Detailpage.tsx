@@ -7,12 +7,9 @@ import { Compass } from 'lucide-react';
 import Link from 'next/link';
 import React from 'react';
 
-// keep your existing `const data = { ... }` exactly the same
-
-
 export default function Detailpage({ slug }: { slug: string }) {
 
-    const data = citydata.find(e => e.slug === slug);
+    const data = citydata.find(e => e.slug == slug);
 
     if (!data) return <div>City not found</div>;
     return (

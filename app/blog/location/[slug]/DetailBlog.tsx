@@ -21,6 +21,17 @@ export default function DetailBlog({ slug }: { slug: string }) {
 
     const [activeCategory, setActiveCategory] = useState<string>("All Stories");
 
+    const [visibleCount, setVisibleCount] = useState(3); // show 3 initially
+    const increment = 3; // load 3 more each time
+
+    const filteredBlogs = tripData.filter(
+        (blog) =>
+            (blog.tag.toLocaleLowerCase() === activeCategory.toLocaleLowerCase() ||
+                activeCategory === "All-Stories" ||
+                activeCategory === "All Stories") &&
+            blog.slug !== slug
+    );
+
     // React Query Fetch using Infinite Scroll
     const {
         data: recentData,
@@ -353,11 +364,14 @@ export default function DetailBlog({ slug }: { slug: string }) {
 
                 <div className="w-full overflow-x-auto flex scrollbar-none space-x-2 py-2 border-b-0 md:border-b border-slate-200 justify-start md:justify-center">
                     {CATEGORIES.map((category) => {
-                        const isActive = activeCategory === category.replace(" ","-");
+                        const isActive = activeCategory === category.replace(" ", "-");
                         return (
                             <button
                                 key={category}
-                                onClick={() => setActiveCategory(category.replace(" ", "-"))}
+                                onClick={() => {
+                                    setActiveCategory(category.replace(" ", "-"));
+                                    setVisibleCount(3)
+                                }}
                                 className={`relative px-4 py-2 text-xs md:text-sm cursor-pointer font-bold rounded-full transition-all duration-200 shrink-0 select-none ${isActive
                                     ? "text-white bg-[#FF4D30] shadow-md"
                                     : "text-slate-500 hover:text-slate-800 hover:bg-slate-100"
@@ -412,21 +426,45 @@ export default function DetailBlog({ slug }: { slug: string }) {
                 ) : (
                     <div className="space-y-4 max-w-7xl mx-auto">
                         <AnimatePresence mode="popLayout">
-                            {tripData.length > 0 &&
+                            {/* {tripData.length > 0 &&
                                 tripData.map((blog, idx) =>
                                     ((blog.tag.toLocaleLowerCase() == activeCategory.toLocaleLowerCase() || activeCategory == "All-Stories" || activeCategory == "All Stories") && (blog.slug != slug)) &&
                                     <SmallCard blog={blog} index={idx} key={blog.heading} />
-                                )}
+                                )} */}
                             {/* {recentBlogs.length > 0 && (
                                     recentBlogs.map((rBlog, idx) => (
                                         <BlogRow key={rBlog.id} blog={rBlog} index={idx} />
                                     ))
                                 )} */}
+                            {filteredBlogs.slice(0, visibleCount).map((blog, idx) => (
+                                <SmallCard blog={blog} index={idx} key={blog.heading} />
+                            ))}
+
+                            {/* Load More Button */}
+                            {visibleCount < filteredBlogs.length && (
+                                <div className="flex justify-center mt-6">
+                                    <button
+                                        onClick={() => setVisibleCount((prev) => prev + increment)}
+
+                                        className="inline-flex cursor-pointer items-center justify-center rounded-full border-2 border-slate-200 bg-white hover:border-[#FF4D30] hover:text-[#FF4D30] px-8 py-3.5 text-xs font-bold text-slate-600 shadow-sm transition-all duration-200 select-none disabled:opacity-75 disabled:cursor-not-allowed w-full sm:w-auto"
+                                    >
+
+                                        <span>Load More Inspiring Stories</span>
+
+                                    </button>
+                                    {/* <button
+                                        onClick={() => setVisibleCount((prev) => prev + increment)}
+                                        className="px-6 py-2 text-sm font-semibold rounded-lg bg-[#FF4D30] text-white hover:bg-[#e03d20] transition-colors"
+                                    >
+                                        Load More (+3)
+                                    </button> */}
+                                </div>
+                            )}
                         </AnimatePresence>
                     </div>
                 )}
 
-                {hasNextPage && (
+                {/* {hasNextPage && (
                     <div className="flex justify-center pt-2">
                         <button
                             onClick={() => fetchNextPage()}
@@ -443,7 +481,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
                             )}
                         </button>
                     </div>
-                )}
+                )} */}
             </section>
 
             <MockDestinations />

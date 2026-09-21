@@ -507,7 +507,7 @@ export const citydata = [
                             "Water Activities: Camel rides, water sports, beach volleyball",
                             "Family Fun: Perfect for a quick day trip with kids"
                         ],
-                        link: "/blog/location/surat-to-tithal-beach"
+                        link: "/blog/location/surat-to-valsad"
                     }
                 ]
 
@@ -868,7 +868,7 @@ export const citydata = [
                 subHeading: "Outstation cabs from Rajkot",
                 description: "",
                 part: {
-                    "": [
+                    "Taxi Services": [
                         "Taxi from Rajkot to Mount Abu",
                         "Taxi from Rajkot to Bhuj",
                         "Taxi from Rajkot to Kumbhalgarh",

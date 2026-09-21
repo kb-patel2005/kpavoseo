@@ -56,6 +56,7 @@ export interface Destination1 {
 }
 
 export const smallCard: Destination1[] = [
+  //1
   {
     id: 1,
     heading: "Ahmedabad to Vadodara Taxi - Book a Cab Online at Best Fare",
@@ -68,10 +69,11 @@ export const smallCard: Destination1[] = [
     id: 2,
     heading: "Book Ahmedabad to Mount Abu Cab",
     description: "Ahmedabad to Mount Abu is a favorite route for travelers seeking a refreshing getaway in Rajasthan. Mount Abu is known for its cool climate and stunning landscapes. Many people book rides between these cities for family vacations and leisure trips. You can book your outstation cab with AAVORide for a comfortable and affordable journey. Enjoy your trip with one-way drops service and explore the beauty of Mount Abu at your own pace.",
-    tag: 'Hill-Escape',
+    tag: 'Adventure',
     slug: "ahmedabad-to-mountabu",
     coverImage: '/mountabbu.jpg',
   },
+  //3
   {
     id: 3,
     heading: "Book Ahmedabad to Jaipur Cab",
@@ -88,6 +90,7 @@ export const smallCard: Destination1[] = [
     slug: "ahmedabad-to-somnath",
     coverImage: '/somnath.jpg',
   },
+  //5
   {
     id: 5,
     heading: "Ahmedabad to Rajkot Cab Service | One Way Taxi Lowest Price",
@@ -101,10 +104,11 @@ export const smallCard: Destination1[] = [
     id: 6,
     heading: "Book Ahmedabad to Ambaji Cab",
     description: "Ahmedabad to Ambaji is very popular route for tourists and pilgrims. Ambaji is the principal shrine of Goddess Amba who has been worshiped since the pre-Vedic period and is visited by millions of devotees every year.",
-    tag: 'Road-Trips',
+    tag: 'Spiritual',
     slug: "ahmedabad-to-ambaji",
     coverImage: "https://hblimg.mmtcdn.com/content/hubble/img/ttd_images_march/mmt/activities/m_ambaji_Mata_Temple_2_l_480_640.jpg",
   },
+  //7
   {
     id: 7,
     heading: "Book Ahmedabad to Gir Cab",
@@ -112,35 +116,241 @@ export const smallCard: Destination1[] = [
     tag: 'Adventure',
     slug: "ahmedabad-to-gir",
     coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1QQ1hQbJ2gPQyOh3WoiM88RgRIl-rQm50yYOdbitruA&s=10",
+  },
+  {
+    id: 8,
+    heading: "Book Surat to Ahmedabad Cab",
+    description: "Surat to Ahmedabad is the very popular route for both tourists and people traveling for work. Ahmedabad is one of the most visited cities in India. It is honored as India's first World Heritage City by UNESCO for its rich art, history, culture and heritage.",
+    tag: 'Culture',
+    slug: "surat-to-ahmedabad",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxD5z6ImW1R2CRpvDBy__G9Ocs7xCY2FEgzRm5yC1Xw&s=10",
+  },
+  //9
+  {
+    id: 9,
+    heading: "Book Surat to Vadodara Cab",
+    description: "Surat to Vadodara is the very popular route for tourists. Vadodara (also known as Baroda) is crowned with various architecture heritage like legendary monuments, beautiful gardens, museums and art galleries and thus is the cultural capital of Gujarat.",
+    tag: 'Culture',
+    slug: "surat-to-vadodara",
+    coverImage: "/laxmi-villa-palace-vodara.jpg",
+  },
+  {
+    id: 10,
+    slug: "surat-to-statue-of-unity",
+    description: "Surat to Statue of Unity is the very popular route for both domestic as well as foreign tourists. Statue of Unity is a memorial to The Iron Man of India, Sardar Vallabhbhai Patel, and is the 'Tallest Statue in the World'.",
+    tag: 'Culture',
+    heading: "Book Surat to Statue Of Unity Cab",
+    coverImage: "/statue-of-unity-inside.jpg",
+  },
+  {
+    id: 11,
+    heading: "Book Surat to Diu Cab",
+    description: "Surat to Diu is the very popular route for tourists. Diu is located near the port of Veraval, and is quite famous for its surrounding beaches, Portuguese history, rich heritage and architecture, which can be seen in Diu fort, nearby temples and the language of the locals.",
+    tag: 'Adventure',
+    slug: "surat-to-diu",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIS9H5eSLgtCUys8QXo3GuagOEO5L1M2NM3EVzpeHUow&s=10",
+  },
 
+  {
+    id: 12,
+    description: "Surat to Daman is the most popular route for tourists. Daman is quite popular for its history and culture, lush greenery, exotic virgin beaches, industries and cheap alcohol.",
+    heading: "Book Surat to Daman Cab",
+    tag: 'Luxury',
+    slug: "surat-to-daman",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3DLirzQqaWDPC0Kdgc6-lL3Qrc2Vib-tB3MUjUbxezw&s"
+  },
+  {
+    id: 13,
+    description: "Surat to Valsad is a very popular route for business and also a pilgrimage. Valsad is famous for its Hafus mangoes, Valsadi teakwood and also as the birthplace of Shri Morarji Desai, ex-prime minister of India . Valsad is known for its Banyan trees also. This area is full of banyan trees.",
+    slug: "surat-to-valsad",
+    tag: 'Culture',
+    heading: "Book Surat to Valsad Cab",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF6ccXA4eF-gHnTMwFJYEr_x6c4uFJSdIMqEydeCUwrw&s=10"
+  },
+  {
+    id: 14,
+    description: "Surat to Saputara is one of the most popular tourist route that is passes between the hills, lush forest and incredible natural beauty. Saputara is a one of the popular hill station of the Dang district of Gujarat that is endowed with the beauty, greenery and tranquility.",
+    slug: "surat-to-saputara",
+    tag: 'Adventure',
+    heading: "Book Surat to Saputara Cab",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStdfhlwhtplglFs-DfN0LmzMzHz4Gs3ASR4VEgpIlBDA&s=10"
+  },
+
+  {
+    id: 15,
+    slug: "surat-to-mount-abu",
+    heading: "Book Surat to Mountabu Cab",
+    tag: 'Adventure',
+    coverImage: "/mountabbu.jpg",
+    description: "Surat to Mount Abu is very popular route for tourists because it offers adventure sports, spiritual holidays and eco-tourism at a single place. For history and architecture lovers, Mount Abu is a must visit place.",
+  },
+  {
+    id: 16,
+    slug: "surat-to-mahabaleshwar",
+    heading: "Book Surat to Mahabaleshwar Cab",
+    tag: "Pilgrimage",
+    description:
+      "Surat to Mahabaleshwar is the most popular route known for its pilgrimage destination among the devotees. The main attraction being The Mahabaleshwar Temple, Gokarna a 4th-century CE Hindu temple located in Uttara Kannada district, Karnataka.",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGcrxhxZtj8b9DUZm22H6TJqGWdpsuqkP_dygYhFNHXQ&s=10",
+  },
+  {
+    id: 17,
+    slug: "surat-to-mumbai",
+    heading: "Book Surat to Mumbai Cab",
+    tag: "Road-Trips",
+    description: "Surat to Mumbai is a popular route for both tourism as well as work. Mumbai being the capital city of the Indian state of Maharashtra and the Financial capital of India is so famous center of attraction that it is called as 'Mini India'.",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpfjs4b2rOKux9Cq9KKXPylIOf65Nbqobnmq4P5jl9kQ&s=10",
+  },
+  {
+    id: 18,
+    slug: "surat-to-pune",
+    heading: "Book Surat to Pune Cab",
+    tag: "Road-Trips",
+    description:
+      "Surat to Pune is the very popular route for both tourists and people traveling for work. Pune being the second largest city in the Indian state of Maharashtra after Mumbai and the seventh most populous city in the country has become a famous center of attraction.",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR15S28NwAxAwTnwY9N6fNxhW73T7dLkp_Lk3vMPflkWQ&s=10",
+  },
+  {
+    id: 19,
+    slug: "surat-to-udaipur",
+    heading: "Book Surat to Udaipur Cab",
+    tag: "Royal Escape",
+    description:
+      "Surat to Udaipur is the very popular route for tourists and Udaipur is crowned with various epithets like \"Jewel of Mewar\", \"Venice of the East\", \"Kashmir of Rajasthan\", \"City of Lakes\", \"City of Sunrise\", \"City of Domes\", \"City of Temples\", \"City of Historicity\" etc.",
+    coverImage: "/udaipur_inner.jpg",
+  },
+  {
+    id: 20,
+    slug: "surat-to-dwarka",
+    heading: "Book Surat to Dwarka Cab",
+    tag: "Spiritual",
+    description:
+      "Surat to Dwarka is very popular route for tourists because of its religious and mythological importance. Dwarka means \"Door to Salvation\" and is most popular among pilgrims as it is known as the \"home of Lord Krishna\".",
+    coverImage: "/dwarka.jpg",
+  },
+  {
+    id: 21,
+    slug: "surat-to-somnath",
+    heading: "Book Surat to Somnath Cab",
+    tag: "Spiritual",
+    description:
+      "Surat to Somnath is very popular route for tourists as its religious and mythological importance. Somnath means \"Lord of the moon\" and is most popular among pilgrims as it is one of the 12 Jyotirlingas.",
+    coverImage: "/somnath.jpg",
+  },
+  {
+    id: 22,
+    slug: "surat-to-palitana",
+    heading: "Book Surat to Palitana Cab",
+    tag: "Pilgrimage",
+    description:
+      "In the Bhavnagar district of Gujarat, Palitana is recognized as one of the most sacred religious towns among Jain religions around the world. It is an ancient city that holds significant historical and religious importance and is visited by millions of devotees every year. With AAVORide book your holy drive towards Palitana from any corner of the India, our vast cab booking network ensures a comfortable and timely ride.",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbIdr4BUsUKHMjTnqybWzYCn4Q-CwcNJAoBHDNvRM4w&s=10",
+
+  },
+  {
+    id: 26,
+    slug: "vadodara-to-ahmedabad",
+    heading: "Vadodara to Ahmedabad Taxi - Book Cab Online at ₹1339",
+    tag: "Culture",
+    description: "Vadodara stands for royalty and grandeur with numerous monuments and centres of learning. The city portrays a beautiful balance between the old and the new, which makes it one of the most recognised and well-developed cities in Gujarat.",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxD5z6ImW1R2CRpvDBy__G9Ocs7xCY2FEgzRm5yC1Xw&s=10",
+  },
+  {
+    id: 27,
+    slug: "vadodara-to-statue-of-unity",
+    tag: "Culture",
+    heading: "Vadodara to Statue of Unity Taxi - Book Safe & Comfortable Cab Service",
+    description:  "One of the easy and convenient ways to travel to the State of Unity from Vadodara is by taking a personal cab. As the public transport might be crowded and time-consuming, book a Vadodara to statue of Unity cab. The distance of the statue is just 90 km, and your Vadodara to Statue of Unity taxi takes approximately 2 hours to reach there.",
+    coverImage: "/statue-of-unity-inside.jpg",
+  },
+  {
+    id: 28,
+    slug: "vadodara-to-champaner-pavagadh",
+    heading: "Book Vadodara to Pavagadh Cab",
+    tag: 'Pilgrimage',
+    description: "Pavagadh is very popular place for pilgrim tourism. Pavagadh is a hill famous for Kalika mata temple and thousands of pilgrims visit here everyday.",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwZMZBOfVDWq4b9EYdhYFtn7IlCks0ApGZJYaNnNSRog&s=10",
+  },
+  {
+    id: 29,
+    slug: "vadodara-to-anand",
+    heading: "Book Vadodara to Anand Cab",
+    tag: "Culture",
+    description:  "Vadodara to Anand is very popular route for both tourism and work. Anand is the epicentre of the white revolution in the country back in the 60s and is often known as the \"Milk Capital of India\".",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_U4VBwSwgP6HSrq2ALvLv2R_u4IpdJVG6XCSyi5bnQw&s=10",
+  },
+
+
+  {
+    id: 30,
+    slug: "vadodara-to-mumbai",
+    heading: "Vadodara to Mumbai Taxi - Book Cab Online at Best Fare ₹4,755",
+    tag: 'Culture',
+    description: "Mumbai, being the financial hub and entertainment city of India, is one of the most desirable cities among travellers to visit. The city never fails to catch your eye with its class and colourful life, with its renowned Marine Drive, historic Gateway of India, or glitter and glamour of Bollywood.",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCmbHcLrcB23FpJU61FJNYswGbjz_Hhqr2C2Y5irhjDg&s=10",
+  },
+  //31
+  {
+    id: 31,
+    slug: "vadodara-to-surat",
+    heading: "Book Vadodara to Surat Cab",
+    tag: 'Culture',
+    description: "Vadodara to Surat is the very popular route for tourists as well as business. Surat, second largest city of Gujarat, is a famous centre for diamond cutting and polishing and is the biggest textile hub of Gujrat.",   
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzl7Vxm9IUzv9eR0thu3jkM4XBVTOiYD1r3MdFSvqSMQ&s=10",
+  },
+  {
+    id: 32,
+    slug: "vadodara-to-pune",
+    heading: "Book Vadodara to Pune Cab",
+    tag: "Road-Trips",
+    description: "Vadodara to Pune is the very popular route for both tourists and people traveling for work. Pune being the second largest city in the Indian state of Maharashtra after Mumbai and the seventh most populous city in the country has become a famous center of attraction.",
+    coverImage: "https://images.jdmagicbox.com/quickquotes/listicle/listicle_1687091154753_j7n59_847x400.jpg",
+  },
+  {
+    id: 33,
+    slug: "vadodara-to-udaipur",
+    heading: "Book Vadodara to Udaipur Cab",
+    tag: "Royal escape",
+    description: "Vadodara to Udaipur is the very popular route for tourists and Udaipur is crowned with various epithets like \"Jewel of Mewar\", \"Venice of the East\", \"Kashmir of Rajasthan\", \"City of Lakes\", \"City of Sunrise\", \"City of Domes\", \"City of Temples\", \"City of Historicity\" etc.",
+    coverImage: "/udaipur_inner.jpg",
+  },
+  {
+    id: 34,
+    slug: "vadodara-to-mount-abu",
+    heading: "Book Vadodara to Mountabu Cab",
+    tag: 'Adventure',
+    description:  "Vadodara to Mount Abu is very popular route for tourists because it offers adventure sports, spiritual holidays and eco-tourism at a single place. For history and architecture lovers, Mount Abu is a must visit place.",
+    coverImage: "/mountabbu.jpg",
+  },
+  {
+    id: 34,
+    slug: "vadodara-to-jaipur",
+    heading: "Book Vadodara to Jaipur Cab",
+    tag: 'Culture',
+    description: "Jaipur is one of the most visited cities in India. Jaipur is third part of the famous Golden Triangle of India - Delhi - Agra - Jaipur.",
+      
+    coverImage: "/jaipur1.jpg",
+  },
+  {
+    id: 35,
+    slug: "vadodara-to-dwarka",
+    heading: "Book Vadodara to Dwarka Cab",
+    tag: 'Spiritual',
+    description:
+      "Dwarka is very popular city for tourists because of its religious and mythological importance. Dwarka means 'Door to Salvation' and is most popular among pilgrims as it is known as the 'home of Lord Krishna'.",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgxV8MaznRw8sn1Va1nqLaBxniZP-Lg6vTjfgTggIieA&s=10",
+  },
+  //36
+  {
+    id: 37,
+    slug: "vadodara-to-palitana",
+    heading: "Book Vadodara to Palitana Cab",
+    tag: 'Pilgrimage',
+    description: "In the Bhavnagar district of Gujarat, Palitana is recognized as one of the most sacred religious towns among Jain religions around the world. It is an ancient city that holds significant historical and religious importance and is visited by millions of devotees every year. With AAVORide book your holy drive towards Palitana from any corner of the India, our vast cab booking network ensures a comfortable and timely ride.",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTg23DvTZF1Haglx3NUISgdw8SdJCIsgtActKthR1uXA&s=10"
   }
 
 ]
-
-// {
-//   id: '1',
-//   title: "Jaipur's Hidden Haveli Stays",
-//   category: 'Culture',
-//   image: '/images/jaipur.jpg',
-// },
-// {
-//   id: '2',
-//   title: 'Varanasi: Dawn on the Ganges',
-//   category: 'Spiritual',
-//   image: '/images/varanasi(1)(1).jpg',
-// },
-// {
-//   id: '3',
-//   title: 'Leh: High Altitude Comfort',
-//   category: 'Luxury Adventure',
-//   image: '/images/high-altitude.jpg',
-// },
-// {
-//   id: '4',
-//   title: 'Hampi: Ruins Reimagined',
-//   category: 'History',
-//   image: '/images/hampi.jpg',
-// }
 
 export const MOCK_DESTINATIONS: Destination[] = [
   {
@@ -311,24 +521,7 @@ export const MOCK_DESTINATIONS: Destination[] = [
     category: 'Adventure',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRGHzVdJZ96Ri1SjNnkgK3z-HR2750Xtc0lytjRZ0P9A&s=10',
   }
-
-
 ];
-
-//features images
-// feture1: 96KB
-// feture2: <100Kb
-// feture3: 95.6KB
-
-// {
-//   id: 4,
-//   heading: "Ahmedabad to Dwarka Taxi - Book Comfortable & Affordable Cab Service",
-//   description:"An ancient kingdom of Lord Krishna, known as the “Gates of heaven”. Dwarka is one of the Char Dham and Sapta Puri pilgrimage sites, famous for the Dwarkadhish Temple and sacred coastal charm. ",
-//   tag: "SPIRITUAL",
-//   slug: "ahmedabad-to-dwarka",
-//   coverImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdaBZhWCCGxWDPKsEFd6yli76_mJ2ykC0Jbix3WGKd-A&s=10"
-
-// }
 
 export const MOCK_FEATURED_STORIES: Blog[] = [
   {
@@ -2261,6 +2454,8 @@ export const tripData = [
       }
     ],
   },
+
+  //8
   {
     id: 8,
     slug: "ahmedabad-to-rajkot",
@@ -2542,7 +2737,7 @@ export const tripData = [
     id: 9,
     slug: "ahmedabad-to-ambaji",
     heading: "Book Ahmedabad to Ambaji Cab",
-    tag: "Road-Trips",
+    tag: 'Pilgrimage',
     description: [
       "Ahmedabad to Ambaji distance : 190 km",
       "Estimated travel time : 4 hours",
@@ -2841,4 +3036,4748 @@ export const tripData = [
       }
     ],
   },
+
+  //surat
+  {
+    id: 11,
+    slug: "surat-to-ahmedabad",
+    heading: "Book Surat to Ahmedabad Cab",
+    tag: 'Culture',
+    description: [
+      "Surat to Ahmedabad distance : 267 km",
+      "Estimated travel time : 4.5 hours",
+      "Surat to Ahmedabad is the very popular route for both tourists and people traveling for work. Ahmedabad is one of the most visited cities in India. It is honored as India's first World Heritage City by UNESCO for its rich art, history, culture and heritage.",
+      "Ahmedabad is renowned for being the place where Mahatma Gandhi initiated the struggle for India’s freedom and build Sabarmati Ashram which is still quaint and peaceful as before. Ahmedabad is home to a number of temples, monuments, museums and art galleries. It is also a central place or gateway to most beautiful tourist places like Udaipur, Mount Abu, Rann of Kutch, Gir Forest etc. Ahmedabad is a perfect blend of a metropolitan city, an industrial hub, an education hotspot alongwith a magnificent past, culture, religious importance and a very down-to-earth lifestyle. It is also famous for its textiles, bandhani handlooom, local handicrafts making it a perfect destination for shopaholic tourists. Navratri celebrations is the perfect time to experience the happiness, enthusiasm and culture of this wonderful city. When in Ahmedabad, do not miss the tasty street food of this city like khakhra, namkeen, fafda, soft and spongy khaman dhokla, maska-bun, fritters with green chilies and chutney."
+    ]
+    ,
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxD5z6ImW1R2CRpvDBy__G9Ocs7xCY2FEgzRm5yC1Xw&s=10",
+    sections: [
+      {
+        subHeading: "Surat to Ahmedabad Cab Route",
+        description:
+          [
+            "Surat to Ahmedabad by car is well connected by road through Ahmedabad - Surat road and is very convenient and comfortable drive. Surat to Ahmedabad distance is 267 Km and is 4.5 hours journey. Other famous weekend gateway tourist places from Ahmedabad are :",
+            "Kasomba:",
+            "Jhagadia or Zaghadia : Bhalod Gangadashahara, Hindu and Jain temples like Daherasar, Kabirvad, Gayatri Mandir, Hanuman temple",
+            "Bharuch or Broach : historical heritage at the mouth of river Narmada",
+            "Vadodara : Third largest city of Gujarat. Famous for Navratri festival.",
+            "Anand : Dakor temple, Navratri, Garba, Dandia",
+            "Nadiad : Beautiful temples and churches",
+            "Dabhoi : Vadodari Gate, Hira Bhagol, Vadhvana bird sanctuary, Vadhvana lake",
+            "Kheda : Hidimba Van where Bhim of Mahabharta killed daemon to marry Hidimba",
+            "Sandhana:",
+            "Bareja:",
+            "Navagam:"
+          ]
+
+      },
+      {
+        subHeading: "Places to visit in Ahmedabad using AAVORide Surat to Ahmedabad Car Rental with driver",
+        description: "",
+        part: {
+          "Popular places in Surat": [
+            "Swaminarayan Akshardham Temple",
+            "Dada Hari Wav",
+            "Sabarmati Ashram",
+            "World Vintage Var Museum",
+            "Kankaria Lake",
+            "Hathisingh Jain Temple",
+            "Sidi Saiyyed Mosque",
+            "Jhulta Minar",
+            "Law Garden Night Market",
+            "Vaishnodevi Temple",
+            "Bhadra Fort & Teen Darwaza",
+            "Manek Chowk",
+            "Kamala Nehru Zoo",
+            "Alpha One mall",
+            "Lal Darwaza",
+            "Calico Textile Museum",
+            "Banascraft",
+            "ISKCON Temple",
+            "Jama Masjid",
+            "Law Garden",
+            "Kapasi Handicraft Emporium",
+            "Lalbhai Dalpatbhai Museum",
+            "Tomb of Ahmed Shah",
+            "Adalaj Stepwell",
+            "Gujarat Science City",
+            "Shree Camp Hanuman Mandir",
+            "Parimal Garden",
+            "Sarkhej Roza",
+            "Nehru Bridge",
+            "Sabarmati Riverfront",
+            "Vastrapur Lake",
+            "Sardar Vallabhai Patel National Museum",
+            "Kite Museum",
+            "Vechaar Utensils Museum",
+            "Sanskar Kendra"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Surat to Ahmedabad Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Surat to Ahmedabad taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Surat to Ahmedabad.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Surat to Ahmedabad cab and our prices are generally 20% lower than competition."
+        ]
+        , "Surat to Ahmedabad Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Surat to Ahmedabad Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Surat to Ahmedabad taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Surat to Ahmedabad taxi service. You may book Surat to Ahmedabad round trip cab or one way multi-stop cab in case you plan not to return to Surat and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Surat to Ahmedabad car package as needed. You may also book Surat to Ahmedabad one way drop taxi or a local hourly rental cab in Ahmedabad with AAVORide."
+        ]
+      },
+      {
+        subHeading: "Frequently Asked Questions about Surat to Ahmedabad Cab Booking",
+        description: "",
+        faqs: [
+          {
+            "question": "What is the distance from Surat to Ahmedabad by car?",
+            "answer": "The distance from Surat to Ahmedabad by car is 267 km."
+          },
+          {
+            "question": "How long does it take from Surat to Ahmedabad by road?",
+            "answer": "It takes approx. 4.5 to 5.5 hours depending on traffic."
+          },
+          {
+            "question": "How much is Surat to Ahmedabad taxi fare?",
+            "answer": "Surat to Ahmedabad taxi fare is approx. ₹3100 for a good sedan car like Etios, Dzire and is approx. ₹3600 for SUV car."
+          },
+          {
+            "question": "How much is Surat to Ahmedabad Innova fare?",
+            "answer": "Surat to Ahmedabad Innova fare is approx. ₹4600."
+          },
+          {
+            "question": "Does price includes Driver charges and Night charges?",
+            "answer": "Yes, Surat to Ahmedabad cab price includes Driver charges and Night charges."
+          },
+          {
+            "question": "Do I need to make payment in advance to book Surat to Ahmedabad cab?",
+            "answer": "You will need to pay just 10-20% amount in advance for booking Surat to Ahmedabad cab."
+          },
+          {
+            "question": "Is local sightseeing included in Surat to Ahmedabad outstation trip?",
+            "answer": "For Surat to Ahmedabad Round trip cab, all the local sightseeing in Surat, Ahmedabad and other destination cities in itinerary is included. For Surat to Ahmedabad One way Multi-stop cab, sightseeing is included. For Surat to Ahmedabad One way cab, sightseeing is not included."
+          },
+          {
+            "question": "How much in advance do I need to book the cab from Surat to Ahmedabad?",
+            "answer": "Although you can book Surat to Ahmedabad cab up to 1 hour prior to departure time, we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            "question": "Can I book cab for Surat to Ahmedabad by calling customer support?",
+            "answer": "We are happy to provide clarifications through customer support team but Surat to Ahmedabad cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            "question": "Can we pickup additional passengers on the way in Surat to Ahmedabad one way taxi?",
+            "answer": "You may book Surat to Ahmedabad One way multi-stop cab by adding additional stops in itinerary. For Surat to Ahmedabad One way cab with only Surat and Ahmedabad in itinerary, additional pickup or drop will incur extra charges."
+          },
+          {
+            "question": "Do I need to pay both side Toll tax for Surat to Ahmedabad one way cab?",
+            "answer": "For Surat to Ahmedabad One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            "question": "When will I get car and driver details after booking Surat to Ahmedabad cab?",
+            "answer": "In most cases, car and driver details are shared within minutes after booking Surat to Ahmedabad cab. In rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            "question": "Can I travel with pets?",
+            "answer": "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Surat to Ahmedabad cab."
+          }
+        ]
+      }
+    ],
+  },
+  {
+    id: 12,
+    slug: "surat-to-vadodara",
+    heading: "Book Surat to Vadodara Cab",
+    tag: 'Culture',
+    description: [
+      "Surat to Vadodara distance : 154 km",
+      "Estimated travel time : 3 hours",
+      "Surat to Vadodara is the very popular route for tourists. Vadodara (also known as Baroda) is crowned with various architecture heritage like legendary monuments, beautiful gardens, museums and art galleries and thus is the cultural capital of Gujarat.",
+      "The third argest city of Gujrat, Vadodra is the home to many famous temples like Sri Swaminarayan Mandir, Nandalay Temple and Sun Temple in Borsad. Also, at the same time it has many forts and palaces like Mehrangarh Fort, Nazarbaug Palace and Laxmi Vilas Palace. The best time to visit this Vadodara would be during the months of October-March, so that it also gives the tourists an added advantage of attending the widely celebrated Navratri festival in the city. This Gujrati town celebrates the festivals like in its own zeal, with much more energy and enthusiasm than any other city in the world.",
+      "Taxi from Surat to Vadodara is readily available at AAVORide."
+    ],
+    coverImage: "/laxmi-villa-palace-vodara.jpg",
+
+    sections: [
+      {
+        subHeading: "Surat to Vadodara Cab Route",
+        description: [
+          "Surat to Vadodara by car is well connected via NH48 and is very convenient and comfortable drive. Surat to Vadodara distance is 154 Km and is 3 hours journey. Other famous tourist places on this route are : Kosamba",
+          "Jhagadia or Zaghadia: Bhalod Gangadashahara, Hindu and Jain temples like Daherasar, Kabirvad, Gayatri Mandir, Hanuman temple",
+          "Bharuch or Broach: historical heritage at the mouth of river Narmada",
+          "Karjan: known for its scenic beauty and picturesque locations."
+        ]
+      },
+      {
+        subHeading: "Places to visit in Vadodara using AAVORide Surat to Vadodara Car Rental with driver",
+        description: "",
+        part: {
+          "places in Vadodara": [
+            "Mehrangarh Fort",
+            "Sayaji Gardens",
+            "Champaner-Pavagadh hills",
+            "Ajwa Nimeta Garden",
+            "Sri Swaminarayan Mandir",
+            "Vadodara Museum",
+            "Kirti Mandir",
+            "Sursagar lake",
+            "Nazarbaug Palace",
+            "Maharaja Sayajirao University",
+            "Electrical and Mechanical Corps",
+            "ISKCON temple",
+            "Sardar Patel Planetarium",
+            "Kabirvad",
+            "Sun Temple, Borsad",
+            "Zarwani Waterfalls",
+            "Khanderao Market",
+            "Makarpura Palace",
+            "Aurobindo Ashram",
+            "Nyaya Mandir",
+            "Maharaja Fatehsingh Museum",
+            "Statue of Unity",
+            "Mandvi Gate",
+            "Nandalay Temple",
+            "Hazira Maqbara",
+            "Hathni Waterfalls",
+            "Navratri, Vadodara"
+          ]
+        }
+      },
+      {
+        subHeading: "Surat to Vadodara Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Surat to Vadodara taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Surat to Vadodara.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Surat to Vadodara cab and our prices are generally 20% lower than competition."
+        ],
+        "Surat to Vadodara Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Surat to Vadodara Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Surat to Vadodara taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Surat to Vadodara taxi service. You may book Surat to Vadodara round trip cab or one way multi-stop cab in case you plan not to return to Surat and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Surat to Vadodara car package as needed. You may also book Surat to Vadodara one way drop taxi or a local hourly rental cab in Vadodara with AAVORide."
+        ]
+      },
+      {
+        subHeading: "Frequently Asked Questions about Surat to Vadodara Cab Booking",
+        description: "",
+        faqs: [
+          {
+            "question": "What is the distance from Surat to Vadodara by car?",
+            "answer": "The distance from Surat to Vadodara by car is 154 km."
+          },
+          {
+            "question": "How long does it take from Surat to Vadodara by road?",
+            "answer": "It takes approx. 3 to 4 hours depending on traffic."
+          },
+          {
+            "question": "How much is Surat to Vadodara taxi fare?",
+            "answer": "Surat to Vadodara taxi fare is approx. ₹1700 for a good sedan car like Etios, Dzire and is approx. ₹2200 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            "question": "How much is Surat to Vadodara Innova fare?",
+            "answer": "Surat to Vadodara Innova fare is approx. ₹3200. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            "question": "Does price includes Driver charges and Night charges?",
+            "answer": "Yes, Surat to Vadodara cab price includes Driver charges and Night charges."
+          },
+          {
+            "question": "Do I need to make payment in advance to book Surat to Vadodara cab?",
+            "answer": "You will need to pay just 10-20% amount in advance for booking Surat to Vadodara cab."
+          },
+          {
+            "question": "Is local sightseeing included in Surat to Vadodara outstation trip?",
+            "answer": "For Surat to Vadodara Round trip cab, all the local sightseeing in Surat, Vadodara and other destination cities in itinerary is included.\nFor Surat to Vadodara One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Surat, Vadodara and other destination cities in itinerary is included.\nFor Surat to Vadodara One way cab i.e. with only Surat and Vadodara in itinerary, sightseeing is not included."
+          },
+          {
+            "question": "How much in advance do i need to book the cab from Surat to Vadodara?",
+            "answer": "Although you can book Surat to Vadodara cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            "question": "Can I book cab for Surat to Vadodara by calling customer support?",
+            "answer": "We are happy to provide you any clarifications required through customer support team but Surat to Vadodara cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            "question": "Can we pickup additional passengers on the way in Surat to Vadodara one way taxi?",
+            "answer": "You may book Surat to Vadodara One way multi-stop cab by adding additional stops in itinerary.\nFor Surat to Vadodara One way taxi with only Surat and Vadodara in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            "question": "Do I need to pay both side Toll tax for Surat to Vadodara one way cab?",
+            "answer": "For Surat to Vadodara One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            "question": "When will I get car and driver details after booking Surat to Vadodara cab?",
+            "answer": "In most cases, car and driver details are shared within minutes after booking Surat to Vadodara cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            "question": "Can I travel with pets?",
+            "answer": "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Surat to Vadodara cab."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 13,
+    slug: "surat-to-statue-of-unity",
+    heading: "Book Surat to Statue Of Unity Cab",
+    tag: 'Culture',
+    description: [
+      "Surat to Statue Of Unity distance : 160 km",
+      "Estimated travel time : 4 hours",
+      "Surat to Statue of Unity is the very popular route for both domestic as well as foreign tourists. Statue of Unity is a memorial to The Iron Man of India, Sardar Vallabhbhai Patel, and is the 'Tallest Statue in the World'.",
+      "Located on the banks of river Narmada, Statue of Unity is 182 meters tall statue of Sardar Vallabhbhai Patel inspiring the citizens of India through his freedom struggle and patriotism. It s a tribute to the person who unites the 552 princely states of India to form a single Union of India. The statue is located amidst the Satpura and Vindhyan Mountain ranges, on Sadhu Bet - 3.2 km downstream of the Sardar Sarovar Dam. A historical center and a remembrance are built at the base displaying antiques and reports from the life of Sardar Patel. It has 17 km-long Valley of Flowers. Selfie Points in a 5-km range around the Statue is additionally constructed. There are three type of tickets to visit Statue of Unity. One permits the tour of the monument and Valley of Flower. Second one allow access to the gallery as well. The gallery is situated on the top of the statue. Third one is express entry ticket to avoid the rush.",
+      "Taxi from Surat to Statue Of Unity is readily available at AAVORide. Other very popular cab route for tourists is Pune to Goa."
+    ]
+    ,
+    coverImage: "/statue-of-unity-inside.jpg",
+    sections: [
+      {
+        subHeading: "Surat to Statue Of Unity Cab Route",
+        description:
+          [
+            "Surat to Statue of Unity Taxi Prices - Surat to Statue of Unity by car is well connected via NH48 and GJ SH64 and is very convenient and comfortable drive. Surat to Statue of Unity distance is 160 Km and is 4 hours journey. Other famous tourist places on this route are : Surat to Statue of Unity Taxi PricesKasomba",
+            "Jhagadia or Zaghadia - Bhalod Gangadashahara, Hindu and Jain temples like Daherasar, Kabirvad, Gayatri Mandir, Hanuman temple",
+            "Ankleshwar - Ramkund Mandir, industrial township, GIDC (Gujarat Industrial Development Corporation)",
+            "Rajpipla - Zarwani Falls, Vishal Khadi Eco Tourism Center, Rajvant Palace",
+            "Bharuch or Broach - historical heritage at the mouth of river Narmada"
+          ]
+      },
+      {
+        subHeading: "Places to visit in Statue Of Unity using AAVORide Surat to Statue Of Unity Car Rental with driver",
+        description: "",
+        part: {
+          "popular Places near statue of unity": [
+            "Statue of Unity",
+            "Valley of Flowers",
+            "Statue of Unity Museum",
+            "Sardar Sarovar Dam",
+            "Arogya Van (Herbal Garden)",
+            "Butterfly Garden",
+            "Cactus Garden",
+            "Ekta Nursery",
+            "Vishwa Van",
+            "Unity Glow Garden",
+            "Children Nutrition Park",
+            "Jungle Safari",
+            "Rajasaurus Dinosaurs Trail",
+            "Khalwani Eco-Tourism",
+            "Zarvani Eco-Tourism",
+            "River Rafting",
+            "Sardar Sarovar Nauka Vihar",
+            "Zarvani & Kalwani cycling tour",
+            "Kevadia At Night - Night view of Kevadia is another mesmerising experience"
+          ]
+        }
+      },
+      {
+        subHeading: "Surat to Statue Of Unity Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Surat to Statue Of Unity taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Surat to Statue Of Unity.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Surat to Statue Of Unity cab and our prices are generally 20% lower than competition."
+        ]
+        , "Surat to Statue Of Unity Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Surat to Statue Of Unity Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Surat to Statue Of Unity taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Surat to Statue Of Unity taxi service. You may book Surat to Statue Of Unity round trip cab or one way multi-stop cab in case you plan not to return to Surat and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Surat to Statue Of Unity car package as needed. You may also book Surat to Statue Of Unity one way drop taxi or a local hourly rental cab in Statue Of Unity with AAVORide."
+        ]
+      },
+      {
+        subHeading: "Frequently Asked Questions about Surat to Statue Of Unity Cab Booking",
+        description: "",
+        faqs: [
+          {
+            "question": "What is the distance from Surat to Statue Of Unity by car?",
+            "answer": "The distance from Surat to Statue Of Unity by car is 160 km."
+          },
+          {
+            "question": "How long does it take from Surat to Statue Of Unity by road?",
+            "answer": "It takes approx. 4 to 5 hours depending on traffic."
+          },
+          {
+            "question": "How much is Surat to Statue Of Unity taxi fare?",
+            "answer": "Surat to Statue Of Unity taxi fare is approx. ₹1700 for a good sedan car like Etios, Dzire and is approx. ₹2200 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            "question": "How much is Surat to Statue Of Unity Innova fare?",
+            "answer": "Surat to Statue Of Unity Innova fare is approx. ₹3200. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            "question": "Does price includes Driver charges and Night charges?",
+            "answer": "Yes, Surat to Statue Of Unity cab price includes Driver charges and Night charges."
+          },
+          {
+            "question": "Do I need to make payment in advance to book Surat to Statue Of Unity cab?",
+            "answer": "You will need to pay just 10-20% amount in advance for booking Surat to Statue Of Unity cab."
+          },
+          {
+            "question": "Is local sightseeing included in Surat to Statue Of Unity outstation trip?",
+            "answer": "For Surat to Statue Of Unity Round trip cab, all the local sightseeing in Surat, Statue Of Unity and other destination cities in itinerary is included. For Surat to Statue Of Unity One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Surat, Statue Of Unity and other destination cities in itinerary is included. For Surat to Statue Of Unity One way cab i.e. with only Surat and Statue Of Unity in itinerary, sightseeing is not included."
+          },
+          {
+            "question": "How much in advance do I need to book the cab from Surat to Statue Of Unity?",
+            "answer": "Although you can book Surat to Statue Of Unity cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            "question": "Can I book cab for Surat to Statue Of Unity by calling customer support?",
+            "answer": "We are happy to provide you any clarifications required through customer support team but Surat to Statue Of Unity cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            "question": "Can we pickup additional passengers on the way in Surat to Statue Of Unity one way taxi?",
+            "answer": "You may book Surat to Statue Of Unity One way multi-stop cab by adding additional stops in itinerary. For Surat to Statue Of Unity One way taxi with only Surat and Statue Of Unity in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            "question": "Do I need to pay both side Toll tax for Surat to Statue Of Unity one way cab?",
+            "answer": "For Surat to Statue Of Unity One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            "question": "When will I get car and driver details after booking Surat to Statue Of Unity cab?",
+            "answer": "In most cases, car and driver details are shared within minutes after booking Surat to Statue Of Unity cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            "question": "Can I travel with pets?",
+            "answer": "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Surat to Statue Of Unity cab."
+          }
+        ]
+
+
+      }
+    ],
+  },
+  {
+    id: 14,
+    slug: "surat-to-diu",
+    heading: "Book Surat to Diu Cab",
+    tag: 'Adventure',
+    description: [
+      "Surat to Diu distance : 577 km",
+      "Estimated travel time : 12.5 hours",
+      "Surat to Diu is the very popular route for tourists. Diu is located near the port of Veraval, and is quite famous for its surrounding beaches, Portuguese history, rich heritage and architecture, which can be seen in Diu fort, nearby temples and the language of the locals.",
+      "Diu is more popular as a tourist place because of the natural beaches available very near to Diu like the Nagoa beach, ghoghla beach, jallandhar, chakratirth, gomtimata, simbor, and khodidhar where tourists can enjoy various water sport activities like Para sailing, water scooter, speed boat, banana boating, jet skiing, water skiing, bumper boating, and hot air balloon. The nearby Diu Fort is also popular tourist attraction. Diu makes to a perfect nomination as ideal destination for couples, family vacation and adventure lovers.",
+      "Taxi from Surat to Diu is readily available at AAVORide."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIS9H5eSLgtCUys8QXo3GuagOEO5L1M2NM3EVzpeHUow&s=10",
+
+    sections: [
+      {
+        subHeading: "Surat to Diu Cab Route",
+        description: [
+          "Surat to Diu by car is well connected via NH48 and is very convenient and comfortable drive with many stopovers in between like Vadodara, Anand, Amreli. Surat to Diu distance is 577 Km and is 12.5 hours journey. Other famous tourist places on this route and nearby are : Kasomba",
+          "Jhagadia or Zaghadia: Bhalod Gangadashahara, Hindu and Jain temples like Daherasar, Kabirvad, Gayatri Mandir, Hanuman temple",
+          "Bharuch or Broach: historical heritage at the mouth of river Narmada",
+          "Vadodara: Third largest city of Gujarat. Famous for Navratri festival.",
+          "Anand: Dakor temple, Navratri, Garba, Dandia",
+          "Dholera: ancient port city being smart with Dholera Special Investment Region (DSIR) making it manufacturing hub",
+          "Velavadar: Blackbuck National Park",
+          "Amreli: Kumbhnath Sukhnath Temple, Khodiyar Temple",
+          "Rajula: Dhareshwar",
+          "Somnath: Somnath Jyotirlinga Temple, Bhalka Tirth"
+        ]
+      },
+
+      {
+        subHeading: "Places to visit in Diu using AAVORide Surat to Diu Car Rental with driver",
+        description: "",
+        part: {
+          "Popular places in Diu": [
+            "The Naida caves",
+            "Nagoa Beach",
+            "Gangeshwar Temple",
+            "Diu Fort",
+            "The Golden sand beach - Ghoghla Beach",
+            "Sunset Point",
+            "St. Paul Church",
+            "INS Khukri Memorial",
+            "Panikota Fort",
+            "The Zampa Gateway",
+            "Sea Shell Museum",
+            "Diu Museum",
+            "Chakratirth beach",
+            "Jallandar Beach",
+            "Gomtimata beach",
+            "Church of St. Fancis of Assisi",
+            "Hoka trees",
+            "Dinosaur park",
+            "Simbor Beach",
+            "Chapel of Our Lady Rosary"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Surat to Diu Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Surat to Diu taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Surat to Diu.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Surat to Diu cab and our prices are generally 20% lower than competition."
+        ],
+        "Surat to Diu Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Surat to Diu Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Surat to Diu taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Surat to Diu taxi service. You may book Surat to Diu round trip cab or one way multi-stop cab in case you plan not to return to Surat and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Surat to Diu car package as needed. You may also book Surat to Diu one way drop taxi or a local hourly rental cab in Diu with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Surat to Diu Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Surat to Diu by car?",
+            answer: "The distance from Surat to Diu by car is 577 km."
+          },
+          {
+            question: "How long does it take from Surat to Diu by road?",
+            answer: "It takes approx. 12.5 to 13.5 hours depending on traffic."
+          },
+          {
+            question: "How much is Surat to Diu taxi fare?",
+            answer: "Surat to Diu taxi fare is approx. ₹6700 for a good sedan car like Etios, Dzire and is approx. ₹7200 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Surat to Diu Innova fare?",
+            answer: "Surat to Diu Innova fare is approx. ₹8200. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Surat to Diu cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Surat to Diu cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Surat to Diu cab."
+          },
+          {
+            question: "Is local sightseeing included in Surat to Diu outstation trip?",
+            answer: "For Surat to Diu Round trip cab, all the local sightseeing in Surat, Diu and other destination cities in itinerary is included.\nFor Surat to Diu One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Surat, Diu and other destination cities in itinerary is included.\nFor Surat to Diu One way cab i.e. with only Surat and Diu in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Surat to Diu?",
+            answer: "Although you can book Surat to Diu cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Surat to Diu by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Surat to Diu cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Surat to Diu one way taxi?",
+            answer: "You may book Surat to Diu One way multi-stop cab by adding additional stops in itinerary.\nFor Surat to Diu One way taxi with only Surat and Diu in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Surat to Diu one way cab?",
+            answer: "For Surat to Diu One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Surat to Diu cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Surat to Diu cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Surat to Diu cab."
+          }
+        ]
+      }
+    ]
+  },
+  //15 daman to suarat
+  {
+    id: 15,
+    slug: "surat-to-daman",
+    heading: "Book Surat to Daman Cab",
+    tag: "Luxury",
+    description: [
+      "Surat to Daman distance : 122 km",
+      "Estimated travel time : 2.5 hours",
+      "Surat to Daman is the most popular route for tourists. Daman is quite popular for its history and culture, lush greenery, exotic virgin beaches, industries and cheap alcohol.",
+      "Daman is a perfect blend of traditional heritage and mordern culture, having Churches, forts, chapels, and old quarter. Nani Daman Fort is the most popular tourist spot which stands as a proof of Portuguese colonial charm, invaluable architectural patterns and its rich history. There is also a jain temple in Nani Daman Fort and is dedicated to Lord Mahavir Swami. Jampore beach is an ideal place to see sunrise and sunsets and there are other tourists spots as well. All this make Daman an ideal weekend gateway not only from Mumbai, Surat as well as from Gujarat.",
+      "Taxi from Surat to Daman is readily available at AAVORide. Book reliable and affordabe chauffeur-driven Car rental service: https://AAVORide.com/city/car-rental-chennai",
+      "Taxi from Surat to Daman: https://AAVORide.com/assets/img/trips/daman.png"
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTua0_NBflI89knQM7fMtGYnj4ZbiifrrGHXCg5bhXzeg&s=10",
+
+    sections: [
+      {
+        subHeading: "Surat to Daman Cab Route",
+        description: [
+          "Surat to Daman by car is well connected via NH 48, which is a very convenient and comfortable drive. Surat to Daman distance is 122 Km and is 2.5 hours journey. Other famous tourist places on this route are : Navsari - Jamshed Baug, Dudhiya Talav, BAPS Shri Swaminarayan Temple",
+          "Bilimora: a minor port and offers lovely sights by the river Ambika",
+          "Valsad: Tadkeshwar Mahadev Temple, Tithal Beach",
+          "Vapi: second largest city of Gujarat and is important Industrial city"
+        ]
+      },
+
+      {
+        subHeading: "Places to visit in Daman using AAVORide Surat to Daman Car Rental with driver",
+        description: "",
+        part: {
+          "Places in Daman": [
+            "Devka beach",
+            "Mirasol Lake Garden",
+            "Lighhouse",
+            "Jampore beach",
+            "Shopping",
+            "Nani Daman",
+            "Cathedral of Bom Jesus",
+            "Somanath Mahadev Temple",
+            "Mirasol Water Park",
+            "Dominican Monastery",
+            "Jetty Garden",
+            "Devka Amusement Park",
+            "Daman Ganga Tourist Complex",
+            "House of Bockage",
+            "Satya Sagar Udyan",
+            "The collector office",
+            "Vaibhav Water Park",
+            "Mirasol Water Park",
+            "St Jerome Fort"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Surat to Daman Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Surat to Daman taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Surat to Daman.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Surat to Daman cab and our prices are generally 20% lower than competition."
+        ],
+        "Surat to Daman Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Surat to Daman Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Surat to Daman taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Surat to Daman taxi service. You may book Surat to Daman round trip cab or one way multi-stop cab in case you plan not to return to Surat and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Surat to Daman car package as needed. You may also book Surat to Daman one way drop taxi or a local hourly rental cab in Daman with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Surat to Daman Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Surat to Daman by car?",
+            answer: "The distance from Surat to Daman by car is 122 km."
+          },
+          {
+            question: "How long does it take from Surat to Daman by road?",
+            answer: "It takes approx. 2.5 to 3.5 hours depending on traffic."
+          },
+          {
+            question: "How much is Surat to Daman taxi fare?",
+            answer: "Surat to Daman taxi fare is approx. ₹1600 for a good sedan car like Etios, Dzire and is approx. ₹2100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Surat to Daman Innova fare?",
+            answer: "Surat to Daman Innova fare is approx. ₹3100. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Surat to Daman cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Surat to Daman cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Surat to Daman cab."
+          },
+          {
+            question: "Is local sightseeing included in Surat to Daman outstation trip?",
+            answer: "For Surat to Daman Round trip cab, all the local sightseeing in Surat, Daman and other destination cities in itinerary is included.\nFor Surat to Daman One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Surat, Daman and other destination cities in itinerary is included.\nFor Surat to Daman One way cab i.e. with only Surat and Daman in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Surat to Daman?",
+            answer: "Although you can book Surat to Daman cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Surat to Daman by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Surat to Daman cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Surat to Daman one way taxi?",
+            answer: "You may book Surat to Daman One way multi-stop cab by adding additional stops in itinerary.\nFor Surat to Daman One way taxi with only Surat and Daman in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Surat to Daman one way cab?",
+            answer: "For Surat to Daman One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Surat to Daman cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Surat to Daman cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Surat to Daman cab."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 40,
+    slug: "surat-to-valsad",
+    heading: "Book Surat to Valsad Cab",
+    tag: "Road-Trips",
+    description: [
+      "Surat to Valsad distance : 95 km",
+      "Estimated travel time : 1.9 hours",
+      "Surat to Valsad is a very popular route for business and also a pilgrimage. Valsad is famous for its Hafus mangoes, Valsadi teakwood and also as the birthplace of Shri Morarji Desai, ex-prime minister of India . Valsad is known for its Banyan trees also. This area is full of banyan trees.",
+      "Valsad is situated on south of Gujarat and Arabian sea is on its west. Valsad is quite famous among pilgrims,nature lovers and historians.Tirthal,a village is main pilgrimage centre in Valsad district. There is splendid complex houses Sai Baba temple, Sadhna centre for Jain Munis,Swami Narayan Temple etc. Tirthal is also famous for its black sand beach which attract nature lovers and other tourists here.Historian visit here for Sifee Villa Museum, Dandi.Other attractions are Parnera hill and fort. Parnera fort is made by Chatrapati Shivaji.",
+      "Taxi from Surat to Valsad is readily available at AAVORide.",
+      "Taxi from Surat to Valsad: https://api.AAVORide.com/profile_picture/route_page_picture_4b2582e3-2b1b-4ce2-9030-7b2383b2ee6c_1661175867"
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIcdxlx8XCn13tV1Irn_9kAOo8OhSn-TlUZpwbLoy5QA&s=10",
+
+    sections: [
+      {
+        subHeading: "Surat to Valsad Cab Route",
+        description: [
+          "Surat to Valsad by car is well connected through NH53 and NH 48 and is very convenient and comfortable drive. Surat to Valsad distance is 95 Km and is 1.9 hours journey. Book your Surat to Valsadcar tour package. Other famous tourist places on this route and nearby are :",
+          "1. Dumas Beach: Located around 16 km from Surat, it is a popular beach destination known for its black sand and beautiful sunset views.",
+          "2. Magdalla Beach: About 10 km from Surat, this beach is perfect for a relaxing break. It offers serene surroundings and clean sandy shores.",
+          "3. Ubharat Beach: Situated about 30 km from Surat, this beach is known for its golden sand, clear waters, and peaceful ambiance.",
+          "4. Dandi: Near Navsari, Dandi is historically significant as it was the site where Mahatma Gandhi led the famous Salt March in 1930 during the Indian independence movement.",
+          "5. Gopnath Beach: Located in Bhavnagar district, Gopnath Beach is a beautiful coastal spot with picturesque views, a lighthouse, and a serene atmosphere.",
+          "6. Tithal Beach: It is a popular tourist spot in Valsad known for its black sand, beautiful sunset views, and various recreational activities like horse riding and camel rides.",
+          "7. Swaminarayan Temple: Located in Valsad, this temple is dedicated to Lord Swaminarayan and is a significant religious site visited by devotees."
+        ]
+      },
+
+      {
+        subHeading: "Places to visit in Valsad using AAVORide Surat to Valsad Car Rental with driver",
+        description: "",
+        part: {
+          "Popular places": [
+            "Tithal Beach",
+            "Wilson hill",
+            ". Swaminarayan Temple",
+            "Parnera hill",
+            "Tadkeshwar Mahadev Mandir",
+            "Udvada Beach",
+            "Gandhi museum",
+            "Halar children park",
+            "Kalyan Baug",
+            "Sai Baba Temple",
+            "Nargol Beach",
+            "Bilpudi",
+            "Kaprada",
+            "Udvada Atash-Behram -Fire temple"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Surat to Valsad Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Surat to Valsad taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Surat to Valsad.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Surat to Valsad cab and our prices are generally 20% lower than competition."
+        ],
+        "Surat to Valsad Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Surat to Valsad Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Surat to Valsad taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Surat to Valsad taxi service. You may book Surat to Valsad round trip cab or one way multi-stop cab in case you plan not to return to Surat and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Surat to Valsad car package as needed. You may also book Surat to Valsad one way drop taxi or a local hourly rental cab in Valsad with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Surat to Valsad Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Surat to Valsad by car?",
+            answer: "The distance from Surat to Valsad by car is 95 km."
+          },
+          {
+            question: "How long does it take from Surat to Valsad by road?",
+            answer: "It takes approx. 1.4 to 2.4 hours depending on traffic."
+          },
+          {
+            question: "How much is Surat to Valsad taxi fare?",
+            answer: "Surat to Valsad taxi fare is approx. ₹1045 for a good sedan car like Etios, Dzire and is approx. ₹1425 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Surat to Valsad Innova fare?",
+            answer: "Surat to Valsad Innova fare is approx. ₹2425. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Surat to Valsad cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Surat to Valsad cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Surat to Valsad cab."
+          },
+          {
+            question: "Is local sightseeing included in Surat to Valsad outstation trip?",
+            answer: "For Surat to Valsad Round trip cab, all the local sightseeing in Surat, Valsad and other destination cities in itinerary is included.\nFor Surat to Valsad One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Surat, Valsad and other destination cities in itinerary is included.\nFor Surat to Valsad One way cab i.e. with only Surat and Valsad in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Surat to Valsad?",
+            answer: "Although you can book Surat to Valsad cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Surat to Valsad by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Surat to Valsad cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Surat to Valsad one way taxi?",
+            answer: "You may book Surat to Valsad One way multi-stop cab by adding additional stops in itinerary.\nFor Surat to Valsad One way taxi with only Surat and Valsad in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Surat to Valsad one way cab?",
+            answer: "For Surat to Valsad One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Surat to Valsad cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Surat to Valsad cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Surat to Valsad cab."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 17,
+    slug: "surat-to-saputara",
+    heading: "Book Surat to Saputara Cab",
+    tag: "Adventure",
+    description: [
+      "Surat to Saputara distance : 155 km",
+      "Estimated travel time : 3.3 hours",
+      "Surat to Saputara is one of the most popular tourist route that is passes between the hills, lush forest and incredible natural beauty. Saputara is a one of the popular hill station of the Dang district of Gujarat that is endowed with the beauty, greenery and tranquility.",
+      "Saputara is a one an only hill station of the Gujarat is situated in the Sahyadri range of the Western Ghats, on the banks of the river Sarpaganga. Hill Station offers gardens, parks and sanctuaries, Trekking trails to Rajat Pratap and to Tridhara near Dhupgarh, scenic and picturesque views that catch the eyes of the every tourist. The town is also known as the ‘Abode of Serpents’ and even has a shrine to serpent god on the banks of river Sarpaganga. Also there is many attraction like boating in the lake, riding on The ropeway, the bird's view point and Tiger, Leopard, Python and the four-horned Antelope spotting point that attract natural lover to visit the one of the bio diversity rich place of the India. Best to visit the town is winter season from October to February at that time the weather of the town remain pleasant, cool and calm that is the biggest attraction for the tourist. This beautiful hill station is easily accessible from Surat, Ahmedabad and Mumbai by the well connected route that is also one of the best experience.",
+      "Taxi from Surat to Saputara is readily available at AAVORide. Other very popular cab route for tourists is Hyderabad to Srisailam: https://AAVORide.com/route/hyderabad-to-srisailam.",
+      "Taxi from Surat to Saputara: https://api.AAVORide.com/profile_picture/route_page_picture_11f336de-eccd-4a6c-85c5-c3f53bf4a96e_1652433244"
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStdfhlwhtplglFs-DfN0LmzMzHz4Gs3ASR4VEgpIlBDA&s=10",
+
+    sections: [
+      {
+        subHeading: "Surat to Saputara Cab Route",
+        description: [
+          "Surat to Saputara by car is well connected through NH360 and is very convenient and comfortable drive. Surat to Saputara distance is 155 Km and is 3.3 hours journey. Book your Surat to Saputaracar tour package. Other famous tourist places on this route and nearby are :",
+          "Kamrej: Dada Bhagwan Temple",
+          "Navsari: BAPS Shri Swaminarayan Mandir, Maa Varudi Temple, Narmadeshwar Mahadev Temple",
+          "Baleshwar: Shri Labdhi Vikram Raj Yashsurjiswari Jain Tirth",
+          "Kadodra: Akalamukhi Hanumanji Mandir, Shree Akala Mukhi Hanumanji Temple",
+          "Chikhli: Shri Mallikarjun Mahadev Temple, Kaveri River, Bhavani Maa Temple, Jay Ambe Temple",
+          "Vansda: Vanil eco den, Mukteshwari Temple, Vansda National Park",
+          "Waghai: Tadkeswar Hanumanji Mandir, Waghai Botanical Garden, Beautiful Dang"
+        ]
+      },
+
+      {
+        subHeading: "Places to visit in Saputara using AAVORide Surat to Saputara Car Rental with driver",
+        description: "",
+        part: {
+          "Places in Saputara": [
+            "Dhupgarh",
+            "Saputara Lake",
+            "Satpura Tribal Museum",
+            "Governor’s Hill Trail",
+            "Rose Garden",
+            "Artist Village",
+            "Vansda National Park",
+            "Step Garden",
+            "Lake Garden",
+            "Don Hill Station",
+            "The Ropeway",
+            "Sapatura Forest Log Hut",
+            "Forest Nursery",
+            "Sunrise And Sunset Point",
+            "Nageshvara Jyotirlinga",
+            "Saputara Museum",
+            "Purna Wildlife sanctuary",
+            "Town View Point",
+            "Gira Falls",
+            "Echo Point",
+            "Hatgadh Fort"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Surat to Saputara Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Surat to Saputara taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Surat to Saputara.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Surat to Saputara cab and our prices are generally 20% lower than competition."
+        ],
+        "Surat to Saputara Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Surat to Saputara Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Surat to Saputara taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Surat to Saputara taxi service. You may book Surat to Saputara round trip cab or one way multi-stop cab in case you plan not to return to Surat and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Surat to Saputara car package as needed. You may also book Surat to Saputara one way drop taxi or a local hourly rental cab in Saputara with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Surat to Saputara Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Surat to Saputara by car?",
+            answer: "The distance from Surat to Saputara by car is 155 km."
+          },
+          {
+            question: "How long does it take from Surat to Saputara by road?",
+            answer: "It takes approx. 3 to 3.5 hours depending on traffic."
+          },
+          {
+            question: "How much is Surat to Saputara taxi fare?",
+            answer: "Surat to Saputara taxi fare is approx. ₹2600 for a good sedan car like Etios, Dzire and is approx. ₹3800 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Surat to Saputara Innova fare?",
+            answer: "Surat to Saputara Innova fare is approx. ₹4800. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Surat to Saputara cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Surat to Saputara cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Surat to Saputara cab."
+          },
+          {
+            question: "Is local sightseeing included in Surat to Saputara outstation trip?",
+            answer: "For Surat to Saputara Round trip cab, all the local sightseeing in Surat, Saputara and other destination cities in itinerary is included.\nFor Surat to Saputara One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Surat, Saputara and other destination cities in itinerary is included.\nFor Surat to Saputara One way cab i.e. with only Surat and Saputara in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Surat to Saputara?",
+            answer: "Although you can book Surat to Saputara cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Surat to Saputara by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Surat to Saputara cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Surat to Saputara one way taxi?",
+            answer: "You may book Surat to Saputara One way multi-stop cab by adding additional stops in itinerary.\nFor Surat to Saputara One way taxi with only Surat and Saputara in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Surat to Saputara one way cab?",
+            answer: "For Surat to Saputara One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Surat to Saputara cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Surat to Saputara cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Surat to Saputara cab."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 18,
+    slug: "surat-to-mount-abu",
+    heading: "Book Surat to Mountabu Cab",
+    tag: "HILL ESCAPE",
+    description: [
+      "Surat to Mountabu distance : 492 km",
+      "Estimated travel time : 9.5 hours",
+      "Surat to Mount Abu is very popular route for tourists because it offers adventure sports, spiritual holidays and eco-tourism at a single place. For history and architecture lovers, Mount Abu is a must visit place.",
+      "Mount Abu, the only hill station in Rajasthan, is popular not just amidst the Gujaratis and Rajasthanis but visitors from around the world. The most famous attraction is of course the Dilwara temples. It leaves you wondering how these temples were built 1000 years back. These Jain temples are very impressive manifestations of the heights reached in the field of art and architecture by Indian craftsmen. Mount Abu attracts not only history, art and architecture enthsiasts but it equally attracts Nature lovers, couples, wildlife watchers and spiritual tourists specially Jain pilgrims. Toad Rock, Sunset Point, Honeymoon point, Nakki lake are some of the main attractions.",
+      "Taxi from Surat to Mountabu is readily available at AAVORide.",
+      "Taxi from Surat to Mountabu: https://AAVORide.com/assets/img/trips/mountabu.jpg"
+    ],
+    coverImage: "/mountabbu.jpg",
+
+    sections: [
+      {
+        subHeading: "Surat to Mountabu Cab Route",
+        description: [
+          "Surat to Mount Abu by caris well connected through NE1 and NH48 and is very convenient and comfortable drive. A second route is via Himatnagar, Ambaji which is little longer by 40km.Surat to Mount Abu distanceis 492 Km and is 9.5 hours journey. Other famous tourist places on this route and nearby are:",
+          "Kasomba",
+          "Jhagadia or Zaghadia: Bhalod Gangadashahara, Hindu and Jain temples like Daherasar, Kabirvad, Gayatri Mandir, Hanuman temple",
+          "Bharuch or Broach: historical heritage at the mouth of river Narmada",
+          "Vadodara: Third largest city of Gujarat. Famous for Navratri festival.",
+          "Anand: Dakor temple, Navratri, Garba, Dandia",
+          "Nadiad: Beautiful temples and churches",
+          "Dabhoi: Vadodari Gate, Hira Bhagol, Vadhvana bird sanctuary, Vadhvana lake",
+          "Kheda: Hidimba Van where Bhim of Mahabharta killed daemon to marry Hidimba",
+          "Sandhana",
+          "Bareja",
+          "Navagam",
+          "Ahmedabad: India\"s first World Heritage City by UNESCO",
+          "Mehsana: famous for its historical spots",
+          "Palanpur: famous for its ancient temples and Gujarat\"s history",
+          "Himmatnagar: Swaminarayan temple",
+          "Ambaji: Ambaji temple",
+          "Patan: Rani ka Vav, UNESCO World Heritage Site"
+        ]
+      },
+
+      {
+        subHeading: "Places to visit in Mountabu using AAVORide Surat to Mountabu Car Rental with driver",
+        description: "",
+        part: {
+          "Places in Mount Abu": [
+            "Dilwara temples",
+            "Mount Abu Wildlife Sanctuary",
+            "Nakki lake",
+            "Guru Shikhar",
+            "Arbuda Devi Temple",
+            "Achalgarh village",
+            "Trevors Tank",
+            "Toad Rock, The mascot of Mount Abu",
+            "Raghunath Temple",
+            "Brahma Kumaris Ashram Mount Abu",
+            "Honeymoon point",
+            "Gaumukh temple",
+            "Sunset point",
+            "Universal Peace Hall - Om Shanti Bhavan"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Surat to Mountabu Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Surat to Mountabu taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Surat to Mountabu.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Surat to Mountabu cab and our prices are generally 20% lower than competition."
+        ],
+        "Surat to Mountabu Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Surat to Mountabu Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Surat to Mountabu taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Surat to Mountabu taxi service. You may book Surat to Mountabu round trip cab or one way multi-stop cab in case you plan not to return to Surat and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Surat to Mountabu car package as needed. You may also book Surat to Mountabu one way drop taxi or a local hourly rental cab in Mountabu with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Surat to Mountabu Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Surat to Mountabu by car?",
+            answer: "The distance from Surat to Mountabu by car is 492 km."
+          },
+          {
+            question: "How long does it take from Surat to Mountabu by road?",
+            answer: "It takes approx. 9.5 to 10.5 hours depending on traffic."
+          },
+          {
+            question: "How much is Surat to Mountabu taxi fare?",
+            answer: "Surat to Mountabu taxi fare is approx. ₹5600 for a good sedan car like Etios, Dzire and is approx. ₹6100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Surat to Mountabu Innova fare?",
+            answer: "Surat to Mountabu Innova fare is approx. ₹7100. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Surat to Mountabu cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Surat to Mountabu cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Surat to Mountabu cab."
+          },
+          {
+            question: "Is local sightseeing included in Surat to Mountabu outstation trip?",
+            answer: "For Surat to Mountabu Round trip cab, all the local sightseeing in Surat, Mountabu and other destination cities in itinerary is included.\nFor Surat to Mountabu One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Surat, Mountabu and other destination cities in itinerary is included.\nFor Surat to Mountabu One way cab i.e. with only Surat and Mountabu in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Surat to Mountabu?",
+            answer: "Although you can book Surat to Mountabu cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Surat to Mountabu by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Surat to Mountabu cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Surat to Mountabu one way taxi?",
+            answer: "You may book Surat to Mountabu One way multi-stop cab by adding additional stops in itinerary.\nFor Surat to Mountabu One way taxi with only Surat and Mountabu in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Surat to Mountabu one way cab?",
+            answer: "For Surat to Mountabu One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Surat to Mountabu cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Surat to Mountabu cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Surat to Mountabu cab."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 19,
+    slug: "surat-to-mahabaleshwar",
+    heading: "Book Surat to Mahabaleshwar Cab",
+    tag: "Pilgrimage",
+
+    description: [
+      "Surat to Mahabaleshwar distance : 489 km",
+      "Estimated travel time : 10 hours",
+      "Surat to Mahabaleshwar is the most popular route known for its pilgrimage destination among the devotees. The main attraction being The Mahabaleshwar Temple, Gokarna a 4th-century CE Hindu temple located in Uttara Kannada district, Karnataka.",
+      "It is a hill station located in the Sahyadri mountain range. With one of the few evergreen forests of India, it served as the summer capital of Bombay province during the British Raj. The destination is named after the Lord Shiva’s avatar.",
+      "Taxi from Surat to Mahabaleshwar is readily available at AAVORide.",
+      "Taxi from Surat to Mahabaleshwar: https://AAVORide.com/assets/img/trips/mahabaleshwar.png",
+    ],
+
+    coverImage:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxg6p-fnjJf-QzZUIIb1zDOgtUsVZRT5YRs9yXG09GNQ&s=10",
+
+    sections: [
+      {
+        subHeading: "Surat to Mahabaleshwar Cab Route",
+        description: [
+          "Surat to Mahabaleshwar by car is well connected via NH48 which is a very convenient and comfortable drive. Surat to Mahabaleshwar distance is 489 Km and is 10 hours journey. Other famous tourist places on this route are :",
+          "Bilimora: A minor port and offers lovely sights by the river Ambika",
+          "Vapi: Second largest city of Gujarat and an important industrial city",
+          "Silvassa: Hills, lush greenery, wildlife and Portuguese heritage",
+          "Manor: Khoj Fort and Manor Dam",
+          "Thane: City of Lakes",
+          "Mumbai: Financial capital of India known as 'Mini India'",
+          "Navi Mumbai: Elephanta Caves, Gateway of Mumbai and Karnala Fort",
+          "Rasayani: Karnala Bird Sanctuary, Karnala Fort and Shivganga Waterpark & Resort",
+          "Kolad: Kundalika River, white water rafting, Ghosala Fort and Tala Fort",
+          "Mahad: Gandharpale Caves and Chavdar Tale",
+          "Khed: Bhatye Beach, Ratnadurg Beach and Jaigad Beach etc.",
+          "Rajgad: Rajgad Fort",
+        ],
+      },
+
+      {
+        subHeading:
+          "Places to visit in Mahabaleshwar using AAVORide Surat to Mahabaleshwar Car Rental with driver",
+        description: "",
+        part: {
+          "Places in Mahabaleshwar": [
+            "Pratapgad",
+            "Veena Lake",
+            "Elephant's Head Point",
+            "Parsi Point",
+            "Mapro Garden",
+            "Babington Point",
+            "Hollywood Wax Museum",
+            "Lingmala Waterfall",
+            "Lodwick Point",
+          ],
+        },
+      },
+
+      {
+        subHeading: "Surat to Mahabaleshwar Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Surat to Mahabaleshwar taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Surat to Mahabaleshwar.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Surat to Mahabaleshwar cab and our prices are generally 20% lower than competition.",
+        ],
+
+        "Surat to Mahabaleshwar Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              Model: "Wagon-R, Indica or similar",
+              Capacity: "4 seater",
+              "Per Km Rate": "-",
+            },
+            {
+              "Vehicle Type": "Sedan",
+              Model: "Dzire, Etios or similar",
+              Capacity: "4 seater",
+              "Per Km Rate": "-",
+            },
+            {
+              "Vehicle Type": "SUV",
+              Model: "Marazzo, Ertiga or similar",
+              Capacity: "6 seater",
+              "Per Km Rate": "-",
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              Model: "Innova, Innova Crysta",
+              Capacity: "6 seater",
+              "Per Km Rate": "-",
+            },
+          ],
+        },
+
+        "Surat to Mahabaleshwar Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Surat to Mahabaleshwar taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Surat to Mahabaleshwar taxi service. You may book Surat to Mahabaleshwar round trip cab or one way multi-stop cab in case you plan not to return to Surat and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Surat to Mahabaleshwar car package as needed. You may also book Surat to Mahabaleshwar one way drop taxi or a local hourly rental cab in Mahabaleshwar with AAVORide.",
+        ],
+      },
+
+      {
+        subHeading:
+          "Frequently Asked Questions about Surat to Mahabaleshwar Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Surat to Mahabaleshwar by car?",
+            answer: "The distance from Surat to Mahabaleshwar by car is 489 km.",
+          },
+          {
+            question: "How long does it take from Surat to Mahabaleshwar by road?",
+            answer:
+              "It takes approx. 10 to 11 hours depending on traffic.",
+          },
+          {
+            question: "How much is Surat to Mahabaleshwar taxi fare?",
+            answer:
+              "Surat to Mahabaleshwar taxi fare is approx. ₹6100 for a good sedan car like Etios, Dzire and is approx. ₹6600 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check.",
+          },
+          {
+            question: "How much is Surat to Mahabaleshwar Innova fare?",
+            answer:
+              "Surat to Mahabaleshwar Innova fare is approx. ₹7600. For best price on your travel date for various car rental options, please enter trip details and check.",
+          },
+          {
+            question:
+              "Does price includes Driver charges and Night charges?",
+            answer:
+              "Yes, Surat to Mahabaleshwar cab price includes Driver charges and Night charges.",
+          },
+          {
+            question:
+              "Do I need to make payment in advance to book Surat to Mahabaleshwar cab?",
+            answer:
+              "You will need to pay just 10-20% amount in advance for booking Surat to Mahabaleshwar cab.",
+          },
+          {
+            question:
+              "Is local sightseeing included in Surat to Mahabaleshwar outstation trip?",
+            answer:
+              "For Surat to Mahabaleshwar Round trip cab, all the local sightseeing in Surat, Mahabaleshwar and other destination cities in itinerary is included.\nFor Surat to Mahabaleshwar One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Surat, Mahabaleshwar and other destination cities in itinerary is included.\nFor Surat to Mahabaleshwar One way cab i.e. with only Surat and Mahabaleshwar in itinerary, sightseeing is not included.",
+          },
+          {
+            question:
+              "How much in advance do I need to book the cab from Surat to Mahabaleshwar?",
+            answer:
+              "Although you can book Surat to Mahabaleshwar cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush.",
+          },
+          {
+            question:
+              "Can I book cab for Surat to Mahabaleshwar by calling customer support?",
+            answer:
+              "We are happy to provide you any clarifications required through customer support team but Surat to Mahabaleshwar cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'.",
+          },
+          {
+            question:
+              "Can we pickup additional passengers on the way in Surat to Mahabaleshwar one way taxi?",
+            answer:
+              "You may book Surat to Mahabaleshwar One way multi-stop cab by adding additional stops in itinerary.\nFor Surat to Mahabaleshwar One way taxi with only Surat and Mahabaleshwar in itinerary, Additional pickup or drop will incur additional charges.",
+          },
+          {
+            question:
+              "Do I need to pay both side Toll tax for Surat to Mahabaleshwar one way cab?",
+            answer:
+              "For Surat to Mahabaleshwar One way cab, you need to pay one side Toll tax only.",
+          },
+          {
+            question:
+              "When will I get car and driver details after booking Surat to Mahabaleshwar cab?",
+            answer:
+              "In most cases, car and driver details are shared within minutes after booking Surat to Mahabaleshwar cab. In few rare cases, it may take more time and may be shared up to two hours before departure.",
+          },
+          {
+            question: "Can I travel with pets?",
+            answer:
+              "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Surat to Mahabaleshwar cab.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 20,
+    slug: "surat-to-mumbai",
+    heading: "Book Surat to Mumbai Cab",
+    tag: "Road-Trips",
+    description: [
+      "Surat to Mumbai distance : 283 km",
+      "Estimated travel time : 5.5 hours",
+      "Surat to Mumbai is a popular route for both tourism as well as work. Mumbai being the capital city of the Indian state of Maharashtra and the Financial capital of India is so famous center of attraction that it is called as 'Mini India'.",
+      "Mumbai is famous for its fast city life, rich diversity and equally attracts business visitors as well as holiday makers from all around the world. The city is crowned with various epithets like 'The City that Never Sleeps', 'The City of Dreams', 'The City of Seven Islands'. One can find everything from the bustling crowd, stardom of Indian film industry, financial markets, business centers to beautiful lakes, beaches, parks, modern and historically significant architecture, heritage walks and famous religious sites in Mumbai.",
+      "Taxi from Surat to Mumbai is readily available at AAVORide."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpfjs4b2rOKux9Cq9KKXPylIOf65Nbqobnmq4P5jl9kQ&s=10",
+
+    sections: [
+      {
+        subHeading: "Surat to Mumbai Cab Route",
+        description: [
+          "Surat to Mumbai by car is well connected via NH48, which is a very convenient and comfortable drive. Surat to Mumbai distance is 283 Km and is 5.5 hours journey. Other famous tourist places on this route are :",
+          "Bilimora - A minor port and offers lovely sights by the River Ambika.",
+          "Vapi - Second largest city of Gujarat and an important industrial city.",
+          "Silvassa - Hills, lush greenery, wildlife and Portuguese heritage.",
+          "Manor - Khoj Fort and Manor Dam.",
+          "Thane - City of Lakes."
+        ]
+      },
+
+      {
+        subHeading: "Places to visit in Mumbai using AAVORide Surat to Mumbai Car Rental with driver",
+        description: "",
+        part: {
+          "Popular places in mumbai": [
+            "Marine Drive",
+            "Gateway of India",
+            "Juhu Beach",
+            "Colaba Causeway",
+            "Haji Ali Dargah",
+            "Siddhivinayak Temple",
+            "Girgaum Chowpatty",
+            "Elephanta Caves",
+            "Victoria Terminus",
+            "Bandra Worli Sea Link",
+            "Prince of Wales Museum",
+            "Fashion Street",
+            "Essel World",
+            "National Gallery of Modern Art",
+            "Film City",
+            "Global Vipassana Pagoda",
+            "Sanjay Gandhi National Park",
+            "Kanheri Caves",
+            "Mumbai Zoo",
+            "Mahalaxmi Temple",
+            "ISKCON Temple",
+            "Gorakhgad Trek",
+            "Hanging Gardens",
+            "Mandwa Beach",
+            "Mahakali Caves",
+            "Kamla Nehru Park",
+            "Lokhandwala"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Surat to Mumbai Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Surat to Mumbai taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Surat to Mumbai.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Surat to Mumbai cab and our prices are generally 20% lower than competition."
+        ],
+        "Surat to Mumbai Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Surat to Mumbai Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Surat to Mumbai taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Surat to Mumbai taxi service. You may book Surat to Mumbai round trip cab or one way multi-stop cab in case you plan not to return to Surat and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Surat to Mumbai car package as needed. You may also book Surat to Mumbai one way drop taxi or a local hourly rental cab in Mumbai with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Surat to Mumbai Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Surat to Mumbai by car?",
+            answer: "The distance from Surat to Mumbai by car is 283 km."
+          },
+          {
+            question: "How long does it take from Surat to Mumbai by road?",
+            answer: "It takes approx. 5.5 to 6.5 hours depending on traffic."
+          },
+          {
+            question: "How much is Surat to Mumbai taxi fare?",
+            answer: "Surat to Mumbai taxi fare is approx. ₹3300 for a good sedan car like Etios, Dzire and is approx. ₹3800 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Surat to Mumbai Innova fare?",
+            answer: "Surat to Mumbai Innova fare is approx. ₹4800. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Surat to Mumbai cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Surat to Mumbai cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Surat to Mumbai cab."
+          },
+          {
+            question: "Is local sightseeing included in Surat to Mumbai outstation trip?",
+            answer: "For Surat to Mumbai Round trip cab, all the local sightseeing in Surat, Mumbai and other destination cities in itinerary is included. For Surat to Mumbai One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Surat, Mumbai and other destination cities in itinerary is included. For Surat to Mumbai One way cab i.e. with only Surat and Mumbai in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Surat to Mumbai?",
+            answer: "Although you can book Surat to Mumbai cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Surat to Mumbai by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Surat to Mumbai cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Surat to Mumbai one way taxi?",
+            answer: "You may book Surat to Mumbai One way multi-stop cab by adding additional stops in itinerary. For Surat to Mumbai One way taxi with only Surat and Mumbai in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Surat to Mumbai one way cab?",
+            answer: "For Surat to Mumbai One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Surat to Mumbai cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Surat to Mumbai cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Surat to Mumbai cab."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 21,
+    slug: "surat-to-pune",
+    heading: "Book Surat to Pune Cab",
+    tag: "Culture",
+    description: [
+      "Surat to Pune distance : 414 km",
+      "Estimated travel time : 8 hours",
+      "Surat to Pune is the very popular route for both tourists and people traveling for work. Pune being the second largest city in the Indian state of Maharashtra after Mumbai and the seventh most populous city in the country has become a famous center of attraction.",
+      "Pune is a sprawling city in the western Indian state of Maharashtra. It was once the base of the Peshwas (prime ministers) of the Maratha Empire, which lasted from 1674 to 1818, popular for the 8th-century Pataleshwar Cave Temple dedicated to the Hindu god Shiva. Also, known for the grand Aga Khan Palace, built in 1892, and now a memorial to Mahatma Gandhi, whose ashes are preserved in the garden.",
+      "Taxi from Surat to Pune is readily available at AAVORide."
+    ],
+    coverImage: "https://images.jdmagicbox.com/quickquotes/listicle/listicle_1687091154753_j7n59_847x400.jpg",
+
+    sections: [
+      {
+        subHeading: "Surat to Pune Cab Route",
+        description: [
+          "Surat to Pune by car is well connected via NH48 which is a very convenient and comfortable drive. Surat to Pune distance is about 414 kms and it takes almost 8 hours to get there. Other famous tourist places on this route and nearby are :",
+          "Bilimora - A minor port and offers lovely sights by the River Ambika.",
+          "Vapi - Second largest city of Gujarat and an important industrial city.",
+          "Silvassa - Hills, lush greenery, wildlife and Portuguese heritage.",
+          "Manor - Khoj Fort and Manor Dam.",
+          "Thane - City of Lakes.",
+          "Mumbai - Financial capital of India known as 'Mini India'.",
+          "Navi Mumbai - Elephanta Caves, Gateway of Mumbai and Karnala Fort.",
+          "Panvel - Kalavantin Durg and Karnala Fort.",
+          "Rasayani - Karnala Bird Sanctuary, Karnala Fort, Shivganga Waterpark and Resort.",
+          "Khandala - A picturesque hill station.",
+          "Lonavala - Misty hill station.",
+          "Karla Caves - Oldest Buddhist cave shrines.",
+          "Tikona Fort - A dominant hill fortress and a beautiful trek spot.",
+          "Tung Fort - A spot for adventure-seekers due to its steep and narrow ascent trek.",
+          "Aamby Valley - A beautiful township developed with splendid landscape on hilly terrain.",
+          "Kamshet - A picturesque hill station renowned for paragliding and flying schools.",
+          "Pimpri-Chinchwad - Water parks and a model village."
+        ]
+      },
+
+      {
+        subHeading: "Places to visit in Pune using AAVORide Surat to Pune Car Rental with driver",
+        description: "",
+        part: {
+          "Popular places in surat": [
+            "Sinhagad",
+            "Shaniwar Wada",
+            "Aga Khan Palace",
+            "Dagadusheth Halwai Ganapati",
+            "Raja Dinkar Kelkar Museum",
+            "Rajiv Gandhi Zoological Park",
+            "Pataleshwar",
+            "Gandhi National Memorial Society",
+            "Saras Baug"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Surat to Pune Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Surat to Pune taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Surat to Pune.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Surat to Pune cab and our prices are generally 20% lower than competition."
+        ],
+        "Surat to Pune Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+
+        "Surat to Pune Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Surat to Pune taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Surat to Pune taxi service. You may book Surat to Pune round trip cab or one way multi-stop cab in case you plan not to return to Surat and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Surat to Pune car package as needed. You may also book Surat to Pune one way drop taxi or a local hourly rental cab in Pune with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Surat to Pune Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Surat to Pune by car?",
+            answer: "The distance from Surat to Pune by car is 414 km."
+          },
+          {
+            question: "How long does it take from Surat to Pune by road?",
+            answer: "It takes approx. 8 to 9 hours depending on traffic."
+          },
+          {
+            question: "How much is Surat to Pune taxi fare?",
+            answer: "Surat to Pune taxi fare is approx. ₹4700 for a good sedan car like Etios, Dzire and is approx. ₹5200 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Surat to Pune Innova fare?",
+            answer: "Surat to Pune Innova fare is approx. ₹6200. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Surat to Pune cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Surat to Pune cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Surat to Pune cab."
+          },
+          {
+            question: "Is local sightseeing included in Surat to Pune outstation trip?",
+            answer: "For Surat to Pune Round trip cab, all the local sightseeing in Surat, Pune and other destination cities in itinerary is included. For Surat to Pune One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Surat, Pune and other destination cities in itinerary is included. For Surat to Pune One way cab i.e. with only Surat and Pune in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Surat to Pune?",
+            answer: "Although you can book Surat to Pune cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Surat to Pune by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Surat to Pune cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Surat to Pune one way taxi?",
+            answer: "You may book Surat to Pune One way multi-stop cab by adding additional stops in itinerary. For Surat to Pune One way taxi with only Surat and Pune in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Surat to Pune one way cab?",
+            answer: "For Surat to Pune One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Surat to Pune cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Surat to Pune cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Surat to Pune cab."
+          }
+        ]
+      }
+    ]
+  },
+  //22 udiapur
+  {
+    id: 22,
+    slug: "surat-to-udaipur",
+    heading: "Book Surat to Udaipur Cab",
+    tag: "ROYAL-ESCAPE",
+    description: [
+      "Surat to Udaipur distance : 496 km",
+      "Estimated travel time : 9.5 hours",
+      "Surat to Udaipur is the very popular route for tourists and Udaipur is crowned with various epithets like \"Jewel of Mewar\", \"Venice of the East\", \"Kashmir of Rajasthan\", \"City of Lakes\", \"City of Sunrise\", \"City of Domes\", \"City of Temples\", \"City of Historicity\" etc.",
+      "Located around four lakes and lush green hills of Aravallis, Udaipur has all natural offerings for the most enchanting experience along with the human made beauty in form of royal Palaces and Temples. Its history trace back to 1553 when it was founded by Maharaja Udai Singh as new capital of Mewar Kingdom. Lake Palace, located in the middle of Lake Pichola is one of most beautiful sight in Udaipur.",
+      "Taxi from Surat to Udaipur is readily available at AAVORide."
+    ],
+    coverImage: "/udaipur_inner.jpg",
+
+    sections: [
+      {
+        subHeading: "Surat to Udaipur Cab Route",
+        description: [
+          "Surat to Udaipur by car is well connected via NH48 and is very convenient and comfortable drive. Surat to Udaipur distance is 496 Km and is 9.5 hours journey. Other famous tourist places on this route and nearby are : Bharuch or Broach - historical heritage at the mouth of river Narmada",
+          "Vadodara - - Third largest city of Gujarat. Famous for Navratri festival.",
+          "Godhra - -known for big restaurants,parks,libraries,churches,mosques,shopping etc.",
+          "Himmatnagar - - Swaminarayan temple",
+          "Shamlaji - - a major Hindu pilgrimage centre in Aravalli district of Gujarat",
+          "Dungarpur - - Fort, Palaces",
+          "Hill Forest",
+          "Idar - - known for handmade wooden toys, tiles, its temples and various beautiful architectural monuments on hill",
+          "Nathdwara - - Shrinathji Temple, Statue of Shiva"
+        ]
+      },
+
+      {
+        subHeading: "Places to visit in Udaipur using AAVORide Surat to Udaipur Car Rental with driver",
+        description: "",
+        part: {
+          "Popular places in Udaipur": [
+            "Lake Pichola",
+            "City Palace",
+            "Fateh Sagar Lake",
+            "Sajjangarh Palace",
+            "Jaisamand Lake",
+            "Doodh Talai Musical Garden",
+            "Vintage Car Museum",
+            "Eklingji Temple",
+            "Gulab Bagh and Zoo",
+            "Saheliyon-ki-Bari",
+            "Bada Mahal",
+            "Jag Mandir Palace",
+            "Maharana Pratap Memorial",
+            "Nehru Garden",
+            "Shilpgram",
+            "Sukhadia Circle"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Surat to Udaipur Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Surat to Udaipur taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Surat to Udaipur.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Surat to Udaipur cab and our prices are generally 20% lower than competition."
+        ],
+
+        "Surat to Udaipur Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+
+        "Surat to Udaipur Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Surat to Udaipur taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Surat to Udaipur taxi service. You may book Surat to Udaipur round trip cab or one way multi-stop cab in case you plan not to return to Surat and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Surat to Udaipur car package as needed. You may also book Surat to Udaipur one way drop taxi or a local hourly rental cab in Udaipur with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Surat to Udaipur Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Surat to Udaipur by car?",
+            answer: "The distance from Surat to Udaipur by car is 496 km."
+          },
+          {
+            question: "How long does it take from Surat to Udaipur by road?",
+            answer: "It takes approx. 9.5 to 10.5 hours depending on traffic."
+          },
+          {
+            question: "How much is Surat to Udaipur taxi fare?",
+            answer: "Surat to Udaipur taxi fare is approx. ₹5700 for a good sedan car like Etios, Dzire and is approx. ₹6200 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Surat to Udaipur Innova fare?",
+            answer: "Surat to Udaipur Innova fare is approx. ₹7200. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Surat to Udaipur cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Surat to Udaipur cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Surat to Udaipur cab."
+          },
+          {
+            question: "Is local sightseeing included in Surat to Udaipur outstation trip?",
+            answer: "For Surat to Udaipur Round trip cab, all the local sightseeing in Surat, Udaipur and other destination cities in itinerary is included. For Surat to Udaipur One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Surat, Udaipur and other destination cities in itinerary is included. For Surat to Udaipur One way cab i.e. with only Surat and Udaipur in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Surat to Udaipur?",
+            answer: "Although you can book Surat to Udaipur cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Surat to Udaipur by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Surat to Udaipur cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Surat to Udaipur one way taxi?",
+            answer: "You may book Surat to Udaipur One way multi-stop cab by adding additional stops in itinerary. For Surat to Udaipur One way taxi with only Surat and Udaipur in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Surat to Udaipur one way cab?",
+            answer: "For Surat to Udaipur One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Surat to Udaipur cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Surat to Udaipur cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Surat to Udaipur cab."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 23,
+    slug: "surat-to-dwarka",
+    heading: "Book Surat to Dwarka Cab",
+    tag: "SPRIRITUAL",
+    description: [
+      "Surat to Dwarka is very popular route for tourists because of its religious and mythological importance. Dwarka means \"Door to Salvation\" and is most popular among pilgrims as it is known as the \"home of Lord Krishna\".",
+      "Dwarka is believed to be the gateway to heaven and the belief is that the city was once engulfed by the sea. Its a city where mythology meets reality as archologists found an ancient underwater city. Dwarka is also home to one of the 12 Jyotirlingas, Nageshwar temple. The holiness and spirituality of Dwarka remain etched in visitor\"s memory for a long time. The spiritual importance of the city can also be known from the fact that it is the only city that is part of both Char Dham as well as Saptu Puri as mentioned in Hindu religion.",
+      "Taxi from Surat to Dwarka is readily available at AAVORide."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgxV8MaznRw8sn1Va1nqLaBxniZP-Lg6vTjfgTggIieA&s=10",
+
+    sections: [
+      {
+        subHeading: "Surat to Dwarka by Road",
+        description: [
+          "Surat to Dwarka by caris well connected through NH48 and NH47 and NH947 and is very convenient and comfortable drive.Surat to Dwarka distanceis 673 Km and is 13 hours journey. Other famous tourist places on this route and nearby are:",
+          "Kasomba",
+          "Jhagadia or Zaghadia: Bhalod Gangadashahara, Hindu and Jain temples like Daherasar, Kabirvad, Gayatri Mandir, Hanuman temple",
+          "Bharuch or Broach: historical heritage at the mouth of river Narmada",
+          "Vadodara: Third largest city of Gujarat. Famous for Navratri festival.",
+          "Anand: Dakor temple, Navratri, Garba, Dandia",
+          "Nadiad: Beautiful temples and churches",
+          "Dabhoi: Vadodari Gate, Hira Bhagol, Vadhvana bird sanctuary, Vadhvana lake",
+          "Kheda: Hidimba Van where Bhim of Mahabharta killed daemon to marry Hidimba",
+          "Surendranagar: Dholidhaja Dam, Rotary Garden,",
+          "Wadhwan: Rajmahal palace",
+          "Sayla: Heritage, Experiential",
+          "Chotila: Chamunda Mataji Temple, Jalaram Temple",
+          "Taranetar: Trinetreshwar Mahadev Temple",
+          "Viramgam: Harihar Mahadev temple, Munsar lake, Gangasar lake, Ambaji mandir",
+          "Nalsarovar: Nalsarovar Bird Sanctuary, river",
+          "Wankaner: Ranjit Vilas Palace, Shah Bava Dargah Sharif, Royal Oasis Hotel & Palace, Swaminarayan Temple, Macchu Dam",
+          "Rajkot: Jubilee Garden, Watson Museum, Rotary Dolls Museum, Aji Dam",
+          "Jamnagar"
+        ]
+      },
+
+      {
+        subHeading: "Places to Visit in Dwarka",
+        description: [],
+        part: {
+          "Popular places in Dwarka": ["Dwarkadhish Temple",
+            "Nageshwara Jyotirlinga Temple",
+            "Beyt Island",
+            "Dwarka Beach",
+            "Rukmani Temple",
+            "Lighthouse, Dwarka",
+            "Gomti Ghat",
+            "Gopi Talav",
+            "Bhadkeshwar Mahadev Mandir",
+            "Gita Temple",
+            "Sudama Setu",
+            "ISKCON Dwarka",
+            "Swami Narayan Mandir",
+            "Dunny point"]
+        }
+      },
+
+      {
+        subHeading: "Surat to Dwarka Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Surat to Dwarka taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Surat to Dwarka.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Surat to Dwarka cab and our prices are generally 20% lower than competition."
+        ],
+        "Surat to Dwarka Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Surat to Dwarka Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Surat to Dwarka taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Surat to Dwarka taxi service. You may book Surat to Dwarka round trip cab or one way multi-stop cab in case you plan not to return to Surat and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Surat to Dwarka car package as needed. You may also book Surat to Dwarka one way drop taxi or a local hourly rental cab in Dwarka with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Surat to Dwarka Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance between Surat and Dwarka?",
+            answer: "The distance between Surat and Dwarka is approximately 673 km."
+          },
+          {
+            question: "How long does it take to travel from Surat to Dwarka by road?",
+            answer: "It takes approximately 13 to 14 hours to travel from Surat to Dwarka by road, depending on traffic and road conditions."
+          },
+          {
+            question: "What is the taxi fare from Surat to Dwarka?",
+            answer: "A sedan taxi from Surat to Dwarka costs approximately ₹7700, while an SUV costs approximately ₹8200."
+          },
+          {
+            question: "What is the fare for an Innova from Surat to Dwarka?",
+            answer: "An Innova taxi from Surat to Dwarka costs approximately ₹9200."
+          },
+          {
+            question: "Is driver night charge included in the taxi fare?",
+            answer: "Yes, driver night charges are included in the taxi fare."
+          },
+          {
+            question: "How much advance payment is required for booking?",
+            answer: "You need to pay approximately 10-20% of the total fare as advance payment."
+          },
+          {
+            question: "Are sightseeing charges included in the taxi fare?",
+            answer: "Sightseeing is included in both round trip and one way multi-stop trips as per the selected package."
+          },
+          {
+            question: "How early should I book my Surat to Dwarka taxi?",
+            answer: "You can book your taxi up to 1 hour before departure, but it is suggested to book at least 1 day in advance."
+          },
+          {
+            question: "How can I book a taxi from Surat to Dwarka?",
+            answer: "You can book your taxi through the AAVORide website or app."
+          },
+          {
+            question: "Can I add additional passengers to my booking?",
+            answer: "Additional passengers can be added according to the seating capacity of the selected vehicle."
+          },
+          {
+            question: "Are toll charges included in the taxi fare?",
+            answer: "One-side toll charges are included as per the selected taxi package."
+          },
+          {
+            question: "When will I receive the driver details?",
+            answer: "Driver details are generally provided a few minutes before departure and can be available up to 2 hours before departure."
+          },
+          {
+            question: "Are pets allowed in the taxi?",
+            answer: "Yes, pets are allowed with an additional amount and the \"Pet Allowed\" add-on."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 24,
+    slug: "surat-to-somnath",
+    heading: "Book Surat to Somnath Cab",
+    tag: "SPIRITUAL",
+    description: [
+      "Surat to Somnath is very popular route for tourists as its religious and mythological importance. Somnath means \"Lord of the moon\" and is most popular among pilgrims as it is one of the 12 Jyotirlingas.",
+      "Somnath, being the first of 12 Jyotirlinga, is primarily a temple town having numerous temples, shrines, monuments and museums. Due to this spiritual importance, it is one of the most visited cities of Gujarat. Apart from holy places, Somnath also offers a enchanting beach and a wonderful shopping experience with its beautiful embroidered and beadwork clothes.",
+      "Taxi from Surat to Somnath is readily available at AAVORide."
+    ],
+    coverImage: "/somnath.jpg",
+
+    sections: [
+      {
+        subHeading: "Surat to Somnath Cab Route",
+        description: [
+          "Surat to Somnath by car is well connected through NH48 and NH47 and is very convenient and comfortable drive. Surat to Somnath distance is 645 Km and is 13 hours journey. An alternate route is via Dholera, Amreli which is shorter by 50 km but takes almost same time. Other famous tourist places on this route and nearby are",
+
+          "Kasomba",
+          "Jhagadia or Zaghadia: Bhalod Gangadashahara, Hindu and Jain temples like Daherasar, Kabirvad, Gayatri Mandir, Hanuman temple",
+          "Bharuch or Broach: historical heritage at the mouth of river Narmada",
+          "Vadodara: Third largest city of Gujarat. Famous for Navratri festival.",
+          "Anand: Dakor temple, Navratri, Garba, Dandia",
+          "Nadiad: Beautiful temples and churches",
+          "Dabhoi: Vadodari Gate, Hira Bhagol, Vadhvana bird sanctuary, Vadhvana lake",
+          "Kheda: Hidimba Van where Bhim of Mahabharta killed daemon to marry Hidimba",
+          "Surendranagar: Dholidhaja Dam, Rotary Garden,",
+          "Wadhwan: Rajmahal palace",
+          "Sayla: Heritage, Experiential",
+          "Chotila: Chamunda Mataji Temple, Jalaram Temple",
+          "Taranetar: Trinetreshwar Mahadev Temple",
+          "Viramgam: Harihar Mahadev temple, Munsar lake, Gangasar lake, Ambaji mandir",
+          "Nalsarovar: Nalsarovar Bird Sanctuary, river",
+          "Wankaner: Ranjit Vilas Palace, Shah Bava Dargah Sharif, Royal Oasis Hotel & Palace, Swaminarayan Temple, Macchu Dam",
+          "Rajkot: Jubilee Garden, Watson Museum, Rotary Dolls Museum, Aji Dam",
+          "Gondal: Naulakha Palace, BAPS Shri Swaminarayan Mandir, Akshar Deri Gondal",
+          "Jetpur",
+          "Junagadh"
+        ]
+      },
+      {
+        subHeading: "Places to visit in Somnath using AAVORide Surat to Somnath Car Rental with driver",
+        description: "",
+        part: {
+          "Popular places in Somnath": [
+            "Somnath Temple",
+            "Somnath Beaches",
+            "Laxminarayan Temple",
+            "Paanch Pandav Gufa",
+            "Triveni Sangam Temple",
+            "Suraj Mandir",
+            "Parshuram Temple",
+            "Shashibhushan Mahadev and Bhidbhanjan Ganpatiji Temple",
+            "Kamnath Mahadev Temple",
+            "Bhalka Tirth",
+            "Gita Temple",
+            "Dehotsarg Teerth",
+            "Prabhas Patan Museum",
+            "Junagadh Gate",
+            "Prachi Tirth"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Surat to Somnath Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Surat to Somnath taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Surat to Somnath.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Surat to Somnath cab and our prices are generally 20% lower than competition."
+        ],
+        "Surat to Somnath Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Surat to Somnath Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Surat to Somnath taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Surat to Somnath taxi service. You may book Surat to Somnath round trip cab or one way multi-stop cab in case you plan not to return to Surat and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Surat to Somnath car package as needed. You may also book Surat to Somnath one way drop taxi or a local hourly rental cab in Somnath with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Surat to Somnath Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Surat to Somnath by car?",
+            answer: "The distance from Surat to Somnath by car is 645 km."
+          },
+          {
+            question: "How long does it take from Surat to Somnath by road?",
+            answer: "It takes approx. 13 to 14 hours depending on traffic."
+          },
+          {
+            question: "How much is Surat to Somnath taxi fare?",
+            answer: "Surat to Somnath taxi fare is approx. ₹7300 for a good sedan car like Etios, Dzire and is approx. ₹7800 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Surat to Somnath Innova fare?",
+            answer: "Surat to Somnath Innova fare is approx. ₹8800. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Surat to Somnath cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Surat to Somnath cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Surat to Somnath cab."
+          },
+          {
+            question: "Is local sightseeing included in Surat to Somnath outstation trip?",
+            answer: "For Surat to Somnath Round trip cab, all the local sightseeing in Surat, Somnath and other destination cities in itinerary is included. For Surat to Somnath One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Surat, Somnath and other destination cities in itinerary is included. For Surat to Somnath One way cab i.e. with only Surat and Somnath in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Surat to Somnath?",
+            answer: "Although you can book Surat to Somnath cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Surat to Somnath by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Surat to Somnath cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Surat to Somnath one way taxi?",
+            answer: "You may book Surat to Somnath One way multi-stop cab by adding additional stops in itinerary. For Surat to Somnath One way taxi with only Surat and Somnath in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Surat to Somnath one way cab?",
+            answer: "For Surat to Somnath One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Surat to Somnath cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Surat to Somnath cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Surat to Somnath cab."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 25,
+    slug: "surat-to-palitana",
+    heading: "Book Surat to Palitana Cab",
+    tag: "PILGRIMAGE",
+    description: [
+      "In the Bhavnagar district of Gujarat, Palitana is recognized as one of the most sacred religious towns among Jain religions around the world. It is an ancient city that holds significant historical and religious importance and is visited by millions of devotees every year. With AAVORide book your holy drive towards Palitana from any corner of the India, our vast cab booking network ensures a comfortable and timely ride.",
+      "The Palitana temples of Jainism stand on Shatrunjaya Hill, near the city of Palitana in Bhavnagar district of Gujarat, India. This city, once called Padliptapur, is known today as the “City of Temples.” Along with Shikharji in Jharkhand, these two sites are seen as the holiest pilgrimage spots for the Jain community. Palitana was built as a sacred place, and because of this, no one, including the priests, is allowed to stay there overnight. Every Jain considers a visit to these temples as a once-in-a-lifetime chance to seek nirvana, or spiritual freedom.",
+      "Taxi from Surat to Palitana is readily available at AAVORide."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcbIdr4BUsUKHMjTnqybWzYCn4Q-CwcNJAoBHDNvRM4w&s=10",
+
+    sections: [
+      {
+        subHeading: "Surat to Palitana Cab Route",
+        description: [
+          "Surat to Palitana by car is well connected via NH48 and is very convenient and comfortable drive. Surat to Palitana distance is 402 Km and is 8.5 hours journey. Other famous tourist places on this route and nearby are :",
+
+          "Kasomba",
+          "Jhagadia or Zaghadia: Bhalod Gangadashahara, Hindu and Jain temples like Daherasar, Kabirvad, Gayatri Mandir, Hanuman temple",
+          "Bharuch or Broach: historical heritage at the mouth of river Narmada",
+          "Vadodara: Third largest city of Gujarat. Famous for Navratri festival.",
+          "Anand: Dakor temple, Navratri, Garba, Dandia",
+          "Dholera: ancient port city being smart with Dholera Special Investment Region (DSIR) making it manufacturing hub",
+          "Velavadar: Blackbuck National Park",
+          "Nadiad: Beautiful temples and churches",
+          "Bagodra",
+          "Dholka: scenic beauty",
+          "Kheda: Hidimba Van where Bhim of Mahabharta killed daemon to marry Hidimba",
+          "Nalsarovar: Nalsarovar Bird Sanctuary, river",
+          "Bhavnagar: cultural capital of Gujarat, hub of Diamond industry, busiest port"
+        ]
+
+      },
+      {
+        subHeading: "Places to visit in Palitana using AAVORide Surat to Palitana Car Rental with driver",
+        description: "",
+        part: {
+          "Popular placesin palitana": [
+            "Shatrunjaya Hill",
+            "Palitana Temples",
+            "Jain Museum",
+            "Kumar Pal Temple",
+            "Adinath Temple",
+            "Chaumukh Temple",
+            "Angar Pir",
+            "Siddhavad Temple",
+            "Vimal Nath Temple",
+            "Gopinath Temple",
+            "Rayan Pagoda",
+            "Bimal Shah Smruti",
+            "Madhav Bhavan",
+            "Moti Shah Temple",
+            "Hingraj Mata Temple",
+            "Dada Parshwanath Temple",
+            "Madhav Kunda",
+            "Rishabhdev Temple",
+            "Suvidinath Temple",
+            "Saraswati Bhavan",
+            "Sundari Temple",
+            "Shri Vishal Jain Derasar",
+            "Khartargachh Derasar",
+            "Padmavati Devi Temple",
+            "Kundalini Temple"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Surat to Palitana Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Surat to Palitana taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Surat to Palitana.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Surat to Palitana cab and our prices are generally 20% lower than competition."
+        ],
+        "Surat to Palitana Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Surat to Palitana Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Surat to Palitana taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Surat to Palitana taxi service. You may book Surat to Palitana round trip cab or one way multi-stop cab in case you plan not to return to Surat and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Surat to Palitana car package as needed. You may also book Surat to Palitana one way drop taxi or a local hourly rental cab in Palitana with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Surat to Palitana Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Surat to Palitana by car?",
+            answer: "The distance from Surat to Palitana by car is 402 km."
+          },
+          {
+            question: "How long does it take from Surat to Palitana by road?",
+            answer: "It takes approx. 8.5 to 9.5 hours depending on traffic."
+          },
+          {
+            question: "How much is Surat to Palitana taxi fare?",
+            answer: "Surat to Palitana taxi fare is approx. ₹4400 for a good sedan car like Etios, Dzire and is approx. ₹4900 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Surat to Palitana Innova fare?",
+            answer: "Surat to Palitana Innova fare is approx. ₹5900. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Surat to Palitana cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Surat to Palitana cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Surat to Palitana cab."
+          },
+          {
+            question: "Is local sightseeing included in Surat to Palitana outstation trip?",
+            answer: "For Surat to Palitana Round trip cab, all the local sightseeing in Surat, Palitana and other destination cities in itinerary is included. For Surat to Palitana One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Surat, Palitana and other destination cities in itinerary is included. For Surat to Palitana One way cab i.e. with only Surat and Palitana in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Surat to Palitana?",
+            answer: "Although you can book Surat to Palitana cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Surat to Palitana by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Surat to Palitana cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Surat to Palitana one way taxi?",
+            answer: "You may book Surat to Palitana One way multi-stop cab by adding additional stops in itinerary. For Surat to Palitana One way taxi with only Surat and Palitana in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Surat to Palitana one way cab?",
+            answer: "For Surat to Palitana One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Surat to Palitana cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Surat to Palitana cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Surat to Palitana cab."
+          }
+        ]
+      }
+    ]
+  },
+  // v and a
+  {
+    id: 26,
+    slug: "vadodara-to-ahmedabad",
+    heading: "Vadodara to Ahmedabad Taxi - Book Cab Online at ₹1339",
+    tag: "Culture",
+    description: [
+      "Vadodara stands for royalty and grandeur with numerous monuments and centres of learning. The city portrays a beautiful balance between the old and the new, which makes it one of the most recognised and well-developed cities in Gujarat.",
+      "Our car service from Vadodara to Ahmedabad ensures reliable and affordable services with no hidden charges for booking. Trained drivers take care of pickups and drop-offs on comfortable highways, and you have sedan or SUV cars to pick from with user-friendly booking and 24X7 assistance. You can also hire a one way taxi from Vadodara to Ahmedabad, or round trip service for ease and comfort during travel."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxD5z6ImW1R2CRpvDBy__G9Ocs7xCY2FEgzRm5yC1Xw&s=10",
+
+    sections: [
+      {
+        subHeading: "Vadodara to Ahmedabad cab fare - Intra Gujarat journey Pricing",
+        description: [
+          "With AAVORide, you get to enjoy a cheap ride. There are no additional charges required for driver and fuel; they are inclusive in the cab price. There is only an additional amount for tolls and parking required. You can even make online payment by card and UPI. Select your preferred car for the city-to-city taxi travel. The Vadodara to Ahmedabad Innova fare is suitable for families or small groups."
+        ],
+        table: [
+          {
+            vehicle: "Hatchback",
+            model: "WagonR, Indica, or similar",
+            capacity: "4 seater",
+            oneWay: "-",
+            roundTrip: "-",
+            bestFor: "Couples and budget travelers"
+          },
+          {
+            vehicle: "Sedan",
+            model: "Dzire, Etios or Similar",
+            capacity: "4 seater",
+            oneWay: "-",
+            roundTrip: "-",
+            bestFor: "Small families seeking comfort"
+          },
+          {
+            vehicle: "SUV",
+            model: "Xylo, Ertiga or similar",
+            capacity: "6 seater",
+            oneWay: "-",
+            roundTrip: "-",
+            bestFor: "Large families or small groups"
+          },
+          {
+            vehicle: "Assured Innova",
+            model: "Innova, Innova Crysta",
+            capacity: "6 seater",
+            oneWay: "-",
+            roundTrip: "-",
+            bestFor: "Elderly passengers relaxed travel"
+          },
+          {
+            vehicle: "Tempo Traveller",
+            model: "Force Travellers similar",
+            capacity: "12-17 seater",
+            oneWay: "-",
+            roundTrip: "-",
+            bestFor: "Group travel"
+          }
+        ]
+      },
+
+      {
+        subHeading: "Why is the AAVORide Vadodara to Ahmedabad Taxi price lower?",
+        description: [
+          "Wondering how we offer a cab at ₹1,339 while others demand ₹3,500 to ₹4,000? If you want to use a cab only for one way, or for a round trip, AAVORide makes you travel stress free. Our approach balances affordability with quality:"
+        ],
+        "what we provide": [
+          "Authentic one way fare cab price that fits the traveller's pocket.",
+          "Absolute Transparency, and no hidden cost in your taxi bill.",
+          "Your fare is determined by the transparent Distance Based Billing, making the cheapest cab travel with AAVORide.",
+          "Take advantage of the best booking along with a smooth and relaxed ride."
+        ]
+      },
+
+      {
+        subHeading: "Vadodara to Ahmedabad driver Car Rental - Business & Travel Packages",
+        description: [
+          "AAVORide is perfect for cheap booking from Vadodara to Ahmedabad. There are no extra charges for driver and fuel; they are covered under the cab price. Only an extra cost for tolls and parking is applicable for the passenger. There is a provision for payment of a cab through online payment mode using a card and UPI. Our extensive vehicle options are reasonable and go beyond straightforward city transfers."
+        ],
+        "Package 1: Vadodara to Ahmedabad Direct Transfer": [
+          "Effective city-to-city transportation for personal or business trips.",
+          "Ideal for educational purposes, family visits, and business gatherings.",
+          "Comfortable 2 to 3 hours on the highway.",
+          "Adaptable pickup from any location in Vadodara",
+          "Drop off at a hotel, workplace, or home in Ahmedabad."
+        ],
+        "Package 2: Vadodara to Ahmedabad Airport Transfer": [
+          "Sardhar Vallabhbhai Patel International Airport can be reached directly.",
+          "Coordination of flight timing to guarantee on time arrival.",
+          "Travelling nonstop or with few stops to meet flight deadlines.",
+          "Vadodara hotel/residence pickup",
+          "Drop off at the airline's designated domestic or international terminal."
+        ],
+        "Package 3: Vadodara-Ahmedabad Same Day Round trip": [
+          "Return to Vadodara after a full day's visit to Ahmedabad.",
+          "8 to 10 hours total, including 4-5 hours in Ahmedabad.",
+          "Ahmedabad for a full day, either for business or pleasure.",
+          "Vadodara departure in the morning (adjustable timing)",
+          "Returning to Vadodara in the evening."
+        ],
+        "Package 4 Ahmedabad City Tour Package": [
+          "Entire Ahmedabad sightseeing package with transportation to Vadodara.",
+          "Go back to Vadodara the same day or the following day.",
+          "Full day city tour: Adalaj, Sabarmati Ashram Stepwell, textile market, and heritage walk."
+        ],
+        "Packages 5: Gujarat Heritage Circuit": [
+          "Extended tour with stops in several Gujarati locations",
+          "A full 2 to 3 days in Gujarat.",
+          "Vadodara, Ahmedabad, Gandhinagar, the capital, and Lothal, the location of the ancient Indus, before returning.",
+          "Combining history, heritage, and contemporary infrastructure."
+        ]
+      },
+
+      {
+        subHeading: "Vadodara to Ahmedabad Cab Booking - Traveller Testimonials",
+        description: [
+          "Customer Rating: 4.6/5"
+        ],
+        "Perfect Airport Transfer": [
+          "I had an early morning flight from Ahmedabad, so I booked a 4 AM Vadodara to Ahmedabad car. The driver arrived on time, the highway was smooth, and I reached the airport early. Very punctual service.",
+          "- Mehul Shah, Alkapuri (Sedan, January 2018)"
+        ],
+        "Excellent Business Travel": [
+          "I travel from Vadodara to Ahmedabad every month for meetings. I usually book a one-way cab because it's faster than the train. Cars are clean, drivers are polite, and pricing stays clear every time.",
+          "- Priya Desai, Productivity Road (Sedan, Regular Customer)"
+        ],
+        "Great Family Visit Service": [
+          "We booked an SUV for six family members travelling to Ahmedabad for a wedding. The driver was helpful with luggage, and the car was spacious. Everyone travelled comfortably and reached safely without any hassle.",
+          "- Patel Family, Sayajigunj (SUV, December 2020)"
+        ],
+        "Same Day Round trip Success": [
+          "We had to go from Vadodara to Ahmedabad for a university admission. We booked a same-day round trip cab. After finishing the work, we returned in the evening. The driver waited patiently, saving us both time and the cost of a hotel stay.",
+          "- Ravi Kumar, MS University area (Sedan, November 2022)"
+        ]
+      },
+
+      {
+        subHeading: "Vadodara to Ahmedabad distance by Car - Complete Route Guide",
+        description: [
+          "Journey Overview: Vadodara to Ahmedabad Distance by Road",
+          "Total Distance: 110 miles (via Anand via NH47/NH48)",
+          "Expected Duration: 2-3 hours, depending on traffic and stops.",
+          "Route Path: Ahmedabad to Vadodara to Anand to Nadiad",
+          "Highway Quality: Excellent national roadways with four lanes throughout",
+          "Journey Characters: A commercial metropolis, a textile hub, a milk city, and a cultural capital."
+        ],
+        "Segment 1: Vadodara to Anand (40 Km, 45 minutes to 1 hour)": [
+          "You can start your road trip from Baroda to Gujarat's business hub.",
+          "Journey Highlights:",
+          "Within the city limits of Vadodara, traffic is mild.",
+          "Dairy farms are prominent in agricultural landscapes",
+          "Go out of Vadodara on NH47 (also known as NH48).",
+          "“Milk City of India”, Anand, is where the Amul cooperative is located.",
+          "Excellent highway quality from the city exit.",
+          "Optimal Anand Stop for a visit to the Amul factory (if scheduled)."],
+        "Segment 2: Anand to Nadiad (20 km, 20 to 30 minutes)": [
+          "Continue to travel through the heartland of Gujarat.",
+          "Journey Highlights:",
+          "Comfortable 80 -100 Km/h cruising speed.",
+          "The entire four Lane highway is smooth.",
+          "Less traffic than at city exits.",
+          "Excellent amenities for quick stops when necessary.",
+          "Nadiad cultural town features educational facilities and temples."],
+        "Segment 3: Nadiad to Ahmedabad (50 Km, 1 to 1.5 hours)": [
+          "The last approach to the biggest city in Gujarat.",
+          "Journey Highlights:",
+          "Direct freeway link to the airport.",
+          "Various places of entry based on the ultimate destination.",
+          "Use SP Ring Road or other roads to enter the city centre.",
+          "The quality of the highway is still very good.",
+          "As Ahmedabad draws closer, traffic volumes rise.",
+          "Go via the Sarkei region, which is the outskirts of Ahmedabad."]
+
+      },
+
+      {
+        subHeading: "Strategic Stops During Travel",
+        description: [
+          "Anand (40 Km from Vadodara) - Milk City Break: A pleasant stop en route is Anand, the location of the well known Amul Dairy. There are restaurants, Amul parlours, gas stations, and hygienic restrooms. Many tourists enjoy Amul chocolates, ice cream, and fresh dairy items during a 15 to 20 minute tea break.",
+          "Nadiad (60 Km from Vadodara) - Cultural Town: A historic town is well known for its temples and educational importance. You can find fuel stations, cafes, and small restaurants here. Many people stop for 15-20 minutes for snacks, and if time allows, you may visit the well known Santram Mandir.",
+          "Sarkhej (Near Ahmedabad) - Heritage Site: For a short detour near Ahmedabad. This 15th Century Indo-Islamic complex is worth a quick 30-45 minute visit. The stop suits travellers who want to enjoy architecture, though an extended halt may cost ₹200-₹300."
+        ]
+      },
+
+      {
+        subHeading: "Optimal Travel Timing for Vadodara to Ahmedabad",
+        description: [
+          "The season affects travel between Ahmedabad and Vadodara. Travelling early in the morning or late at night with air conditioning is more comfortable because summer can be extremely hot. Although there is occasional minor rainfall during the monsoon, the roads often remain clear. Moreover it's a busy season, winter gives the ideal weather for travel, so it's a good idea to reserve a cab in advance."
+        ]
+      },
+
+      {
+        subHeading: "Vadodara to Ahmedabad Travel - Major Savings",
+        description: [
+          "AAVORide is most famous for its reasonably priced and safe outstation cab services. We operate outstation cabs all over India. Now, book an outstation taxi through our easy online platform."
+        ],
+        "Round Trip service": [
+          "If you require an exclusive cab for your entire travel, then it is advisable to book round trip cabs from AAVORide. The driver in the cab would accompany you all through your travel. If you are concerned about our charges or the cab fare, don't worry; we assure you the most affordable fare for booking round trip cabs."
+        ],
+        "Vadodara to Ahmedabad One way cab": [
+          "We have affordable pricing for one way cabs, moreover with ideal transportation from one location to another, i.e.,. In your one way taxi bill, the costs incurred during your journey would be accounted only. Even for one way cab from Vadodara to Ahmedabad airport, several taxi services charge for return trips also, but we only charge for the actual distance traveled."
+        ],
+        "Clear Savings Comparison": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Sedan",
+              "Traditional Trip fare": "-",
+              "AAVORide One-way Fare": "-",
+              "Amount saved": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Traditional Trip fare": "-",
+              "AAVORide One-way Fare": "-",
+              "Amount saved": "-"
+            },
+            {
+              "Vehicle Type": "Innova",
+              "Traditional Trip fare": "-",
+              "AAVORide One-way Fare": "-",
+              "Amount saved": "-"
+            }
+          ]
+        },
+        "Value added Services": [
+          "Pet friendly taxis: Travel with your pets without worry along with flexible pet-friendly cab service. Just select on the pet allowed in the add on service section. Our taxis allow pets, making the journey comfortable for owners and animals.",
+          "Guaranteed Baggage: With the best taxi options, we provide carrier space for bags so you may travel securely. Enjoy a stress-free ride without worrying about your belongings.",
+          "Corporate Cabs: We also offer professional service designed for office trips, meetings, airport transfers, and regular business travel needs.",
+          "Language Drivers of Choice: You can now choose the preferred language driver at minimal cost. Choose drivers who can speak your preferred language, making communication during the journey easy and comfortable.",
+          "Verified new vehicle model: Our add on service, like confirmed car model 2022 or above give option to choose a modern and well maintained cab model as you preferred. Pay a small amount and get your desired model for a safe and comfortable ride through your trip."
+        ]
+      },
+
+      {
+        subHeading: "Ahmedabad: Attraction and Business Destination",
+        description: [
+          "Arrive at Gujarat's commercial capital via cab and explore these important sites."
+        ],
+        "Sardar Vallabhbhai Patel International Airport": [
+          "Gujarat and international destinations are served by this major airport.",
+          "Terminal: International and domestic in the same complex",
+          "Location: 9 Km north of the city centre",
+          "Airlines: Numerous international and large domestic carriers.",
+          "From Vadodara: Direct highway access, totalling about 115 Km."
+        ],
+        "Sabarmati Ashram": [
+          "A hub for the Indian Independence movement and the home of Mahatma Gandhi.",
+          "Significance: Gandhi resided there from 1917 until 1930 and started the improvement of liberation initiatives.",
+          "Features: Gandhi museum, library, prayer area, and Hriday Kunj ( Gandhi's Cottage)",
+          "Location: Every day from 8:30 AM to 6:30 PM",
+          "Entry Fee: Free",
+          "Best for: Students, Spiritual searchers, and history buffs"
+        ],
+        "Adalaj Stepwell (Adalaj Ni Vav)": [
+          "Gorgeous Indo Islamic architecture in a stepwell from the fifteenth century.",
+          "Features: Cool architecture, elaborate carvings, and five stories deep.",
+          "Location: North of Ahmedabad, 18 Km.",
+          "Entry Fee: Free",
+          "Best Time: For optional lighting, choose the morning or late afternoon.",
+          "Time Required: 1 to 1.5 hours"
+        ],
+        "Old City (UNESCO World Heritage Site)": [
+          "Historic walled city with markets, Heritage, and poles, or traditional housing groupings.",
+          "Main Areas: Routes for heritage walks, Jama Masjid, Teen Darwaza, and Manek Chowk.",
+          "Best For: Fans of street cuisine, architecture, and heritage",
+          "Heritage Walks: There are guided tours that highlight classic homes and pools.",
+          "Shopping: Handicrafts, jewellery, and traditional fabrics."
+        ],
+        "Kankari Lake": [
+          "Well-liked leisure area with activities along the lake.",
+          "Features: Food vendors, balloon rides, kids cities, zoos, and toy trains.",
+          "Best Time: Evening for nice lightning and weather",
+          "Entry: Nominal fees for a range of activities",
+          "Best For: Families with kids, leisure in the evening."
+        ],
+        "Textiles Markets": [
+          "Markets showcase Ahmedabad’s legacy of the textile industry.",
+          "Main Markets: Lal Darwaza, Relief Road, Law Garden (night markets for traditional clothing)",
+          "Products: Traditional Gujarati dress, block patterns, and bandhani.",
+          "Best For: Textile connoisseurs, purchasing traditional clothing",
+          "Timing: Varies with markets; nighttime markets are well liked."
+        ],
+        "ISCON Temple (Akshardham Gandhinagar)": [
+          "Gandhinagar, which is 30 Km from Ahmedabad, has a stunning temple complex.",
+          "Features: Magnificent gardens, architecture, and multimedia displays.",
+          "Timing: 9:30 AM to 7:30 PM (closed on Mondays)",
+          "Time Required: A thorough visit takes 2 to 3 hours.",
+          "Best Combined: From Ahmedabad, a day excursion."
+        ],
+        "IIM Ahmedabad Campus": [
+          "Prestigious business school, including famous Louis Kahn buildings.",
+          "Features: A stunning campus with a masterpiece of brutalist architecture",
+          "Visits: Campus visits are occasionally offered, but public access is restricted.",
+          "Best For: Students of architecture and those aspiring to management."
+        ],
+        "Science City": [
+          "IMAX cinema and interactive science centre.",
+          "Features: Planetarium, IMAX 3D, energy education park, and exhilarating rides.",
+          "Location: Ahmedabad's western border",
+          "Best For: Children's families and science enthusiasts",
+          "Time Required: 3 to 4 hours"
+        ]
+      },
+      {
+        subHeading: "Frequently Asked Questions - Vadodara to Ahmedabad Cab Service",
+        description: "",
+        faqs: [
+          {
+            question: "How to reach from Vadodara to Ahmedabad Airport?",
+            answer: "The best way to reach Ahmedabad Airport from Vadodara is by cab. The journey is around 110 km and takes about 2.5 to 3 hours. It offers direct pickup, luggage space, and flexible timing."
+          },
+          {
+            question: "Can I book a taxi from Vadodara to Ahmedabad online?",
+            answer: "Yes, you can book easily through the website or mobile app. Enter pickup and drop details, choose your vehicle, select date and time, and confirm. You will receive booking confirmation and driver details before travel."
+          },
+          {
+            question: "How much is the Baroda to Ahmedabad taxi fare?",
+            answer: "The fare depends on the car type you choose, such as a sedan or SUV. One-way and round-trip prices differ. You pay a small advance for online cab booking, and the remaining amount can be paid after the trip."
+          },
+          {
+            question: "How long does it take to travel from Vadodara to Ahmedabad by road?",
+            answer: "The distance is about 110 km and usually takes 2 to 3 hours by road. Morning travel is faster due to less traffic, while city entry traffic may increase travel time slightly."
+          },
+          {
+            question: "Which places can I visit on the way?",
+            answer: "You can stop at Anand for snacks or a short break. Nadiad also comes on the route. Near Ahmedabad, Adalaj Stepwell is a popular historical place worth visiting if you have extra time."
+          },
+          {
+            question: "Are AC sedans available for this trip?",
+            answer: "Yes, AC sedans are available for comfortable travel. SUVs and bigger cars are also offered for larger groups. Vehicles are clean, well-maintained, and suitable for long drives in Gujarat’s warm weather."
+          },
+          {
+            question: "What payment options are accepted?",
+            answer: "You can pay the advance online using UPI, debit or credit card, or net banking. The remaining balance can be paid to the driver in cash or UPI after completing the journey."
+          },
+          {
+            question: "Are there weekend getaway options from Ahmedabad?",
+            answer: "Yes, you can visit nearby places like Gandhinagar, Modhera, Patan, or Champaner for a short weekend trip. These destinations are ideal for one or two days of travel and sightseeing."
+          },
+          {
+            question: "What are the main towns between Vadodara and Ahmedabad?",
+            answer: "Anand and Nadiad are the main towns on this route. Anand is popular for food stops and facilities. The highway is direct and smooth, making travel between the two cities simple and quick."
+          },
+          {
+            question: "Are there sightseeing stops along the route?",
+            answer: "Yes, travellers can take short breaks at Anand for refreshments. Adalaj Stepwell near Ahmedabad is also a good stop. Most people prefer direct travel since the distance between cities is short."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 27,
+    slug: "vadodara-to-statue-of-unity",
+    tag: 'Culture',
+    heading: "Vadodara to Statue of Unity Taxi - Book Safe & Comfortable Cab Service",
+    description: [
+      "The Statue of Unity is one of the perfect tourist destinations from Vadodara. It is a gigantic monument standing tall at 182 metres in the sky and capturing the attention of tourists. It is the world’s tallest statue and a grand tribute to Sardar Vallabhbhai Patel - the Iron Man of India. This is located near the Kevadia town of Gujarat. This iconic monument attracts lakhs of tourists every year, and Vadodara serves as the nearest city that provides direct connections to this.",
+      "One of the easy and convenient ways to travel to the State of Unity from Vadodara is by taking a personal cab. As the public transport might be crowded and time-consuming, book a Vadodara to statue of Unity cab. The distance of the statue is just 90 km, and your Vadodara to Statue of Unity taxi takes approximately 2 hours to reach there.",
+      "AAVORide offers its comfortable, convenient, and flexible Vadodara to Statue of Unity cab service at a very affordable price. Making us one of the perfect service provider options for families, tourists, and groups alike. Whether you're visiting for sightseeing, a school trip, or a spiritual journey—AAVORide is your trusted travel partner.",
+      "Book your Vadodara to Statue of Unity cab now for a hassle-free experience."
+    ],
+    coverImage: "/statue-of-unity-inside.jpg",
+    sections: [
+      {
+        subHeading: "Why Book a Vadodara to Statue of Unity Cab with AAVORide?",
+        description: [
+          "AAVORide is a popular outstation taxi provider with a good reputation in the taxi services industry. We provide several taxi services over the routes in India. Also, on the route from Vadodara to the Statue of Unity, AAVORide offers Vadodara to Statue of Unity one-way cabs, round-trip taxis, or rental car service with a commitment to a safe, secure, and comfortable ride. Our expert chauffeur, well-maintained car fleet and wide range of services at an affordable price catch the attention of travellers. Below we have given some advantages that you will get by booking a Vadodara to Statue of Unity taxi with AAVORide. They are as follows:"
+        ],
+        "Experienced & verified drivers": [
+          "Travel with peace of mind knowing your chauffeur is experienced and background-checked. We have a larger fleet of professional drivers. They have significant experience with the routes from Vadodara to the Statue of Unity. They are also well-versed in the regional information that makes your journey a wholesome experience."
+        ],
+        "Well-maintained AC vehicles": [
+          "You will get a clean and well-conditioned cab for your trip. For a comfortable and relaxing ride, we provide a fresh-smelling and well-maintained cab or taxi to the passengers. We make sure that the taxi undergoes timely services and is in good condition."
+        ],
+        "One-way & round-trip flexibility": [
+          "To make travel easy and convenient, AAVORide offers multiple cab options for one-way and round-trip journeys at the most reasonable fare with no hidden charges. You can easily book a Vadodara to Statue of Unity round-trip cab or one-way from our platform."
+        ],
+        "Transparent fares, no hidden charges": [
+          "One of the best advantages of travelling with AAVORide is that you will not pay any hidden charges at the end of your journey. We prefer transparent billing and a simple pricing process to maintain transparency. We ensure that the bill receipt you get will show every detail clearly and concisely. There is no provision for hidden charges, and you will get your bill as soon as your trip is complete."
+        ],
+        "Doorstep pickup from Vadodara city, railway station, or airport": [
+          "At AAVORide, you will get the facilities for door-to-door pickup and drop-off cab services. Our professional drivers will come with a well-maintained, air-conditioned car at your door. We aim to make our passenger cab experience comfortable and easy."
+        ],
+        "24x7 customer support": [
+          "Have questions or changes? We're always available. To satisfy their customers, AAVORide offers 24/7 customer support to address any issue or concern promptly. Our trained customer support executives are always ready to help customers with any queries whenever they require it."
+        ]
+
+      },
+
+      {
+        subHeading: "Distance, Time & Route Details",
+        description: [
+          "The Statue of Unity is one of the most popular tourist attractions in Gujarat state that attracts tourists from all over the country. Tourists often reach Vadodara to get there, as Vadodara is one of the nearest major cities that offer the gateway to this beautiful site. Also, for the people of Vadodara and its nearby areas, it is one of the perfect weekend getaways and holiday locations. There are several routes that connect the Statue of Unity from Vadodara. Below are the best two routes with their respective times and route information.",
+          "Recommended Route: via SH11 & SH63 Vadodara → Dabhoi → Rajpipla → Kevadia (Statue of Unity)",
+          "One of the common routes that connects both destinations is via SH11 & SH63. It is a direct route from Vadodara via Dabhoi, Rajpipala and Kevadia. Also, travelling on this route is very convenient and comfortable, as your whole route is well-maintained and allows for a fast and smooth driving experience. The Vadodara to Statue of Unity distance from this route is approximately 90km and takes nearly 2 hours of continuous driving to reach there. You can also take short breaks at Dabhoi, Rajpipla and Kevadia for snacks and sightseeing.",
+          "Alternate Route: Vadodara → Padra → Rajpipla → Kevadia",
+          "As there are many ways to reach the Statue of Unity from Vadodara, travellers also go via Padra. Panda is an offbeat destination visited by travellers while travelling. This route might be a little longer and covers approximately 120km. It also increases the Vadodara to Statue of Unity travel time, but offers you a unique experience."
+        ]
+      },
+
+      {
+        subHeading: "Best Season",
+        description: [
+          "Statue of Unity is one of the evergreen tourist sites of Gujarat state that is located near Vadodara and offers people of Vadodara a perfect weekend getaway option. But if you are planning a trip to explore the beauty of this incredible mountain, then the best time to visit is from October to February. During this time, you will find that the weather and pleasant perfect of sightseeing."
+        ]
+      },
+
+      {
+        subHeading: "Vadodara to Statue of Unity Taxi Fare & Car Options",
+        description: [
+          "Booking a Vadodara to Statue of Unity cab with AAVORide makes your trip hassle-free. You don’t need to pay extra charges for fuel and driver's allowance; they are included in your cab charges from Vadodara to the Statue of Unity. We use a transparent pricing model with no hidden costs for the Vadodara to Statue of Unity taxi fare. However, you have to pay a little additional charge for tolls and parking, but you have options to choose Toll and State tax-inclusive prices too. You can pay your bill online with a card and UPI. AAVORide provides cheap Vadodara to Statue of Unity cab bookings for premium comfort for their passengers."
+        ],
+        "Vadodara to Statue of Unity Cab Fare": {
+          comparisonTable: [
+            {
+              vehicle: "Hatchback",
+              model: "WagonR, Indica",
+              capacity: "4",
+              oneWay: "-",
+              roundTrip: "-"
+            },
+            {
+              vehicle: "Sedan",
+              model: "Dzire, Etios",
+              capacity: "4",
+              oneWay: "-",
+              roundTrip: "-"
+            },
+            {
+              vehicle: "SUV",
+              model: "Ertiga, Marazzo",
+              capacity: "6",
+              oneWay: "-",
+              roundTrip: "-"
+            },
+            {
+              vehicle: "Assured Innova",
+              model: "Innova",
+              capacity: "6",
+              oneWay: "-",
+              roundTrip: "-"
+            },
+            {
+              vehicle: "Tempo Traveller",
+              model: "Tempo Traveller",
+              capacity: "12",
+              oneWay: "-",
+              roundTrip: "-"
+            }
+          ]
+        },
+        "Additional costs": [
+          "Parking charges are extra.",
+          "Toll and state tax are included in the One-way fare. For round trip, it is extra, but you have the option to choose a toll and state tax inclusive price too.",
+          "5% GST extra"
+        ]
+      },
+
+      {
+        subHeading: "Car Rental Service for Vadodara to Statue of Unity",
+        description: [
+          "AAVORide is one of India's splendid car rental service provider. We aim to make cab booking easy and comfortable for travellers. For that, AAVORide offers its Vadodara to Statue of Unity cab rental service for group trips, solo adventures, or couple getaways. Hiring a taxi from Vadodara to the Statue of Unity gives complete flexibility in trip planning, allows for personalised stops, and provides door-to-door service with flexible pickup times. Vadodara to Statue of Unity taxi booking with AAVORide offers multiple advantages for travellers with a well-maintained fleet for long hilly drives. Whether you need a one-way cab, round-trip or outstation cab from Vadodara to Statue of Unity rental services, we ensure an affordable Vadodara to Statue of Unity cab service for its passengers."
+        ],
+        "Vadodara to Statue of Unity Car Rental Prices": {
+          comparisonTable: [
+            {
+              vehicle: "Hatchback",
+              model: "WagonR, Indica",
+              capacity: "4",
+              oneWay: "-"
+            },
+            {
+              vehicle: "Sedan",
+              model: "Dzire, Etios",
+              capacity: "4",
+              oneWay: "-"
+            },
+            {
+              vehicle: "SUV",
+              model: "Ertiga, Marazzo",
+              capacity: "6",
+              oneWay: "-"
+            },
+            {
+              vehicle: "Assured Innova",
+              model: "Innova",
+              capacity: "6",
+              oneWay: "-"
+            }
+          ]
+        },
+        "Key advantage of AAVORide’s Vadodara to Statue of Unity car rental service": [
+          "Perfect for family visits, tourist groups, school/college trips",
+          "Clean & sanitized cars with professional drivers",
+          "Flexible bookings—ideal for day trips",
+          "Convenient pickup from railway stations, airports, or city hotels"
+        ]
+      },
+
+      {
+        subHeading: "How to Book a Vadodara to Statue of Unity Taxi Online?",
+        description: [
+          "Booking your Vadodara to Statue of Unity taxi with AAVORide is one of the best choices for travellers. AAVORide provides the best taxi service from Vadodara to the Statue of Unity. There are multiple cab booking options on AAVORide for Vadodara to the Statue of Unity cab booking. You can book a Vadodara to Statue of Unity one-way cab, a Vadodara to Statue of Unity round-trip, or a Vadodara to Statue of Unity car rental from the AAVORide online cab booking platform. Also, to make the cab booking process easy, AAVORide offers multiple platforms; you can book a Vadodara to Statue of Unity cab from our website and mobile application. Further, you can also directly contact our customer service executive for booking and any booking process issues.",
+          "Through the Website: You can easily book your Vadodara to Statue of Unity cab with AAVORide’s user-friendly website, https://AAVORide.com. Doing a Vadodara to Statue of Unity cab booking through the website is an easy process. Here you get a form where you fill in your general details, including the pickup and destination addresses. Then on the next page, you get the car option; choose wisely according to your needs.",
+          "Mobile Application: To make booking easier, more secure, and faster, you can easily book an online cab from Vadodara to the Statue of Unity with AAVORide mobile app. You can easily download that from the Play Store and Apple App Store. With the mobile app, you can easily book your Vadodara to Statue of Unity cab anytime and anywhere from your phone or tablet.",
+          "Booking Assistance: For more support and assistance, travellers can directly contact AAVORide customer executives to get direct human assistance. We provide 24/7 active customer support to our passengers for timely issue resolution and the cab booking process."
+        ],
+        "bookingSteps": [
+          "Visit the AAVORide website or mobile app.",
+          "Enter your pickup location (Vadodara) and destination (Statue of Unity).",
+          "Choose your preferred car type.",
+          "Select your trip type (one-way or round-trip).",
+          "Confirm the booking and make a payment online.",
+          "Receive booking confirmation & driver details."
+        ]
+      },
+
+      {
+        subHeading: "Places to Visit En Route",
+        description: [
+          "The route from Vadodara to Statue of Unity is one of the busiest routes in the state. Thousands of people and travellers travel through this route by cab. Cabs allow them to enjoy sightseeing during their journey. There are several places to visit between Vadodara and Statue of Unity. Some of the popular ones are as follows:"
+
+          , "Dabhoi: As you pass from Vadodara, you reach Dabhoi. It is one of the small towns that is famous for its historic gates & architecture. Travellers explore its splendid architecture, whose walls are intricately carved and show iconography. Making it one of the perfect stops en route from Vadodara to the Statue of Unity.",
+          "Rajpipla: It is an offbeat destination just before your final destination. It is a scenic town with colonial charm that offers a beautiful blend of natural beauty, historical sites and religious attractions. Some of the sites of the town is Jain Temples, Pajpipla Palace, Santosh Charrasta, Harsiddhi Mataji Temple, etc.",
+          "With our Vadodara to Statue of Unity taxi, travellers have full freedom to enjoy their road trip in Gujarat. To enjoy these places between Vadodara and Statue of Unity, you should have to mention them during booking. You can also enjoy the Narmada River viewpoints near Kevadia."
+        ]
+
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Vadodara to Statue Of Unity Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Vadodara to Statue Of Unity by car?",
+            answer: "The distance from Vadodara to Statue Of Unity by car is 90 km."
+          },
+          {
+            question: "How long does it take from Vadodara to Statue Of Unity by road?",
+            answer: "It takes approx. 2 to 3 hours depending on traffic."
+          },
+          {
+            question: "How much is Vadodara to Statue Of Unity taxi fare?",
+            answer: "Vadodara to Statue Of Unity taxi fare is approx. ₹1600 for a good sedan car like Etios, Dzire and is approx. ₹2100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Vadodara to Statue Of Unity Innova fare?",
+            answer: "Vadodara to Statue Of Unity Innova fare is approx. ₹3100. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Vadodara to Statue Of Unity cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Vadodara to Statue Of Unity cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Vadodara to Statue Of Unity cab."
+          },
+          {
+            question: "Is local sightseeing included in Vadodara to Statue Of Unity outstation trip?",
+            answer: "For Vadodara to Statue Of Unity Round trip cab, all the local sightseeing in Vadodara, Statue Of Unity and other destination cities in itinerary is included. For Vadodara to Statue Of Unity One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Vadodara, Statue Of Unity and other destination cities in itinerary is included. For Vadodara to Statue Of Unity One way cab i.e. with only Vadodara and Statue Of Unity in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Vadodara to Statue Of Unity?",
+            answer: "Although you can book Vadodara to Statue Of Unity cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Vadodara to Statue Of Unity by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Vadodara to Statue Of Unity cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Vadodara to Statue Of Unity one way taxi?",
+            answer: "You may book Vadodara to Statue Of Unity One way multi-stop cab by adding additional stops in itinerary. For Vadodara to Statue Of Unity One way taxi with only Vadodara and Statue Of Unity in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Vadodara to Statue Of Unity one way cab?",
+            answer: "For Vadodara to Statue Of Unity One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Vadodara to Statue Of Unity cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Vadodara to Statue Of Unity cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Vadodara to Statue Of Unity cab."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 28,
+    slug: "vadodara-to-champaner-pavagadh",
+    heading: "Book Vadodara to Pavagadh Cab",
+    tag: 'Pilgrimage',
+    description: [
+      "Pavagadh is very popular place for pilgrim tourism. Pavagadh is a hill famous for Kalika mata temple and thousands of pilgrims visit here everyday.",
+      "Pavagadh hill is situated in Panchmahal district, Gujarat. Pavagadh means “one fourth hill” or fire hill. At the base of hill is historic city of Champaner. This 50 km area surrounding hill is known as Pavagadh Champaner archaeological park which is on the list of UNESCO a world heritage sites. It is most sought after places in Gujarat. Major attraction of town is Kalika Mata temple dedicated to Mahakali. It is very sacred place for Hindus and one of Shakti peeths. Devotees have to walk few kilometers through forest or can take ropeway to reach the hill top temple. This ropeway is considered as India’s highest ropeway or udan khatola. Other attraction is Pavagdh Jain temples. This place houses several other historical structures including forts and temples.",
+      "Taxi from Vadodara to Pavagadh is readily available at AAVORide. Other very popular cab route for tourists is Pune to Solapur."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwZMZBOfVDWq4b9EYdhYFtn7IlCks0ApGZJYaNnNSRog&s=10",
+
+    sections: [
+      {
+        subHeading: "Vadodara to Pavagadh Cab Route",
+        description: [
+          "Vadodara to Pavagadh by car is well connected through Harni - Halol road and is very convenient and comfortable drive. Vadodara to Pavagadh distance is 55 Km and is 1.3 hours journey. Book your Vadodara to Pavagadhcar tour package. Other famous tourist places on this route and nearby are :",
+          "Halol: Mahakali temple, Sikander shah tomb. Sat Kaman. Dhaba Dungri",
+          "Kotambi: Khatamba talav.",
+          "Jarod: Ajwa dam. Sayali Baugh zoo"
+        ]
+
+      },
+
+      {
+        subHeading: "Places to visit in Pavagadh using AAVORide Vadodara to Pavagadh Car Rental with driver",
+        description: "",
+        part: {
+          "popular places in pavagadh": [
+            "Kalika Mata temple",
+            "Champaner Pavagadh archaeological park",
+            "Pavagadh fort",
+            "Jain temples",
+            "Lakulisa temple",
+            "Jami Masjid",
+            "Kevada Mosque",
+            "Lila gumbaj ki masjid",
+            "Navlakha Kothar",
+            "Nagina Masjid"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Vadodara to Pavagadh Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Vadodara to Pavagadh taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Vadodara to Pavagadh.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Vadodara to Pavagadh cab and our prices are generally 20% lower than competition."
+        ],
+        "Vadodara to Pavagadh Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Vadodara to Pavagadh Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Vadodara to Pavagadh taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Vadodara to Pavagadh taxi service. You may book Vadodara to Pavagadh round trip cab or one way multi-stop cab in case you plan not to return to Vadodara and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Vadodara to Pavagadh car package as needed. You may also book Vadodara to Pavagadh one way drop taxi or a local hourly rental cab in Pavagadh with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Vadodara to Pavagadh Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Vadodara to Pavagadh by car?",
+            answer: "The distance from Vadodara to Pavagadh by car is 55 km."
+          },
+          {
+            question: "How long does it take from Vadodara to Pavagadh by road?",
+            answer: "It takes approx. 1 to 1.5 hours depending on traffic."
+          },
+          {
+            question: "How much is Vadodara to Pavagadh taxi fare?",
+            answer: "Vadodara to Pavagadh taxi fare is approx. ₹1499 for a good sedan car like Etios, Dzire and is approx. ₹1699 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Vadodara to Pavagadh Innova fare?",
+            answer: "Vadodara to Pavagadh Innova fare is approx. ₹2699. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Vadodara to Pavagadh cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Vadodara to Pavagadh cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Vadodara to Pavagadh cab."
+          },
+          {
+            question: "Is local sightseeing included in Vadodara to Pavagadh outstation trip?",
+            answer: "For Vadodara to Pavagadh Round trip cab, all the local sightseeing in Vadodara, Pavagadh and other destination cities in itinerary is included. For Vadodara to Pavagadh One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Vadodara, Pavagadh and other destination cities in itinerary is included. For Vadodara to Pavagadh One way cab i.e. with only Vadodara and Pavagadh in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Vadodara to Pavagadh?",
+            answer: "Although you can book Vadodara to Pavagadh cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Vadodara to Pavagadh by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Vadodara to Pavagadh cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Vadodara to Pavagadh one way taxi?",
+            answer: "You may book Vadodara to Pavagadh One way multi-stop cab by adding additional stops in itinerary. For Vadodara to Pavagadh One way taxi with only Vadodara and Pavagadh in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Vadodara to Pavagadh one way cab?",
+            answer: "For Vadodara to Pavagadh One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Vadodara to Pavagadh cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Vadodara to Pavagadh cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Vadodara to Pavagadh cab."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 29,
+    slug: "vadodara-to-anand",
+    heading: "Book Vadodara to Anand Cab",
+    tag: "Culture",
+    description: [
+      "Vadodara to Anand is very popular route for both tourism and work. Anand is the epicentre of the white revolution in the country back in the 60s and is often known as the \"Milk Capital of India\".",
+      "Anand is known for its semi-rural setup and the Swami Narayan Mandir which is the crown jewel of the city. It is quite popular due to the establishment of the AMUL manufacturing plant and the milk revolution that took place in the 20th century. It is home to the famous Amul Dairy, Vidya Dairy, Amul Chocolate Plant, Mogar and Gujarat Co-operative Milk Marketing Federation. Anand is also a major tourist hub and its attractions include AMUL dairy museum and the Chocolate Factory. The region is also an educational hub comprising of institutions like the Institute of Rural Management and Vallabh Vidhyanagar.",
+      "Taxi from Vadodara to Anand is readily available at AAVORide."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_U4VBwSwgP6HSrq2ALvLv2R_u4IpdJVG6XCSyi5bnQw&s=10",
+    sections: [
+      {
+        subHeading: "Vadodara to Anand Cab Route",
+        description: [
+          "Vadodara to Anand by car is well connected through NH64 and is very convenient and comfortable drive. Vadodara to Anand distance is 47 Km and is 1 hour journey. Other famous tourist places on this route and nearby are: Gujarat State Fertilizers and Chemicals Limited",
+          "Padmla: Omkar Jain Tirth",
+          "Fajalpur: Jay Shree Mahisagar Mataji Mandir, Jay Mahisagar garden, Ravinas Eco park, Mahi river, Mahisagar mandir",
+          "Vasad: Nilkanth park, Swaminarayan Paramdham",
+          "Nadiad: trading center for Indian spices",
+          "Dakor: Ranchhodraiji Temple"
+        ]
+
+      },
+
+      {
+        subHeading: "Places to visit in Anand using AAVORide Vadodara to Anand Car Rental with driver",
+        description: "",
+        part: {
+          "popular places:": [
+            "Amul Diary and chocolate factory",
+            "Amul Co-operative museum",
+            "Flo art gallery",
+            "Swami Narayan Mandir"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Vadodara to Anand Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Vadodara to Anand taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Vadodara to Anand.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Vadodara to Anand cab and our prices are generally 20% lower than competition."
+        ],
+        "Vadodara to Anand Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Vadodara to Anand Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Vadodara to Anand taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Vadodara to Anand taxi service. You may book Vadodara to Anand round trip cab or one way multi-stop cab in case you plan not to return to Vadodara and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Vadodara to Anand car package as needed. You may also book Vadodara to Anand one way drop taxi or a local hourly rental cab in Anand with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Vadodara to Anand Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Vadodara to Anand by car?",
+            answer: "The distance from Vadodara to Anand by car is 47 km."
+          },
+          {
+            question: "How long does it take from Vadodara to Anand by road?",
+            answer: "It takes approx. 1 to 2 hours depending on traffic."
+          },
+          {
+            question: "How much is Vadodara to Anand taxi fare?",
+            answer: "Vadodara to Anand taxi fare is approx. ₹1600 for a good sedan car like Etios, Dzire and is approx. ₹2100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Vadodara to Anand Innova fare?",
+            answer: "Vadodara to Anand Innova fare is approx. ₹3100. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Vadodara to Anand cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Vadodara to Anand cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Vadodara to Anand cab."
+          },
+          {
+            question: "Is local sightseeing included in Vadodara to Anand outstation trip?",
+            answer: "For Vadodara to Anand Round trip cab, all the local sightseeing in Vadodara, Anand and other destination cities in itinerary is included. For Vadodara to Anand One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Vadodara, Anand and other destination cities in itinerary is included. For Vadodara to Anand One way cab i.e. with only Vadodara and Anand in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Vadodara to Anand?",
+            answer: "Although you can book Vadodara to Anand cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Vadodara to Anand by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Vadodara to Anand cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Vadodara to Anand one way taxi?",
+            answer: "You may book Vadodara to Anand One way multi-stop cab by adding additional stops in itinerary. For Vadodara to Anand One way taxi with only Vadodara and Anand in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Vadodara to Anand one way cab?",
+            answer: "For Vadodara to Anand One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Vadodara to Anand cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Vadodara to Anand cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Vadodara to Anand cab."
+          }
+        ]
+      }
+    ]
+  },
+
+
+  {
+    id: 30,
+    slug: "vadodara-to-mumbai",
+    heading: "Vadodara to Mumbai Taxi - Book Cab Online at Best Fare ₹4,755",
+    tag: "culture",
+    description: [
+      "Mumbai, being the financial hub and entertainment city of India, is one of the most desirable cities among travellers to visit. The city never fails to catch your eye with its class and colourful life, with its renowned Marine Drive, historic Gateway of India, or glitter and glamour of Bollywood.",
+      "Our taxis for the journey from Vadodara to Mumbai cover the distance of 390 km within 6 to 7 hours. Drivers with well-developed expertise to negotiate through the Vadodara-Mumbai route ensure a seamless interstate journey across Gujarat and Maharashtra. AAVORide is ready with its one-way taxi services for your Mumbai trip, for business travel and round-trip packages for exploring the cities for the weekend.",
+      "Start your Mumbai voyage by booking one-way taxis from Vadodara to Mumbai, which starts from as low as just ₹4,755 for a sedan with transparent booking, experienced chauffeurs who know both cities and the routes of both highways and 24x7 customer care services."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCmbHcLrcB23FpJU61FJNYswGbjz_Hhqr2C2Y5irhjDg&s=10",
+
+    sections: [
+      {
+        subHeading: "Vadodara to Mumbai Cab Fare - Interstate Journey Pricing",
+        description: [
+          "At AAVORide, you can explore several cab options for your trip to Mumbai from Vadodara. We offer cost-effective cab fare to save the pockets of our customers. Your taxi fare depends on your selected car type, trip type (one-way or round-trip), and the journey distance of the route. However, we aim to provide you with clear pricing, flexible payment and no worry of any hidden charges. Choose your ideal vehicle for your trip from our cheapest cab from Vadodara to Mumbai taxi service options:"
+        ],
+        table: [
+          {
+            vehicle: "Hatchback",
+            model: "WagonR, Indica, or similar",
+            capacity: "4 seater",
+            oneWay: "-",
+            roundTrip: "-",
+            bestFor: "Solo travellers, budget trips"
+          },
+          {
+            vehicle: "Sedan",
+            model: "Dzire, Etios or Similar",
+            capacity: "4 seater",
+            oneWay: "-",
+            roundTrip: "-",
+            bestFor: "Business travel, families"
+          },
+          {
+            vehicle: "SUV",
+            model: "Xylo, Ertiga or similar",
+            capacity: "6 seater",
+            oneWay: "-",
+            roundTrip: "-",
+            bestFor: "Groups, families with luggage"
+          },
+          {
+            vehicle: "Assured Innova",
+            model: "Innova, Innova Crysta",
+            capacity: "6 seater",
+            oneWay: "-",
+            roundTrip: "-",
+            bestFor: "Premium comfort, corporate travel"
+          },
+          {
+            vehicle: "Tempo Traveller",
+            model: "Force Travellers similar",
+            capacity: "12-17 Seaters",
+            oneWay: "-",
+            roundTrip: "-",
+            bestFor: "Large groups, company outings"
+          }
+        ]
+      },
+
+      {
+        subHeading: "Why AAVORide Vadodara to Mumbai Taxi Fare Is Lower?",
+        description: [
+          "AAVORide has committed to providing one of the cheapest cabs in India. Our plan and policy are primarily focus how we save the money of our customers so they enjoy the hassle free and peaceful travel with a cab. Generally, the fare from Vadodara to Mumbai is revolving around ₹12,000 to ₹14,000, but at AAVORide, you can book your trip at just ₹4,755. All this is possible due to:"
+        ],
+        "what we provide": [
+          "Honest pricing for your one way without adding any additional charges for empty return from Mumbai, where traditional operators always add extra for no return.",
+          "We have a vast pool of certified and experienced drivers that gives us leverage to provide a cab without surging the price due to unavailability.",
+          "We directly connect the customer with the driver at a very minimal commission price, so you don't need to give a hefty amount to middlemen for your cab booking.",
+          "Our presence in more than 3000 cities across India also helps us to provide a cab at a lower rate."
+        ]
+      },
+
+      {
+        subHeading: "Vadodara to Mumbai Car Rental - Business & Travel Packages",
+        description: [
+          "AAVORide is one of the finest car rental service providers in India. It is committed to making cab booking safe, easy and affordable for its passengers. For that, AAVORide offers multiple car rental options to Mumbai from Vadodara. Our Vadodara to Mumbai car rental with driver extends beyond simple city transfers with comprehensive packages:"
+        ],
+        "Package 1: Vadodara to Mumbai Direct Transfer": [
+          "Straightforward interstate journey for business or family travel",
+          "Comfortable highway journey (6 to 7 hours with breaks)",
+          "Drop at Mumbai home, office, airport, or hotel",
+          "Perfect for business meetings, family visits, and flight connections",
+          "Flexible pickup from any Vadodara location"
+        ],
+        "Package 2: Vadodara to Mumbai Airport Drop": [
+          "Direct transfer to Chhatrapati Shivaji Maharaj International Airport",
+          "Pickup from Vadodara home or office",
+          "Non-stop or minimal-stop journey for flight deadlines",
+          "Drop off at Terminal 1 (domestic) or Terminal 2 (international) as per airline",
+          "Flight timing coordination, ensuring punctual arrival"
+        ],
+        "Package 3: Vadodara-Mumbai Same Day Round Trip": [
+          "Complete day visit to Mumbai and return",
+          "Early morning Vadodara departure (4 to 5 AM)",
+          "Full day in Mumbai for business, family, or urgent work",
+          "Evening return to Vadodara (9 to 10 PM)",
+          "Total 16-18 hours, including 7-8 hours Mumbai time"
+        ],
+        "Package 4: Mumbai City Tour with Vadodara Return (2 Days)": [
+          "Business combined with megapolis exploration",
+          "Day 1: Vadodara to Mumbai, business meetings or Gateway of India, Marine Drive",
+          "Day 2: Mumbai local sightseeing or meetings, evening return to Vadodara",
+          "Work and tourism are balanced"
+        ],
+        "Package 5: Corporate Conference Package": [
+          "Dedicated service for business delegations",
+          "Conference pickup in Vadodara",
+          "Comfortable transfer to Mumbai conference venues",
+          "Multi-vehicle coordination for teams",
+          "Drop at various Mumbai business locations",
+          "Rates customised based on team size and requirements"
+        ]
+      },
+
+      {
+        subHeading: "Vadodara to Mumbai Cab Booking - Traveller Testimonials",
+        description: [
+          "Customer Rating: 4.6/5"
+        ],
+        "Perfect Business Transfer": [
+          "I always book cabs from Vadodara to Mumbai for quarterly business meets.AAVORide have been professional every time. Drivers know all the roads in Mumbai traffic and the routes to the financial district. Vadodara to Mumbai taxi service is a must for my business needs, the price of 4,755 for a sedan, 390km distance is affordable and clear. Reliable all the time, must recommend.",
+          "- Mehta Ji, Alkapuri (Sedan, Regular customer)"
+        ],
+        "Excellent Airport Connection": [
+          "We had to take an early morning international flight from Mumbai. So we pre-booked a midnight cab from Vadodara to Mumbai airport. The driver was very punctual. Drove safely throughout the night and reached Terminal 2, four hours before the flight. Very smooth and stress free journey. Ideal for a connecting flight.",
+          "- Patel Family, Gotri (Sedan, January 2025)"
+        ],
+        "Great One-Way Value": [
+          "We needed an urgent cab to travel from Vadodara to Mumbai by car due to my son's admission in a college in Mumbai. All other operators asked for full round trip payment. But AAVORide provided the service for 4755 only, and I saved 6200. The driver was professional and helped me with heavy luggage. The car Innova was clean and well-maintained.",
+          "- Shah Family, Manjalpur (Innova, December 2024)"
+        ],
+        "Professional Corporate Service": [
+          "Smooth Vadodara to Mumbai transfer for our 8-member business team. The SUV was spacious and maintained well, and the driver liaised seamlessly with our office in Mumbai regarding timely arrival. A well executed and convenient Vadodara to Mumbai car rental service for our corporate travel.",
+          "- Corporate Group, GIDC (SUV, November 2024)"
+        ]
+      },
+
+      {
+        subHeading: "Vadodara to Mumbai by Car - Complete Route Guide",
+        description: [
+          "Journey Overview: Vadodara to Mumbai Distance by Cab and many more",
+          "Total Distance: 390 km (via NH48 through Anand-Bharuch-Surat-Vapi-Thane)",
+          "Expected Duration: 6 to 7 hours (traffic and stops dependent)",
+          "Route Path: Vadodara to Anand to Bharuch to Surat to Vapi to Thane to Mumbai",
+          "Highway Quality: Excellent four-lane/six-lane national highway throughout",
+          "Journey Character: Cultural city to Gujarat industrial belt to Maharashtra border to megapolis"
+        ],
+
+        "Segment 1: Vadodara to Bharuch (70 km, 1 hour)": [
+          "Your Vadodara to Mumbai by car journey begins departing Gujarat's cultural hub.",
+          "Journey Highlights:",
+          "Exit Vadodara via NH48",
+          "Traffic is moderate within Vadodara city",
+          "Early morning, 5 to 6 AM departures avoid city congestion",
+          "Pass through or bypass Anand (Amul city, 40 km)",
+          "Bharuch at the Narmada River crossing",
+          "Impressive Narmada bridge",],
+        "Segment 2: Bharuch to Surat (65 km, 1 hour)": [
+          "Continue through Gujarat's industrial heartland as your taxi from Vadodara to Mumbai progresses.",
+          "Journey Highlights:",
+          "Excellent four-lane highway",
+          "Pass through industrial zones (Ankleshwar, etc.)",
+          "Surat diamond and textile city approach",
+          "Highway quality remains superb"],
+        "Segment 3: Surat to Vapi (125 km, 2 hours)": [
+          "Approaching the Gujarat-Maharashtra border through the coastal industrial belt.",
+          "Journey Highlights:",
+          "Pass through Navsari, Valsad",
+          "Increasing coastal proximity",
+          "Vapi marks Gujarat exit, Maharashtra entry",
+          "Cross state border (seamless for domestic travellers)"],
+        "Segment 4: Vapi to Thane (100 km, 1.5 to 2 hours)": [
+          "Entering Maharashtra, approaching the Mumbai Metropolitan Region.",
+          "Journey Highlights:",
+          "Pass through Manor, Bhiwandi",
+          "Increasing traffic approaching Mumbai",
+          "Thane marks Mumbai Metropolitan Region entry",
+          "Your cab from Vadodara to Mumbai nears its final destination!"],
+        "Segment 5: Thane to Mumbai (30 km, 1 to 1.5 hours)": [
+          "Final approach to India's Maximum City!",
+          "Journey Highlights:",
+          "Heavy Mumbai traffic (timing crucial)",
+          "Navigate via Eastern Express Highway or Western Express Highway, depending on the destination",
+          "Reach specific Mumbai area (South Mumbai, Western Suburbs, Central Mumbai, etc.)",
+          "Your Vadodara to Mumbai taxi concludes at the destination!"]
+      },
+
+      {
+        subHeading: "Strategic Stops During Vadodara to Mumbai Taxi Service",
+        description: [],
+        "Anand (40 km from Vadodara) - Milk City Break": [
+          "It's a quiet town that comes to your way to Mumbai from Vadodara. Profoundly, it is known as the home of Amul Cooperative. But it is one of the optional early stops for your trip.",
+          "Facilities: Amul parlours, restaurants, fuel stations",
+          "Famous For: Amul ice cream, milk products"],
+        "Bharuch (70 km from Vadodara) - Narmada Crossing": [
+          "This is one of the early major resting points on your way from Vadodara to Mumbai. You will come across numerous popular highway eateries that are very famous for their tea and breakfast.",
+          "Facilities: Restaurants, fuel stations, clean amenities",
+          "Significance: Narmada River bridge"],
+        "Surat (135 km from Vadodara) - Mid-Journey Stop": [
+          "Next stop between Vadodara and Mumbai is the Diamond and textile city - Surat. It's a major mid-route destination offering comprehensive facilities.",
+          "Facilities: Multiple restaurants, modern amenities, and shopping",
+          "Best For: Lunch break, experiencing Gujarat's commercial hub"],
+        "Vapi (260 km from Vadodara) - Border Town": [
+          "You can plan a stop in Vapi town, which marking Gujarat-Maharashtra border. It is one of the economically and culturally rich cities on your route. However, here you can also find basic amenities very easily.",
+          "Facilities: Restaurants, fuel stations, basic amenities",
+          "Significance: State border crossing",
+          "Most taxi journeys from Vadodara to Mumbai include strategic stops at Bharuch for breakfast and Surat for lunch based on departure timing and passenger preferences."]
+
+      },
+
+      {
+        subHeading: "Optimal Travel Timing for Vadodara to Mumbai Cab Service",
+        description: [
+          "Choosing the right departure time can make your Vadodara to Mumbai journey much smoother. For the fastest travel experience, early morning departures between 5 AM and 6 AM are ideal. You can avoid city traffic in both Vadodara and Mumbai, reach Mumbai by late morning, and comfortably attend business meetings, airport transfers, or other commitments. Mid-morning departures are also convenient for travellers with afternoon plans, although Mumbai traffic may add some extra travel time during peak hours."
+        ]
+      },
+
+      {
+        subHeading: "Vadodara to Mumbai Cabs - Major Savings",
+        description: [
+          "AAVORide is a very convenient Vadodara to Mumbai cab booking service for local and outstation trips. Affordable cab fares and a suitable cab that fits your need of traveling. Easy and swift booking procedure and a comfortable journey throughout pick to drop."
+        ],
+        "Round Trip Cab": [
+          "Whether you need an outstation round trip taxi service for business travel, family trips, vacation, or weekend getaways, booking a cab is effortless, and travel is planned as per your own comfort and convenience with flexible return time. Our round trip taxi service offers a stress-free comfortable journey between Vadodara and Mumbai."
+        ],
+        "One Way Cab": [
+          "We offer one of the cost effective and safe Vadodara to Mumbai one way cab for outstation one way services in Vadodara. There are for Ahmedabad, Surat, Anand, Bharuch and many more outstation routes. AAVORide is the best cab service for Vadodara with a low price guarantee, verified driver and clean, cabs with well-maintained cabs. CabBazr one way travel is cheap because you are going to pay for only single sided journey and there will be no charge of return."
+        ],
+        "Clear Savings Comparison": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Sedan",
+              "Traditional Trip fare": "-",
+              "AAVORide One-way Fare": "-",
+              "You Save": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Traditional Trip fare": "-",
+              "AAVORide One-way Fare": "-",
+              "You Save": "-"
+            },
+            {
+              "Vehicle Type": "Innova",
+              "Traditional Trip fare": "-",
+              "AAVORide One-way Fare": "-",
+              "You Save": "-"
+            }
+          ]
+        },
+        "Value Added Services": [
+          "Pet friendly Cabs: We're providing one of the most affordable pet friendly cabs around India for pet lovers and pet parents. So if you are taking your pet out for a trip or any other purpose, you can always add our pet friendly cab while booking.",
+          "Assured Luggage Space: Travelling with luggage has never been easier, as AAVORide assures the luggage carrier space service for cars for the safe and secure travel of the passengers. You just need to add the service while booking. You will get the carrier space for the luggage while traveling with any car or cab you've been looking for.",
+          "Preferred Language of Driver: There won't be any issues in communicating with your driver, so book your taxi from AAVORide with a driver whose language you can understand.",
+          "Stopovers: You can customize your trip and have a stopover as you wish. Click on Add Multiple Cities to make stopovers not just for resting or refuelling on the way, but you can even tour these cities as you like."
+        ]
+      },
+
+      {
+        subHeading: "Mumbai Attractions and Destinations",
+        description: [
+          "After your Vadodara to Mumbai taxi delivers you to the Maximum City:"
+        ],
+        "Gateway of India": [
+          "It is one of the iconic historical monuments in Mumbai city that is known for its remarkable architecture and splendid complex, further offering sea views nearby.",
+          "Key Features: 26-meter high arch monument built in 1924, Arabian Sea backdrop",
+          "Activities: Photography, boat rides to Elephanta Caves",
+          "Best Time: Early morning or evening for pleasant weather"
+        ],
+        "Marine Drive": [
+          "The next place you can add to your itinerary is Marine Drive. It is a famous 3.6 km boulevard along the Arabian Sea coast, and it also offers stunning views of the vast sea.",
+          "Key Features: C-shaped promenade, Art Deco buildings, \"Queen's Necklace\" night lights",
+          "Activities: Sunset walks, jogging, Mumbai atmosphere soaking",
+          "Best Time: Evening (5-8 PM) for sunset and illuminated view"
+        ],
+        "Chhatrapati Shivaji Maharaj Terminus (CST)": [
+          "It is an UNESCO World Heritage site and an architectural gem. This place offers a feast of Victorian Gothic architecture mixed with Indian design, which you can not miss.",
+          "Key Feature: Stunning Indo-Saracenic architecture built in 1887, a major railway hub, architectural marvel",
+          "Activities: Exterior photography (station operational, interior access limited)"
+        ],
+        "Elephanta Caves": [
+          "It is also one of the popular attractions of the city. These ancient caves are in Elephant Island and are a UNESCO site, and are known for rock-cut sculptures and temples.",
+          "Access: Ferry from Gateway of India (1-hour boat ride, ₹150-200)",
+          "Features: 5th-7th century cave temples, massive Shiva sculptures",
+          "Timings: Island 9 AM-5 PM (closed Mondays)"
+        ],
+        "Juhu Beach": [
+          "It is one of the most popular beaches located western coast. Its popularity makes it one of the most crowded tourist destinations in Mumbai. Sunsets, street food, and beach fun are what this place offers you.",
+          "Activities: Beach walks, street food (pav bhaji, bhel puri, pani puri)",
+          "Best Time: Evening (5-9 PM) for food stalls and atmosphere"
+        ],
+        "Siddhivinayak Temple": [
+          "For those looking for a spiritual place in the metro city Mumbai, Siddhivinayak Temple is one of the must visit temple. This is the famous Ganesh temple, which itself is the most visited destination of the city.",
+          "Significance: Powerful Ganesh temple, celebrity devotees",
+          "Timings: 5:30 AM to 9:40 PM approximately",
+          "Best Time: Early morning to avoid long queues (afternoon can have 2-3 hour waits)"
+        ],
+        "Haji Ali Dargah": [
+          "Next in this row is this amazing Dargah that is built amid the sky high wave of the Arabian Sea and connected with a path. The path leading to the shrine is also a calm and tranquil one.",
+          "Features: Indo-Islamic architecture, accessible via causeway during low tide",
+          "Timings: Open most days (check tide timings for causeway access)",
+          "Best Time: Low tide for walking access"
+        ],
+        "Bandra-Worli Sea Link": [
+          "It is one of the engineering marvels located in Mumbai. It is a cable-stayed bridge built over the Arabian Sea and is famous for its exhilarating drive, wonderful Arabian Sea views and night time stunning skyline.",
+          "Features: 5.6 km bridge connecting Bandra and Worli, stunning views",
+          "Experience: Drive across (toll ₹75), photography from Marine Drive",
+          "Best View: Evening when illuminated"
+        ],
+        "Film City (Goregaon)": [
+          "If you are visiting Mumbai, you can't miss the light, camera and action vibe of the Film City. Here you can visit Bollywood's film production hub and more that gives you a memorable experience.",
+          "Features: Movie sets, Studios, and Bollywood tours available",
+          "Time Required: Half a day for a comprehensive tour",
+          "Best For: Bollywood enthusiasts"
+        ],
+        "Colaba Causeway": [
+          "It is one of the most popular street shopping and cultural hubs in Mumbai that offers you pure local vibes.",
+          "Shopping: Clothes, accessories, handicrafts, souvenirs, antiques",
+          "Activities: Shopping, dining, street atmosphere",
+          "Best Time: Afternoon/evening"
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions - Vadodara to Mumbai cab",
+        description: "",
+        faqs: [
+          {
+            question: "How long does it take to travel from Vadodara to Mumbai by cab?",
+            answer: "Your Vadodara to Mumbai cab will take approximately. 7 to 8 hours. But the time might get longer depending on the traffic, weather and road conditions."
+          },
+          {
+            question: "What is the distance between Vadodara and Mumbai by road?",
+            answer: "The distance between Vadodara and Mumbai by road is 420Km approximately by NH4 and NH48. It is one of the major routes for business and leisure travel."
+          },
+          {
+            question: "Can I book a one-way cab from Vadodara to Mumbai?",
+            answer: "Yes, you can easily book a one way cab from Vadodara to Mumbai. AAVORide offers affordable one way cabs to Mumbai from Vadodara. For one way, you just need to pay the one way fare without any additional and extra charger that charge due to one way."
+          },
+          {
+            question: "Is a same-day Vadodara to Mumbai round trip possible by cab?",
+            answer: "Yes, same day return is possible from Mumbai to Vadodara. You can book our round trip cab that offers the same and smooth returns. But for travelers, same day return is not recommended due to long travel hours."
+          },
+          {
+            question: "What is the best time to travel from Vadodara to Mumbai by road?",
+            answer: "The best time to travel to Mumbai from Vadodara by road is early morning departure. In the early morning, there is less traffic, so your cab will run smoothly, and you will enjoy a perfect, smooth ride."
+          },
+          {
+            question: "I am travelling from Vadodara to Mumbai with my family. Which cab should I choose?",
+            answer: "For a family trip that includes parents and an elderly member, an SUV or Innova Crysta is the best option. These vehicles offer spacious seating, ample luggage space and a smooth long-distance travel experience."
+          },
+          {
+            question: "I am travelling to Mumbai for a business meeting. Which cab option is most suitable?",
+            answer: "For your business trip and meeting, a Sedan cab is perfect. Sedan offers a comfortable professional and cost effective travel experience. AAVORide offers one of the cheapest Vadodara to Mumbai Sedan cabs for one way at ₹4737 and round trip cab for the same day return at ₹7835."
+          },
+          {
+            question: "Can I book a direct cab from Vadodara to Mumbai Airport?",
+            answer: "Yes. AAVORide provides direct taxi services to Chhatrapati Shivaji Maharaj International Airport (Mumbai Airport) with timely pickups and reliable transfers."
+          },
+          {
+            question: "Can I customise my Vadodara to Mumbai cab trip with multiple stops?",
+            answer: "Yes, with the AAVORide multiple stops option, you can easily customise your Vadodara to Mumbai cab trip. With this service, you can easily plan stops for meals, meetings, sightseeing or rest breaks."
+          }
+        ]
+
+      }
+    ]
+  },
+  //31
+  {
+    id: 31,
+    slug: "vadodara-to-surat",
+    heading: "Book Vadodara to Surat Cab",
+    tag: "culture",
+    description: [
+      "Vadodara to Surat is the very popular route for tourists as well as business. Surat, second largest city of Gujarat, is a famous centre for diamond cutting and polishing and is the biggest textile hub of Gujrat.",
+      "Being a commerce and industrial hub, Surat doesn\"t lag behind in being a religious centre as well. Mythologically, it is belived that Lord Krishna rested in Surat in his travel from Dwaraka to Mathura. If you are someone, who gets excited by history and wildlife, Surat is must visit a destination because of its colonial history and its rich heritage of flora and fauna. Science complex is a very popular place in surat to visit, since it has science centre, museum, an art gallery, an auditorium, an amphitheatre and a planetarium in it.",
+      "Taxi from Vadodara to Surat is readily available at AAVORide."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzl7Vxm9IUzv9eR0thu3jkM4XBVTOiYD1r3MdFSvqSMQ&s=10",
+
+    sections: [
+      {
+        subHeading: "Vadodara to Surat Cab Route",
+        description: [
+          "Vadodara to Surat by car is well connected via NH48 and is very convenient and comfortable drive. Vadodara to Surat distance is 154 Km and is 3 hours journey. Other famous stopovers and tourist places on this route and nearby are : Kosamba",
+          "Jhagadia or Zaghadia: Bhalod Gangadashahara, Hindu and Jain temples like Daherasar, Kabirvad, Gayatri Mandir, Hanuman temple",
+          "Bharuch or Broach: historical heritage at the mouth of river Narmada",
+          "Karjan: known for its scenic beauty and picturesque locations."
+        ]
+
+      },
+
+      {
+        subHeading: "Places to visit in Surat using AAVORide Vadodara to Surat Car Rental with driver",
+        description: "",
+        part: {
+          "Popular places": [
+            "Dutch Garden",
+            "Dumas beach",
+            "Hajira Gaon",
+            "Sardar Patel Museum",
+            "Ambika Niketan Temple / Ambaji Temple",
+            "Dandi",
+            "Sarthana Nature Park",
+            "Jagdishchandra Bose Aquarium",
+            "Tithal beach",
+            "Swaminarayan Temple",
+            "Amaazia Water Park",
+            "Science center",
+            "Vansada National Park",
+            "Choppati",
+            "ISCKON temple",
+            "Surat Castle",
+            "Suvali Beach",
+            "Snow Park",
+            "Sneh Rashmi Botanical Garden",
+            "Tapi River front",
+            "Ubharat beach",
+            "Modi Resorts and Amusement Parks",
+            "Chintanamani Jain Temple",
+            "Blues Adventure",
+            "Bardoli",
+            "Ram Madhi",
+            "Rang Upvan",
+            "Gavier Lake",
+            "Kabirvad",
+            "Shirdi Sai Baba Temple",
+            "Water Fun Park",
+            "Neverland Water Park",
+            "Floral Garden",
+            "Jyotindra Dave Garden",
+            "Vrindavan Baug",
+            "Priya Darshani Indira Gandhi Udhyan",
+            "Shivaji Park",
+            "Gandhi Baug",
+            "The Great Fun Amusement Park",
+            "Fun Funta Fun",
+            "VR Mall",
+            "Gopi Talav"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Vadodara to Surat Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Vadodara to Surat taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Vadodara to Surat.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Vadodara to Surat cab and our prices are generally 20% lower than competition."
+        ],
+        "Vadodara to Surat Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Vadodara to Surat Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Vadodara to Surat taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Vadodara to Surat taxi service. You may book Vadodara to Surat round trip cab or one way multi-stop cab in case you plan not to return to Vadodara and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Vadodara to Surat car package as needed. You may also book Vadodara to Surat one way drop taxi or a local hourly rental cab in Surat with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Vadodara to Surat Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Vadodara to Surat by car?",
+            answer: "The distance from Vadodara to Surat by car is 154 km."
+          },
+          {
+            question: "How long does it take from Vadodara to Surat by road?",
+            answer: "It takes approx. 3 to 4 hours depending on traffic."
+          },
+          {
+            question: "How much is Vadodara to Surat taxi fare?",
+            answer: "Vadodara to Surat taxi fare is approx. ₹1600 for a good sedan car like Etios, Dzire and is approx. ₹2100 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Vadodara to Surat Innova fare?",
+            answer: "Vadodara to Surat Innova fare is approx. ₹3100. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Vadodara to Surat cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Vadodara to Surat cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Vadodara to Surat cab."
+          },
+          {
+            question: "Is local sightseeing included in Vadodara to Surat outstation trip?",
+            answer: "For Vadodara to Surat Round trip cab, all the local sightseeing in Vadodara, Surat and other destination cities in itinerary is included. For Vadodara to Surat One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Vadodara, Surat and other destination cities in itinerary is included. For Vadodara to Surat One way cab i.e. with only Vadodara and Surat in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Vadodara to Surat?",
+            answer: "Although you can book Vadodara to Surat cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Vadodara to Surat by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Vadodara to Surat cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Vadodara to Surat one way taxi?",
+            answer: "You may book Vadodara to Surat One way multi-stop cab by adding additional stops in itinerary. For Vadodara to Surat One way taxi with only Vadodara and Surat in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Vadodara to Surat one way cab?",
+            answer: "For Vadodara to Surat One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Vadodara to Surat cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Vadodara to Surat cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Vadodara to Surat cab."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 32,
+    slug: "vadodara-to-pune",
+    heading: "Book Vadodara to Pune Cab",
+    tag: "Culture",
+    description: [
+      "Vadodara to Pune is the very popular route for both tourists and people traveling for work. Pune being the second largest city in the Indian state of Maharashtra after Mumbai and the seventh most populous city in the country has become a famous center of attraction.",
+      "Pune is a sprawling city in the western Indian state of Maharashtra. It was once the base of the Peshwas (prime ministers) of the Maratha Empire, which lasted from 1674 to 1818, popular for the 8th-century Pataleshwar Cave Temple dedicated to the Hindu god Shiva. Also, known for the grand Aga Khan Palace, built in 1892, and now a memorial to Mahatma Gandhi, whose ashes are preserved in the garden.",
+      "Taxi from Vadodara to Pune is readily available at AAVORide."
+    ],
+    coverImage: "https://images.jdmagicbox.com/quickquotes/listicle/listicle_1687091154753_j7n59_847x400.jpg",
+
+    sections: [
+      {
+        subHeading: "Vadodara to Pune Cab Route",
+        description: [
+          "Vadodara to Pune by car is well connected via NH48 which is a very convenient and comfortable drive. Vadodara to Pune distance is about 547 kms and it takes almost 10.5 hours to get there. Other famous tourist places on this route and nearby are : Bharuch or Broach - historical heritage at the mouth of river Narmada",
+          "Surat: Diamond city of India",
+          "Bilimora: a minor port and offers lovely sights by the river Ambika",
+          "Vapi: second largest city of Gujarat and is important Industrial city",
+          "Silvassa: Hills, lush greenery, Wildlife, Portuguese heritage",
+          "Manor: Khoj Fort, Manor Dam",
+          "Thane: City of Lakes",
+          "Mumbai: Financial capital of India known as \"Mini India\"",
+          "Navi Mumbai: Elephanta Caves, Gateway of Mumbai, Karnala Fort",
+          "Panvel: Kalavantin Durg, Karnala Fort",
+          "Rasayani: Karnala Bird Sanctuaary, Karnala Fort, Shivganga Waterpark and Resort",
+          "Khandala: a picturesque hill station",
+          "Lonavala: Misty Hill Station",
+          "Karla Caves: oldest Buddhist cave shrines",
+          "Tikona Fort: a dominant hill fortress and very beautiful trek spot",
+          "Tung Fort: a spot for adventure-seekers due to a steep, narrow ascent trek",
+          "Aamby Valley: a beautiful township developed with splendid landscape on hilly terrain",
+          "Kamshet: a picturesque hill station renowned for paragliding and flying schools",
+          "Pimpri-Chinchwad: water parks, a model village"
+        ]
+
+      },
+
+      {
+        subHeading: "Places to visit in Pune using AAVORide Vadodara to Pune Car Rental with driver",
+        description: "",
+        part: {
+          "": [
+            "Sinhagad",
+            "Shaniwar Wada",
+            "Aga Khan Palace",
+            "Dagadusheth Halwai Ganapati",
+            "Raja Dinkar Kelkar Museum",
+            "Rajiv Gandhi Zoological Park",
+            "Pataleshwar",
+            "Gandhi National Memorial Society",
+            "Saras Baug"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Vadodara to Pune Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Vadodara to Pune taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Vadodara to Pune.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Vadodara to Pune cab and our prices are generally 20% lower than competition."
+        ],
+        "Vadodara to Pune Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Vadodara to Pune Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Vadodara to Pune taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Vadodara to Pune taxi service. You may book Vadodara to Pune round trip cab or one way multi-stop cab in case you plan not to return to Vadodara and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Vadodara to Pune car package as needed. You may also book Vadodara to Pune one way drop taxi or a local hourly rental cab in Pune with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Vadodara to Pune Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Vadodara to Pune by car?",
+            answer: "The distance from Vadodara to Pune by car is 547 km."
+          },
+          {
+            question: "How long does it take from Vadodara to Pune by road?",
+            answer: "It takes approx. 10.5 to 11.5 hours depending on traffic."
+          },
+          {
+            question: "How much is Vadodara to Pune taxi fare?",
+            answer: "Vadodara to Pune taxi fare is approx. ₹6300 for a good sedan car like Etios, Dzire and is approx. ₹6800 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Vadodara to Pune Innova fare?",
+            answer: "Vadodara to Pune Innova fare is approx. ₹7800. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Vadodara to Pune cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Vadodara to Pune cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Vadodara to Pune cab."
+          },
+          {
+            question: "Is local sightseeing included in Vadodara to Pune outstation trip?",
+            answer: "For Vadodara to Pune Round trip cab, all the local sightseeing in Vadodara, Pune and other destination cities in itinerary is included. For Vadodara to Pune One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Vadodara, Pune and other destination cities in itinerary is included. For Vadodara to Pune One way cab i.e. with only Vadodara and Pune in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Vadodara to Pune?",
+            answer: "Although you can book Vadodara to Pune cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Vadodara to Pune by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Vadodara to Pune cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Vadodara to Pune one way taxi?",
+            answer: "You may book Vadodara to Pune One way multi-stop cab by adding additional stops in itinerary. For Vadodara to Pune One way taxi with only Vadodara and Pune in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Vadodara to Pune one way cab?",
+            answer: "For Vadodara to Pune One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Vadodara to Pune cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Vadodara to Pune cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Vadodara to Pune cab."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 33,
+    slug: "vadodara-to-udaipur",
+    heading: "Book Vadodara to Udaipur Cab",
+    tag: "Royal-Escape",
+    description: [
+      "Vadodara to Udaipur is the very popular route for tourists and Udaipur is crowned with various epithets like \"Jewel of Mewar\", \"Venice of the East\", \"Kashmir of Rajasthan\", \"City of Lakes\", \"City of Sunrise\", \"City of Domes\", \"City of Temples\", \"City of Historicity\" etc.",
+      "Located around four lakes and lush green hills of Aravallis, Udaipur has all natural offerings for the most enchanting experience along with the human made beauty in form of royal Palaces and Temples. Its history trace back to 1553 when it was founded by Maharaja Udai Singh as new capital of Mewar Kingdom. Lake Palace, located in the middle of Lake Pichola is one of most beautiful sight in Udaipur.",
+      "Taxi from Vadodara to Udaipur is readily available at AAVORide."
+    ],
+    coverImage: "/udaipur_inner.jpg",
+
+    sections: [
+      {
+        subHeading: "Vadodara to Udaipur Cab Route",
+        description: [
+          "Vadodara to Udaipur by car is well connected via GJ SH188 and NH48 and is very convenient and comfortable drive. Vadodara to Udaipur distance is 320 Km and is 6.5 hours journey. Other famous tourist places on this route and nearby are ",
+          " Nadiad : Beautiful temples and churches",
+          "Champaner-Pavagadh Archaeological Park: Located near Vadodara, this UNESCO World Heritage Site is known for its historical significance and ancient ruins.",
+          "Dakor: This small town is famous for its Shri Ranchhodraiji Temple, dedicated to Lord Krishna. It is a popular pilgrimage site for devotees.",
+          "Ratanpur: Situated in the Dungarpur district of Rajasthan, Ratanpur is known for its ancient Ratanpur Fort. The fort offers magnificent views and a chance to explore the history of the region.",
+          "Shamlaji: Another religious destination, Shamlaji is home to the Shamlaji Temple, dedicated to Lord Vishnu. The temple architecture and the natural landscape surrounding it make for an interesting stopover.",
+          "Chittorgarh: This historical city is home to the mighty Chittorgarh Fort, one of the largest forts in India. It offers a glimpse into the rich history and architecture of Rajasthan."
+        ]
+
+      },
+
+      {
+        subHeading: "Places to visit in Udaipur using AAVORide Vadodara to Udaipur Car Rental with driver",
+        description: "",
+        part: {
+          "Popular places": [
+            "Lake Pichola",
+            "City Palace",
+            "Fateh Sagar Lake",
+            "Sajjangarh Palace",
+            "Jaisamand Lake",
+            "Doodh Talai Musical Garden",
+            "Vintage Car Museum",
+            "Eklingji Temple",
+            "Gulab Bagh and Zoo",
+            "Saheliyon-ki-Bari",
+            "Bada Mahal",
+            "Jag Mandir Palace",
+            "Maharana Pratap Memorial",
+            "Nehru Garden",
+            "Shilpgram",
+            "Sukhadia Circle"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Vadodara to Udaipur Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Vadodara to Udaipur taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Vadodara to Udaipur.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Vadodara to Udaipur cab and our prices are generally 20% lower than competition."
+        ],
+        "Vadodara to Udaipur Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Vadodara to Udaipur Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Vadodara to Udaipur taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Vadodara to Udaipur taxi service. You may book Vadodara to Udaipur round trip cab or one way multi-stop cab in case you plan not to return to Vadodara and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Vadodara to Udaipur car package as needed. You may also book Vadodara to Udaipur one way drop taxi or a local hourly rental cab in Udaipur with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Vadodara to Udaipur Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Vadodara to Udaipur by car?",
+            answer: "The distance from Vadodara to Udaipur by car is 354 km."
+          },
+          {
+            question: "How long does it take from Vadodara to Udaipur by road?",
+            answer: "It takes approx. 5.5 to 7.5 hours depending on traffic."
+          },
+          {
+            question: "How much is Vadodara to Udaipur taxi fare?",
+            answer: "Vadodara to Udaipur taxi fare is approx. ₹3894 for a good sedan car like Etios, Dzire and is approx. ₹5310 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Vadodara to Udaipur Innova fare?",
+            answer: "Vadodara to Udaipur Innova fare is approx. ₹6310. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Vadodara to Udaipur cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Vadodara to Udaipur cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Vadodara to Udaipur cab."
+          },
+          {
+            question: "Is local sightseeing included in Vadodara to Udaipur outstation trip?",
+            answer: "For Vadodara to Udaipur Round trip cab, all the local sightseeing in Vadodara, Udaipur and other destination cities in itinerary is included. For Vadodara to Udaipur One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Vadodara, Udaipur and other destination cities in itinerary is included. For Vadodara to Udaipur One way cab i.e. with only Vadodara and Udaipur in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Vadodara to Udaipur?",
+            answer: "Although you can book Vadodara to Udaipur cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Vadodara to Udaipur by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Vadodara to Udaipur cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Vadodara to Udaipur one way taxi?",
+            answer: "You may book Vadodara to Udaipur One way multi-stop cab by adding additional stops in itinerary. For Vadodara to Udaipur One way taxi with only Vadodara and Udaipur in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Vadodara to Udaipur one way cab?",
+            answer: "For Vadodara to Udaipur One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Vadodara to Udaipur cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Vadodara to Udaipur cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Vadodara to Udaipur cab."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 34,
+    slug: "vadodara-to-mount-abu",
+    heading: "Book Vadodara to Mountabu Cab",
+    tag: "Adventure",
+    description: [
+      "Vadodara to Mount Abu is very popular route for tourists because it offers adventure sports, spiritual holidays and eco-tourism at a single place. For history and architecture lovers, Mount Abu is a must visit place.",
+      "Mount Abu, the only hill station in Rajasthan, is popular not just amidst the Gujaratis and Rajasthanis but visitors from around the world. The most famous attraction is of course the Dilwara temples. It leaves you wondering how these temples were built 1000 years back. These Jain temples are very impressive manifestations of the heights reached in the field of art and architecture by Indian craftsmen. Mount Abu attracts not only history, art and architecture enthsiasts but it equally attracts Nature lovers, couples, wildlife watchers and spiritual tourists specially Jain pilgrims. Toad Rock, Sunset Point, Honeymoon point, Nakki lake are some of the main attractions.",
+      "Taxi from Vadodara to Mountabu is readily available at AAVORide."
+    ],
+    coverImage: "/mountabbu.jpg",
+
+    sections: [
+      {
+        subHeading: "Vadodara to Mountabu Cab Route",
+        description: [
+          "Vadodara to Mount Abu by caris well connected through NE1 and Ahmedabad - Palanpur highway / Ahmedabad - Patan highway and is very convenient and comfortable drive. A second route is via Himatnagar, Ambaji which is almost same distance. Vadodara to Mount Abu distanceis 336 Km and is 7 hours journey. Other famous tourist places on this route and nearby are"
+          , "Anand: Dakor temple, Navratri, Garba, Dandia",
+          "Nadiad: Beautiful temples and churches",
+          "Mehsana: famous for its historical spots",
+          "Palanpur: famous for its ancient temples and Gujarat\"s history",
+          "Himmatnagar: Swaminarayan temple",
+          "Ambaji: Ambaji temple",
+          "Patan: Rani ka Vav, UNESCO World Heritage Site"
+        ]
+
+      },
+
+      {
+        subHeading: "Places to visit in Mountabu using AAVORide Vadodara to Mountabu Car Rental with driver",
+        description: "",
+        part: {
+          "Popular places in Mount Abu": [
+            "Dilwara temples",
+            "Mount Abu Wildlife Sanctuary",
+            "Nakki lake",
+            "Guru Shikhar",
+            "Arbuda Devi Temple",
+            "Achalgarh village",
+            "Trevors Tank",
+            "Toad Rock, The mascot of Mount Abu",
+            "Raghunath Temple",
+            "Brahma Kumaris Ashram Mount Abu",
+            "Honeymoon point",
+            "Gaumukh temple",
+            "Sunset point",
+            "Universal Peace Hall - Om Shanti Bhavan"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Vadodara to Mountabu Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Vadodara to Mountabu taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Vadodara to Mountabu.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Vadodara to Mountabu cab and our prices are generally 20% lower than competition."
+        ],
+        "Vadodara to Mountabu Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Vadodara to Mountabu Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Vadodara to Mountabu taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Vadodara to Mountabu taxi service. You may book Vadodara to Mountabu round trip cab or one way multi-stop cab in case you plan not to return to Vadodara and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Vadodara to Mountabu car package as needed. You may also book Vadodara to Mountabu one way drop taxi or a local hourly rental cab in Mountabu with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Vadodara to Mountabu Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Vadodara to Mountabu by car?",
+            answer: "The distance from Vadodara to Mountabu by car is 336 km."
+          },
+          {
+            question: "How long does it take from Vadodara to Mountabu by road?",
+            answer: "It takes approx. 7 to 8 hours depending on traffic."
+          },
+          {
+            question: "How much is Vadodara to Mountabu taxi fare?",
+            answer: "Vadodara to Mountabu taxi fare is approx. ₹3900 for a good sedan car like Etios, Dzire and is approx. ₹4400 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Vadodara to Mountabu Innova fare?",
+            answer: "Vadodara to Mountabu Innova fare is approx. ₹5400. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Vadodara to Mountabu cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Vadodara to Mountabu cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Vadodara to Mountabu cab."
+          },
+          {
+            question: "Is local sightseeing included in Vadodara to Mountabu outstation trip?",
+            answer: "For Vadodara to Mountabu Round trip cab, all the local sightseeing in Vadodara, Mountabu and other destination cities in itinerary is included. For Vadodara to Mountabu One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Vadodara, Mountabu and other destination cities in itinerary is included. For Vadodara to Mountabu One way cab i.e. with only Vadodara and Mountabu in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Vadodara to Mountabu?",
+            answer: "Although you can book Vadodara to Mountabu cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Vadodara to Mountabu by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Vadodara to Mountabu cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Vadodara to Mountabu one way taxi?",
+            answer: "You may book Vadodara to Mountabu One way multi-stop cab by adding additional stops in itinerary. For Vadodara to Mountabu One way taxi with only Vadodara and Mountabu in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Vadodara to Mountabu one way cab?",
+            answer: "For Vadodara to Mountabu One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Vadodara to Mountabu cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Vadodara to Mountabu cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Vadodara to Mountabu cab."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 34,
+    slug: "vadodara-to-jaipur",
+    heading: "Book Vadodara to Jaipur Cab",
+    tag: 'Culture',
+    description: [
+      "Jaipur is one of the most visited cities in India. Jaipur is third part of the famous Golden Triangle of India - Delhi - Agra - Jaipur.",
+      "Jaipur, also known as 'Pink City', is a visual treat with its forts, places and architectural marvels. The city, built by Sawai Jai Singh, preserves the heritage and culture of the kingly Rajputs. Jaipur provides different shades in one city. There are hills, lakes, forts in Amer region whereas old walled city has pink shops, narrow lanes, buildings and monuments, palace, old bazar having everything to offer for a shopaholic. At same time, there posh areas, high-rises, flyovers and amazing infrastructure.",
+      "Taxi from Vadodara to Jaipur is readily available at AAVORide."
+    ],
+    coverImage: "/jaipur1.jpg",
+
+    sections: [
+      {
+        subHeading: "Vadodara to Jaipur Cab Route",
+        description: [
+          "Vadodara to Jaipur by car is well connected by road and is very convenient and comfortable drive. Vadodara to Jaipur distance is 783 Km and is 12.9 hours journey. Book your Vadodara to Jaipurcar tour package. Other famous tourist places on this route and nearby are "
+          , "Ajmer: Known for the famous Ajmer Sharif Dargah, this holy place is a major pilgrimage site for both Muslims and Hindus.",
+          "Pushkar: Located near Ajmer, Pushkar is famous for its sacred Pushkar Lake and the Brahma Temple. The town is also known for its annual camel fair.",
+          "Udaipur: Known as the \"City of Lakes,\" Udaipur is famous for its beautiful lakes, palaces, and historic forts. The City Palace, Lake Pichola, and Jag Mandir Palace are popular attractions here.",
+          "Mount Abu: Situated in the Aravalli Range, Mount Abu is the only hill station in Rajasthan. It is known for its scenic beauty, Dilwara Jain Temples, Nakki Lake, and the Sunset Point.",
+          "Ahmedabad: As the largest city in Gujarat, Ahmedabad offers various attractions like the Sabarmati Ashram, Adalaj Stepwell, Sidi Saiyyed Mosque, and the Kankaria Lake."
+        ]
+
+      },
+
+      {
+        subHeading: "Places to visit in Jaipur using AAVORide Vadodara to Jaipur Car Rental with driver",
+        description: "",
+        part: {
+          "Popular placesin Jaipur": [
+            "Amer Fort",
+            "Jaigarh Fort",
+            "Nahargarh Fort",
+            "Hawa Mahal",
+            "Jantar Mantar",
+            "Wax Museum",
+            "Birla Temple",
+            "City Palace Fort",
+            "Galtaji Temple",
+            "Kanak Vrindavan Garden",
+            "Bapu Bazar"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Vadodara to Jaipur Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Vadodara to Jaipur taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Vadodara to Jaipur.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Vadodara to Jaipur cab and our prices are generally 20% lower than competition."
+        ],
+        "Vadodara to Jaipur Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Vadodara to Jaipur Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Vadodara to Jaipur taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Vadodara to Jaipur taxi service. You may book Vadodara to Jaipur round trip cab or one way multi-stop cab in case you plan not to return to Vadodara and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Vadodara to Jaipur car package as needed. You may also book Vadodara to Jaipur one way drop taxi or a local hourly rental cab in Jaipur with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Vadodara to Jaipur Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Vadodara to Jaipur by car?",
+            answer: "The distance from Vadodara to Jaipur by car is 783 km."
+          },
+          {
+            question: "How long does it take from Vadodara to Jaipur by road?",
+            answer: "It takes approx. 11.9 to 14.9 hours depending on traffic."
+          },
+          {
+            question: "How much is Vadodara to Jaipur taxi fare?",
+            answer: "Vadodara to Jaipur taxi fare is approx. ₹8613 for a good sedan car like Etios, Dzire and is approx. ₹11745 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Vadodara to Jaipur Innova fare?",
+            answer: "Vadodara to Jaipur Innova fare is approx. ₹12745. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Vadodara to Jaipur cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Vadodara to Jaipur cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Vadodara to Jaipur cab."
+          },
+          {
+            question: "Is local sightseeing included in Vadodara to Jaipur outstation trip?",
+            answer: "For Vadodara to Jaipur Round trip cab, all the local sightseeing in Vadodara, Jaipur and other destination cities in itinerary is included. For Vadodara to Jaipur One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Vadodara, Jaipur and other destination cities in itinerary is included. For Vadodara to Jaipur One way cab i.e. with only Vadodara and Jaipur in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Vadodara to Jaipur?",
+            answer: "Although you can book Vadodara to Jaipur cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Vadodara to Jaipur by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Vadodara to Jaipur cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Vadodara to Jaipur one way taxi?",
+            answer: "You may book Vadodara to Jaipur One way multi-stop cab by adding additional stops in itinerary. For Vadodara to Jaipur One way taxi with only Vadodara and Jaipur in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Vadodara to Jaipur one way cab?",
+            answer: "For Vadodara to Jaipur One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Vadodara to Jaipur cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Vadodara to Jaipur cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Vadodara to Jaipur cab."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    id: 35,
+    slug: "vadodara-to-dwarka",
+    heading: "Book Vadodara to Dwarka Cab",
+    tag: 'Spiritual',
+    description: [
+      "Dwarka is very popular city for tourists because of its religious and mythological importance. Dwarka means 'Door to Salvation' and is most popular among pilgrims as it is known as the 'home of Lord Krishna'.",
+      "Dwarka is believed to be the gateway to heaven and the belief is that the city was once engulfed by the sea. Its a city where mythology meets reality as archologists found an ancient underwater city. Dwarka is also home to one of the 12 Jyotirlingas, Nageshwar temple. The holiness and spirituality of Dwarka remain etched in visitor's memory for a long time. The spiritual importance of the city can also be known from the fact that it is the only city that is part of both Char Dham as well as Saptu Puri as mentioned in Hindu religion.",
+      "Taxi from Vadodara to Dwarka is readily available at AAVORide."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgxV8MaznRw8sn1Va1nqLaBxniZP-Lg6vTjfgTggIieA&s=10",
+
+    sections: [
+      {
+        subHeading: "Vadodara to Dwarka Cab Route",
+        description: [
+          "Vadodara to Dwarka by car is well connected by road and is very convenient and comfortable drive. Vadodara to Dwarka distance is 507 Km and is 9.1 hours journey. Book your Vadodara to Dwarkacar tour package. Other famous tourist places on this route and nearby are :"
+
+          , "Jamnagar: Known as the \"Oil City of India,\" Jamnagar is famous for its beautiful temples, majestic palaces, and the marine national park. You can visit the Lakhota Fort, Bala Hanuman Temple, and Marine National Park.",
+          "Rajkot: The fourth largest city in Gujarat, Rajkot is known for its historical attractions and vibrant markets. You can explore places like Kaba Gandhi No Delo (Mahatma Gandhi's childhood home), Watson Museum, and the iconic Jubilee Garden.",
+          "Gondal: Gondal is known for its royal palaces and heritage architecture. Visit the Naulakha Palace, Riverside Palace, and the Vintage Car Museum to witness the regal charm of the city.",
+          "Ahmedabad: The largest city in Gujarat, Ahmedabad is a major cultural and industrial hub. You can explore attractions like Sabarmati Ashram (Mahatma Gandhi's former residence), Jama Masjid, Kankaria Lake, and the Adalaj Stepwell.",
+          "Anand: Anand is famous for being the birthplace of Amul, one of India's largest dairy cooperatives. You can visit the Amul Dairy Factory and the Anand Museum to learn about the dairy industry."
+        ]
+      },
+
+      {
+        subHeading: "Places to visit in Dwarka using AAVORide Vadodara to Dwarka Car Rental with driver",
+        description: "",
+        part: {
+          "Poular Places in Dwaraka": [
+            "Dwarkadhish Temple",
+            "Nageshwara Jyotirlinga Temple",
+            "Beyt Island",
+            "Dwarka Beach",
+            "Rukmani Temple",
+            "Lighthouse, Dwarka",
+            "Gomti Ghat",
+            "Gopi Talav",
+            "Bhadkeshwar Mahadev Mandir",
+            "Gita Temple",
+            "Sudama Setu",
+            "ISKCON Dwarka",
+            "Swami Narayan Mandir",
+            "Dunny point"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Vadodara to Dwarka Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Vadodara to Dwarka taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Vadodara to Dwarka.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Vadodara to Dwarka cab and our prices are generally 20% lower than competition."
+        ],
+        "Vadodara to Dwarka Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Vadodara to Dwarka Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Vadodara to Dwarka taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Vadodara to Dwarka taxi service. You may book Vadodara to Dwarka round trip cab or one way multi-stop cab in case you plan not to return to Vadodara and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Vadodara to Dwarka car package as needed. You may also book Vadodara to Dwarka one way drop taxi or a local hourly rental cab in Dwarka with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Vadodara to Dwarka Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Vadodara to Dwarka by car?",
+            answer: "The distance from Vadodara to Dwarka by car is 507 km."
+          },
+          {
+            question: "How long does it take from Vadodara to Dwarka by road?",
+            answer: "It takes approx. 8.1 to 11.1 hours depending on traffic."
+          },
+          {
+            question: "How much is Vadodara to Dwarka taxi fare?",
+            answer: "Vadodara to Dwarka taxi fare is approx. ₹5577 for a good sedan car like Etios, Dzire and is approx. ₹7605 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Vadodara to Dwarka Innova fare?",
+            answer: "Vadodara to Dwarka Innova fare is approx. ₹8605. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Vadodara to Dwarka cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Vadodara to Dwarka cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Vadodara to Dwarka cab."
+          },
+          {
+            question: "Is local sightseeing included in Vadodara to Dwarka outstation trip?",
+            answer: "For Vadodara to Dwarka Round trip cab, all the local sightseeing in Vadodara, Dwarka and other destination cities in itinerary is included. For Vadodara to Dwarka One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Vadodara, Dwarka and other destination cities in itinerary is included. For Vadodara to Dwarka One way cab i.e. with only Vadodara and Dwarka in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Vadodara to Dwarka?",
+            answer: "Although you can book Vadodara to Dwarka cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Vadodara to Dwarka by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Vadodara to Dwarka cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Vadodara to Dwarka one way taxi?",
+            answer: "You may book Vadodara to Dwarka One way multi-stop cab by adding additional stops in itinerary. For Vadodara to Dwarka One way taxi with only Vadodara and Dwarka in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Vadodara to Dwarka one way cab?",
+            answer: "For Vadodara to Dwarka One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Vadodara to Dwarka cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Vadodara to Dwarka cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Vadodara to Dwarka cab."
+          }
+        ]
+      }
+    ]
+  },
+  //36
+  {
+    id: 37,
+    slug: "vadodara-to-palitana",
+    heading: "Book Vadodara to Palitana Cab",
+    tag: 'Pilgrimage',
+    description: [
+      "In the Bhavnagar district of Gujarat, Palitana is recognized as one of the most sacred religious towns among Jain religions around the world. It is an ancient city that holds significant historical and religious importance and is visited by millions of devotees every year. With AAVORide book your holy drive towards Palitana from any corner of the India, our vast cab booking network ensures a comfortable and timely ride.",
+      "The Palitana temples of Jainism stand on Shatrunjaya Hill, near the city of Palitana in Bhavnagar district of Gujarat, India. This city, once called Padliptapur, is known today as the “City of Temples.” Along with Shikharji in Jharkhand, these two sites are seen as the holiest pilgrimage spots for the Jain community. Palitana was built as a sacred place, and because of this, no one, including the priests, is allowed to stay there overnight. Every Jain considers a visit to these temples as a once-in-a-lifetime chance to seek nirvana, or spiritual freedom.",
+      "Taxi from Vadodara to Palitana is readily available at AAVORide."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTg23DvTZF1Haglx3NUISgdw8SdJCIsgtActKthR1uXA&s=10",
+
+    sections: [
+      {
+        subHeading: "Vadodara to Palitana Cab Route",
+        description: [
+          "Vadodara to Palitana by car is well connected via NH751 and is very convenient and comfortable drive. Vadodara to Palitana distance is 247 Km and is 5.7 hours journey. Other famous tourist places on this route and nearby are : Gujarat State Fertilizers and Chemicals Limited",
+          "Champaner-Pavagadh Archaeological Park: This UNESCO World Heritage Site is located near Vadodara and is known for its ancient ruins, palaces, and temples.",
+          "Shri Swaminarayan Mandir, Vadtal: This temple is an important pilgrimage site for the Swaminarayan sect and is known for its beautiful architecture and peaceful surroundings.",
+          "Narmada Canal: This scenic canal runs parallel to the road and offers beautiful views for a relaxing stopover.",
+          "Anand: Known as the birthplace of the famous Amul dairy cooperative, Anand is a small town with interesting food and dairy-related attractions.",
+          "Taranga Jain Temple: Located near Taranga Hill, this Jain temple is known for its intricate carvings and panoramic views of the surrounding landscape.",
+          "Shatrunjaya Hill, Palitana: The main attraction of Palitana is the Shatrunjaya Hill, which is home to over 800 Jain temples. It is an important pilgrimage site for Jains and offers breathtaking views from the top."
+        ]
+
+      },
+      {
+        subHeading: "Places to visit in Palitana using AAVORide Vadodara to Palitana Car Rental with driver",
+        description: "",
+        part: {
+          "Popular places in Palitana": [
+            "Shatrunjaya Hill",
+            "Palitana Temples",
+            "Jain Museum",
+            "Kumar Pal Temple",
+            "Adinath Temple",
+            "Chaumukh Temple",
+            "Angar Pir",
+            "Siddhavad Temple",
+            "Vimal Nath Temple",
+            "Gopinath Temple",
+            "Rayan Pagoda",
+            "Bimal Shah Smruti",
+            "Madhav Bhavan",
+            "Moti Shah Temple",
+            "Hingraj Mata Temple",
+            "Dada Parshwanath Temple",
+            "Madhav Kunda",
+            "Rishabhdev Temple",
+            "Suvidinath Temple",
+            "Saraswati Bhavan",
+            "Sundari Temple",
+            "Shri Vishal Jain Derasar",
+            "Khartargachh Derasar",
+            "Padmavati Devi Temple",
+            "Kundalini Temple"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Vadodara to Palitana Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Vadodara to Palitana taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Vadodara to Palitana.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Vadodara to Palitana cab and our prices are generally 20% lower than competition."
+        ],
+        "Vadodara to Palitana Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Vadodara to Palitana Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Vadodara to Palitana taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Vadodara to Palitana taxi service. You may book Vadodara to Palitana round trip cab or one way multi-stop cab in case you plan not to return to Vadodara and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Vadodara to Palitana car package as needed. You may also book Vadodara to Palitana one way drop taxi or a local hourly rental cab in Palitana with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Vadodara to Palitana Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Vadodara to Palitana by car?",
+            answer: "The distance from Vadodara to Palitana by car is 245 km."
+          },
+          {
+            question: "How long does it take from Vadodara to Palitana by road?",
+            answer: "It takes approx. 3.8 to 5.8 hours depending on traffic."
+          },
+          {
+            question: "How much is Vadodara to Palitana taxi fare?",
+            answer: "Vadodara to Palitana taxi fare is approx. ₹2695 for a good sedan car like Etios, Dzire and is approx. ₹3675 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Vadodara to Palitana Innova fare?",
+            answer: "Vadodara to Palitana Innova fare is approx. ₹4675. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Vadodara to Palitana cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Vadodara to Palitana cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Vadodara to Palitana cab."
+          },
+          {
+            question: "Is local sightseeing included in Vadodara to Palitana outstation trip?",
+            answer: "For Vadodara to Palitana Round trip cab, all the local sightseeing in Vadodara, Palitana and other destination cities in itinerary is included. For Vadodara to Palitana One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Vadodara, Palitana and other destination cities in itinerary is included. For Vadodara to Palitana One way cab i.e. with only Vadodara and Palitana in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Vadodara to Palitana?",
+            answer: "Although you can book Vadodara to Palitana cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Vadodara to Palitana by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Vadodara to Palitana cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Vadodara to Palitana one way taxi?",
+            answer: "You may book Vadodara to Palitana One way multi-stop cab by adding additional stops in itinerary. For Vadodara to Palitana One way taxi with only Vadodara and Palitana in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Vadodara to Palitana one way cab?",
+            answer: "For Vadodara to Palitana One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Vadodara to Palitana cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Vadodara to Palitana cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Vadodara to Palitana cab."
+          }
+        ]
+      }
+    ]
+  }
 ];
