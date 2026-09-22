@@ -1279,7 +1279,8 @@ export const tripData = [
       "AAVORide provide Ahmedabad to Statue of Unity taxi service that offers you clean and sanitised cabs, experienced drivers, and multiple booking options - one-way or round-trip, as suits you. It's time for stress-free travel.",
       "So what's the delay? Book your Ahmedabad to Statue of Unity cab now on AAVORide!"
     ],
-    coverImage: "/statue-of-unity-inside.jpg",
+    coverImage: "/SOU1.jpg",
+    smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSze_inZm2rONV9ch-Z_epiItHZvuGCmDiPvImKCb987g&s=10",
     sections: [
       {
         subHeading: "Why Book an Ahmedabad to Statue of Unity Cab with AAVORide?",
@@ -1774,7 +1775,9 @@ export const tripData = [
       "Ahmedabad, as Gujarat’s cultural and business capital, is often used as a base city for trips to Dwarka. The distance from Ahmedabad to Dwarka is approx 449 km, which can be covered in around 8-9 hours easily by booking an Ahmedabad to Dwarka cab. Ahmedabad to Dwarka taxi travel is perfect for convenient, flexible journeys. Book a reliable Ahmedabad to Dwarka car rental with AAVORide, suited for pilgrims, families and tourists.",
       "What are you waiting for? Hire a cab with AAVORide’s trusted intercity taxi service."
     ],
-    coverImage: "/inside-dwarka.jpg",
+    smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD76kP0PRm1kdmmbt57DFrY-Z6pEUQxoiBvcuICux6FQ&s=10",
+    coverImage: "https://jyotirlingasofindia.wordpress.com/wp-content/uploads/2016/11/dwarka.jpg?w=817&h=244",
+
     sections: [
       {
         subHeading: "Why Book an Ahmedabad to Dwarka Cab with AAVORide?",
@@ -2745,6 +2748,7 @@ export const tripData = [
       "Surrounded by the Araveli Hill range, Ambaji is a beautiful town with numerous temples. The holy temple of \"Arasurii Ambaji\" is one of the 51 Shakti Peethas. In the temple there is no image or statue of Goddess. The holy \"Shree Visa Yantra\" is worshiped as the main deity. While visiting temple, be sure to look across the temple at the other temple on the top of Gabbar hill which is considered as the original adobe of the Goddess. Navratri festival in Ambaji is the most mesmerising experience and is celebrated by dancing Garba around the holy Mother."
     ],
     coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz8zRZwcMBdaZoWgxNTBK36TWP3mMvcdOLj7ISr30gfw&s=10",
+    smallImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGWAqcIu64iOBijFWvpAB8unD_wFgbpGjzfmPXPbDmBQ&s=10",
     sections: [
       {
         subHeading: "Ahmedabad to Ambaji Cab Route",
@@ -3047,7 +3051,7 @@ export const tripData = [
       "Ahmedabad is renowned for being the place where Mahatma Gandhi initiated the struggle for India’s freedom and build Sabarmati Ashram which is still quaint and peaceful as before. Ahmedabad is home to a number of temples, monuments, museums and art galleries. It is also a central place or gateway to most beautiful tourist places like Udaipur, Mount Abu, Rann of Kutch, Gir Forest etc. Ahmedabad is a perfect blend of a metropolitan city, an industrial hub, an education hotspot alongwith a magnificent past, culture, religious importance and a very down-to-earth lifestyle. It is also famous for its textiles, bandhani handlooom, local handicrafts making it a perfect destination for shopaholic tourists. Navratri celebrations is the perfect time to experience the happiness, enthusiasm and culture of this wonderful city. When in Ahmedabad, do not miss the tasty street food of this city like khakhra, namkeen, fafda, soft and spongy khaman dhokla, maska-bun, fritters with green chilies and chutney."
     ]
     ,
-    coverImage: "https://www.sabarmatiriverfront.com/img/gallery/riverfront-atal-bridge/Iconic-Foot-Over-Bridge-at-Sabarmati-Riverfront.jpeg",
+    coverImage: "https://rohalsdiary.com/wp-content/uploads/2020/02/IMG_0671.png",
     sections: [
       {
         subHeading: "Surat to Ahmedabad Cab Route",
@@ -3380,7 +3384,9 @@ export const tripData = [
       "Taxi from Surat to Statue Of Unity is readily available at AAVORide. Other very popular cab route for tourists is Pune to Goa."
     ]
     ,
-    coverImage: "/statue-of-unity-inside.jpg",
+    coverImage: "/SOU1.jpg",
+    smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSze_inZm2rONV9ch-Z_epiItHZvuGCmDiPvImKCb987g&s=10",
+
     sections: [
       {
         subHeading: "Surat to Statue Of Unity Cab Route",
@@ -3532,7 +3538,7 @@ export const tripData = [
       "Diu is more popular as a tourist place because of the natural beaches available very near to Diu like the Nagoa beach, ghoghla beach, jallandhar, chakratirth, gomtimata, simbor, and khodidhar where tourists can enjoy various water sport activities like Para sailing, water scooter, speed boat, banana boating, jet skiing, water skiing, bumper boating, and hot air balloon. The nearby Diu Fort is also popular tourist attraction. Diu makes to a perfect nomination as ideal destination for couples, family vacation and adventure lovers.",
       "Taxi from Surat to Diu is readily available at AAVORide."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPe-TaGhrZWBUct7gdINeWneqjdM-f3BSuNnClwGm2aQ&s=10",
+    coverImage: "https://makeithappen.co.in/wp-content/uploads/2021/12/Diu-Fort-G1-5.jpg",
 
     sections: [
       {
@@ -3693,7 +3699,7 @@ export const tripData = [
       "Taxi from Surat to Daman is readily available at AAVORide. Book reliable and affordabe chauffeur-driven Car rental service: https://AAVORide.com/city/car-rental-chennai",
 
     ],
-    coverImage: "https://static.toiimg.com/photo/106095642.cms",
+    coverImage: "https://wanderon-images.gumlet.io/blogs/new/2024/08/daman-diu-travel-tips.jpg",
 
     sections: [
       {
@@ -3844,7 +3850,9 @@ export const tripData = [
       "Surat to Valsad is a very popular route for business and also a pilgrimage. Valsad is famous for its Hafus mangoes, Valsadi teakwood and also as the birthplace of Shri Morarji Desai, ex-prime minister of India . Valsad is known for its Banyan trees also. This area is full of banyan trees.",
       "Valsad is situated on south of Gujarat and Arabian sea is on its west. Valsad is quite famous among pilgrims,nature lovers and historians.Tirthal,a village is main pilgrimage centre in Valsad district. There is splendid complex houses Sai Baba temple, Sadhna centre for Jain Munis,Swami Narayan Temple etc. Tirthal is also famous for its black sand beach which attract nature lovers and other tourists here.Historian visit here for Sifee Villa Museum, Dandi.Other attractions are Parnera hill and fort. Parnera fort is made by Chatrapati Shivaji.",
       "Taxi from Surat to Valsad is readily available at AAVORide."],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSMFLdrK7jd-VCdm-mRscf-St5fvOxtJ_O35XS7YfCTA&s=10",
+    coverImage: "/SOU1.jpg",
+    smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSze_inZm2rONV9ch-Z_epiItHZvuGCmDiPvImKCb987g&s=10",
+
 
     sections: [
       {
@@ -5455,8 +5463,7 @@ export const tripData = [
       "Vadodara stands for royalty and grandeur with numerous monuments and centres of learning. The city portrays a beautiful balance between the old and the new, which makes it one of the most recognised and well-developed cities in Gujarat.",
       "Our car service from Vadodara to Ahmedabad ensures reliable and affordable services with no hidden charges for booking. Trained drivers take care of pickups and drop-offs on comfortable highways, and you have sedan or SUV cars to pick from with user-friendly booking and 24X7 assistance. You can also hire a one way taxi from Vadodara to Ahmedabad, or round trip service for ease and comfort during travel."
     ],
-    coverImage: "https://www.sabarmatiriverfront.com/img/gallery/riverfront-atal-bridge/Iconic-Foot-Over-Bridge-at-Sabarmati-Riverfront.jpeg",
-
+    coverImage: "https://rohalsdiary.com/wp-content/uploads/2020/02/IMG_0671.png",
     sections: [
       {
         subHeading: "Vadodara to Ahmedabad cab fare - Intra Gujarat journey Pricing",
@@ -5808,7 +5815,9 @@ export const tripData = [
       "AAVORide offers its comfortable, convenient, and flexible Vadodara to Statue of Unity cab service at a very affordable price. Making us one of the perfect service provider options for families, tourists, and groups alike. Whether you're visiting for sightseeing, a school trip, or a spiritual journey—AAVORide is your trusted travel partner.",
       "Book your Vadodara to Statue of Unity cab now for a hassle-free experience."
     ],
-    coverImage: "/statue-of-unity-inside.jpg",
+    // coverImage: "/SOU1.jpg",
+    coverImage: "/SOU1.jpg",
+    smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSze_inZm2rONV9ch-Z_epiItHZvuGCmDiPvImKCb987g&s=10",
     sections: [
       {
         subHeading: "Why Book a Vadodara to Statue of Unity Cab with AAVORide?",
@@ -6315,8 +6324,6 @@ export const tripData = [
       }
     ]
   },
-
-
   {
     id: 30,
     slug: "vadodara-to-mumbai",
@@ -7475,7 +7482,8 @@ export const tripData = [
       "Dwarka is believed to be the gateway to heaven and the belief is that the city was once engulfed by the sea. Its a city where mythology meets reality as archologists found an ancient underwater city. Dwarka is also home to one of the 12 Jyotirlingas, Nageshwar temple. The holiness and spirituality of Dwarka remain etched in visitor's memory for a long time. The spiritual importance of the city can also be known from the fact that it is the only city that is part of both Char Dham as well as Saptu Puri as mentioned in Hindu religion.",
       "Taxi from Vadodara to Dwarka is readily available at AAVORide."
     ],
-    coverImage: "https://www.daiwikhotels.com/wp-content/uploads/2024/07/7xm289543-1-1.jpg",
+    smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD76kP0PRm1kdmmbt57DFrY-Z6pEUQxoiBvcuICux6FQ&s=10",
+    coverImage: "https://jyotirlingasofindia.wordpress.com/wp-content/uploads/2016/11/dwarka.jpg?w=817&h=244",
 
     sections: [
       {

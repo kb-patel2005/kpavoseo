@@ -43,7 +43,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
 
     // const recentBlogs = recentData?.pages.flatMap((page) => page.blogs) || [];
 
-    const { heading, description, sections, coverImage } = data || {};
+    const { heading, description, sections, coverImage, smallImage } = data || {};
     const router = useRouter()
 
     return (
@@ -52,14 +52,40 @@ export default function DetailBlog({ slug }: { slug: string }) {
             <section className="relative overflow-hidden w-full h-[350px] md:h-[500px]">
 
                 <div className="absolute inset-0 z-0">
-                    <Image
-                        src={coverImage || ""}
-                        alt="AAVORide Travel Guide"
-                        fill
-                        sizes="100vw"
-                        priority
-                        className="object-top-right object-cover select-none"
-                    />
+                    {
+                        smallImage ? (
+                            <>
+                                <Image
+                                    src={coverImage || ""}
+                                    alt="AAVORide Travel Guide"
+                                    fill
+                                    sizes="100vw"
+                                    priority
+                                    className="object-top-right object-cover select-none lg:block hidden"
+                                />
+                                <Image
+                                    src={smallImage || ""}
+                                    alt="AAVORide Travel Guide"
+                                    fill
+                                    sizes="100vw"
+                                    priority
+                                    className="object-top-right object-cover select-none lg:hidden block"
+                                />
+                            </>
+                        ) : (
+                            <Image
+                                src={coverImage || ""}
+                                alt="AAVORide Travel Guide"
+                                fill
+                                sizes="100vw"
+                                priority
+                                className="object-top-right object-cover select-none"
+                            />
+                        )
+                    }
+
+
+
                     {/* Gradient overlays */}
                     {/* <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent" /> */}
                     <div className="absolute inset-0 bg-slate-950/20" />
