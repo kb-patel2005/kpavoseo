@@ -318,7 +318,7 @@ export const smallCard: Destination1[] = [
     description: "Surat to Ahmedabad is the very popular route for both tourists and people traveling for work. Ahmedabad is one of the most visited cities in India. It is honored as India's first World Heritage City by UNESCO for its rich art, history, culture and heritage.",
     tag: 'Culture',
     slug: "surat-to-ahmedabad",
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxD5z6ImW1R2CRpvDBy__G9Ocs7xCY2FEgzRm5yC1Xw&s=10",
+    coverImage: "/RiverFront2.jpg",
   },
   //9
   {
@@ -448,7 +448,7 @@ export const smallCard: Destination1[] = [
     heading: "Vadodara to Ahmedabad Taxi ",
     tag: "Culture",
     description: "Vadodara stands for royalty and grandeur with numerous monuments and centres of learning. The city portrays a beautiful balance between the old and the new, which makes it one of the most recognised and well-developed cities in Gujarat.",
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAxD5z6ImW1R2CRpvDBy__G9Ocs7xCY2FEgzRm5yC1Xw&s=10",
+    coverImage: "/RiverFront2.jpg",
   },
   {
     id: 27,
@@ -782,7 +782,7 @@ export const threeCards = [
     ],
     coverImage: "/udaipur.jpg",
   },
-   {
+  {
     id: 4,
     slug: "ahmedabad-to-dwarka",
     heading: "Ahmedabad to Dwarka Taxi - Book Comfortable & Affordable Cab Service",
@@ -811,7 +811,7 @@ export const tripData = [
       "AAVORide provide Ahmedabad to Statue of Unity taxi service that offers you clean and sanitised cabs, experienced drivers, and multiple booking options - one-way or round-trip, as suits you. It's time for stress-free travel.",
       "So what's the delay? Book your Ahmedabad to Statue of Unity cab now on AAVORide!"
     ],
-    coverImage: "/SOU1.jpg",
+    coverImage: "/statue-of-unity-inside1.jpg",
     smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSze_inZm2rONV9ch-Z_epiItHZvuGCmDiPvImKCb987g&s=10",
     sections: [
       {
@@ -2532,8 +2532,8 @@ export const tripData = [
       "Ahmedabad to Ambaji is very popular route for tourists and pilgrims. Ambaji is the principal shrine of Goddess Amba who has been worshiped since the pre-Vedic period and is visited by millions of devotees every year.",
       "Surrounded by the Araveli Hill range, Ambaji is a beautiful town with numerous temples. The holy temple of \"Arasurii Ambaji\" is one of the 51 Shakti Peethas. In the temple there is no image or statue of Goddess. The holy \"Shree Visa Yantra\" is worshiped as the main deity. While visiting temple, be sure to look across the temple at the other temple on the top of Gabbar hill which is considered as the original adobe of the Goddess. Navratri festival in Ambaji is the most mesmerising experience and is celebrated by dancing Garba around the holy Mother."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz8zRZwcMBdaZoWgxNTBK36TWP3mMvcdOLj7ISr30gfw&s=10",
-    smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGWAqcIu64iOBijFWvpAB8unD_wFgbpGjzfmPXPbDmBQ&s=10",
+    coverImage: "/ambaji4.jpg",
+    smallImage: "https://images.pexels.com/photos/24771796/pexels-photo-24771796.jpeg",
     sections: [
       {
         subHeading: "Ahmedabad to Ambaji Cab Route",
@@ -5619,7 +5619,7 @@ export const tripData = [
       "Ahmedabad is renowned for being the place where Mahatma Gandhi initiated the struggle for India’s freedom and build Sabarmati Ashram which is still quaint and peaceful as before. Ahmedabad is home to a number of temples, monuments, museums and art galleries. It is also a central place or gateway to most beautiful tourist places like Udaipur, Mount Abu, Rann of Kutch, Gir Forest etc. Ahmedabad is a perfect blend of a metropolitan city, an industrial hub, an education hotspot alongwith a magnificent past, culture, religious importance and a very down-to-earth lifestyle. It is also famous for its textiles, bandhani handlooom, local handicrafts making it a perfect destination for shopaholic tourists. Navratri celebrations is the perfect time to experience the happiness, enthusiasm and culture of this wonderful city. When in Ahmedabad, do not miss the tasty street food of this city like khakhra, namkeen, fafda, soft and spongy khaman dhokla, maska-bun, fritters with green chilies and chutney."
     ]
     ,
-    coverImage: "https://rohalsdiary.com/wp-content/uploads/2020/02/IMG_0671.png",
+    coverImage: "/RiverFront2.jpg",
     sections: [
       {
         subHeading: "Surat to Ahmedabad Cab Route",
@@ -5950,9 +5950,8 @@ export const tripData = [
       "Surat to Statue of Unity is the very popular route for both domestic as well as foreign tourists. Statue of Unity is a memorial to The Iron Man of India, Sardar Vallabhbhai Patel, and is the 'Tallest Statue in the World'.",
       "Located on the banks of river Narmada, Statue of Unity is 182 meters tall statue of Sardar Vallabhbhai Patel inspiring the citizens of India through his freedom struggle and patriotism. It s a tribute to the person who unites the 552 princely states of India to form a single Union of India. The statue is located amidst the Satpura and Vindhyan Mountain ranges, on Sadhu Bet - 3.2 km downstream of the Sardar Sarovar Dam. A historical center and a remembrance are built at the base displaying antiques and reports from the life of Sardar Patel. It has 17 km-long Valley of Flowers. Selfie Points in a 5-km range around the Statue is additionally constructed. There are three type of tickets to visit Statue of Unity. One permits the tour of the monument and Valley of Flower. Second one allow access to the gallery as well. The gallery is situated on the top of the statue. Third one is express entry ticket to avoid the rush.",
       "Taxi from Surat to Statue Of Unity is readily available at AAVORide. Other very popular cab route for tourists is Pune to Goa."
-    ]
-    ,
-    coverImage: "/SOU1.jpg",
+    ],
+    coverImage: "/statue-of-unity-inside1.jpg",
     smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSze_inZm2rONV9ch-Z_epiItHZvuGCmDiPvImKCb987g&s=10",
 
     sections: [
@@ -6602,8 +6601,8 @@ export const tripData = [
       "Surat to Valsad is a very popular route for business and also a pilgrimage. Valsad is famous for its Hafus mangoes, Valsadi teakwood and also as the birthplace of Shri Morarji Desai, ex-prime minister of India . Valsad is known for its Banyan trees also. This area is full of banyan trees.",
       "Valsad is situated on south of Gujarat and Arabian sea is on its west. Valsad is quite famous among pilgrims,nature lovers and historians.Tirthal,a village is main pilgrimage centre in Valsad district. There is splendid complex houses Sai Baba temple, Sadhna centre for Jain Munis,Swami Narayan Temple etc. Tirthal is also famous for its black sand beach which attract nature lovers and other tourists here.Historian visit here for Sifee Villa Museum, Dandi.Other attractions are Parnera hill and fort. Parnera fort is made by Chatrapati Shivaji.",
       "Taxi from Surat to Valsad is readily available at AAVORide."],
-    coverImage: "/SOU1.jpg",
-    smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSze_inZm2rONV9ch-Z_epiItHZvuGCmDiPvImKCb987g&s=10",
+    coverImage: "/valsad1.jpg",
+    // smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSze_inZm2rONV9ch-Z_epiItHZvuGCmDiPvImKCb987g&s=10",
 
 
     sections: [
@@ -6628,7 +6627,7 @@ export const tripData = [
           "Popular places": [
             "Tithal Beach",
             "Wilson hill",
-            ". Swaminarayan Temple",
+            "Swaminarayan Temple",
             "Parnera hill",
             "Tadkeshwar Mahadev Mandir",
             "Udvada Beach",
@@ -8215,7 +8214,7 @@ export const tripData = [
       "Vadodara stands for royalty and grandeur with numerous monuments and centres of learning. The city portrays a beautiful balance between the old and the new, which makes it one of the most recognised and well-developed cities in Gujarat.",
       "Our car service from Vadodara to Ahmedabad ensures reliable and affordable services with no hidden charges for booking. Trained drivers take care of pickups and drop-offs on comfortable highways, and you have sedan or SUV cars to pick from with user-friendly booking and 24X7 assistance. You can also hire a one way taxi from Vadodara to Ahmedabad, or round trip service for ease and comfort during travel."
     ],
-    coverImage: "https://rohalsdiary.com/wp-content/uploads/2020/02/IMG_0671.png",
+    coverImage: "/RiverFront2.jpg",
     sections: [
       {
         subHeading: "Vadodara to Ahmedabad cab fare - Intra Gujarat journey Pricing",
@@ -8568,7 +8567,7 @@ export const tripData = [
       "Book your Vadodara to Statue of Unity cab now for a hassle-free experience."
     ],
     // coverImage: "/SOU1.jpg",
-    coverImage: "/SOU1.jpg",
+    coverImage: "/statue-of-unity-inside1.jpg",
     smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSze_inZm2rONV9ch-Z_epiItHZvuGCmDiPvImKCb987g&s=10",
     sections: [
       {
@@ -10234,8 +10233,8 @@ export const tripData = [
       "Dwarka is believed to be the gateway to heaven and the belief is that the city was once engulfed by the sea. Its a city where mythology meets reality as archologists found an ancient underwater city. Dwarka is also home to one of the 12 Jyotirlingas, Nageshwar temple. The holiness and spirituality of Dwarka remain etched in visitor's memory for a long time. The spiritual importance of the city can also be known from the fact that it is the only city that is part of both Char Dham as well as Saptu Puri as mentioned in Hindu religion.",
       "Taxi from Vadodara to Dwarka is readily available at AAVORide."
     ],
-    smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD76kP0PRm1kdmmbt57DFrY-Z6pEUQxoiBvcuICux6FQ&s=10",
-    coverImage: "https://jyotirlingasofindia.wordpress.com/wp-content/uploads/2016/11/dwarka.jpg?w=817&h=244",
+    // smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD76kP0PRm1kdmmbt57DFrY-Z6pEUQxoiBvcuICux6FQ&s=10",
+    coverImage: "https://www.incredibleindia.gov.in/content/dam/incredible-india/images/gujarat/dwarka/city/gomti-ghat-dwarka-city-hero.jpg",
 
     sections: [
       {
