@@ -381,6 +381,8 @@ export const MOCK_DESTINATIONS: Destination[] = [
     category: 'Pilgrimage',
     image: '/somnath.jpg',
   },
+
+  //5
   {
     id: '5',
     title: 'Gir: Into the Wild',
@@ -391,12 +393,14 @@ export const MOCK_DESTINATIONS: Destination[] = [
   {
     id: '6',
     title: 'Kutch: White Desert Wonders',
+    slug: 'surat-to-kutch',
     category: 'Adventure',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyS-80QKhz_jTxYPpU-piVHwOHqq0eRUETd7rt_knKYw&s=10',
   },
   {
     id: '7',
     title: 'Diu: Coastal Getaway',
+    slug: 'surat-to-diu',
     category: 'Beach Escape',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIS9H5eSLgtCUys8QXo3GuagOEO5L1M2NM3EVzpeHUow&s=10',
   },
@@ -407,117 +411,146 @@ export const MOCK_DESTINATIONS: Destination[] = [
     category: 'Landmark',
     image: '/statue_of_unity.jpg',
   },
+
+  //9
   {
     id: '9',
     title: 'Goa: Sun, Sand & Fun',
+    slug: 'ahmedabad-to-goa',
     category: 'Beach Escape',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_xSgCcXXbFQ-PuxoN9xto_mvthqyvOTb5r-qObQzQFQ&s=10',
   },
   {
     id: '10',
     title: 'Manali: Into the Mountains',
+    slug: 'ahmedabad-to-manali',
     category: 'Adventure',
     image: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200&auto=format&fit=crop&q=80',
   },
   {
     id: '11',
     title: 'Shimla: Queen of Hills',
+    slug: 'ahmedabad-to-shimla',
     category: 'Hill Escape',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWq8opY8fi9VbWM5bKl-RBAIqNrKqvOYdpKPJocGnp9A&s=10',
   },
   {
     id: '12',
     title: 'Kasol: Valley of Serenity',
+    slug: 'ahmedabad-to-kasol',
     category: 'Nature',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv7kx6PiIbKQdQgB0pm5kwVYES8H_VRZrJJpQ8QeIUMg&s=10',
   },
+
+  //13
   {
     id: '13',
     title: 'Rishikesh: Adventure Awaits',
+    slug: 'ahmedabad-to-rishikesh',
     category: 'Adventure',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW2KyyfC5Wjh-p3-lN0IxWfbTrUiK0qHToazAeuRzYZA&s=10',
   },
   {
     id: '14',
     title: 'Haridwar: A Sacred Journey',
+    slug: 'ahmedabad-to-haridwar',
     category: 'Spiritual',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuJANjng3UwlGoXB5l0wl7nzy-_Bb2Jh7nsdiIW_5uMA&s=10',
   },
   {
     id: '15',
     title: 'Jaisalmer: Golden City Escape',
+    slug:'ahmedabad-to-jaisalmer',
     category: 'Heritage',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS6WMmLNPQkuqnSpnuvBThHrNymrsevZech47u1qOYzQ&s=10',
   },
   {
     id: '16',
     title: 'Jodhpur: The Blue City',
+    slug: 'ahmedabad-to-jodhpur',
     category: 'Heritage',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS25xHfpKGFm0Bu5Q7pBZGx0AdfpaDjvMOS5SoyhzozBg&s=10',
   },
   {
     id: '17',
     title: 'Pushkar: Beyond the Ordinary',
+    slug: 'ahmedabad-to-pushkar',
     category: 'Culture',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP3cAUAxEyvfEcFe59R4wHUT996mqk_r3JoaV2RVQMNg&s=10',
   },
+
+  //18
   {
     id: '18',
     title: 'Mumbai: The City That Never Stops',
+    slug: 'surat-to-mumbai',
     category: 'City Escape',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpfjs4b2rOKux9Cq9KKXPylIOf65Nbqobnmq4P5jl9kQ&s=10',
   },
   {
     id: '19',
     title: 'Lonavala: Weekend in the Hills',
+    slug: 'ahmedabad-to-lonavala',
     category: 'Nature',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlQm6ZdsU9jNu7kifthl65nIG2YUmXnejuJhy5_WhXZw&s=10',
   },
   {
     id: '20',
     title: 'Mahabaleshwar: Misty Mountain Escape',
+    slug: 'surat-to-mahabaleshwar',
     category: 'Hill Escape',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGcrxhxZtj8b9DUZm22H6TJqGWdpsuqkP_dygYhFNHXQ&s=10',
   },
   {
     id: '21',
     title: 'Agra: The Taj Mahal Journey',
+    slug: 'ahmedabad-to-agra',
     category: 'Heritage',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyap5uwIdKPVi3e8WSKUB0W6uQE0oAuXfnU0frf40_Nw&s=10',
   },
+
+  //22
   {
     id: '22',
     title: 'Delhi: Where History Meets Modern India',
+    slug: 'ahmedabad-to-delhi',
     category: 'Culture',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX8Nvj0818Izvjxyac03OrPmExYpQdhnEoqHo_FLIHNA&s=10',
   },
   {
     id: '23',
     title: 'Varanasi: Soul of the Ganges',
+    slug: 'ahmedabad-to-varanasi',
     category: 'Spiritual',
     image: '/images/varanasi(1)(1).jpg',
   },
   {
     id: '24',
     title: 'Hampi: Stories in Stone',
+    slug: 'ahmedabad-to-hampi',
     category: 'History',
     image: '/images/hampi.jpg',
   },
   {
     id: '25',
     title: 'Amritsar: A Journey of Faith',
+    slug: 'ahmedabad-to-amritsar',
     category: 'Culture',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzd1ABhp7w7M3UGi2Of4v80FJcqbEOTGPMgwvjy9DIng&s=10',
   },
+
+  //26
   {
     id: '26',
     title: 'Kashmir: Paradise on Earth',
+    slug: 'ahmedabad-to-srinagar',
     category: 'Scenic',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPHWnRu88zISAu6ch-iqhJ2FVXyTUO8RUGJcI-6fP3nA&s=10',
   },
   {
     id: '27',
     title: 'Leh: Into the High Himalayas',
+    slug: 'ahmedabad-to-leh',
     category: 'Adventure',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRGHzVdJZ96Ri1SjNnkgK3z-HR2750Xtc0lytjRZ0P9A&s=10',
   }
@@ -1775,8 +1808,9 @@ export const tripData = [
       "Ahmedabad, as Gujarat’s cultural and business capital, is often used as a base city for trips to Dwarka. The distance from Ahmedabad to Dwarka is approx 449 km, which can be covered in around 8-9 hours easily by booking an Ahmedabad to Dwarka cab. Ahmedabad to Dwarka taxi travel is perfect for convenient, flexible journeys. Book a reliable Ahmedabad to Dwarka car rental with AAVORide, suited for pilgrims, families and tourists.",
       "What are you waiting for? Hire a cab with AAVORide’s trusted intercity taxi service."
     ],
-    smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD76kP0PRm1kdmmbt57DFrY-Z6pEUQxoiBvcuICux6FQ&s=10",
-    coverImage: "https://jyotirlingasofindia.wordpress.com/wp-content/uploads/2016/11/dwarka.jpg?w=817&h=244",
+    // smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD76kP0PRm1kdmmbt57DFrY-Z6pEUQxoiBvcuICux6FQ&s=10",
+    // coverImage: "https://shreedwarkadhish.in/assets/images/pages/janmashtami-dwarka-2026-1600.webp",
+    coverImage: "https://www.incredibleindia.gov.in/content/dam/incredible-india/images/gujarat/dwarka/city/gomti-ghat-dwarka-city-hero.jpg",
 
     sections: [
       {
@@ -1913,7 +1947,7 @@ export const tripData = [
         subHeading: "How to Book an Ahmedabad to Dwarka Taxi Online?",
         description: [
           "AAVORide is a premium cab service provider in India, renowned for exceptional cab services with a focus on comfort and safety. There are multiple cab booking options on AAVORide for online cab from Ahmedabad to Dwarka. To book a cab from Ahmedabad to Dwarka, AAVORide offers multiple platforms, such as our website and mobile application. Further, you can also directly contact our customer service executive for any process issues regarding taxi booking from Ahmedabad to Dwarka.",
-          "Through the Website: AAVORide has a user-friendly website, https://AAVORide.com, where travellers can easily book their cab service from Ahmedabad to Dwarka. Here you get a form where you fill in your pickup and destination addresses. Then on the next page, you get the car option; choose wisely according to your needs.",
+          "Through the Website: AAVORide has a user-friendly website, https://www.aavoride.com, where travellers can easily book their cab service from Ahmedabad to Dwarka. Here you get a form where you fill in your pickup and destination addresses. Then on the next page, you get the car option; choose wisely according to your needs.",
           "Mobile Application: You can also book a cab with the AAVORide mobile app. It is easy to download the AAVORide mobile application on your phone from the Play Store and Apple app Store. Here you can easily book your cab from Ahmedabad to Dwarka.",
           "Customer care: You can also contact AAVORide customer executives to get direct human assistance. We provide 24/7 active customer support to our passengers for timely issue resolution."
         ],
@@ -2748,7 +2782,7 @@ export const tripData = [
       "Surrounded by the Araveli Hill range, Ambaji is a beautiful town with numerous temples. The holy temple of \"Arasurii Ambaji\" is one of the 51 Shakti Peethas. In the temple there is no image or statue of Goddess. The holy \"Shree Visa Yantra\" is worshiped as the main deity. While visiting temple, be sure to look across the temple at the other temple on the top of Gabbar hill which is considered as the original adobe of the Goddess. Navratri festival in Ambaji is the most mesmerising experience and is celebrated by dancing Garba around the holy Mother."
     ],
     coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQz8zRZwcMBdaZoWgxNTBK36TWP3mMvcdOLj7ISr30gfw&s=10",
-    smallImage:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGWAqcIu64iOBijFWvpAB8unD_wFgbpGjzfmPXPbDmBQ&s=10",
+    smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGWAqcIu64iOBijFWvpAB8unD_wFgbpGjzfmPXPbDmBQ&s=10",
     sections: [
       {
         subHeading: "Ahmedabad to Ambaji Cab Route",
@@ -3036,6 +3070,2789 @@ export const tripData = [
 
       }
     ],
+  },
+
+  //Ahmedabad to goa
+  {
+    id: 20,
+    slug: "ahmedabad-to-goa",
+    heading: "Book Ahmedabad to Goa Cab",
+    tag: "Beach",
+    description: [
+      "Ahmedabad to Goa distance : 1106 km",
+      "Estimated travel time : 20.5 hours",
+      "Ahmedabad to Goa is a popular road trip for travelers seeking beautiful beaches, Portuguese heritage, delicious seafood, vibrant nightlife, and peaceful coastal villages.",
+      "Goa offers the perfect blend of Indian and Portuguese culture with golden beaches, historic churches, forts, yoga retreats, adventure sports, and the famous cuisine influenced by wine vinegar, garlic, and aromatic spices."
+    ],
+    coverImage: "https://assets.vogue.com/photos/5a6e5c1a29863c7d640a30be/master/w_2560%2Cc_limit/00-Story-Goa.jpg",
+
+    sections: [
+      {
+        subHeading: "Ahmedabad to Goa Cab Route",
+        description: [
+          "Ahmedabad to Goa by car is well connected through NH48 and AH47, making it a convenient and comfortable long-distance drive. The journey covers approximately 1106 km and takes around 20.5 hours.",
+          "Popular destinations and stopovers on the route include:"
+        ],
+        part: {
+          "Route Highlights": [
+            "Nadiad",
+            "Anand",
+            "Vadodara",
+            "Bharuch",
+            "Surat",
+            "Bilimora",
+            "Vapi",
+            "Silvassa",
+            "Manor",
+            "Thane",
+            "Mumbai",
+            "Navi Mumbai",
+            "Rasayani",
+            "Lonavala",
+            "Khandala",
+            "Khopoli",
+            "Panvel",
+            "Khalapur",
+            "Talegaon Dabhade",
+            "Pune",
+            "Satara",
+            "Kolhapur",
+            "Belgaum"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Places to visit in Goa using AAVORide Ahmedabad to Goa Car Rental with driver",
+        description: "",
+        part: {
+          "Top Attractions in Goa": [
+            "Calangute Beach",
+            "Baga Beach",
+            "Anjuna Beach",
+            "Palolem Beach",
+            "Colva Beach",
+            "Agonda Beach",
+            "Vagator Beach",
+            "Fort Aguada",
+            "Chapora Fort",
+            "Basilica of Bom Jesus",
+            "Church of Our Lady of the Immaculate Conception",
+            "Dudhsagar Falls",
+            "Dona Paula",
+            "Mandovi River Cruise",
+            "Scuba Diving",
+            "Jet Skiing & Parasailing",
+            "Casino on Mandovi River",
+            "Fontainhas & Sao Tome",
+            "Butterfly Beach",
+            "Monastery of St. Augustine"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Ahmedabad to Goa Taxi Fare",
+        description: [
+          "AAVORide offers transparent and affordable pricing with no hidden charges. The fare covers a specified maximum distance and duration so you can plan your Goa trip with confidence.",
+          "Our Ahmedabad to Goa taxi prices are generally up to 20% lower than many competitors while maintaining reliable service quality."
+        ],
+
+        "Ahmedabad to Goa Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              Model: "Wagon-R, Indica or similar",
+              Capacity: "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              Model: "Dzire, Etios or similar",
+              Capacity: "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              Model: "Marazzo, Ertiga or similar",
+              Capacity: "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              Model: "Innova, Innova Crysta",
+              Capacity: "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+
+        "Ahmedabad to Goa Taxi Services": [
+          "Choose from hatchbacks, sedans, SUVs, and Innova Crysta for your Ahmedabad to Goa taxi booking. Round trip, one-way, and multi-stop cab options are available. Local sightseeing can also be customized as per your itinerary."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Goa Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Goa by car?",
+            answer: "The distance from Ahmedabad to Goa by car is 1106 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Goa by road?",
+            answer:
+              "It takes approximately 20.5 to 21.5 hours depending on traffic conditions."
+          },
+          {
+            question: "Does the price include driver and night charges?",
+            answer:
+              "Yes, Ahmedabad to Goa cab fare includes driver charges and night charges."
+          },
+          {
+            question: "Do I need to make advance payment to book the cab?",
+            answer:
+              "Yes, only 10–20% advance payment is required to confirm your booking."
+          },
+          {
+            question: "Is local sightseeing included in the outstation trip?",
+            answer:
+              "Sightseeing is included in round-trip and one-way multi-stop bookings. It is not included in a simple one-way transfer."
+          },
+          {
+            question: "How much in advance should I book the cab?",
+            answer:
+              "You can book up to one hour before departure, but booking at least one day in advance is recommended."
+          },
+          {
+            question: "Can I book the cab through customer support?",
+            answer:
+              "Yes, our support team can assist you, but bookings are completed through the AAVORide website or mobile app."
+          },
+          {
+            question: "Can I add pickup or drop stops on the way?",
+            answer:
+              "Yes, additional stops are available with the one-way multi-stop cab option."
+          },
+          {
+            question:
+              "Do I need to pay both-side toll tax for a one-way cab?",
+            answer:
+              "No, only one-side toll tax is applicable for a one-way Ahmedabad to Goa cab."
+          },
+          {
+            question:
+              "When will I receive driver and car details?",
+            answer:
+              "Driver and vehicle details are usually shared within minutes of booking, and in rare cases up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer:
+              "Yes. Select the 'Pet Allowed' add-on while booking. Additional charges may apply."
+          }
+        ]
+      }
+    ]
+  },
+
+  //Ahmedabad to manali
+  {
+    id: 21,
+    slug: "ahmedabad-to-manali",
+    heading: "Book Ahmedabad to Manali Cab",
+    tag: "Mountains",
+    description: [
+      "Ahmedabad to Manali distance : 1466 km",
+      "Estimated travel time : 28 hours",
+      "Manali is very popular destination for tourists as it provides attractions for all types of users, be it a family trip away from delhi heat, an adventure sports fan, a nature lover, couples on honeymoon, people having spiritual interests.",
+      "Manali is a beautiful hill station. It is located at the end of Kullu Valley in Himachal Pradesh. This place is full of stunning valleys. It has amazing views. Snow-covered mountains stand tall. Forests of oak and pine trees add to its beauty. Manali is known for its charm. The majestic Himalayas gifted this place to the world. Many honeymooners love to visit here. You can see the Pir Panjal and Dhauladhar ranges. These mountains are often covered in snow. In recent years Manali has become popular with young travellers. They like to stay for long periods. The town has cosy cafes. You will find good wifi here. Small eateries and shops are convenient. Old Manali is my favorite spot. It has many homestays and hostels. People can stay for a long time. Cheap dorm beds are available. AAVORide offers reliable outstation cabs. You can enjoy one-way drops easily. This makes your trip comfortable."
+    ],
+    coverImage: "https://www.sterlingholidays.com/destinations/herobanner/manali-adventure.png",
+
+    sections: [
+      {
+        subHeading: "Ahmedabad to Manali Cab Route",
+        description: [
+          "Ahmedabad to Manali by car is well connected by road and is very convenient and comfortable drive. Ahmedabad to Manali distance is 1466 Km and is 28 hours journey. Book your Ahmedabad to Manali car tour package. Other famous tourist places on this route and nearby are:"
+        ],
+        part: {
+          "Route Highlights": [
+            "Udaipur : City Palace, Lake Pichola, Jag Mandir & Jagdish Temple",
+            "Pushkar : Pushkar Lake & Brahma Temple",
+            "Jaipur : City Palace, Hawa Mahal, Amber Fort & Jantar Mantar",
+            "Ajmer : Ajmer Sharif Dargah, Akbari Fort & Ana Sagar Lake",
+            "Mount Abu : Dilwara Temples, Nakki Lake & Sunset Point",
+            "Manali : Solang Valley, Rohtang Pass & Hidimba Temple"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Places to visit in Manali using AAVORide Ahmedabad to Manali Car Rental with driver",
+        description: "",
+        "Popular places in manali:": [
+          "Solang Valley : Solang Valley is a top tourist spot in Himachal Pradesh. It is famous for adventure sports. In winter this valley is covered in snow. Skiing becomes a fun activity during this time. Many people come here to enjoy skiing. There are training institutes to help beginners. Trainers are also available to guide you. Solang Valley is a must-visit for adventure lovers.",
+          "Hidimba Temple : The Hadimba Temple is a special place. It is located in the snow-covered hills of Manali. This temple is dedicated to Hidimba Devi. The main highlight here is the Hidimba Devi Festival. This festival lasts for three days. Many people from all over the world visit during this time. The festival has colourful folk dance performances. It is a great experience for visitors.",
+          "Manikaran : Manikaran Sahib is a holy place. It is located in the Parvati Valley of Himachal Pradesh. Both Sikhs and Hindus consider it important. This site is surrounded by the beautiful Himalayas. Manikaran Sahib is known for its hot springs. There is a famous gurudwara here. You can also find ancient temples. People visit this place for its spiritual value. It offers peace and blessings. The divine atmosphere attracts many pilgrims.",
+          "Manu Temple : Manu Temple is a beautiful temple. It is dedicated to Sage Manu. This temple is in the stunning valley of Manali. It is located in the Beas River Valley. The temple is in Kullu District, about 275 kilometres north of Shimla. The valley’s natural beauty is very attractive. Many trekkers from around the world come to Manali. They are drawn by the inviting features of the land.",
+          "Vashisht Temple : The Vashisht Rishi Temple is a peaceful place. It is a respected Hindu pilgrimage site. This temple is located in the beautiful hill town of Manali. It is just 3 kilometres from the River Beas. The temple is about 4000 years old. It is dedicated to the Hindu sage Vashisht. The architecture of the temple is stunning. You will see intricate carvings all around. There are sulphurous hot springs nearby. These springs are believed to have healing benefits for the body and mind.",
+          "Jogini Waterfall : Jogini Waterfall is a lovely spot. It is located in the beautiful Valley of Manali. The waterfall is about 3 kilometres from the busy town. It is also around 2 kilometres from the well-known Vashisht Temple. The trek to Jogini Waterfall is what attracts many visitors. You will walk through pine trees and orchards. The journey is very scenic. The waterfall cascades from a height of 160 feet. It creates a mesmerising view.",
+          "Rohtang Pass : Rohtang Pass is a stunning stretch. It connects Manali to the beautiful landscapes of Spiti and Lahaul. This area is known for its dreamy and desert-like scenery. Adventure sports are very popular here. You can enjoy sledge rides, mountain biking, and skiing. Many famous movies have been filmed in this breathtaking location. Films like 'Jab We Met' and 'Yeh Jawani Hai Deewani' have showcased its beauty.",
+          "Sethan Valley : Sethan is a charming village in Himachal Pradesh. It is located about 12 kilometres from Manali. This village has a strong Buddhist influence. It overlooks the stunning Dhauladhar range. In winter, Sethan Valley is covered in snow. This makes it a perfect spot for skiing and snowboarding. Many adventure lovers come here to enjoy the snow sports.",
+          "Paragliding in Manali : Manali is a popular town for paragliding. It is located at 2050 metres above sea level. This makes it a perfect spot for the sport. You will enjoy beautiful green valleys and clear blue skies. The snow-capped mountain peaks add to the stunning view. Medium flights last about 15 minutes. Long or high flights can last between 40 minutes and 1 hour. If you have a paragliding license, you can take solo flights. Amateurs can enjoy tandem flights with an instructor.",
+          "Old Manali : On the other side of the Manalsu River lies Old Manali. This part of Manali feels like time has stopped. It has a sweet scent of old-world charm. You will find guesthouses and a growing presence of tourism here. Old Manali mixes the past with hints of the present. It is a small escape from the busy world outside. You must experience the peaceful atmosphere while you are here."
+        ]
+
+      },
+
+      {
+        subHeading: "Ahmedabad to Manali Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Manali taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offers cheapest cab from Ahmedabad to Manali.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Manali cab and our prices are generally 20% lower than competition."
+        ],
+
+        "Ahmedabad to Manali Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              Model: "Wagon-R, Indica or similar",
+              Capacity: "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              Model: "Dzire, Etios or similar",
+              Capacity: "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              Model: "Marazzo, Ertiga or similar",
+              Capacity: "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              Model: "Innova, Innova Crysta",
+              Capacity: "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+
+        "Ahmedabad to Manali Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Manali taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Manali taxi service. You may book Ahmedabad to Manali round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Manali car package as needed. You may also book Ahmedabad to Manali one way drop taxi or a local hourly rental cab in Manali with AAVORide."
+        ]
+      },
+
+      {
+        subHeading:
+          "Frequently Asked Questions about Ahmedabad to Manali Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Manali by car?",
+            answer: "The distance from Ahmedabad to Manali by car is 1466 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Manali by road?",
+            answer:
+              "It takes approx. 27 to 30 hours depending on traffic."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer:
+              "Yes, Ahmedabad to Manali cab price includes Driver charges and Night charges."
+          },
+          {
+            question:
+              "Do I need to make payment in advance to book Ahmedabad to Manali cab?",
+            answer:
+              "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Manali cab."
+          },
+          {
+            question:
+              "Is local sightseeing included in Ahmedabad to Manali outstation trip?",
+            answer:
+              "For Ahmedabad to Manali Round trip cab, all the local sightseeing in Ahmedabad, Manali and other destination cities in itinerary is included. For Ahmedabad to Manali One way Multi-stop cab, all sightseeing is included. For Ahmedabad to Manali One way cab, sightseeing is not included."
+          },
+          {
+            question:
+              "How much in advance do I need to book the cab from Ahmedabad to Manali?",
+            answer:
+              "Although you can book Ahmedabad to Manali cab up to 1 hour prior to departure time, we suggest booking 1 day in advance to avoid last minute rush."
+          },
+          {
+            question:
+              "Can I book cab for Ahmedabad to Manali by calling customer support?",
+            answer:
+              "We are happy to provide clarifications through customer support team but Ahmedabad to Manali cab booking has to be done either through our website or through our Android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question:
+              "Can we pickup additional passengers on the way in Ahmedabad to Manali one way taxi?",
+            answer:
+              "You may book Ahmedabad to Manali One way multi-stop cab by adding additional stops in itinerary. Additional pickup or drop in one-way taxi will incur extra charges."
+          },
+          {
+            question:
+              "Do I need to pay both side Toll tax for Ahmedabad to Manali one way cab?",
+            answer:
+              "For Ahmedabad to Manali One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question:
+              "When will I get car and driver details after booking Ahmedabad to Manali cab?",
+            answer:
+              "In most cases, car and driver details are shared within minutes after booking. In rare cases, they may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer:
+              "Yes, you can. Please select the 'Pet Allowed' add-on while booking. Additional charges may apply."
+          }
+        ]
+      }
+    ]
+  },
+
+  //Ahmedabad to shimla
+  {
+    id: 22,
+    slug: "ahmedabad-to-shimla",
+    heading: "Book Ahmedabad to Shimla Cab",
+    tag: "Mountains",
+    description: [
+      "Ahmedabad to Shimla distance : 1277 km",
+      "Estimated travel time : 22 hours",
+      "Shimla is the capital of the northern Indian state of Himachal Pradesh, in the Himalayan foothills. One of the most visited hill station of Northern India the small charming town is blessed with the beauty of the nature. Shimla is also known as the 'Queen Of Hills'.",
+      "Shimla is blissfully surrounded by the green hills with snowcapped peaks at the elevation of 2,206 meters from the sea. Its spectacular natural bounty accompanied by structures made during the colonial era. The town is famous for pleasant walking experiences on hillsides surrounded by pine and oak forests. The town still retains its old-world charm with beautiful colonial architecture, pedestrian-friendly Mall Road and the Ridge lined up with multiple shops, cafes and restaurants. The Kalka–Shimla Railway, a UNESCO World Heritage Site, is also a major tourist attraction."
+    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLwqaEYEtAqyYrIUUD9vQACD49CjWQncAyTusrZC1Y7o80yvxOti4KLuM&s=10",
+
+    sections: [
+      {
+        subHeading: "Ahmedabad to Shimla Cab Route",
+        description: [
+          "Ahmedabad to Shimla by car is well connected by road and is very convenient and comfortable drive. Ahmedabad to Shimla distance is 1277 Km and is 22 hours journey. Book your Ahmedabad to Shimla car tour package. Other famous tourist places on this route and nearby are:"
+        ],
+        part: {
+          "Route Highlights": [
+            "Udaipur : City Palace, Lake Pichola & Jag Mandir",
+            "Jaipur : Amber Fort, Hawa Mahal & City Palace",
+            "Delhi : Red Fort, India Gate & Qutub Minar",
+            "Chandigarh : Rock Garden & Sukhna Lake",
+            "Kasauli : Colonial hill station & scenic viewpoints",
+            "Solan : Mohan Shakti Park & Jatoli Shiv Temple"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Places to visit in Shimla using AAVORide Ahmedabad to Shimla Car Rental with driver",
+        description: "",
+        part: {
+          "Popular places in Shimla": [
+            "The Ridge",
+            "Mall Road",
+            "Christ Church",
+            "Viceregal Lodge & Botanical Gardens",
+            "Shri Hanuman Mandir Jakhoo",
+            "Jakhu Hill",
+            "Kali Bari Temple",
+            "Sankat Mochan Hanuman Temple",
+            "Jakhoo Temple",
+            "Kufri",
+            "Kalka Shimla Toy Train",
+            "Green Valley",
+            "Narkanda",
+            "Scandal Point",
+            "Rothney Castle",
+            "Tattapani",
+            "Chadwick Falls",
+            "Bantony Estate",
+            "Pabbar Valley",
+            "Ice Skating",
+            "Heritage Walk"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Ahmedabad to Shimla Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Shimla taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Shimla.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Shimla cab and our prices are generally 20% lower than competition."
+        ],
+
+        "Ahmedabad to Shimla Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              Model: "Wagon-R, Indica or similar",
+              Capacity: "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              Model: "Dzire, Etios or similar",
+              Capacity: "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              Model: "Marazzo, Ertiga or similar",
+              Capacity: "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              Model: "Innova, Innova Crysta",
+              Capacity: "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+
+        "Ahmedabad to Shimla Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Shimla taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Shimla taxi service. You may book Ahmedabad to Shimla round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Shimla car package as needed. You may also book Ahmedabad to Shimla one way drop taxi or a local hourly rental cab in Shimla with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Shimla Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Shimla by car?",
+            answer: "The distance from Ahmedabad to Shimla by car is 1277 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Shimla by road?",
+            answer: "It takes approx. 21 to 24 hours depending on traffic."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Shimla cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Shimla cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Shimla cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Shimla outstation trip?",
+            answer: "For Ahmedabad to Shimla Round trip cab, all the local sightseeing in Ahmedabad, Shimla and other destination cities in itinerary is included. For Ahmedabad to Shimla One way Multi-stop cab, all the local sightseeing is included. For Ahmedabad to Shimla One way cab, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do I need to book the cab from Ahmedabad to Shimla?",
+            answer: "Although you can book Ahmedabad to Shimla cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Shimla by calling customer support?",
+            answer: "We are happy to provide clarifications through customer support team but Ahmedabad to Shimla cab booking has to be done through the AAVORide website or mobile app."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Shimla one way taxi?",
+            answer: "You may book Ahmedabad to Shimla One way multi-stop cab by adding additional stops in itinerary. Additional pickup or drop in one-way taxi will incur extra charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Shimla one way cab?",
+            answer: "For Ahmedabad to Shimla One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Shimla cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Shimla cab. In rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. Please select the 'Pet Allowed' add-on while booking. Additional charges may apply."
+          }
+        ]
+      }
+    ]
+  },
+
+  //Ahmedabad to kasol
+  {
+    id: 35,
+    slug: "ahmedabad-to-kasol",
+    heading: "Book Ahmedabad to Kasol Cab",
+    tag: "HILL STATION JOURNEY",
+    description: [
+      "Ahmedabad to Kasol Cabs",
+      "AAVORide has had its presence in chauffeur-driven car rental sector for more than 12 years. We continuously strive to ensure that we provide reliable, quality and timely cab services. We have wide range of car options right from sedans to hatchbacks and MUVs to SUVs. You can book any type of car for your Ahmedabad to Kasol taxi service depending on your requirement. You can easily book Ahmedabad to Kasol cabs at AAVORide 24/7 without any hassle with our easy-to-use booking interface.",
+      "Book our Ahmedabad to Kasol cab service and rest assured you will get quality & reliable services for your Car Rental from Ahmedabad to Kasol.",
+      "With our wide range of services, you can now book your Ahmedabad to Kasol taxi in the easiest way with few simple clicks. Avail Ahmedabad to Kasol car hire services at AAVORide and enjoy a great trip with family and friends. Don't forget to check our recommended list of things to do in Kasol in winters.",
+      "Make the best use of the services offered by AAVORide at the best rates & experience the relaxing and trouble free journey by hiring Ahmedabad Kasol taxi at AAVORide. With over a decade of experience in car rental services, AAVORide is the best cab service provider in the industry, if you are planning to book a taxi."
+    ],
+    coverImage: "https://d3gz7d9rg09miz.cloudfront.net/travel/1732269301670-491353181.jpg",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Kasol by Car",
+        description: [
+          "The distance from Ahmedabad to Kasol can be covered in optimal time with the help of taxi service. We will ensure that your journey is comfortable and you may halt at your convenience anytime, anywhere for a short break during the journey on road.",
+          "We also launch few offers during certain seasons and holidays. We try to provide you excellent deals from time to time to help you travel in the cheapest possible fares.",
+          "With our user-friendly website, you can book taxi online in a few simple steps and avail hassle free car rental service. Travel from Ahmedabad to Kasol with AAVORide and have a pleasant journey. If you are taking a flight to Ahmedabad airport, book our Ahmedabad airport taxi service to Kasol for a smooth and hassle-free journey to your destination."
+        ]
+      },
+
+      {
+        subHeading: "Ahmedabad to Kasol Car Rental Options",
+        description: [
+          "At AAVORide Car Rentals, you will get many options of car types to choose for hiring a taxi from Ahmedabad to Kasol. Some of the popular car models include Indica, Etios, Innova and many other luxury cars.",
+          "The table below highlights the various car model options available which you can choose for Ahmedabad to Kasol cab booking."
+        ],
+        "Ahmedabad to Kasol Car Rental Options": {
+          comparisonTable: [
+            {
+              "Cabs": "Tata Indica",
+              "Passenger Capacity": "4",
+              "Ideal For": "Budget Travellers"
+            },
+            {
+              "Cabs": "Toyota Etios",
+              "Passenger Capacity": "4",
+              "Ideal For": "Sedans for Small Families"
+            },
+            {
+              "Cabs": "Toyota Innova",
+              "Passenger Capacity": "6/7",
+              "Ideal For": "Travelling in Large Group"
+            },
+            {
+              "Cabs": "Honda City",
+              "Passenger Capacity": "4",
+              "Ideal For": "Premium Sedan"
+            },
+            {
+              "Cabs": "Toyota Corolla",
+              "Passenger Capacity": "4",
+              "Ideal For": "Premium Sedan"
+            },
+            {
+              "Cabs": "Toyota Camry",
+              "Passenger Capacity": "4",
+              "Ideal For": "Premium Sedan"
+            },
+            {
+              "Cabs": "Mercedes E Class",
+              "Passenger Capacity": "4",
+              "Ideal For": "Luxury Travel"
+            }
+          ]
+        },
+        "additional description": [
+          "With our well-mannered drivers and great fares, we promise you a wonderful journey. For any further details on Ahmedabad to Kasol car rental, please call us on 9712387840."
+        ]
+      },
+
+      {
+        subHeading: "Ahmedabad to Kasol Cab Package",
+        description: [
+          "At AAVORide you get the best deals for your Ahmedabad to Kasol cab package. The cab package at AAVORide is sure to be affordable for you. You can avail the package depending on the itinerary available.",
+          "The details corresponding to the packages opted will be available to you once you make the booking. AAVORide’s services are also available for outstation and local travel. You can book outstation cabs and travel to popular vacation spot of your choice and interest."
+        ]
+      },
+
+      {
+        subHeading: "Ahmedabad to Kasol Taxi Fare",
+        description: [
+          "AAVORide prides itself on extremely affordable, yet wholly transparent pricing policy. We assure you that the Cab Fare from Ahmedabad to Kasol and the associated terms and conditions declared on our website and call center are exactly what the customer is expected to pay. Below is a breakup of the fare charges for your trip from Ahmedabad to Kasol:"
+        ],
+        "Ahmedabad to Kasol Taxi Fare": {
+          comparisonTable: [
+            {
+              "Fare Category": "Base Fare",
+              "What does this include?": "This includes the fuel and maintenance charges for a designated distance and duration of a particular trip.",
+              "How is this calculated?": "The base fare is calculated by multiplying the per kilometre rate for your cab with the minimum assigned kilometres for your trip."
+            },
+            {
+              "Fare Category": "Driver Allowance",
+              "What does this include?": "Covers the Driver's food & lodging expenses.",
+              "How is this calculated?": "Driver allowance is calculated by multiplying the daily driver allowance with the number of days you engage your cab."
+            },
+            {
+              "Fare Category": "GST",
+              "What does this include?": "Goods and Service Tax of 5% that is levied by the Government of India",
+              "How is this calculated?": "Includes CGST (2.5%) & SGST (2.5%)."
+            }
+          ]
+        },
+        "additional charges": [
+          "Night driver allowance if the cab and driver are engaged during the night-time (10 PM to 6 AM)",
+          "Additional kilometres charged if you exceed your designated kilometre quota",
+          "Additional hours if you exceed your designated duration of cab usage.",
+          "Apart from the above fare categories, there are no hidden charges in your Ahmedabad to Kasol taxi fare. In case you have any queries regarding the rates AAVORide charges, do not hesitate to reach out to us on 9712387840. We are available 24X7 to assist you."
+        ]
+      },
+
+      {
+        subHeading: "AAVORide's Promise of Quality",
+        description: [
+          "1. Affordable: AAVORide is the best car rental provider in India, if you are looking for an affordable taxi fare from Ahmedabad to Kasol",
+          "2. Courteous Drivers: We promise to provide you reliable taxi service with our professional drivers",
+          "3. Timeliness and Reliability: AAVORide always guarantees timely availability of taxi service",
+          "4. Services across India: With excellent services for cabs from Ahmedabad to Kasol AAVORide operates across 65 Indian cities spanning the length and breadth of the country",
+          "5. Wide Range of Cars: You can choose an air-conditioned taxi from a wide range of cars like Indica, Innova and Sedan",
+          "Do not forget to check our Travel Information pages to get more details like distance from Ahmedabad to Kasol, restaurant recommendations and other useful information."
+        ]
+      },
+
+      {
+        subHeading: "Ahmedabad to Kasol Tour Packages",
+        description: [
+          "AAVORide’s continuous focus on complying with customer demands and travel needs have positioned us as a true customer-centric player in the road travel/tourism sector. In order to make customers outstation travel truly memorable, we offer several Ahmedabad to Kasol cab packages. Our website is continuously updated with the new seasonal packages that are launched. You can also call our customer care number to explore the various tour packages from Ahmedabad to Kasol. After choosing any of these packages from Ahmedabad to Kasol, you can be assured that you are getting the most efficient rates, the most courteous and experienced drivers as well as AAVORide’s guaranteed service levels. Customers are provided with options for one way, single day as well as multi-day car packages from Ahmedabad to Kasol."
+        ]
+      },
+
+      {
+        subHeading: "Cab Booking app for Ahmedabad to Kasol taxi - Download the AAVORide Android app",
+        description: [
+          "For all your road travel requirements, download AAVORide's Ahmedabad to Kasol online cab service app to ensure a seamless online booking experience on your phones. Book a cab from Ahmedabad to Kasol in under 30 seconds for Outstation round trips, one way drops, airport transfers or local hourly rentals. If you are not convinced yet, here are 5 reasons why you must download our app from Google Play Store:",
+          "1. Exclusive Offers and discounts : Tune in to our app for availing exclusive offers and discounts round the year.",
+          "2. Driver Tracking : In a first of its kind for Outstation trips, AAVORide's app provides real time location and updates of the cab and the driver so that you don't have to worry with delays and follow ups.",
+          "3. Curated Travel content : If you love travel, our regular dose of curated content will make you pack your bags for the next roadtrip. If you don't love travel, allow our app's inspirational content to change your mind.",
+          "4. One place to manage all your bookings : Manage your bookings, reschedule them, cancel trips under emergencies, our app supports it all.",
+          "5. Save time and be an app hero : Why are you wasting your time browsing your trip on this website? Download our app and be an app hero."
+        ]
+      },
+
+      {
+        subHeading: "FAQs on Ahmedabad to Kasol Cabs",
+        description: "",
+        faqs: [
+          {
+            question: "Why should I book a cab from Ahmedabad to Kasol?",
+            answer: "The journey from Ahmedabad to Kasol can be covered conveniently by road. It is advisable to book a cab for this route instead of self-drive or public transport such as buses or trains, simply because of the ease of commuting and provision of a safe space for you and your loved ones. By booking a cab with AAVORide, you get a clean and sanitized cab which picks and drops you at your doorstep, while you relax and let our driver take care of the rest."
+          },
+          {
+            question: "How can I book a cab from Ahmedabad to Kasol?",
+            answer: "Booking a AAVORide taxi is extremely easy. You can book online by visiting our website or downloading the AAVORide app to book your ride from anywhere at your convenience. You can also call on 9712387840 to reach out to our customer service team to assist you with a customised itinerary."
+          },
+          {
+            question: "Do I have to pay a full charge or is there any one-way fare?",
+            answer: "At AAVORide, we offer both one-way and round-trip packages from Ahmedabad to Kasol. You can pay according to your trip plan. So, for Ahmedabad to Kasol one way drop, you have to pay the fare for one-side journey only."
+          },
+          {
+            question: "Can I book a trip from Kasol to Ahmedabad as well?",
+            answer: "Yes, we offer a wide range of cab services from Kasol to Ahmedabad as well. You can book a premium and affordable Kasol to Ahmedabad cab with AAVORide."
+          },
+          {
+            question: "What are the best cab booking options from Ahmedabad to Kasol?",
+            answer: "AAVORide offers fully customizable one-way, one-day and multi-day packages from Ahmedabad to Kasol. You may also choose from our wide range of cars. Call on our helpline number 9712387840 for any assistance with the customized itinerary for your Ahmedabad to Kasol trip."
+          },
+          {
+            question: "How do I get from Ahmedabad airport to Kasol?",
+            answer: "You can easily book an airport taxi outside Ahmedabad airport and travel to Kasol in a safe, sanitized and convenient car. We offer flat fares on airport cabs. Just call on 9712387840 to book an airport cab or drop an email at aavoride@gamil.com."
+          },
+          {
+            question: "Can I pick a car model of my own choice for a cab from Ahmedabad to Kasol?",
+            answer: "Yes, you may pick a car model of your choice from our available fleet of sedans, hatchbacks and SUVs, for your journey from Ahmedabad to Kasol."
+          }
+        ]
+      }
+    ]
+  },
+
+  //Ahmedabad to rishikesh
+  {
+    id: 38,
+    slug: "ahmedabad-to-rishikesh",
+    heading: "Book Ahmedabad to Rishikesh Cab",
+    tag: "Pilgrimage",
+    description: [
+      "Ahmedabad to Rishikesh distance : 1165 km",
+      "Estimated travel time : 21 hours",
+      "Ahmedabad to Rishikesh is the most popular route for both domestic as well as foreign tourists. Since, Rishikesh is located in the foothills of Himalayas, it is known as the 'Gateway to the Garhwal Himalayas'.",
+      "It is also crowned as 'Yoga Capital of the World', since it has numerous yoga centres that attract tourists from all over the world. Rishikesh is also the adventure sports hub of India with many adventurous activities like river rafting, camping, bungee jumping, and trekking. There are many religious spirits associated to Rishikesh. It is believed that Lord Rama did penance here for killing Ravana, and his younger brother, Lord Laxmana crossed the river Ganges, at a point, where the present Lakshman Jhula bridge stands today. Thus, Rishikesh also attracts pilgrims from all over the world as well.",
+      "Taxi from Ahmedabad to Rishikesh is readily available at AAVORide."
+    ],
+    coverImage: "https://images.staybook.in/things-to-do/river-rafting-in-rishikesh/0.jpg",
+
+    sections: [
+      {
+        subHeading: "Ahmedabad to Rishikesh Cab Route",
+        description: [
+          "Ahmedabad to Rishikesh by car is well connected through NH48 and is very convenient and comfortable drive with many stopover in between like Jaipur, Delhi, Haridwar. Ahmedabad to Rishikesh distance is 1165 Km and is 21 hours journey. Another route is via Udaipur which is almost same distance and takes same time. Other famous tourist places on this route are :",
+          "Gandhinagar : Akshardham Temple, Indroda Nature Park, Sarita Udhyan, Indroda Dinosaur and fossil park",
+          "Modhera : famous Sun Temple Modhera, Modeshwari Mata mandir",
+          "Mehsana : Dudhsagar Dairy, Mehsana Jain pilgrimage",
+          "Patan : Rani Ki Vav, architectural gems, ancient temples",
+          "Palanpur : City of Flowers, Jessore Sloth Bear Sanctuary, Keerti Stambh Victory tower, Balaram Mahadev Temple, Pataleshwar Mahadev Temple, Pallaviya Parshwanath Temple, Kedarnath Mahadev temple, Balaram Palace",
+          "Mount Abu : only hill station in Rajasthan",
+          "Sirohi : popular for Fort and temples",
+          "Pali : textile hub, famous temples like the Somnath temple, Adishwar temple, and the Ranakpur Jain temple",
+          "Ajmer : Dargah Sharif Tomb of Garib Nawaz (Khwaja Moinuddin Chisti)",
+          "Pushkar : Brahma Temple is most popular attraction in Pushkar",
+          "Kishangarh",
+          "Jaipur : The Pink City, forts, palaces, temples, architecture",
+          "Neemrana : Neemrana Fort Palace, Zip Lining, Baori",
+          "Delhi : the capital city of India",
+          "Ghaziabad : ISKCON temple, Swarna Jayanti park, Drizzling water park, City forest, Shipra Mall, Lakshmi Narayan Temple, Indirapuram Habitat Centre, Gaur Central Mall",
+          "Meerut",
+          "Hastinapur : The seat of Kauravas",
+          "Muzaffarnagar",
+          "Roorkee : IIT",
+          "Haridwar : Temples, Mansa Devi, Holy Ganga river",
+          "Dehradun : popular hill station",
+          "Devprayag : confluence of rivers Alaknanda and Bhagirathi"
+        ]
+      },
+
+      {
+        subHeading: "Places to visit in Rishikesh using AAVORide Ahmedabad to Rishikesh Car Rental with driver",
+        description: "",
+        part: {
+          "Popular places in Rishikesh": [
+            "Trivani Ghat",
+            "Parmarth Niketan Ashram",
+            "The Beatles Ashram",
+            "Shri Rama Jhula",
+            "River Rafting",
+            "Sivananda Ashram, The Divine Life Society",
+            "Rishikund",
+            "Maharishi Mahesh Yogi's Ashram (Shankaracharya Nagar)",
+            "River zip lining",
+            "Rishikesh Valley",
+            "Ganga Aarti",
+            "Waterfalls Hikes",
+            "Cliff Jumping",
+            "Kaudiyala (Rock Climbing Destination)",
+            "Shivpuri",
+            "Bungee Jumping",
+            "The Jadh Ganga Trek",
+            "Kuari Pass",
+            "Neer Garh Waterfall",
+            "Bharat Mandir",
+            "Muni ki Reti",
+            "Geeta Bhawan",
+            "Piran Kaliyar Sharif",
+            "Omkarananda Ashram",
+            "Trimbakeshwar Temple (Tera Manzil Temple)",
+            "Raghunath Temple",
+            "Kunjapuri Devi Temple",
+            "Parmarth Niketan",
+            "Phool Chatti Ashram",
+            "Vashishta Gufa",
+            "Virbhadra Temple",
+            "Patna Waterfall",
+            "Garud Chatti Waterfalls",
+            "Rappelling and Rock Climbing",
+            "Himshila Waterfall",
+            "Phool Chatti Waterfalls"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Ahmedabad to Rishikesh Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Rishikesh taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Rishikesh.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Rishikesh cab and our prices are generally 20% lower than competition."
+        ],
+
+        "Ahmedabad to Rishikesh Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              Model: "Wagon-R, Indica or similar",
+              Capacity: "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              Model: "Dzire, Etios or similar",
+              Capacity: "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              Model: "Marazzo, Ertiga or similar",
+              Capacity: "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              Model: "Innova, Innova Crysta",
+              Capacity: "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+
+        "Ahmedabad to Rishikesh Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Rishikesh taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Rishikesh taxi service. You may book Ahmedabad to Rishikesh round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Rishikesh car package as needed. You may also book Ahmedabad to Rishikesh one way drop taxi or a local hourly rental cab in Rishikesh with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Rishikesh Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Rishikesh by car?",
+            answer: "The distance from Ahmedabad to Rishikesh by car is 1165 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Rishikesh by road?",
+            answer: "It takes approx. 21 to 22 hours depending on traffic."
+          },
+          // {
+          //   question: "How much is Ahmedabad to Rishikesh taxi fare?",
+          //   answer: "Ahmedabad to Rishikesh taxi fare is approx. ₹13300 for a good sedan car like Etios, Dzire and is approx. ₹13800 for SUV car."
+          // },
+          // {
+          //   question: "How much is Ahmedabad to Rishikesh Innova fare?",
+          //   answer: "Ahmedabad to Rishikesh Innova fare is approx. ₹14800."
+          // },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Rishikesh cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Rishikesh cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Rishikesh cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Rishikesh outstation trip?",
+            answer: "For Ahmedabad to Rishikesh Round trip cab, all the local sightseeing in Ahmedabad, Rishikesh and other destination cities in itinerary is included. For Ahmedabad to Rishikesh One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Rishikesh and other destination cities in itinerary is included. For Ahmedabad to Rishikesh One way cab i.e. with only Ahmedabad and Rishikesh in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Rishikesh?",
+            answer: "Although you can book Ahmedabad to Rishikesh cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Rishikesh by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Rishikesh cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Rishikesh one way taxi?",
+            answer: "You may book Ahmedabad to Rishikesh One way multi-stop cab by adding additional stops in itinerary. For Ahmedabad to Rishikesh One way taxi with only Ahmedabad and Rishikesh in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Rishikesh one way cab?",
+            answer: "For Ahmedabad to Rishikesh One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Rishikesh cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Rishikesh cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Rishikesh cab."
+          }
+        ]
+      }
+    ]
+  },
+
+  //Ahmedabad to haridwar
+  {
+    id: 24,
+    slug: "ahmedabad-to-haridwar",
+    heading: "Book Ahmedabad to Haridwar Cab",
+    tag: "RELIGIOUS",
+    description: [
+      "Ahmedabad to Haridwar distance : 1145 km",
+      "Estimated travel time : 21 hours",
+      "Ahmedabad to Haridwar is very popular route for religious reasons. Haridwar is also known as Dwara of Hari (Gateway to God). Thousands of pilgrims daily came here to take bath in holy river Ganga. The main attraction is Har ki Pauri. Haridwar is home to Panch Tirth (five pilgrimage destinations) and three Siddha Peetha (a place where desires get fulfilled).",
+      "Haridwar is a city of religion, holiness, spirituality, yoga and ayurved. It is famous for its temples and ghats. As Ronald Barrett said \".. the Ganga is more than a river, she is the Holy Mother. She is Ganga Ma.\" Its common saying that \"no child is too dirty to be embraced by its mother\". Mother Ganga embraces everyone and everything that is put into her. Everyday thousands of pilgrims take bath in holy river in Haridwar to relieve themselves of their sins and achieve salvation. Haridwar celebrates a number of festivals including the Kumbh Mela which occurs only once in 12 years.",
+      "Taxi from Ahmedabad to Haridwar is readily available at AAVORide."
+    ],
+
+    coverImage: "https://www.itchotels.com/content/dam/itchotels/in/umbrella/destinations/images/desktop/Haridwar.jpg",
+
+    sections: [
+      {
+        subHeading: "Ahmedabad to Haridwar Cab Route",
+        description: [
+          "Ahmedabad to Haridwar by car is well connected through NH48 and is very convenient and comfortable drive. Ahmedabad to Haridwar distance is 1145 Km and is 21 hours. Other famous tourist places on this route are:",
+
+          "Gandhinagar : Akshardham Temple,Indroda Nature Park,Sarita Udhyan,Indroda Dinosaur and fossil park",
+
+          "Modhera : famous Sun Temple Modhera, Modeshwari Mata mandir",
+
+          "Mehsana : Dudhsagar Dairy, Mehsana Jain pilgrimage",
+
+          "Patan : Rani Ki Vav, architectural gems, ancient temples",
+
+          "Palanpur : City of Flowers, Jessore Sloth Bear Sanctuary, Keerti Stambh Victory tower, Balaram Mahadev Temple, Pataleshwar Mahadev Temple, Pallaviya Parshwanath Temple, Kedarnath Mahadev temple, Balaram Palace",
+
+          "Mount Abu : only hill station in Rajasthan",
+
+          "Sirohi : popular for Fort and temples",
+
+          "Pali : textile hub, famous temples like the Somnath temple, Adishwar temple, and the Ranakpur Jain temple",
+
+          "Ajmer : Dargah Sharif Tomb of Garib Nawaz (Khwaja Moinuddin Chisti)",
+
+          "Pushkar : Brahma Temple is most popular attraction in Pushkar",
+
+          "Kishangarh",
+
+          "Jaipur : the Pink City, forts, palaces, temples, architecture",
+
+          "Neemrana : Neemrana Fort Palace, Zip Lining, Baori",
+
+          "Delhi : the capital city of India",
+
+          "Ghaziabad : ISKCON temple, Swarna Jayanti park, Drizzling water park, City forest, Shipra Mall, Lakshmi Narayan Temple, Indirapuram Habitat Centre, Gaur Central Mall",
+
+          "Merrut",
+
+          "Modinagar : Industrial Hub",
+
+          "Muzaffarnagar",
+
+          "Roorkee : IIT",
+
+          "Rishikesh : River Rafting, Bungee Jumping, Lakshman Jhula"
+        ]
+      },
+
+      {
+        subHeading: "Places to visit in Haridwar using AAVORide Ahmedabad to Haridwar Car Rental with driver",
+        description: "",
+
+        part: {
+          "famous palces": [
+            "Har ki Pauri",
+            "Chandi Devi Temple",
+            "Chilla Wild life Sanctuary",
+            "Ganga Aarti",
+            "Mansa Devi Temple",
+            "Maya Devi Temple",
+            "Vaishno Devi Temple",
+            "Bharat Mata Mandir",
+            "Daksha Mahadev Temple",
+            "Bada Bazar",
+            "Ardh Kumbh Mela",
+            "Sapt Rishi Ashram",
+            "Rajaji National Park"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Ahmedabad to Haridwar Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Haridwar taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Haridwar.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Haridwar cab and our prices are generally 20% lower than competition."
+        ],
+
+        "Ahmedabad to Haridwar Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        }
+      },
+
+      {
+        subHeading: "Ahmedabad to Haridwar Taxi Services",
+        description: [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Haridwar taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Haridwar taxi service. You may book Ahmedabad to Haridwar round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Haridwar car package as needed. You may also book Ahmedabad to Haridwar one way drop taxi or a local hourly rental cab in Haridwar with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Haridwar Cab Booking",
+        description: "",
+
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Haridwar by car?",
+            answer: "The distance from Ahmedabad to Haridwar by car is 1145 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Haridwar by road?",
+            answer: "It takes approx. 21 to 22 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Haridwar taxi fare?",
+            answer: "Ahmedabad to Haridwar taxi fare is approx. ₹13000 for a good sedan car like Etios, Dzire and is approx. ₹13500 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Haridwar Innova fare?",
+            answer: "Ahmedabad to Haridwar Innova fare is approx. ₹14500. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Haridwar cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Haridwar cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Haridwar cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Haridwar outstation trip?",
+            answer: "For Ahmedabad to Haridwar Round trip cab, all the local sightseeing in Ahmedabad, Haridwar and other destination cities in itinerary is included. For Ahmedabad to Haridwar One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Haridwar and other destination cities in itinerary is included. For Ahmedabad to Haridwar One way cab i.e. with only Ahmedabad and Haridwar in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Haridwar?",
+            answer: "Although you can book Ahmedabad to Haridwar cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Haridwar by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Haridwar cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Haridwar one way taxi?",
+            answer: "You may book Ahmedabad to Haridwar One way multi-stop cab by adding additional stops in itinerary. For Ahmedabad to Haridwar One way taxi with only Ahmedabad and Haridwar in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Haridwar one way cab?",
+            answer: "For Ahmedabad to Haridwar One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Haridwar cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Haridwar cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Haridwar cab."
+          }
+        ]
+      }
+    ]
+  },
+
+  //Ahmedabad to jaisalmer
+  {
+    id: 36,
+    slug: "ahmedabad-to-jaisalmer",
+    heading: "Book Ahmedabad to Jaisalmer Cab",
+    tag: "DESERT JOURNEY",
+    description: [
+      "Ahmedabad to Jaisalmer distance : 560 km",
+      "Estimated travel time : 10.5 hours",
+      "Ahmedabad to Jaisalmer is a very popular route. Jaisalmer, \"the Golden City\" is a place full of beautiful Havelis, ravishing temples, lakes, ornate Jain temples and colorful markets. Jaisalmer is considered as a royal city which is a delight to watch. It attracts many couples, honeymooners and families with its erstwhile royal splendour.",
+      "The Jaisalmer Fort (also known as the Golden Fort of Rajasthan) is the most splendid attraction of the city, and it contains a royal palace and several ornate Jain temples which provides a breath-taking view. Surrounded by numerous golden-hued shrines, Gadsisar Lake is ideal for an evening picnic or a short paddleboat ride. Jaisalmer is a symbol of exotic Indian desert culture, heritage and adventure and if royal life is something that excites you, you should definitely explore this royal beauty.",
+      "Taxi from Ahmedabad to Jaisalmer is readily available at CabBazar."
+    ],
+    coverImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Jaisalmer_forteresse.jpg/1280px-Jaisalmer_forteresse.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Jaisalmer Cab Route",
+        description: [
+          "Ahmedabad to Jaisalmer by car is well connected through NH68 and is very convenient and comfortable drive. Ahmedabad to Jaisalmer distance is 560 Kms and is 10.5 hours journey. Other famous tourist places on this route and nearby are : Mehsana - famous for its historical spots",
+          "Palanpur - - famous for its ancient temples and Gujarat\"s history",
+          "Patan - - Rani ka Vav, UNESCO World Heritage Site",
+          "Modhera - - famous Sun Temple Modhera, Modeshwari Mata mandir",
+          "Tharad - - scenic beauty",
+          "Barmer - - Mahabar Sand Dunes, Barmer Fort, Balark temple, Mahaveer park, Vankal mata temple, Shri Chanchal Prag math"
+        ]
+      },
+
+      {
+        subHeading: "Places to visit in Jaisalmer using CabBazar Ahmedabad to Jaisalmer Car Rental with driver",
+        description: "",
+        part: {
+          "famous palces": [
+            "Jaisalmer Fort – Sightseeing",
+            "Jaisalmer City – City Tour",
+            "Kanoi – Parasailing",
+            "Sam Sand Dunes – Quad Biking",
+            "Paramotoring",
+            "Thar Desert – Dune Bashing",
+            "Desert Safari And Camping",
+            "Tanot Mata Temple – Indo-Pak Border",
+            "Desert National Park",
+            "Salim Singh Ki Haveli",
+            "Camel Safari",
+            "Jain Temple Tour",
+            "Nathmal Ki Haveli",
+            "Kuldhara Village",
+            "Gadisar lake",
+            "Tazia Tower",
+            "Bada Bagh",
+            "Tanot Mahal",
+            "Wind Mill Park",
+            "Akal Wood Fossil park",
+            "Barmer",
+            "Khuri",
+            "The desert festiva",
+            "Dune Bashing",
+            "Quad Biking",
+            "Parasailing",
+            "Nathmal ki Haveli",
+            "Salim Singh ki Havel",
+            "Patwon ki Haveli",
+            "Ramdevra Temple",
+            "The Mandir Palace",
+            "Jaisalmer War Museum",
+            "The Amar Sagar lake",
+            "Vyas Chhatri",
+            "The Khaba Fort",
+            "Lodhruva",
+            "Thar Heritage Museum",
+            "The Surya Gate",
+            "The Shantinath Temple",
+            "Tazia Tower",
+            "the Pokhran Fort",
+            "Chandraprabhu Temple",
+            "Pachpadra Lake",
+            "Jaisalmer Government Museum"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Ahmedabad to Jaisalmer Taxi Fare",
+        description: [
+          "CabBazar is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Jaisalmer taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. CabBazar offer cheapest cab from Ahmedabad to Jaisalmer.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. CabBazar provides the best price for Ahmedabad to Jaisalmer cab and our prices are generally 20% lower than competition."
+        ],
+        "Ahmedabad to Jaisalmer Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Ahmedabad to Jaisalmer Taxi Services": {
+          description: "Being an Aggregator, CabBazar provides you enormous car options for your Ahmedabad to Jaisalmer taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Jaisalmer taxi service. You may book Ahmedabad to Jaisalmer round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Jaisalmer car package as needed. You may also book Ahmedabad to Jaisalmer one way drop taxi or a local hourly rental cab in Jaisalmer with CabBazar."
+        }
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Jaisalmer Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Jaisalmer by car?",
+            answer: "The distance from Ahmedabad to Jaisalmer by car is 560 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Jaisalmer by road?",
+            answer: "It takes approx. 10.5 to 11.5 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Jaisalmer taxi fare?",
+            answer: "Ahmedabad to Jaisalmer taxi fare is approx. ₹6200 for a good sedan car like Etios, Dzire and is approx. ₹6700 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Jaisalmer Innova fare?",
+            answer: "Ahmedabad to Jaisalmer Innova fare is approx. ₹7700. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Jaisalmer cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Jaisalmer cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Jaisalmer cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Jaisalmer outstation trip?",
+            answer: "For Ahmedabad to Jaisalmer Round trip cab, all the local sightseeing in Ahmedabad, Jaisalmer and other destination cities in itinerary is included.\nFor Ahmedabad to Jaisalmer One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Jaisalmer and other destination cities in itinerary is included.\nFor Ahmedabad to Jaisalmer One way cab i.e. with only Ahmedabad and Jaisalmer in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Jaisalmer?",
+            answer: "Although you can book Ahmedabad to Jaisalmer cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Jaisalmer by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Jaisalmer cab booking has to be done either through our website or through our android and iOS mobile app 'CabBazar - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Jaisalmer one way taxi?",
+            answer: "You may book Ahmedabad to Jaisalmer One way multi-stop cab by adding additional stops in itinerary.\nFor Ahmedabad to Jaisalmer One way taxi with only Ahmedabad and Jaisalmer in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Jaisalmer one way cab?",
+            answer: "For Ahmedabad to Jaisalmer One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Jaisalmer cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Jaisalmer cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Jaisalmer cab."
+          }
+        ]
+      },
+    ]
+  },
+
+  //Ahmedabad to jodhpur
+  {
+    id: 25,
+    slug: "ahmedabad-to-jodhpur",
+    heading: "Book Ahmedabad to Jodhpur Cab",
+    tag: "RAJASTHAN",
+    description: [
+      "Ahmedabad to Jodhpur distance : 445 km",
+      "Estimated travel time : 8 hours",
+      "Ahmedabad to Jodhpur is the very popular route for tourists. Jodhpur is crowned with various epithets like \"Blue City\", \"Sun City\", \"Gateway to Thar\" because of its blue walls and houses and its proximity to Thar desert.",
+      "Jodhpur offers a perfect blend of the modern and the traditional. Its second largest city of the royal state of Rajasthan carrying glorious history back to the year 1459 AD when it was built by Rao Jodha, the chief of Rathore Clan. Alongwith the most famous Mehrangarh Fort, there are a number of magnificant forts, palaces, temples, havelis; most of them and most of houses in city are build in vivid shades of blue. The old city provides the warmth of Marwari culture with local markets offering Jodhpurs-stylish horse-riding pants, tie & dye textile, leather shoes etc., a lot of eating joints offering famous Rajasthani food items like Pyaaz Ki Kachori and Daal Baati Churma.",
+      "Taxi from Ahmedabad to Jodhpur is readily available at AAVORide."
+    ],
+    coverImage: "https://s7ap1.scene7.com/is/image/incredibleindia/jodhpur-hero?qlt=82&ts=1726661024132",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Jodhpur Cab Route",
+        description: [
+          "Ahmedabad to Jodhpur by car is well connected via NH62 and is very convenient and comfortable drive. Ahmedabad to Jodhpur distance is 445 Km and is 8 hours journey. Other famous tourist places on this route are :",
+          "Gandhinagar : capital of Gujarat having one of most beautiful temple Akshardham temple",
+          "Palanpur : famous for heritage, Palace, temples",
+          "Ambaji : famous for pilgrimage and religious tourism. Most popular is Ambe temple.",
+          "Mount Abu : a beautiful hill station and home to Dilwara temples",
+          "Pali : Trade center of Rajasthan"
+        ]
+      },
+      {
+        subHeading: "Places to visit in Jodhpur using AAVORide Ahmedabad to Jodhpur Car Rental with driver",
+        description: "",
+        part: {
+          "famous palces": [
+            "Mehrangarh Fort",
+            "Khejarla Fort",
+            "Umaid Bhawan Palace",
+            "Moti Mahal",
+            "Sheesh Mahal",
+            "Phool Mahal",
+            "Chamunda Mataji Temple",
+            "Ranisar Lake",
+            "Padmasar Lake",
+            "Jodhpur Museum",
+            "Jaswant Thada",
+            "Ghanta Ghar - clock tower of Rajasthan",
+            "Mahamandir Temple",
+            "Mandaleshwar Mahadev",
+            "Sardar Samand Lake and Palace",
+            "Masuria hills",
+            "Shastri Circle",
+            "Mandore",
+            "Kailana Lake",
+            "Machiya Safari Park",
+            "Somnath Temple",
+            "Balsamand Lake",
+            "Guda Village"
+          ]
+        }
+      },
+      {
+        subHeading: "Ahmedabad to Jodhpur Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Jodhpur taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Jodhpur.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Jodhpur cab and our prices are generally 20% lower than competition."
+        ],
+        "Ahmedabad to Jodhpur Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Ahmedabad to Jodhpur Taxi Services": {
+          description: "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Jodhpur taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Jodhpur taxi service. You may book Ahmedabad to Jodhpur round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Jodhpur car package as needed. You may also book Ahmedabad to Jodhpur one way drop taxi or a local hourly rental cab in Jodhpur with AAVORide."
+        }
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Jodhpur Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Jodhpur by car?",
+            answer: "The distance from Ahmedabad to Jodhpur by car is 445 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Jodhpur by road?",
+            answer: "It takes approx. 8 to 9 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Jodhpur taxi fare?",
+            answer: "Ahmedabad to Jodhpur taxi fare is approx. ₹6000 for a good sedan car like Etios, Dzire and is approx. ₹6500 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Jodhpur Innova fare?",
+            answer: "Ahmedabad to Jodhpur Innova fare is approx. ₹7500. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Jodhpur cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Jodhpur cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Jodhpur cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Jodhpur outstation trip?",
+            answer: "For Ahmedabad to Jodhpur Round trip cab, all the local sightseeing in Ahmedabad, Jodhpur and other destination cities in itinerary is included.\nFor Ahmedabad to Jodhpur One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Jodhpur and other destination cities in itinerary is included.\nFor Ahmedabad to Jodhpur One way cab i.e. with only Ahmedabad and Jodhpur in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Jodhpur?",
+            answer: "Although you can book Ahmedabad to Jodhpur cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Jodhpur by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Jodhpur cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Jodhpur one way taxi?",
+            answer: "You may book Ahmedabad to Jodhpur One way multi-stop cab by adding additional stops in itinerary.\nFor Ahmedabad to Jodhpur One way taxi with only Ahmedabad and Jodhpur in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Jodhpur one way cab?",
+            answer: "For Ahmedabad to Jodhpur One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Jodhpur cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Jodhpur cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Jodhpur cab."
+          }
+        ]
+      },
+
+    ]
+  },
+
+  //Ahmedabad to pushkar
+  {
+    id: 26,
+    slug: "ahmedabad-to-pushkar",
+    heading: "Book Ahmedabad to Pushkar Cab",
+    tag: "PILGRIMAGE",
+    description: [
+      "Ahmedabad to Pushkar distance : 562 km",
+      "Estimated travel time : 10.5 hours",
+      "Ahmedabad to Pushkar is a very popular route for both domestic as well as foreign tourists. Pushkar is a small town located in the Ajmer district in Rajasthan, which is very popular pilgrimage site for Hindus and Sikhs.",
+      "It is also popular because it witness the only temple in the world, dedicated to Lord Brahma. Pushkar Lake or Pushkar Sarovar is the centerpiece of the quiet town, which is the sacred lake of the Hindus. Thousands of Hindu and Sikh devotees visit Pushkar every year to enjoy the Mesmerising Cattle Fair and sight of Brahma\"s temple. Another tourist attraction, Apteshwar Temple is actually an underground shrine. One of the most visited temples in Rajasthan, Apteshwar Temple is a perfect blend of splendid architecture and spiritual importance thus attracting both tourists as well as devotees. Pushkar can be an ideal weekend gateway from Ahmedabad.",
+      "Taxi from Ahmedabad to Pushkar is readily available at AAVORide."
+    ],
+    coverImage: "https://s7ap1.scene7.com/is/image/incredibleindia/pushkar-camel-fair-fes-hero?qlt=82&ts=1726639395877",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Pushkar Cab Route",
+        description: [
+          "Ahmedabad to Pushkar by car is well connected through NH62 and is very convenient and comfortable drive. Ahmedabad to Pushkar distance is 562 Kms and is 10.5 hours journey. An alternate route is via Udaipur which is almost same distance and takes same time. Other famous tourist places on this route are :",
+          "Gandhinagar - capital of Gujarat having one of most beautiful temple Akshardham temple",
+          "Palanpur - - famous for heritage, Palace, temples",
+          "Mehsana - - famous for its historical spots",
+          "Patan - - Rani ka Vav, UNESCO World Heritage Site",
+          "Ambaji - - famous for pilgrimage and religious tourism. Most popular is Ambe temple.",
+          "Mount Abu - - a beautiful hill station and home to Dilwara temples",
+          "Sirohi - - popular for Fort and temples",
+          "Pali - - Trade center of Rajasthan",
+          "Ajmer - - Dargah Sharif Tomb of Garib Nawaz (Khwaja Moinuddin Chisti)",
+          "Himmatnagar - - Swaminarayan temple",
+          "Shamlaji - - a major Hindu pilgrimage centre in Aravalli district of Gujarat",
+          "Dungarpur - - Fort, Palaces",
+          "Hill Forest",
+          "Idar - - known for handmade wooden toys, tiles, its temples and various beautiful architectural monuments on hill",
+          "Nathdwara - - Shrinathji Temple, Statue of Shiva",
+          "Udaipur - - The city of Lakes and the popular destination wedding city.",
+          "Rajsamand - - Rajsamand lake, the second largest man-made lake in the world.",
+          "Bhilwara - - Textile City",
+          "Ambaji - - Ambaji temple",
+          "Patan - - Rani ka Vav, UNESCO World Heritage Site"
+        ]
+      },
+      {
+        subHeading: "Places to visit in Pushkar using AAVORide Ahmedabad to Pushkar Car Rental with driver",
+        description: "",
+        part: {
+          "famous palces": [
+            "Brahma Temple",
+            "Pushkar Lake",
+            "Savitri Mata Temple",
+            "Varaha Temple",
+            "Rangji Temple",
+            "Pushkar Adventure Camp",
+            "Desert Camel Safari",
+            "Gayatri Mata Temple (Pap-Mochani)",
+            "Varah Ghat",
+            "Sri Panchkund Shiva Temple",
+            "Shiv Shakti Art & Handicraft",
+            "Singh Sahab Gurudwara",
+            "Pushkar Mela",
+            "Atmateshwar Temple",
+            "Man Mahal"
+          ]
+        }
+      },
+      {
+        subHeading: "Ahmedabad to Pushkar Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Pushkar taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Pushkar.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Pushkar cab and our prices are generally 20% lower than competition."
+        ],
+        "Ahmedabad to Pushkar Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Ahmedabad to Pushkar Taxi Services": {
+          description: "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Pushkar taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Pushkar taxi service. You may book Ahmedabad to Pushkar round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Pushkar car package as needed. You may also book Ahmedabad to Pushkar one way drop taxi or a local hourly rental cab in Pushkar with AAVORide."
+        }
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Pushkar Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Pushkar by car?",
+            answer: "The distance from Ahmedabad to Pushkar by car is 562 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Pushkar by road?",
+            answer: "It takes approx. 10.5 to 11.5 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Pushkar taxi fare?",
+            answer: "Ahmedabad to Pushkar taxi fare is approx. ₹6300 for a good sedan car like Etios, Dzire and is approx. ₹6800 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Pushkar Innova fare?",
+            answer: "Ahmedabad to Pushkar Innova fare is approx. ₹7800. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Pushkar cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Pushkar cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Pushkar cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Pushkar outstation trip?",
+            answer: "For Ahmedabad to Pushkar Round trip cab, all the local sightseeing in Ahmedabad, Pushkar and other destination cities in itinerary is included.\nFor Ahmedabad to Pushkar One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Pushkar and other destination cities in itinerary is included.\nFor Ahmedabad to Pushkar One way cab i.e. with only Ahmedabad and Pushkar in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Pushkar?",
+            answer: "Although you can book Ahmedabad to Pushkar cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Pushkar by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Pushkar cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Pushkar one way taxi?",
+            answer: "You may book Ahmedabad to Pushkar One way multi-stop cab by adding additional stops in itinerary.\nFor Ahmedabad to Pushkar One way taxi with only Ahmedabad and Pushkar in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Pushkar one way cab?",
+            answer: "For Ahmedabad to Pushkar One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Pushkar cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Pushkar cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Pushkar cab."
+          }
+        ]
+      }
+    ]
+  },
+  //Ahemedabad to lonavala
+  {
+    id: 27,
+    slug: "ahmedabad-to-lonavala",
+    heading: "Book Ahmedabad to Lonavala Cab",
+    tag: "HILL ESCAPE",
+    description: [
+      "Ahmedabad to Lonavala distance : 592 km",
+      "Estimated travel time : 10 hours",
+      "Ahmedabad to Lonavala is a popular route for tourism because of its proximity. Lonavala - Khandala, a charming twin hill station in the Ahmedabad district is a popular holiday destination for both family vacation and honeymoon trips during the monsoons.",
+      "Lonavala, located at 622m above the sea level in Sahyadri range, is a budget friendly and picture perfect hill station for an exciting weekend getaway. If you are a fan of exciting road trips, this destination should top your list. One of the main attractions in Lonavala is the Bhushi Dam. Although it is a popular picnic spot, swimming is prohibited in this dam due to its inconsistent flow of water, making it an accident prone zone. The best season to visit Lonavala is undoubtedly the monsoon season when the dewy rain makes the road trip and the stay breathtakingly beautiful.",
+      "Taxi from Ahmedabad to Lonavala is readily available at AAVORide."
+    ],
+    coverImage: "https://cpjlcwamma.cloudimg.io/wp-content/uploads/2026/07/Lonavala-Lake-Waterfall.png?width=1180&height=600&func=boundmin&force_format=webp&q=80",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Lonavala Cab Route",
+        description: [
+          "Ahmedabad to Lonavala by car is well connected via NH48 which is a very convenient and comfortable drive. Ahmedabad to Lonavala distance is 595 Km and is 10 hours journey. Other famous tourist places on this route and nearby are :",
+          "Nadiad - Beautiful temples and churches",
+          "Anand - - Dakor temple, Navratri, Garba, Dandia",
+          "Vadodara - - Third largest city of Gujarat. Famous for Navratri festival.",
+          "Bharuch or Broach - - historical heritage at the mouth of river Narmada",
+          "Surat - - Diamond city of India",
+          "Bilimora - - a minor port and offers lovely sights by the river Ambika",
+          "Vapi - - second largest city of Gujarat and is important Industrial city",
+          "Silvassa - - Hills, lush greenery, Wildlife, Portuguese heritage",
+          "Manor - - Khoj Fort, Manor Dam",
+          "Thane - - City of Lakes",
+          "Mumbai - - Financial capital of India known as \"Mini India\"",
+          "Navi Mumbai - - Elephanta Caves, Gateway of Mumbai, Karnala Fort",
+          "Panvel - - Kalavantin Durg, Karnala Fort",
+          "Rasayani - - Karnala Bird Sanctuaary, Karnala Fort, Shivganga Waterpark and Resort",
+          "Khandala - - a picturesque hill station",
+          "Karla Caves - - oldest Buddhist cave shrines",
+          "Tikona Fort - - a dominant hill fortress and very beautiful trek spot",
+          "Tung Fort - - a spot for adventure-seekers due to a steep, narrow ascent trek",
+          "Aamby Valley - - a beautiful township developed with splendid landscape on hilly terrain",
+          "Kamshet - - a picturesque hill station renowned for paragliding and flying schools"
+        ]
+      },
+      {
+        subHeading: "Places to visit in Lonavala using AAVORide Ahmedabad to Lonavala Car Rental with driver",
+        description: "",
+        part: {
+          "famous palces": [
+            "Tiger's leap",
+            "Imagica Water Park",
+            "Bhushi Dam",
+            "Rajmachi Fort",
+            "Lonavala Lake",
+            "Celebrity Wax Museum",
+            "Aambey Valley",
+            "Amrutanjan Point",
+            "Karla Caves",
+            "Rajmachi",
+            "Tikona Fort",
+            "Lonavala - Bhimashankar trail",
+            "Valvan Dam",
+            "Ryewood park",
+            "Tungarli Dam",
+            "Tungarli Lake",
+            "Sausaga Hills",
+            "Scorpion's sting",
+            "Lions Point",
+            "Kune Falls",
+            "Bunjee Jumping",
+            "Narayani Dham Temple",
+            "Reverse Waterfall",
+            "Ekvira Aai Temple",
+            "Duke's Point",
+            "Lohagad Fort",
+            "Bhairavnath Temple, Lonavala",
+            "Visapur Fort",
+            "Bhaja Caves",
+            "Wet N Joy Water Park",
+            "Shivling Point",
+            "Shri Durga Parameshwari Temple",
+            "Anudoli",
+            "Kaivalyadhama Ashram",
+            "Lonavala Waterfall",
+            "Della Adventure Park",
+            "Ghangad",
+            "Kataldhar Waterfalls",
+            "Manranjan Fort"
+          ]
+        }
+      },
+      {
+        subHeading: "Ahmedabad to Lonavala Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Lonavala taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Lonavala.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Lonavala cab and our prices are generally 20% lower than competition."
+        ],
+        "Ahmedabad to Lonavala Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Ahmedabad to Lonavala Taxi Services": {
+          description: "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Lonavala taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Lonavala taxi service. You may book Ahmedabad to Lonavala round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Lonavala car package as needed. You may also book Ahmedabad to Lonavala one way drop taxi or a local hourly rental cab in Lonavala with AAVORide."
+        }
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Lonavala Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Lonavala by car?",
+            answer: "The distance from Ahmedabad to Lonavala by car is 592 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Lonavala by road?",
+            answer: "It takes approx. 10 to 11 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Lonavala taxi fare?",
+            answer: "Ahmedabad to Lonavala taxi fare is approx. ₹6800 for a good sedan car like Etios, Dzire and is approx. ₹7300 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Lonavala Innova fare?",
+            answer: "Ahmedabad to Lonavala Innova fare is approx. ₹8300. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Lonavala cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Lonavala cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Lonavala cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Lonavala outstation trip?",
+            answer: "For Ahmedabad to Lonavala Round trip cab, all the local sightseeing in Ahmedabad, Lonavala and other destination cities in itinerary is included.\nFor Ahmedabad to Lonavala One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Lonavala and other destination cities in itinerary is included.\nFor Ahmedabad to Lonavala One way cab i.e. with only Ahmedabad and Lonavala in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Lonavala?",
+            answer: "Although you can book Ahmedabad to Lonavala cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Lonavala by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Lonavala cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Lonavala one way taxi?",
+            answer: "You may book Ahmedabad to Lonavala One way multi-stop cab by adding additional stops in itinerary.\nFor Ahmedabad to Lonavala One way taxi with only Ahmedabad and Lonavala in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Lonavala one way cab?",
+            answer: "For Ahmedabad to Lonavala One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Lonavala cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Lonavala cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Lonavala cab."
+          }
+        ]
+      }
+    ]
+  },
+
+  //Ahmedabad to agra
+  {
+    id: 28,
+    slug: "ahmedabad-to-agra",
+    heading: "Book Ahmedabad to Agra Cab",
+    tag: "HISTORICAL",
+    description: [
+      "Ahmedabad to Agra distance : 917 km",
+      "Estimated travel time : 17 hours",
+      "Ahmedabad to Agra is the very popular route for both domestic as well as foreign tourists. The main attraction of course is Taj Mahal, one of the seven wonders of the World.",
+      "Placed on the banks of river Yamuna, Agra is the most famous international holiday destination having three World Heritage Sites – Taj Mahal, Agra Red Fort, Fatehpur Sikri. The city is a heaven of architecture, history, art and culture. It mouth-watering Agra ka Petha and Dal Moth which are quite famous too.",
+      "Taxi from Ahmedabad to Agra is readily available at AAVORide."
+    ],
+    coverImage: "https://www.travelandleisure.com/thmb/wdUcyBQyQ0wUVs4wLahp0iWgZhc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/taj-mahal-agra-india-TAJ0217-9eab8f20d11d4391901867ed1ce222b8.jpg",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Agra Cab Route",
+        description: [
+          "Ahmedabad to Agra by car is well connected by road through Bikaner-Agra road and is very convenient and comfortable drive. The most popular stopovers on the route are like Mount Abu, Ajmer, Jaipur. Ahmedabad to Agra distance is 917 Km and is 17 hours journey. Other famous tourist places on this route are :",
+          "Gandhinagar - capital of Gujarat having one of most beautiful temple Akshardham temple",
+          "Palanpur - - famous for heritage, Palace, temples",
+          "Mehsana - - famous for its historical spots",
+          "Patan - - Rani ka Vav, UNESCO World Heritage Site",
+          "Ambaji - - famous for pilgrimage and religious tourism. Most popular is Ambe temple.",
+          "Mount Abu - - a beautiful hill station and home to Dilwara temples",
+          "Pali - - Trade center of Rajasthan",
+          "Pushkar - - Brahma Temple is most popular attraction in Pushkar",
+          "Ajmer - - Dargah Sharif is most visited although there are many tourists attractions in Ajmer",
+          "Kishangarh",
+          "Shamlaji - - a major Hindu pilgrimage centre in Aravalli district of Gujarat",
+          "Dungarpur - - Fort, Palaces",
+          "Hill Forest",
+          "Idar - - known for handmade wooden toys, tiles, its temples and various beautiful architectural monuments on hill",
+          "Palanpur - - famous for its ancient temples and Gujarat\"s history",
+          "Himmatnagar - - Swaminarayan temple",
+          "Bhilwara",
+          "Chittorgarh",
+          "Devgarh",
+          "Jaipur - - The Pink city, Hawa Mahal, Amber fort, Jaigarh fort, Birla temple",
+          "Chawand, Dausa",
+          "Mehandipur Balaji Temple",
+          "Bharatpur Bird Sanctuary",
+          "Fatehpur Sikri"
+        ]
+      },
+      {
+        subHeading: "Places to visit in Agra using AAVORide Ahmedabad to Agra Car Rental with driver",
+        description: "",
+        part: {
+          "famous palces": [
+            "Taj Mahal - One of Seven wonders of world. World Heritage Site",
+            "Agra Red Fort - World Heritage Site",
+            "Fatehpur Sikri - World Heritage Site",
+            "Buland Darwaja",
+            "Jama Masjid Agra",
+            "Tomb of Itimad Ud Daulah",
+            "Taj Mahal Museum",
+            "Akbar's Tomb at Sikandra"
+          ]
+        }
+      },
+      {
+        subHeading: "Ahmedabad to Agra Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Agra taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Agra.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Agra cab and our prices are generally 20% lower than competition."
+        ],
+        "Ahmedabad to Agra Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Ahmedabad to Agra Taxi Services": {
+          description: "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Agra taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Agra taxi service. You may book Ahmedabad to Agra round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Agra car package as needed. You may also book Ahmedabad to Agra one way drop taxi or a local hourly rental cab in Agra with AAVORide."
+        }
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Agra Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Agra by car?",
+            answer: "The distance from Ahmedabad to Agra by car is 917 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Agra by road?",
+            answer: "It takes approx. 17 to 18 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Agra taxi fare?",
+            answer: "Ahmedabad to Agra taxi fare is approx. ₹10500 for a good sedan car like Etios, Dzire and is approx. ₹11000 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Agra Innova fare?",
+            answer: "Ahmedabad to Agra Innova fare is approx. ₹12000. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Agra cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Agra cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Agra cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Agra outstation trip?",
+            answer: "For Ahmedabad to Agra Round trip cab, all the local sightseeing in Ahmedabad, Agra and other destination cities in itinerary is included.\nFor Ahmedabad to Agra One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Agra and other destination cities in itinerary is included.\nFor Ahmedabad to Agra One way cab i.e. with only Ahmedabad and Agra in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Agra?",
+            answer: "Although you can book Ahmedabad to Agra cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Agra by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Agra cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Agra one way taxi?",
+            answer: "You may book Ahmedabad to Agra One way multi-stop cab by adding additional stops in itinerary.\nFor Ahmedabad to Agra One way taxi with only Ahmedabad and Agra in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Agra one way cab?",
+            answer: "For Ahmedabad to Agra One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Agra cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Agra cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Agra cab."
+          }
+        ]
+      }
+    ]
+  },
+
+  //Ahmedabad to delhi
+  {
+    id: 29,
+    slug: "ahmedabad-to-delhi",
+    heading: "Book Ahmedabad to Delhi Cab",
+    tag: "CAPITAL CITY",
+    description: [
+      "Ahmedabad to Delhi distance : 946 km",
+      "Estimated travel time : 17 hours",
+      "Ahmedabad to Delhi is very popular route for both tourism as well as work. Delhi being the capital of India, carries the prestige, cultural, historical and political importance as well as its the nearest international airport for foreign tourists.",
+      "Delhi, sometimes referred as \"Hindustan ka Dil\" (the heart of India), is ancient and modern blend seamlessly together. From Old Delhi to New Delhi, you can explore the cultural diversity, tradition, architectural brilliance which can be traced back to fourth century when the Iron Pillar was built in Mehrauli which has not shown any sign of rusting yet. With old bazars in Chandni Chowk, numerous monuments like India Gate, Rashtrapati Bhavan, Qutub Minar; temples like Akshardham, ISCON; Food ranging from Paranthe vali gali to 5 star hotels; Delhi has all colors of society and is truely a city of cities.",
+      "Taxi from Ahmedabad to Delhi is readily available at AAVORide."
+    ],
+    coverImage: "https://s7ap1.scene7.com/is/image/incredibleindia/red-fort-delhi1-attr-hero?qlt=82&ts=1742170492880",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Delhi Cab Route",
+        description: [
+          "Ahmedabad to Delhi by car is well connected via NH48 and is very convenient and comfortable drive. Most popular stopover on route are Mount Abu, Pali, Ajmer and Jaipur. Ahmedabad to Delhi distance is 946 Km and is 17 hours journey. Another route is via Udaipur which is almost same distance and takes same time. Other famous tourist places on this route are :",
+          "Gandhinagar - Akshardham Temple,Indroda Nature Park,Sarita Udhyan,Indroda Dinosaur and fossil park",
+          "Modhera - - famous Sun Temple Modhera, Modeshwari Mata mandir",
+          "Mehsana - - Dudhsagar Dairy, Mehsana Jain pilgrimage",
+          "Patan - - Rani Ki Vav, architectural gems, ancient temples",
+          "Palanpur - - City of Flowers, Jessore Sloth Bear Sanctuary, Keerti Stambh Victory tower, Balaram Mahadev Temple, Pataleshwar Mahadev Temple, Pallaviya Parshwanath Temple, Kedarnath Mahadev temple, Balaram Palace",
+          "Mount Abu - - only hill station in Rajasthan",
+          "Sirohi - - popular for Fort and temples",
+          "Pali - - textile hub, famous temples like the Somnath temple, Adishwar temple, and the Ranakpur Jain temple",
+          "Ajmer - - Dargah Sharif Tomb of Garib Nawaz (Khwaja Moinuddin Chisti)",
+          "Pushkar - - Brahma Temple is most popular attraction in Pushkar",
+          "Kishangarh",
+          "Jaipur - - The Pink City, forts, palaces, temples, architecture",
+          "Neemrana - - Neemrana Fort Palace, Zip Lining, Baori",
+          "Shamlaji - - a major Hindu pilgrimage centre in Aravalli district of Gujarat",
+          "Dungarpur - - Fort, Palaces",
+          "Hill Forest",
+          "Idar - - known for handmade wooden toys, tiles, its temples and various beautiful architectural monuments on hill",
+          "Palanpur - - famous for its ancient temples and Gujarat\"s history",
+          "Himmatnagar - - Swaminarayan temple",
+          "Bhilwara",
+          "Chittorgarh",
+          "Devgarh"
+        ]
+      },
+      {
+        subHeading: "Places to visit in Delhi using AAVORide Ahmedabad to Delhi Car Rental with driver",
+        description: "",
+        part: {
+          "famous palces": [
+            "Qutub Minar",
+            "Red Fort",
+            "Jama Masjid",
+            "Humayun's Tomb",
+            "India Gate",
+            "National Zoological Park",
+            "Chandni Chowk - local cheap markets",
+            "Akshardham Temple",
+            "Lotus Temple",
+            "Jantar Mantar",
+            "Rashtrapati Bhavan",
+            "Agrasen ki Baoli",
+            "Connaught Place",
+            "Nehru Planetarium",
+            "ISKCON Temple",
+            "Lodhi Garden",
+            "Khan Market",
+            "Rajghat"
+          ]
+        }
+      },
+      {
+        subHeading: "Ahmedabad to Delhi Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Delhi taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Delhi.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Delhi cab and our prices are generally 20% lower than competition."
+        ],
+        "Ahmedabad to Delhi Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Ahmedabad to Delhi Taxi Services": {
+          description: "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Delhi taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Delhi taxi service. You may book Ahmedabad to Delhi round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Delhi car package as needed. You may also book Ahmedabad to Delhi one way drop taxi or a local hourly rental cab in Delhi with AAVORide."
+        }
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Delhi Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Delhi by car?",
+            answer: "The distance from Ahmedabad to Delhi by car is 946 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Delhi by road?",
+            answer: "It takes approx. 17 to 18 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Delhi taxi fare?",
+            answer: "Ahmedabad to Delhi taxi fare is approx. ₹10800 for a good sedan car like Etios, Dzire and is approx. ₹11300 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Delhi Innova fare?",
+            answer: "Ahmedabad to Delhi Innova fare is approx. ₹12300. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Delhi cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Delhi cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Delhi cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Delhi outstation trip?",
+            answer: "For Ahmedabad to Delhi Round trip cab, all the local sightseeing in Ahmedabad, Delhi and other destination cities in itinerary is included.\nFor Ahmedabad to Delhi One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Delhi and other destination cities in itinerary is included.\nFor Ahmedabad to Delhi One way cab i.e. with only Ahmedabad and Delhi in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Delhi?",
+            answer: "Although you can book Ahmedabad to Delhi cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Delhi by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Delhi cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Delhi one way taxi?",
+            answer: "You may book Ahmedabad to Delhi One way multi-stop cab by adding additional stops in itinerary.\nFor Ahmedabad to Delhi One way taxi with only Ahmedabad and Delhi in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Delhi one way cab?",
+            answer: "For Ahmedabad to Delhi One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Delhi cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Delhi cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Delhi cab."
+          }
+        ]
+      }
+    ]
+  },
+
+  //Ahmedabad to varanasi
+  {
+    id: 30,
+    slug: "ahmedabad-to-varanasi",
+    heading: "Book Ahmedabad to Varanasi Cab",
+    tag: "SPIRITUAL JOURNEY",
+    description: [
+      "Ahmedabad to Varanasi distance : 1310 km",
+      "Estimated travel time : 25 hours",
+      "Varanasi is known as the 'Spiritual Capital of India' and is among the oldest living cities in the world.",
+      "Placed on the banks of hole river Ganga, Varanasi is a sacred place for all Hindus, Jains and Buddhists and carries a very rich history of religion and culture. Known with serveral names like 'Banaras', 'Galiyon ka sheher' (city of lanes), 'City of temples', 'Religious capital of India', 'City of Learning', 'Kashi'. It has always been a great cultural centre notably in the field of learning, religion, philosophy, Yoga, Ayurveda, astrology, music, literature and spirituality. Spending time at the holy Ganga ghats in Varanasi is such a peaceful experience which can be felt not told. One can take a heritage morning walk, can visit markets for Banarasi Silk Saree and carpets which is globally famous, can visit temples, experience life on the ghats of Ganga, enjoy the evening Ganga Aarti, can visit Sarnath which is one of the biggest pilgrimage sites for Buddhists.",
+      "Taxi from Ahmedabad to Varanasi is readily available at AAVORide."
+    ],
+    coverImage: "https://s7ap1.scene7.com/is/image/incredibleindia/manikarnika-ghat-city-hero?qlt=82&ts=1727959374496",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Varanasi Cab Route",
+        description: [
+          "Ahmedabad to Varanasi by car is well connected by road and is very convenient and comfortable drive. Ahmedabad to Varanasi distance is 1310 Km and is 25 hours journey. Book your Ahmedabad to Varanasicar tour package. Other famous tourist places on this route and nearby are :",
+          "1. Udaipur - Known as the \"City of Lakes,\" Udaipur is famous for its beautiful lakes, palaces, and stunning architecture. It is home to attractions like Lake Pichola, City Palace, Jag Mandir, and Saheliyon Ki Bari.",
+          "2. Chittorgarh - Chittorgarh is a historic city known for its magnificent Chittorgarh Fort. This UNESCO World Heritage Site is the largest fort in India and offers panoramic views of the surrounding area.",
+          "3. Pushkar - Pushkar is a holy city known for its sacred Pushkar Lake and the famous Brahma Temple. The city also hosts the annual Pushkar Camel Fair, which attracts thousands of tourists.",
+          "4. Jaipur - The capital of Rajasthan, Jaipur is popularly known as the \"Pink City.\" It is renowned for its magnificent palaces, forts, and cultural heritage. Must-visit attractions include the iconic Hawa Mahal, City Palace, Amer Fort, and Jantar Mantar.",
+          "5. Agra - Home to the iconic Taj Mahal, Agra is a must-visit destination on the way to Varanasi. Apart from the Taj Mahal, tourists can explore the Agra Fort, Fatehpur Sikri, and Itmad-ud-Daulah's Tomb.",
+          "6. Allahabad - Situated at the confluence of three rivers, Allahabad is known for its religious significance. The city hosts the Kumbh Mela, the largest religious gathering in the world. The Triveni Sangam, Anand Bhavan, and Allahabad Fort are popular attractions."
+        ]
+      },
+      {
+        subHeading: "Places to visit in Varanasi using AAVORide Ahmedabad to Varanasi Car Rental with driver",
+        description: "",
+        part: {
+          "famous palces": [
+            "Kashi Vishwanath Temple",
+            "Sarnath",
+            "Dasashwamedh Ghat",
+            "Assi Ghat",
+            "Sankat Mochan Hanuman Temple",
+            "Tulsi Manasa Temple",
+            "New Vishwanath Temple, BHU",
+            "Durga Temple",
+            "Panchganga Ghat",
+            "Alamir Mosque",
+            "Darbhanga Ghat",
+            "Gyan Kup",
+            "Hanuman Ghat",
+            "Kedar Ghat",
+            "Man Mandir Ghat",
+            "Manikarnika Ghat",
+            "Ramnagar Fort",
+            "Ramnagar Museum",
+            "Rana Ghat",
+            "Bharata Mata Mandir",
+            "Harischandra Ghat",
+            "Jantar Mantar",
+            "Shivala Ghat",
+            "Tulsi Ghat",
+            "Banaras Hindu University"
+          ]
+        }
+      },
+      {
+        subHeading: "Ahmedabad to Varanasi Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Varanasi taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Varanasi.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Varanasi cab and our prices are generally 20% lower than competition."
+        ],
+        "Ahmedabad to Varanasi Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Ahmedabad to Varanasi Taxi Services": {
+          description: "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Varanasi taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Varanasi taxi service. You may book Ahmedabad to Varanasi round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Varanasi car package as needed. You may also book Ahmedabad to Varanasi one way drop taxi or a local hourly rental cab in Varanasi with AAVORide."
+        }
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Varanasi Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Varanasi by car?",
+            answer: "The distance from Ahmedabad to Varanasi by car is 1310 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Varanasi by road?",
+            answer: "It takes approx. 24 to 27 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Varanasi taxi fare?",
+            answer: "Ahmedabad to Varanasi taxi fare is approx. ₹14410 for a good sedan car like Etios, Dzire and is approx. ₹19650 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Varanasi Innova fare?",
+            answer: "Ahmedabad to Varanasi Innova fare is approx. ₹20650. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Varanasi cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Varanasi cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Varanasi cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Varanasi outstation trip?",
+            answer: "For Ahmedabad to Varanasi Round trip cab, all the local sightseeing in Ahmedabad, Varanasi and other destination cities in itinerary is included.\nFor Ahmedabad to Varanasi One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Varanasi and other destination cities in itinerary is included.\nFor Ahmedabad to Varanasi One way cab i.e. with only Ahmedabad and Varanasi in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Varanasi?",
+            answer: "Although you can book Ahmedabad to Varanasi cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Varanasi by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Varanasi cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Varanasi one way taxi?",
+            answer: "You may book Ahmedabad to Varanasi One way multi-stop cab by adding additional stops in itinerary.\nFor Ahmedabad to Varanasi One way taxi with only Ahmedabad and Varanasi in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Varanasi one way cab?",
+            answer: "For Ahmedabad to Varanasi One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Varanasi cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Varanasi cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Varanasi cab."
+          }
+        ]
+      }
+    ]
+  },
+
+  //Ahmedabad to hampi
+  {
+    id: 31,
+    slug: "ahmedabad-to-hampi",
+    heading: "Book Ahmedabad to Hampi Taxi",
+    tag: "ROAD TRIP",
+    description: [
+      "Ahmedabad to Hampi Cabs",
+      "AAVORide has had its presence in chauffeur-driven car rental sector for more than 16 years. We continuously strive to ensure that we provide reliable, quality and timely cab services.  We have a wide range of car options right from sedans to hatchbacks and MUVs to SUVs. You can book any type of car for your Ahmedabad to Hampi taxi service depending on your requirement. You can easily book Ahmedabad to Hampi cabs at AAVORide 24/7 without any hassle with our easy-to-use booking interface.",
+      "Book our Ahmedabad to Hampi cab service and rest assured you will get quality & reliable services for your Car Rental from Ahmedabad to Hampi. With our wide range of services, you can now book your Ahmedabad to Hampi taxi in the easiest way with few simple clicks. Avail Ahmedabad to Hampi car hire services at AAVORide and enjoy a great trip with family and friends. Make the best use of the services offered by AAVORide at the best rates & experience the relaxing and trouble free journey by hiring Ahmedabad to Hampi taxi at AAVORide. With over a decade of experience in car rental services, AAVORide is the best cab service provider in the industry, if you are planning to book a taxi."
+    ],
+    coverImage: "https://www.remotelands.com/storage/media/2839/conversions/b130411002-banner-size.jpg",
+    sections: [
+      {
+        subHeading: "Cab Booking app for Ahmedabad to Hampi taxi - Download the AAVORide Android app",
+        description: [
+          "For all your road travel requirements, download AAVORide's Ahmedabad to Hampi online cab service app to ensure a seamless online booking experience on your phones. Book a cab from Ahmedabad to Hampi in under 30 seconds for Outstation round trips, one way drops, airport transfers or local hourly rentals. If you are not convinced yet, here are 5 reasons why you must download our app from Google Play Store:"
+        ],
+        part: {
+          "5 reasons why you must download our app": [
+            "Exclusive Offers and discounts - Tune in to our app for availing exclusive offers and discounts round the year.",
+            "Driver Tracking - In a first of its kind for Outstation trips, AAVORide's app provides real time location and updates of the cab and the driver so that you don't have to worry with delays and follow ups.",
+            "Curated Travel content - If you love travel, our regular dose of curated content will make you pack your bags for the next roadtrip. If you don't love travel, allow our app's inspirational content to change your mind.",
+            "One place to manage all your bookings - Manage your bookings, reschedule them, cancel trips under emergencies, our app supports it all.",
+            "Save time and be an app hero - Why are you wasting your time browsing your trip on this website? Download our app and be an app hero."
+          ]
+        }
+      },
+      {
+        subHeading: "FAQs on Ahmedabad to Hampi Cabs",
+        description: "",
+        faqs: [
+          {
+            question: "Why should I book a cab from Ahmedabad to Hampi?",
+            answer: "The journey from Ahmedabad to Hampi can be covered conveniently by road. It is advisable to book a cab for this route instead of self-drive or public transport such as buses or trains, simply because of the ease of commuting and provision of a safe space for you and your loved ones. By booking a cab with AAVORide, you get a clean and sanitized cab which picks and drops you at your doorstep, while you relax and let our driver take care of the rest."
+          },
+          {
+            question: "How can I book a cab from Ahmedabad to Hampi?",
+            answer: "Booking a AAVORide taxi is extremely easy. You can book online by visiting our website or downloading the AAVORide app to book your ride from anywhere at your convenience. You can also call on 9045450000 to reach out to our customer service team to assist you with a customised itinerary."
+          },
+          {
+            question: "Do I have to pay a full charge or is there any one-way fare?",
+            answer: "At AAVORide, we offer both one-way and round-trip packages from Ahmedabad to Hampi. You can pay according to your trip plan. So, for Ahmedabad to Hampi one way drop, you have to pay the fare for one-side journey only."
+          },
+          {
+            question: "Can I book a trip from Hampi to Ahmedabad as well?",
+            answer: "Yes, we offer a wide range of cab services from Hampi to Ahmedabad as well. You can book a premium and affordable Hampi to Ahmedabad cab with AAVORide."
+          },
+          {
+            question: "What are the best cab booking options from Ahmedabad to Hampi?",
+            answer: "AAVORide offers fully customizable one-way, one-day and multi-day packages from Ahmedabad to Hampi. You may also choose from our wide range of cars. Call on our helpline number 9045450000 for any assistance with the customized itinerary for your Ahmedabad to Hampi trip."
+          },
+          {
+            question: "How do I get from Ahmedabad airport to Hampi?",
+            answer: "You can easily book an airport taxi outside Ahmedabad airport and travel to Hampi in a safe, sanitized and convenient car. We offer flat fares on airport cabs. Just call on 9045450000 to book an airport cab or drop an email at orders@AAVORide.com."
+          },
+          {
+            question: "Can I pick a car model of my own choice for a cab from Ahmedabad to Hampi?",
+            answer: "Yes, you may pick a car model of your choice from our available fleet of sedans, hatchbacks and SUVs, for your journey from Ahmedabad to Hampi."
+          }
+        ]
+      }
+    ]
+  },
+
+  //Ahmedabad to amritsar
+  {
+    id: 32,
+    slug: "ahmedabad-to-amritsar",
+    heading: "Book Ahmedabad to Amritsar Cab",
+    tag: "SPIRITUAL JOURNEY",
+    description: [
+      "Ahmedabad to Amritsar distance : 1216 km",
+      "Estimated travel time : 23 hours",
+      "Ahmedabad to Amritsar is very popular route for both domestic as well as foreign tourists. The main attraction of course is Golden Temple or Sri Harmandir Sahib - the spiritual center of the followers of Sikh religion.",
+      "Amritsar is a city of history, holiness, culture and cuisine. From the Operation Blue Star in the Golden Temple to the tragedy of the Jallianwala Bagh massacre, Amritsar has seen the worst of situations. Amritsar cuisine is very popular for its dishes like Amritsari Kulcha, Lassi, Amritsari Fish, Chicken Tikka, Tandoori Chicken, hot Gulab Jamun, Channa Batura, Chhole Batura, Parathe, Dal Makhani, Rajama Chawal, various varieties of Paneer, Rajma, Sarson Da Saag with Makai ki Roti. A a city of colourful turbans, exquisite phulkari, golden yellow harvest and endless Seva and Langar, enlightens with its rich culture.",
+      "Taxi from Ahmedabad to Amritsar is readily available at AAVORide."
+    ],
+    coverImage: "https://www.ilcircolo.org.uk/wp-content/uploads/2025/11/il-circolo-blog-The-Golden-Temple-in-Amritsar-culture-e1764068819732.jpg",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Amritsar Cab Route",
+        description: [
+          "Ahmedabad to Amritsar by car is well connected via NH62 and is very convenient and comfortable drive. Ahmedabad to Amritsar distance is 1216 Km and is 23 hours journey. Other famous tourist places on this route and nearby are: Gandhinagar - Akshardham Temple,Indroda Nature Park,Sarita Udhyan,Indroda Dinosaur and fossil park",
+          "Modhera : famous Sun Temple Modhera, Modeshwari Mata mandir",
+          "Mehsana : Dudhsagar Dairy, Mehsana Jain pilgrimage",
+          "Patan : Rani Ki Vav, architectural gems, ancient temples",
+          "Palanpur : City of Flowers, Jessore Sloth Bear Sanctuary, Keerti Stambh Victory tower, Balaram Mahadev Temple, Pataleshwar Mahadev Temple, Pallaviya Parshwanath Temple, Kedarnath Mahadev temple, Balaram Palace",
+          "Mount Abu : only hill station in Rajasthan",
+          "Sirohi : popular for Fort and temples",
+          "Pali : textile hub, famous temples like the Somnath temple, Adishwar temple, and the Ranakpur Jain temple",
+          "Jodhpur : The Blue City, Sun City, Gateway to Thar, Mehrangarh fort",
+          "Sikar : a heritage city, Devgarh fort, Harshnath temple",
+          "Khimsar : Sand Dune village, Khimsar Fort",
+          "Nagaur : Fort of the Hooded Cobra, Nagaur Fort",
+          "Ladnun : Chanderi Nagari, birth place of Acharya Tulsi who founded Anuvrata and the Jain Vishva Bharati University",
+          "Salasar : Balaji Temple",
+          "Sardarshahar : ancient Havelis adorned with fresco paintings and carved woodwork, Acharya Mahapragya Samadhi Sthal",
+          "Hanumangarh : Bhatner fort, Temple of Shri Gogaji, Mata Bhadrakali temple",
+          "Mandi Dabwali : Manufacturing and marketing hub of open Jeeps",
+          "Bathinda : One of oldest city of Punjab, Qila Mubarak, Rose Garden, Zoological Garden, Mazaar of Peer Haji Rattan, Chetak Lake and Park, Lakhi Jungle",
+          "Barnala : Quilla Mahal, Dera Baba Gandha Singh Gurudwara, Gurudwara Patshahi Naumi"
+        ]
+      },
+      {
+        subHeading: "Places to visit in Amritsar using AAVORide Ahmedabad to Amritsar Car Rental with driver",
+        description: "",
+        part: {
+          "famous palces": [
+            "Golden Temple or Harmandir Sahib or Darbar Sahib",
+            "Jallianwala Bagh",
+            "Wagah Border",
+            "Ran Bagh",
+            "Maharana Ranjit Sing Museum",
+            "Durgiana Temple",
+            "Gurdwara Manji Sahib",
+            "Akal Takht",
+            "Shivala Bhaian Temple",
+            "Gurdwara Bebaaksar Sahib",
+            "Gurdwara Bir Baba Budha",
+            "Tala Sahib Gurudwara",
+            "Gopal mandir"
+          ]
+        }
+      },
+      {
+        subHeading: "Ahmedabad to Amritsar Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Amritsar taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Amritsar.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Amritsar cab and our prices are generally 20% lower than competition."
+        ],
+        "Ahmedabad to Amritsar Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Ahmedabad to Amritsar Taxi Services": {
+          description: "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Amritsar taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Amritsar taxi service. You may book Ahmedabad to Amritsar round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Amritsar car package as needed. You may also book Ahmedabad to Amritsar one way drop taxi or a local hourly rental cab in Amritsar with AAVORide."
+        }
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Amritsar Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Amritsar by car?",
+            answer: "The distance from Ahmedabad to Amritsar by car is 1216 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Amritsar by road?",
+            answer: "It takes approx. 23 to 24 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Amritsar taxi fare?",
+            answer: "Ahmedabad to Amritsar taxi fare is approx. ₹14500 for a good sedan car like Etios, Dzire and is approx. ₹15000 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Amritsar Innova fare?",
+            answer: "Ahmedabad to Amritsar Innova fare is approx. ₹16000. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Amritsar cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Amritsar cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Amritsar cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Amritsar outstation trip?",
+            answer: "For Ahmedabad to Amritsar Round trip cab, all the local sightseeing in Ahmedabad, Amritsar and other destination cities in itinerary is included.\nFor Ahmedabad to Amritsar One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Amritsar and other destination cities in itinerary is included.\nFor Ahmedabad to Amritsar One way cab i.e. with only Ahmedabad and Amritsar in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Amritsar?",
+            answer: "Although you can book Ahmedabad to Amritsar cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Amritsar by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Amritsar cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Amritsar one way taxi?",
+            answer: "You may book Ahmedabad to Amritsar One way multi-stop cab by adding additional stops in itinerary.\nFor Ahmedabad to Amritsar One way taxi with only Ahmedabad and Amritsar in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Amritsar one way cab?",
+            answer: "For Ahmedabad to Amritsar One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Amritsar cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Amritsar cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Amritsar cab."
+          }
+        ]
+      }
+    ]
+  },
+
+  //Ahmedabad to kashmir
+  {
+    id: 33,
+    slug: "ahmedabad-to-srinagar",
+    heading: "Book Ahmedabad to Srinagar Cab",
+    tag: "SCENIC JOURNEY",
+    description: [
+      "Ahmedabad to Srinagar distance : 1720 km",
+      "Estimated travel time : 31 hours",
+      "Srinagar, the jewel in the crown of Jammu and Kashmir is a city that whispers tales of timeless beauty and resilience. As the summer capital of this northernmost Indian state, it paints a mesmerizing picture where nature's grandeur meets centuries of rich culture. The city is nestled in the picturesque Kashmir Valley at an altitude of 1,585 meters above sea level making it a mesmerizing city adorned with scenic splendour and rich cultural heritage.",
+      "Srinagar in Jammu and Kashmir is a breathtakingly beautiful city often called \"Paradise on Earth\" for its mesmerizing landscapes, serene lakes, and lush gardens. Nestled in the Kashmir Valley, Srinagar is surrounded by the majestic Himalayan mountains, offering stunning views and a tranquil atmosphere. The city is most famous for Dal Lake and Nigeen Lake, where the iconic houseboats and colorful shikaras create a dreamy and unforgettable experience for visitors. A ride on a shikara amidst the still waters, with views of floating gardens and snow-capped peaks, is a must-do. Srinagar is also home to the Mughal Gardens, such as Shalimar Bagh and Nishat Bagh, which showcase the grandeur and artistry of Mughal architecture. The gardens, with their terraced lawns, flowing fountains, and vibrant flowers, provide a peaceful retreat. The spiritual heritage of Srinagar is evident in landmarks like the Shankaracharya Temple and Hazratbal Shrine, which attract pilgrims from all faiths. The bustling markets of Srinagar are a delight for shoppers, offering exquisite Pashmina shawls, Kashmiri carpets, saffron, and traditional handcrafts. The local cuisine, featuring dishes like Rogan Josh, Yakhni, and fragrant Kashmiri Kahwa, adds to the charm of visiting the city. Whether you are visiting to relax amidst nature, explore its rich culture, or shop for authentic Kashmiri goods, Srinagar offers a magical experience. Our taxi service ensures a safe and comfortable journey to this enchanting city, letting you soak in its beauty and charm without any worries. Let us make your visit to Srinagar memorable and delightful.",
+      "Taxi from Ahmedabad to Srinagar is readily available at AAVORide."
+    ],
+    coverImage: "https://api.tripxplo.com/storage/package/934bd9ad-c349-4e5e-b9e8-3269317484b2-kashmir-view-horse.jpg",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Srinagar Cab Route",
+        description: [
+          "Ahmedabad to Srinagar by car is well connected by road and is very convenient and comfortable drive. Ahmedabad to Srinagar distance is 1720 Km and is 31 hours journey. Book your Ahmedabad to Srinagarcar tour package. Other famous tourist places on this route and nearby are :",
+          "1. Udaipur : Known as the \"City of Lakes,\" Udaipur is famous for its picturesque lakes, palaces, and gardens. It is an ideal stopover for those interested in exploring its rich history and stunning architecture.",
+          "2. Jaipur : As the capital of Rajasthan, Jaipur is known for its vibrant culture, majestic forts, and palaces. The city offers a glimpse into the royal heritage of Rajasthan, with attractions such as the Hawa Mahal, Amer Fort, and City Palace.",
+          "3. Jaisalmer : Located in the heart of the Thar Desert, Jaisalmer is famous for its golden sand dunes and magnificent sandstone architecture. Visitors can explore the Jaisalmer Fort, take a camel safari, and witness the awe-inspiring sunset over the dunes.",
+          "4. Amritsar : Home to the iconic Golden Temple, Amritsar is a spiritual and cultural hub. The temple attracts millions of visitors each year, and the Wagah Border ceremony is another popular attraction, showcasing the ceremonial lowering of flags between India and Pakistan.",
+          "5. Srinagar : The final destination, Srinagar, is the capital city of Jammu and Kashmir and offers breathtaking natural beauty. Dal Lake, Mughal Gardens (such as Shalimar Bagh and Nishat Bagh), and the Shankaracharya Temple are key attractions here."
+        ]
+      },
+      {
+        subHeading: "Places to visit in Srinagar using AAVORide Ahmedabad to Srinagar Car Rental with driver",
+        description: "",
+        part: {
+          "famous palces": [
+            "Dal Lake",
+            "Shankaracharya Temple",
+            "Nishat Bagh",
+            "Shalimar Bagh",
+            "Chashme Shahi",
+            "Pari Mahal",
+            "Hazratbal Shrine",
+            "Tulip Garden",
+            "Nigeen Lake",
+            "Jama Masjid Srinagar",
+            "Indira Gandhi Memorial Tulip Garden",
+            "Dachigam National Park",
+            "Kheer Bhawani Temple",
+            "Hari Parbat",
+            "Badamwari Garden",
+            "Char Chinar",
+            "Khanqah-e-Moula",
+            "Sangin Darwaza",
+            "Floating Vegetable Market",
+            "Mughal Gardens",
+            "Pathar Masjid",
+            "Akhund Mullah Mosque",
+            "SPS Museum",
+            "Burzahom Archaeological Site",
+            "Zabarwan Park"
+          ]
+        }
+      },
+      {
+        subHeading: "Ahmedabad to Srinagar Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Srinagar taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Srinagar.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Srinagar cab and our prices are generally 20% lower than competition."
+        ],
+        "Ahmedabad to Srinagar Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Ahmedabad to Srinagar Taxi Services": {
+          description: "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Srinagar taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Srinagar taxi service. You may book Ahmedabad to Srinagar round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Srinagar car package as needed. You may also book Ahmedabad to Srinagar one way drop taxi or a local hourly rental cab in Srinagar with AAVORide."
+        }
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Srinagar Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Srinagar by car?",
+            answer: "The distance from Ahmedabad to Srinagar by car is 1720 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Srinagar by road?",
+            answer: "It takes approx. 30 to 33 hours depending on traffic."
+          },
+          {
+            question: "How much is Ahmedabad to Srinagar taxi fare?",
+            answer: "Ahmedabad to Srinagar taxi fare is approx. ₹18920 for a good sedan car like Etios, Dzire and is approx. ₹25800 for SUV car. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Srinagar Innova fare?",
+            answer: "Ahmedabad to Srinagar Innova fare is approx. ₹26800. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Srinagar cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Srinagar cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Srinagar cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Srinagar outstation trip?",
+            answer: "For Ahmedabad to Srinagar Round trip cab, all the local sightseeing in Ahmedabad, Srinagar and other destination cities in itinerary is included.\nFor Ahmedabad to Srinagar One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Srinagar and other destination cities in itinerary is included.\nFor Ahmedabad to Srinagar One way cab i.e. with only Ahmedabad and Srinagar in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Srinagar?",
+            answer: "Although you can book Ahmedabad to Srinagar cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Srinagar by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Srinagar cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Srinagar one way taxi?",
+            answer: "You may book Ahmedabad to Srinagar One way multi-stop cab by adding additional stops in itinerary.\nFor Ahmedabad to Srinagar One way taxi with only Ahmedabad and Srinagar in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Srinagar one way cab?",
+            answer: "For Ahmedabad to Srinagar One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Srinagar cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Srinagar cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Srinagar cab."
+          }
+        ]
+      }
+    ]
+  },
+
+  //Ahmedabad to Leh
+  {
+    id: 34,
+    slug: "ahmedabad-to-leh",
+    heading: "Book Ahmedabad to Leh Cab",
+    tag: "SCENIC JOURNEY",
+    description: [
+      "Ahmedabad to Leh distance : 1800 km",
+      "Estimated travel time : 35 hours",
+      "Leh, the capital town of Ladakh, is a mesmerizing destination known for its dramatic Himalayan landscapes, ancient monasteries, high mountain passes, and unique cultural heritage. Situated at a high altitude in the Trans-Himalayan region, Leh offers breathtaking views of rugged mountains, clear blue skies, and beautiful valleys.",
+      "Leh in Ladakh is a breathtakingly beautiful destination often known for its spectacular landscapes, ancient Buddhist monasteries, high-altitude lakes, and vibrant local culture. Surrounded by majestic Himalayan mountains, Leh offers a unique combination of natural beauty, adventure, spirituality, and history. The town is most famous for attractions such as Leh Palace and Shanti Stupa, which offer beautiful views of the surrounding mountains and Leh town. Visitors can also explore the historic monasteries of Thiksey, Hemis, Spituk and Alchi, which showcase the rich Buddhist heritage of Ladakh. The nearby Nubra Valley, Pangong Lake and Khardung La are popular destinations for travellers looking to experience the dramatic landscapes of Ladakh. The markets of Leh offer traditional handicrafts, woollens, Pashmina shawls, Tibetan items and local products. The local cuisine, featuring dishes like momos, thukpa and traditional Ladakhi food, adds to the experience of visiting this remarkable region. Whether you are visiting to explore the mountains, experience Ladakhi culture, discover ancient monasteries, or enjoy the peaceful surroundings, Leh offers a memorable journey. Our taxi service ensures a safe and comfortable journey to this enchanting destination, letting you explore its beauty and charm without any worries.",
+      "Taxi from Ahmedabad to Leh is readily available at AAVORide."
+    ],
+    coverImage: "https://images.staybook.in/things-to-do/leh-palace-fast-track-entry-ticket/3.jpeg",
+    sections: [
+      {
+        subHeading: "Ahmedabad to Leh Cab Route",
+        description: [
+          "Ahmedabad to Leh by car is well connected by road and is a scenic and adventurous drive. Ahmedabad to Leh distance is approximately 1800 Km and is around 35 hours journey. Book your Ahmedabad to Leh car tour package. Other famous tourist places on this route and nearby are :",
+          "1. Udaipur : Known as the \"City of Lakes,\" Udaipur is famous for its picturesque lakes, palaces, and gardens. It is an ideal stopover for those interested in exploring its rich history and stunning architecture.",
+          "2. Jaipur : As the capital of Rajasthan, Jaipur is known for its vibrant culture, majestic forts, and palaces. The city offers a glimpse into the royal heritage of Rajasthan, with attractions such as the Hawa Mahal, Amer Fort, and City Palace.",
+          "3. Delhi : The capital city of India, Delhi is known for its historic monuments, bustling markets, museums, and rich cultural heritage. Popular attractions include India Gate, Red Fort, Qutub Minar and Humayun's Tomb.",
+          "4. Manali : Located in the mountains of Himachal Pradesh, Manali is a popular hill station known for its scenic valleys, snow-capped mountains, rivers and adventure activities. It is also an important gateway for road journeys towards Ladakh.",
+          "5. Sarchu : Located on the Manali-Leh route, Sarchu is a popular halt surrounded by dramatic Himalayan landscapes and high mountain passes.",
+          "6. Leh : The final destination, Leh is the capital town of Ladakh and offers breathtaking natural beauty, ancient monasteries, historic palaces and access to destinations such as Nubra Valley and Pangong Lake."
+        ]
+      },
+      {
+        subHeading: "Places to visit in Leh using AAVORide Ahmedabad to Leh Car Rental with driver",
+        description: "",
+        part: {
+          "famous palces": [
+            "Leh Palace",
+            "Shanti Stupa",
+            "Thiksey Monastery",
+            "Hemis Monastery",
+            "Spituk Monastery",
+            "Alchi Monastery",
+            "Lamayuru Monastery",
+            "Shey Palace",
+            "Stok Palace & Museum",
+            "Magnetic Hill",
+            "Gurudwara Pathar Sahib",
+            "Nubra Valley",
+            "Pangong Lake",
+            "Khardung La",
+            "Tso Moriri Lake",
+            "Hemis National Park",
+            "Likir Monastery",
+            "Phyang Monastery",
+            "Diskit Monastery",
+            "Tsemo Hill",
+            "Zanskar Valley",
+            "Confluence of Indus & Zanskar Rivers",
+            "Hall of Fame",
+            "Jama Masjid Leh"
+          ]
+        }
+      },
+      {
+        subHeading: "Ahmedabad to Leh Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Ahmedabad to Leh taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Ahmedabad to Leh.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Ahmedabad to Leh cab and our prices are generally 20% lower than competition."
+        ],
+        "Ahmedabad to Leh Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Ahmedabad to Leh Taxi Services": {
+          description: "Being an Aggregator, AAVORide provides you enormous car options for your Ahmedabad to Leh taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Ahmedabad to Leh taxi service. You may book Ahmedabad to Leh round trip cab or one way multi-stop cab in case you plan not to return to Ahmedabad and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Ahmedabad to Leh car package as needed. You may also book Ahmedabad to Leh one way drop taxi or a local hourly rental cab in Leh with AAVORide."
+        }
+      },
+      {
+        subHeading: "Frequently Asked Questions about Ahmedabad to Leh Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Leh by car?",
+            answer: "The distance from Ahmedabad to Leh by car is approximately 1800 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Leh by road?",
+            answer: "It takes approx. 35 to 40 hours depending on traffic, road conditions and route."
+          },
+          {
+            question: "How much is Ahmedabad to Leh taxi fare?",
+            answer: "Ahmedabad to Leh taxi fare depends on the vehicle type, travel date and selected trip package. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "How much is Ahmedabad to Leh Innova fare?",
+            answer: "Ahmedabad to Leh Innova fare depends on the travel date and selected trip package. For best price on your travel date for various car rental options, please enter trip details and check."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Leh cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Leh cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Leh cab."
+          },
+          {
+            question: "Is local sightseeing included in Ahmedabad to Leh outstation trip?",
+            answer: "For Ahmedabad to Leh Round trip cab, all the local sightseeing in Ahmedabad, Leh and other destination cities in itinerary is included.\nFor Ahmedabad to Leh One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Ahmedabad, Leh and other destination cities in itinerary is included.\nFor Ahmedabad to Leh One way cab i.e. with only Ahmedabad and Leh in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Ahmedabad to Leh?",
+            answer: "Although you can book Ahmedabad to Leh cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Ahmedabad to Leh by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Ahmedabad to Leh cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Ahmedabad to Leh one way taxi?",
+            answer: "You may book Ahmedabad to Leh One way multi-stop cab by adding additional stops in itinerary.\nFor Ahmedabad to Leh One way taxi with only Ahmedabad and Leh in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Ahmedabad to Leh one way cab?",
+            answer: "For Ahmedabad to Leh One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Ahmedabad to Leh cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Ahmedabad to Leh cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Ahmedabad to Leh cab."
+          }
+        ]
+      }
+    ]
   },
 
   //surat
@@ -3680,6 +6497,190 @@ export const tripData = [
           {
             question: "Can I travel with pets?",
             answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Surat to Diu cab."
+          }
+        ]
+      }
+    ]
+  },
+
+  // surat to kutch
+  {
+    id: 19,
+    slug: "surat-to-kutch",
+    heading: "Book Surat to Kutch Cab",
+    tag: "Road-Trips",
+    description: [
+      "Surat to Kutch distance : 661 km",
+      "Estimated travel time : 12 hours",
+      "Surat to Kutch is one of the most popular routes for tourists visiting the White Desert of India. Kutch is famous for its handicrafts, embroidery, vibrant culture, breathtaking landscapes, and rich historical heritage.",
+      "Surrounded by the Gulf of Kutch and the Arabian Sea, Kutch is renowned for the Great Rann of Kutch, Little Rann, wildlife sanctuaries, and the spectacular Rann Utsav held every year from November to February."
+    ],
+    coverImage: "https://www.storiesbysoumya.com/wp-content/uploads/2021/12/kutch-gujarat-things-to-do-min.jpg",
+
+    sections: [
+      {
+        subHeading: "Surat to Kutch Cab Route",
+        description: [
+          "Surat to Kutch by car is well connected via NH947 and offers a comfortable long-distance drive. The total distance is 661 km and the journey takes approximately 12 hours.",
+          "Popular stopovers along the route include:"
+        ],
+        part: {
+          "Route Highlights": [
+            "Kasomba",
+            "Jhagadia (Bhalod, Kabirvad & temples)",
+            "Bharuch",
+            "Vadodara",
+            "Anand",
+            "Nadiad",
+            "Dabhoi",
+            "Kheda",
+            "Sandhana",
+            "Bareja",
+            "Navagam",
+            "Ahmedabad",
+            "Sarkhej Roza",
+            "Viramgam",
+            "Dhrangadhra",
+            "Halvad",
+            "Morbi",
+            "Dasada",
+            "Bhachau",
+            "Surendranagar",
+            "Bhuj",
+            "Gandhidham"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Places to visit in Kutch using AAVORide Surat to Kutch Car Rental with Driver",
+        description: "",
+        part: {
+          "Top Attractions in Kutch": [
+            "Great Rann of Kutch",
+            "Kutch Desert Wildlife Sanctuary",
+            "Dholavira",
+            "Kutch Museum",
+            "Kutch Bustard Sanctuary",
+            "Mandvi Beach",
+            "Aina Mahal Palace",
+            "Kandla Port & Mundra Port",
+            "Narayan Sarovar",
+            "Hamirsar Lake",
+            "Indian Wild Ass Sanctuary",
+            "Prag Mahal",
+            "Mata No Madh",
+            "Narayan Sarovar Chinkara Sanctuary",
+            "Rann Utsav"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Surat to Kutch Taxi Fare",
+        description: [
+          "AAVORide offers transparent and affordable pricing with no hidden charges. The fare covers a specified maximum distance and duration so you can plan your journey confidently.",
+          "Our Surat to Kutch taxi prices are generally up to 20% lower than many competitors while maintaining reliable service quality."
+        ],
+
+        "Surat to Kutch Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              Model: "Wagon-R, Indica or similar",
+              Capacity: "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              Model: "Dzire, Etios or similar",
+              Capacity: "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              Model: "Marazzo, Ertiga or similar",
+              Capacity: "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              Model: "Innova, Innova Crysta",
+              Capacity: "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+
+        "Surat to Kutch Taxi Services": [
+          "Choose from hatchbacks, sedans, SUVs, and Innova Crysta for your Surat to Kutch taxi booking. Round trip, one-way, and multi-stop cab options are available. Local sightseeing can also be customized as per your itinerary."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Surat to Kutch Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Surat to Kutch by car?",
+            answer: "The distance from Surat to Kutch by car is 661 km."
+          },
+          {
+            question: "How long does it take from Surat to Kutch by road?",
+            answer:
+              "It takes approximately 12 to 13 hours depending on traffic conditions."
+          },
+          {
+            question: "Does the price include driver and night charges?",
+            answer:
+              "Yes, Surat to Kutch cab fare includes driver charges and night charges."
+          },
+          {
+            question:
+              "Do I need to make advance payment to book the cab?",
+            answer:
+              "Yes, only 10–20% advance payment is required to confirm your booking."
+          },
+          {
+            question:
+              "Is local sightseeing included in the outstation trip?",
+            answer:
+              "Sightseeing is included in round-trip and one-way multi-stop bookings. It is not included in a simple one-way transfer."
+          },
+          {
+            question:
+              "How much in advance should I book the cab?",
+            answer:
+              "You can book up to one hour before departure, but booking at least one day in advance is recommended."
+          },
+          {
+            question:
+              "Can I book the cab through customer support?",
+            answer:
+              "Yes, our support team can assist you, but bookings are completed through the AAVORide website or mobile app."
+          },
+          {
+            question:
+              "Can I add pickup or drop stops on the way?",
+            answer:
+              "Yes, additional stops are available with the one-way multi-stop cab option."
+          },
+          {
+            question:
+              "Do I need to pay both-side toll tax for a one-way cab?",
+            answer:
+              "No, only one-side toll tax is applicable for a one-way Surat to Kutch cab."
+          },
+          {
+            question:
+              "When will I receive driver and car details?",
+            answer:
+              "Driver and vehicle details are usually shared within minutes of booking, and in rare cases up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer:
+              "Yes. Select the 'Pet Allowed' add-on while booking. Additional charges may apply."
           }
         ]
       }
@@ -7780,5 +10781,7 @@ export const tripData = [
         ]
       }
     ]
-  }
+  },
+
+
 ];
