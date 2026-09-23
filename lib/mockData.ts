@@ -42,6 +42,8 @@ export const CATEGORIES = [
   'Pilgrimage',
   'Luxury',
   'Adventure',
+  'Heritage',
+  'Nature',
   'Culture',
   'Road Trips',
 ];
@@ -117,6 +119,199 @@ export const smallCard: Destination1[] = [
     slug: "ahmedabad-to-gir",
     coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1QQ1hQbJ2gPQyOh3WoiM88RgRIl-rQm50yYOdbitruA&s=10",
   },
+
+  //Ahmedabad to goa
+  {
+    id: 38,
+    slug: "ahmedabad-to-goa",
+    heading: "Book Ahmedabad to Goa Cab",
+    tag: "Adventure",
+    description: "Ahmedabad to Goa is a popular road trip for travelers seeking beautiful beaches, Portuguese heritage, delicious seafood, vibrant nightlife, and peaceful coastal villages.",
+    coverImage: "https://assets.vogue.com/photos/5a6e5c1a29863c7d640a30be/master/w_2560%2Cc_limit/00-Story-Goa.jpg",
+
+  },
+
+  //Ahmedabad to manali
+  {
+    id: 39,
+    slug: "ahmedabad-to-manali",
+    heading: "Book Ahmedabad to Manali Cab",
+    tag: "Road-Trips",
+    description: "Manali is very popular destination for tourists as it provides attractions for all types of users, be it a family trip away from delhi heat, an adventure sports fan, a nature lover, couples on honeymoon, people having spiritual interests.",
+    coverImage: "https://www.sterlingholidays.com/destinations/herobanner/manali-adventure.png",
+
+  },
+
+  //Ahmedabad to shimla
+  {
+    id: 40,
+    slug: "ahmedabad-to-shimla",
+    heading: "Book Ahmedabad to Shimla Cab",
+    tag: "Adventure",
+    description: "Shimla is the capital of the northern Indian state of Himachal Pradesh, in the Himalayan foothills. One of the most visited hill station of Northern India the small charming town is blessed with the beauty of the nature. Shimla is also known as the 'Queen Of Hills'.",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLwqaEYEtAqyYrIUUD9vQACD49CjWQncAyTusrZC1Y7o80yvxOti4KLuM&s=10",
+
+  },
+
+  //Ahmedabad to kasol
+  {
+    id: 41,
+    slug: "ahmedabad-to-kasol",
+    heading: "Book Ahmedabad to Kasol Cab",
+    tag: "Nature",
+    description: "Book our Ahmedabad to Kasol cab service and rest assured you will get quality & reliable services for your Car Rental from Ahmedabad to Kasol.",
+    coverImage: "https://d3gz7d9rg09miz.cloudfront.net/travel/1732269301670-491353181.jpg",
+
+  },
+
+  //Ahmedabad to rishikesh
+  {
+    id: 42,
+    slug: "ahmedabad-to-rishikesh",
+    heading: "Book Ahmedabad to Rishikesh Cab",
+    tag: "Adventure",
+    description: "Ahmedabad to Rishikesh is the most popular route for both domestic as well as foreign tourists. Since, Rishikesh is located in the foothills of Himalayas, it is known as the 'Gateway to the Garhwal Himalayas'.",
+    coverImage: "https://images.staybook.in/things-to-do/river-rafting-in-rishikesh/0.jpg",
+
+  },
+
+  //Ahmedabad to haridwar
+  {
+    id: 43,
+    slug: "ahmedabad-to-haridwar",
+    heading: "Book Ahmedabad to Haridwar Cab",
+    tag: "Spiritual ",
+    description: "Ahmedabad to Haridwar is very popular route for religious reasons. Haridwar is also known as Dwara of Hari (Gateway to God). Thousands of pilgrims daily came here to take bath in holy river Ganga. The main attraction is Har ki Pauri. Haridwar is home to Panch Tirth (five pilgrimage destinations) and three Siddha Peetha (a place where desires get fulfilled).",
+    coverImage: "https://www.itchotels.com/content/dam/itchotels/in/umbrella/destinations/images/desktop/Haridwar.jpg",
+
+  },
+
+  //Ahmedabad to jaisalmer
+  {
+    id: 44,
+    slug: "ahmedabad-to-jaisalmer",
+    heading: "Book Ahmedabad to Jaisalmer Cab",
+    tag: "Heritage",
+    description: "Ahmedabad to Jaisalmer is a very popular route. Jaisalmer, \"the Golden City\" is a place full of beautiful Havelis, ravishing temples, lakes, ornate Jain temples and colorful markets. Jaisalmer is considered as a royal city which is a delight to watch. It attracts many couples, honeymooners and families with its erstwhile royal splendour.",
+    coverImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Jaisalmer_forteresse.jpg/1280px-Jaisalmer_forteresse.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+
+  },
+
+  //Ahmedabad to jodhpur
+  {
+    id: 45,
+    slug: "ahmedabad-to-jodhpur",
+    heading: "Book Ahmedabad to Jodhpur Cab",
+    tag: "Luxury",
+    description: "Ahmedabad to Jodhpur is the very popular route for tourists. Jodhpur is crowned with various epithets like \"Blue City\", \"Sun City\", \"Gateway to Thar\" because of its blue walls and houses and its proximity to Thar desert.",
+    coverImage: "https://s7ap1.scene7.com/is/image/incredibleindia/jodhpur-hero?qlt=82&ts=1726661024132",
+
+  },
+
+  //Ahmedabad to pushkar
+  {
+    id: 46,
+    slug: "ahmedabad-to-pushkar",
+    heading: "Book Ahmedabad to Pushkar Cab",
+    tag: "Culture",
+    description: "Ahmedabad to Pushkar is a very popular route for both domestic as well as foreign tourists. Pushkar is a small town located in the Ajmer district in Rajasthan, which is very popular pilgrimage site for Hindus and Sikhs.",
+    coverImage: "https://s7ap1.scene7.com/is/image/incredibleindia/pushkar-camel-fair-fes-hero?qlt=82&ts=1726639395877",
+
+  },
+  //Ahemedabad to lonavala
+  {
+    id: 47,
+    slug: "ahmedabad-to-lonavala",
+    heading: "Book Ahmedabad to Lonavala Cab",
+    tag: "Nature",
+    description: "Ahmedabad to Lonavala is a popular route for tourism because of its proximity. Lonavala - Khandala, a charming twin hill station in the Ahmedabad district is a popular holiday destination for both family vacation and honeymoon trips during the monsoons.",
+    coverImage: "https://cpjlcwamma.cloudimg.io/wp-content/uploads/2026/07/Lonavala-Lake-Waterfall.png?width=1180&height=600&func=boundmin&force_format=webp&q=80",
+
+  },
+
+  //Ahmedabad to agra
+  {
+    id: 48,
+    slug: "ahmedabad-to-agra",
+    heading: "Book Ahmedabad to Agra Cab",
+    tag: "Heritage",
+    description: "Ahmedabad to Agra is the very popular route for both domestic as well as foreign tourists. The main attraction of course is Taj Mahal, one of the seven wonders of the World.",
+
+    coverImage: "https://www.travelandleisure.com/thmb/wdUcyBQyQ0wUVs4wLahp0iWgZhc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/taj-mahal-agra-india-TAJ0217-9eab8f20d11d4391901867ed1ce222b8.jpg",
+
+  },
+
+  //Ahmedabad to delhi
+  {
+    id: 49,
+    slug: "ahmedabad-to-delhi",
+    heading: "Book Ahmedabad to Delhi Cab",
+    tag: "Culture",
+    description: "Ahmedabad to Delhi is very popular route for both tourism as well as work. Delhi being the capital of India, carries the prestige, cultural, historical and political importance as well as its the nearest international airport for foreign tourists.",
+    coverImage: "https://s7ap1.scene7.com/is/image/incredibleindia/red-fort-delhi1-attr-hero?qlt=82&ts=1742170492880",
+
+  },
+
+  //Ahmedabad to varanasi
+  {
+    id: 50,
+    slug: "ahmedabad-to-varanasi",
+    heading: "Book Ahmedabad to Varanasi Cab",
+    tag: "SPIRITUAL",
+    description: "Varanasi is known as the 'Spiritual Capital of India' and is among the oldest living cities in the world.",
+
+    coverImage: "https://s7ap1.scene7.com/is/image/incredibleindia/manikarnika-ghat-city-hero?qlt=82&ts=1727959374496",
+
+  },
+
+  //Ahmedabad to hampi
+  {
+    id: 51,
+    slug: "ahmedabad-to-hampi",
+    heading: "Book Ahmedabad to Hampi Taxi",
+    tag: "Heritage",
+    description:
+      "AAVORide has had its presence in chauffeur-driven car rental sector for more than 16 years. We continuously strive to ensure that we provide reliable, quality and timely cab services.  We have a wide range of car options right from sedans to hatchbacks and MUVs to SUVs. You can book any type of car for your Ahmedabad to Hampi taxi service depending on your requirement. You can easily book Ahmedabad to Hampi cabs at AAVORide 24/7 without any hassle with our easy-to-use booking interface.",
+    coverImage: "https://www.remotelands.com/storage/media/2839/conversions/b130411002-banner-size.jpg",
+
+  },
+
+  //Ahmedabad to amritsar
+  {
+    id: 52,
+    slug: "ahmedabad-to-amritsar",
+    heading: "Book Ahmedabad to Amritsar Cab",
+    tag: "Culture",
+    description: "Ahmedabad to Amritsar is very popular route for both domestic as well as foreign tourists. The main attraction of course is Golden Temple or Sri Harmandir Sahib - the spiritual center of the followers of Sikh religion.",
+
+    coverImage: "https://www.ilcircolo.org.uk/wp-content/uploads/2025/11/il-circolo-blog-The-Golden-Temple-in-Amritsar-culture-e1764068819732.jpg",
+
+  },
+
+  //Ahmedabad to kashmir
+  {
+    id: 53,
+    slug: "ahmedabad-to-srinagar",
+    heading: "Book Ahmedabad to Srinagar Cab",
+    tag: "Nature",
+    description: "Srinagar, the jewel in the crown of Jammu and Kashmir is a city that whispers tales of timeless beauty and resilience. As the summer capital of this northernmost Indian state, it paints a mesmerizing picture where nature's grandeur meets centuries of rich culture. The city is nestled in the picturesque Kashmir Valley at an altitude of 1,585 meters above sea level making it a mesmerizing city adorned with scenic splendour and rich cultural heritage.",
+
+    coverImage: "https://api.tripxplo.com/storage/package/934bd9ad-c349-4e5e-b9e8-3269317484b2-kashmir-view-horse.jpg",
+
+  },
+
+  //Ahmedabad to Leh
+  {
+    id: 54,
+    slug: "ahmedabad-to-leh",
+    heading: "Book Ahmedabad to Leh Cab",
+    tag: "Adventure",
+    description: "Leh, the capital town of Ladakh, is a mesmerizing destination known for its dramatic Himalayan landscapes, ancient monasteries, high mountain passes, and unique cultural heritage. Situated at a high altitude in the Trans-Himalayan region, Leh offers breathtaking views of rugged mountains, clear blue skies, and beautiful valleys.",
+    coverImage: "https://images.staybook.in/things-to-do/leh-palace-fast-track-entry-ticket/3.jpeg",
+
+  },
+
+
   {
     id: 8,
     heading: "Book Surat to Ahmedabad Cab",
@@ -348,7 +543,11 @@ export const smallCard: Destination1[] = [
     tag: 'Pilgrimage',
     description: "In the Bhavnagar district of Gujarat, Palitana is recognized as one of the most sacred religious towns among Jain religions around the world. It is an ancient city that holds significant historical and religious importance and is visited by millions of devotees every year. With AAVORide book your holy drive towards Palitana from any corner of the India, our vast cab booking network ensures a comfortable and timely ride.",
     coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTg23DvTZF1Haglx3NUISgdw8SdJCIsgtActKthR1uXA&s=10"
-  }
+  },
+
+  //Ahmedabad to goa
+
+
 
 ]
 
@@ -460,7 +659,7 @@ export const MOCK_DESTINATIONS: Destination[] = [
   {
     id: '15',
     title: 'Jaisalmer: Golden City Escape',
-    slug:'ahmedabad-to-jaisalmer',
+    slug: 'ahmedabad-to-jaisalmer',
     category: 'Heritage',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS6WMmLNPQkuqnSpnuvBThHrNymrsevZech47u1qOYzQ&s=10',
   },
@@ -556,502 +755,236 @@ export const MOCK_DESTINATIONS: Destination[] = [
   }
 ];
 
-export const MOCK_FEATURED_STORIES: Blog[] = [
+export const threeCards = [
   {
-    id: 'featured-1',
-    slug: 'location/ahmedabad-to-statue-of-unity',
-    title: 'Ahmedabad to Statue of Unity Taxi | AAVORide',
-    excerpt: "Statue of Unity is the world’s tallest statue, dedicated to the Iron Man of India - Sardar Vallabhbhai Patel. This grand statue is built on the banks of the Narmada River in Kevadia and is a must-visit on every Indian traveller’s bucket list.",
-    coverImage: "/statue_of_unity.jpg",
-    tag: 'LAND MARK',
-    readTime: '15 min read',
-    publishDate: 'Jan 20, 2026',
-    author: {
-      name: 'Priya Sharma',
-      role: 'Travel Writer',
-      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80',
-    },
-    sections: [
-      {
-        type: 'paragraph',
-        content: 'The Char Dham Yatra is one of the most sacred pilgrimages in Hinduism, covering four holy sites in Uttarakhand: Yamunotri, Gangotri, Kedarnath, and Badrinath.',
-      },
-      {
-        type: 'heading',
-        content: 'Best Time to Visit',
-      },
-      {
-        type: 'paragraph',
-        content: 'The pilgrimage season typically runs from May to October, with the best weather conditions in June and September. Avoid the monsoon months of July and August if possible.',
-      },
+    id: 1,
+    slug: "ahmedabad-to-statue-of-unity",
+    tag: "LANDMARK",
+    heading: "Ahmedabad to Statue of Unity Taxi - Book Safe & Affordable Cab Service",
+    description: [
+      "Statue of Unity is the world’s tallest statue, dedicated to the Iron Man of India - Sardar Vallabhbhai Patel. This grand statue is built on the banks of the Narmada River in Kevadia and is a must-visit on every Indian traveller’s bucket list. On the other hand, Ahmedabad - the vibrant city of Gujarat - is known for its rich heritage, booming business hubs, and cultural essence.",
+      "If you are planning a family trip, a weekend getaway with friends, or a corporate outing, a cab ride from Ahmedabad to the Statue of Unity is absolutely the best and hassle-free option. The distance between them is only 200 km, and easily covered in 4 4-hour comfortable journey that is full of scenic views.",
+      "AAVORide provide Ahmedabad to Statue of Unity taxi service that offers you clean and sanitised cabs, experienced drivers, and multiple booking options - one-way or round-trip, as suits you. It's time for stress-free travel.",
+      "So what's the delay? Book your Ahmedabad to Statue of Unity cab now on AAVORide!"
     ],
-    mustVisitSpots: [
-      {
-        name: 'Kedarnath Temple',
-        description: 'One of the twelve Jyotirlingas, dedicated to Lord Shiva.',
-      },
-      {
-        name: 'Badrinath Temple',
-        description: 'Dedicated to Lord Vishnu, part of the Char Dham.',
-      },
-    ],
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSze_inZm2rONV9ch-Z_epiItHZvuGCmDiPvImKCb987g&s=10",
   },
+
   {
-    id: 'featured-2',
-    slug: 'location/ahmedabad-to-udaipur',
-    title: 'Ahmedabad to Udaipur Cab Service at Lowest Price | AAVORide',
-    excerpt: "Discover Rajasthan's finest luxury heritage hotels near Udaipur. Plan a scenic road trip with AAVORide — explore top stays, routes, and travel tips.",
+    id: 3,
+    slug: "ahmedabad-to-udaipur",
+    heading: "Ahmedabad to Udaipur Cab Service at Lowest Price",
+    tag: "ROYAL ESCAPE",
+    description: [
+      "AAVORide is one of the leading cab service providers in India. Ahmedabad to Udaipur taxi booking with us ensures privacy, flexibility, and the comfort of doorstep pickup and drop-off. AAVORide always promises an amazing journey by providing neat and nice cars, courteous and skilled drivers, instant booking confirmation, on-time pickup and drop, price without any hidden charges, and free 24/7 customer support. This is the main reason that thousands of passengers rely on AAVORide for their taxi service in Ahmedabad.",
+      "AAVORide provides wide cab options like SUV, Sedan, or Tempo Traveller. AAVORide is India's number one intercity taxi platform and the most reliable choice. Just decide on one-way or round trip and travel without apprehensions, so book a reliable Ahmedabad to Udaipur cab at ₹3333 and travel with a 20% discount. Choose our trusted Ahmedabad to Udaipur taxi service. Price starts at ₹9/km.",
+      "Book your cab from Ahmedabad to Udaipur today and travel in comfort, safety, and style."
+    ],
     coverImage: "/udaipur.jpg",
-    tag: 'ROYAL ESCAPE',
-    readTime: '12 min read',
-    publishDate: 'Jan 18, 2026',
-    author: {
-      name: 'Rahul Mehta',
-      role: 'Luxury Travel Expert',
-      avatar: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100&auto=format&fit=crop&q=80',
-    },
-    sections: [
-      {
-        type: 'paragraph',
-        content: 'Rajasthan\'s heritage hotels offer a unique opportunity to live like royalty. These properties were once the homes of maharajas and have been transformed into luxury accommodations.',
-      },
-      {
-        type: 'heading',
-        content: 'Taj Lake Palace, Udaipur',
-      },
-      {
-        type: 'paragraph',
-        content: 'Floating on Lake Pichola, this white marble palace is one of the most romantic hotels in the world. It offers stunning views and impeccable service.',
-      },
+  },
+   {
+    id: 4,
+    slug: "ahmedabad-to-dwarka",
+    heading: "Ahmedabad to Dwarka Taxi - Book Comfortable & Affordable Cab Service",
+    tag: "SPIRITUAL",
+    description: [
+      "An ancient kingdom of Lord Krishna, known as the “Gates of heaven”. Dwarka is one of the Char Dham and Sapta Puri pilgrimage sites, famous for the Dwarkadhish Temple and sacred coastal charm. It is a major pilgrimage centre for Hindus and also an important part of the Char Dham yatra. It holds great spiritual significance and religious importance. Enjoy the scenic boat ride and make your trip to Dwarka a memorable one.",
+      "Ahmedabad, as Gujarat’s cultural and business capital, is often used as a base city for trips to Dwarka. The distance from Ahmedabad to Dwarka is approx 449 km, which can be covered in around 8-9 hours easily by booking an Ahmedabad to Dwarka cab. Ahmedabad to Dwarka taxi travel is perfect for convenient, flexible journeys. Book a reliable Ahmedabad to Dwarka car rental with AAVORide, suited for pilgrims, families and tourists.",
+      "What are you waiting for? Hire a cab with AAVORide’s trusted intercity taxi service."
     ],
-    mustVisitSpots: [
-      {
-        name: 'Taj Lake Palace',
-        description: 'A stunning white marble palace on Lake Pichola.',
-      },
-      {
-        name: 'Rambagh Palace',
-        description: 'Former residence of the Maharaja of Jaipur.',
-      },
-    ],
+    // smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTD76kP0PRm1kdmmbt57DFrY-Z6pEUQxoiBvcuICux6FQ&s=10",
+    // coverImage: "https://shreedwarkadhish.in/assets/images/pages/janmashtami-dwarka-2026-1600.webp",
+    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRofzMT4rCZNh3Bn76f6m_N2j9m5yeYinnYHPWuV-H0r7y2SGCk3C68Q_lv&s=10",
   },
-  {
-    id: 'featured-3',
-    slug: 'location/ahmedabad-to-dwarka',
-    title: 'Ahmedabad to Dwarka Taxi | AAVORide',
-    excerpt: "An ancient kingdom of Lord Krishna, known as the “Gates of heaven”. Dwarka is one of the Char Dham and Sapta Puri pilgrimage sites, famous for the Dwarkadhish Temple and sacred coastal charm. ",
-    coverImage: '/dwarka.jpg',
-    tag: 'SPIRITUAL',
-    readTime: '10 min read',
-    publishDate: 'Jan 15, 2026',
-    author: {
-      name: 'Ankit Patel',
-      role: 'Adventure Guide',
-      avatar: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100&auto=format&fit=crop&q=80',
-    },
-    sections: [
-      {
-        type: 'paragraph',
-        content: 'While popular destinations like Manali and Shimla attract millions of visitors, the Himalayas hide countless treasures waiting to be explored by intrepid travelers.',
-      },
-      {
-        type: 'heading',
-        content: 'Spiti Valley',
-      },
-      {
-        type: 'paragraph',
-        content: 'Often called "Little Tibet," Spiti Valley offers dramatic landscapes, ancient monasteries, and a chance to experience authentic Himalayan culture.',
-      },
-    ],
-    mustVisitSpots: [
-      {
-        name: 'Key Monastery',
-        description: 'The largest monastery in Spiti Valley.',
-      },
-      {
-        name: 'Chandratal Lake',
-        description: 'A stunning high-altitude lake.',
-      },
-    ],
-  }
-];
-
-
-export const MOCK_BLOGS: Blog[] = [
-  {
-    id: '1',
-    slug: 'manali-beyond-tourist-trails',
-    title: 'Manali: Beyond the Tourist Trails',
-    excerpt: 'Discover the hidden valleys, quaint local cafes, and snow-filled pine forests that make Manali a true adventure haven. Plan your trip with AAVORide.',
-    category: 'Hill Stations Tour',
-    tag: 'ADVENTURE',
-    coverImage: 'https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=1200&auto=format&fit=crop&q=80',
-    readTime: '10 min read',
-    publishDate: 'Nov 15, 2026',
-    author: {
-      name: 'Amit Sen',
-      avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&auto=format&fit=crop&q=80',
-      role: 'Travel Explorer'
-    },
-
-    sections: [
-      {
-        type: 'paragraph',
-        content: 'Manali, nestled in the mountains of the Indian state of Himachal Pradesh near the northern end of the Kullu Valley, is more than just a tourist destination. It\'s an emotion for the adventurous soul. As winter sets in, the valley transforms into a crystalline wonderland, offering experiences that stay with you forever.'
-      },
-      {
-        type: 'image',
-        imageUrl: 'https://images.unsplash.com/photo-1592548890095-cd2a7aeca5ac?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-        caption: 'Misty winter mornings along the pine-lined ridges of Manali.'
-      },
-      {
-        type: 'heading',
-        content: 'The Best Time to Visit'
-      },
-      {
-        type: 'paragraph',
-        content: 'While Manali is a year-round destination, the months of December to February are truly magical. This is when the snowfall is frequent, and the entire landscape turns into a playground for winter sports. Whether you\'re into skiing in Solang Valley or simply enjoying a hot cup of tea by the Beas River, winter in Manali is unparalleled.'
-      },
-      // {
-      //   type: 'quote',
-      //   content: 'To travel is to discover that everyone is wrong about other countries. In Manali, you discover that nature has its own way of redefining luxury.'
-      // }
-    ],
-    mustVisitSpots: [
-      {
-        name: 'Rohtang Pass',
-        description: 'A high mountain pass providing connection between the Kullu Valley and Lahaul and Spiti Valleys, known for breathtaking panoramic snow views.'
-      },
-      {
-        name: 'Hadimba Devi Temple',
-        description: 'An ancient wooden temple located in the middle of a dense cedar forest (Dhungri Van Vihar), showcasing unique architectural style.'
-      },
-      {
-        name: 'Old Manali',
-        description: 'Famous for its quaint stone cafes, slow-paced lifestyle, apple orchards, and vibrant local handicraft shopping streets.'
-      }
-    ]
-  },
-
-  {
-    id: '2',
-    slug: 'sacred-path-guide-to-amritsar',
-    title: 'The Sacred Path: A Soulful Guide to Amritsar',
-    excerpt: "Embark on a spiritual journey to the golden city, exploring the Golden Temple and savoring Punjab's rich culture. Plan your trip with AAVORide.",
-    category: 'Pilgrimage Tour',
-    tag: 'SPIRITUAL',
-    coverImage: 'https://images.unsplash.com/photo-1514222134-b57cbb8ce073?w=1200&auto=format&fit=crop&q=80',
-    readTime: '12 min read',
-    publishDate: 'Oct 10, 2026',
-    author: {
-      name: 'Rahul Sharma',
-      avatar: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=100&auto=format&fit=crop&q=80',
-      role: 'Cultural Documentarian'
-    },
-
-    sections: [
-      {
-        type: 'paragraph',
-        content: 'Amritsar, home to the spectacular Golden Temple, is the spiritual and cultural center of the Sikh religion. Walking through the narrow streets of the old city is like stepping back in time, where the aroma of fresh ghee and devotional hymns fill the air.'
-      },
-      {
-        type: 'heading',
-        content: 'The Divine Experience of Harmandir Sahib'
-      },
-      {
-        type: 'paragraph',
-        content: 'The Golden Temple, or Sri Harmandir Sahib, is not just a building; it is a symbol of human equality and peace. The gold-plated structure is surrounded by a massive holy pool (sarovar) where devotees take cleansing dips. At night, the reflection of the illuminated temple in the still water is a sight that heals the restless mind.'
-      },
-      {
-        type: 'heading',
-        content: 'The World\'s Largest Free Kitchen'
-      },
-      {
-        type: 'paragraph',
-        content: 'One cannot visit Amritsar without experiencing the Langar at the Golden Temple. Feeding over 100,000 people daily regardless of race, religion, or background, the kitchen is entirely run by volunteers. The discipline and devotion involved in preparing and serving these hot, simple meals will leave you deeply humbled.'
-      }
-    ],
-    mustVisitSpots: [
-      {
-        name: 'The Golden Temple',
-        description: 'The holiest shrine of Sikhism, reflecting elegance, spirituality, and infinite peace.'
-      },
-      {
-        name: 'Jallianwala Bagh',
-        description: 'A historic public garden housing a memorial of national importance, reminding us of India\'s struggle for freedom.'
-      },
-      {
-        name: 'Wagah Border Ceremony',
-        description: 'A daily military practice that the security forces of India and Pakistan have jointly followed since 1959.'
-      }
-    ]
-  },
-  {
-    id: '3',
-    slug: 'future-of-road-travel-india',
-    title: 'The Future of Road Travel in India',
-    excerpt: "Explore how luxury caravans, highway corridors, and app-based cab rentals are revolutionizing India's travel experience — only with AAVORide.",
-    category: 'Cab Rental Tips',
-    tag: 'LUXURY',
-    coverImage: 'https://images.unsplash.com/photo-1513313778780-9ae4807465f0?w=1200&auto=format&fit=crop&q=80',
-    readTime: '8 min read',
-    publishDate: 'Nov 3, 2026',
-    author: {
-      name: 'Priya Verma',
-      avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80',
-      role: 'Automotive Journalist'
-    },
-
-    sections: [
-      {
-        type: 'paragraph',
-        content: 'India\'s highway infrastructure is expanding at an unprecedented rate. With new expressways connecting major metros, long-distance road trips are no longer tedious chores but premium, scenic journeys. Modern travelers are choosing comfort and personalization over crowded flights and rigid train schedules.'
-      },
-      {
-        type: 'heading',
-        content: 'The Rise of Chauffeur-Driven Luxury'
-      },
-      {
-        type: 'paragraph',
-        content: 'Why drive when you can ride in style? Premium cab rental services like AAVORide are redefining the road trip experience by offering luxury SUVs and sedans driven by highly trained, courteous professional chauffeurs. Passengers can take video calls, read books, or sleep comfortably while cruising smoothly on high-speed express corridors.'
-      },
-      {
-        type: 'heading',
-        content: 'Smart Highways and Connected Cars'
-      },
-      {
-        type: 'paragraph',
-        content: 'From automated toll plazas to GPS-tracked connected vehicle fleets, technology has made road trips exceptionally safe. Real-time updates on weather, road conditions, and dining stops mean you can customize your itinerary on the fly, creating a truly bespoke travel experience.'
-      }
-    ],
-    mustVisitSpots: [
-      {
-        name: 'Delhi-Mumbai Expressway',
-        description: 'India\'s longest greenfield expressway reducing travel time between the capital and financial hub to just 12 hours.'
-      },
-      {
-        name: 'Mumbai-Pune Expressway',
-        description: 'A scenic 6-lane concrete highway cutting through the beautiful Western Ghats.'
-      }
-    ]
-  },
-  {
-    id: '4',
-    slug: 'golden-triangle-redefining-classic-circuit',
-    title: 'The Golden Triangle: Redefining the Classic Indian Circuit',
-    excerpt: "Discover how luxury road travel is changing the way tourists experience the timeless heritage of Delhi, Agra, and Jaipur. Plan your trip with AAVORide.",
-    category: 'Rajasthan Tour',
-    tag: 'CULTURE',
-    coverImage: 'https://images.unsplash.com/photo-1564507592333-c60657eea523?w=800&auto=format&fit=crop&q=80',
-    readTime: '6 min read',
-    publishDate: 'Nov 24, 2026',
-    author: {
-      name: 'Vikas Malhotra',
-      avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80',
-      role: 'Heritage Specialist'
-    },
-
-    sections: [
-      {
-        type: 'paragraph',
-        content: 'The Golden Triangle – comprising Delhi, Agra, and Jaipur – is India\'s most iconic tourist route. While traditionally covered by trains, smart travelers are shifting to luxury road transfers to absorb the transitioning landscapes, stop at heritage dhabas, and customize their travel pacing.'
-      }
-    ]
-  },
-  {
-    id: '5',
-    slug: 'planning-first-char-dham-yatra',
-    title: 'Planning Your First Char Dham Yatra: A Complete Guide',
-    excerpt: 'The spiritual journey of a lifetime requires meticulous planning. From routes to luxury stays, here is everything you need to know.',
-    category: 'Pilgrimage Tour',
-    tag: 'PILGRIMAGE',
-    coverImage: 'https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&auto=format&fit=crop&q=80',
-    readTime: '15 min read',
-    publishDate: 'Oct 20, 2026',
-    author: {
-      name: 'Sanjay Gupta',
-      avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80',
-      role: 'Pilgrimage Coordinator'
-    },
-
-    sections: [
-      {
-        type: 'paragraph',
-        content: 'Embarking on the Char Dham Yatra (Yamunotri, Gangotri, Kedarnath, and Badrinath) high in the Himalayas is a deeply transformative experience. With high altitudes and challenging terrain, securing a premium cab and experienced driver is paramount to a safe, comfortable pilgrimage.'
-      }
-    ]
-  },
-  {
-    id: '6',
-    slug: 'rajasthan-road-trip-desert-land',
-    title: 'Rajasthan Road Trip: A Week in the Desert Land',
-    excerpt: 'Exploring Rajasthan by road is an experience like no other. From royal Havelis to sunset sand dunes, here is your definitive travel guide.',
-    category: 'Rajasthan Tour',
-    tag: 'ROAD-TRIPS',
-    coverImage: 'https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&auto=format&fit=crop&q=80',
-    readTime: '9 min read',
-    publishDate: 'Dec 5, 2026',
-    author: {
-      name: 'Sanjay Gupta',
-      avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80',
-      role: 'Pilgrimage Coordinator'
-    },
-
-    sections: [
-      {
-        type: 'paragraph',
-        content: 'From the pink facades of Jaipur to the golden sands of Jaisalmer, Rajasthan represents the pinnacle of Indian royalty and culture. Driving through the desert state exposes you to scenic fortresses rising from plains and rich traditions in small, local communities along the highway. A road trip through Rajasthan is an unforgettable journey that lets you experience the true essence of the land of kings at your own pace.'
-      },
-      {
-        type: 'heading',
-        content: 'Why Choose a Road Trip?'
-      },
-      {
-        type: 'paragraph',
-        content: 'While trains and flights connect major cities, they bypass the rustic charm of rural Rajasthan. Booking a premium outstation cab provides the flexibility to stop at lesser-known stepwells (baoris), authentic roadside dhabas serving spicy Laal Maas, and local artisan villages where you can purchase handmade textiles directly from the creators.'
-      },
-      {
-        type: 'heading',
-        content: 'The Ideal 7-Day Itinerary'
-      },
-      {
-        type: 'paragraph',
-        content: 'Start your journey in Jaipur, exploring the Amber Fort and Hawa Mahal. On day three, drive towards Jodhpur, the Blue City, to marvel at the imposing Mehrangarh Fort. Make sure to schedule a sunset visit to the Rao Jodha Desert Rock Park. Finally, head to Jaisalmer to experience a magical night camping under the stars amidst the Sam Sand Dunes.'
-      },
-      {
-        type: 'heading',
-        content: 'Essential Road Trip Tips'
-      },
-      {
-        type: 'paragraph',
-        content: '• Book in Advance: Ensure you reserve a comfortable SUV with a verified driver, especially during peak tourist season (October to March).\n• Stay Hydrated: The desert climate can be unforgiving. Always carry ample water in your vehicle.\n• Respect Local Customs: Dress modestly when visiting temples and interact respectfully with locals.'
-      },
-      {
-        type: 'heading',
-        content: 'Conclusion'
-      },
-      {
-        type: 'paragraph',
-        content: 'A Rajasthan road trip seamlessly blends adventure with luxury and history. By traveling by road, you not only connect with the majestic past but also support the local economies scattered across the vibrant desert landscape. Ready to explore? Rent a car with AAVORide today and embark on your royal expedition.'
-      }
-    ]
-  },
-  {
-    id: '7',
-    slug: 'budget-travel-tips-explore-india',
-    title: 'Budget Travel Tips: How to Explore India Smartly',
-    excerpt: 'Think you need a fortune to travel India? These smart cab-sharing, hostelling, and planning tips will help you travel more for less.',
-    category: 'Budget Travel Tips',
-    tag: 'BUDGET',
-    coverImage: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&auto=format&fit=crop&q=80',
-    readTime: '7 min read',
-    publishDate: 'Dec 12, 2026',
-    author: {
-      name: 'Neha Patel',
-      avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80',
-      role: 'Backpacker Advocate'
-    },
-
-    sections: [
-      {
-        type: 'paragraph',
-        content: 'India is one of the most budget-friendly destinations globally if you know how to plan. By booking outstation cabs in advance with transparent pricing model and splitting rides, you can enjoy premium comfort without breaking the bank. Whether you are a solo backpacker or traveling with friends, exploring India smartly ensures you experience maximum culture with minimal expenditure.'
-      },
-      {
-        type: 'heading',
-        content: 'Smart Transportation Hacks'
-      },
-      {
-        type: 'paragraph',
-        content: 'Transportation can eat up a large portion of your budget. Instead of relying solely on expensive flights or unreserved train compartments, consider booking shared cabs or renting tempo travellers for group trips. Platforms like AAVORide allow you to request multiple quotes, ensuring you secure the cheapest cab fare without paying hidden commissions.'
-      },
-      {
-        type: 'heading',
-        content: 'Affordable Accommodation'
-      },
-      {
-        type: 'paragraph',
-        content: 'Skip the expensive international hotel chains and opt for authentic homestays, vibrant backpacker hostels, or budget-friendly guesthouses. Not only do these options save money, but they also offer invaluable opportunities to interact with local families and fellow travelers. Many homestays also provide delicious, home-cooked regional meals at a fraction of restaurant prices.'
-      },
-      {
-        type: 'heading',
-        content: 'Eat Like a Local'
-      },
-      {
-        type: 'paragraph',
-        content: 'Street food in India is legendary, delicious, and incredibly cheap. From spicy chaat in Delhi to buttery pav bhaji in Mumbai, eating where the locals eat is the best way to experience authentic flavors. Always look for busy stalls with high turnover to ensure the food is fresh.'
-      },
-      {
-        type: 'heading',
-        content: 'Conclusion'
-      },
-      {
-        type: 'paragraph',
-        content: 'Traveling India on a budget does not mean compromising on safety or comfort. By leveraging transparent taxi services, staying in community-focused accommodations, and embracing local culinary delights, you can create priceless memories on a shoestring budget. Start planning your affordable Indian adventure today!'
-      }
-    ]
-  },
-  {
-    id: '8',
-    slug: 'coorg-scotland-of-india-guide',
-    title: 'Coorg: A Detailed Travel Guide to the Scotland of India',
-    excerpt: 'Coorg is famous for its coffee plantations, misty hills, and lush forests. Here is how to plan your perfect weekend getaway.',
-    category: 'Hill Stations Tour',
-    tag: 'NATURE',
-    coverImage: 'https://images.unsplash.com/photo-1661492359562-419ba0ebaece?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-    readTime: '8 min read',
-    publishDate: 'Dec 18, 2026',
-    author: {
-      name: 'Amit Sen',
-      avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100&auto=format&fit=crop&q=80',
-      role: 'Travel Explorer'
-    },
-
-    sections: [
-      {
-        type: 'paragraph',
-        content: 'Located in Karnataka, Coorg is a nature lover\'s paradise. Surrounded by coffee estates and misty waterfalls, it offers a peaceful respite from the urban hustle. Exploring Coorg by road is the best option to navigate the winding mountain turns at your own leisure. With its cool climate and lush greenery, it serves as the ultimate retreat for city dwellers.'
-      },
-      {
-        type: 'heading',
-        content: 'Why It Is Called the Scotland of India'
-      },
-      {
-        type: 'paragraph',
-        content: 'During the colonial era, the rolling hills, cool breezes, and lush green landscapes of Coorg reminded Scottish planters of their homeland. Today, the region retains that majestic, untouched beauty. The perpetual mist hovering over the emerald hills creates a deeply romantic and tranquil atmosphere perfect for a weekend getaway or a long relaxing vacation.'
-      },
-      {
-        type: 'heading',
-        content: 'Must-Visit Attractions'
-      },
-      {
-        type: 'paragraph',
-        content: '• Abbey Falls: A spectacular waterfall nestled between private coffee plantations and spice estates. A hanging bridge provides the perfect vantage point for photography.\n• Raja\'s Seat: A seasonal garden of flowers offering breathtaking sunset views across the valleys. This historic spot was a favorite among the kings of Kodagu.\n• Namdroling Monastery (Golden Temple): Located in nearby Bylakuppe, this beautiful Tibetan monastery is an architectural marvel offering spiritual peace and a glimpse into Tibetan culture.'
-      },
-      {
-        type: 'heading',
-        content: 'The Coffee Experience'
-      },
-      {
-        type: 'paragraph',
-        content: 'You cannot visit Coorg without diving into its rich coffee culture. Book a guided plantation tour to learn about the journey of coffee beans from harvesting to roasting. Conclude your tour with a freshly brewed cup of authentic local filter coffee, often accompanied by traditional Coorgi snacks.'
-      },
-      {
-        type: 'heading',
-        content: 'Conclusion'
-      },
-      {
-        type: 'paragraph',
-        content: 'Coorg is a magical destination that refreshes the soul with its natural beauty and cool climate. Booking a reliable outstation cab allows you to safely navigate the steep, winding ghats while enjoying the scenic views from the passenger seat. Pack your bags, book your ride, and escape to the misty hills of Karnataka today.'
-      }
-    ]
-  }
-];
+]
 
 // data/ahmedabadVadodara.js
 export const tripData = [
   {
     id: 1,
+    slug: "ahmedabad-to-statue-of-unity",
+    tag: "LANDMARK",
+    heading: "Ahmedabad to Statue of Unity Taxi - Book Safe & Affordable Cab Service",
+    description: [
+      "Statue of Unity is the world’s tallest statue, dedicated to the Iron Man of India - Sardar Vallabhbhai Patel. This grand statue is built on the banks of the Narmada River in Kevadia and is a must-visit on every Indian traveller’s bucket list. On the other hand, Ahmedabad - the vibrant city of Gujarat - is known for its rich heritage, booming business hubs, and cultural essence.",
+      "If you are planning a family trip, a weekend getaway with friends, or a corporate outing, a cab ride from Ahmedabad to the Statue of Unity is absolutely the best and hassle-free option. The distance between them is only 200 km, and easily covered in 4 4-hour comfortable journey that is full of scenic views.",
+      "AAVORide provide Ahmedabad to Statue of Unity taxi service that offers you clean and sanitised cabs, experienced drivers, and multiple booking options - one-way or round-trip, as suits you. It's time for stress-free travel.",
+      "So what's the delay? Book your Ahmedabad to Statue of Unity cab now on AAVORide!"
+    ],
+    coverImage: "/SOU1.jpg",
+    smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSze_inZm2rONV9ch-Z_epiItHZvuGCmDiPvImKCb987g&s=10",
+    sections: [
+      {
+        subHeading: "Why Book an Ahmedabad to Statue of Unity Cab with AAVORide?",
+        description: [
+          "AAVORide is the most trusted cab service provider in India. It is well known for the best taxi service from Ahmedabad to the Statue of Unity. To keep its promise, AAVORide offers a variety of taxi services from Ahmedabad to the Statue of Unity. You can hire a one-way cab from Ahmedabad to Statue of Unity or an Ahmedabad to Statue of Unity round-trip cab with AAVORide at the best price and book an Ahmedabad to Statue of Unity taxi to make your trip remarkable. We take immense pride in ensuring an exceptional and reliable transportation experience for our valued customers. We offer Ahmedabad to Statue of Unity taxis to ensure last-mile connectivity."
+        ],
+        "Verified and experienced drivers": [
+          "The safety and comfort of the passenger is a priority for AAVORide. To ensure we took a rigorous driver verification process before making them partners. The drivers are also very skilled and experts in local culture and hilly routes, and destinations."
+        ],
+        "One-way and round-trip cab options": [
+          "To make the travel easy and convenient, AAVORide offers multiple cab options for one-way and round-trip journeys at the most reasonable fare with no hidden charges."
+        ],
+        "Clean and sanitised AC vehicles": [
+          "To make every journey comfortable and hassle-free, AAVORide provides clean and well-maintained cabs or taxis to its passengers. We make sure that every taxi undergoes timely services and is in good condition."
+        ],
+        "Transparent pricing": [
+          "AAVORide ensures complete transparency in its pricing structure, offering an all-inclusive fare. We ensure passengers have a clear understanding of their total expenses upfront without any hidden costs, providing peace of mind throughout the journey."
+        ],
+        "Doorstep pickup": [
+          "AAVORide offers doorstep pickup from Ahmedabad hotels, stations, or the airport for the maximum convenience of passengers. Where you don't need to wait for a cab at any other stoppage. Our cab driver will pick you up on time from the doorstep."
+        ],
+        "24x7 customer support": [
+          "For smooth service, AAVORide provides 24/7 customer support. It allows passengers to connect with executives for booking whenever they require. AAVORide has a significant presence across India and promises an easy transportation service.",
+          "Book your Ahmedabad to Statue of Unity taxi with AAVORide today! For a hassle-free and comfortable trip to the Statue of Unity."
+        ]
+      },
+      {
+        subHeading: "Distance, Time & Route Details",
+        description: [
+          "The Statue of Unity is one of the most popular tourist attractions in Gujarat state that attracting tourists from all over the country. Also, people of Ahmedabad and tourists often plan a trip to this beautiful destination. It is one of the perfect weekend getaways and holiday locations near Ahmedabad that offers lots of fun and enjoyment. From Ahmedabad, several routes connect to the Statue of Unity. Below are given the best routes with their respective times and route information."
+        ],
+        "Route: ia NE1 and SH11 (Ahmedabad → Vadodara → Kevadia )": [
+          "It is one of the most common routes that connects both destinations. It is the fastest and well-maintained direct route from Ahmedabad via Vadodara. That provides a very convenient and comfortable experience for the travellers. Also, your trip becomes more comfortable with AAVORide trained drivers that has great driving expertise. The Ahmedabad to Statue of Unity distance from this route is approximately 200km and takes nearly 4 hours of continuous driving to reach there. You can also take short breaks at Vadodara, Dabhoi, Rajpipla and Kevadia for snacks and sightseeing."
+        ],
+        "Best Travel Time": [
+          "Statue of Unity is one of the all-time perfect destinations from Ahmedabad. Not only do the people of the city travel to this, but tourists also plan the Ahmedabad to Statue of Unity route trip. For travellers, the best travel time from Ahmedabad to the Statue of Unity is between October to March. As the weather in the region becomes pleasant and offers comfortable and memorable."
+        ],
+      },
+      {
+        subHeading: "Ahmedabad to Statue of Unity Taxi Fare & Car Options",
+        description: [
+          "AAVORide is a top-tier cab service provider in India. Promise to make your trip budget-friendly. You don’t need to pay extra charges for fuel and driver's allowance; they are included in your cab charges from Ahmedabad to the Statue of Unity. However, you have to pay a little additional charge for tolls and parking, but you have the option to choose a toll and state tax-inclusive price, too. You can pay your bill online with a card and UPI for the Ahmedabad to Statue of Unity taxi fare. AAVORide provides cheap cabs from Ahmedabad to the Statue of Unity for its passengers."
+        ],
+        "Ahmedabad to Statue of Unity Taxi Fare": {
+          comparisonTable: [
+            { vehicleType: "Hatchback (WagonR, Indica)", "Seating Capacity": 4, "One-Way Fare (₹)": "-", "Round-Trip Fare (₹)": "-" },
+            { vehicleType: "Sedan (Dzire, Etios)", "Seating Capacity": 4, "One-Way Fare (₹)": "-", "Round-Trip Fare (₹)": "-" },
+            { vehicleType: "SUV (Ertiga, Marazzo)", "Seating Capacity": 6, "One-Way Fare (₹)": "-", "Round-Trip Fare (₹)": "-" },
+            { vehicleType: "Assured Innova", "Seating Capacity": 6, "One-Way Fare (₹)": "-", "Round-Trip Fare (₹)": "-" },
+            { vehicleType: "Tempo Traveller", "Seating Capacity": 12, "One-Way Fare (₹)": "-", "Round-Trip Fare (₹)": "-" }
+          ]
+        },
+        "Additional costs :": [
+          "Parking charges are extra.",
+          "Toll and state tax are included in the One-way fare. For round trip, it is extra, but you have the option to choose a toll and state tax inclusive price too.",
+          "5% GST extra"
+        ]
+
+      },
+      // {
+      //   subHeading: "Car Rental Service for Ahmedabad to Statue of Unity",
+      //   description: [
+      //     "AAVORide is one of India's splendid car rental service providers. We aim to make cab booking easy and comfortable for travellers. For that, AAVORide offers its Ahmedabad to Statue of Unity car rental service. For flexible pickups from Ahmedabad railway station, airport, or hotel, hire a taxi from Ahmedabad to the Statue of Unity with AAVORide. Travellers will get complete flexibility in their trip planning, and perfect for Char Dham Yatra pilgrims, group travel, or elderly passengers. Whether you need a one-way cab or a round-trip, AAVORide ensures affordable, clean, and safe cabs with experienced hill drivers for the Statue of Unity cab service for its passengers."
+      //   ],
+      //   "Ahmedabad to Statue of Unity Car Rental Prices": {
+      //     comparisonTable: [
+      //       { "car Type": "Hatchback (WagonR, Indica)", "Seating Capacity": 4, "One-Way Fare (₹)": "-" },
+      //       { "car Type": "Sedan (Dzire, Etios)", "Seating Capacity": 4, "One-Way Fare (₹)": "-" },
+      //       { "car Type": "SUV (Ertiga, Marazzo)", "Seating Capacity": 6, "One-Way Fare (₹)": "-" },
+      //       { "car Type": "Assured Innova", "Seating Capacity": 6, "One-Way Fare (₹)": "-" }
+      //     ]
+      //   },
+      //   "Key advantage of AAVORide’s Ahmedabad to Statue of Unity car rental service:": [
+      //     "Perfect for sightseeing trips, school tours, or corporate visits.",
+      //     "Clean and comfortable vehicles with on-time pickup and professional drivers.",
+      //     "Flexible plans for same-day return or overnight stays"
+      //   ]
+
+      // },
+      {
+        subHeading: "How to Book an Ahmedabad to Statue of Unity Taxi Online?",
+        description: [
+          "AAVORide is a premium cab service provider in India, renowned for exceptional cab services with a focus on comfort and safety. There are multiple cab booking options on AAVORide for online cabs from Ahmedabad to the Statue of Unity. To book a cab from Ahmedabad to the Statue of Unity, AAVORide offers multiple platforms, such as our website and mobile application. Further, you can also directly contact our customer service executive for any process issues regarding taxi booking from Ahmedabad to the Statue of Unity.",
+          "Through the Website: AAVORide has a user-friendly website, https://www.aavoride.in, where travellers can easily book their cab service from Ahmedabad to the Statue of Unity. Here, you get a form where you fill in your pickup and destination addresses. Then on the next page, you get the car option; choose wisely according to your needs.",
+          "Mobile Application: You can also book a cab with the AAVORide mobile app. It is easy to download the AAVORide mobile application on your phone from the Play Store and Apple Store. Here you can easily book your cab from Ahmedabad to the Statue of Unity.",
+          "Customer care: You can also contact AAVORide customer executives to get direct human assistance. We provide 24/7 active customer support to our passengers for timely issue resolution."
+        ],
+        "Step-by-step process for how to book a cab service from Ahmedabad to Statue of Unity with a driver at AAVORide.": [
+          "Visit the AAVORide website or mobile app.",
+          "Enter your pickup location and destination.",
+          "Choose your preferred car type.",
+          "Select your trip type (one-way or round-trip).",
+          "Confirm the booking and make a payment online.",
+          "Receive booking confirmation & driver details."
+        ]
+
+      },
+      {
+        subHeading: "Places to Visit En Route",
+        description: [
+          "Ahmedabad to Statue of Unity road trip has ample sightseeing and tourist attractions. You can enjoy all these beautiful sights by just adding them to your itinerary. AAVORide offers a comfortable ride and reliable service, ensuring you enjoy your trip thoroughly. For more convenience, we handpick some of the most visited places between Ahmedabad and Statue of Unity",
+          "Vadodara: Vadodara is one such city which is known for its royal history and greenery. The Laxmi Vilas Palace here is very famous, which is known for its beautiful architecture, large lawns and for being the historical residence of the Gaekwad royal family. This palace gives a very royal feel, where there is a glimpse of heritage in every corner. On the other hand, Sayaji Baug, i.e. Kamati Baug, is a big garden and zoo where everyone from children to adults gets something or the other to see and enjoy.",
+          "Zarwani Waterfall: Zarwani Waterfall is a calm and beautiful nature spot near Kevadia that is visited for trekking and picnic spots amidst its falling waters, lush green jungle and Shoolpaneshwar Wildlife Sanctuary. This place is perfect for those who wish to spend some time close to nature, away from the hustle and bustle of the city. The peaceful atmosphere and natural beauty of this place touch the heart, seeing which the mind of every traveller stops there.",
+          "Sardar Sarovar Dam: The Sardar Sarovar Dam is a popular spot where people enjoy amazing scenic views and photo clicks, especially inside the Statue of Unity complex. From the viewing gallery and selfie points here, you get a panoramic view of the Narmada River, the grand structure of the dam, and the beautiful landscape around. This place is perfect for those who want to see the blend of modern engineering with nature and want to capture unforgettable moments in their camera."
+        ],
+      },
+      {
+        subHeading: "Frequently Asked Questions - Ahmedabad to Vadodara cab",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Ahmedabad to Statue Of Unity by car?",
+            answer: "The distance from Ahmedabad to Statue Of Unity by car is 200 km."
+          },
+          {
+            question: "How long does it take from Ahmedabad to Statue Of Unity by road?",
+            answer: "It takes approx. 3.5 to 4.5 hours depending on traffic."
+          },
+          // {
+          //   question: "How much is Ahmedabad to Statue Of Unity taxi fare?",
+          //   answer: "Ahmedabad to Statue Of Unity taxi fare is approx. ₹2300 for a good sedan car like Etios, Dzire and is approx. ₹2800 for SUV car.For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          // {
+          //   question: "How much is Ahmedabad to Statue Of Unity Innova fare?",
+          //   answer: "Ahmedabad to Statue Of Unity Innova fare is approx. ₹3800. For best price on your travel date for various car rental options, please enter trip details and check."
+          // },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Ahmedabad to Statue Of Unity cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Ahmedabad to Statue Of Unity cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Statue Of Unity cab."
+          },
+
+          {
+            "question": "Is local sightseeing included in Ahmedabad to Statue Of Unity outstation trip?",
+            "answer": "For round trip and one way multi-stop cab bookings, all local sightseeing in Ahmedabad, Statue Of Unity, and other destination cities in the itinerary is included. For one way cab with only Ahmedabad and Statue Of Unity in the itinerary, sightseeing is not included."
+          },
+          {
+            "question": "How much in advance do I need to book the cab from Ahmedabad to Statue Of Unity?",
+            "answer": "You can book up to 1 hour prior to departure, but it is recommended to book at least 1 day in advance to avoid last minute rush."
+          },
+          {
+            "question": "Can I book cab for Ahmedabad to Statue Of Unity by calling customer support?",
+            "answer": "Customer support can provide clarifications, but cab booking must be done through the website or the AAVORide mobile app (Android/iOS)."
+          },
+          {
+            "question": "Can we pickup additional passengers on the way in Ahmedabad to Statue Of Unity one way taxi?",
+            "answer": "For one way multi-stop cab, you can add additional stops in the itinerary. For one way cab with only Ahmedabad and Statue Of Unity, additional pickup or drop will incur extra charges."
+          },
+          {
+            "question": "Do I need to pay both side Toll tax for Ahmedabad to Statue Of Unity one way cab?",
+            "answer": "No, for one way cab you only need to pay one side Toll tax."
+          },
+          {
+            "question": "When will I get car and driver details after booking Ahmedabad to Statue Of Unity cab?",
+            "answer": "Car and driver details are usually shared within minutes after booking, but in rare cases may take up to two hours before departure."
+          },
+          {
+            "question": "Can I travel with pets?",
+            "answer": "Yes, pets are allowed with an additional charge. Please select the 'Pet Allowed' add-on while booking."
+          }
+
+
+
+        ]
+      }
+    ],
+  },
+  {
+    id: 2,
     slug: "ahmedabad-to-vadodara",
     tag: "Road-Trips",
     heading: "Ahmedabad to Vadodara Taxi - Book a Cab Online at Best Fare",
@@ -1301,189 +1234,7 @@ export const tripData = [
       }
     ],
   },
-  {
-    id: 2,
-    slug: "ahmedabad-to-statue-of-unity",
-    tag: "LANDMARK",
-    heading: "Ahmedabad to Statue of Unity Taxi - Book Safe & Affordable Cab Service",
-    description: [
-      "Statue of Unity is the world’s tallest statue, dedicated to the Iron Man of India - Sardar Vallabhbhai Patel. This grand statue is built on the banks of the Narmada River in Kevadia and is a must-visit on every Indian traveller’s bucket list. On the other hand, Ahmedabad - the vibrant city of Gujarat - is known for its rich heritage, booming business hubs, and cultural essence.",
-      "If you are planning a family trip, a weekend getaway with friends, or a corporate outing, a cab ride from Ahmedabad to the Statue of Unity is absolutely the best and hassle-free option. The distance between them is only 200 km, and easily covered in 4 4-hour comfortable journey that is full of scenic views.",
-      "AAVORide provide Ahmedabad to Statue of Unity taxi service that offers you clean and sanitised cabs, experienced drivers, and multiple booking options - one-way or round-trip, as suits you. It's time for stress-free travel.",
-      "So what's the delay? Book your Ahmedabad to Statue of Unity cab now on AAVORide!"
-    ],
-    coverImage: "/SOU1.jpg",
-    smallImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSze_inZm2rONV9ch-Z_epiItHZvuGCmDiPvImKCb987g&s=10",
-    sections: [
-      {
-        subHeading: "Why Book an Ahmedabad to Statue of Unity Cab with AAVORide?",
-        description: [
-          "AAVORide is the most trusted cab service provider in India. It is well known for the best taxi service from Ahmedabad to the Statue of Unity. To keep its promise, AAVORide offers a variety of taxi services from Ahmedabad to the Statue of Unity. You can hire a one-way cab from Ahmedabad to Statue of Unity or an Ahmedabad to Statue of Unity round-trip cab with AAVORide at the best price and book an Ahmedabad to Statue of Unity taxi to make your trip remarkable. We take immense pride in ensuring an exceptional and reliable transportation experience for our valued customers. We offer Ahmedabad to Statue of Unity taxis to ensure last-mile connectivity."
-        ],
-        "Verified and experienced drivers": [
-          "The safety and comfort of the passenger is a priority for AAVORide. To ensure we took a rigorous driver verification process before making them partners. The drivers are also very skilled and experts in local culture and hilly routes, and destinations."
-        ],
-        "One-way and round-trip cab options": [
-          "To make the travel easy and convenient, AAVORide offers multiple cab options for one-way and round-trip journeys at the most reasonable fare with no hidden charges."
-        ],
-        "Clean and sanitised AC vehicles": [
-          "To make every journey comfortable and hassle-free, AAVORide provides clean and well-maintained cabs or taxis to its passengers. We make sure that every taxi undergoes timely services and is in good condition."
-        ],
-        "Transparent pricing": [
-          "AAVORide ensures complete transparency in its pricing structure, offering an all-inclusive fare. We ensure passengers have a clear understanding of their total expenses upfront without any hidden costs, providing peace of mind throughout the journey."
-        ],
-        "Doorstep pickup": [
-          "AAVORide offers doorstep pickup from Ahmedabad hotels, stations, or the airport for the maximum convenience of passengers. Where you don't need to wait for a cab at any other stoppage. Our cab driver will pick you up on time from the doorstep."
-        ],
-        "24x7 customer support": [
-          "For smooth service, AAVORide provides 24/7 customer support. It allows passengers to connect with executives for booking whenever they require. AAVORide has a significant presence across India and promises an easy transportation service.",
-          "Book your Ahmedabad to Statue of Unity taxi with AAVORide today! For a hassle-free and comfortable trip to the Statue of Unity."
-        ]
-      },
-      {
-        subHeading: "Distance, Time & Route Details",
-        description: [
-          "The Statue of Unity is one of the most popular tourist attractions in Gujarat state that attracting tourists from all over the country. Also, people of Ahmedabad and tourists often plan a trip to this beautiful destination. It is one of the perfect weekend getaways and holiday locations near Ahmedabad that offers lots of fun and enjoyment. From Ahmedabad, several routes connect to the Statue of Unity. Below are given the best routes with their respective times and route information."
-        ],
-        "Route: ia NE1 and SH11 (Ahmedabad → Vadodara → Kevadia )": [
-          "It is one of the most common routes that connects both destinations. It is the fastest and well-maintained direct route from Ahmedabad via Vadodara. That provides a very convenient and comfortable experience for the travellers. Also, your trip becomes more comfortable with AAVORide trained drivers that has great driving expertise. The Ahmedabad to Statue of Unity distance from this route is approximately 200km and takes nearly 4 hours of continuous driving to reach there. You can also take short breaks at Vadodara, Dabhoi, Rajpipla and Kevadia for snacks and sightseeing."
-        ],
-        "Best Travel Time": [
-          "Statue of Unity is one of the all-time perfect destinations from Ahmedabad. Not only do the people of the city travel to this, but tourists also plan the Ahmedabad to Statue of Unity route trip. For travellers, the best travel time from Ahmedabad to the Statue of Unity is between October to March. As the weather in the region becomes pleasant and offers comfortable and memorable."
-        ],
-      },
-      {
-        subHeading: "Ahmedabad to Statue of Unity Taxi Fare & Car Options",
-        description: [
-          "AAVORide is a top-tier cab service provider in India. Promise to make your trip budget-friendly. You don’t need to pay extra charges for fuel and driver's allowance; they are included in your cab charges from Ahmedabad to the Statue of Unity. However, you have to pay a little additional charge for tolls and parking, but you have the option to choose a toll and state tax-inclusive price, too. You can pay your bill online with a card and UPI for the Ahmedabad to Statue of Unity taxi fare. AAVORide provides cheap cabs from Ahmedabad to the Statue of Unity for its passengers."
-        ],
-        "Ahmedabad to Statue of Unity Taxi Fare": {
-          comparisonTable: [
-            { vehicleType: "Hatchback (WagonR, Indica)", "Seating Capacity": 4, "One-Way Fare (₹)": "-", "Round-Trip Fare (₹)": "-" },
-            { vehicleType: "Sedan (Dzire, Etios)", "Seating Capacity": 4, "One-Way Fare (₹)": "-", "Round-Trip Fare (₹)": "-" },
-            { vehicleType: "SUV (Ertiga, Marazzo)", "Seating Capacity": 6, "One-Way Fare (₹)": "-", "Round-Trip Fare (₹)": "-" },
-            { vehicleType: "Assured Innova", "Seating Capacity": 6, "One-Way Fare (₹)": "-", "Round-Trip Fare (₹)": "-" },
-            { vehicleType: "Tempo Traveller", "Seating Capacity": 12, "One-Way Fare (₹)": "-", "Round-Trip Fare (₹)": "-" }
-          ]
-        },
-        "Additional costs :": [
-          "Parking charges are extra.",
-          "Toll and state tax are included in the One-way fare. For round trip, it is extra, but you have the option to choose a toll and state tax inclusive price too.",
-          "5% GST extra"
-        ]
 
-      },
-      // {
-      //   subHeading: "Car Rental Service for Ahmedabad to Statue of Unity",
-      //   description: [
-      //     "AAVORide is one of India's splendid car rental service providers. We aim to make cab booking easy and comfortable for travellers. For that, AAVORide offers its Ahmedabad to Statue of Unity car rental service. For flexible pickups from Ahmedabad railway station, airport, or hotel, hire a taxi from Ahmedabad to the Statue of Unity with AAVORide. Travellers will get complete flexibility in their trip planning, and perfect for Char Dham Yatra pilgrims, group travel, or elderly passengers. Whether you need a one-way cab or a round-trip, AAVORide ensures affordable, clean, and safe cabs with experienced hill drivers for the Statue of Unity cab service for its passengers."
-      //   ],
-      //   "Ahmedabad to Statue of Unity Car Rental Prices": {
-      //     comparisonTable: [
-      //       { "car Type": "Hatchback (WagonR, Indica)", "Seating Capacity": 4, "One-Way Fare (₹)": "-" },
-      //       { "car Type": "Sedan (Dzire, Etios)", "Seating Capacity": 4, "One-Way Fare (₹)": "-" },
-      //       { "car Type": "SUV (Ertiga, Marazzo)", "Seating Capacity": 6, "One-Way Fare (₹)": "-" },
-      //       { "car Type": "Assured Innova", "Seating Capacity": 6, "One-Way Fare (₹)": "-" }
-      //     ]
-      //   },
-      //   "Key advantage of AAVORide’s Ahmedabad to Statue of Unity car rental service:": [
-      //     "Perfect for sightseeing trips, school tours, or corporate visits.",
-      //     "Clean and comfortable vehicles with on-time pickup and professional drivers.",
-      //     "Flexible plans for same-day return or overnight stays"
-      //   ]
-
-      // },
-      {
-        subHeading: "How to Book an Ahmedabad to Statue of Unity Taxi Online?",
-        description: [
-          "AAVORide is a premium cab service provider in India, renowned for exceptional cab services with a focus on comfort and safety. There are multiple cab booking options on AAVORide for online cabs from Ahmedabad to the Statue of Unity. To book a cab from Ahmedabad to the Statue of Unity, AAVORide offers multiple platforms, such as our website and mobile application. Further, you can also directly contact our customer service executive for any process issues regarding taxi booking from Ahmedabad to the Statue of Unity.",
-          "Through the Website: AAVORide has a user-friendly website, https://www.aavoride.in, where travellers can easily book their cab service from Ahmedabad to the Statue of Unity. Here, you get a form where you fill in your pickup and destination addresses. Then on the next page, you get the car option; choose wisely according to your needs.",
-          "Mobile Application: You can also book a cab with the AAVORide mobile app. It is easy to download the AAVORide mobile application on your phone from the Play Store and Apple Store. Here you can easily book your cab from Ahmedabad to the Statue of Unity.",
-          "Customer care: You can also contact AAVORide customer executives to get direct human assistance. We provide 24/7 active customer support to our passengers for timely issue resolution."
-        ],
-        "Step-by-step process for how to book a cab service from Ahmedabad to Statue of Unity with a driver at AAVORide.": [
-          "Visit the AAVORide website or mobile app.",
-          "Enter your pickup location and destination.",
-          "Choose your preferred car type.",
-          "Select your trip type (one-way or round-trip).",
-          "Confirm the booking and make a payment online.",
-          "Receive booking confirmation & driver details."
-        ]
-
-      },
-      {
-        subHeading: "Places to Visit En Route",
-        description: [
-          "Ahmedabad to Statue of Unity road trip has ample sightseeing and tourist attractions. You can enjoy all these beautiful sights by just adding them to your itinerary. AAVORide offers a comfortable ride and reliable service, ensuring you enjoy your trip thoroughly. For more convenience, we handpick some of the most visited places between Ahmedabad and Statue of Unity",
-          "Vadodara: Vadodara is one such city which is known for its royal history and greenery. The Laxmi Vilas Palace here is very famous, which is known for its beautiful architecture, large lawns and for being the historical residence of the Gaekwad royal family. This palace gives a very royal feel, where there is a glimpse of heritage in every corner. On the other hand, Sayaji Baug, i.e. Kamati Baug, is a big garden and zoo where everyone from children to adults gets something or the other to see and enjoy.",
-          "Zarwani Waterfall: Zarwani Waterfall is a calm and beautiful nature spot near Kevadia that is visited for trekking and picnic spots amidst its falling waters, lush green jungle and Shoolpaneshwar Wildlife Sanctuary. This place is perfect for those who wish to spend some time close to nature, away from the hustle and bustle of the city. The peaceful atmosphere and natural beauty of this place touch the heart, seeing which the mind of every traveller stops there.",
-          "Sardar Sarovar Dam: The Sardar Sarovar Dam is a popular spot where people enjoy amazing scenic views and photo clicks, especially inside the Statue of Unity complex. From the viewing gallery and selfie points here, you get a panoramic view of the Narmada River, the grand structure of the dam, and the beautiful landscape around. This place is perfect for those who want to see the blend of modern engineering with nature and want to capture unforgettable moments in their camera."
-        ],
-      },
-      {
-        subHeading: "Frequently Asked Questions - Ahmedabad to Vadodara cab",
-        description: "",
-        faqs: [
-          {
-            question: "What is the distance from Ahmedabad to Statue Of Unity by car?",
-            answer: "The distance from Ahmedabad to Statue Of Unity by car is 200 km."
-          },
-          {
-            question: "How long does it take from Ahmedabad to Statue Of Unity by road?",
-            answer: "It takes approx. 3.5 to 4.5 hours depending on traffic."
-          },
-          // {
-          //   question: "How much is Ahmedabad to Statue Of Unity taxi fare?",
-          //   answer: "Ahmedabad to Statue Of Unity taxi fare is approx. ₹2300 for a good sedan car like Etios, Dzire and is approx. ₹2800 for SUV car.For best price on your travel date for various car rental options, please enter trip details and check."
-          // },
-          // {
-          //   question: "How much is Ahmedabad to Statue Of Unity Innova fare?",
-          //   answer: "Ahmedabad to Statue Of Unity Innova fare is approx. ₹3800. For best price on your travel date for various car rental options, please enter trip details and check."
-          // },
-          {
-            question: "Does price includes Driver charges and Night charges?",
-            answer: "Yes, Ahmedabad to Statue Of Unity cab price includes Driver charges and Night charges."
-          },
-          {
-            question: "Do I need to make payment in advance to book Ahmedabad to Statue Of Unity cab?",
-            answer: "You will need to pay just 10-20% amount in advance for booking Ahmedabad to Statue Of Unity cab."
-          },
-
-          {
-            "question": "Is local sightseeing included in Ahmedabad to Statue Of Unity outstation trip?",
-            "answer": "For round trip and one way multi-stop cab bookings, all local sightseeing in Ahmedabad, Statue Of Unity, and other destination cities in the itinerary is included. For one way cab with only Ahmedabad and Statue Of Unity in the itinerary, sightseeing is not included."
-          },
-          {
-            "question": "How much in advance do I need to book the cab from Ahmedabad to Statue Of Unity?",
-            "answer": "You can book up to 1 hour prior to departure, but it is recommended to book at least 1 day in advance to avoid last minute rush."
-          },
-          {
-            "question": "Can I book cab for Ahmedabad to Statue Of Unity by calling customer support?",
-            "answer": "Customer support can provide clarifications, but cab booking must be done through the website or the AAVORide mobile app (Android/iOS)."
-          },
-          {
-            "question": "Can we pickup additional passengers on the way in Ahmedabad to Statue Of Unity one way taxi?",
-            "answer": "For one way multi-stop cab, you can add additional stops in the itinerary. For one way cab with only Ahmedabad and Statue Of Unity, additional pickup or drop will incur extra charges."
-          },
-          {
-            "question": "Do I need to pay both side Toll tax for Ahmedabad to Statue Of Unity one way cab?",
-            "answer": "No, for one way cab you only need to pay one side Toll tax."
-          },
-          {
-            "question": "When will I get car and driver details after booking Ahmedabad to Statue Of Unity cab?",
-            "answer": "Car and driver details are usually shared within minutes after booking, but in rare cases may take up to two hours before departure."
-          },
-          {
-            "question": "Can I travel with pets?",
-            "answer": "Yes, pets are allowed with an additional charge. Please select the 'Pet Allowed' add-on while booking."
-          }
-
-
-
-        ]
-      }
-    ],
-  },
   {
     id: 3,
     slug: "ahmedabad-to-udaipur",
@@ -3074,10 +2825,10 @@ export const tripData = [
 
   //Ahmedabad to goa
   {
-    id: 20,
+    id: 38,
     slug: "ahmedabad-to-goa",
     heading: "Book Ahmedabad to Goa Cab",
-    tag: "Beach",
+    tag: "Adventure",
     description: [
       "Ahmedabad to Goa distance : 1106 km",
       "Estimated travel time : 20.5 hours",
@@ -3259,10 +3010,10 @@ export const tripData = [
 
   //Ahmedabad to manali
   {
-    id: 21,
+    id: 39,
     slug: "ahmedabad-to-manali",
     heading: "Book Ahmedabad to Manali Cab",
-    tag: "Mountains",
+    tag: "Nature",
     description: [
       "Ahmedabad to Manali distance : 1466 km",
       "Estimated travel time : 28 hours",
@@ -3421,10 +3172,10 @@ export const tripData = [
 
   //Ahmedabad to shimla
   {
-    id: 22,
+    id: 40,
     slug: "ahmedabad-to-shimla",
     heading: "Book Ahmedabad to Shimla Cab",
-    tag: "Mountains",
+    tag: "Nature",
     description: [
       "Ahmedabad to Shimla distance : 1277 km",
       "Estimated travel time : 22 hours",
@@ -3577,10 +3328,10 @@ export const tripData = [
 
   //Ahmedabad to kasol
   {
-    id: 35,
+    id: 41,
     slug: "ahmedabad-to-kasol",
     heading: "Book Ahmedabad to Kasol Cab",
-    tag: "HILL STATION JOURNEY",
+    tag: "Nature",
     description: [
       "Ahmedabad to Kasol Cabs",
       "AAVORide has had its presence in chauffeur-driven car rental sector for more than 12 years. We continuously strive to ensure that we provide reliable, quality and timely cab services. We have wide range of car options right from sedans to hatchbacks and MUVs to SUVs. You can book any type of car for your Ahmedabad to Kasol taxi service depending on your requirement. You can easily book Ahmedabad to Kasol cabs at AAVORide 24/7 without any hassle with our easy-to-use booking interface.",
@@ -3759,10 +3510,10 @@ export const tripData = [
 
   //Ahmedabad to rishikesh
   {
-    id: 38,
+    id: 42,
     slug: "ahmedabad-to-rishikesh",
     heading: "Book Ahmedabad to Rishikesh Cab",
-    tag: "Pilgrimage",
+    tag: "Adventure",
     description: [
       "Ahmedabad to Rishikesh distance : 1165 km",
       "Estimated travel time : 21 hours",
@@ -3951,10 +3702,10 @@ export const tripData = [
 
   //Ahmedabad to haridwar
   {
-    id: 24,
+    id: 43,
     slug: "ahmedabad-to-haridwar",
     heading: "Book Ahmedabad to Haridwar Cab",
-    tag: "RELIGIOUS",
+    tag: "Spiritual",
     description: [
       "Ahmedabad to Haridwar distance : 1145 km",
       "Estimated travel time : 21 hours",
@@ -4144,10 +3895,10 @@ export const tripData = [
 
   //Ahmedabad to jaisalmer
   {
-    id: 36,
+    id: 44,
     slug: "ahmedabad-to-jaisalmer",
     heading: "Book Ahmedabad to Jaisalmer Cab",
-    tag: "DESERT JOURNEY",
+    tag: "Heritage",
     description: [
       "Ahmedabad to Jaisalmer distance : 560 km",
       "Estimated travel time : 10.5 hours",
@@ -4324,10 +4075,10 @@ export const tripData = [
 
   //Ahmedabad to jodhpur
   {
-    id: 25,
+    id: 45,
     slug: "ahmedabad-to-jodhpur",
     heading: "Book Ahmedabad to Jodhpur Cab",
-    tag: "RAJASTHAN",
+    tag: "Luxury",
     description: [
       "Ahmedabad to Jodhpur distance : 445 km",
       "Estimated travel time : 8 hours",
@@ -4481,10 +4232,10 @@ export const tripData = [
 
   //Ahmedabad to pushkar
   {
-    id: 26,
+    id: 46,
     slug: "ahmedabad-to-pushkar",
     heading: "Book Ahmedabad to Pushkar Cab",
-    tag: "PILGRIMAGE",
+    tag: "Culture",
     description: [
       "Ahmedabad to Pushkar distance : 562 km",
       "Estimated travel time : 10.5 hours",
@@ -4643,10 +4394,10 @@ export const tripData = [
   },
   //Ahemedabad to lonavala
   {
-    id: 27,
+    id: 47,
     slug: "ahmedabad-to-lonavala",
     heading: "Book Ahmedabad to Lonavala Cab",
-    tag: "HILL ESCAPE",
+    tag: "Nature",
     description: [
       "Ahmedabad to Lonavala distance : 592 km",
       "Estimated travel time : 10 hours",
@@ -4830,10 +4581,10 @@ export const tripData = [
 
   //Ahmedabad to agra
   {
-    id: 28,
+    id: 48,
     slug: "ahmedabad-to-agra",
     heading: "Book Ahmedabad to Agra Cab",
-    tag: "HISTORICAL",
+    tag: "Heritage",
     description: [
       "Ahmedabad to Agra distance : 917 km",
       "Estimated travel time : 17 hours",
@@ -4847,26 +4598,26 @@ export const tripData = [
         subHeading: "Ahmedabad to Agra Cab Route",
         description: [
           "Ahmedabad to Agra by car is well connected by road through Bikaner-Agra road and is very convenient and comfortable drive. The most popular stopovers on the route are like Mount Abu, Ajmer, Jaipur. Ahmedabad to Agra distance is 917 Km and is 17 hours journey. Other famous tourist places on this route are :",
-          "Gandhinagar - capital of Gujarat having one of most beautiful temple Akshardham temple",
-          "Palanpur - - famous for heritage, Palace, temples",
-          "Mehsana - - famous for its historical spots",
-          "Patan - - Rani ka Vav, UNESCO World Heritage Site",
-          "Ambaji - - famous for pilgrimage and religious tourism. Most popular is Ambe temple.",
-          "Mount Abu - - a beautiful hill station and home to Dilwara temples",
-          "Pali - - Trade center of Rajasthan",
-          "Pushkar - - Brahma Temple is most popular attraction in Pushkar",
-          "Ajmer - - Dargah Sharif is most visited although there are many tourists attractions in Ajmer",
+          "Gandhinagar : capital of Gujarat having one of most beautiful temple Akshardham temple",
+          "Palanpur : famous for heritage, Palace, temples",
+          "Mehsana : famous for its historical spots",
+          "Patan : Rani ka Vav, UNESCO World Heritage Site",
+          "Ambaji : famous for pilgrimage and religious tourism. Most popular is Ambe temple.",
+          "Mount Abu : a beautiful hill station and home to Dilwara temples",
+          "Pali : Trade center of Rajasthan",
+          "Pushkar : Brahma Temple is most popular attraction in Pushkar",
+          "Ajmer : Dargah Sharif is most visited although there are many tourists attractions in Ajmer",
           "Kishangarh",
-          "Shamlaji - - a major Hindu pilgrimage centre in Aravalli district of Gujarat",
-          "Dungarpur - - Fort, Palaces",
+          "Shamlaji : a major Hindu pilgrimage centre in Aravalli district of Gujarat",
+          "Dungarpur : Fort, Palaces",
           "Hill Forest",
-          "Idar - - known for handmade wooden toys, tiles, its temples and various beautiful architectural monuments on hill",
-          "Palanpur - - famous for its ancient temples and Gujarat\"s history",
-          "Himmatnagar - - Swaminarayan temple",
+          "Idar : known for handmade wooden toys, tiles, its temples and various beautiful architectural monuments on hill",
+          "Palanpur : famous for its ancient temples and Gujarat\"s history",
+          "Himmatnagar : Swaminarayan temple",
           "Bhilwara",
           "Chittorgarh",
           "Devgarh",
-          "Jaipur - - The Pink city, Hawa Mahal, Amber fort, Jaigarh fort, Birla temple",
+          "Jaipur : The Pink city, Hawa Mahal, Amber fort, Jaigarh fort, Birla temple",
           "Chawand, Dausa",
           "Mehandipur Balaji Temple",
           "Bharatpur Bird Sanctuary",
@@ -4990,10 +4741,10 @@ export const tripData = [
 
   //Ahmedabad to delhi
   {
-    id: 29,
+    id: 49,
     slug: "ahmedabad-to-delhi",
     heading: "Book Ahmedabad to Delhi Cab",
-    tag: "CAPITAL CITY",
+    tag: "Culture",
     description: [
       "Ahmedabad to Delhi distance : 946 km",
       "Estimated travel time : 17 hours",
@@ -5158,10 +4909,10 @@ export const tripData = [
 
   //Ahmedabad to varanasi
   {
-    id: 30,
+    id: 50,
     slug: "ahmedabad-to-varanasi",
     heading: "Book Ahmedabad to Varanasi Cab",
-    tag: "SPIRITUAL JOURNEY",
+    tag: "SPIRITUAL",
     description: [
       "Ahmedabad to Varanasi distance : 1310 km",
       "Estimated travel time : 25 hours",
@@ -5317,10 +5068,10 @@ export const tripData = [
 
   //Ahmedabad to hampi
   {
-    id: 31,
+    id: 51,
     slug: "ahmedabad-to-hampi",
     heading: "Book Ahmedabad to Hampi Taxi",
-    tag: "ROAD TRIP",
+    tag: "Heritage",
     description: [
       "Ahmedabad to Hampi Cabs",
       "AAVORide has had its presence in chauffeur-driven car rental sector for more than 16 years. We continuously strive to ensure that we provide reliable, quality and timely cab services.  We have a wide range of car options right from sedans to hatchbacks and MUVs to SUVs. You can book any type of car for your Ahmedabad to Hampi taxi service depending on your requirement. You can easily book Ahmedabad to Hampi cabs at AAVORide 24/7 without any hassle with our easy-to-use booking interface.",
@@ -5382,10 +5133,10 @@ export const tripData = [
 
   //Ahmedabad to amritsar
   {
-    id: 32,
+    id: 52,
     slug: "ahmedabad-to-amritsar",
     heading: "Book Ahmedabad to Amritsar Cab",
-    tag: "SPIRITUAL JOURNEY",
+    tag: "Culture",
     description: [
       "Ahmedabad to Amritsar distance : 1216 km",
       "Estimated travel time : 23 hours",
@@ -5541,10 +5292,10 @@ export const tripData = [
 
   //Ahmedabad to kashmir
   {
-    id: 33,
+    id: 53,
     slug: "ahmedabad-to-srinagar",
     heading: "Book Ahmedabad to Srinagar Cab",
-    tag: "SCENIC JOURNEY",
+    tag: "Nature",
     description: [
       "Ahmedabad to Srinagar distance : 1720 km",
       "Estimated travel time : 31 hours",
@@ -5699,10 +5450,10 @@ export const tripData = [
 
   //Ahmedabad to Leh
   {
-    id: 34,
+    id: 54,
     slug: "ahmedabad-to-leh",
     heading: "Book Ahmedabad to Leh Cab",
-    tag: "SCENIC JOURNEY",
+    tag: "Adventure",
     description: [
       "Ahmedabad to Leh distance : 1800 km",
       "Estimated travel time : 35 hours",

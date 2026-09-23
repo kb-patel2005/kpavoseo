@@ -101,7 +101,7 @@ export default function BlogDetailClient({
         <div className="absolute inset-0 z-0">
           <Image
             src={blog.coverImage}
-            alt={`${blog.title} - AAVORide Travel Guide`}
+            alt={`${blog.heading} - AAVORide Travel Guide`}
             fill
             sizes="100vw"
             priority
@@ -123,22 +123,22 @@ export default function BlogDetailClient({
                 transition={{ duration: 0.5 }}
                 className="text-4xl md:text-6xl font-black text-white leading-tight tracking-tight drop-shadow-sm font-sans"
               >
-                {blog.title}
+                {blog.heading}
               </motion.h1>
 
               {/* Meta Tags */}
               <div className="flex flex-wrap items-center gap-3 text-xs md:text-sm font-semibold text-slate-300">
                 <Clock className="h-4 w-4 shrink-0" />
 
-                <span>{blog.readTime}</span>
+                <span>18 min</span>
 
                 <span>•</span>
 
-                <span>{blog.publishDate}</span>
+                <span>20 sep, 2026</span>
 
                 <span>•</span>
 
-                <span>By {blog.author.name}</span>
+                <span>By Priya Verma</span>
               </div>
             </div>
           </div>
@@ -166,7 +166,7 @@ export default function BlogDetailClient({
 
           <li>/</li>
 
-          <li className="font-semibold text-slate-800">{blog.title}</li>
+          {/* <li className="font-semibold text-slate-800">{blog.title}</li> */}
         </ol>
       </nav>
 
@@ -174,8 +174,8 @@ export default function BlogDetailClient({
       <section className="px-4 py-12 md:px-8 md:py-16">
         <article className="mx-auto max-w-7xl bg-white py-8 relative z-20 space-y-8">
           {/* Render blog body sections */}
-          {blog.sections.map((section, idx) => {
-            switch (section.type) {
+          {/* {blog.sections.map((section, idx) => {
+            switch (section.subHeading) {
               case "paragraph":
                 return (
                   <p
@@ -221,10 +221,10 @@ export default function BlogDetailClient({
               default:
                 return null;
             }
-          })}
+          })} */}
 
           {/* Premium Callout Box (Figma matching CTA) */}
-          <motion.div
+          {/* <motion.div
             whileHover={{ scale: 1.01 }}
             className="flex flex-col sm:flex-row items-center justify-between bg-white border border-slate-100 rounded-3xl p-6 md:p-8 shadow-sm space-y-4 sm:space-y-0 sm:space-x-6"
           >
@@ -252,10 +252,10 @@ export default function BlogDetailClient({
                 Get AAVORide App
               </button>
             </Link>
-          </motion.div>
+          </motion.div> */}
 
           {/* Must Visit Spots (Figma section) */}
-          {blog.mustVisitSpots && blog.mustVisitSpots.length > 0 && (
+          {/* {blog.mustVisitSpots && blog.mustVisitSpots.length > 0 && (
             <div className="space-y-6 pt-6 border-t border-slate-100">
               <h2 className="text-2xl md:text-3xl font-black text-slate-800 tracking-tight flex items-center gap-2">
                 <span className="block h-5 w-1.5 bg-[#FF4D30] rounded-full" />
@@ -272,10 +272,10 @@ export default function BlogDetailClient({
                 ))}
               </div>
             </div>
-          )}
+          )} */}
 
           {/* Author footer banner */}
-          <div className="pt-8 border-t border-slate-100 flex items-center gap-4">
+          {/* <div className="pt-8 border-t border-slate-100 flex items-center gap-4">
             <Image
               src={blog.author.avatar}
               alt={`${blog.author.name} - Author`}
@@ -293,7 +293,7 @@ export default function BlogDetailClient({
                 Travel Writer at AAVORide
               </p>
             </div>
-          </div>
+          </div> */}
 
           {/* FAQ Section */}
           <section className="pt-10 border-t border-slate-100">
@@ -424,11 +424,11 @@ export default function BlogDetailClient({
                   (blog.tag.toLocaleLowerCase() == activeCategory.toLocaleLowerCase() || activeCategory == "All Stories") &&
                   <SmallCard blog={blog} index={idx} key={blog.heading} />
                 )}
-              {recentBlogs.length > 0 && (
+              {/* {recentBlogs.length > 0 && (
                 recentBlogs.map((rBlog, idx) => (
                   <BlogRow key={rBlog.id} blog={rBlog} index={idx} />
                 ))
-              )}
+              )} */}
             </AnimatePresence>
           </div>
         )}

@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { Blog } from "@/lib/mockData";
 
 interface BlogCardProps {
-  blog: Blog;
+  blog: any;
   index: number;
 }
 
@@ -35,14 +35,14 @@ export default function BlogCard({ blog, index }: BlogCardProps) {
       whileHover={{ y: -8 }}
       className="group relative overflow-hidden rounded-3xl bg-slate-900 shadow-xl border border-slate-800 h-[550px] cursor-pointer flex flex-col justify-end"
     >
-      <Link href={`/blog/${blog.slug}`} className="absolute inset-0 z-10">
-        <span className="sr-only">Read {blog.title}</span>
+      <Link href={`/blog/location/${blog.slug}`} className="absolute inset-0 z-10">
+        <span className="sr-only">Read {blog.heading}</span>
       </Link>
 
       <div className="absolute inset-0 z-0 overflow-hidden">
         <Image
           src={blog.coverImage}
-          alt={`${blog.title} | AAVORide Travel Guide`}
+          alt={`${blog.heading} | AAVORide Travel Guide`}
           fill
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 33vw"
           className="object-cover object-top-right transition-transform duration-700 ease-out group-hover:scale-110"
@@ -67,7 +67,7 @@ export default function BlogCard({ blog, index }: BlogCardProps) {
         </h3>
 
         <p className="text-xs text-white font-medium line-clamp-2 leading-relaxed opacity-90 group-hover:text-slate-200 transition-all duration-200">
-          {blog.excerpt}
+          {blog.description}
         </p>
 
         <div className="h-[1px] w-full bg-slate-800 my-2" />
@@ -75,10 +75,10 @@ export default function BlogCard({ blog, index }: BlogCardProps) {
         <div className="flex items-center space-x-4 text-[11px] text-white font-semibold">
           <div className="flex items-center space-x-1.5">
             <Clock className="h-3.5 w-3.5 text-[#FF4D30]" />
-            <span>{blog.readTime}</span>
+            <span>18 min</span>
           </div>
           <div className="flex items-center space-x-1.5">
-            <span>By {blog.author.name}</span>
+            <span>By Priya Shrama</span>
           </div>
         </div>
       </div>

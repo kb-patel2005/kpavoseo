@@ -1,5 +1,5 @@
 import { useQuery, useInfiniteQuery } from '@tanstack/react-query';
-import { MOCK_BLOGS, MOCK_FEATURED_STORIES, Blog } from '@/lib/mockData';
+import { Blog, tripData } from '@/lib/mockData';
 
 // Simulate API delay
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
@@ -9,7 +9,7 @@ export function useBlogDetail(slug: string) {
     queryKey: ['blog', slug],
     queryFn: async () => {
       await delay(500); // Simulate API call
-      return MOCK_BLOGS.find(blog => blog.slug.toLowerCase() === slug.toLowerCase()) || MOCK_FEATURED_STORIES.find(blog => blog.slug.toLowerCase() === slug.toLowerCase()) || null;
+      return tripData.find(blog => blog.slug.toLowerCase() === slug.toLowerCase()) || null;
     },
   });
 }
@@ -19,7 +19,7 @@ export function useBlogDetailByCategories(slug: string) {
     queryKey: ['blog', slug],
     queryFn: async () => {
       await delay(500); // Simulate API call
-      return MOCK_BLOGS.find(blog => blog.tag?.toLocaleLowerCase() === slug.toLowerCase()) || MOCK_FEATURED_STORIES.find(blog => blog.tag?.toLocaleLowerCase() === slug.toLowerCase()) || null;
+      return tripData.find(blog => blog.tag?.toLocaleLowerCase() === slug.toLowerCase()) || null;
       // return MOCK_BLOGS.filter(blog => blog.tag?.toLocaleLowerCase() === slug.toLowerCase()) || MOCK_FEATURED_STORIES.filter(blog => blog.tag?.toLocaleLowerCase() === slug.toLowerCase()) || null;
     },
   });
@@ -31,7 +31,7 @@ export function useInfiniteBlogs(category: string, searchTerm: string, limit: nu
     queryFn: async ({ pageParam = 0 }) => {
       await delay(300); // Simulate API call
       
-      let filteredBlogs = MOCK_BLOGS;
+      let filteredBlogs = tripData;
       
       // Filter by category
       if (category !== 'All Stories') {
@@ -45,8 +45,8 @@ export function useInfiniteBlogs(category: string, searchTerm: string, limit: nu
       if (searchTerm) {
         const lowerSearchTerm = searchTerm.toLowerCase();
         filteredBlogs = filteredBlogs.filter(blog =>
-          blog.title.toLowerCase().includes(lowerSearchTerm) ||
-          blog.excerpt.toLowerCase().includes(lowerSearchTerm)
+          blog.heading.toLowerCase().includes(lowerSearchTerm) ||
+          blog.description[0].toLowerCase().includes(lowerSearchTerm)
         );
       }
       

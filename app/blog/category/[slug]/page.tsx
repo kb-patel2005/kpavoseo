@@ -1,26 +1,27 @@
 
 import React from "react";
-import {  MOCK_BLOGS,  MOCK_FEATURED_STORIES } from "@/lib/mockData";
 import { Metadata } from "next/types";
 import CategoryWise from "./CategoryWise";
+import { tripData } from "@/lib/mockData";
 
 interface Props {
     params: { slug: string };
 }
 
-function getBlog(slug: string) {
+// function getBlog(slug: string) {
 
-    const newSlug = slug.replace(/\s+/g, "-")
+//     const newSlug = slug.replace(/\s+/g, "-")
 
-    return (
-        MOCK_BLOGS.find((b) => b.tag.toLowerCase() === newSlug.toLowerCase())
-    );
-}
+//     return (
+//         MOCK_BLOGS.find((b) => b.tag.toLowerCase() === newSlug.toLowerCase())
+//     );
+// }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { slug } = await params;
 
-    const blog = await getBlog(slug);
+    // const blog = await getBlog(slug);
+    const blog = tripData.find( e => e.slug == slug)
 
     if (!blog) {
         return {
@@ -36,14 +37,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     }
 
     return {
-        title: `${blog.title}`,
+        title: `${blog.heading}`,
 
-        description: `${blog.excerpt}`,
+        description: `${blog.description}`,
 
         keywords: [
-            blog.title,
+            blog.heading,
             blog.tag,
-            blog.author.role,
             "Travel Guide",
             "Road Trip",
             "Taxi Booking",
@@ -54,7 +54,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
         authors: [
             {
-                name: blog.author.name,
+                name: "Priya Verma",
             },
         ],
 
@@ -90,9 +90,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
             type: "article",
 
-            publishedTime: blog.publishDate,
-
-            authors: [blog.author.name],
 
             images: [
                 {
@@ -101,7 +98,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
                         : `https://www.aavoride.in/${blog.coverImage}`,
                     width: 1200,
                     height: 630,
-                    alt: blog.title,
+                    alt: blog.heading,
                 },
             ],
         },

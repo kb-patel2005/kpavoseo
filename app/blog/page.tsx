@@ -7,9 +7,9 @@ import { Search, Loader2, AlertCircle } from "lucide-react";
 import { useInfiniteBlogs } from "@/hooks/useBlogs";
 import {
   CATEGORIES,
-  MOCK_DESTINATIONS,
-  MOCK_FEATURED_STORIES,
   smallCard,
+  threeCards,
+  tripData,
 } from "@/lib/mockData";
 import BlogCard from "@/components/BlogCard";
 import BlogRow from "@/components/BlogRow";
@@ -197,7 +197,7 @@ export default function BlogListingPage() {
                 </h2>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
-                {MOCK_FEATURED_STORIES.map((blog, idx) => (
+                {threeCards.map((blog, idx) => (
                   <BlogCard key={blog.id} blog={blog} index={idx} />
                 ))}
               </div>

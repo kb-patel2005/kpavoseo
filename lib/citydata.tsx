@@ -1374,3 +1374,4 @@ export const citydata = [
         ]
     },
 ]
+

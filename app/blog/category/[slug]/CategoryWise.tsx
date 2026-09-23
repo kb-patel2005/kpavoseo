@@ -24,7 +24,7 @@ export default function CategoryWise({
 
     const { data: blog, isLoading, isError } = useBlogDetailByCategories(slug);
     
-    const [activeCategory, setActiveCategory] = useState(slug);
+    const [activeCategory, setActiveCategory] = useState(slug.replace(" ","-"));
 
     // React Query Fetch using Infinite Scroll
     const {
@@ -36,6 +36,8 @@ export default function CategoryWise({
     } = useInfiniteBlogs(activeCategory, "", 3);
 
     const recentBlogs = recentData?.pages.flatMap((page) => page.blogs) || [];
+
+    console.log(activeCategory)
 
     // Set up dynamic reading progress bar using framer-motion scroll hooks
     const { scrollYProgress } = useScroll();
@@ -101,15 +103,15 @@ export default function CategoryWise({
                 <div className="absolute inset-0 z-0">
                     <Image
                         src={blog.coverImage}
-                        alt={`${blog.title} - AAVORide Travel Guide`}
+                        alt={`${blog.heading} - AAVORide Travel Guide`}
                         fill
                         sizes="100%"
                         priority
-                        className="object-cover select-none"
+                        className="object-top-right object-cover select-none lg:block hidden"
                     />
                     {/* Cover vignette gradient overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent" />
-                    <div className="absolute inset-0 bg-slate-950/20" />
+                    {/* <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent" /> */}
+                    {/* <div className="absolute inset-0 bg-slate-950/20" /> */}
                 </div>
 
                 {/* Content over banner */}
@@ -123,22 +125,22 @@ export default function CategoryWise({
                                 transition={{ duration: 0.5 }}
                                 className="text-4xl md:text-6xl font-black text-white leading-tight tracking-tight drop-shadow-sm font-sans"
                             >
-                                {blog.title}
+                                {blog.heading}
                             </motion.h1>
 
                             {/* Meta Tags */}
                             <div className="flex flex-wrap items-center gap-3 text-xs md:text-sm font-semibold text-slate-300">
                                 <Clock className="h-4 w-4 shrink-0" />
 
-                                <span>{blog.readTime}</span>
+                                <span>1hr 15min</span>
 
                                 <span>•</span>
 
-                                <span>{blog.publishDate}</span>
+                                <span>20 sep, 2026</span>
 
                                 <span>•</span>
 
-                                <span>By {blog.author.name}</span>
+                                <span>By Priya verma</span>
                             </div>
                         </div>
                     </div>
@@ -181,7 +183,7 @@ export default function CategoryWise({
                 {/* Category Tabs Navigation */}
                 <div className="w-full overflow-x-auto flex scrollbar-none space-x-2 pb-2 border-b-0 md:border-b border-slate-200 justify-start">
                     {CATEGORIES.map((category) => {
-                        const isActive = activeCategory === category;
+                        const isActive = activeCategory === category.replace(" ","-");
                         return (
                             <button
                                 key={category}
@@ -247,8 +249,10 @@ export default function CategoryWise({
                         <AnimatePresence mode="popLayout">
                             {tripData.length > 0 &&
                                 tripData.map((blog, idx) =>
-                                    (blog.tag.toLocaleLowerCase() == activeCategory.toLocaleLowerCase() || activeCategory == "All Stories") &&
-                                    <SmallCard blog={blog} index={idx} key={blog.heading} />
+                                {
+                                    
+                                    return ((blog.tag.toLocaleLowerCase() == activeCategory.toLocaleLowerCase() || activeCategory == "All Stories") &&
+                                    <SmallCard blog={blog} index={idx} key={blog.heading} />) }
                                 )}
                             {/* {recentBlogs.length > 0 ? (
                                 recentBlogs.map((rBlog, idx) => (

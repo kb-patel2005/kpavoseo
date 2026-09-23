@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { notFound } from "next/navigation";
-import { MOCK_BLOGS, MOCK_FEATURED_STORIES } from "@/lib/mockData";
 import BlogDetailClient from "./BlogDetailClient";
+import { tripData } from "@/lib/mockData";
 
 interface Props {
   params: Promise<{ slug: string }>;
@@ -22,9 +22,8 @@ async function getBlog(slug: string) {
   let newSlug = generateSlug(slug);
 
   return (
-    MOCK_FEATURED_STORIES.find((b) => b.slug === newSlug)||
-    MOCK_BLOGS.find((b) => b.slug === slug) 
-  );
+    tripData.find((e) => e.slug == newSlug)
+  )
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -48,14 +47,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${blog.title}`,
+    title: `${blog.heading}`,
 
-    description: `${blog.excerpt}`,
+    description: `${blog.description}`,
 
     keywords: [
-      blog.title,
+      blog.heading,
       blog.tag,
-      blog.author.role,
       "Travel Guide",
       "Road Trip",
       "Taxi Booking",
@@ -66,7 +64,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     authors: [
       {
-        name: blog.author.name,
       },
     ],
 
@@ -102,10 +99,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
       type: "article",
 
-      publishedTime: blog.publishDate,
-
-      authors: [blog.author.name],
-
       images: [
         {
           url: blog.coverImage.startsWith("http")
@@ -113,7 +106,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             : `https://www.aavoride.in${blog.coverImage}`,
           width: 1200,
           height: 630,
-          alt: blog.title,
+          alt: blog.heading,
         },
       ],
     },
@@ -143,15 +136,15 @@ export default async function Page({ params }: Props) {
     "@context": "https://schema.org",
     "@type": "Article",
 
-    headline: blog.title,
+    headline: blog.heading,
 
-    description: blog.excerpt,
+    description: blog.description,
 
     image: [blog.coverImage],
 
     author: {
       "@type": "Person",
-      name: blog.author.name,
+      name: "Priya verma",
     },
 
     publisher: {
@@ -162,8 +155,6 @@ export default async function Page({ params }: Props) {
         url: "https://www.aavoride.in/icon.png",
       },
     },
-
-    datePublished: blog.publishDate,
 
     mainEntityOfPage: `https://www.aavoride.in/blog/${slug}`,
   };
@@ -199,7 +190,7 @@ export default async function Page({ params }: Props) {
 
         position: 3,
 
-        name: blog.title,
+        name: blog.heading,
 
         item: `https://www.aavoride.in/blog/${slug}`,
       },
