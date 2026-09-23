@@ -7076,7 +7076,7 @@ export const tripData = [
     ],
 
     coverImage:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTBjpx5Ddp85zV8Y6K3PWDfYMQNgbmrPYGX-vZC2PV5Q&s=10",
+      "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/19/fe/8c/84/photo1jpg.jpg?w=1400&h=-1&s=1",
 
     sections: [
       {
@@ -9457,7 +9457,7 @@ export const tripData = [
       "Being a commerce and industrial hub, Surat doesn\"t lag behind in being a religious centre as well. Mythologically, it is belived that Lord Krishna rested in Surat in his travel from Dwaraka to Mathura. If you are someone, who gets excited by history and wildlife, Surat is must visit a destination because of its colonial history and its rich heritage of flora and fauna. Science complex is a very popular place in surat to visit, since it has science centre, museum, an art gallery, an auditorium, an amphitheatre and a planetarium in it.",
       "Taxi from Vadodara to Surat is readily available at AAVORide."
     ],
-    coverImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzl7Vxm9IUzv9eR0thu3jkM4XBVTOiYD1r3MdFSvqSMQ&s=10",
+    coverImage: "https://images.trvl-media.com/place/3290/6cd0bbc3-eace-4f1e-a204-37a32d3d54e5.jpg",
 
     sections: [
       {
