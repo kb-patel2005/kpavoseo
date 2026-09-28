@@ -2110,7 +2110,7 @@ export const tripData = [
       "Ahmedabad to Somnath is very popular route for tourists as its religious and mythological importance. Somnath means 'Lord of the moon' and is most popular among pilgrims as it is one of the 12 Jyotirlingas.",
       "Somnath, being the first of 12 Jyotirlinga, is primarily a temple town having numerous temples, shrines, monuments and museums. Due to this spiritual importance, it is one of the most visited cities of Gujarat. Apart from holy places, Somnath also offers an enchanting beach and a wonderful shopping experience with its beautiful embroidered and beadwork clothes.",
       "Taxi from Ahmedabad to Somnath is readily available at AAVORide. Other very popular cab route for tourists is Hyderabad to Srisailam."],
-    coverImage: '/somnath.jpg',
+    coverImage: 'https://gujarattourism.com/content/dam/gujrattourism/images/religious-sites/somnath-temple/somnath-temple-banner.jpg',
     sections: [
       {
         subHeading: "Ahmedabad to Somnath Cab Route",
@@ -7726,7 +7726,7 @@ export const tripData = [
       "Dwarka is believed to be the gateway to heaven and the belief is that the city was once engulfed by the sea. Its a city where mythology meets reality as archologists found an ancient underwater city. Dwarka is also home to one of the 12 Jyotirlingas, Nageshwar temple. The holiness and spirituality of Dwarka remain etched in visitor\"s memory for a long time. The spiritual importance of the city can also be known from the fact that it is the only city that is part of both Char Dham as well as Saptu Puri as mentioned in Hindu religion.",
       "Taxi from Surat to Dwarka is readily available at AAVORide."
     ],
-    coverImage: "https://www.daiwikhotels.com/wp-content/uploads/2024/07/7xm289543-1-1.jpg",
+    coverImage: "https://www.incredibleindia.gov.in/content/dam/incredible-india/images/gujarat/dwarka/city/gomti-ghat-dwarka-city-hero.jpg",
 
     sections: [
       {
@@ -7884,7 +7884,7 @@ export const tripData = [
       "Somnath, being the first of 12 Jyotirlinga, is primarily a temple town having numerous temples, shrines, monuments and museums. Due to this spiritual importance, it is one of the most visited cities of Gujarat. Apart from holy places, Somnath also offers a enchanting beach and a wonderful shopping experience with its beautiful embroidered and beadwork clothes.",
       "Taxi from Surat to Somnath is readily available at AAVORide."
     ],
-    coverImage: "/somnath.jpg",
+    coverImage: "https://gujarattourism.com/content/dam/gujrattourism/images/religious-sites/somnath-temple/somnath-temple-banner.jpg",
 
     sections: [
       {
@@ -8047,7 +8047,7 @@ export const tripData = [
       "The Palitana temples of Jainism stand on Shatrunjaya Hill, near the city of Palitana in Bhavnagar district of Gujarat, India. This city, once called Padliptapur, is known today as the “City of Temples.” Along with Shikharji in Jharkhand, these two sites are seen as the holiest pilgrimage spots for the Jain community. Palitana was built as a sacred place, and because of this, no one, including the priests, is allowed to stay there overnight. Every Jain considers a visit to these temples as a once-in-a-lifetime chance to seek nirvana, or spiritual freedom.",
       "Taxi from Surat to Palitana is readily available at AAVORide."
     ],
-    coverImage: "https://www.trawell.in/images/tours/Palitana.jpg",
+    coverImage: "/palitana1.jpeg",
 
     sections: [
       {
@@ -8806,9 +8806,8 @@ export const tripData = [
       "Pavagadh hill is situated in Panchmahal district, Gujarat. Pavagadh means “one fourth hill” or fire hill. At the base of hill is historic city of Champaner. This 50 km area surrounding hill is known as Pavagadh Champaner archaeological park which is on the list of UNESCO a world heritage sites. It is most sought after places in Gujarat. Major attraction of town is Kalika Mata temple dedicated to Mahakali. It is very sacred place for Hindus and one of Shakti peeths. Devotees have to walk few kilometers through forest or can take ropeway to reach the hill top temple. This ropeway is considered as India’s highest ropeway or udan khatola. Other attraction is Pavagdh Jain temples. This place houses several other historical structures including forts and temples.",
       "Taxi from Vadodara to Pavagadh is readily available at AAVORide. Other very popular cab route for tourists is Pune to Solapur."
     ],
-    coverImage: "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Top_of_Pavadagh_hill.JPG/1280px-Top_of_Pavadagh_hill.JPG?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-
-    sections: [
+    coverImage: "https://gujarattourism.com/content/dam/gujrattourism/images/july/Champaner-&-Pavagadh-banner.jpg",
+      sections: [
       {
         subHeading: "Vadodara to Pavagadh Cab Route",
         description: [
@@ -8948,7 +8947,8 @@ export const tripData = [
       "Anand is known for its semi-rural setup and the Swami Narayan Mandir which is the crown jewel of the city. It is quite popular due to the establishment of the AMUL manufacturing plant and the milk revolution that took place in the 20th century. It is home to the famous Amul Dairy, Vidya Dairy, Amul Chocolate Plant, Mogar and Gujarat Co-operative Milk Marketing Federation. Anand is also a major tourist hub and its attractions include AMUL dairy museum and the Chocolate Factory. The region is also an educational hub comprising of institutions like the Institute of Rural Management and Vallabh Vidhyanagar.",
       "Taxi from Vadodara to Anand is readily available at AAVORide."
     ],
-    coverImage: "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/03/15133023/Untitled-design-2022-03-15T132833.089.jpg",
+    // coverImage: "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/03/15133023/Untitled-design-2022-03-15T132833.089.jpg",
+    coverImage: "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/02/21134552/Anand.jpg",
     sections: [
       {
         subHeading: "Vadodara to Anand Cab Route",
@@ -9457,7 +9457,7 @@ export const tripData = [
       "Being a commerce and industrial hub, Surat doesn\"t lag behind in being a religious centre as well. Mythologically, it is belived that Lord Krishna rested in Surat in his travel from Dwaraka to Mathura. If you are someone, who gets excited by history and wildlife, Surat is must visit a destination because of its colonial history and its rich heritage of flora and fauna. Science complex is a very popular place in surat to visit, since it has science centre, museum, an art gallery, an auditorium, an amphitheatre and a planetarium in it.",
       "Taxi from Vadodara to Surat is readily available at AAVORide."
     ],
-    coverImage: "https://images.trvl-media.com/place/3290/6cd0bbc3-eace-4f1e-a204-37a32d3d54e5.jpg",
+    coverImage: "https://www.revv.co.in/blogs/wp-content/uploads/2020/03/best-picnic-places-in-surat-1280x720.jpg",
 
     sections: [
       {
@@ -10383,7 +10383,7 @@ export const tripData = [
       "The Palitana temples of Jainism stand on Shatrunjaya Hill, near the city of Palitana in Bhavnagar district of Gujarat, India. This city, once called Padliptapur, is known today as the “City of Temples.” Along with Shikharji in Jharkhand, these two sites are seen as the holiest pilgrimage spots for the Jain community. Palitana was built as a sacred place, and because of this, no one, including the priests, is allowed to stay there overnight. Every Jain considers a visit to these temples as a once-in-a-lifetime chance to seek nirvana, or spiritual freedom.",
       "Taxi from Vadodara to Palitana is readily available at AAVORide."
     ],
-    coverImage: "https://www.trawell.in/images/tours/Palitana.jpg",
+    coverImage: "/palitana1.jpeg",
 
     sections: [
       {
