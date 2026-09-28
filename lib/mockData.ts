@@ -8799,14 +8799,14 @@ export const tripData = [
   {
     id: 28,
     slug: "vadodara-to-champaner-pavagadh",
-    heading: "Book Vadodara to Pavagadh Cab",
+    heading: "Book Vadodara to champaner-Pavagadh Cab",
     tag: 'Pilgrimage',
     description: [
       "Pavagadh is very popular place for pilgrim tourism. Pavagadh is a hill famous for Kalika mata temple and thousands of pilgrims visit here everyday.",
       "Pavagadh hill is situated in Panchmahal district, Gujarat. Pavagadh means “one fourth hill” or fire hill. At the base of hill is historic city of Champaner. This 50 km area surrounding hill is known as Pavagadh Champaner archaeological park which is on the list of UNESCO a world heritage sites. It is most sought after places in Gujarat. Major attraction of town is Kalika Mata temple dedicated to Mahakali. It is very sacred place for Hindus and one of Shakti peeths. Devotees have to walk few kilometers through forest or can take ropeway to reach the hill top temple. This ropeway is considered as India’s highest ropeway or udan khatola. Other attraction is Pavagdh Jain temples. This place houses several other historical structures including forts and temples.",
       "Taxi from Vadodara to Pavagadh is readily available at AAVORide. Other very popular cab route for tourists is Pune to Solapur."
     ],
-    coverImage: "https://gujarattourism.com/content/dam/gujrattourism/images/july/Champaner-&-Pavagadh-banner.jpg",
+    coverImage: "https://gujarattourism.com/content/gujrattourism/en/central-zone/panchmahal/pavagadh-hill---kalika-mata-temple/_jcr_content/root/responsivegrid/detailbannercrop.coreimg.jpeg/1676636453051/pavagadhbannernew.jpeg",
       sections: [
       {
         subHeading: "Vadodara to Pavagadh Cab Route",
@@ -9457,7 +9457,8 @@ export const tripData = [
       "Being a commerce and industrial hub, Surat doesn\"t lag behind in being a religious centre as well. Mythologically, it is belived that Lord Krishna rested in Surat in his travel from Dwaraka to Mathura. If you are someone, who gets excited by history and wildlife, Surat is must visit a destination because of its colonial history and its rich heritage of flora and fauna. Science complex is a very popular place in surat to visit, since it has science centre, museum, an art gallery, an auditorium, an amphitheatre and a planetarium in it.",
       "Taxi from Vadodara to Surat is readily available at AAVORide."
     ],
-    coverImage: "https://www.revv.co.in/blogs/wp-content/uploads/2020/03/best-picnic-places-in-surat-1280x720.jpg",
+    // coverImage: "https://content3.jdmagicbox.com/v2/comp/surat/n2/0261px261.x261.220415203205.s9n2/catalogue/dariya-ganesh-temple-dumas-surat-temples-hkSU3WsAUZ.jpg",
+    coverImage: "/dumas12.jpg",
 
     sections: [
       {
