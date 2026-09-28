@@ -8948,7 +8948,7 @@ export const tripData = [
       "Taxi from Vadodara to Anand is readily available at AAVORide."
     ],
     // coverImage: "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/03/15133023/Untitled-design-2022-03-15T132833.089.jpg",
-    coverImage: "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2023/02/21134552/Anand.jpg",
+    coverImage: "https://www.baps.org/Data/Sites/1/Media/OtherImages/24991/WebImages/BAPSHimmatnagat_Dashabdi_Mahotsav_Bal_Din_02_icon.jpg",
     sections: [
       {
         subHeading: "Vadodara to Anand Cab Route",
