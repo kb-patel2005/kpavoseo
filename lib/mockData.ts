@@ -7251,7 +7251,7 @@ export const tripData = [
       "Mumbai is famous for its fast city life, rich diversity and equally attracts business visitors as well as holiday makers from all around the world. The city is crowned with various epithets like 'The City that Never Sleeps', 'The City of Dreams', 'The City of Seven Islands'. One can find everything from the bustling crowd, stardom of Indian film industry, financial markets, business centers to beautiful lakes, beaches, parks, modern and historically significant architecture, heritage walks and famous religious sites in Mumbai.",
       "Taxi from Surat to Mumbai is readily available at AAVORide."
     ],
-    coverImage: "https://content.r9cdn.net/rimg/dimg/8a/fa/7e90a0bf-city-31288-162cb435f1e.jpg?crop=true&width=1020&height=498",
+    coverImage: "/WhatsApp Image 2026-09-29 at 2.55.01 PM.jpeg",
 
     sections: [
       {
@@ -8807,7 +8807,7 @@ export const tripData = [
       "Taxi from Vadodara to Pavagadh is readily available at AAVORide. Other very popular cab route for tourists is Pune to Solapur."
     ],
     coverImage: "https://gujarattourism.com/content/gujrattourism/en/central-zone/panchmahal/pavagadh-hill---kalika-mata-temple/_jcr_content/root/responsivegrid/detailbannercrop.coreimg.jpeg/1676636453051/pavagadhbannernew.jpeg",
-      sections: [
+    sections: [
       {
         subHeading: "Vadodara to Pavagadh Cab Route",
         description: [
@@ -8948,7 +8948,7 @@ export const tripData = [
       "Taxi from Vadodara to Anand is readily available at AAVORide."
     ],
     // coverImage: "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/03/15133023/Untitled-design-2022-03-15T132833.089.jpg",
-    coverImage: "https://www.baps.org/Data/Sites/1/Media/OtherImages/24991/WebImages/BAPSHimmatnagat_Dashabdi_Mahotsav_Bal_Din_02_icon.jpg",
+    coverImage: "/WhatsApp Image 2026-09-29 at 2.45.23 PM.jpeg",
     sections: [
       {
         subHeading: "Vadodara to Anand Cab Route",
@@ -9085,7 +9085,10 @@ export const tripData = [
       "Our taxis for the journey from Vadodara to Mumbai cover the distance of 390 km within 6 to 7 hours. Drivers with well-developed expertise to negotiate through the Vadodara-Mumbai route ensure a seamless interstate journey across Gujarat and Maharashtra. AAVORide is ready with its one-way taxi services for your Mumbai trip, for business travel and round-trip packages for exploring the cities for the weekend.",
       "Start your Mumbai voyage by booking one-way taxis from Vadodara to Mumbai, which starts from as low as just ₹4,755 for a sedan with transparent booking, experienced chauffeurs who know both cities and the routes of both highways and 24x7 customer care services."
     ],
-    coverImage: "https://content.r9cdn.net/rimg/dimg/8a/fa/7e90a0bf-city-31288-162cb435f1e.jpg?crop=true&width=1020&height=498",
+    // coverImage: "https://content.r9cdn.net/rimg/dimg/8a/fa/7e90a0bf-city-31288-162cb435f1e.jpg?crop=true&width=1020&height=498",
+    // coverImage:"https://content3.jdmagicbox.com/v2/comp/mumbai/f2/022pxx22.xx22.170725180043.q1f2/catalogue/marine-drive-marine-lines-mumbai-tourist-attraction-3jjug1uerh.jpg",
+    coverImage: "/WhatsApp Image 2026-09-29 at 2.55.01 PM.jpeg",
+    
 
     sections: [
       {
@@ -9458,8 +9461,8 @@ export const tripData = [
       "Taxi from Vadodara to Surat is readily available at AAVORide."
     ],
     // coverImage: "https://content3.jdmagicbox.com/v2/comp/surat/n2/0261px261.x261.220415203205.s9n2/catalogue/dariya-ganesh-temple-dumas-surat-temples-hkSU3WsAUZ.jpg",
-    coverImage: "/dumas12.jpg",
-
+    coverImage: "/dumas-final.jpeg",
+    smallImage: "/dumas-final - Copy.jpeg",
     sections: [
       {
         subHeading: "Vadodara to Surat Cab Route",
@@ -10374,6 +10377,142 @@ export const tripData = [
     ]
   },
   //36
+  {
+    id: 36,
+    slug: "vadodara-to-somnath",
+    heading: "Book Vadodara to Somnath Cab",
+    tag: "Pilgrimage",
+    description: [
+      "Somnath is one of the most important pilgrimage destinations in Gujarat. The city is famous for the Somnath Temple, located on the western coast of Gujarat and revered as the first among the twelve Jyotirlinga shrines of Lord Shiva. :contentReference[oaicite:0]{index=0}",
+      "Somnath is also known for its beautiful coastline, ancient temples and important religious places. Popular attractions include Somnath Temple, Bhalka Tirth, Triveni Sangam, Gita Mandir, Dehotsarg Tirth and Somnath Beach. Triveni Sangam is the sacred confluence of the Hiran, Kapila and Saraswati rivers near the temple. :contentReference[oaicite:1]{index=1}",
+      "Taxi from Vadodara to Somnath is readily available at AAVORide."
+    ],
+    coverImage: "https://gujarattourism.com/content/dam/gujrattourism/images/religious-sites/somnath-temple/somnath-temple-banner.jpg",
+
+    sections: [
+      {
+        subHeading: "Vadodara to Somnath Cab Route",
+        description: [
+          "Vadodara to Somnath by car is well connected by road and offers a convenient and comfortable journey. Vadodara to Somnath distance is approximately 420 Km and the journey takes around 8 to 9 hours depending on traffic and road conditions. Book your Vadodara to Somnath car tour package. Other famous tourist places on this route and nearby are ",
+          "Ahmedabad: As one of the major cities of Gujarat, Ahmedabad offers attractions like the Sabarmati Ashram, Adalaj Stepwell, Sidi Saiyyed Mosque and Kankaria Lake.",
+          "Rajkot: Rajkot is an important city in Saurashtra and is known for attractions such as Kaba Gandhi No Delo, Watson Museum and Rotary Mid Town Dolls Museum.",
+          "Junagadh: Located near the foothills of Girnar, Junagadh is known for its historic forts, temples, caves and the Girnar pilgrimage.",
+          "Gondal: Gondal is known for its royal heritage, palaces, temples and historic architecture.",
+          "Veraval: Located close to Somnath, Veraval is a historic coastal town and provides easy access to Somnath Temple and other nearby pilgrimage attractions."
+        ]
+      },
+
+      {
+        subHeading: "Places to visit in Somnath using AAVORide Vadodara to Somnath Car Rental with driver",
+        description: "",
+        part: {
+          "Popular places in Somnath": [
+            "Somnath Temple",
+            "Bhalka Tirth",
+            "Triveni Sangam",
+            "Gita Mandir",
+            "Dehotsarg Tirth",
+            "Somnath Beach",
+            "Surya Mandir",
+            "Panch Pandav Gufa",
+            "Laxminarayan Temple",
+            "Prabhas Patan Museum",
+            "Parshuram Temple"
+          ]
+        }
+      },
+
+      {
+        subHeading: "Vadodara to Somnath Taxi Fare",
+        description: [
+          "AAVORide is committed to keep the pricing as simple and clear as possible. So, we provide one price for your Vadodara to Somnath taxi which covers a specified maximum kilometer and maximum days. So, you know upfront how much taxi is going to cost you and plan your budget well. AAVORide offer cheapest cab from Vadodara to Somnath.",
+          "The prices are dynamic and transparent and give a win-win deal for both you and our partnered taxi services providers. AAVORide provides the best price for Vadodara to Somnath cab and our prices are generally 20% lower than competition."
+        ],
+        "Vadodara to Somnath Taxi Price": {
+          comparisonTable: [
+            {
+              "Vehicle Type": "Hatchback",
+              "Model": "Wagon-R, Indica or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Sedan",
+              "Model": "Dzire, Etios or similar",
+              "Capacity": "4 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "SUV",
+              "Model": "Marazzo, Ertiga or similar",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            },
+            {
+              "Vehicle Type": "Assured Innova",
+              "Model": "Innova, Innova Crysta",
+              "Capacity": "6 seater",
+              "Per Km Rate": "-"
+            }
+          ]
+        },
+        "Vadodara to Somnath Taxi Services": [
+          "Being an Aggregator, AAVORide provides you enormous car options for your Vadodara to Somnath taxi booking. You can book a compact hatchback car or a more comfortable sedan car, a 6 seater SUV car or a high end Innova Crysta car. You can mention your specific preference, if any, while raising a taxi booking request. Our partnered taxi services providers have various cars available with them for Vadodara to Somnath taxi service. You may book Vadodara to Somnath round trip cab or one way multi-stop cab in case you plan not to return to Vadodara and drop at some other destination. All sightseeings are included in both round trip and one way multi-stop trips. You can customize your Vadodara to Somnath car package as needed. You may also book Vadodara to Somnath one way drop taxi or a local hourly rental cab in Somnath with AAVORide."
+        ]
+      },
+
+      {
+        subHeading: "Frequently Asked Questions about Vadodara to Somnath Cab Booking",
+        description: "",
+        faqs: [
+          {
+            question: "What is the distance from Vadodara to Somnath by car?",
+            answer: "The distance from Vadodara to Somnath by car is approximately 420 km."
+          },
+          {
+            question: "How long does it take from Vadodara to Somnath by road?",
+            answer: "It takes approx. 8 to 9 hours depending on traffic and road conditions."
+          },
+          {
+            question: "Does price includes Driver charges and Night charges?",
+            answer: "Yes, Vadodara to Somnath cab price includes Driver charges and Night charges."
+          },
+          {
+            question: "Do I need to make payment in advance to book Vadodara to Somnath cab?",
+            answer: "You will need to pay just 10-20% amount in advance for booking Vadodara to Somnath cab."
+          },
+          {
+            question: "Is local sightseeing included in Vadodara to Somnath outstation trip?",
+            answer: "For Vadodara to Somnath Round trip cab, all the local sightseeing in Vadodara, Somnath and other destination cities in itinerary is included. For Vadodara to Somnath One way Multi-stop cab i.e. multiple destination cities in itinerary, all the local sightseeing in Vadodara, Somnath and other destination cities in itinerary is included. For Vadodara to Somnath One way cab i.e. with only Vadodara and Somnath in itinerary, sightseeing is not included."
+          },
+          {
+            question: "How much in advance do i need to book the cab from Vadodara to Somnath?",
+            answer: "Although you can book Vadodara to Somnath cab up to 1 hour prior to departure time but we suggest to book 1 day in advance to avoid last minute rush."
+          },
+          {
+            question: "Can I book cab for Vadodara to Somnath by calling customer support?",
+            answer: "We are happy to provide you any clarifications required through customer support team but Vadodara to Somnath cab booking has to be done either through our website or through our android and iOS mobile app 'AAVORide - Outstation taxi'."
+          },
+          {
+            question: "Can we pickup additional passengers on the way in Vadodara to Somnath one way taxi?",
+            answer: "You may book Vadodara to Somnath One way multi-stop cab by adding additional stops in itinerary. For Vadodara to Somnath One way taxi with only Vadodara and Somnath in itinerary, Additional pickup or drop will incur additional charges."
+          },
+          {
+            question: "Do I need to pay both side Toll tax for Vadodara to Somnath one way cab?",
+            answer: "For Vadodara to Somnath One way cab, you need to pay one side Toll tax only."
+          },
+          {
+            question: "When will I get car and driver details after booking Vadodara to Somnath cab?",
+            answer: "In most cases, car and driver details are shared within minutes after booking Vadodara to Somnath cab. In few rare cases, it may take more time and may be shared up to two hours before departure."
+          },
+          {
+            question: "Can I travel with pets?",
+            answer: "Yes, you can. But you will be charged an additional amount. Please select 'Pet Allowed' add-on while booking Vadodara to Somnath cab."
+          }
+        ]
+      }
+    ]
+  },
   {
     id: 37,
     slug: "vadodara-to-palitana",

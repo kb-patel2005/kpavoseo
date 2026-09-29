@@ -1216,18 +1216,18 @@ export const citydata = [
                         ],
                         link: "/blog/location/vadodara-to-dwarka"
                     },
-                    {
-                        title: "Vadodara to Somnath Cab Service",
-                        description: [
-                            "Journey Distance: 375 Km",
-                            "Travel Duration: 7 hours",
-                            // "Pricing: ₹6154 (one way) & ₹9175 (round trip)",
-                            "Jyotirlinga Temple: Somnath Temple (first among 12 Jyotirlingas), Beach, stunning light and sound show about history",
-                            "Spiritual Experience: Temple destroyed and rebuilt 17 times as a symbol of resilience",
-                            "Combined Tour: Often paired with Dwarka for complete Gujarat pilgrimage"
-                        ],
-                        link: "/blog/location/vadodara-to-somnath"
-                    },
+                    // {
+                    //     title: "Vadodara to Somnath Cab Service",
+                    //     description: [
+                    //         "Journey Distance: 375 Km",
+                    //         "Travel Duration: 7 hours",
+                    //         // "Pricing: ₹6154 (one way) & ₹9175 (round trip)",
+                    //         "Jyotirlinga Temple: Somnath Temple (first among 12 Jyotirlingas), Beach, stunning light and sound show about history",
+                    //         "Spiritual Experience: Temple destroyed and rebuilt 17 times as a symbol of resilience",
+                    //         "Combined Tour: Often paired with Dwarka for complete Gujarat pilgrimage"
+                    //     ],
+                    //     link: "/blog/location/vadodara-to-somnath"
+                    // },
                     {
                         title: "Vadodara to Palitana Taxi Booking",
                         description: [
