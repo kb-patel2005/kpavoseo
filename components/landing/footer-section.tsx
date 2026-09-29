@@ -37,7 +37,7 @@ export function FooterSection() {
   return (<>
 
     <footer aria-label="Site footer" className="relative z-10 overflow-hidden border-t border-[rgba(255,62,29,0.12)] bg-[#FFF1EF] pt-10 md:pt-12">
-      
+
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-x-0 bottom-0 z-0 overflow-hidden"
@@ -88,6 +88,14 @@ export function FooterSection() {
                   key={link.label}
                   className="group inline-flex items-center gap-1.5 text-[15px] text-[#5d5754] transition-colors duration-300 hover:text-[var(--primary)]"
                   href={link.href}
+                  onClick={(e) => {
+                    if (pathname === link.href) {
+                      // Stop Next.js from reloading the same route
+                      e.preventDefault();
+                      // Scroll to top smoothly
+                      window.scrollTo({ top: 0, behavior: "smooth" });
+                    }
+                  }}
                 >
                   <span
                     className="inline-block w-0 shrink-0 overflow-hidden font-semibold text-[var(--primary)] opacity-0 transition-all duration-300 group-hover:w-[0.7rem] group-hover:opacity-100"
@@ -200,6 +208,6 @@ export function FooterSection() {
         </div>
       </SectionContainer>
     </footer>
-    </>
+  </>
   );
 }

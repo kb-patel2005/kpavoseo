@@ -88,7 +88,7 @@ export default function DetailBlog({ slug }: { slug: string }) {
 
                     {/* Gradient overlays */}
                     {/* <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent" /> */}
-                    <div className="absolute inset-0 bg-slate-950/20" />
+                    {/* <div className="absolute inset-0 bg-slate-950/20" /> */}
                 </div>
 
 

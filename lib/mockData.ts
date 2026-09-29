@@ -2532,8 +2532,8 @@ export const tripData = [
       "Ahmedabad to Ambaji is very popular route for tourists and pilgrims. Ambaji is the principal shrine of Goddess Amba who has been worshiped since the pre-Vedic period and is visited by millions of devotees every year.",
       "Surrounded by the Araveli Hill range, Ambaji is a beautiful town with numerous temples. The holy temple of \"Arasurii Ambaji\" is one of the 51 Shakti Peethas. In the temple there is no image or statue of Goddess. The holy \"Shree Visa Yantra\" is worshiped as the main deity. While visiting temple, be sure to look across the temple at the other temple on the top of Gabbar hill which is considered as the original adobe of the Goddess. Navratri festival in Ambaji is the most mesmerising experience and is celebrated by dancing Garba around the holy Mother."
     ],
-    coverImage: "/ambaji4.jpg",
-    smallImage: "https://images.pexels.com/photos/24771796/pexels-photo-24771796.jpeg",
+    coverImage: "/WhatsApp Image 2026-09-29 at 4.16.24 PM.jpeg",
+    smallImage: "/WhatsApp Image 2026-09-29 at 4.13.17 PM - Copy.jpeg",
     sections: [
       {
         subHeading: "Ahmedabad to Ambaji Cab Route",
@@ -7251,7 +7251,8 @@ export const tripData = [
       "Mumbai is famous for its fast city life, rich diversity and equally attracts business visitors as well as holiday makers from all around the world. The city is crowned with various epithets like 'The City that Never Sleeps', 'The City of Dreams', 'The City of Seven Islands'. One can find everything from the bustling crowd, stardom of Indian film industry, financial markets, business centers to beautiful lakes, beaches, parks, modern and historically significant architecture, heritage walks and famous religious sites in Mumbai.",
       "Taxi from Surat to Mumbai is readily available at AAVORide."
     ],
-    coverImage: "/WhatsApp Image 2026-09-29 at 2.55.01 PM.jpeg",
+    coverImage: "/mumbai-final-image.jpeg",
+    smallImage: "https://static-blog.treebo.com/wp-content/uploads/2024/04/Cityline-1024x675.jpg",
 
     sections: [
       {
@@ -8806,7 +8807,8 @@ export const tripData = [
       "Pavagadh hill is situated in Panchmahal district, Gujarat. Pavagadh means “one fourth hill” or fire hill. At the base of hill is historic city of Champaner. This 50 km area surrounding hill is known as Pavagadh Champaner archaeological park which is on the list of UNESCO a world heritage sites. It is most sought after places in Gujarat. Major attraction of town is Kalika Mata temple dedicated to Mahakali. It is very sacred place for Hindus and one of Shakti peeths. Devotees have to walk few kilometers through forest or can take ropeway to reach the hill top temple. This ropeway is considered as India’s highest ropeway or udan khatola. Other attraction is Pavagdh Jain temples. This place houses several other historical structures including forts and temples.",
       "Taxi from Vadodara to Pavagadh is readily available at AAVORide. Other very popular cab route for tourists is Pune to Solapur."
     ],
-    coverImage: "https://gujarattourism.com/content/gujrattourism/en/central-zone/panchmahal/pavagadh-hill---kalika-mata-temple/_jcr_content/root/responsivegrid/detailbannercrop.coreimg.jpeg/1676636453051/pavagadhbannernew.jpeg",
+    coverImage: "/vadodara-to-champaner-pavagadh.jpeg",
+    smallImage: "https://gujarattourism.com/content/dam/gujrattourism/images/pavagadh-kalika-mata-temple/pavagadhtempletopview.jpg",
     sections: [
       {
         subHeading: "Vadodara to Pavagadh Cab Route",
@@ -8948,7 +8950,8 @@ export const tripData = [
       "Taxi from Vadodara to Anand is readily available at AAVORide."
     ],
     // coverImage: "https://images.travelandleisureasia.com/wp-content/uploads/sites/2/2022/03/15133023/Untitled-design-2022-03-15T132833.089.jpg",
-    coverImage: "/WhatsApp Image 2026-09-29 at 2.45.23 PM.jpeg",
+    coverImage: "/vadodara-to-ananand.jpeg",
+    smallImage:"/vadodara-to-ananand - Copy.jpeg",
     sections: [
       {
         subHeading: "Vadodara to Anand Cab Route",
@@ -9087,8 +9090,9 @@ export const tripData = [
     ],
     // coverImage: "https://content.r9cdn.net/rimg/dimg/8a/fa/7e90a0bf-city-31288-162cb435f1e.jpg?crop=true&width=1020&height=498",
     // coverImage:"https://content3.jdmagicbox.com/v2/comp/mumbai/f2/022pxx22.xx22.170725180043.q1f2/catalogue/marine-drive-marine-lines-mumbai-tourist-attraction-3jjug1uerh.jpg",
-    coverImage: "/WhatsApp Image 2026-09-29 at 2.55.01 PM.jpeg",
-    
+    coverImage: "/mumbai-final-image.jpeg",
+    smallImage: "https://static-blog.treebo.com/wp-content/uploads/2024/04/Cityline-1024x675.jpg",
+
 
     sections: [
       {
